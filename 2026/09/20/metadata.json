@@ -1,0 +1,19 @@
+{
+  "business_date": "2026-09-20",
+  "files": [
+    "README.md",
+    "threat-intel.md",
+    "iocs.csv",
+    "iocs.json",
+    "mde-hunt.kql",
+    "elastic-hunt.esql",
+    "sources.md",
+    "metadata.json"
+  ],
+  "ioc_count": 698,
+  "mde_schema_version": "2026-09-19",
+  "report_count": 27,
+  "repository": "CYBERMED1C/Daily-Threat-Intel",
+  "run_started_at": "2026-09-20T13:00:00.081404Z",
+  "run_status": "completed"
+}
