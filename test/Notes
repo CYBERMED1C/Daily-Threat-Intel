@@ -11,3 +11,4 @@ Changing code from 90 day hunt to 30 day hunt
 Automating publication check alls before publications
 
 feed aggrigation is too aggressive. failure to post was found. reconfiguring as needed. 
+Excessive memory consumption is noted in MDE with queries
