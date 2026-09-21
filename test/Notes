@@ -12,3 +12,5 @@ Automating publication check alls before publications
 
 feed aggrigation is too aggressive. failure to post was found. reconfiguring as needed. 
 Excessive memory consumption is noted in MDE with queries
+
+Will most likley switch from querie making to simply IOC collection to lower compute resources
