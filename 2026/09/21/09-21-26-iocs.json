@@ -1,0 +1,4202 @@
+[
+  {
+    "ioc": "b6bc9e1d0b2fb96ab7c47e04cb0be477410bc1f2",
+    "ioc_type": "sha1",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 84,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "caf2c54e400437da717cf215181b170f65187abf",
+    "ioc_type": "sha1",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 84,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "135.181.127.216",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "151.240.151.8",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "151.243.113.21",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "193.41.68.196",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "2.27.5.165",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "31.76.31.28",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "31.77.228.46",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "65.21.18.60",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "65.21.208.199",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "85.239.144.195",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "85.239.149.13",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "85.239.149.14",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "85.239.149.167",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "87.58.199.76",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "89.34.90.150",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "89.34.90.159",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "89.34.90.217",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "91.92.33.156",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "91.92.33.213",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "91.92.43.245",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "93.152.223.161",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "93.152.224.139",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "94.26.83.206",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "94.26.90.126",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "94.26.90.65",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 82,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "airduct1.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "amalqasehselangor.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "analysis-id-lfg.info",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "annamaclean.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "arushigupta.life",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "ascendpopdownloadtoday.monster",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "asiana-online.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "betesebplus.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "bluemountainloan.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "boardgamepix.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "boundpopclickgetfile.monster",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "breadcabin.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "canflymarketing.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "chatgpt-web.vip",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "clickzona.net",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "cloudflare-check.net",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "connorkimble.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "daleeby.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "di-il.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "dutyfrees.digital",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "familyonlinestore.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "flarclod.top",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "gardelectricalcontracting.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "golfcoursetravel.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "golftucsonarizona.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "hanbayjewellery.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "hestiamortgages.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "id-ll.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "ilaumachque.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "interactivsbroker.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "islamjamal.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "josephtoone.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "jouncepopdownloadnow.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "jumppopdownloadsecret.monster",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "kawaiininjaclub.cfd",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "lastdayornot.top",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "launchingramps.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "leosafari.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "lewdstories.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "lionheadsl.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "locoaudio.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "lyxorgbs.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "maidsradar.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "medfinadvisory.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "nanakshahicoin.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "onlineprivacyprotect.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "photobyroyan.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "pigeononpinguin.top",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "ploutouscapitalus.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "plumber-charlotte.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "premiumfastloans.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "primemarkets360.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "recaptcha-check.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "redwing-max.biz",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "safetybygrace.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "sanremomodauomo.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "scribblebubblebibi.top",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "searlepub.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "sisaradistributors.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "socialseoguru.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "solidfuelsupplier.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "starbreezehvac.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "straighteightlogistics.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "sunnypaydayloan.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "suveniricrnagora.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "tamilarnews.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "thistle-productions.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "tycoonsrow.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "urlquery.net",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "us-addnewdevice.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "ustgate.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "verification-js-cdn.boats",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  },
+  {
+    "ioc": "virgensantisima.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+    "malware_family": null,
+    "threat_actor": null,
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework"
+    ],
+    "article_published_date": [
+      "2026-09-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-21T13:00:00.180532Z",
+    "confidence": 74,
+    "acceptance_score": 81,
+    "status": "PREVIOUSLY_PUBLISHED",
+    "notes": "",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Exvicy: A Copycat of the ErrTraffic Malware Distribution Framework",
+        "url": "https://www.sekoia.com/blog/exvicy-a-copycat-of-the-errtraffic-malware-distribution-framework",
+        "published_at": "2026-09-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "sekoia-io",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "conditional-publication-index",
+        "collection_start": "2026-09-20T13:00:00.081404Z",
+        "discovery_context": []
+      }
+    ]
+  }
+]
