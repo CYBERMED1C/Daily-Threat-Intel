@@ -1,161 +1,84 @@
-/* CYBERMEDIC ELASTIC ES|QL THREAT HUNTING */
-/* Run one named query block at a time. No external lookup is required. */
+/* CYBERMEDIC ELASTIC ES|QL THREAT HUNTING - LIGHTWEIGHT */
+/* Run one named query block at a time. Each block uses one data stream. */
+/* Default lookback: 30 days; result limit: 500. */
 /* Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint */
-/* ===== BEGIN CYBERMEDIC Elastic domain destination.domain batch 001 ===== */
-/* Business date: 2026-09-24; lookback: 30 days; run this block separately. */
+/* ===== BEGIN QUERY 001: domain in destination.domain ===== */
+/* Business date: 2026-09-24; run this query block by itself. */
+/* Source: F5 Labs - https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026 */
 FROM logs-endpoint.events.network-* METADATA _index
 | WHERE @timestamp >= NOW() - 30 days
-| WHERE destination.domain IN ("cdn.sendibt1.com", "cdn10.sendibt1.com", "cdn11.sendibt1.com", "cdn2.sendibt1.com", "cdn3.sendibt1.com", "cdn4.sendibt1.com", "cdn9.sendibt1.com", "corralos.beer", "docusign.web-viewww.es", "glegchner.com")
-| EVAL MatchedValue = TO_STRING(destination.domain)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedValue, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOC = CASE(MatchedValue == "cdn.sendibt1.com", "cdn.sendibt1.com", MatchedValue == "cdn10.sendibt1.com", "cdn10.sendibt1.com", MatchedValue == "cdn11.sendibt1.com", "cdn11.sendibt1.com", MatchedValue == "cdn2.sendibt1.com", "cdn2.sendibt1.com", MatchedValue == "cdn3.sendibt1.com", "cdn3.sendibt1.com", MatchedValue == "cdn4.sendibt1.com", "cdn4.sendibt1.com", MatchedValue == "cdn9.sendibt1.com", "cdn9.sendibt1.com", MatchedValue == "corralos.beer", "corralos.beer", MatchedValue == "docusign.web-viewww.es", "docusign.web-viewww.es", MatchedValue == "glegchner.com", "glegchner.com", "")
-| EVAL IOCType = "domain", MatchedField = "destination.domain"
-| EVAL ThreatName = CASE(MatchedValue == "cdn.sendibt1.com", "Brevo supply-chain ClickFix compromise", MatchedValue == "cdn10.sendibt1.com", "Brevo supply-chain ClickFix compromise", MatchedValue == "cdn11.sendibt1.com", "Brevo supply-chain ClickFix compromise", MatchedValue == "cdn2.sendibt1.com", "Brevo supply-chain ClickFix compromise", MatchedValue == "cdn3.sendibt1.com", "Brevo supply-chain ClickFix compromise", MatchedValue == "cdn4.sendibt1.com", "Brevo supply-chain ClickFix compromise", MatchedValue == "cdn9.sendibt1.com", "Brevo supply-chain ClickFix compromise", MatchedValue == "corralos.beer", "Brevo supply-chain ClickFix compromise", MatchedValue == "docusign.web-viewww.es", "CSuite device-code phishing campaign", MatchedValue == "glegchner.com", "Brevo supply-chain ClickFix compromise", "")
-| EVAL ThreatActor = CASE(MatchedValue == "cdn.sendibt1.com", "", MatchedValue == "cdn10.sendibt1.com", "", MatchedValue == "cdn11.sendibt1.com", "", MatchedValue == "cdn2.sendibt1.com", "", MatchedValue == "cdn3.sendibt1.com", "", MatchedValue == "cdn4.sendibt1.com", "", MatchedValue == "cdn9.sendibt1.com", "", MatchedValue == "corralos.beer", "", MatchedValue == "docusign.web-viewww.es", "CSuite", MatchedValue == "glegchner.com", "", "")
-| EVAL Confidence = CASE(MatchedValue == "cdn.sendibt1.com", "95", MatchedValue == "cdn10.sendibt1.com", "97", MatchedValue == "cdn11.sendibt1.com", "95", MatchedValue == "cdn2.sendibt1.com", "95", MatchedValue == "cdn3.sendibt1.com", "95", MatchedValue == "cdn4.sendibt1.com", "95", MatchedValue == "cdn9.sendibt1.com", "95", MatchedValue == "corralos.beer", "97", MatchedValue == "docusign.web-viewww.es", "92", MatchedValue == "glegchner.com", "97", "")::INTEGER
-| EVAL IntelSource = CASE(MatchedValue == "cdn.sendibt1.com", "F5 Labs", MatchedValue == "cdn10.sendibt1.com", "F5 Labs", MatchedValue == "cdn11.sendibt1.com", "F5 Labs", MatchedValue == "cdn2.sendibt1.com", "F5 Labs", MatchedValue == "cdn3.sendibt1.com", "F5 Labs", MatchedValue == "cdn4.sendibt1.com", "F5 Labs", MatchedValue == "cdn9.sendibt1.com", "F5 Labs", MatchedValue == "corralos.beer", "F5 Labs", MatchedValue == "docusign.web-viewww.es", "Gurucul Threat Research", MatchedValue == "glegchner.com", "F5 Labs", "")
-| EVAL SourceURL = CASE(MatchedValue == "cdn.sendibt1.com", "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026", MatchedValue == "cdn10.sendibt1.com", "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026", MatchedValue == "cdn11.sendibt1.com", "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026", MatchedValue == "cdn2.sendibt1.com", "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026", MatchedValue == "cdn3.sendibt1.com", "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026", MatchedValue == "cdn4.sendibt1.com", "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026", MatchedValue == "cdn9.sendibt1.com", "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026", MatchedValue == "corralos.beer", "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026", MatchedValue == "docusign.web-viewww.es", "https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026", MatchedValue == "glegchner.com", "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026", "")
-| KEEP IOC, IOCType, MatchedValue, MatchedField, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, ThreatName, ThreatActor, Confidence, IntelSource, SourceURL
-| SORT LastSeen DESC
-| LIMIT 1000
-/* ===== END CYBERMEDIC Elastic domain destination.domain batch 001 ===== */
-/* ===== BEGIN CYBERMEDIC Elastic domain dns.question.name batch 002 ===== */
-/* Business date: 2026-09-24; lookback: 30 days; run this block separately. */
+| WHERE destination.domain IN ("cdn.sendibt1.com", "cdn10.sendibt1.com", "cdn11.sendibt1.com", "cdn2.sendibt1.com", "cdn3.sendibt1.com", "cdn4.sendibt1.com", "cdn9.sendibt1.com", "corralos.beer", "glegchner.com")
+| EVAL IOC = TO_STRING(destination.domain), IOCType = "domain", MatchedField = "destination.domain", ElasticHitSource = _index
+| EVAL IntelSource = "F5 Labs", SourceURL = "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026"
+| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 001 ===== */
+/* ===== BEGIN QUERY 002: domain in dns.question.name ===== */
+/* Business date: 2026-09-24; run this query block by itself. */
+/* Source: F5 Labs - https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026 */
 FROM logs-endpoint.events.network-* METADATA _index
 | WHERE @timestamp >= NOW() - 30 days
-| WHERE dns.question.name IN ("cdn.sendibt1.com", "cdn10.sendibt1.com", "cdn11.sendibt1.com", "cdn2.sendibt1.com", "cdn3.sendibt1.com", "cdn4.sendibt1.com", "cdn9.sendibt1.com", "corralos.beer", "docusign.web-viewww.es", "glegchner.com")
-| EVAL MatchedValue = TO_STRING(dns.question.name)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedValue, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOC = CASE(MatchedValue == "cdn.sendibt1.com", "cdn.sendibt1.com", MatchedValue == "cdn10.sendibt1.com", "cdn10.sendibt1.com", MatchedValue == "cdn11.sendibt1.com", "cdn11.sendibt1.com", MatchedValue == "cdn2.sendibt1.com", "cdn2.sendibt1.com", MatchedValue == "cdn3.sendibt1.com", "cdn3.sendibt1.com", MatchedValue == "cdn4.sendibt1.com", "cdn4.sendibt1.com", MatchedValue == "cdn9.sendibt1.com", "cdn9.sendibt1.com", MatchedValue == "corralos.beer", "corralos.beer", MatchedValue == "docusign.web-viewww.es", "docusign.web-viewww.es", MatchedValue == "glegchner.com", "glegchner.com", "")
-| EVAL IOCType = "domain", MatchedField = "dns.question.name"
-| EVAL ThreatName = CASE(MatchedValue == "cdn.sendibt1.com", "Brevo supply-chain ClickFix compromise", MatchedValue == "cdn10.sendibt1.com", "Brevo supply-chain ClickFix compromise", MatchedValue == "cdn11.sendibt1.com", "Brevo supply-chain ClickFix compromise", MatchedValue == "cdn2.sendibt1.com", "Brevo supply-chain ClickFix compromise", MatchedValue == "cdn3.sendibt1.com", "Brevo supply-chain ClickFix compromise", MatchedValue == "cdn4.sendibt1.com", "Brevo supply-chain ClickFix compromise", MatchedValue == "cdn9.sendibt1.com", "Brevo supply-chain ClickFix compromise", MatchedValue == "corralos.beer", "Brevo supply-chain ClickFix compromise", MatchedValue == "docusign.web-viewww.es", "CSuite device-code phishing campaign", MatchedValue == "glegchner.com", "Brevo supply-chain ClickFix compromise", "")
-| EVAL ThreatActor = CASE(MatchedValue == "cdn.sendibt1.com", "", MatchedValue == "cdn10.sendibt1.com", "", MatchedValue == "cdn11.sendibt1.com", "", MatchedValue == "cdn2.sendibt1.com", "", MatchedValue == "cdn3.sendibt1.com", "", MatchedValue == "cdn4.sendibt1.com", "", MatchedValue == "cdn9.sendibt1.com", "", MatchedValue == "corralos.beer", "", MatchedValue == "docusign.web-viewww.es", "CSuite", MatchedValue == "glegchner.com", "", "")
-| EVAL Confidence = CASE(MatchedValue == "cdn.sendibt1.com", "95", MatchedValue == "cdn10.sendibt1.com", "97", MatchedValue == "cdn11.sendibt1.com", "95", MatchedValue == "cdn2.sendibt1.com", "95", MatchedValue == "cdn3.sendibt1.com", "95", MatchedValue == "cdn4.sendibt1.com", "95", MatchedValue == "cdn9.sendibt1.com", "95", MatchedValue == "corralos.beer", "97", MatchedValue == "docusign.web-viewww.es", "92", MatchedValue == "glegchner.com", "97", "")::INTEGER
-| EVAL IntelSource = CASE(MatchedValue == "cdn.sendibt1.com", "F5 Labs", MatchedValue == "cdn10.sendibt1.com", "F5 Labs", MatchedValue == "cdn11.sendibt1.com", "F5 Labs", MatchedValue == "cdn2.sendibt1.com", "F5 Labs", MatchedValue == "cdn3.sendibt1.com", "F5 Labs", MatchedValue == "cdn4.sendibt1.com", "F5 Labs", MatchedValue == "cdn9.sendibt1.com", "F5 Labs", MatchedValue == "corralos.beer", "F5 Labs", MatchedValue == "docusign.web-viewww.es", "Gurucul Threat Research", MatchedValue == "glegchner.com", "F5 Labs", "")
-| EVAL SourceURL = CASE(MatchedValue == "cdn.sendibt1.com", "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026", MatchedValue == "cdn10.sendibt1.com", "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026", MatchedValue == "cdn11.sendibt1.com", "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026", MatchedValue == "cdn2.sendibt1.com", "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026", MatchedValue == "cdn3.sendibt1.com", "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026", MatchedValue == "cdn4.sendibt1.com", "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026", MatchedValue == "cdn9.sendibt1.com", "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026", MatchedValue == "corralos.beer", "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026", MatchedValue == "docusign.web-viewww.es", "https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026", MatchedValue == "glegchner.com", "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026", "")
-| KEEP IOC, IOCType, MatchedValue, MatchedField, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, ThreatName, ThreatActor, Confidence, IntelSource, SourceURL
-| SORT LastSeen DESC
-| LIMIT 1000
-/* ===== END CYBERMEDIC Elastic domain dns.question.name batch 002 ===== */
-/* ===== BEGIN CYBERMEDIC Elastic url destination.ip host-pivot 003 ===== */
-/* Business date: 2026-09-24; lookback: 30 days; run this block separately. */
-/* URL note: Elastic Defend network telemetry is hunted by the URL host; confirm the full path in available proxy or web telemetry. */
+| WHERE dns.question.name IN ("cdn.sendibt1.com", "cdn10.sendibt1.com", "cdn11.sendibt1.com", "cdn2.sendibt1.com", "cdn3.sendibt1.com", "cdn4.sendibt1.com", "cdn9.sendibt1.com", "corralos.beer", "glegchner.com")
+| EVAL IOC = TO_STRING(dns.question.name), IOCType = "domain", MatchedField = "dns.question.name", ElasticHitSource = _index
+| EVAL IntelSource = "F5 Labs", SourceURL = "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026"
+| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 002 ===== */
+/* ===== BEGIN QUERY 003: domain in destination.domain ===== */
+/* Business date: 2026-09-24; run this query block by itself. */
+/* Source: Gurucul Threat Research - https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026 */
 FROM logs-endpoint.events.network-* METADATA _index
 | WHERE @timestamp >= NOW() - 30 days
-| WHERE destination.ip IN ("45.150.33.128")
-| EVAL MatchedValue = TO_STRING(destination.ip)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedValue, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOC = CASE(MatchedValue == "45.150.33.128", "http://45.150.33.128/92961f75b259df2?force=1", "")
-| EVAL IOCType = "url", MatchedField = "destination.ip"
-| EVAL ThreatName = CASE(MatchedValue == "45.150.33.128", "Macfinger ClickFix campaign", "")
-| EVAL ThreatActor = CASE(MatchedValue == "45.150.33.128", "", "")
-| EVAL Confidence = CASE(MatchedValue == "45.150.33.128", "99", "")::INTEGER
-| EVAL IntelSource = CASE(MatchedValue == "45.150.33.128", "SANS Internet Storm Center", "")
-| EVAL SourceURL = CASE(MatchedValue == "45.150.33.128", "https://isc.sans.edu/diary.html?storyid=33360", "")
-| KEEP IOC, IOCType, MatchedValue, MatchedField, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, ThreatName, ThreatActor, Confidence, IntelSource, SourceURL
-| SORT LastSeen DESC
-| LIMIT 1000
-/* ===== END CYBERMEDIC Elastic url destination.ip host-pivot 003 ===== */
-/* ===== BEGIN CYBERMEDIC Elastic url destination.ip host-pivot 004 ===== */
-/* Business date: 2026-09-24; lookback: 30 days; run this block separately. */
-/* URL note: Elastic Defend network telemetry is hunted by the URL host; confirm the full path in available proxy or web telemetry. */
+| WHERE destination.domain IN ("docusign.web-viewww.es")
+| EVAL IOC = TO_STRING(destination.domain), IOCType = "domain", MatchedField = "destination.domain", ElasticHitSource = _index
+| EVAL IntelSource = "Gurucul Threat Research", SourceURL = "https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 003 ===== */
+/* ===== BEGIN QUERY 004: domain in dns.question.name ===== */
+/* Business date: 2026-09-24; run this query block by itself. */
+/* Source: Gurucul Threat Research - https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026 */
+FROM logs-endpoint.events.network-* METADATA _index
+| WHERE @timestamp >= NOW() - 30 days
+| WHERE dns.question.name IN ("docusign.web-viewww.es")
+| EVAL IOC = TO_STRING(dns.question.name), IOCType = "domain", MatchedField = "dns.question.name", ElasticHitSource = _index
+| EVAL IntelSource = "Gurucul Threat Research", SourceURL = "https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 004 ===== */
+/* ===== BEGIN QUERY 005: url in destination.ip ===== */
+/* Business date: 2026-09-24; run this query block by itself. */
+/* Source: SANS Internet Storm Center - https://isc.sans.edu/diary.html?storyid=33360 */
+/* URL host pivot: confirm the full path in available proxy or web telemetry. */
 FROM logs-endpoint.events.network-* METADATA _index
 | WHERE @timestamp >= NOW() - 30 days
 | WHERE destination.ip IN ("45.150.33.128")
-| EVAL MatchedValue = TO_STRING(destination.ip)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedValue, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOC = CASE(MatchedValue == "45.150.33.128", "http://45.150.33.128/d4c8083a7d97?force=1", "")
-| EVAL IOCType = "url", MatchedField = "destination.ip"
-| EVAL ThreatName = CASE(MatchedValue == "45.150.33.128", "Macfinger ClickFix campaign", "")
-| EVAL ThreatActor = CASE(MatchedValue == "45.150.33.128", "", "")
-| EVAL Confidence = CASE(MatchedValue == "45.150.33.128", "99", "")::INTEGER
-| EVAL IntelSource = CASE(MatchedValue == "45.150.33.128", "SANS Internet Storm Center", "")
-| EVAL SourceURL = CASE(MatchedValue == "45.150.33.128", "https://isc.sans.edu/diary.html?storyid=33360", "")
-| KEEP IOC, IOCType, MatchedValue, MatchedField, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, ThreatName, ThreatActor, Confidence, IntelSource, SourceURL
-| SORT LastSeen DESC
-| LIMIT 1000
-/* ===== END CYBERMEDIC Elastic url destination.ip host-pivot 004 ===== */
-/* ===== BEGIN CYBERMEDIC Elastic url destination.domain host-pivot 005 ===== */
-/* Business date: 2026-09-24; lookback: 30 days; run this block separately. */
-/* URL note: Elastic Defend network telemetry is hunted by the URL host; confirm the full path in available proxy or web telemetry. */
+| EVAL IOC = "http://45.150.33.128/92961f75b259df2?force=1; http://45.150.33.128/d4c8083a7d97?force=1", IOCType = "url", MatchedField = "destination.ip", ElasticHitSource = _index
+| EVAL IntelSource = "SANS Internet Storm Center", SourceURL = "https://isc.sans.edu/diary.html?storyid=33360"
+| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 005 ===== */
+/* ===== BEGIN QUERY 006: url in destination.domain ===== */
+/* Business date: 2026-09-24; run this query block by itself. */
+/* Source: Gurucul Threat Research - https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026 */
+/* URL host pivot: confirm the full path in available proxy or web telemetry. */
 FROM logs-endpoint.events.network-* METADATA _index
 | WHERE @timestamp >= NOW() - 30 days
 | WHERE destination.domain IN ("localcontex.online")
-| EVAL MatchedValue = TO_STRING(destination.domain)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedValue, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOC = CASE(MatchedValue == "localcontex.online", "https://localcontex.online/AdobecloudReader/pdf_Reader_en_install.msi", "")
-| EVAL IOCType = "url", MatchedField = "destination.domain"
-| EVAL ThreatName = CASE(MatchedValue == "localcontex.online", "CSuite device-code phishing campaign", "")
-| EVAL ThreatActor = CASE(MatchedValue == "localcontex.online", "CSuite", "")
-| EVAL Confidence = CASE(MatchedValue == "localcontex.online", "96", "")::INTEGER
-| EVAL IntelSource = CASE(MatchedValue == "localcontex.online", "Gurucul Threat Research", "")
-| EVAL SourceURL = CASE(MatchedValue == "localcontex.online", "https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026", "")
-| KEEP IOC, IOCType, MatchedValue, MatchedField, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, ThreatName, ThreatActor, Confidence, IntelSource, SourceURL
-| SORT LastSeen DESC
-| LIMIT 1000
-/* ===== END CYBERMEDIC Elastic url destination.domain host-pivot 005 ===== */
-/* ===== BEGIN CYBERMEDIC Elastic url destination.domain host-pivot 006 ===== */
-/* Business date: 2026-09-24; lookback: 30 days; run this block separately. */
-/* URL note: Elastic Defend network telemetry is hunted by the URL host; confirm the full path in available proxy or web telemetry. */
-FROM logs-endpoint.events.network-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE destination.domain IN ("localcontex.online")
-| EVAL MatchedValue = TO_STRING(destination.domain)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedValue, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOC = CASE(MatchedValue == "localcontex.online", "https://localcontex.online/review.signal-doc.cloud/.DocuSign/", "")
-| EVAL IOCType = "url", MatchedField = "destination.domain"
-| EVAL ThreatName = CASE(MatchedValue == "localcontex.online", "CSuite device-code phishing campaign", "")
-| EVAL ThreatActor = CASE(MatchedValue == "localcontex.online", "CSuite", "")
-| EVAL Confidence = CASE(MatchedValue == "localcontex.online", "96", "")::INTEGER
-| EVAL IntelSource = CASE(MatchedValue == "localcontex.online", "Gurucul Threat Research", "")
-| EVAL SourceURL = CASE(MatchedValue == "localcontex.online", "https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026", "")
-| KEEP IOC, IOCType, MatchedValue, MatchedField, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, ThreatName, ThreatActor, Confidence, IntelSource, SourceURL
-| SORT LastSeen DESC
-| LIMIT 1000
-/* ===== END CYBERMEDIC Elastic url destination.domain host-pivot 006 ===== */
-/* ===== BEGIN CYBERMEDIC Elastic url destination.domain host-pivot 007 ===== */
-/* Business date: 2026-09-24; lookback: 30 days; run this block separately. */
-/* URL note: Elastic Defend network telemetry is hunted by the URL host; confirm the full path in available proxy or web telemetry. */
+| EVAL IOC = "https://localcontex.online/AdobecloudReader/pdf_Reader_en_install.msi; https://localcontex.online/review.signal-doc.cloud/.DocuSign/", IOCType = "url", MatchedField = "destination.domain", ElasticHitSource = _index
+| EVAL IntelSource = "Gurucul Threat Research", SourceURL = "https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 006 ===== */
+/* ===== BEGIN QUERY 007: url in destination.domain ===== */
+/* Business date: 2026-09-24; run this query block by itself. */
+/* Source: SANS Internet Storm Center - https://isc.sans.edu/diary.html?storyid=33360 */
+/* URL host pivot: confirm the full path in available proxy or web telemetry. */
 FROM logs-endpoint.events.network-* METADATA _index
 | WHERE @timestamp >= NOW() - 30 days
 | WHERE destination.domain IN ("velvet-otter-glagceis.life")
-| EVAL MatchedValue = TO_STRING(destination.domain)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedValue, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOC = CASE(MatchedValue == "velvet-otter-glagceis.life", "https://velvet-otter-glagceis.life/ext-b.4f9db6afd06a.js", "")
-| EVAL IOCType = "url", MatchedField = "destination.domain"
-| EVAL ThreatName = CASE(MatchedValue == "velvet-otter-glagceis.life", "Macfinger ClickFix campaign", "")
-| EVAL ThreatActor = CASE(MatchedValue == "velvet-otter-glagceis.life", "", "")
-| EVAL Confidence = CASE(MatchedValue == "velvet-otter-glagceis.life", "98", "")::INTEGER
-| EVAL IntelSource = CASE(MatchedValue == "velvet-otter-glagceis.life", "SANS Internet Storm Center", "")
-| EVAL SourceURL = CASE(MatchedValue == "velvet-otter-glagceis.life", "https://isc.sans.edu/diary.html?storyid=33360", "")
-| KEEP IOC, IOCType, MatchedValue, MatchedField, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, ThreatName, ThreatActor, Confidence, IntelSource, SourceURL
-| SORT LastSeen DESC
-| LIMIT 1000
-/* ===== END CYBERMEDIC Elastic url destination.domain host-pivot 007 ===== */
-/* ===== BEGIN CYBERMEDIC Elastic url destination.domain host-pivot 008 ===== */
-/* Business date: 2026-09-24; lookback: 30 days; run this block separately. */
-/* URL note: Elastic Defend network telemetry is hunted by the URL host; confirm the full path in available proxy or web telemetry. */
-FROM logs-endpoint.events.network-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE destination.domain IN ("velvet-otter-glagceis.life")
-| EVAL MatchedValue = TO_STRING(destination.domain)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedValue, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOC = CASE(MatchedValue == "velvet-otter-glagceis.life", "https://velvet-otter-glagceis.life/t.4b1009ff6c3f.js", "")
-| EVAL IOCType = "url", MatchedField = "destination.domain"
-| EVAL ThreatName = CASE(MatchedValue == "velvet-otter-glagceis.life", "Macfinger ClickFix campaign", "")
-| EVAL ThreatActor = CASE(MatchedValue == "velvet-otter-glagceis.life", "", "")
-| EVAL Confidence = CASE(MatchedValue == "velvet-otter-glagceis.life", "98", "")::INTEGER
-| EVAL IntelSource = CASE(MatchedValue == "velvet-otter-glagceis.life", "SANS Internet Storm Center", "")
-| EVAL SourceURL = CASE(MatchedValue == "velvet-otter-glagceis.life", "https://isc.sans.edu/diary.html?storyid=33360", "")
-| KEEP IOC, IOCType, MatchedValue, MatchedField, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, ThreatName, ThreatActor, Confidence, IntelSource, SourceURL
-| SORT LastSeen DESC
-| LIMIT 1000
-/* ===== END CYBERMEDIC Elastic url destination.domain host-pivot 008 ===== */
+| EVAL IOC = "https://velvet-otter-glagceis.life/ext-b.4f9db6afd06a.js; https://velvet-otter-glagceis.life/t.4b1009ff6c3f.js", IOCType = "url", MatchedField = "destination.domain", ElasticHitSource = _index
+| EVAL IntelSource = "SANS Internet Storm Center", SourceURL = "https://isc.sans.edu/diary.html?storyid=33360"
+| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 007 ===== */

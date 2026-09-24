@@ -1,26 +1,44 @@
-// CYBERMEDIC MDE ADVANCED HUNTING
-// Query name: CYBERMEDIC Daily IOC Hunt
-// Description: Exact IOC matches with CTI provenance and telemetry source.
-// Author: CYBERMEDIC
-// Business date: 2026-09-24
-// Lookback: 30 days
+// CYBERMEDIC MDE ADVANCED HUNTING - LIGHTWEIGHT
+// Run one named query block at a time. Each block uses early exact filters.
+// Default lookback: 30 days; result limit: 500.
 // Schema reference: https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-schema-tables
-let IOCs = datatable(IOC:string,IOCType:string,ThreatName:string,ThreatActor:string,IntelSource:string,SourceURL:string,Confidence:int,Status:string)["cdn.sendibt1.com","domain","Brevo supply-chain ClickFix compromise","","F5 Labs","https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",95,"NEW","cdn10.sendibt1.com","domain","Brevo supply-chain ClickFix compromise","","F5 Labs","https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",97,"NEW","cdn11.sendibt1.com","domain","Brevo supply-chain ClickFix compromise","","F5 Labs","https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",95,"NEW","cdn2.sendibt1.com","domain","Brevo supply-chain ClickFix compromise","","F5 Labs","https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",95,"NEW","cdn3.sendibt1.com","domain","Brevo supply-chain ClickFix compromise","","F5 Labs","https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",95,"NEW","cdn4.sendibt1.com","domain","Brevo supply-chain ClickFix compromise","","F5 Labs","https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",95,"NEW","cdn9.sendibt1.com","domain","Brevo supply-chain ClickFix compromise","","F5 Labs","https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",95,"NEW","corralos.beer","domain","Brevo supply-chain ClickFix compromise","","F5 Labs","https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",97,"NEW","docusign.web-viewww.es","domain","CSuite device-code phishing campaign","CSuite","Gurucul Threat Research","https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",92,"NEW","glegchner.com","domain","Brevo supply-chain ClickFix compromise","","F5 Labs","https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",97,"NEW","http://45.150.33.128/92961f75b259df2?force=1","url","Macfinger ClickFix campaign","","SANS Internet Storm Center","https://isc.sans.edu/diary.html?storyid=33360",99,"NEW","http://45.150.33.128/d4c8083a7d97?force=1","url","Macfinger ClickFix campaign","","SANS Internet Storm Center","https://isc.sans.edu/diary.html?storyid=33360",99,"NEW","https://localcontex.online/AdobecloudReader/pdf_Reader_en_install.msi","url","CSuite device-code phishing campaign","CSuite","Gurucul Threat Research","https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",96,"NEW","https://localcontex.online/review.signal-doc.cloud/.DocuSign/","url","CSuite device-code phishing campaign","CSuite","Gurucul Threat Research","https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",96,"NEW","https://velvet-otter-glagceis.life/ext-b.4f9db6afd06a.js","url","Macfinger ClickFix campaign","","SANS Internet Storm Center","https://isc.sans.edu/diary.html?storyid=33360",98,"NEW","https://velvet-otter-glagceis.life/t.4b1009ff6c3f.js","url","Macfinger ClickFix campaign","","SANS Internet Storm Center","https://isc.sans.edu/diary.html?storyid=33360",98,"NEW"];
-union
-(
+// ===== BEGIN QUERY 001: domain in DeviceNetworkEvents.RemoteUrl =====
+// Business date: 2026-09-24; run this query block by itself.
+// Source: F5 Labs - https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026
 DeviceNetworkEvents
 | where Timestamp >= ago(30d)
-| where isnotempty(RemoteUrl)
-| extend MatchKey=tolower(iif(RemoteUrl startswith "http://" or RemoteUrl startswith "https://", tostring(parse_url(RemoteUrl).Host), trim_end(@"[.]$", RemoteUrl)))
-| join kind=inner hint.strategy=broadcast (IOCs | where IOCType == "domain" | extend IntelKey=tolower(IOC)) on $left.MatchKey == $right.IntelKey
-| project Timestamp,IOC,IOCType,MatchedField="RemoteUrl",MDEHitSource="DeviceNetworkEvents.RemoteUrl",DeviceName,DeviceId,ActionType,RemoteIP=RemoteIP,RemotePort=tostring(RemotePort),RemoteUrl=RemoteUrl,Protocol=Protocol,FileName="",FolderPath="",SHA256="",SHA1="",MD5="",ProcessCommandLine="",InitiatingProcessFileName,InitiatingProcessCommandLine,ReportId=tostring(ReportId),ThreatName,ThreatActor,Confidence,IntelSource,SourceURL,Status
-),
-(
+| where RemoteUrl in~ ("cdn.sendibt1.com", "cdn10.sendibt1.com", "cdn11.sendibt1.com", "cdn2.sendibt1.com", "cdn3.sendibt1.com", "cdn4.sendibt1.com", "cdn9.sendibt1.com", "corralos.beer", "glegchner.com")
+| extend IOC=RemoteUrl,IOCType="domain",MatchedField="RemoteUrl",MDEHitSource="DeviceNetworkEvents.RemoteUrl",IntelSource="F5 Labs",SourceURL="https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026"
+| project Timestamp,DeviceName,ActionType,RemoteIP,RemotePort,RemoteUrl,Protocol,InitiatingProcessFileName,InitiatingProcessCommandLine,IOC,IOCType,MatchedField,MDEHitSource,IntelSource,SourceURL
+| take 500
+// ===== END QUERY 001 =====
+// ===== BEGIN QUERY 002: domain in DeviceNetworkEvents.RemoteUrl =====
+// Business date: 2026-09-24; run this query block by itself.
+// Source: Gurucul Threat Research - https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026
 DeviceNetworkEvents
 | where Timestamp >= ago(30d)
-| where isnotempty(RemoteUrl)
-| extend MatchKey=tolower(RemoteUrl)
-| join kind=inner hint.strategy=broadcast (IOCs | where IOCType == "url" | extend IntelKey=tolower(IOC)) on $left.MatchKey == $right.IntelKey
-| project Timestamp,IOC,IOCType,MatchedField="RemoteUrl",MDEHitSource="DeviceNetworkEvents.RemoteUrl",DeviceName,DeviceId,ActionType,RemoteIP=RemoteIP,RemotePort=tostring(RemotePort),RemoteUrl=RemoteUrl,Protocol=Protocol,FileName="",FolderPath="",SHA256="",SHA1="",MD5="",ProcessCommandLine="",InitiatingProcessFileName,InitiatingProcessCommandLine,ReportId=tostring(ReportId),ThreatName,ThreatActor,Confidence,IntelSource,SourceURL,Status
-)
-| order by Timestamp desc
+| where RemoteUrl in~ ("docusign.web-viewww.es")
+| extend IOC=RemoteUrl,IOCType="domain",MatchedField="RemoteUrl",MDEHitSource="DeviceNetworkEvents.RemoteUrl",IntelSource="Gurucul Threat Research",SourceURL="https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+| project Timestamp,DeviceName,ActionType,RemoteIP,RemotePort,RemoteUrl,Protocol,InitiatingProcessFileName,InitiatingProcessCommandLine,IOC,IOCType,MatchedField,MDEHitSource,IntelSource,SourceURL
+| take 500
+// ===== END QUERY 002 =====
+// ===== BEGIN QUERY 003: url in DeviceNetworkEvents.RemoteUrl =====
+// Business date: 2026-09-24; run this query block by itself.
+// Source: Gurucul Threat Research - https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026
+DeviceNetworkEvents
+| where Timestamp >= ago(30d)
+| where RemoteUrl in~ ("https://localcontex.online/AdobecloudReader/pdf_Reader_en_install.msi", "https://localcontex.online/review.signal-doc.cloud/.DocuSign/")
+| extend IOC=RemoteUrl,IOCType="url",MatchedField="RemoteUrl",MDEHitSource="DeviceNetworkEvents.RemoteUrl",IntelSource="Gurucul Threat Research",SourceURL="https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+| project Timestamp,DeviceName,ActionType,RemoteIP,RemotePort,RemoteUrl,Protocol,InitiatingProcessFileName,InitiatingProcessCommandLine,IOC,IOCType,MatchedField,MDEHitSource,IntelSource,SourceURL
+| take 500
+// ===== END QUERY 003 =====
+// ===== BEGIN QUERY 004: url in DeviceNetworkEvents.RemoteUrl =====
+// Business date: 2026-09-24; run this query block by itself.
+// Source: SANS Internet Storm Center - https://isc.sans.edu/diary.html?storyid=33360
+DeviceNetworkEvents
+| where Timestamp >= ago(30d)
+| where RemoteUrl in~ ("http://45.150.33.128/92961f75b259df2?force=1", "http://45.150.33.128/d4c8083a7d97?force=1", "https://velvet-otter-glagceis.life/ext-b.4f9db6afd06a.js", "https://velvet-otter-glagceis.life/t.4b1009ff6c3f.js")
+| extend IOC=RemoteUrl,IOCType="url",MatchedField="RemoteUrl",MDEHitSource="DeviceNetworkEvents.RemoteUrl",IntelSource="SANS Internet Storm Center",SourceURL="https://isc.sans.edu/diary.html?storyid=33360"
+| project Timestamp,DeviceName,ActionType,RemoteIP,RemotePort,RemoteUrl,Protocol,InitiatingProcessFileName,InitiatingProcessCommandLine,IOC,IOCType,MatchedField,MDEHitSource,IntelSource,SourceURL
+| take 500
+// ===== END QUERY 004 =====

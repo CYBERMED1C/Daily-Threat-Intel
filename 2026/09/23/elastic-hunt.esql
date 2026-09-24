@@ -1,932 +1,202 @@
-/* CYBERMEDIC ELASTIC HUNT PACK
-RUN ONE NAMED QUERY BLOCK AT A TIME. DO NOT RUN THIS ENTIRE FILE AS ONE QUERY.
-Start with a Stage 1 summary block. Use a Stage 2 template only after a confirmed hit.
-*/
-/* ===== BEGIN Elastic Stage 1 ipv4 network destination.ip batch 001 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 ipv4 network destination.ip batch 001
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
+/* CYBERMEDIC ELASTIC ES|QL THREAT HUNTING - LIGHTWEIGHT */
+/* Run one named query block at a time. Each block uses one data stream. */
+/* Default lookback: 30 days; result limit: 500. */
+/* Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint */
+/* ===== BEGIN QUERY 001: domain in destination.domain ===== */
+/* Business date: 2026-09-23; run this query block by itself. */
+/* Source: Gurucul Threat Research - https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026 */
 FROM logs-endpoint.events.network-* METADATA _index
 | WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE destination.ip IN ("102.67.5.132", "102.88.167.38", "141.133.174.208", "155.254.26.180", "185.174.102.34", "188.127.227.18", "190.123.46.122", "191.101.130.42", "207.189.19.40", "212.189.40.73", "31.57.147.133", "31.57.38.60", "64.204.180.203", "91.92.41.114")
-| EVAL MatchedIOC = TO_STRING(destination.ip)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "ipv4", MatchedField = "destination.ip"
-| EVAL ThreatName = "CSuite device-code phishing and remote-access campaign", ThreatActor = "CSuite operators"
-| EVAL SourceConfidence = 90, AcceptanceScore = 90, EffectiveLookbackDays = 30
-| EVAL IntelSource = "Gurucul Threat Research: https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026", SourceArticle = "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 ipv4 network destination.ip batch 001 ===== */
-/* ===== BEGIN Elastic Stage 1 ipv4 network destination.ip batch 002 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 ipv4 network destination.ip batch 002
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
+| WHERE destination.domain IN ("allshore-io.cam", "ambitiousaboutautismorguk.com", "arubanetworks-inc.com", "aviationpioneers.info", "checkingweb.net", "conferenceuniverses.buzz", "corporate-sync-gate.net", "docseed.online", "docseedn.online", "docsendsr.online", "documentationreviewdocument2026review.sbs", "documentsonitustechnologies.sbs", "downloaddocumentcontechbuilding.sbs", "emsafetoproceedtaward.top", "expressdocumentdelivery.org", "fincapitalxcom.cfd", "gddfzxa.online", "ghs.coorpes.com", "giiro.net", "greaterheights.sbs", "greenbullet.ba", "keepsecurepasserword.cam", "legacy-bridge-node.net", "maillive.sbs", "mmswerod.sbs", "pdfsecurtoview.cfd", "pdfsecurtoview.info", "pdfsecurtoview.sbs", "pdfsecurtoview365.cfd", "pdfsecurtoview365.sbs", "pdfsecurtoviewothers.cfd", "pdfsecurtoviewothers.sbs", "pdfsecurtoviewsuite.sbs", "pikecac.cfd", "qrcoderuser.cfd", "selectivelife01.sbs", "sharepointer-dr.com", "sharerpoint.cam", "solarengyloanfunds.com", "stubborn-academy.icu", "voicermailsmessager.cam", "zerichoproject.org")
+| EVAL IOC = TO_STRING(destination.domain), IOCType = "domain", MatchedField = "destination.domain", ElasticHitSource = _index
+| EVAL IntelSource = "Gurucul Threat Research", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 001 ===== */
+/* ===== BEGIN QUERY 002: domain in dns.question.name ===== */
+/* Business date: 2026-09-23; run this query block by itself. */
+/* Source: Gurucul Threat Research - https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026 */
 FROM logs-endpoint.events.network-* METADATA _index
 | WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE destination.ip IN ("190.211.124.187", "213.136.79.115", "213.136.83.197", "45.79.183.61", "91.99.195.164")
-| EVAL MatchedIOC = TO_STRING(destination.ip)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "ipv4", MatchedField = "destination.ip"
-| EVAL ThreatName = "CARBONATO Docker botnet", ThreatActor = "CARBONATO operators"
-| EVAL SourceConfidence = 92, AcceptanceScore = 92, EffectiveLookbackDays = 30
-| EVAL IntelSource = "ThreatDown: https://www.threatdown.com/blog/carbonato/", SourceArticle = "CARBONATO: a botnet built around an AI agent", SourceURL = "https://www.threatdown.com/blog/carbonato/"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 ipv4 network destination.ip batch 002 ===== */
-/* ===== BEGIN Elastic Stage 1 ipv4 network destination.ip batch 003 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 ipv4 network destination.ip batch 003
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
+| WHERE dns.question.name IN ("allshore-io.cam", "ambitiousaboutautismorguk.com", "arubanetworks-inc.com", "aviationpioneers.info", "checkingweb.net", "conferenceuniverses.buzz", "corporate-sync-gate.net", "docseed.online", "docseedn.online", "docsendsr.online", "documentationreviewdocument2026review.sbs", "documentsonitustechnologies.sbs", "downloaddocumentcontechbuilding.sbs", "emsafetoproceedtaward.top", "expressdocumentdelivery.org", "fincapitalxcom.cfd", "gddfzxa.online", "ghs.coorpes.com", "giiro.net", "greaterheights.sbs", "greenbullet.ba", "keepsecurepasserword.cam", "legacy-bridge-node.net", "maillive.sbs", "mmswerod.sbs", "pdfsecurtoview.cfd", "pdfsecurtoview.info", "pdfsecurtoview.sbs", "pdfsecurtoview365.cfd", "pdfsecurtoview365.sbs", "pdfsecurtoviewothers.cfd", "pdfsecurtoviewothers.sbs", "pdfsecurtoviewsuite.sbs", "pikecac.cfd", "qrcoderuser.cfd", "selectivelife01.sbs", "sharepointer-dr.com", "sharerpoint.cam", "solarengyloanfunds.com", "stubborn-academy.icu", "voicermailsmessager.cam", "zerichoproject.org")
+| EVAL IOC = TO_STRING(dns.question.name), IOCType = "domain", MatchedField = "dns.question.name", ElasticHitSource = _index
+| EVAL IntelSource = "Gurucul Threat Research", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 002 ===== */
+/* ===== BEGIN QUERY 003: domain in destination.domain ===== */
+/* Business date: 2026-09-23; run this query block by itself. */
+/* Source: SANS Internet Storm Center - https://isc.sans.edu/diary.html?storyid=33360 */
 FROM logs-endpoint.events.network-* METADATA _index
 | WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE destination.ip IN ("45.150.33.128", "95.163.153.80")
-| EVAL MatchedIOC = TO_STRING(destination.ip)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "ipv4", MatchedField = "destination.ip"
-| EVAL ThreatName = "Macfinger ClickFix campaign", ThreatActor = ""
-| EVAL SourceConfidence = 95, AcceptanceScore = 95, EffectiveLookbackDays = 30
-| EVAL IntelSource = "SANS Internet Storm Center: https://isc.sans.edu/diary.html?storyid=33360", SourceArticle = "Macfinger ClickFix campaign", SourceURL = "https://isc.sans.edu/diary.html?storyid=33360"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 ipv4 network destination.ip batch 003 ===== */
-/* ===== BEGIN Elastic Stage 1 ipv4 network source.ip batch 001 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 ipv4 network source.ip batch 001
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.network-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE source.ip IN ("102.67.5.132", "102.88.167.38", "141.133.174.208", "155.254.26.180", "185.174.102.34", "188.127.227.18", "190.123.46.122", "191.101.130.42", "207.189.19.40", "212.189.40.73", "31.57.147.133", "31.57.38.60", "64.204.180.203", "91.92.41.114")
-| EVAL MatchedIOC = TO_STRING(source.ip)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "ipv4", MatchedField = "source.ip"
-| EVAL ThreatName = "CSuite device-code phishing and remote-access campaign", ThreatActor = "CSuite operators"
-| EVAL SourceConfidence = 90, AcceptanceScore = 90, EffectiveLookbackDays = 30
-| EVAL IntelSource = "Gurucul Threat Research: https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026", SourceArticle = "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 ipv4 network source.ip batch 001 ===== */
-/* ===== BEGIN Elastic Stage 1 ipv4 network source.ip batch 002 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 ipv4 network source.ip batch 002
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.network-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE source.ip IN ("190.211.124.187", "213.136.79.115", "213.136.83.197", "45.79.183.61", "91.99.195.164")
-| EVAL MatchedIOC = TO_STRING(source.ip)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "ipv4", MatchedField = "source.ip"
-| EVAL ThreatName = "CARBONATO Docker botnet", ThreatActor = "CARBONATO operators"
-| EVAL SourceConfidence = 92, AcceptanceScore = 92, EffectiveLookbackDays = 30
-| EVAL IntelSource = "ThreatDown: https://www.threatdown.com/blog/carbonato/", SourceArticle = "CARBONATO: a botnet built around an AI agent", SourceURL = "https://www.threatdown.com/blog/carbonato/"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 ipv4 network source.ip batch 002 ===== */
-/* ===== BEGIN Elastic Stage 1 ipv4 network source.ip batch 003 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 ipv4 network source.ip batch 003
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.network-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE source.ip IN ("45.150.33.128", "95.163.153.80")
-| EVAL MatchedIOC = TO_STRING(source.ip)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "ipv4", MatchedField = "source.ip"
-| EVAL ThreatName = "Macfinger ClickFix campaign", ThreatActor = ""
-| EVAL SourceConfidence = 95, AcceptanceScore = 95, EffectiveLookbackDays = 30
-| EVAL IntelSource = "SANS Internet Storm Center: https://isc.sans.edu/diary.html?storyid=33360", SourceArticle = "Macfinger ClickFix campaign", SourceURL = "https://isc.sans.edu/diary.html?storyid=33360"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 ipv4 network source.ip batch 003 ===== */
-/* ===== BEGIN Elastic Stage 1 domain network destination.domain batch 001 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 domain network destination.domain batch 001
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.network-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE destination.domain IN ("allshore-io.cam", "ambitiousaboutautismorguk.com", "arubanetworks-inc.com", "aviationpioneers.info", "checkingweb.net", "conferenceuniverses.buzz", "corporate-sync-gate.net", "docseed.online", "docseedn.online", "docsendsr.online", "documentationreviewdocument2026review.sbs", "documentsonitustechnologies.sbs", "downloaddocumentcontechbuilding.sbs", "emsafetoproceedtaward.top", "expressdocumentdelivery.org")
-| EVAL MatchedIOC = TO_STRING(destination.domain)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "domain", MatchedField = "destination.domain"
-| EVAL ThreatName = "CSuite device-code phishing and remote-access campaign", ThreatActor = "CSuite operators"
-| EVAL SourceConfidence = 88, AcceptanceScore = 88, EffectiveLookbackDays = 30
-| EVAL IntelSource = "Gurucul Threat Research: https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026", SourceArticle = "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 domain network destination.domain batch 001 ===== */
-/* ===== BEGIN Elastic Stage 1 domain network destination.domain batch 002 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 domain network destination.domain batch 002
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.network-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE destination.domain IN ("fincapitalxcom.cfd", "gddfzxa.online", "ghs.coorpes.com", "giiro.net", "greaterheights.sbs", "greenbullet.ba", "keepsecurepasserword.cam", "legacy-bridge-node.net", "maillive.sbs", "mmswerod.sbs", "pdfsecurtoview.cfd", "pdfsecurtoview.info", "pdfsecurtoview.sbs", "pdfsecurtoview365.cfd", "pdfsecurtoview365.sbs")
-| EVAL MatchedIOC = TO_STRING(destination.domain)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "domain", MatchedField = "destination.domain"
-| EVAL ThreatName = "CSuite device-code phishing and remote-access campaign", ThreatActor = "CSuite operators"
-| EVAL SourceConfidence = 88, AcceptanceScore = 88, EffectiveLookbackDays = 30
-| EVAL IntelSource = "Gurucul Threat Research: https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026", SourceArticle = "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 domain network destination.domain batch 002 ===== */
-/* ===== BEGIN Elastic Stage 1 domain network destination.domain batch 003 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 domain network destination.domain batch 003
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.network-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE destination.domain IN ("pdfsecurtoviewothers.cfd", "pdfsecurtoviewothers.sbs", "pdfsecurtoviewsuite.sbs", "pikecac.cfd", "qrcoderuser.cfd", "selectivelife01.sbs", "sharepointer-dr.com", "sharerpoint.cam", "solarengyloanfunds.com", "stubborn-academy.icu", "voicermailsmessager.cam", "zerichoproject.org")
-| EVAL MatchedIOC = TO_STRING(destination.domain)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "domain", MatchedField = "destination.domain"
-| EVAL ThreatName = "CSuite device-code phishing and remote-access campaign", ThreatActor = "CSuite operators"
-| EVAL SourceConfidence = 88, AcceptanceScore = 88, EffectiveLookbackDays = 30
-| EVAL IntelSource = "Gurucul Threat Research: https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026", SourceArticle = "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 domain network destination.domain batch 003 ===== */
-/* ===== BEGIN Elastic Stage 1 domain network destination.domain batch 004 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 domain network destination.domain batch 004
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.network-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE destination.domain IN ("carbonato-proxy-drab.vercel.app", "carbonato-proxy-zeta-2.vercel.app", "carbonato-proxy-zeta.vercel.app")
-| EVAL MatchedIOC = TO_STRING(destination.domain)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "domain", MatchedField = "destination.domain"
-| EVAL ThreatName = "CARBONATO Docker botnet", ThreatActor = "CARBONATO operators"
-| EVAL SourceConfidence = 88, AcceptanceScore = 88, EffectiveLookbackDays = 30
-| EVAL IntelSource = "ThreatDown: https://www.threatdown.com/blog/carbonato/", SourceArticle = "CARBONATO: a botnet built around an AI agent", SourceURL = "https://www.threatdown.com/blog/carbonato/"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 domain network destination.domain batch 004 ===== */
-/* ===== BEGIN Elastic Stage 1 domain network destination.domain batch 005 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 domain network destination.domain batch 005
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.network-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
 | WHERE destination.domain IN ("velvet-otter-glagceis.life")
-| EVAL MatchedIOC = TO_STRING(destination.domain)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "domain", MatchedField = "destination.domain"
-| EVAL ThreatName = "Macfinger ClickFix campaign", ThreatActor = ""
-| EVAL SourceConfidence = 94, AcceptanceScore = 94, EffectiveLookbackDays = 30
-| EVAL IntelSource = "SANS Internet Storm Center: https://isc.sans.edu/diary.html?storyid=33360", SourceArticle = "Macfinger ClickFix campaign", SourceURL = "https://isc.sans.edu/diary.html?storyid=33360"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 domain network destination.domain batch 005 ===== */
-/* ===== BEGIN Elastic Stage 1 domain network dns.question.name batch 001 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 domain network dns.question.name batch 001
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
+| EVAL IOC = TO_STRING(destination.domain), IOCType = "domain", MatchedField = "destination.domain", ElasticHitSource = _index
+| EVAL IntelSource = "SANS Internet Storm Center", SourceURL = "https://isc.sans.edu/diary.html?storyid=33360"
+| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 003 ===== */
+/* ===== BEGIN QUERY 004: domain in dns.question.name ===== */
+/* Business date: 2026-09-23; run this query block by itself. */
+/* Source: SANS Internet Storm Center - https://isc.sans.edu/diary.html?storyid=33360 */
 FROM logs-endpoint.events.network-* METADATA _index
 | WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE dns.question.name IN ("allshore-io.cam", "ambitiousaboutautismorguk.com", "arubanetworks-inc.com", "aviationpioneers.info", "checkingweb.net", "conferenceuniverses.buzz", "corporate-sync-gate.net", "docseed.online", "docseedn.online", "docsendsr.online", "documentationreviewdocument2026review.sbs", "documentsonitustechnologies.sbs", "downloaddocumentcontechbuilding.sbs", "emsafetoproceedtaward.top", "expressdocumentdelivery.org")
-| EVAL MatchedIOC = TO_STRING(dns.question.name)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "domain", MatchedField = "dns.question.name"
-| EVAL ThreatName = "CSuite device-code phishing and remote-access campaign", ThreatActor = "CSuite operators"
-| EVAL SourceConfidence = 88, AcceptanceScore = 88, EffectiveLookbackDays = 30
-| EVAL IntelSource = "Gurucul Threat Research: https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026", SourceArticle = "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 domain network dns.question.name batch 001 ===== */
-/* ===== BEGIN Elastic Stage 1 domain network dns.question.name batch 002 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 domain network dns.question.name batch 002
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.network-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE dns.question.name IN ("fincapitalxcom.cfd", "gddfzxa.online", "ghs.coorpes.com", "giiro.net", "greaterheights.sbs", "greenbullet.ba", "keepsecurepasserword.cam", "legacy-bridge-node.net", "maillive.sbs", "mmswerod.sbs", "pdfsecurtoview.cfd", "pdfsecurtoview.info", "pdfsecurtoview.sbs", "pdfsecurtoview365.cfd", "pdfsecurtoview365.sbs")
-| EVAL MatchedIOC = TO_STRING(dns.question.name)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "domain", MatchedField = "dns.question.name"
-| EVAL ThreatName = "CSuite device-code phishing and remote-access campaign", ThreatActor = "CSuite operators"
-| EVAL SourceConfidence = 88, AcceptanceScore = 88, EffectiveLookbackDays = 30
-| EVAL IntelSource = "Gurucul Threat Research: https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026", SourceArticle = "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 domain network dns.question.name batch 002 ===== */
-/* ===== BEGIN Elastic Stage 1 domain network dns.question.name batch 003 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 domain network dns.question.name batch 003
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.network-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE dns.question.name IN ("pdfsecurtoviewothers.cfd", "pdfsecurtoviewothers.sbs", "pdfsecurtoviewsuite.sbs", "pikecac.cfd", "qrcoderuser.cfd", "selectivelife01.sbs", "sharepointer-dr.com", "sharerpoint.cam", "solarengyloanfunds.com", "stubborn-academy.icu", "voicermailsmessager.cam", "zerichoproject.org")
-| EVAL MatchedIOC = TO_STRING(dns.question.name)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "domain", MatchedField = "dns.question.name"
-| EVAL ThreatName = "CSuite device-code phishing and remote-access campaign", ThreatActor = "CSuite operators"
-| EVAL SourceConfidence = 88, AcceptanceScore = 88, EffectiveLookbackDays = 30
-| EVAL IntelSource = "Gurucul Threat Research: https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026", SourceArticle = "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 domain network dns.question.name batch 003 ===== */
-/* ===== BEGIN Elastic Stage 1 domain network dns.question.name batch 004 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 domain network dns.question.name batch 004
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.network-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE dns.question.name IN ("carbonato-proxy-drab.vercel.app", "carbonato-proxy-zeta-2.vercel.app", "carbonato-proxy-zeta.vercel.app")
-| EVAL MatchedIOC = TO_STRING(dns.question.name)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "domain", MatchedField = "dns.question.name"
-| EVAL ThreatName = "CARBONATO Docker botnet", ThreatActor = "CARBONATO operators"
-| EVAL SourceConfidence = 88, AcceptanceScore = 88, EffectiveLookbackDays = 30
-| EVAL IntelSource = "ThreatDown: https://www.threatdown.com/blog/carbonato/", SourceArticle = "CARBONATO: a botnet built around an AI agent", SourceURL = "https://www.threatdown.com/blog/carbonato/"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 domain network dns.question.name batch 004 ===== */
-/* ===== BEGIN Elastic Stage 1 domain network dns.question.name batch 005 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 domain network dns.question.name batch 005
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.network-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
 | WHERE dns.question.name IN ("velvet-otter-glagceis.life")
-| EVAL MatchedIOC = TO_STRING(dns.question.name)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "domain", MatchedField = "dns.question.name"
-| EVAL ThreatName = "Macfinger ClickFix campaign", ThreatActor = ""
-| EVAL SourceConfidence = 94, AcceptanceScore = 94, EffectiveLookbackDays = 30
-| EVAL IntelSource = "SANS Internet Storm Center: https://isc.sans.edu/diary.html?storyid=33360", SourceArticle = "Macfinger ClickFix campaign", SourceURL = "https://isc.sans.edu/diary.html?storyid=33360"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 domain network dns.question.name batch 005 ===== */
-/* ===== BEGIN Elastic Stage 1 domain network url.domain batch 001 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 domain network url.domain batch 001
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
+| EVAL IOC = TO_STRING(dns.question.name), IOCType = "domain", MatchedField = "dns.question.name", ElasticHitSource = _index
+| EVAL IntelSource = "SANS Internet Storm Center", SourceURL = "https://isc.sans.edu/diary.html?storyid=33360"
+| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 004 ===== */
+/* ===== BEGIN QUERY 005: domain in destination.domain ===== */
+/* Business date: 2026-09-23; run this query block by itself. */
+/* Source: ThreatDown - https://www.threatdown.com/blog/carbonato/ */
 FROM logs-endpoint.events.network-* METADATA _index
 | WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE url.domain IN ("allshore-io.cam", "ambitiousaboutautismorguk.com", "arubanetworks-inc.com", "aviationpioneers.info", "checkingweb.net", "conferenceuniverses.buzz", "corporate-sync-gate.net", "docseed.online", "docseedn.online", "docsendsr.online", "documentationreviewdocument2026review.sbs", "documentsonitustechnologies.sbs", "downloaddocumentcontechbuilding.sbs", "emsafetoproceedtaward.top", "expressdocumentdelivery.org")
-| EVAL MatchedIOC = TO_STRING(url.domain)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "domain", MatchedField = "url.domain"
-| EVAL ThreatName = "CSuite device-code phishing and remote-access campaign", ThreatActor = "CSuite operators"
-| EVAL SourceConfidence = 88, AcceptanceScore = 88, EffectiveLookbackDays = 30
-| EVAL IntelSource = "Gurucul Threat Research: https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026", SourceArticle = "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 domain network url.domain batch 001 ===== */
-/* ===== BEGIN Elastic Stage 1 domain network url.domain batch 002 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 domain network url.domain batch 002
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
+| WHERE destination.domain IN ("carbonato-proxy-drab.vercel.app", "carbonato-proxy-zeta-2.vercel.app", "carbonato-proxy-zeta.vercel.app")
+| EVAL IOC = TO_STRING(destination.domain), IOCType = "domain", MatchedField = "destination.domain", ElasticHitSource = _index
+| EVAL IntelSource = "ThreatDown", SourceURL = "https://www.threatdown.com/blog/carbonato/"
+| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 005 ===== */
+/* ===== BEGIN QUERY 006: domain in dns.question.name ===== */
+/* Business date: 2026-09-23; run this query block by itself. */
+/* Source: ThreatDown - https://www.threatdown.com/blog/carbonato/ */
 FROM logs-endpoint.events.network-* METADATA _index
 | WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE url.domain IN ("fincapitalxcom.cfd", "gddfzxa.online", "ghs.coorpes.com", "giiro.net", "greaterheights.sbs", "greenbullet.ba", "keepsecurepasserword.cam", "legacy-bridge-node.net", "maillive.sbs", "mmswerod.sbs", "pdfsecurtoview.cfd", "pdfsecurtoview.info", "pdfsecurtoview.sbs", "pdfsecurtoview365.cfd", "pdfsecurtoview365.sbs")
-| EVAL MatchedIOC = TO_STRING(url.domain)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "domain", MatchedField = "url.domain"
-| EVAL ThreatName = "CSuite device-code phishing and remote-access campaign", ThreatActor = "CSuite operators"
-| EVAL SourceConfidence = 88, AcceptanceScore = 88, EffectiveLookbackDays = 30
-| EVAL IntelSource = "Gurucul Threat Research: https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026", SourceArticle = "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 domain network url.domain batch 002 ===== */
-/* ===== BEGIN Elastic Stage 1 domain network url.domain batch 003 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 domain network url.domain batch 003
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
+| WHERE dns.question.name IN ("carbonato-proxy-drab.vercel.app", "carbonato-proxy-zeta-2.vercel.app", "carbonato-proxy-zeta.vercel.app")
+| EVAL IOC = TO_STRING(dns.question.name), IOCType = "domain", MatchedField = "dns.question.name", ElasticHitSource = _index
+| EVAL IntelSource = "ThreatDown", SourceURL = "https://www.threatdown.com/blog/carbonato/"
+| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 006 ===== */
+/* ===== BEGIN QUERY 007: ipv4 in destination.ip ===== */
+/* Business date: 2026-09-23; run this query block by itself. */
+/* Source: Gurucul Threat Research - https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026 */
 FROM logs-endpoint.events.network-* METADATA _index
 | WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE url.domain IN ("pdfsecurtoviewothers.cfd", "pdfsecurtoviewothers.sbs", "pdfsecurtoviewsuite.sbs", "pikecac.cfd", "qrcoderuser.cfd", "selectivelife01.sbs", "sharepointer-dr.com", "sharerpoint.cam", "solarengyloanfunds.com", "stubborn-academy.icu", "voicermailsmessager.cam", "zerichoproject.org")
-| EVAL MatchedIOC = TO_STRING(url.domain)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "domain", MatchedField = "url.domain"
-| EVAL ThreatName = "CSuite device-code phishing and remote-access campaign", ThreatActor = "CSuite operators"
-| EVAL SourceConfidence = 88, AcceptanceScore = 88, EffectiveLookbackDays = 30
-| EVAL IntelSource = "Gurucul Threat Research: https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026", SourceArticle = "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 domain network url.domain batch 003 ===== */
-/* ===== BEGIN Elastic Stage 1 domain network url.domain batch 004 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 domain network url.domain batch 004
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
+| WHERE destination.ip IN ("102.67.5.132", "102.88.167.38", "141.133.174.208", "155.254.26.180", "185.174.102.34", "188.127.227.18", "190.123.46.122", "191.101.130.42", "207.189.19.40", "212.189.40.73", "31.57.147.133", "31.57.38.60", "64.204.180.203", "91.92.41.114")
+| EVAL IOC = TO_STRING(destination.ip), IOCType = "ipv4", MatchedField = "destination.ip", ElasticHitSource = _index
+| EVAL IntelSource = "Gurucul Threat Research", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 007 ===== */
+/* ===== BEGIN QUERY 008: ipv4 in source.ip ===== */
+/* Business date: 2026-09-23; run this query block by itself. */
+/* Source: Gurucul Threat Research - https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026 */
 FROM logs-endpoint.events.network-* METADATA _index
 | WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE url.domain IN ("carbonato-proxy-drab.vercel.app", "carbonato-proxy-zeta-2.vercel.app", "carbonato-proxy-zeta.vercel.app")
-| EVAL MatchedIOC = TO_STRING(url.domain)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "domain", MatchedField = "url.domain"
-| EVAL ThreatName = "CARBONATO Docker botnet", ThreatActor = "CARBONATO operators"
-| EVAL SourceConfidence = 88, AcceptanceScore = 88, EffectiveLookbackDays = 30
-| EVAL IntelSource = "ThreatDown: https://www.threatdown.com/blog/carbonato/", SourceArticle = "CARBONATO: a botnet built around an AI agent", SourceURL = "https://www.threatdown.com/blog/carbonato/"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 domain network url.domain batch 004 ===== */
-/* ===== BEGIN Elastic Stage 1 domain network url.domain batch 005 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 domain network url.domain batch 005
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
+| WHERE source.ip IN ("102.67.5.132", "102.88.167.38", "141.133.174.208", "155.254.26.180", "185.174.102.34", "188.127.227.18", "190.123.46.122", "191.101.130.42", "207.189.19.40", "212.189.40.73", "31.57.147.133", "31.57.38.60", "64.204.180.203", "91.92.41.114")
+| EVAL IOC = TO_STRING(source.ip), IOCType = "ipv4", MatchedField = "source.ip", ElasticHitSource = _index
+| EVAL IntelSource = "Gurucul Threat Research", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 008 ===== */
+/* ===== BEGIN QUERY 009: ipv4 in destination.ip ===== */
+/* Business date: 2026-09-23; run this query block by itself. */
+/* Source: SANS Internet Storm Center - https://isc.sans.edu/diary.html?storyid=33360 */
 FROM logs-endpoint.events.network-* METADATA _index
 | WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE url.domain IN ("velvet-otter-glagceis.life")
-| EVAL MatchedIOC = TO_STRING(url.domain)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "domain", MatchedField = "url.domain"
-| EVAL ThreatName = "Macfinger ClickFix campaign", ThreatActor = ""
-| EVAL SourceConfidence = 94, AcceptanceScore = 94, EffectiveLookbackDays = 30
-| EVAL IntelSource = "SANS Internet Storm Center: https://isc.sans.edu/diary.html?storyid=33360", SourceArticle = "Macfinger ClickFix campaign", SourceURL = "https://isc.sans.edu/diary.html?storyid=33360"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 domain network url.domain batch 005 ===== */
-/* ===== BEGIN Elastic Stage 1 sha256 file file.hash.sha256 batch 001 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 sha256 file file.hash.sha256 batch 001
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
+| WHERE destination.ip IN ("45.150.33.128", "95.163.153.80")
+| EVAL IOC = TO_STRING(destination.ip), IOCType = "ipv4", MatchedField = "destination.ip", ElasticHitSource = _index
+| EVAL IntelSource = "SANS Internet Storm Center", SourceURL = "https://isc.sans.edu/diary.html?storyid=33360"
+| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 009 ===== */
+/* ===== BEGIN QUERY 010: ipv4 in source.ip ===== */
+/* Business date: 2026-09-23; run this query block by itself. */
+/* Source: SANS Internet Storm Center - https://isc.sans.edu/diary.html?storyid=33360 */
+FROM logs-endpoint.events.network-* METADATA _index
+| WHERE @timestamp >= NOW() - 30 days
+| WHERE source.ip IN ("45.150.33.128", "95.163.153.80")
+| EVAL IOC = TO_STRING(source.ip), IOCType = "ipv4", MatchedField = "source.ip", ElasticHitSource = _index
+| EVAL IntelSource = "SANS Internet Storm Center", SourceURL = "https://isc.sans.edu/diary.html?storyid=33360"
+| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 010 ===== */
+/* ===== BEGIN QUERY 011: ipv4 in destination.ip ===== */
+/* Business date: 2026-09-23; run this query block by itself. */
+/* Source: ThreatDown - https://www.threatdown.com/blog/carbonato/ */
+FROM logs-endpoint.events.network-* METADATA _index
+| WHERE @timestamp >= NOW() - 30 days
+| WHERE destination.ip IN ("190.211.124.187", "213.136.79.115", "213.136.83.197", "45.79.183.61", "91.99.195.164")
+| EVAL IOC = TO_STRING(destination.ip), IOCType = "ipv4", MatchedField = "destination.ip", ElasticHitSource = _index
+| EVAL IntelSource = "ThreatDown", SourceURL = "https://www.threatdown.com/blog/carbonato/"
+| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 011 ===== */
+/* ===== BEGIN QUERY 012: ipv4 in source.ip ===== */
+/* Business date: 2026-09-23; run this query block by itself. */
+/* Source: ThreatDown - https://www.threatdown.com/blog/carbonato/ */
+FROM logs-endpoint.events.network-* METADATA _index
+| WHERE @timestamp >= NOW() - 30 days
+| WHERE source.ip IN ("190.211.124.187", "213.136.79.115", "213.136.83.197", "45.79.183.61", "91.99.195.164")
+| EVAL IOC = TO_STRING(source.ip), IOCType = "ipv4", MatchedField = "source.ip", ElasticHitSource = _index
+| EVAL IntelSource = "ThreatDown", SourceURL = "https://www.threatdown.com/blog/carbonato/"
+| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 012 ===== */
+/* ===== BEGIN QUERY 013: sha256 in file.hash.sha256 ===== */
+/* Business date: 2026-09-23; run this query block by itself. */
+/* Source: Gurucul Threat Research - https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026 */
 FROM logs-endpoint.events.file-* METADATA _index
 | WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "file"
-| WHERE file.hash.sha256 IN ("07682ca34a9bf18beb664088e55035a83306b95b31d4aaba242e9d67f8c378a3", "0d6b451bd58b904e7dd15ce3e28ea129f7f95c9d248944fbdacdf6fb1d2adc99", "2b89225801591cd223e0cf0b1faa8e7b12e88d6b6bc6ec9f5e715171137553ac", "375e49680fe4b4a62320bdcfd16b7bd75f6223a15d620c475c6988803b67d416", "38ba6bfe0cc2b7c5ff38f1f698e2c9bfdb52dd7937111967fddf785ba001e1f2", "394d7be5ecbe326062c1de1fb674bdcbb4dbe3ce03b4227994607047b832debd", "3a8daf4e992ea34b71b259af85d4d12ca52d80b9e2b262bd5aa5922a5a955f9f", "41734f8e6cc75b66f51638b76780f61a0b21ad9f77586e2665b7ab8d7e131936", "463786717f51b710dbbb013437141e416b98d810dfaa9f4de90a4c4939bc66b9", "6f62a8380eb5038e253772033c0ebc1ddb951a042c4a1a90ba8755819dc74e53", "74e306072561731adf55afd4de461ec0736ca22c0b458a78e7512b2701341f28", "7b03111fa24ce01054332f013b3fe8189d2b61897e7306666c73b086588a64a5", "842f0236ea2c2b7773054920e7a870e07869c4e99f84bd31ccfd215781b4f267", "90f8e6259ce27592c460d235aff104d7507dfff4e7889c34ab714cdb19944473", "9a03a0b65b2a2d27b348e583237d512a55f3f8287989abf7ffca0285d5f8e43d")
-| EVAL MatchedIOC = TO_STRING(file.hash.sha256)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "sha256", MatchedField = "file.hash.sha256"
-| EVAL ThreatName = "CSuite device-code phishing and remote-access campaign", ThreatActor = "CSuite operators"
-| EVAL SourceConfidence = 92, AcceptanceScore = 92, EffectiveLookbackDays = 30
-| EVAL IntelSource = "Gurucul Threat Research: https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026", SourceArticle = "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 sha256 file file.hash.sha256 batch 001 ===== */
-/* ===== BEGIN Elastic Stage 1 sha256 file file.hash.sha256 batch 002 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 sha256 file file.hash.sha256 batch 002
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
+| WHERE file.hash.sha256 IN ("07682ca34a9bf18beb664088e55035a83306b95b31d4aaba242e9d67f8c378a3", "0d6b451bd58b904e7dd15ce3e28ea129f7f95c9d248944fbdacdf6fb1d2adc99", "2b89225801591cd223e0cf0b1faa8e7b12e88d6b6bc6ec9f5e715171137553ac", "375e49680fe4b4a62320bdcfd16b7bd75f6223a15d620c475c6988803b67d416", "38ba6bfe0cc2b7c5ff38f1f698e2c9bfdb52dd7937111967fddf785ba001e1f2", "394d7be5ecbe326062c1de1fb674bdcbb4dbe3ce03b4227994607047b832debd", "3a8daf4e992ea34b71b259af85d4d12ca52d80b9e2b262bd5aa5922a5a955f9f", "41734f8e6cc75b66f51638b76780f61a0b21ad9f77586e2665b7ab8d7e131936", "463786717f51b710dbbb013437141e416b98d810dfaa9f4de90a4c4939bc66b9", "6f62a8380eb5038e253772033c0ebc1ddb951a042c4a1a90ba8755819dc74e53", "74e306072561731adf55afd4de461ec0736ca22c0b458a78e7512b2701341f28", "7b03111fa24ce01054332f013b3fe8189d2b61897e7306666c73b086588a64a5", "842f0236ea2c2b7773054920e7a870e07869c4e99f84bd31ccfd215781b4f267", "90f8e6259ce27592c460d235aff104d7507dfff4e7889c34ab714cdb19944473", "9a03a0b65b2a2d27b348e583237d512a55f3f8287989abf7ffca0285d5f8e43d", "a450a84a60ce6646596feb2d6bea4c89a1b5b4e7d6325d5b7c2000982987411c", "a89a31ec605c0ed9cd263cbdea6ee4a2c6502ec81e5b3e8a3c9fb3de945405f9", "aac51e4016c50a705a26bd56435f0fd9685e53d6bc0cc6034b7370e76d7cb376", "ae7af8159f06a059411411e5e816b415e32213371fb085ced1dc5679a0112c48", "aefd71902453cc83104aa963d8d9051c875d93ddf40680616e8fa5e68565ea69", "b1e55c9679f9aca94d66fdb08195cf8752f69f1d6896a5b2e60d979fca5a4036", "b59e7cb539c0b81a58f60d5ca0ed3df62d1856b29076720efbb7dd9411d99eec", "c0eb04dcfa745653c466c34978a1f3b4e5041f526be8c2e46b8c722498ca746a", "c5f7083722fc5bee4e7a7109495348d3731e6b077919a6b679b9f5af885923cd", "d995ea6f1621c29cdd4353cfb8b36cd1336b34bc8b180b73ce52cd939060bf0f", "e769b2b4463e7d39320b65a49183ce4ff8c20459fa183e7b03f02e1b44420eb0", "eb9274a1fb6064e784f9c0ce95c78007efcadc279d4ffcac13998a45ebf7b49f", "fd98c6881cadc47e7d425bbd4b992237a832e69fdfe872a90ba567ed58a148ad", "fdd171cc26704218b0762a33650c0d1246c42cbe583a858684e1b6ac12b9bbe7")
+| EVAL IOC = TO_STRING(file.hash.sha256), IOCType = "sha256", MatchedField = "file.hash.sha256", ElasticHitSource = _index
+| EVAL IntelSource = "Gurucul Threat Research", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+| KEEP @timestamp, host.name, event.action, file.name, file.path, file.hash.sha256, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 013 ===== */
+/* ===== BEGIN QUERY 014: sha256 in process.hash.sha256 ===== */
+/* Business date: 2026-09-23; run this query block by itself. */
+/* Source: Gurucul Threat Research - https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026 */
+FROM logs-endpoint.events.process-* METADATA _index
+| WHERE @timestamp >= NOW() - 30 days
+| WHERE process.hash.sha256 IN ("07682ca34a9bf18beb664088e55035a83306b95b31d4aaba242e9d67f8c378a3", "0d6b451bd58b904e7dd15ce3e28ea129f7f95c9d248944fbdacdf6fb1d2adc99", "2b89225801591cd223e0cf0b1faa8e7b12e88d6b6bc6ec9f5e715171137553ac", "375e49680fe4b4a62320bdcfd16b7bd75f6223a15d620c475c6988803b67d416", "38ba6bfe0cc2b7c5ff38f1f698e2c9bfdb52dd7937111967fddf785ba001e1f2", "394d7be5ecbe326062c1de1fb674bdcbb4dbe3ce03b4227994607047b832debd", "3a8daf4e992ea34b71b259af85d4d12ca52d80b9e2b262bd5aa5922a5a955f9f", "41734f8e6cc75b66f51638b76780f61a0b21ad9f77586e2665b7ab8d7e131936", "463786717f51b710dbbb013437141e416b98d810dfaa9f4de90a4c4939bc66b9", "6f62a8380eb5038e253772033c0ebc1ddb951a042c4a1a90ba8755819dc74e53", "74e306072561731adf55afd4de461ec0736ca22c0b458a78e7512b2701341f28", "7b03111fa24ce01054332f013b3fe8189d2b61897e7306666c73b086588a64a5", "842f0236ea2c2b7773054920e7a870e07869c4e99f84bd31ccfd215781b4f267", "90f8e6259ce27592c460d235aff104d7507dfff4e7889c34ab714cdb19944473", "9a03a0b65b2a2d27b348e583237d512a55f3f8287989abf7ffca0285d5f8e43d", "a450a84a60ce6646596feb2d6bea4c89a1b5b4e7d6325d5b7c2000982987411c", "a89a31ec605c0ed9cd263cbdea6ee4a2c6502ec81e5b3e8a3c9fb3de945405f9", "aac51e4016c50a705a26bd56435f0fd9685e53d6bc0cc6034b7370e76d7cb376", "ae7af8159f06a059411411e5e816b415e32213371fb085ced1dc5679a0112c48", "aefd71902453cc83104aa963d8d9051c875d93ddf40680616e8fa5e68565ea69", "b1e55c9679f9aca94d66fdb08195cf8752f69f1d6896a5b2e60d979fca5a4036", "b59e7cb539c0b81a58f60d5ca0ed3df62d1856b29076720efbb7dd9411d99eec", "c0eb04dcfa745653c466c34978a1f3b4e5041f526be8c2e46b8c722498ca746a", "c5f7083722fc5bee4e7a7109495348d3731e6b077919a6b679b9f5af885923cd", "d995ea6f1621c29cdd4353cfb8b36cd1336b34bc8b180b73ce52cd939060bf0f", "e769b2b4463e7d39320b65a49183ce4ff8c20459fa183e7b03f02e1b44420eb0", "eb9274a1fb6064e784f9c0ce95c78007efcadc279d4ffcac13998a45ebf7b49f", "fd98c6881cadc47e7d425bbd4b992237a832e69fdfe872a90ba567ed58a148ad", "fdd171cc26704218b0762a33650c0d1246c42cbe583a858684e1b6ac12b9bbe7")
+| EVAL IOC = TO_STRING(process.hash.sha256), IOCType = "sha256", MatchedField = "process.hash.sha256", ElasticHitSource = _index
+| EVAL IntelSource = "Gurucul Threat Research", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+| KEEP @timestamp, host.name, event.action, process.name, process.executable, process.command_line, process.hash.sha256, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 014 ===== */
+/* ===== BEGIN QUERY 015: sha256 in dll.hash.sha256 ===== */
+/* Business date: 2026-09-23; run this query block by itself. */
+/* Source: Gurucul Threat Research - https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026 */
+FROM logs-endpoint.events.library-* METADATA _index
+| WHERE @timestamp >= NOW() - 30 days
+| WHERE dll.hash.sha256 IN ("07682ca34a9bf18beb664088e55035a83306b95b31d4aaba242e9d67f8c378a3", "0d6b451bd58b904e7dd15ce3e28ea129f7f95c9d248944fbdacdf6fb1d2adc99", "2b89225801591cd223e0cf0b1faa8e7b12e88d6b6bc6ec9f5e715171137553ac", "375e49680fe4b4a62320bdcfd16b7bd75f6223a15d620c475c6988803b67d416", "38ba6bfe0cc2b7c5ff38f1f698e2c9bfdb52dd7937111967fddf785ba001e1f2", "394d7be5ecbe326062c1de1fb674bdcbb4dbe3ce03b4227994607047b832debd", "3a8daf4e992ea34b71b259af85d4d12ca52d80b9e2b262bd5aa5922a5a955f9f", "41734f8e6cc75b66f51638b76780f61a0b21ad9f77586e2665b7ab8d7e131936", "463786717f51b710dbbb013437141e416b98d810dfaa9f4de90a4c4939bc66b9", "6f62a8380eb5038e253772033c0ebc1ddb951a042c4a1a90ba8755819dc74e53", "74e306072561731adf55afd4de461ec0736ca22c0b458a78e7512b2701341f28", "7b03111fa24ce01054332f013b3fe8189d2b61897e7306666c73b086588a64a5", "842f0236ea2c2b7773054920e7a870e07869c4e99f84bd31ccfd215781b4f267", "90f8e6259ce27592c460d235aff104d7507dfff4e7889c34ab714cdb19944473", "9a03a0b65b2a2d27b348e583237d512a55f3f8287989abf7ffca0285d5f8e43d", "a450a84a60ce6646596feb2d6bea4c89a1b5b4e7d6325d5b7c2000982987411c", "a89a31ec605c0ed9cd263cbdea6ee4a2c6502ec81e5b3e8a3c9fb3de945405f9", "aac51e4016c50a705a26bd56435f0fd9685e53d6bc0cc6034b7370e76d7cb376", "ae7af8159f06a059411411e5e816b415e32213371fb085ced1dc5679a0112c48", "aefd71902453cc83104aa963d8d9051c875d93ddf40680616e8fa5e68565ea69", "b1e55c9679f9aca94d66fdb08195cf8752f69f1d6896a5b2e60d979fca5a4036", "b59e7cb539c0b81a58f60d5ca0ed3df62d1856b29076720efbb7dd9411d99eec", "c0eb04dcfa745653c466c34978a1f3b4e5041f526be8c2e46b8c722498ca746a", "c5f7083722fc5bee4e7a7109495348d3731e6b077919a6b679b9f5af885923cd", "d995ea6f1621c29cdd4353cfb8b36cd1336b34bc8b180b73ce52cd939060bf0f", "e769b2b4463e7d39320b65a49183ce4ff8c20459fa183e7b03f02e1b44420eb0", "eb9274a1fb6064e784f9c0ce95c78007efcadc279d4ffcac13998a45ebf7b49f", "fd98c6881cadc47e7d425bbd4b992237a832e69fdfe872a90ba567ed58a148ad", "fdd171cc26704218b0762a33650c0d1246c42cbe583a858684e1b6ac12b9bbe7")
+| EVAL IOC = TO_STRING(dll.hash.sha256), IOCType = "sha256", MatchedField = "dll.hash.sha256", ElasticHitSource = _index
+| EVAL IntelSource = "Gurucul Threat Research", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+| KEEP @timestamp, host.name, event.action, dll.name, dll.path, dll.hash.sha256, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 015 ===== */
+/* ===== BEGIN QUERY 016: sha256 in file.hash.sha256 ===== */
+/* Business date: 2026-09-23; run this query block by itself. */
+/* Source: SANS Internet Storm Center - https://isc.sans.edu/diary.html?storyid=33360 */
 FROM logs-endpoint.events.file-* METADATA _index
 | WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "file"
-| WHERE file.hash.sha256 IN ("a450a84a60ce6646596feb2d6bea4c89a1b5b4e7d6325d5b7c2000982987411c", "a89a31ec605c0ed9cd263cbdea6ee4a2c6502ec81e5b3e8a3c9fb3de945405f9", "aac51e4016c50a705a26bd56435f0fd9685e53d6bc0cc6034b7370e76d7cb376", "ae7af8159f06a059411411e5e816b415e32213371fb085ced1dc5679a0112c48", "aefd71902453cc83104aa963d8d9051c875d93ddf40680616e8fa5e68565ea69", "b1e55c9679f9aca94d66fdb08195cf8752f69f1d6896a5b2e60d979fca5a4036", "b59e7cb539c0b81a58f60d5ca0ed3df62d1856b29076720efbb7dd9411d99eec", "c0eb04dcfa745653c466c34978a1f3b4e5041f526be8c2e46b8c722498ca746a", "c5f7083722fc5bee4e7a7109495348d3731e6b077919a6b679b9f5af885923cd", "d995ea6f1621c29cdd4353cfb8b36cd1336b34bc8b180b73ce52cd939060bf0f", "e769b2b4463e7d39320b65a49183ce4ff8c20459fa183e7b03f02e1b44420eb0", "eb9274a1fb6064e784f9c0ce95c78007efcadc279d4ffcac13998a45ebf7b49f", "fd98c6881cadc47e7d425bbd4b992237a832e69fdfe872a90ba567ed58a148ad", "fdd171cc26704218b0762a33650c0d1246c42cbe583a858684e1b6ac12b9bbe7")
-| EVAL MatchedIOC = TO_STRING(file.hash.sha256)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "sha256", MatchedField = "file.hash.sha256"
-| EVAL ThreatName = "CSuite device-code phishing and remote-access campaign", ThreatActor = "CSuite operators"
-| EVAL SourceConfidence = 92, AcceptanceScore = 92, EffectiveLookbackDays = 30
-| EVAL IntelSource = "Gurucul Threat Research: https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026", SourceArticle = "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 sha256 file file.hash.sha256 batch 002 ===== */
-/* ===== BEGIN Elastic Stage 1 sha256 file file.hash.sha256 batch 003 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 sha256 file file.hash.sha256 batch 003
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.file-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "file"
-| WHERE file.hash.sha256 IN ("1a3765e8cb0055ec31693b8f82ce9744106dee08368259661600b072c6805af4", "9d87b41c2b29ccbeac851b98f1a7dce4ab4781fec0cbc55fa6f93a6299a3d564", "b68cdb1b46502fbce67ce3f8110682936d06afd2116af096e30abd4c8376b6dc")
-| EVAL MatchedIOC = TO_STRING(file.hash.sha256)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "sha256", MatchedField = "file.hash.sha256"
-| EVAL ThreatName = "Macfinger ClickFix campaign", ThreatActor = ""
-| EVAL SourceConfidence = 98, AcceptanceScore = 98, EffectiveLookbackDays = 30
-| EVAL IntelSource = "SANS Internet Storm Center: https://isc.sans.edu/diary.html?storyid=33360", SourceArticle = "Macfinger ClickFix campaign", SourceURL = "https://isc.sans.edu/diary.html?storyid=33360"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 sha256 file file.hash.sha256 batch 003 ===== */
-/* ===== BEGIN Elastic Stage 1 sha256 file file.hash.sha256 batch 004 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 sha256 file file.hash.sha256 batch 004
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.file-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "file"
-| WHERE file.hash.sha256 IN ("6606a5f18184b224a56c9cb658fa26f7fce45099da548a30a8db2c5f2c70377c")
-| EVAL MatchedIOC = TO_STRING(file.hash.sha256)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "sha256", MatchedField = "file.hash.sha256"
-| EVAL ThreatName = "Macfinger ClickFix campaign", ThreatActor = ""
-| EVAL SourceConfidence = 96, AcceptanceScore = 96, EffectiveLookbackDays = 30
-| EVAL IntelSource = "SANS Internet Storm Center: https://isc.sans.edu/diary.html?storyid=33360", SourceArticle = "Macfinger ClickFix campaign", SourceURL = "https://isc.sans.edu/diary.html?storyid=33360"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 sha256 file file.hash.sha256 batch 004 ===== */
-/* ===== BEGIN Elastic Stage 1 sha256 process process.hash.sha256 batch 001 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 sha256 process process.hash.sha256 batch 001
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
+| WHERE file.hash.sha256 IN ("1a3765e8cb0055ec31693b8f82ce9744106dee08368259661600b072c6805af4", "6606a5f18184b224a56c9cb658fa26f7fce45099da548a30a8db2c5f2c70377c", "9d87b41c2b29ccbeac851b98f1a7dce4ab4781fec0cbc55fa6f93a6299a3d564", "b68cdb1b46502fbce67ce3f8110682936d06afd2116af096e30abd4c8376b6dc")
+| EVAL IOC = TO_STRING(file.hash.sha256), IOCType = "sha256", MatchedField = "file.hash.sha256", ElasticHitSource = _index
+| EVAL IntelSource = "SANS Internet Storm Center", SourceURL = "https://isc.sans.edu/diary.html?storyid=33360"
+| KEEP @timestamp, host.name, event.action, file.name, file.path, file.hash.sha256, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 016 ===== */
+/* ===== BEGIN QUERY 017: sha256 in process.hash.sha256 ===== */
+/* Business date: 2026-09-23; run this query block by itself. */
+/* Source: SANS Internet Storm Center - https://isc.sans.edu/diary.html?storyid=33360 */
 FROM logs-endpoint.events.process-* METADATA _index
 | WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "process"
-| WHERE process.hash.sha256 IN ("07682ca34a9bf18beb664088e55035a83306b95b31d4aaba242e9d67f8c378a3", "0d6b451bd58b904e7dd15ce3e28ea129f7f95c9d248944fbdacdf6fb1d2adc99", "2b89225801591cd223e0cf0b1faa8e7b12e88d6b6bc6ec9f5e715171137553ac", "375e49680fe4b4a62320bdcfd16b7bd75f6223a15d620c475c6988803b67d416", "38ba6bfe0cc2b7c5ff38f1f698e2c9bfdb52dd7937111967fddf785ba001e1f2", "394d7be5ecbe326062c1de1fb674bdcbb4dbe3ce03b4227994607047b832debd", "3a8daf4e992ea34b71b259af85d4d12ca52d80b9e2b262bd5aa5922a5a955f9f", "41734f8e6cc75b66f51638b76780f61a0b21ad9f77586e2665b7ab8d7e131936", "463786717f51b710dbbb013437141e416b98d810dfaa9f4de90a4c4939bc66b9", "6f62a8380eb5038e253772033c0ebc1ddb951a042c4a1a90ba8755819dc74e53", "74e306072561731adf55afd4de461ec0736ca22c0b458a78e7512b2701341f28", "7b03111fa24ce01054332f013b3fe8189d2b61897e7306666c73b086588a64a5", "842f0236ea2c2b7773054920e7a870e07869c4e99f84bd31ccfd215781b4f267", "90f8e6259ce27592c460d235aff104d7507dfff4e7889c34ab714cdb19944473", "9a03a0b65b2a2d27b348e583237d512a55f3f8287989abf7ffca0285d5f8e43d")
-| EVAL MatchedIOC = TO_STRING(process.hash.sha256)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "sha256", MatchedField = "process.hash.sha256"
-| EVAL ThreatName = "CSuite device-code phishing and remote-access campaign", ThreatActor = "CSuite operators"
-| EVAL SourceConfidence = 92, AcceptanceScore = 92, EffectiveLookbackDays = 30
-| EVAL IntelSource = "Gurucul Threat Research: https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026", SourceArticle = "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 sha256 process process.hash.sha256 batch 001 ===== */
-/* ===== BEGIN Elastic Stage 1 sha256 process process.hash.sha256 batch 002 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 sha256 process process.hash.sha256 batch 002
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.process-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "process"
-| WHERE process.hash.sha256 IN ("a450a84a60ce6646596feb2d6bea4c89a1b5b4e7d6325d5b7c2000982987411c", "a89a31ec605c0ed9cd263cbdea6ee4a2c6502ec81e5b3e8a3c9fb3de945405f9", "aac51e4016c50a705a26bd56435f0fd9685e53d6bc0cc6034b7370e76d7cb376", "ae7af8159f06a059411411e5e816b415e32213371fb085ced1dc5679a0112c48", "aefd71902453cc83104aa963d8d9051c875d93ddf40680616e8fa5e68565ea69", "b1e55c9679f9aca94d66fdb08195cf8752f69f1d6896a5b2e60d979fca5a4036", "b59e7cb539c0b81a58f60d5ca0ed3df62d1856b29076720efbb7dd9411d99eec", "c0eb04dcfa745653c466c34978a1f3b4e5041f526be8c2e46b8c722498ca746a", "c5f7083722fc5bee4e7a7109495348d3731e6b077919a6b679b9f5af885923cd", "d995ea6f1621c29cdd4353cfb8b36cd1336b34bc8b180b73ce52cd939060bf0f", "e769b2b4463e7d39320b65a49183ce4ff8c20459fa183e7b03f02e1b44420eb0", "eb9274a1fb6064e784f9c0ce95c78007efcadc279d4ffcac13998a45ebf7b49f", "fd98c6881cadc47e7d425bbd4b992237a832e69fdfe872a90ba567ed58a148ad", "fdd171cc26704218b0762a33650c0d1246c42cbe583a858684e1b6ac12b9bbe7")
-| EVAL MatchedIOC = TO_STRING(process.hash.sha256)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "sha256", MatchedField = "process.hash.sha256"
-| EVAL ThreatName = "CSuite device-code phishing and remote-access campaign", ThreatActor = "CSuite operators"
-| EVAL SourceConfidence = 92, AcceptanceScore = 92, EffectiveLookbackDays = 30
-| EVAL IntelSource = "Gurucul Threat Research: https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026", SourceArticle = "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 sha256 process process.hash.sha256 batch 002 ===== */
-/* ===== BEGIN Elastic Stage 1 sha256 process process.hash.sha256 batch 003 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 sha256 process process.hash.sha256 batch 003
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.process-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "process"
-| WHERE process.hash.sha256 IN ("1a3765e8cb0055ec31693b8f82ce9744106dee08368259661600b072c6805af4", "9d87b41c2b29ccbeac851b98f1a7dce4ab4781fec0cbc55fa6f93a6299a3d564", "b68cdb1b46502fbce67ce3f8110682936d06afd2116af096e30abd4c8376b6dc")
-| EVAL MatchedIOC = TO_STRING(process.hash.sha256)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "sha256", MatchedField = "process.hash.sha256"
-| EVAL ThreatName = "Macfinger ClickFix campaign", ThreatActor = ""
-| EVAL SourceConfidence = 98, AcceptanceScore = 98, EffectiveLookbackDays = 30
-| EVAL IntelSource = "SANS Internet Storm Center: https://isc.sans.edu/diary.html?storyid=33360", SourceArticle = "Macfinger ClickFix campaign", SourceURL = "https://isc.sans.edu/diary.html?storyid=33360"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 sha256 process process.hash.sha256 batch 003 ===== */
-/* ===== BEGIN Elastic Stage 1 sha256 process process.hash.sha256 batch 004 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 sha256 process process.hash.sha256 batch 004
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.process-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "process"
-| WHERE process.hash.sha256 IN ("6606a5f18184b224a56c9cb658fa26f7fce45099da548a30a8db2c5f2c70377c")
-| EVAL MatchedIOC = TO_STRING(process.hash.sha256)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "sha256", MatchedField = "process.hash.sha256"
-| EVAL ThreatName = "Macfinger ClickFix campaign", ThreatActor = ""
-| EVAL SourceConfidence = 96, AcceptanceScore = 96, EffectiveLookbackDays = 30
-| EVAL IntelSource = "SANS Internet Storm Center: https://isc.sans.edu/diary.html?storyid=33360", SourceArticle = "Macfinger ClickFix campaign", SourceURL = "https://isc.sans.edu/diary.html?storyid=33360"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 sha256 process process.hash.sha256 batch 004 ===== */
-/* ===== BEGIN Elastic Stage 1 sha256 library dll.hash.sha256 batch 001 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 sha256 library dll.hash.sha256 batch 001
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
+| WHERE process.hash.sha256 IN ("1a3765e8cb0055ec31693b8f82ce9744106dee08368259661600b072c6805af4", "6606a5f18184b224a56c9cb658fa26f7fce45099da548a30a8db2c5f2c70377c", "9d87b41c2b29ccbeac851b98f1a7dce4ab4781fec0cbc55fa6f93a6299a3d564", "b68cdb1b46502fbce67ce3f8110682936d06afd2116af096e30abd4c8376b6dc")
+| EVAL IOC = TO_STRING(process.hash.sha256), IOCType = "sha256", MatchedField = "process.hash.sha256", ElasticHitSource = _index
+| EVAL IntelSource = "SANS Internet Storm Center", SourceURL = "https://isc.sans.edu/diary.html?storyid=33360"
+| KEEP @timestamp, host.name, event.action, process.name, process.executable, process.command_line, process.hash.sha256, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 017 ===== */
+/* ===== BEGIN QUERY 018: sha256 in dll.hash.sha256 ===== */
+/* Business date: 2026-09-23; run this query block by itself. */
+/* Source: SANS Internet Storm Center - https://isc.sans.edu/diary.html?storyid=33360 */
 FROM logs-endpoint.events.library-* METADATA _index
 | WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "library"
-| WHERE dll.hash.sha256 IN ("07682ca34a9bf18beb664088e55035a83306b95b31d4aaba242e9d67f8c378a3", "0d6b451bd58b904e7dd15ce3e28ea129f7f95c9d248944fbdacdf6fb1d2adc99", "2b89225801591cd223e0cf0b1faa8e7b12e88d6b6bc6ec9f5e715171137553ac", "375e49680fe4b4a62320bdcfd16b7bd75f6223a15d620c475c6988803b67d416", "38ba6bfe0cc2b7c5ff38f1f698e2c9bfdb52dd7937111967fddf785ba001e1f2", "394d7be5ecbe326062c1de1fb674bdcbb4dbe3ce03b4227994607047b832debd", "3a8daf4e992ea34b71b259af85d4d12ca52d80b9e2b262bd5aa5922a5a955f9f", "41734f8e6cc75b66f51638b76780f61a0b21ad9f77586e2665b7ab8d7e131936", "463786717f51b710dbbb013437141e416b98d810dfaa9f4de90a4c4939bc66b9", "6f62a8380eb5038e253772033c0ebc1ddb951a042c4a1a90ba8755819dc74e53", "74e306072561731adf55afd4de461ec0736ca22c0b458a78e7512b2701341f28", "7b03111fa24ce01054332f013b3fe8189d2b61897e7306666c73b086588a64a5", "842f0236ea2c2b7773054920e7a870e07869c4e99f84bd31ccfd215781b4f267", "90f8e6259ce27592c460d235aff104d7507dfff4e7889c34ab714cdb19944473", "9a03a0b65b2a2d27b348e583237d512a55f3f8287989abf7ffca0285d5f8e43d")
-| EVAL MatchedIOC = TO_STRING(dll.hash.sha256)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "sha256", MatchedField = "dll.hash.sha256"
-| EVAL ThreatName = "CSuite device-code phishing and remote-access campaign", ThreatActor = "CSuite operators"
-| EVAL SourceConfidence = 92, AcceptanceScore = 92, EffectiveLookbackDays = 30
-| EVAL IntelSource = "Gurucul Threat Research: https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026", SourceArticle = "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 sha256 library dll.hash.sha256 batch 001 ===== */
-/* ===== BEGIN Elastic Stage 1 sha256 library dll.hash.sha256 batch 002 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 sha256 library dll.hash.sha256 batch 002
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.library-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "library"
-| WHERE dll.hash.sha256 IN ("a450a84a60ce6646596feb2d6bea4c89a1b5b4e7d6325d5b7c2000982987411c", "a89a31ec605c0ed9cd263cbdea6ee4a2c6502ec81e5b3e8a3c9fb3de945405f9", "aac51e4016c50a705a26bd56435f0fd9685e53d6bc0cc6034b7370e76d7cb376", "ae7af8159f06a059411411e5e816b415e32213371fb085ced1dc5679a0112c48", "aefd71902453cc83104aa963d8d9051c875d93ddf40680616e8fa5e68565ea69", "b1e55c9679f9aca94d66fdb08195cf8752f69f1d6896a5b2e60d979fca5a4036", "b59e7cb539c0b81a58f60d5ca0ed3df62d1856b29076720efbb7dd9411d99eec", "c0eb04dcfa745653c466c34978a1f3b4e5041f526be8c2e46b8c722498ca746a", "c5f7083722fc5bee4e7a7109495348d3731e6b077919a6b679b9f5af885923cd", "d995ea6f1621c29cdd4353cfb8b36cd1336b34bc8b180b73ce52cd939060bf0f", "e769b2b4463e7d39320b65a49183ce4ff8c20459fa183e7b03f02e1b44420eb0", "eb9274a1fb6064e784f9c0ce95c78007efcadc279d4ffcac13998a45ebf7b49f", "fd98c6881cadc47e7d425bbd4b992237a832e69fdfe872a90ba567ed58a148ad", "fdd171cc26704218b0762a33650c0d1246c42cbe583a858684e1b6ac12b9bbe7")
-| EVAL MatchedIOC = TO_STRING(dll.hash.sha256)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "sha256", MatchedField = "dll.hash.sha256"
-| EVAL ThreatName = "CSuite device-code phishing and remote-access campaign", ThreatActor = "CSuite operators"
-| EVAL SourceConfidence = 92, AcceptanceScore = 92, EffectiveLookbackDays = 30
-| EVAL IntelSource = "Gurucul Threat Research: https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026", SourceArticle = "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access", SourceURL = "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 sha256 library dll.hash.sha256 batch 002 ===== */
-/* ===== BEGIN Elastic Stage 1 sha256 library dll.hash.sha256 batch 003 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 sha256 library dll.hash.sha256 batch 003
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.library-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "library"
-| WHERE dll.hash.sha256 IN ("1a3765e8cb0055ec31693b8f82ce9744106dee08368259661600b072c6805af4", "9d87b41c2b29ccbeac851b98f1a7dce4ab4781fec0cbc55fa6f93a6299a3d564", "b68cdb1b46502fbce67ce3f8110682936d06afd2116af096e30abd4c8376b6dc")
-| EVAL MatchedIOC = TO_STRING(dll.hash.sha256)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "sha256", MatchedField = "dll.hash.sha256"
-| EVAL ThreatName = "Macfinger ClickFix campaign", ThreatActor = ""
-| EVAL SourceConfidence = 98, AcceptanceScore = 98, EffectiveLookbackDays = 30
-| EVAL IntelSource = "SANS Internet Storm Center: https://isc.sans.edu/diary.html?storyid=33360", SourceArticle = "Macfinger ClickFix campaign", SourceURL = "https://isc.sans.edu/diary.html?storyid=33360"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 sha256 library dll.hash.sha256 batch 003 ===== */
-/* ===== BEGIN Elastic Stage 1 sha256 library dll.hash.sha256 batch 004 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 1 sha256 library dll.hash.sha256 batch 004
-Description: Stage 1 lightweight IOC hit summary with endpoint, time range, hit count, source stream, and CTI provenance.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.library-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "library"
-| WHERE dll.hash.sha256 IN ("6606a5f18184b224a56c9cb658fa26f7fce45099da548a30a8db2c5f2c70377c")
-| EVAL MatchedIOC = TO_STRING(dll.hash.sha256)
-| STATS FirstSeen = MIN(@timestamp), LastSeen = MAX(@timestamp), HitCount = COUNT(*) BY MatchedIOC, host.name, _index
-| RENAME host.name AS DeviceName, _index AS ElasticHitSource
-| EVAL IOCType = "sha256", MatchedField = "dll.hash.sha256"
-| EVAL ThreatName = "Macfinger ClickFix campaign", ThreatActor = ""
-| EVAL SourceConfidence = 96, AcceptanceScore = 96, EffectiveLookbackDays = 30
-| EVAL IntelSource = "SANS Internet Storm Center: https://isc.sans.edu/diary.html?storyid=33360", SourceArticle = "Macfinger ClickFix campaign", SourceURL = "https://isc.sans.edu/diary.html?storyid=33360"
-| KEEP MatchedIOC, IOCType, DeviceName, FirstSeen, LastSeen, HitCount, ElasticHitSource, MatchedField, ThreatName, ThreatActor, SourceConfidence, AcceptanceScore, IntelSource, SourceArticle, SourceURL, EffectiveLookbackDays
-| SORT LastSeen DESC
-| LIMIT 100
-/* ===== END Elastic Stage 1 sha256 library dll.hash.sha256 batch 004 ===== */
-/* ===== BEGIN Elastic Stage 2 investigate ipv4 in network destination.ip ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 2 investigate ipv4 in network destination.ip
-Description: Stage 2 investigation template; replace the placeholder only after a Stage 1 hit.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.network-*
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE TO_STRING(destination.ip) == "<PASTE_STAGE_1_IOC_HERE>"
-| KEEP @timestamp, host.name, user.name, event.action, process.name, process.executable, process.command_line, destination.ip, source.ip, destination.port, destination.domain, dns.question.name, url.domain
-| SORT @timestamp DESC
-| LIMIT 200
-/* ===== END Elastic Stage 2 investigate ipv4 in network destination.ip ===== */
-/* ===== BEGIN Elastic Stage 2 investigate ipv4 in network source.ip ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 2 investigate ipv4 in network source.ip
-Description: Stage 2 investigation template; replace the placeholder only after a Stage 1 hit.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.network-*
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE TO_STRING(source.ip) == "<PASTE_STAGE_1_IOC_HERE>"
-| KEEP @timestamp, host.name, user.name, event.action, process.name, process.executable, process.command_line, destination.ip, source.ip, destination.port, destination.domain, dns.question.name, url.domain
-| SORT @timestamp DESC
-| LIMIT 200
-/* ===== END Elastic Stage 2 investigate ipv4 in network source.ip ===== */
-/* ===== BEGIN Elastic Stage 2 investigate domain in network destination.domain ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 2 investigate domain in network destination.domain
-Description: Stage 2 investigation template; replace the placeholder only after a Stage 1 hit.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.network-*
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE TO_STRING(destination.domain) == "<PASTE_STAGE_1_IOC_HERE>"
-| KEEP @timestamp, host.name, user.name, event.action, process.name, process.executable, process.command_line, destination.ip, source.ip, destination.port, destination.domain, dns.question.name, url.domain
-| SORT @timestamp DESC
-| LIMIT 200
-/* ===== END Elastic Stage 2 investigate domain in network destination.domain ===== */
-/* ===== BEGIN Elastic Stage 2 investigate domain in network dns.question.name ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 2 investigate domain in network dns.question.name
-Description: Stage 2 investigation template; replace the placeholder only after a Stage 1 hit.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.network-*
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE TO_STRING(dns.question.name) == "<PASTE_STAGE_1_IOC_HERE>"
-| KEEP @timestamp, host.name, user.name, event.action, process.name, process.executable, process.command_line, destination.ip, source.ip, destination.port, destination.domain, dns.question.name, url.domain
-| SORT @timestamp DESC
-| LIMIT 200
-/* ===== END Elastic Stage 2 investigate domain in network dns.question.name ===== */
-/* ===== BEGIN Elastic Stage 2 investigate domain in network url.domain ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 2 investigate domain in network url.domain
-Description: Stage 2 investigation template; replace the placeholder only after a Stage 1 hit.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.network-*
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "network"
-| WHERE TO_STRING(url.domain) == "<PASTE_STAGE_1_IOC_HERE>"
-| KEEP @timestamp, host.name, user.name, event.action, process.name, process.executable, process.command_line, destination.ip, source.ip, destination.port, destination.domain, dns.question.name, url.domain
-| SORT @timestamp DESC
-| LIMIT 200
-/* ===== END Elastic Stage 2 investigate domain in network url.domain ===== */
-/* ===== BEGIN Elastic Stage 2 investigate sha256 in file file.hash.sha256 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 2 investigate sha256 in file file.hash.sha256
-Description: Stage 2 investigation template; replace the placeholder only after a Stage 1 hit.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.file-*
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "file"
-| WHERE TO_STRING(file.hash.sha256) == "<PASTE_STAGE_1_IOC_HERE>"
-| KEEP @timestamp, host.name, user.name, event.action, file.name, file.path, file.hash.md5, file.hash.sha1, file.hash.sha256, process.name, process.executable, process.command_line
-| SORT @timestamp DESC
-| LIMIT 200
-/* ===== END Elastic Stage 2 investigate sha256 in file file.hash.sha256 ===== */
-/* ===== BEGIN Elastic Stage 2 investigate sha256 in process process.hash.sha256 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 2 investigate sha256 in process process.hash.sha256
-Description: Stage 2 investigation template; replace the placeholder only after a Stage 1 hit.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.process-*
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "process"
-| WHERE TO_STRING(process.hash.sha256) == "<PASTE_STAGE_1_IOC_HERE>"
-| KEEP @timestamp, host.name, user.name, event.action, process.name, process.executable, process.command_line, process.hash.md5, process.hash.sha1, process.hash.sha256
-| SORT @timestamp DESC
-| LIMIT 200
-/* ===== END Elastic Stage 2 investigate sha256 in process process.hash.sha256 ===== */
-/* ===== BEGIN Elastic Stage 2 investigate sha256 in library dll.hash.sha256 ===== */
-/*
-Query name: CYBERMEDIC Elastic Stage 2 investigate sha256 in library dll.hash.sha256
-Description: Stage 2 investigation template; replace the placeholder only after a Stage 1 hit.
-Author: CYBERMEDIC
-Last updated: 2026-09-24
-Schema capability: elastic-defend-ecs-2026-09-21
-Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint
-*/
-FROM logs-endpoint.events.library-*
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE event.category == "library"
-| WHERE TO_STRING(dll.hash.sha256) == "<PASTE_STAGE_1_IOC_HERE>"
-| KEEP @timestamp, host.name, user.name, event.action, dll.hash.md5, dll.hash.sha1, dll.hash.sha256, process.name, process.executable, process.command_line
-| SORT @timestamp DESC
-| LIMIT 200
-/* ===== END Elastic Stage 2 investigate sha256 in library dll.hash.sha256 ===== */
+| WHERE dll.hash.sha256 IN ("1a3765e8cb0055ec31693b8f82ce9744106dee08368259661600b072c6805af4", "6606a5f18184b224a56c9cb658fa26f7fce45099da548a30a8db2c5f2c70377c", "9d87b41c2b29ccbeac851b98f1a7dce4ab4781fec0cbc55fa6f93a6299a3d564", "b68cdb1b46502fbce67ce3f8110682936d06afd2116af096e30abd4c8376b6dc")
+| EVAL IOC = TO_STRING(dll.hash.sha256), IOCType = "sha256", MatchedField = "dll.hash.sha256", ElasticHitSource = _index
+| EVAL IntelSource = "SANS Internet Storm Center", SourceURL = "https://isc.sans.edu/diary.html?storyid=33360"
+| KEEP @timestamp, host.name, event.action, dll.name, dll.path, dll.hash.sha256, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| LIMIT 500
+/* ===== END QUERY 018 ===== */
