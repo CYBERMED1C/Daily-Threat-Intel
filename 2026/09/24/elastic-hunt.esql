@@ -1,84 +1,26 @@
-/* CYBERMEDIC ELASTIC ES|QL THREAT HUNTING - LIGHTWEIGHT */
-/* Run one named query block at a time. Each block uses one data stream. */
-/* Default lookback: 30 days; result limit: 500. */
-/* Schema reference: https://www.elastic.co/docs/reference/integrations/endpoint */
-/* ===== BEGIN QUERY 001: domain in destination.domain ===== */
-/* Business date: 2026-09-24; run this query block by itself. */
-/* Source: F5 Labs - https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026 */
-FROM logs-endpoint.events.network-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE destination.domain IN ("cdn.sendibt1.com", "cdn10.sendibt1.com", "cdn11.sendibt1.com", "cdn2.sendibt1.com", "cdn3.sendibt1.com", "cdn4.sendibt1.com", "cdn9.sendibt1.com", "corralos.beer", "glegchner.com")
-| EVAL IOC = TO_STRING(destination.domain), IOCType = "domain", MatchedField = "destination.domain", ElasticHitSource = _index
-| EVAL IntelSource = "F5 Labs", SourceURL = "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026"
-| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+/* Query name: CYBERMEDIC Daily DOMAIN IOC Hunt 1 */
+/* Description: Search 30-day Elastic Defend telemetry for validated DOMAIN indicators. */
+/* Author: CYBERMEDIC */
+/* Last updated: 2026-09-24 */
+/* Notes: Exact IOC lookup; see the daily IOC summary for intelligence context. */
+FROM logs-endpoint.events.network-*
+| WHERE @timestamp >= NOW() - 30 DAYS
+| WHERE destination.domain IN ("cdn.sendibt1.com","cdn10.sendibt1.com","cdn11.sendibt1.com","cdn2.sendibt1.com","cdn3.sendibt1.com","cdn4.sendibt1.com","cdn9.sendibt1.com","corralos.beer","docusign.web-viewww.es","glegchner.com","localcontex.online","velvet-otter-glagceis.life")
+| EVAL IOC=TO_STRING(destination.domain)
+| KEEP @timestamp,host.name,process.name,destination.ip,destination.port,destination.domain,IOC
+| SORT @timestamp DESC
 | LIMIT 500
-/* ===== END QUERY 001 ===== */
-/* ===== BEGIN QUERY 002: domain in dns.question.name ===== */
-/* Business date: 2026-09-24; run this query block by itself. */
-/* Source: F5 Labs - https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026 */
-FROM logs-endpoint.events.network-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE dns.question.name IN ("cdn.sendibt1.com", "cdn10.sendibt1.com", "cdn11.sendibt1.com", "cdn2.sendibt1.com", "cdn3.sendibt1.com", "cdn4.sendibt1.com", "cdn9.sendibt1.com", "corralos.beer", "glegchner.com")
-| EVAL IOC = TO_STRING(dns.question.name), IOCType = "domain", MatchedField = "dns.question.name", ElasticHitSource = _index
-| EVAL IntelSource = "F5 Labs", SourceURL = "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026"
-| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
-| LIMIT 500
-/* ===== END QUERY 002 ===== */
-/* ===== BEGIN QUERY 003: domain in destination.domain ===== */
-/* Business date: 2026-09-24; run this query block by itself. */
-/* Source: Gurucul Threat Research - https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026 */
-FROM logs-endpoint.events.network-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE destination.domain IN ("docusign.web-viewww.es")
-| EVAL IOC = TO_STRING(destination.domain), IOCType = "domain", MatchedField = "destination.domain", ElasticHitSource = _index
-| EVAL IntelSource = "Gurucul Threat Research", SourceURL = "https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
-| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
-| LIMIT 500
-/* ===== END QUERY 003 ===== */
-/* ===== BEGIN QUERY 004: domain in dns.question.name ===== */
-/* Business date: 2026-09-24; run this query block by itself. */
-/* Source: Gurucul Threat Research - https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026 */
-FROM logs-endpoint.events.network-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE dns.question.name IN ("docusign.web-viewww.es")
-| EVAL IOC = TO_STRING(dns.question.name), IOCType = "domain", MatchedField = "dns.question.name", ElasticHitSource = _index
-| EVAL IntelSource = "Gurucul Threat Research", SourceURL = "https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
-| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
-| LIMIT 500
-/* ===== END QUERY 004 ===== */
-/* ===== BEGIN QUERY 005: url in destination.ip ===== */
-/* Business date: 2026-09-24; run this query block by itself. */
-/* Source: SANS Internet Storm Center - https://isc.sans.edu/diary.html?storyid=33360 */
-/* URL host pivot: confirm the full path in available proxy or web telemetry. */
-FROM logs-endpoint.events.network-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
+/* End domain hunt 1 */
+/* Query name: CYBERMEDIC Daily IP IOC Hunt 2 */
+/* Description: Search 30-day Elastic Defend telemetry for validated IP indicators. */
+/* Author: CYBERMEDIC */
+/* Last updated: 2026-09-24 */
+/* Notes: Exact IOC lookup; see the daily IOC summary for intelligence context. */
+FROM logs-endpoint.events.network-*
+| WHERE @timestamp >= NOW() - 30 DAYS
 | WHERE destination.ip IN ("45.150.33.128")
-| EVAL IOC = "http://45.150.33.128/92961f75b259df2?force=1; http://45.150.33.128/d4c8083a7d97?force=1", IOCType = "url", MatchedField = "destination.ip", ElasticHitSource = _index
-| EVAL IntelSource = "SANS Internet Storm Center", SourceURL = "https://isc.sans.edu/diary.html?storyid=33360"
-| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
+| EVAL IOC=TO_STRING(destination.ip)
+| KEEP @timestamp,host.name,process.name,destination.ip,destination.port,destination.domain,IOC
+| SORT @timestamp DESC
 | LIMIT 500
-/* ===== END QUERY 005 ===== */
-/* ===== BEGIN QUERY 006: url in destination.domain ===== */
-/* Business date: 2026-09-24; run this query block by itself. */
-/* Source: Gurucul Threat Research - https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026 */
-/* URL host pivot: confirm the full path in available proxy or web telemetry. */
-FROM logs-endpoint.events.network-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE destination.domain IN ("localcontex.online")
-| EVAL IOC = "https://localcontex.online/AdobecloudReader/pdf_Reader_en_install.msi; https://localcontex.online/review.signal-doc.cloud/.DocuSign/", IOCType = "url", MatchedField = "destination.domain", ElasticHitSource = _index
-| EVAL IntelSource = "Gurucul Threat Research", SourceURL = "https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
-| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
-| LIMIT 500
-/* ===== END QUERY 006 ===== */
-/* ===== BEGIN QUERY 007: url in destination.domain ===== */
-/* Business date: 2026-09-24; run this query block by itself. */
-/* Source: SANS Internet Storm Center - https://isc.sans.edu/diary.html?storyid=33360 */
-/* URL host pivot: confirm the full path in available proxy or web telemetry. */
-FROM logs-endpoint.events.network-* METADATA _index
-| WHERE @timestamp >= NOW() - 30 days
-| WHERE destination.domain IN ("velvet-otter-glagceis.life")
-| EVAL IOC = "https://velvet-otter-glagceis.life/ext-b.4f9db6afd06a.js; https://velvet-otter-glagceis.life/t.4b1009ff6c3f.js", IOCType = "url", MatchedField = "destination.domain", ElasticHitSource = _index
-| EVAL IntelSource = "SANS Internet Storm Center", SourceURL = "https://isc.sans.edu/diary.html?storyid=33360"
-| KEEP @timestamp, host.name, event.action, destination.ip, source.ip, destination.domain, dns.question.name, IOC, IOCType, MatchedField, ElasticHitSource, IntelSource, SourceURL
-| LIMIT 500
-/* ===== END QUERY 007 ===== */
+/* End ip hunt 2 */

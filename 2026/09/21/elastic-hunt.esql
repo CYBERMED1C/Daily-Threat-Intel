@@ -1,0 +1,52 @@
+/* Query name: CYBERMEDIC Daily DOMAIN IOC Hunt 1 */
+/* Description: Search 30-day Elastic Defend telemetry for validated DOMAIN indicators. */
+/* Author: CYBERMEDIC */
+/* Last updated: 2026-09-21 */
+/* Notes: Exact IOC lookup; see the daily IOC summary for intelligence context. */
+FROM logs-endpoint.events.network-*
+| WHERE @timestamp >= NOW() - 30 DAYS
+| WHERE destination.domain IN ("airduct1.com","amalqasehselangor.com","analysis-id-lfg.info","annamaclean.com","arushigupta.life","ascendpopdownloadtoday.monster","asiana-online.com","betesebplus.com","bluemountainloan.com","boardgamepix.com","boundpopclickgetfile.monster","breadcabin.com","canflymarketing.com","chatgpt-web.vip","clickzona.net","cloudflare-check.net","connorkimble.com","daleeby.com","di-il.com","dutyfrees.digital","familyonlinestore.com","flarclod.top","gardelectricalcontracting.com","golfcoursetravel.com","golftucsonarizona.com","hanbayjewellery.com","hestiamortgages.com","id-ll.com","ilaumachque.com","interactivsbroker.com","islamjamal.com","josephtoone.com","jouncepopdownloadnow.com","jumppopdownloadsecret.monster","kawaiininjaclub.cfd","lastdayornot.top","launchingramps.com","leosafari.com","lewdstories.com","lionheadsl.com","locoaudio.com","lyxorgbs.com","maidsradar.com","medfinadvisory.com","nanakshahicoin.com","onlineprivacyprotect.com","photobyroyan.com","pigeononpinguin.top","ploutouscapitalus.com","plumber-charlotte.com")
+| EVAL IOC=TO_STRING(destination.domain)
+| KEEP @timestamp,host.name,process.name,destination.ip,destination.port,destination.domain,IOC
+| SORT @timestamp DESC
+| LIMIT 500
+/* End domain hunt 1 */
+/* Query name: CYBERMEDIC Daily DOMAIN IOC Hunt 2 */
+/* Description: Search 30-day Elastic Defend telemetry for validated DOMAIN indicators. */
+/* Author: CYBERMEDIC */
+/* Last updated: 2026-09-21 */
+/* Notes: Exact IOC lookup; see the daily IOC summary for intelligence context. */
+FROM logs-endpoint.events.network-*
+| WHERE @timestamp >= NOW() - 30 DAYS
+| WHERE destination.domain IN ("premiumfastloans.com","primemarkets360.com","recaptcha-check.com","redwing-max.biz","safetybygrace.com","sanremomodauomo.com","scribblebubblebibi.top","searlepub.com","sisaradistributors.com","socialseoguru.com","solidfuelsupplier.com","starbreezehvac.com","straighteightlogistics.com","sunnypaydayloan.com","suveniricrnagora.com","tamilarnews.com","thistle-productions.com","tycoonsrow.com","urlquery.net","us-addnewdevice.com","ustgate.com","verification-js-cdn.boats","virgensantisima.com")
+| EVAL IOC=TO_STRING(destination.domain)
+| KEEP @timestamp,host.name,process.name,destination.ip,destination.port,destination.domain,IOC
+| SORT @timestamp DESC
+| LIMIT 500
+/* End domain hunt 2 */
+/* Query name: CYBERMEDIC Daily IP IOC Hunt 3 */
+/* Description: Search 30-day Elastic Defend telemetry for validated IP indicators. */
+/* Author: CYBERMEDIC */
+/* Last updated: 2026-09-21 */
+/* Notes: Exact IOC lookup; see the daily IOC summary for intelligence context. */
+FROM logs-endpoint.events.network-*
+| WHERE @timestamp >= NOW() - 30 DAYS
+| WHERE destination.ip IN ("135.181.127.216","151.240.151.8","151.243.113.21","193.41.68.196","2.27.5.165","31.76.31.28","31.77.228.46","65.21.18.60","65.21.208.199","85.239.144.195","85.239.149.13","85.239.149.14","85.239.149.167","87.58.199.76","89.34.90.150","89.34.90.159","89.34.90.217","91.92.33.156","91.92.33.213","91.92.43.245","93.152.223.161","93.152.224.139","94.26.83.206","94.26.90.126","94.26.90.65")
+| EVAL IOC=TO_STRING(destination.ip)
+| KEEP @timestamp,host.name,process.name,destination.ip,destination.port,destination.domain,IOC
+| SORT @timestamp DESC
+| LIMIT 500
+/* End ip hunt 3 */
+/* Query name: CYBERMEDIC Daily SHA1 IOC Hunt 4 */
+/* Description: Search 30-day Elastic Defend telemetry for validated SHA1 indicators. */
+/* Author: CYBERMEDIC */
+/* Last updated: 2026-09-21 */
+/* Notes: Exact IOC lookup; see the daily IOC summary for intelligence context. */
+FROM logs-endpoint.events.file-*
+| WHERE @timestamp >= NOW() - 30 DAYS
+| WHERE file.hash.sha1 IN ("b6bc9e1d0b2fb96ab7c47e04cb0be477410bc1f2","caf2c54e400437da717cf215181b170f65187abf")
+| EVAL IOC=TO_STRING(file.hash.sha1)
+| KEEP @timestamp,host.name,file.name,file.path,process.name,file.hash.sha1,IOC
+| SORT @timestamp DESC
+| LIMIT 500
+/* End sha1 hunt 4 */

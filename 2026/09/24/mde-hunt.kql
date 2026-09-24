@@ -1,44 +1,30 @@
-// CYBERMEDIC MDE ADVANCED HUNTING - LIGHTWEIGHT
-// Run one named query block at a time. Each block uses early exact filters.
-// Default lookback: 30 days; result limit: 500.
-// Schema reference: https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-schema-tables
-// ===== BEGIN QUERY 001: domain in DeviceNetworkEvents.RemoteUrl =====
-// Business date: 2026-09-24; run this query block by itself.
-// Source: F5 Labs - https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026
+// Query name: CYBERMEDIC Daily DOMAIN IOC Hunt 1
+// Description: Search 30-day Defender telemetry for validated DOMAIN indicators.
+// Author : CYBERMEDIC
+// Last updated: 2026-09-24
+// MITRE ATT&CK mapping: T1071 - Application Layer Protocol
+// Notes: Exact IOC lookup; investigate returned device and process context.
+// Sources: See the daily IOC summary for 2026-09-24.
+let IOCs = dynamic(["cdn.sendibt1.com","cdn10.sendibt1.com","cdn11.sendibt1.com","cdn2.sendibt1.com","cdn3.sendibt1.com","cdn4.sendibt1.com","cdn9.sendibt1.com","corralos.beer","docusign.web-viewww.es","glegchner.com","localcontex.online","velvet-otter-glagceis.life"]);
 DeviceNetworkEvents
 | where Timestamp >= ago(30d)
-| where RemoteUrl in~ ("cdn.sendibt1.com", "cdn10.sendibt1.com", "cdn11.sendibt1.com", "cdn2.sendibt1.com", "cdn3.sendibt1.com", "cdn4.sendibt1.com", "cdn9.sendibt1.com", "corralos.beer", "glegchner.com")
-| extend IOC=RemoteUrl,IOCType="domain",MatchedField="RemoteUrl",MDEHitSource="DeviceNetworkEvents.RemoteUrl",IntelSource="F5 Labs",SourceURL="https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026"
-| project Timestamp,DeviceName,ActionType,RemoteIP,RemotePort,RemoteUrl,Protocol,InitiatingProcessFileName,InitiatingProcessCommandLine,IOC,IOCType,MatchedField,MDEHitSource,IntelSource,SourceURL
-| take 500
-// ===== END QUERY 001 =====
-// ===== BEGIN QUERY 002: domain in DeviceNetworkEvents.RemoteUrl =====
-// Business date: 2026-09-24; run this query block by itself.
-// Source: Gurucul Threat Research - https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026
+| where RemoteUrl in~ (IOCs)
+| extend IOC=RemoteUrl
+| project Timestamp,DeviceName,RemoteIP,RemotePort,RemoteUrl,InitiatingProcessFileName,IOC
+| top 500 by Timestamp desc
+// End domain hunt 1
+// Query name: CYBERMEDIC Daily IP IOC Hunt 2
+// Description: Search 30-day Defender telemetry for validated IP indicators.
+// Author : CYBERMEDIC
+// Last updated: 2026-09-24
+// MITRE ATT&CK mapping: T1071 - Application Layer Protocol
+// Notes: Exact IOC lookup; investigate returned device and process context.
+// Sources: See the daily IOC summary for 2026-09-24.
+let IOCs = dynamic(["45.150.33.128"]);
 DeviceNetworkEvents
 | where Timestamp >= ago(30d)
-| where RemoteUrl in~ ("docusign.web-viewww.es")
-| extend IOC=RemoteUrl,IOCType="domain",MatchedField="RemoteUrl",MDEHitSource="DeviceNetworkEvents.RemoteUrl",IntelSource="Gurucul Threat Research",SourceURL="https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
-| project Timestamp,DeviceName,ActionType,RemoteIP,RemotePort,RemoteUrl,Protocol,InitiatingProcessFileName,InitiatingProcessCommandLine,IOC,IOCType,MatchedField,MDEHitSource,IntelSource,SourceURL
-| take 500
-// ===== END QUERY 002 =====
-// ===== BEGIN QUERY 003: url in DeviceNetworkEvents.RemoteUrl =====
-// Business date: 2026-09-24; run this query block by itself.
-// Source: Gurucul Threat Research - https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026
-DeviceNetworkEvents
-| where Timestamp >= ago(30d)
-| where RemoteUrl in~ ("https://localcontex.online/AdobecloudReader/pdf_Reader_en_install.msi", "https://localcontex.online/review.signal-doc.cloud/.DocuSign/")
-| extend IOC=RemoteUrl,IOCType="url",MatchedField="RemoteUrl",MDEHitSource="DeviceNetworkEvents.RemoteUrl",IntelSource="Gurucul Threat Research",SourceURL="https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
-| project Timestamp,DeviceName,ActionType,RemoteIP,RemotePort,RemoteUrl,Protocol,InitiatingProcessFileName,InitiatingProcessCommandLine,IOC,IOCType,MatchedField,MDEHitSource,IntelSource,SourceURL
-| take 500
-// ===== END QUERY 003 =====
-// ===== BEGIN QUERY 004: url in DeviceNetworkEvents.RemoteUrl =====
-// Business date: 2026-09-24; run this query block by itself.
-// Source: SANS Internet Storm Center - https://isc.sans.edu/diary.html?storyid=33360
-DeviceNetworkEvents
-| where Timestamp >= ago(30d)
-| where RemoteUrl in~ ("http://45.150.33.128/92961f75b259df2?force=1", "http://45.150.33.128/d4c8083a7d97?force=1", "https://velvet-otter-glagceis.life/ext-b.4f9db6afd06a.js", "https://velvet-otter-glagceis.life/t.4b1009ff6c3f.js")
-| extend IOC=RemoteUrl,IOCType="url",MatchedField="RemoteUrl",MDEHitSource="DeviceNetworkEvents.RemoteUrl",IntelSource="SANS Internet Storm Center",SourceURL="https://isc.sans.edu/diary.html?storyid=33360"
-| project Timestamp,DeviceName,ActionType,RemoteIP,RemotePort,RemoteUrl,Protocol,InitiatingProcessFileName,InitiatingProcessCommandLine,IOC,IOCType,MatchedField,MDEHitSource,IntelSource,SourceURL
-| take 500
-// ===== END QUERY 004 =====
+| where RemoteIP in (IOCs)
+| extend IOC=RemoteIP
+| project Timestamp,DeviceName,RemoteIP,RemotePort,RemoteUrl,InitiatingProcessFileName,IOC
+| top 500 by Timestamp desc
+// End ip hunt 2

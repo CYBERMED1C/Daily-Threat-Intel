@@ -1,0 +1,8 @@
+/* Query name: CYBERMEDIC Daily DOMAIN IOC Hunt 1 */
+/* Description: Search 30-day Elastic Defend telemetry for validated DOMAIN indicators. */
+/* Author: CYBERMEDIC */
+/* Last updated: 2026-09-22 */
+/* Notes: Exact IOC lookup; see the daily IOC summary for intelligence context. */
+FROM logs-endpoint.events.network-*
+| WHERE false
+| LIMIT 0
