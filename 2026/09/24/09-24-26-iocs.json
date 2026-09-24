@@ -1,0 +1,706 @@
+[
+  {
+    "ioc": "cdn.sendibt1.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Brevo supply-chain ClickFix compromise",
+    "malware_family": "Web Media Optimizer backdoor",
+    "threat_actor": null,
+    "source_organization": [
+      "F5 Labs"
+    ],
+    "source_article": [
+      "Weekly Threat Bulletin - September 23rd, 2026"
+    ],
+    "source_url": [
+      "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T13:35:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Malicious plugin and ClickFix delivery infrastructure.",
+    "sources": [
+      {
+        "organization": "F5 Labs",
+        "article_title": "Weekly Threat Bulletin - September 23rd, 2026",
+        "url": "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:00Z",
+        "discovery_context": [
+          "F5 Labs lists this attacker-controlled Brevo-lookalike host among infrastructure used to deliver the malicious WordPress backdoor."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "cdn10.sendibt1.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Brevo supply-chain ClickFix compromise",
+    "malware_family": "Web Media Optimizer backdoor",
+    "threat_actor": null,
+    "source_organization": [
+      "F5 Labs"
+    ],
+    "source_article": [
+      "Weekly Threat Bulletin - September 23rd, 2026"
+    ],
+    "source_url": [
+      "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T13:35:00Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Malicious Web Media Optimizer plugin delivery host.",
+    "sources": [
+      {
+        "organization": "F5 Labs",
+        "article_title": "Weekly Threat Bulletin - September 23rd, 2026",
+        "url": "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:00Z",
+        "discovery_context": [
+          "F5 Labs specifically identifies this host as the location used to retrieve the malicious WordPress backdoor plugin."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "cdn11.sendibt1.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Brevo supply-chain ClickFix compromise",
+    "malware_family": "Web Media Optimizer backdoor",
+    "threat_actor": null,
+    "source_organization": [
+      "F5 Labs"
+    ],
+    "source_article": [
+      "Weekly Threat Bulletin - September 23rd, 2026"
+    ],
+    "source_url": [
+      "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T13:35:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Malicious plugin and ClickFix delivery infrastructure.",
+    "sources": [
+      {
+        "organization": "F5 Labs",
+        "article_title": "Weekly Threat Bulletin - September 23rd, 2026",
+        "url": "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:00Z",
+        "discovery_context": [
+          "F5 Labs lists this attacker-controlled Brevo-lookalike host among infrastructure used to deliver the malicious WordPress backdoor."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "cdn2.sendibt1.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Brevo supply-chain ClickFix compromise",
+    "malware_family": "Web Media Optimizer backdoor",
+    "threat_actor": null,
+    "source_organization": [
+      "F5 Labs"
+    ],
+    "source_article": [
+      "Weekly Threat Bulletin - September 23rd, 2026"
+    ],
+    "source_url": [
+      "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T13:35:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Malicious plugin and ClickFix delivery infrastructure.",
+    "sources": [
+      {
+        "organization": "F5 Labs",
+        "article_title": "Weekly Threat Bulletin - September 23rd, 2026",
+        "url": "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:00Z",
+        "discovery_context": [
+          "F5 Labs lists this attacker-controlled Brevo-lookalike host among infrastructure used to deliver the malicious WordPress backdoor."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "cdn3.sendibt1.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Brevo supply-chain ClickFix compromise",
+    "malware_family": "Web Media Optimizer backdoor",
+    "threat_actor": null,
+    "source_organization": [
+      "F5 Labs"
+    ],
+    "source_article": [
+      "Weekly Threat Bulletin - September 23rd, 2026"
+    ],
+    "source_url": [
+      "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T13:35:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Malicious plugin and ClickFix delivery infrastructure.",
+    "sources": [
+      {
+        "organization": "F5 Labs",
+        "article_title": "Weekly Threat Bulletin - September 23rd, 2026",
+        "url": "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:00Z",
+        "discovery_context": [
+          "F5 Labs lists this attacker-controlled Brevo-lookalike host among infrastructure used to deliver the malicious WordPress backdoor."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "cdn4.sendibt1.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Brevo supply-chain ClickFix compromise",
+    "malware_family": "Web Media Optimizer backdoor",
+    "threat_actor": null,
+    "source_organization": [
+      "F5 Labs"
+    ],
+    "source_article": [
+      "Weekly Threat Bulletin - September 23rd, 2026"
+    ],
+    "source_url": [
+      "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T13:35:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Malicious plugin and ClickFix delivery infrastructure.",
+    "sources": [
+      {
+        "organization": "F5 Labs",
+        "article_title": "Weekly Threat Bulletin - September 23rd, 2026",
+        "url": "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:00Z",
+        "discovery_context": [
+          "F5 Labs lists this attacker-controlled Brevo-lookalike host among infrastructure used to deliver the malicious WordPress backdoor."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "cdn9.sendibt1.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Brevo supply-chain ClickFix compromise",
+    "malware_family": "Web Media Optimizer backdoor",
+    "threat_actor": null,
+    "source_organization": [
+      "F5 Labs"
+    ],
+    "source_article": [
+      "Weekly Threat Bulletin - September 23rd, 2026"
+    ],
+    "source_url": [
+      "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T13:35:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Malicious plugin and ClickFix delivery infrastructure.",
+    "sources": [
+      {
+        "organization": "F5 Labs",
+        "article_title": "Weekly Threat Bulletin - September 23rd, 2026",
+        "url": "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:00Z",
+        "discovery_context": [
+          "F5 Labs lists this attacker-controlled Brevo-lookalike host among infrastructure used to deliver the malicious WordPress backdoor."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "corralos.beer",
+    "ioc_type": "domain",
+    "threat_campaign": "Brevo supply-chain ClickFix compromise",
+    "malware_family": "Web Media Optimizer backdoor",
+    "threat_actor": null,
+    "source_organization": [
+      "F5 Labs"
+    ],
+    "source_article": [
+      "Weekly Threat Bulletin - September 23rd, 2026"
+    ],
+    "source_url": [
+      "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T13:35:00Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Secondary payload infrastructure.",
+    "sources": [
+      {
+        "organization": "F5 Labs",
+        "article_title": "Weekly Threat Bulletin - September 23rd, 2026",
+        "url": "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:00Z",
+        "discovery_context": [
+          "F5 Labs identifies this domain as secondary JavaScript delivery infrastructure periodically contacted by the malicious plugin."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "docusign.web-viewww.es",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing campaign",
+    "malware_family": "Remote access tooling",
+    "threat_actor": "CSuite",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T13:35:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Document-sharing impersonation infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:00Z",
+        "discovery_context": [
+          "Gurucul includes this DocuSign-lookalike host in the published CSuite phishing campaign IOC list and detection logic."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "glegchner.com",
+    "ioc_type": "domain",
+    "threat_campaign": "Brevo supply-chain ClickFix compromise",
+    "malware_family": "Web Media Optimizer backdoor",
+    "threat_actor": null,
+    "source_organization": [
+      "F5 Labs"
+    ],
+    "source_article": [
+      "Weekly Threat Bulletin - September 23rd, 2026"
+    ],
+    "source_url": [
+      "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T13:35:00Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Secondary payload infrastructure.",
+    "sources": [
+      {
+        "organization": "F5 Labs",
+        "article_title": "Weekly Threat Bulletin - September 23rd, 2026",
+        "url": "https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:00Z",
+        "discovery_context": [
+          "F5 Labs identifies this domain as secondary JavaScript delivery infrastructure periodically contacted by the malicious plugin."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://45.150.33.128/92961f75b259df2?force=1",
+    "ioc_type": "url",
+    "threat_campaign": "Macfinger ClickFix campaign",
+    "malware_family": "Atomic macOS Stealer variant",
+    "threat_actor": null,
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "Macfinger ClickFix campaign"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary.html?storyid=33360"
+    ],
+    "article_published_date": [
+      "2026-09-23T00:55:11Z"
+    ],
+    "ioc_first_seen": "2026-09-21T23:12:58Z",
+    "ioc_last_seen": "2026-09-22T23:59:59Z",
+    "collected_at": "2026-09-24T13:35:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Initial malware download URL.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "Macfinger ClickFix campaign",
+        "url": "https://isc.sans.edu/diary.html?storyid=33360",
+        "published_at": "2026-09-23T00:55:11Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:00Z",
+        "discovery_context": [
+          "SANS ISC observed this exact URL delivering the initial malicious Bourne shell script in the Macfinger infection chain."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://45.150.33.128/d4c8083a7d97?force=1",
+    "ioc_type": "url",
+    "threat_campaign": "Macfinger ClickFix campaign",
+    "malware_family": "Atomic macOS Stealer variant",
+    "threat_actor": null,
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "Macfinger ClickFix campaign"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary.html?storyid=33360"
+    ],
+    "article_published_date": [
+      "2026-09-23T00:55:11Z"
+    ],
+    "ioc_first_seen": "2026-09-21T23:13:05Z",
+    "ioc_last_seen": "2026-09-22T23:59:59Z",
+    "collected_at": "2026-09-24T13:35:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Follow-up malware download URL.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "Macfinger ClickFix campaign",
+        "url": "https://isc.sans.edu/diary.html?storyid=33360",
+        "published_at": "2026-09-23T00:55:11Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:00Z",
+        "discovery_context": [
+          "SANS ISC observed this exact URL delivering a malicious macOS follow-up payload in the Macfinger infection chain."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://localcontex.online/AdobecloudReader/pdf_Reader_en_install.msi",
+    "ioc_type": "url",
+    "threat_campaign": "CSuite device-code phishing campaign",
+    "malware_family": "Remote access tooling",
+    "threat_actor": "CSuite",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T13:35:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Malicious installer delivery URL.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:00Z",
+        "discovery_context": [
+          "Gurucul publishes this exact URL as a malicious installer location associated with the CSuite phishing campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://localcontex.online/review.signal-doc.cloud/.DocuSign/",
+    "ioc_type": "url",
+    "threat_campaign": "CSuite device-code phishing campaign",
+    "malware_family": "Remote access tooling",
+    "threat_actor": "CSuite",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T13:35:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Credential-phishing URL.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:00Z",
+        "discovery_context": [
+          "Gurucul publishes this exact DocuSign-themed URL as malicious infrastructure associated with the CSuite phishing campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://velvet-otter-glagceis.life/ext-b.4f9db6afd06a.js",
+    "ioc_type": "url",
+    "threat_campaign": "Macfinger ClickFix campaign",
+    "malware_family": "Atomic macOS Stealer variant",
+    "threat_actor": null,
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "Macfinger ClickFix campaign"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary.html?storyid=33360"
+    ],
+    "article_published_date": [
+      "2026-09-23T00:55:11Z"
+    ],
+    "ioc_first_seen": "2026-09-22T00:00:00Z",
+    "ioc_last_seen": "2026-09-22T23:59:59Z",
+    "collected_at": "2026-09-24T13:35:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Injected ClickFix script URL.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "Macfinger ClickFix campaign",
+        "url": "https://isc.sans.edu/diary.html?storyid=33360",
+        "published_at": "2026-09-23T00:55:11Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:00Z",
+        "discovery_context": [
+          "SANS ISC publishes this exact URL as injected Macfinger ClickFix campaign JavaScript infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://velvet-otter-glagceis.life/t.4b1009ff6c3f.js",
+    "ioc_type": "url",
+    "threat_campaign": "Macfinger ClickFix campaign",
+    "malware_family": "Atomic macOS Stealer variant",
+    "threat_actor": null,
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "Macfinger ClickFix campaign"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary.html?storyid=33360"
+    ],
+    "article_published_date": [
+      "2026-09-23T00:55:11Z"
+    ],
+    "ioc_first_seen": "2026-09-22T00:00:00Z",
+    "ioc_last_seen": "2026-09-22T23:59:59Z",
+    "collected_at": "2026-09-24T13:35:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Injected ClickFix script URL.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "Macfinger ClickFix campaign",
+        "url": "https://isc.sans.edu/diary.html?storyid=33360",
+        "published_at": "2026-09-23T00:55:11Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:00Z",
+        "discovery_context": [
+          "SANS ISC publishes this exact URL as injected Macfinger ClickFix campaign JavaScript infrastructure."
+        ]
+      }
+    ]
+  }
+]
