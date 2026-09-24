@@ -1,0 +1,26 @@
+// CYBERMEDIC MDE ADVANCED HUNTING
+// Query name: CYBERMEDIC Daily IOC Hunt
+// Description: Exact IOC matches with CTI provenance and telemetry source.
+// Author: CYBERMEDIC
+// Business date: 2026-09-24
+// Lookback: 30 days
+// Schema reference: https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-schema-tables
+let IOCs = datatable(IOC:string,IOCType:string,ThreatName:string,ThreatActor:string,IntelSource:string,SourceURL:string,Confidence:int,Status:string)["cdn.sendibt1.com","domain","Brevo supply-chain ClickFix compromise","","F5 Labs","https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",95,"NEW","cdn10.sendibt1.com","domain","Brevo supply-chain ClickFix compromise","","F5 Labs","https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",97,"NEW","cdn11.sendibt1.com","domain","Brevo supply-chain ClickFix compromise","","F5 Labs","https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",95,"NEW","cdn2.sendibt1.com","domain","Brevo supply-chain ClickFix compromise","","F5 Labs","https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",95,"NEW","cdn3.sendibt1.com","domain","Brevo supply-chain ClickFix compromise","","F5 Labs","https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",95,"NEW","cdn4.sendibt1.com","domain","Brevo supply-chain ClickFix compromise","","F5 Labs","https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",95,"NEW","cdn9.sendibt1.com","domain","Brevo supply-chain ClickFix compromise","","F5 Labs","https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",95,"NEW","corralos.beer","domain","Brevo supply-chain ClickFix compromise","","F5 Labs","https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",97,"NEW","docusign.web-viewww.es","domain","CSuite device-code phishing campaign","CSuite","Gurucul Threat Research","https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",92,"NEW","glegchner.com","domain","Brevo supply-chain ClickFix compromise","","F5 Labs","https://www.f5.com/labs/articles/weekly-threat-bulletin-september-23rd-2026",97,"NEW","http://45.150.33.128/92961f75b259df2?force=1","url","Macfinger ClickFix campaign","","SANS Internet Storm Center","https://isc.sans.edu/diary.html?storyid=33360",99,"NEW","http://45.150.33.128/d4c8083a7d97?force=1","url","Macfinger ClickFix campaign","","SANS Internet Storm Center","https://isc.sans.edu/diary.html?storyid=33360",99,"NEW","https://localcontex.online/AdobecloudReader/pdf_Reader_en_install.msi","url","CSuite device-code phishing campaign","CSuite","Gurucul Threat Research","https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",96,"NEW","https://localcontex.online/review.signal-doc.cloud/.DocuSign/","url","CSuite device-code phishing campaign","CSuite","Gurucul Threat Research","https://partner.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",96,"NEW","https://velvet-otter-glagceis.life/ext-b.4f9db6afd06a.js","url","Macfinger ClickFix campaign","","SANS Internet Storm Center","https://isc.sans.edu/diary.html?storyid=33360",98,"NEW","https://velvet-otter-glagceis.life/t.4b1009ff6c3f.js","url","Macfinger ClickFix campaign","","SANS Internet Storm Center","https://isc.sans.edu/diary.html?storyid=33360",98,"NEW"];
+union
+(
+DeviceNetworkEvents
+| where Timestamp >= ago(30d)
+| where isnotempty(RemoteUrl)
+| extend MatchKey=tolower(iif(RemoteUrl startswith "http://" or RemoteUrl startswith "https://", tostring(parse_url(RemoteUrl).Host), trim_end(@"[.]$", RemoteUrl)))
+| join kind=inner hint.strategy=broadcast (IOCs | where IOCType == "domain" | extend IntelKey=tolower(IOC)) on $left.MatchKey == $right.IntelKey
+| project Timestamp,IOC,IOCType,MatchedField="RemoteUrl",MDEHitSource="DeviceNetworkEvents.RemoteUrl",DeviceName,DeviceId,ActionType,RemoteIP=RemoteIP,RemotePort=tostring(RemotePort),RemoteUrl=RemoteUrl,Protocol=Protocol,FileName="",FolderPath="",SHA256="",SHA1="",MD5="",ProcessCommandLine="",InitiatingProcessFileName,InitiatingProcessCommandLine,ReportId=tostring(ReportId),ThreatName,ThreatActor,Confidence,IntelSource,SourceURL,Status
+),
+(
+DeviceNetworkEvents
+| where Timestamp >= ago(30d)
+| where isnotempty(RemoteUrl)
+| extend MatchKey=tolower(RemoteUrl)
+| join kind=inner hint.strategy=broadcast (IOCs | where IOCType == "url" | extend IntelKey=tolower(IOC)) on $left.MatchKey == $right.IntelKey
+| project Timestamp,IOC,IOCType,MatchedField="RemoteUrl",MDEHitSource="DeviceNetworkEvents.RemoteUrl",DeviceName,DeviceId,ActionType,RemoteIP=RemoteIP,RemotePort=tostring(RemotePort),RemoteUrl=RemoteUrl,Protocol=Protocol,FileName="",FolderPath="",SHA256="",SHA1="",MD5="",ProcessCommandLine="",InitiatingProcessFileName,InitiatingProcessCommandLine,ReportId=tostring(ReportId),ThreatName,ThreatActor,Confidence,IntelSource,SourceURL,Status
+)
+| order by Timestamp desc
