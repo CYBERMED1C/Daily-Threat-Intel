@@ -1,0 +1,4402 @@
+[
+  {
+    "ioc": "allshore-io.cam",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ambitiousaboutautismorguk.com",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "arubanetworks-inc.com",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "aviationpioneers.info",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "carbonato-proxy-drab.vercel.app",
+    "ioc_type": "domain",
+    "threat_campaign": "CARBONATO Docker botnet",
+    "malware_family": "CARBONATO",
+    "threat_actor": "CARBONATO operators",
+    "source_organization": [
+      "ThreatDown"
+    ],
+    "source_article": [
+      "CARBONATO: a botnet built around an AI agent"
+    ],
+    "source_url": [
+      "https://www.threatdown.com/blog/carbonato/"
+    ],
+    "article_published_date": [
+      "2026-09-22T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "ThreatDown explicitly lists this FQDN as a CARBONATO LLM proxy used by the malicious Docker botnet operation.",
+    "sources": [
+      {
+        "organization": "ThreatDown",
+        "article_title": "CARBONATO: a botnet built around an AI agent",
+        "url": "https://www.threatdown.com/blog/carbonato/",
+        "published_at": "2026-09-22T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "ThreatDown explicitly lists this FQDN as a CARBONATO LLM proxy used by the malicious Docker botnet operation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "carbonato-proxy-zeta-2.vercel.app",
+    "ioc_type": "domain",
+    "threat_campaign": "CARBONATO Docker botnet",
+    "malware_family": "CARBONATO",
+    "threat_actor": "CARBONATO operators",
+    "source_organization": [
+      "ThreatDown"
+    ],
+    "source_article": [
+      "CARBONATO: a botnet built around an AI agent"
+    ],
+    "source_url": [
+      "https://www.threatdown.com/blog/carbonato/"
+    ],
+    "article_published_date": [
+      "2026-09-22T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "ThreatDown explicitly lists this FQDN as a CARBONATO LLM proxy used by the malicious Docker botnet operation.",
+    "sources": [
+      {
+        "organization": "ThreatDown",
+        "article_title": "CARBONATO: a botnet built around an AI agent",
+        "url": "https://www.threatdown.com/blog/carbonato/",
+        "published_at": "2026-09-22T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "ThreatDown explicitly lists this FQDN as a CARBONATO LLM proxy used by the malicious Docker botnet operation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "carbonato-proxy-zeta.vercel.app",
+    "ioc_type": "domain",
+    "threat_campaign": "CARBONATO Docker botnet",
+    "malware_family": "CARBONATO",
+    "threat_actor": "CARBONATO operators",
+    "source_organization": [
+      "ThreatDown"
+    ],
+    "source_article": [
+      "CARBONATO: a botnet built around an AI agent"
+    ],
+    "source_url": [
+      "https://www.threatdown.com/blog/carbonato/"
+    ],
+    "article_published_date": [
+      "2026-09-22T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "ThreatDown explicitly lists this FQDN as a CARBONATO LLM proxy used by the malicious Docker botnet operation.",
+    "sources": [
+      {
+        "organization": "ThreatDown",
+        "article_title": "CARBONATO: a botnet built around an AI agent",
+        "url": "https://www.threatdown.com/blog/carbonato/",
+        "published_at": "2026-09-22T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "ThreatDown explicitly lists this FQDN as a CARBONATO LLM proxy used by the malicious Docker botnet operation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "checkingweb.net",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "conferenceuniverses.buzz",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "corporate-sync-gate.net",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "docseed.online",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "docseedn.online",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "docsendsr.online",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "documentationreviewdocument2026review.sbs",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "documentsonitustechnologies.sbs",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "downloaddocumentcontechbuilding.sbs",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "emsafetoproceedtaward.top",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "expressdocumentdelivery.org",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "fincapitalxcom.cfd",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "gddfzxa.online",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ghs.coorpes.com",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "giiro.net",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "greaterheights.sbs",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "greenbullet.ba",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "keepsecurepasserword.cam",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "legacy-bridge-node.net",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "maillive.sbs",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "mmswerod.sbs",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "pdfsecurtoview.cfd",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "pdfsecurtoview.info",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "pdfsecurtoview.sbs",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "pdfsecurtoview365.cfd",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "pdfsecurtoview365.sbs",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "pdfsecurtoviewothers.cfd",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "pdfsecurtoviewothers.sbs",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "pdfsecurtoviewsuite.sbs",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "pikecac.cfd",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "qrcoderuser.cfd",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "selectivelife01.sbs",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "sharepointer-dr.com",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "sharerpoint.cam",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "solarengyloanfunds.com",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "stubborn-academy.icu",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "velvet-otter-glagceis.life",
+    "ioc_type": "domain",
+    "threat_campaign": "Macfinger ClickFix campaign",
+    "malware_family": "Atomic macOS Stealer variant",
+    "threat_actor": null,
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "Macfinger ClickFix campaign"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary.html?storyid=33360"
+    ],
+    "article_published_date": [
+      "2026-09-22T23:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "SANS ISC observed this indicator in the September 22 Macfinger ClickFix infection chain and post-infection traffic.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "Macfinger ClickFix campaign",
+        "url": "https://isc.sans.edu/diary.html?storyid=33360",
+        "published_at": "2026-09-22T23:00:00Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "SANS ISC observed this indicator in the September 22 Macfinger ClickFix infection chain and post-infection traffic."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "voicermailsmessager.cam",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "zerichoproject.org",
+    "ioc_type": "domain",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this domain as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "102.67.5.132",
+    "ioc_type": "ipv4",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "102.88.167.38",
+    "ioc_type": "ipv4",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "141.133.174.208",
+    "ioc_type": "ipv4",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "155.254.26.180",
+    "ioc_type": "ipv4",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "185.174.102.34",
+    "ioc_type": "ipv4",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "188.127.227.18",
+    "ioc_type": "ipv4",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "190.123.46.122",
+    "ioc_type": "ipv4",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "190.211.124.187",
+    "ioc_type": "ipv4",
+    "threat_campaign": "CARBONATO Docker botnet",
+    "malware_family": "CARBONATO",
+    "threat_actor": "CARBONATO operators",
+    "source_organization": [
+      "ThreatDown"
+    ],
+    "source_article": [
+      "CARBONATO: a botnet built around an AI agent"
+    ],
+    "source_url": [
+      "https://www.threatdown.com/blog/carbonato/"
+    ],
+    "article_published_date": [
+      "2026-09-22T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "ThreatDown identifies this address as active CARBONATO command-and-control, beacon, gateway, or reverse-tunnel infrastructure.",
+    "sources": [
+      {
+        "organization": "ThreatDown",
+        "article_title": "CARBONATO: a botnet built around an AI agent",
+        "url": "https://www.threatdown.com/blog/carbonato/",
+        "published_at": "2026-09-22T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "ThreatDown identifies this address as active CARBONATO command-and-control, beacon, gateway, or reverse-tunnel infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "191.101.130.42",
+    "ioc_type": "ipv4",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "207.189.19.40",
+    "ioc_type": "ipv4",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "212.189.40.73",
+    "ioc_type": "ipv4",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "213.136.79.115",
+    "ioc_type": "ipv4",
+    "threat_campaign": "CARBONATO Docker botnet",
+    "malware_family": "CARBONATO",
+    "threat_actor": "CARBONATO operators",
+    "source_organization": [
+      "ThreatDown"
+    ],
+    "source_article": [
+      "CARBONATO: a botnet built around an AI agent"
+    ],
+    "source_url": [
+      "https://www.threatdown.com/blog/carbonato/"
+    ],
+    "article_published_date": [
+      "2026-09-22T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "ThreatDown identifies this address as active CARBONATO command-and-control, beacon, gateway, or reverse-tunnel infrastructure.",
+    "sources": [
+      {
+        "organization": "ThreatDown",
+        "article_title": "CARBONATO: a botnet built around an AI agent",
+        "url": "https://www.threatdown.com/blog/carbonato/",
+        "published_at": "2026-09-22T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "ThreatDown identifies this address as active CARBONATO command-and-control, beacon, gateway, or reverse-tunnel infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "213.136.83.197",
+    "ioc_type": "ipv4",
+    "threat_campaign": "CARBONATO Docker botnet",
+    "malware_family": "CARBONATO",
+    "threat_actor": "CARBONATO operators",
+    "source_organization": [
+      "ThreatDown"
+    ],
+    "source_article": [
+      "CARBONATO: a botnet built around an AI agent"
+    ],
+    "source_url": [
+      "https://www.threatdown.com/blog/carbonato/"
+    ],
+    "article_published_date": [
+      "2026-09-22T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "ThreatDown identifies this address as active CARBONATO command-and-control, beacon, gateway, or reverse-tunnel infrastructure.",
+    "sources": [
+      {
+        "organization": "ThreatDown",
+        "article_title": "CARBONATO: a botnet built around an AI agent",
+        "url": "https://www.threatdown.com/blog/carbonato/",
+        "published_at": "2026-09-22T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "ThreatDown identifies this address as active CARBONATO command-and-control, beacon, gateway, or reverse-tunnel infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "31.57.147.133",
+    "ioc_type": "ipv4",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "31.57.38.60",
+    "ioc_type": "ipv4",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "45.150.33.128",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Macfinger ClickFix campaign",
+    "malware_family": "Atomic macOS Stealer variant",
+    "threat_actor": null,
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "Macfinger ClickFix campaign"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary.html?storyid=33360"
+    ],
+    "article_published_date": [
+      "2026-09-22T23:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SANS ISC observed this indicator in the September 22 Macfinger ClickFix infection chain and post-infection traffic.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "Macfinger ClickFix campaign",
+        "url": "https://isc.sans.edu/diary.html?storyid=33360",
+        "published_at": "2026-09-22T23:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "SANS ISC observed this indicator in the September 22 Macfinger ClickFix infection chain and post-infection traffic."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "45.79.183.61",
+    "ioc_type": "ipv4",
+    "threat_campaign": "CARBONATO Docker botnet",
+    "malware_family": "CARBONATO",
+    "threat_actor": "CARBONATO operators",
+    "source_organization": [
+      "ThreatDown"
+    ],
+    "source_article": [
+      "CARBONATO: a botnet built around an AI agent"
+    ],
+    "source_url": [
+      "https://www.threatdown.com/blog/carbonato/"
+    ],
+    "article_published_date": [
+      "2026-09-22T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "ThreatDown identifies this address as active CARBONATO command-and-control, beacon, gateway, or reverse-tunnel infrastructure.",
+    "sources": [
+      {
+        "organization": "ThreatDown",
+        "article_title": "CARBONATO: a botnet built around an AI agent",
+        "url": "https://www.threatdown.com/blog/carbonato/",
+        "published_at": "2026-09-22T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "ThreatDown identifies this address as active CARBONATO command-and-control, beacon, gateway, or reverse-tunnel infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "64.204.180.203",
+    "ioc_type": "ipv4",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "91.92.41.114",
+    "ioc_type": "ipv4",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this address as CSuite phishing or remote-access campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "91.99.195.164",
+    "ioc_type": "ipv4",
+    "threat_campaign": "CARBONATO Docker botnet",
+    "malware_family": "CARBONATO",
+    "threat_actor": "CARBONATO operators",
+    "source_organization": [
+      "ThreatDown"
+    ],
+    "source_article": [
+      "CARBONATO: a botnet built around an AI agent"
+    ],
+    "source_url": [
+      "https://www.threatdown.com/blog/carbonato/"
+    ],
+    "article_published_date": [
+      "2026-09-22T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "ThreatDown identifies this address as active CARBONATO command-and-control, beacon, gateway, or reverse-tunnel infrastructure.",
+    "sources": [
+      {
+        "organization": "ThreatDown",
+        "article_title": "CARBONATO: a botnet built around an AI agent",
+        "url": "https://www.threatdown.com/blog/carbonato/",
+        "published_at": "2026-09-22T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "ThreatDown identifies this address as active CARBONATO command-and-control, beacon, gateway, or reverse-tunnel infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "95.163.153.80",
+    "ioc_type": "ipv4",
+    "threat_campaign": "Macfinger ClickFix campaign",
+    "malware_family": "Atomic macOS Stealer variant",
+    "threat_actor": null,
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "Macfinger ClickFix campaign"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary.html?storyid=33360"
+    ],
+    "article_published_date": [
+      "2026-09-22T23:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SANS ISC observed this indicator in the September 22 Macfinger ClickFix infection chain and post-infection traffic.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "Macfinger ClickFix campaign",
+        "url": "https://isc.sans.edu/diary.html?storyid=33360",
+        "published_at": "2026-09-22T23:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "SANS ISC observed this indicator in the September 22 Macfinger ClickFix infection chain and post-infection traffic."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "07682ca34a9bf18beb664088e55035a83306b95b31d4aaba242e9d67f8c378a3",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "0d6b451bd58b904e7dd15ce3e28ea129f7f95c9d248944fbdacdf6fb1d2adc99",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "1a3765e8cb0055ec31693b8f82ce9744106dee08368259661600b072c6805af4",
+    "ioc_type": "sha256",
+    "threat_campaign": "Macfinger ClickFix campaign",
+    "malware_family": "Atomic macOS Stealer variant",
+    "threat_actor": null,
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "Macfinger ClickFix campaign"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary.html?storyid=33360"
+    ],
+    "article_published_date": [
+      "2026-09-22T23:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "SANS ISC observed this indicator in the September 22 Macfinger ClickFix infection chain and post-infection traffic.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "Macfinger ClickFix campaign",
+        "url": "https://isc.sans.edu/diary.html?storyid=33360",
+        "published_at": "2026-09-22T23:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "SANS ISC observed this indicator in the September 22 Macfinger ClickFix infection chain and post-infection traffic."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2b89225801591cd223e0cf0b1faa8e7b12e88d6b6bc6ec9f5e715171137553ac",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "375e49680fe4b4a62320bdcfd16b7bd75f6223a15d620c475c6988803b67d416",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "38ba6bfe0cc2b7c5ff38f1f698e2c9bfdb52dd7937111967fddf785ba001e1f2",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "394d7be5ecbe326062c1de1fb674bdcbb4dbe3ce03b4227994607047b832debd",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "3a8daf4e992ea34b71b259af85d4d12ca52d80b9e2b262bd5aa5922a5a955f9f",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "41734f8e6cc75b66f51638b76780f61a0b21ad9f77586e2665b7ab8d7e131936",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "463786717f51b710dbbb013437141e416b98d810dfaa9f4de90a4c4939bc66b9",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "6606a5f18184b224a56c9cb658fa26f7fce45099da548a30a8db2c5f2c70377c",
+    "ioc_type": "sha256",
+    "threat_campaign": "Macfinger ClickFix campaign",
+    "malware_family": "Atomic macOS Stealer variant",
+    "threat_actor": null,
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "Macfinger ClickFix campaign"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary.html?storyid=33360"
+    ],
+    "article_published_date": [
+      "2026-09-22T23:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "SANS ISC observed this indicator in the September 22 Macfinger ClickFix infection chain and post-infection traffic.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "Macfinger ClickFix campaign",
+        "url": "https://isc.sans.edu/diary.html?storyid=33360",
+        "published_at": "2026-09-22T23:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "SANS ISC observed this indicator in the September 22 Macfinger ClickFix infection chain and post-infection traffic."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "6f62a8380eb5038e253772033c0ebc1ddb951a042c4a1a90ba8755819dc74e53",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "74e306072561731adf55afd4de461ec0736ca22c0b458a78e7512b2701341f28",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "7b03111fa24ce01054332f013b3fe8189d2b61897e7306666c73b086588a64a5",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "842f0236ea2c2b7773054920e7a870e07869c4e99f84bd31ccfd215781b4f267",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "90f8e6259ce27592c460d235aff104d7507dfff4e7889c34ab714cdb19944473",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "9a03a0b65b2a2d27b348e583237d512a55f3f8287989abf7ffca0285d5f8e43d",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "9d87b41c2b29ccbeac851b98f1a7dce4ab4781fec0cbc55fa6f93a6299a3d564",
+    "ioc_type": "sha256",
+    "threat_campaign": "Macfinger ClickFix campaign",
+    "malware_family": "Atomic macOS Stealer variant",
+    "threat_actor": null,
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "Macfinger ClickFix campaign"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary.html?storyid=33360"
+    ],
+    "article_published_date": [
+      "2026-09-22T23:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "SANS ISC observed this indicator in the September 22 Macfinger ClickFix infection chain and post-infection traffic.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "Macfinger ClickFix campaign",
+        "url": "https://isc.sans.edu/diary.html?storyid=33360",
+        "published_at": "2026-09-22T23:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "SANS ISC observed this indicator in the September 22 Macfinger ClickFix infection chain and post-infection traffic."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a450a84a60ce6646596feb2d6bea4c89a1b5b4e7d6325d5b7c2000982987411c",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a89a31ec605c0ed9cd263cbdea6ee4a2c6502ec81e5b3e8a3c9fb3de945405f9",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "aac51e4016c50a705a26bd56435f0fd9685e53d6bc0cc6034b7370e76d7cb376",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ae7af8159f06a059411411e5e816b415e32213371fb085ced1dc5679a0112c48",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "aefd71902453cc83104aa963d8d9051c875d93ddf40680616e8fa5e68565ea69",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b1e55c9679f9aca94d66fdb08195cf8752f69f1d6896a5b2e60d979fca5a4036",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b59e7cb539c0b81a58f60d5ca0ed3df62d1856b29076720efbb7dd9411d99eec",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b68cdb1b46502fbce67ce3f8110682936d06afd2116af096e30abd4c8376b6dc",
+    "ioc_type": "sha256",
+    "threat_campaign": "Macfinger ClickFix campaign",
+    "malware_family": "Atomic macOS Stealer variant",
+    "threat_actor": null,
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "Macfinger ClickFix campaign"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary.html?storyid=33360"
+    ],
+    "article_published_date": [
+      "2026-09-22T23:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "SANS ISC observed this indicator in the September 22 Macfinger ClickFix infection chain and post-infection traffic.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "Macfinger ClickFix campaign",
+        "url": "https://isc.sans.edu/diary.html?storyid=33360",
+        "published_at": "2026-09-22T23:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "SANS ISC observed this indicator in the September 22 Macfinger ClickFix infection chain and post-infection traffic."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "c0eb04dcfa745653c466c34978a1f3b4e5041f526be8c2e46b8c722498ca746a",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "c5f7083722fc5bee4e7a7109495348d3731e6b077919a6b679b9f5af885923cd",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "d995ea6f1621c29cdd4353cfb8b36cd1336b34bc8b180b73ce52cd939060bf0f",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "e769b2b4463e7d39320b65a49183ce4ff8c20459fa183e7b03f02e1b44420eb0",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "eb9274a1fb6064e784f9c0ce95c78007efcadc279d4ffcac13998a45ebf7b49f",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "fd98c6881cadc47e7d425bbd4b992237a832e69fdfe872a90ba567ed58a148ad",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "fdd171cc26704218b0762a33650c0d1246c42cbe583a858684e1b6ac12b9bbe7",
+    "ioc_type": "sha256",
+    "threat_campaign": "CSuite device-code phishing and remote-access campaign",
+    "malware_family": null,
+    "threat_actor": "CSuite operators",
+    "source_organization": [
+      "Gurucul Threat Research"
+    ],
+    "source_article": [
+      "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access"
+    ],
+    "source_url": [
+      "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-24T01:30:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator.",
+    "sources": [
+      {
+        "organization": "Gurucul Threat Research",
+        "article_title": "CSuite Targets US and EU Organizations with Device-Code Phishing and Remote Access",
+        "url": "https://community.gurucul.com/articles/ThreatResearch/CSuite-Targets-US-and-EU-Organizations-23-9-2026",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-22T13:00:01.171104Z",
+        "discovery_context": [
+          "Gurucul's high-severity threat research explicitly lists this SHA256 as a malicious CSuite campaign payload indicator."
+        ]
+      }
+    ]
+  }
+]
