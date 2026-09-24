@@ -1,8 +1,8 @@
-// Query name: CYBERMEDIC Daily DOMAIN IOC Hunt 1
-// Description: Search 30-day Defender telemetry for validated DOMAIN indicators.
+// Query name: CYBERMEDIC Daily IOC Hunt
+// Description: Search 30-day Microsoft Defender telemetry for validated IOC values.
 // Author : CYBERMEDIC
 // Last updated: 2026-09-22
-// MITRE ATT&CK mapping: T1071 - Application Layer Protocol
-// Notes: Exact IOC lookup; investigate returned device and process context.
+// MITRE ATT&CK mapping: N/A - IOC lookup
+// Notes: One runnable query; exact IOC filters precede the 500-result limit.
 // Sources: See the daily IOC summary for 2026-09-22.
 print Status="No qualifying huntable IOCs were published for this business date"

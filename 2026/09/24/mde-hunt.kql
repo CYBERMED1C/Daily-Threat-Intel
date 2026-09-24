@@ -1,30 +1,12 @@
-// Query name: CYBERMEDIC Daily DOMAIN IOC Hunt 1
-// Description: Search 30-day Defender telemetry for validated DOMAIN indicators.
+// Query name: CYBERMEDIC Daily IOC Hunt
+// Description: Search 30-day Microsoft Defender telemetry for validated IOC values.
 // Author : CYBERMEDIC
 // Last updated: 2026-09-24
-// MITRE ATT&CK mapping: T1071 - Application Layer Protocol
-// Notes: Exact IOC lookup; investigate returned device and process context.
+// MITRE ATT&CK mapping: N/A - IOC lookup
+// Notes: One runnable query; exact IOC filters precede the 500-result limit.
 // Sources: See the daily IOC summary for 2026-09-24.
-let IOCs = dynamic(["cdn.sendibt1.com","cdn10.sendibt1.com","cdn11.sendibt1.com","cdn2.sendibt1.com","cdn3.sendibt1.com","cdn4.sendibt1.com","cdn9.sendibt1.com","corralos.beer","docusign.web-viewww.es","glegchner.com","localcontex.online","velvet-otter-glagceis.life"]);
 DeviceNetworkEvents
 | where Timestamp >= ago(30d)
-| where RemoteUrl in~ (IOCs)
-| extend IOC=RemoteUrl
-| project Timestamp,DeviceName,RemoteIP,RemotePort,RemoteUrl,InitiatingProcessFileName,IOC
+| where RemoteUrl in~ ("cdn.sendibt1.com","cdn10.sendibt1.com","cdn11.sendibt1.com","cdn2.sendibt1.com","cdn3.sendibt1.com","cdn4.sendibt1.com","cdn9.sendibt1.com","corralos.beer","docusign.web-viewww.es","glegchner.com","localcontex.online","velvet-otter-glagceis.life") or RemoteIP in~ ("45.150.33.128")
+| project Timestamp,DeviceName,RemoteIP,RemotePort,RemoteUrl,InitiatingProcessFileName
 | top 500 by Timestamp desc
-// End domain hunt 1
-// Query name: CYBERMEDIC Daily IP IOC Hunt 2
-// Description: Search 30-day Defender telemetry for validated IP indicators.
-// Author : CYBERMEDIC
-// Last updated: 2026-09-24
-// MITRE ATT&CK mapping: T1071 - Application Layer Protocol
-// Notes: Exact IOC lookup; investigate returned device and process context.
-// Sources: See the daily IOC summary for 2026-09-24.
-let IOCs = dynamic(["45.150.33.128"]);
-DeviceNetworkEvents
-| where Timestamp >= ago(30d)
-| where RemoteIP in (IOCs)
-| extend IOC=RemoteIP
-| project Timestamp,DeviceName,RemoteIP,RemotePort,RemoteUrl,InitiatingProcessFileName,IOC
-| top 500 by Timestamp desc
-// End ip hunt 2

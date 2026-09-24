@@ -1,26 +1,11 @@
-/* Query name: CYBERMEDIC Daily DOMAIN IOC Hunt 1 */
-/* Description: Search 30-day Elastic Defend telemetry for validated DOMAIN indicators. */
+/* Query name: CYBERMEDIC Daily IOC Hunt */
+/* Description: Search 30-day Elastic Defend telemetry for validated IOC values. */
 /* Author: CYBERMEDIC */
 /* Last updated: 2026-09-24 */
-/* Notes: Exact IOC lookup; see the daily IOC summary for intelligence context. */
-FROM logs-endpoint.events.network-*
+/* Notes: One runnable query; exact IOC filters precede newest-first results. */
+FROM logs-endpoint.events.*
 | WHERE @timestamp >= NOW() - 30 DAYS
-| WHERE destination.domain IN ("cdn.sendibt1.com","cdn10.sendibt1.com","cdn11.sendibt1.com","cdn2.sendibt1.com","cdn3.sendibt1.com","cdn4.sendibt1.com","cdn9.sendibt1.com","corralos.beer","docusign.web-viewww.es","glegchner.com","localcontex.online","velvet-otter-glagceis.life")
-| EVAL IOC=TO_STRING(destination.domain)
-| KEEP @timestamp,host.name,process.name,destination.ip,destination.port,destination.domain,IOC
+| WHERE destination.domain IN ("cdn.sendibt1.com","cdn10.sendibt1.com","cdn11.sendibt1.com","cdn2.sendibt1.com","cdn3.sendibt1.com","cdn4.sendibt1.com","cdn9.sendibt1.com","corralos.beer","docusign.web-viewww.es","glegchner.com","localcontex.online","velvet-otter-glagceis.life") OR destination.ip IN ("45.150.33.128")
+| KEEP @timestamp,host.name,process.name,file.name,file.path,destination.ip,destination.port,destination.domain,file.hash.md5,file.hash.sha1,file.hash.sha256
 | SORT @timestamp DESC
 | LIMIT 500
-/* End domain hunt 1 */
-/* Query name: CYBERMEDIC Daily IP IOC Hunt 2 */
-/* Description: Search 30-day Elastic Defend telemetry for validated IP indicators. */
-/* Author: CYBERMEDIC */
-/* Last updated: 2026-09-24 */
-/* Notes: Exact IOC lookup; see the daily IOC summary for intelligence context. */
-FROM logs-endpoint.events.network-*
-| WHERE @timestamp >= NOW() - 30 DAYS
-| WHERE destination.ip IN ("45.150.33.128")
-| EVAL IOC=TO_STRING(destination.ip)
-| KEEP @timestamp,host.name,process.name,destination.ip,destination.port,destination.domain,IOC
-| SORT @timestamp DESC
-| LIMIT 500
-/* End ip hunt 2 */
