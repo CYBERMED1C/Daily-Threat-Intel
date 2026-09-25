@@ -1,0 +1,989 @@
+[
+  {
+    "ioc": "11x.mlcrosoft.vip",
+    "ioc_type": "domain",
+    "original_ioc": "11x.mlcrosoft.vip",
+    "hunt_ioc": "11x.mlcrosoft.vip",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Silver Fox malware infrastructure",
+    "malware_family": "Gh0st, Win0s, and DcRat",
+    "threat_actor": "Silver Fox (Youshe)",
+    "source_organization": [
+      "CNCERT"
+    ],
+    "source_article": [
+      "Silver Fox Trojan Special Campaign - Malicious Domains and IP Addresses (5)"
+    ],
+    "source_url": [
+      "https://www.cert.org.cn/publish/main/12/2026/20260923205949874537730/20260923205949874537730_.html"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-25T13:00:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Typosquat-like control domain disclosed by CNCERT.",
+    "sources": [
+      {
+        "organization": "CNCERT",
+        "article_title": "Silver Fox Trojan Special Campaign - Malicious Domains and IP Addresses (5)",
+        "url": "https://www.cert.org.cn/publish/main/12/2026/20260923205949874537730/20260923205949874537730_.html",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-23T00:00:00Z",
+        "discovery_context": [
+          "CNCERT explicitly listed this domain as associated with a malicious Silver Fox control IP."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "18.mlcro.net",
+    "ioc_type": "domain",
+    "original_ioc": "18.mlcro.net",
+    "hunt_ioc": "18.mlcro.net",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Silver Fox malware infrastructure",
+    "malware_family": "Gh0st, Win0s, and DcRat",
+    "threat_actor": "Silver Fox (Youshe)",
+    "source_organization": [
+      "CNCERT"
+    ],
+    "source_article": [
+      "Silver Fox Trojan Special Campaign - Malicious Domains and IP Addresses (5)"
+    ],
+    "source_url": [
+      "https://www.cert.org.cn/publish/main/12/2026/20260923205949874537730/20260923205949874537730_.html"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-25T13:00:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Control domain disclosed by CNCERT.",
+    "sources": [
+      {
+        "organization": "CNCERT",
+        "article_title": "Silver Fox Trojan Special Campaign - Malicious Domains and IP Addresses (5)",
+        "url": "https://www.cert.org.cn/publish/main/12/2026/20260923205949874537730/20260923205949874537730_.html",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-23T00:00:00Z",
+        "discovery_context": [
+          "CNCERT explicitly listed this domain as associated with a malicious Silver Fox control IP."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "21.mlcro.net",
+    "ioc_type": "domain",
+    "original_ioc": "21.mlcro.net",
+    "hunt_ioc": "21.mlcro.net",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Silver Fox malware infrastructure",
+    "malware_family": "Gh0st, Win0s, and DcRat",
+    "threat_actor": "Silver Fox (Youshe)",
+    "source_organization": [
+      "CNCERT"
+    ],
+    "source_article": [
+      "Silver Fox Trojan Special Campaign - Malicious Domains and IP Addresses (5)"
+    ],
+    "source_url": [
+      "https://www.cert.org.cn/publish/main/12/2026/20260923205949874537730/20260923205949874537730_.html"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-25T13:00:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Control domain disclosed by CNCERT.",
+    "sources": [
+      {
+        "organization": "CNCERT",
+        "article_title": "Silver Fox Trojan Special Campaign - Malicious Domains and IP Addresses (5)",
+        "url": "https://www.cert.org.cn/publish/main/12/2026/20260923205949874537730/20260923205949874537730_.html",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-23T00:00:00Z",
+        "discovery_context": [
+          "CNCERT explicitly listed this domain as associated with a malicious Silver Fox control IP."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "23.mlcro.net",
+    "ioc_type": "domain",
+    "original_ioc": "23.mlcro.net",
+    "hunt_ioc": "23.mlcro.net",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Silver Fox malware infrastructure",
+    "malware_family": "Gh0st, Win0s, and DcRat",
+    "threat_actor": "Silver Fox (Youshe)",
+    "source_organization": [
+      "CNCERT"
+    ],
+    "source_article": [
+      "Silver Fox Trojan Special Campaign - Malicious Domains and IP Addresses (5)"
+    ],
+    "source_url": [
+      "https://www.cert.org.cn/publish/main/12/2026/20260923205949874537730/20260923205949874537730_.html"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-25T13:00:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Control domain disclosed by CNCERT.",
+    "sources": [
+      {
+        "organization": "CNCERT",
+        "article_title": "Silver Fox Trojan Special Campaign - Malicious Domains and IP Addresses (5)",
+        "url": "https://www.cert.org.cn/publish/main/12/2026/20260923205949874537730/20260923205949874537730_.html",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-23T00:00:00Z",
+        "discovery_context": [
+          "CNCERT explicitly listed this domain as associated with a malicious Silver Fox control IP."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "54.mlcro.net",
+    "ioc_type": "domain",
+    "original_ioc": "54.mlcro.net",
+    "hunt_ioc": "54.mlcro.net",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Silver Fox malware infrastructure",
+    "malware_family": "Gh0st, Win0s, and DcRat",
+    "threat_actor": "Silver Fox (Youshe)",
+    "source_organization": [
+      "CNCERT"
+    ],
+    "source_article": [
+      "Silver Fox Trojan Special Campaign - Malicious Domains and IP Addresses (5)"
+    ],
+    "source_url": [
+      "https://www.cert.org.cn/publish/main/12/2026/20260923205949874537730/20260923205949874537730_.html"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-25T13:00:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Control domain disclosed by CNCERT.",
+    "sources": [
+      {
+        "organization": "CNCERT",
+        "article_title": "Silver Fox Trojan Special Campaign - Malicious Domains and IP Addresses (5)",
+        "url": "https://www.cert.org.cn/publish/main/12/2026/20260923205949874537730/20260923205949874537730_.html",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-23T00:00:00Z",
+        "discovery_context": [
+          "CNCERT explicitly listed this domain as associated with a malicious Silver Fox control IP."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "c72.mlcrosoft.my",
+    "ioc_type": "domain",
+    "original_ioc": "c72.mlcrosoft.my",
+    "hunt_ioc": "c72.mlcrosoft.my",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Silver Fox malware infrastructure",
+    "malware_family": "Gh0st, Win0s, and DcRat",
+    "threat_actor": "Silver Fox (Youshe)",
+    "source_organization": [
+      "CNCERT"
+    ],
+    "source_article": [
+      "Silver Fox Trojan Special Campaign - Malicious Domains and IP Addresses (5)"
+    ],
+    "source_url": [
+      "https://www.cert.org.cn/publish/main/12/2026/20260923205949874537730/20260923205949874537730_.html"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-25T13:00:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Typosquat-like control domain disclosed by CNCERT.",
+    "sources": [
+      {
+        "organization": "CNCERT",
+        "article_title": "Silver Fox Trojan Special Campaign - Malicious Domains and IP Addresses (5)",
+        "url": "https://www.cert.org.cn/publish/main/12/2026/20260923205949874537730/20260923205949874537730_.html",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-23T00:00:00Z",
+        "discovery_context": [
+          "CNCERT explicitly listed this domain as associated with a malicious Silver Fox control IP."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "hollow-badger-moasfraum.life",
+    "ioc_type": "domain",
+    "original_ioc": "hollow-badger-moasfraum.life",
+    "hunt_ioc": "hollow-badger-moasfraum.life",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Macfinger ClickFix campaign",
+    "malware_family": "Macfinger information stealer",
+    "threat_actor": "Unknown Macfinger operator",
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "A Closer Look at Malware From the Macfinger ClickFix Campaign"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary.html?storyid=33368"
+    ],
+    "article_published_date": [
+      "2026-09-25T06:45:47Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-25T13:00:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current fake verification domain documented in the report.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "A Closer Look at Malware From the Macfinger ClickFix Campaign",
+        "url": "https://isc.sans.edu/diary.html?storyid=33368",
+        "published_at": "2026-09-25T06:45:47Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-23T00:00:00Z",
+        "discovery_context": [
+          "SANS observed this domain serving the Macfinger ClickFix fake verification page during an infected macOS host investigation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "local82.mlcrosoft.my",
+    "ioc_type": "domain",
+    "original_ioc": "local82.mlcrosoft.my",
+    "hunt_ioc": "local82.mlcrosoft.my",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Silver Fox malware infrastructure",
+    "malware_family": "Gh0st, Win0s, and DcRat",
+    "threat_actor": "Silver Fox (Youshe)",
+    "source_organization": [
+      "CNCERT"
+    ],
+    "source_article": [
+      "Silver Fox Trojan Special Campaign - Malicious Domains and IP Addresses (5)"
+    ],
+    "source_url": [
+      "https://www.cert.org.cn/publish/main/12/2026/20260923205949874537730/20260923205949874537730_.html"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-25T13:00:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Typosquat-like control domain disclosed by CNCERT.",
+    "sources": [
+      {
+        "organization": "CNCERT",
+        "article_title": "Silver Fox Trojan Special Campaign - Malicious Domains and IP Addresses (5)",
+        "url": "https://www.cert.org.cn/publish/main/12/2026/20260923205949874537730/20260923205949874537730_.html",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-23T00:00:00Z",
+        "discovery_context": [
+          "CNCERT explicitly listed this domain as associated with a malicious Silver Fox control IP."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "177.4.3.101",
+    "ioc_type": "ipv4",
+    "original_ioc": "177.4.3.101",
+    "hunt_ioc": "177.4.3.101",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Silver Fox malware infrastructure",
+    "malware_family": "Gh0st, Win0s, and DcRat",
+    "threat_actor": "Silver Fox (Youshe)",
+    "source_organization": [
+      "CNCERT"
+    ],
+    "source_article": [
+      "Silver Fox Trojan Special Campaign - Malicious Domains and IP Addresses (5)"
+    ],
+    "source_url": [
+      "https://www.cert.org.cn/publish/main/12/2026/20260923205949874537730/20260923205949874537730_.html"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-25T13:00:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Disclosed control asset with associated malicious domains on port 443.",
+    "sources": [
+      {
+        "organization": "CNCERT",
+        "article_title": "Silver Fox Trojan Special Campaign - Malicious Domains and IP Addresses (5)",
+        "url": "https://www.cert.org.cn/publish/main/12/2026/20260923205949874537730/20260923205949874537730_.html",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-23T00:00:00Z",
+        "discovery_context": [
+          "CNCERT explicitly disclosed this IP as malicious Silver Fox control infrastructure associated with remote-access trojans."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "177.4.3.35",
+    "ioc_type": "ipv4",
+    "original_ioc": "177.4.3.35",
+    "hunt_ioc": "177.4.3.35",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Silver Fox malware infrastructure",
+    "malware_family": "Gh0st, Win0s, and DcRat",
+    "threat_actor": "Silver Fox (Youshe)",
+    "source_organization": [
+      "CNCERT"
+    ],
+    "source_article": [
+      "Silver Fox Trojan Special Campaign - Malicious Domains and IP Addresses (5)"
+    ],
+    "source_url": [
+      "https://www.cert.org.cn/publish/main/12/2026/20260923205949874537730/20260923205949874537730_.html"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-25T13:00:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Disclosed control asset with associated malicious domains on port 443.",
+    "sources": [
+      {
+        "organization": "CNCERT",
+        "article_title": "Silver Fox Trojan Special Campaign - Malicious Domains and IP Addresses (5)",
+        "url": "https://www.cert.org.cn/publish/main/12/2026/20260923205949874537730/20260923205949874537730_.html",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-23T00:00:00Z",
+        "discovery_context": [
+          "CNCERT explicitly disclosed this IP as malicious Silver Fox control infrastructure associated with remote-access trojans."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "177.4.3.99",
+    "ioc_type": "ipv4",
+    "original_ioc": "177.4.3.99",
+    "hunt_ioc": "177.4.3.99",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Silver Fox malware infrastructure",
+    "malware_family": "Gh0st, Win0s, and DcRat",
+    "threat_actor": "Silver Fox (Youshe)",
+    "source_organization": [
+      "CNCERT"
+    ],
+    "source_article": [
+      "Silver Fox Trojan Special Campaign - Malicious Domains and IP Addresses (5)"
+    ],
+    "source_url": [
+      "https://www.cert.org.cn/publish/main/12/2026/20260923205949874537730/20260923205949874537730_.html"
+    ],
+    "article_published_date": [
+      "2026-09-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-25T13:00:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Top disclosed Silver Fox control asset; port 443 and high daily control volume reported.",
+    "sources": [
+      {
+        "organization": "CNCERT",
+        "article_title": "Silver Fox Trojan Special Campaign - Malicious Domains and IP Addresses (5)",
+        "url": "https://www.cert.org.cn/publish/main/12/2026/20260923205949874537730/20260923205949874537730_.html",
+        "published_at": "2026-09-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-23T00:00:00Z",
+        "discovery_context": [
+          "CNCERT explicitly disclosed this IP as malicious Silver Fox control infrastructure associated with remote-access trojans."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "45.131.215.56",
+    "ioc_type": "ipv4",
+    "original_ioc": "45.131.215.56",
+    "hunt_ioc": "45.131.215.56",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Macfinger ClickFix campaign",
+    "malware_family": "Macfinger information stealer",
+    "threat_actor": "Unknown Macfinger operator",
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "A Closer Look at Malware From the Macfinger ClickFix Campaign"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary.html?storyid=33368"
+    ],
+    "article_published_date": [
+      "2026-09-25T06:45:47Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-25T13:00:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Loader and payload host.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "A Closer Look at Malware From the Macfinger ClickFix Campaign",
+        "url": "https://isc.sans.edu/diary.html?storyid=33368",
+        "published_at": "2026-09-25T06:45:47Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-23T00:00:00Z",
+        "discovery_context": [
+          "SANS documented this public IP hosting the Macfinger loader and follow-on Mach-O payloads."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "457ed02b0a63ccf872e8459c91e2d1d6844a75414358849333f518cc538055b7",
+    "ioc_type": "sha256",
+    "original_ioc": "457ed02b0a63ccf872e8459c91e2d1d6844a75414358849333f518cc538055b7",
+    "hunt_ioc": "457ed02b0a63ccf872e8459c91e2d1d6844a75414358849333f518cc538055b7",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Macfinger ClickFix campaign",
+    "malware_family": "Macfinger information stealer",
+    "threat_actor": "Unknown Macfinger operator",
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "A Closer Look at Malware From the Macfinger ClickFix Campaign"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary.html?storyid=33368"
+    ],
+    "article_published_date": [
+      "2026-09-25T06:45:47Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-25T13:00:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "x86_64 payload hash.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "A Closer Look at Malware From the Macfinger ClickFix Campaign",
+        "url": "https://isc.sans.edu/diary.html?storyid=33368",
+        "published_at": "2026-09-25T06:45:47Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-23T00:00:00Z",
+        "discovery_context": [
+          "SANS identified this SHA-256 as the x86_64 Mach-O payload delivered by the Macfinger campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "5a2242b862ef52fe7a08af596198412a7676c948bcd64a25ce5d2e6d4b35c6fb",
+    "ioc_type": "sha256",
+    "original_ioc": "5a2242b862ef52fe7a08af596198412a7676c948bcd64a25ce5d2e6d4b35c6fb",
+    "hunt_ioc": "5a2242b862ef52fe7a08af596198412a7676c948bcd64a25ce5d2e6d4b35c6fb",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Macfinger ClickFix campaign",
+    "malware_family": "Macfinger information stealer",
+    "threat_actor": "Unknown Macfinger operator",
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "A Closer Look at Malware From the Macfinger ClickFix Campaign"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary.html?storyid=33368"
+    ],
+    "article_published_date": [
+      "2026-09-25T06:45:47Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-25T13:00:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "arm64 payload hash.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "A Closer Look at Malware From the Macfinger ClickFix Campaign",
+        "url": "https://isc.sans.edu/diary.html?storyid=33368",
+        "published_at": "2026-09-25T06:45:47Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-23T00:00:00Z",
+        "discovery_context": [
+          "SANS identified this SHA-256 as the arm64 Mach-O payload delivered by the Macfinger campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "c6da028e0a8a25a35efa28ba508a556d1b53d1e61113c0aaebf31a49a5668912",
+    "ioc_type": "sha256",
+    "original_ioc": "c6da028e0a8a25a35efa28ba508a556d1b53d1e61113c0aaebf31a49a5668912",
+    "hunt_ioc": "c6da028e0a8a25a35efa28ba508a556d1b53d1e61113c0aaebf31a49a5668912",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Macfinger ClickFix campaign",
+    "malware_family": "Macfinger information stealer",
+    "threat_actor": "Unknown Macfinger operator",
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "A Closer Look at Malware From the Macfinger ClickFix Campaign"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary.html?storyid=33368"
+    ],
+    "article_published_date": [
+      "2026-09-25T06:45:47Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-25T13:00:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Shell-script loader hash.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "A Closer Look at Malware From the Macfinger ClickFix Campaign",
+        "url": "https://isc.sans.edu/diary.html?storyid=33368",
+        "published_at": "2026-09-25T06:45:47Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-23T00:00:00Z",
+        "discovery_context": [
+          "SANS identified this SHA-256 as the Macfinger shell-script loader retrieved from the campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://45.131.215.56/4e04813226b1b93?force=1",
+    "ioc_type": "url",
+    "original_ioc": "http://45.131.215.56/4e04813226b1b93?force=1",
+    "hunt_ioc": "45.131.215.56",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Macfinger ClickFix campaign",
+    "malware_family": "Macfinger information stealer",
+    "threat_actor": "Unknown Macfinger operator",
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "A Closer Look at Malware From the Macfinger ClickFix Campaign"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary.html?storyid=33368"
+    ],
+    "article_published_date": [
+      "2026-09-25T06:45:47Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-25T13:00:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "x86_64 payload URL.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "A Closer Look at Malware From the Macfinger ClickFix Campaign",
+        "url": "https://isc.sans.edu/diary.html?storyid=33368",
+        "published_at": "2026-09-25T06:45:47Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-23T00:00:00Z",
+        "discovery_context": [
+          "SANS identified this URL as the x86_64 Mach-O payload delivered by the Macfinger loader."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://45.131.215.56/8031e818c7a46?force=1",
+    "ioc_type": "url",
+    "original_ioc": "http://45.131.215.56/8031e818c7a46?force=1",
+    "hunt_ioc": "45.131.215.56",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Macfinger ClickFix campaign",
+    "malware_family": "Macfinger information stealer",
+    "threat_actor": "Unknown Macfinger operator",
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "A Closer Look at Malware From the Macfinger ClickFix Campaign"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary.html?storyid=33368"
+    ],
+    "article_published_date": [
+      "2026-09-25T06:45:47Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-25T13:00:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Initial loader URL.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "A Closer Look at Malware From the Macfinger ClickFix Campaign",
+        "url": "https://isc.sans.edu/diary.html?storyid=33368",
+        "published_at": "2026-09-25T06:45:47Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-23T00:00:00Z",
+        "discovery_context": [
+          "SANS identified this URL as the shell-script loader retrieved after the Macfinger ClickFix command was executed."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://45.131.215.56/a7a11f95?force=1",
+    "ioc_type": "url",
+    "original_ioc": "http://45.131.215.56/a7a11f95?force=1",
+    "hunt_ioc": "45.131.215.56",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Macfinger ClickFix campaign",
+    "malware_family": "Macfinger information stealer",
+    "threat_actor": "Unknown Macfinger operator",
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "A Closer Look at Malware From the Macfinger ClickFix Campaign"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary.html?storyid=33368"
+    ],
+    "article_published_date": [
+      "2026-09-25T06:45:47Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-25T13:00:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "arm64 payload URL.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "A Closer Look at Malware From the Macfinger ClickFix Campaign",
+        "url": "https://isc.sans.edu/diary.html?storyid=33368",
+        "published_at": "2026-09-25T06:45:47Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-23T00:00:00Z",
+        "discovery_context": [
+          "SANS identified this URL as the arm64 Mach-O payload delivered by the Macfinger loader."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://95.163.153.80:8133/api/credentials",
+    "ioc_type": "url",
+    "original_ioc": "http://95.163.153.80:8133/api/credentials",
+    "hunt_ioc": "95.163.153.80",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Macfinger ClickFix campaign",
+    "malware_family": "Macfinger information stealer",
+    "threat_actor": "Unknown Macfinger operator",
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "A Closer Look at Malware From the Macfinger ClickFix Campaign"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary.html?storyid=33368"
+    ],
+    "article_published_date": [
+      "2026-09-25T06:45:47Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-25T13:00:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Credential exfiltration endpoint.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "A Closer Look at Malware From the Macfinger ClickFix Campaign",
+        "url": "https://isc.sans.edu/diary.html?storyid=33368",
+        "published_at": "2026-09-25T06:45:47Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-23T00:00:00Z",
+        "discovery_context": [
+          "SANS observed this C2 endpoint receiving credential-related exfiltration traffic from an infected macOS host."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://95.163.153.80:8133/api/shell/agent",
+    "ioc_type": "url",
+    "original_ioc": "http://95.163.153.80:8133/api/shell/agent",
+    "hunt_ioc": "95.163.153.80",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Macfinger ClickFix campaign",
+    "malware_family": "Macfinger information stealer",
+    "threat_actor": "Unknown Macfinger operator",
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "A Closer Look at Malware From the Macfinger ClickFix Campaign"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary.html?storyid=33368"
+    ],
+    "article_published_date": [
+      "2026-09-25T06:45:47Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-25T13:00:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Command-channel endpoint.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "A Closer Look at Malware From the Macfinger ClickFix Campaign",
+        "url": "https://isc.sans.edu/diary.html?storyid=33368",
+        "published_at": "2026-09-25T06:45:47Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-23T00:00:00Z",
+        "discovery_context": [
+          "SANS documented this C2 endpoint as part of the Macfinger post-infection command channel."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://95.163.153.80:8133/api/t",
+    "ioc_type": "url",
+    "original_ioc": "http://95.163.153.80:8133/api/t",
+    "hunt_ioc": "95.163.153.80",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Macfinger ClickFix campaign",
+    "malware_family": "Macfinger information stealer",
+    "threat_actor": "Unknown Macfinger operator",
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "A Closer Look at Malware From the Macfinger ClickFix Campaign"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary.html?storyid=33368"
+    ],
+    "article_published_date": [
+      "2026-09-25T06:45:47Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-25T13:00:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Status and execution-reporting endpoint.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "A Closer Look at Malware From the Macfinger ClickFix Campaign",
+        "url": "https://isc.sans.edu/diary.html?storyid=33368",
+        "published_at": "2026-09-25T06:45:47Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-23T00:00:00Z",
+        "discovery_context": [
+          "SANS observed repeated Macfinger status and execution reporting to this C2 endpoint."
+        ]
+      }
+    ]
+  }
+]

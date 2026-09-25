@@ -1,0 +1,11 @@
+/* Query name: CYBERMEDIC Daily IOC Hunt */
+/* Description: Search 30-day Elastic Defend telemetry for validated IOC values. */
+/* Author: CYBERMEDIC */
+/* Last updated: 2026-09-25 */
+/* Notes: One runnable query; exact IOC filters precede newest-first results. */
+FROM logs-endpoint.events.*
+| WHERE @timestamp >= NOW() - 30 DAYS
+| WHERE destination.domain IN ("11x.mlcrosoft.vip","18.mlcro.net","21.mlcro.net","23.mlcro.net","54.mlcro.net","c72.mlcrosoft.my","hollow-badger-moasfraum.life","local82.mlcrosoft.my") OR destination.ip IN ("177.4.3.101","177.4.3.35","177.4.3.99","45.131.215.56","95.163.153.80") OR file.hash.sha256 IN ("457ed02b0a63ccf872e8459c91e2d1d6844a75414358849333f518cc538055b7","5a2242b862ef52fe7a08af596198412a7676c948bcd64a25ce5d2e6d4b35c6fb","c6da028e0a8a25a35efa28ba508a556d1b53d1e61113c0aaebf31a49a5668912")
+| KEEP @timestamp,host.name,process.name,file.name,file.path,destination.ip,destination.port,destination.domain,file.hash.md5,file.hash.sha1,file.hash.sha256
+| SORT @timestamp DESC
+| LIMIT 500
