@@ -1,0 +1,49 @@
+[
+  {
+    "ioc": "98.142.252.140",
+    "ioc_type": "ipv4",
+    "original_ioc": "98.142.252.140",
+    "hunt_ioc": "98.142.252.140",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "SectopRAT embedded in tampered legitimate software",
+    "malware_family": "SectopRAT (ArechClient2)",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "Uncovering a SectopRAT Variant Embedded in Legitimate Software"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/jp/blog/threat-research/uncovering-a-sectoprat-variant-embedded-in-legitimate-software"
+    ],
+    "article_published_date": [
+      "2026-09-24T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-26T13:00:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "C2 address disclosed in the technical analysis; hunt the IP only, without the port.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "Uncovering a SectopRAT Variant Embedded in Legitimate Software",
+        "url": "https://www.fortinet.com/jp/blog/threat-research/uncovering-a-sectoprat-variant-embedded-in-legitimate-software",
+        "published_at": "2026-09-24T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-24T13:00:00Z",
+        "discovery_context": [
+          "FortiGuard Labs documented this public IP and port as the hardcoded command-and-control server for a SectopRAT remote-access-trojan variant."
+        ]
+      }
+    ]
+  }
+]
