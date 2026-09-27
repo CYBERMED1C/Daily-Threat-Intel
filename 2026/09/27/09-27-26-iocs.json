@@ -1,0 +1,96 @@
+[
+  {
+    "ioc": "third-party.com",
+    "ioc_type": "domain",
+    "original_ioc": "third-party.com",
+    "hunt_ioc": "third-party.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "ClickFix fake verification campaign",
+    "malware_family": "PowerShell-delivered malware",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Malwarebytes Labs"
+    ],
+    "source_article": [
+      "Criminals turn placeholder domain into ClickFix trap"
+    ],
+    "source_url": [
+      "https://www.malwarebytes.com/blog/news/2026/09/criminals-turn-placeholder-domain-into-clickfix-trap"
+    ],
+    "article_published_date": [
+      "2026-09-25T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-27T13:00:00Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "The report states the domain was registered and used as attacker infrastructure; hunt the domain as a network pivot.",
+    "sources": [
+      {
+        "organization": "Malwarebytes Labs",
+        "article_title": "Criminals turn placeholder domain into ClickFix trap",
+        "url": "https://www.malwarebytes.com/blog/news/2026/09/criminals-turn-placeholder-domain-into-clickfix-trap",
+        "published_at": "2026-09-25T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-25T13:00:00Z",
+        "discovery_context": [
+          "Malwarebytes reported this domain serving a fake Cloudflare-style verification page that directs Windows visitors to execute a copied PowerShell command."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "3b29e01f6874a49c25da7227bf3175442ceb77134591a271bb4ea97669d41d1a",
+    "ioc_type": "sha256",
+    "original_ioc": "3b29e01f6874a49c25da7227bf3175442ceb77134591a271bb4ea97669d41d1a",
+    "hunt_ioc": "3b29e01f6874a49c25da7227bf3175442ceb77134591a271bb4ea97669d41d1a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Akira ransomware activity",
+    "malware_family": "Akira ransomware",
+    "threat_actor": "Akira affiliate ecosystem",
+    "source_organization": [
+      "Ransom-DB Intelligence Team"
+    ],
+    "source_article": [
+      "Weekly Ransomware Brief: The Gentlemen and Qilin Drive 188 Infiltrations"
+    ],
+    "source_url": [
+      "https://www.ransom-db.com/blog/weekly-ransomware-trends-the-gentlemen-qilin-metaencryptor-september-2026"
+    ],
+    "article_published_date": [
+      "2026-09-26T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-27T13:00:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "File hash associated with the reported Akira variant.",
+    "sources": [
+      {
+        "organization": "Ransom-DB Intelligence Team",
+        "article_title": "Weekly Ransomware Brief: The Gentlemen and Qilin Drive 188 Infiltrations",
+        "url": "https://www.ransom-db.com/blog/weekly-ransomware-trends-the-gentlemen-qilin-metaencryptor-september-2026",
+        "published_at": "2026-09-26T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-25T13:00:00Z",
+        "discovery_context": [
+          "Ransom-DB listed this SHA-256 for an Akira variant observed executing PowerShell-based security-service termination during current ransomware activity."
+        ]
+      }
+    ]
+  }
+]

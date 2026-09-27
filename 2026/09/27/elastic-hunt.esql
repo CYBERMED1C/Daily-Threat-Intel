@@ -1,0 +1,11 @@
+/* Query name: CYBERMEDIC Daily IOC Hunt */
+/* Description: Search 30-day Elastic Defend telemetry for validated IOC values. */
+/* Author: CYBERMEDIC */
+/* Last updated: 2026-09-27 */
+/* Notes: One runnable query; exact IOC filters precede newest-first results. */
+FROM logs-endpoint.events.*
+| WHERE @timestamp >= NOW() - 30 DAYS
+| WHERE destination.domain IN ("third-party.com") OR file.hash.sha256 IN ("3b29e01f6874a49c25da7227bf3175442ceb77134591a271bb4ea97669d41d1a")
+| KEEP @timestamp,host.name,process.name,file.name,file.path,destination.ip,destination.port,destination.domain,file.hash.md5,file.hash.sha1,file.hash.sha256
+| SORT @timestamp DESC
+| LIMIT 500
