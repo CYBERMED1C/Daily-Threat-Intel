@@ -1,0 +1,237 @@
+[
+  {
+    "ioc": "104.243.248.63",
+    "ioc_type": "ipv4",
+    "original_ioc": "104.243.248.63",
+    "hunt_ioc": "104.243.248.63",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "AsyncRAT botnet activity",
+    "malware_family": "AsyncRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1866007 - AsyncRAT botnet C2"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1866007/"
+    ],
+    "article_published_date": [
+      "2026-09-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-28T13:01:08Z",
+    "confidence": 75,
+    "acceptance_score": 75,
+    "status": "NEW",
+    "notes": "The published endpoint included a port; the public host is retained as the safe network-hunting pivot.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1866007 - AsyncRAT botnet C2",
+        "url": "https://threatfox.abuse.ch/ioc/1866007/",
+        "published_at": "2026-09-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.75,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-25T13:01:08Z",
+        "discovery_context": [
+          "ThreatFox classifies this public host and port as a botnet command-and-control indicator associated with the AsyncRAT malware family and current last-seen activity."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "217.60.195.197",
+    "ioc_type": "ipv4",
+    "original_ioc": "217.60.195.197",
+    "hunt_ioc": "217.60.195.197",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PureRAT botnet activity",
+    "malware_family": "PureRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1866615 - PureRAT botnet C2"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1866615/"
+    ],
+    "article_published_date": [
+      "2026-09-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-28T13:01:08Z",
+    "confidence": 75,
+    "acceptance_score": 75,
+    "status": "NEW",
+    "notes": "The published endpoint included a port; the public host is retained as the safe network-hunting pivot.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1866615 - PureRAT botnet C2",
+        "url": "https://threatfox.abuse.ch/ioc/1866615/",
+        "published_at": "2026-09-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.75,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-25T13:01:08Z",
+        "discovery_context": [
+          "ThreatFox classifies this public host and port as a botnet command-and-control indicator associated with PureRAT or PureHVNC and current last-seen activity."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "16180800cc2f077638d2e13a33bd68609d0b6eedd1fbfdbae6d5d4a1c53f826f",
+    "ioc_type": "sha256",
+    "original_ioc": "16180800cc2f077638d2e13a33bd68609d0b6eedd1fbfdbae6d5d4a1c53f826f",
+    "hunt_ioc": "16180800cc2f077638d2e13a33bd68609d0b6eedd1fbfdbae6d5d4a1c53f826f",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "URLhaus malware-serving infrastructure",
+    "malware_family": "Unknown",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3528279 - malware-serving URL payload"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3528279/"
+    ],
+    "article_published_date": [
+      "2026-09-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-28T13:01:08Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Only the published payload hash is accepted; the hosting URL is not republished as a hunt target.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3528279 - malware-serving URL payload",
+        "url": "https://urlhaus.abuse.ch/url/3528279/",
+        "published_at": "2026-09-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-25T13:01:08Z",
+        "discovery_context": [
+          "URLhaus states that the recorded URL was used to serve malware and publishes this SHA-256 as the corresponding payload indicator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "74eca3973ad72a6ddc9397aff8250d9ee287211fc9a055d5ee290d01cf76a70c",
+    "ioc_type": "sha256",
+    "original_ioc": "74eca3973ad72a6ddc9397aff8250d9ee287211fc9a055d5ee290d01cf76a70c",
+    "hunt_ioc": "74eca3973ad72a6ddc9397aff8250d9ee287211fc9a055d5ee290d01cf76a70c",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Kothamine malicious npm package campaign",
+    "malware_family": "Kothamine Agent",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Malwarebytes Labs"
+    ],
+    "source_article": [
+      "Kothamine malware uses Tailscale's tailcat to evade network detection"
+    ],
+    "source_url": [
+      "https://www.malwarebytes.com/blog/threat-intel/2026/09/kothamine-malware-uses-tailscales-tailcat-to-evade-network-detection"
+    ],
+    "article_published_date": [
+      "2026-09-25T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-28T13:01:08Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Published SHA-256 for the malicious Kothamine Agent sample.",
+    "sources": [
+      {
+        "organization": "Malwarebytes Labs",
+        "article_title": "Kothamine malware uses Tailscale's tailcat to evade network detection",
+        "url": "https://www.malwarebytes.com/blog/threat-intel/2026/09/kothamine-malware-uses-tailscales-tailcat-to-evade-network-detection",
+        "published_at": "2026-09-25T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-25T13:01:08Z",
+        "discovery_context": [
+          "Malwarebytes identified this SHA-256 as the Kothamine Agent sample analyzed from malicious npm package activity that can execute commands and steal browser data."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ec4219a7ecf132c29080fbb20e4ab410c57faa85aeed7acade1eb15d905a6ee0",
+    "ioc_type": "sha256",
+    "original_ioc": "ec4219a7ecf132c29080fbb20e4ab410c57faa85aeed7acade1eb15d905a6ee0",
+    "hunt_ioc": "ec4219a7ecf132c29080fbb20e4ab410c57faa85aeed7acade1eb15d905a6ee0",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Kothamine malicious npm package campaign",
+    "malware_family": "Kothamine Agent",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Malwarebytes Labs"
+    ],
+    "source_article": [
+      "Kothamine malware uses Tailscale's tailcat to evade network detection"
+    ],
+    "source_url": [
+      "https://www.malwarebytes.com/blog/threat-intel/2026/09/kothamine-malware-uses-tailscales-tailcat-to-evade-network-detection"
+    ],
+    "article_published_date": [
+      "2026-09-25T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-28T13:01:08Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Published SHA-256 for the malicious Kothamine Injector sample.",
+    "sources": [
+      {
+        "organization": "Malwarebytes Labs",
+        "article_title": "Kothamine malware uses Tailscale's tailcat to evade network detection",
+        "url": "https://www.malwarebytes.com/blog/threat-intel/2026/09/kothamine-malware-uses-tailscales-tailcat-to-evade-network-detection",
+        "published_at": "2026-09-25T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-25T13:01:08Z",
+        "discovery_context": [
+          "Malwarebytes identified this SHA-256 as the Kothamine Injector sample analyzed from malicious npm package activity that supports remote control and defense evasion."
+        ]
+      }
+    ]
+  }
+]
