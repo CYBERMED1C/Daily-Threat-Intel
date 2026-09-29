@@ -1,0 +1,237 @@
+[
+  {
+    "ioc": "102.117.173.122",
+    "ioc_type": "ipv4",
+    "original_ioc": "102.117.173.122",
+    "hunt_ioc": "102.117.173.122",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Mythic botnet activity",
+    "malware_family": "Mythic",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1931305 - Mythic botnet C2"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1931305/"
+    ],
+    "article_published_date": [
+      "2026-09-28T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-29T13:01:28Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "The public host is retained as the network hunting pivot; the source also records an observed port.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1931305 - Mythic botnet C2",
+        "url": "https://threatfox.abuse.ch/ioc/1931305/",
+        "published_at": "2026-09-28T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-26T13:01:28Z",
+        "discovery_context": [
+          "ThreatFox classifies this public host as a high-confidence botnet command-and-control indicator tagged for Mythic, with activity last seen on September 28."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "183.90.187.73",
+    "ioc_type": "ipv4",
+    "original_ioc": "183.90.187.73",
+    "hunt_ioc": "183.90.187.73",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PureRAT botnet activity",
+    "malware_family": "PureRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1890806 - PureRAT botnet C2"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1890806/"
+    ],
+    "article_published_date": [
+      "2026-09-28T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-29T13:01:28Z",
+    "confidence": 75,
+    "acceptance_score": 75,
+    "status": "NEW",
+    "notes": "The source entry includes a port; only the validated public host is used for enterprise network hunting.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1890806 - PureRAT botnet C2",
+        "url": "https://threatfox.abuse.ch/ioc/1890806/",
+        "published_at": "2026-09-28T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.75,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-26T13:01:28Z",
+        "discovery_context": [
+          "ThreatFox identifies this public host as a possible PureRAT or PureHVNC botnet command-and-control server, with activity last seen on September 28."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "192.238.177.18",
+    "ioc_type": "ipv4",
+    "original_ioc": "192.238.177.18",
+    "hunt_ioc": "192.238.177.18",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "DCRat botnet activity",
+    "malware_family": "DCRat",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1915954 - DCRat botnet C2"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1915954/"
+    ],
+    "article_published_date": [
+      "2026-09-28T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-29T13:01:28Z",
+    "confidence": 75,
+    "acceptance_score": 75,
+    "status": "NEW",
+    "notes": "The source entry includes a port; only the validated public host is used for enterprise network hunting.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1915954 - DCRat botnet C2",
+        "url": "https://threatfox.abuse.ch/ioc/1915954/",
+        "published_at": "2026-09-28T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.75,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-26T13:01:28Z",
+        "discovery_context": [
+          "ThreatFox identifies this public host as a possible DCRat or DarkCrystal RAT botnet command-and-control server, with activity last seen on September 28."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "27.124.36.136",
+    "ioc_type": "ipv4",
+    "original_ioc": "27.124.36.136",
+    "hunt_ioc": "27.124.36.136",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PureRAT botnet activity",
+    "malware_family": "PureRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1868250 - PureRAT botnet C2"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1868250/"
+    ],
+    "article_published_date": [
+      "2026-09-28T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-29T13:01:28Z",
+    "confidence": 75,
+    "acceptance_score": 75,
+    "status": "NEW",
+    "notes": "The source entry includes a port; only the validated public host is used for enterprise network hunting.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1868250 - PureRAT botnet C2",
+        "url": "https://threatfox.abuse.ch/ioc/1868250/",
+        "published_at": "2026-09-28T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.75,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-26T13:01:28Z",
+        "discovery_context": [
+          "ThreatFox identifies this public host as a possible PureRAT or PureHVNC botnet command-and-control server, with activity last seen on September 28."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "45.145.171.151",
+    "ioc_type": "ipv4",
+    "original_ioc": "45.145.171.151",
+    "hunt_ioc": "45.145.171.151",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Pupy botnet activity",
+    "malware_family": "Pupy",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1912181 - Pupy botnet C2"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1912181/"
+    ],
+    "article_published_date": [
+      "2026-09-28T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-29T13:01:28Z",
+    "confidence": 75,
+    "acceptance_score": 75,
+    "status": "NEW",
+    "notes": "The source entry includes a port; only the validated public host is used for enterprise network hunting.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1912181 - Pupy botnet C2",
+        "url": "https://threatfox.abuse.ch/ioc/1912181/",
+        "published_at": "2026-09-28T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.75,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-26T13:01:28Z",
+        "discovery_context": [
+          "ThreatFox identifies this public host as a possible Pupy botnet command-and-control server, with activity last seen on September 28."
+        ]
+      }
+    ]
+  }
+]
