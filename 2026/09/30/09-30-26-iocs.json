@@ -1,0 +1,284 @@
+[
+  {
+    "ioc": "cloud.cmatgldn.click",
+    "ioc_type": "domain",
+    "original_ioc": "cloud.cmatgldn.click",
+    "hunt_ioc": "cloud.cmatgldn.click",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "DarkSword iPhone preorder lure",
+    "malware_family": "DarkSword",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Malwarebytes Labs"
+    ],
+    "source_article": [
+      "Fake iPhone Duo preorder scam triggers DarkSword attack"
+    ],
+    "source_url": [
+      "https://www.malwarebytes.com/blog/threat-intel/2026/09/fake-iphone-duo-preorder-scam-triggers-darksword-attack"
+    ],
+    "article_published_date": [
+      "2026-09-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-30T13:00:47Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Published campaign infrastructure domain; hunt as a domain network pivot.",
+    "sources": [
+      {
+        "organization": "Malwarebytes Labs",
+        "article_title": "Fake iPhone Duo preorder scam triggers DarkSword attack",
+        "url": "https://www.malwarebytes.com/blog/threat-intel/2026/09/fake-iphone-duo-preorder-scam-triggers-darksword-attack",
+        "published_at": "2026-09-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-27T13:00:47Z",
+        "discovery_context": [
+          "Malwarebytes lists this domain as an ad-click and conversion tracker in the fake iPhone preorder DarkSword exploit campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "fujeigroup.com",
+    "ioc_type": "domain",
+    "original_ioc": "fujeigroup.com",
+    "hunt_ioc": "fujeigroup.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "AsyncRAT malware delivery",
+    "malware_family": "AsyncRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3925459 - AsyncRAT payload URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3925459/"
+    ],
+    "article_published_date": [
+      "2026-09-30T10:05:15Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-30T13:00:47Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "The full URL is intentionally reduced to its validated public domain for hunting.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3925459 - AsyncRAT payload URL",
+        "url": "https://urlhaus.abuse.ch/url/3925459/",
+        "published_at": "2026-09-30T10:05:15Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-27T13:00:47Z",
+        "discovery_context": [
+          "URLhaus current browse records this online URL as an AsyncRAT-associated payload location, providing current malicious infrastructure context."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "pnmrud.cc",
+    "ioc_type": "domain",
+    "original_ioc": "pnmrud.cc",
+    "hunt_ioc": "pnmrud.cc",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "DarkSword iPhone preorder lure",
+    "malware_family": "DarkSword",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Malwarebytes Labs"
+    ],
+    "source_article": [
+      "Fake iPhone Duo preorder scam triggers DarkSword attack"
+    ],
+    "source_url": [
+      "https://www.malwarebytes.com/blog/threat-intel/2026/09/fake-iphone-duo-preorder-scam-triggers-darksword-attack"
+    ],
+    "article_published_date": [
+      "2026-09-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-30T13:00:47Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Published malicious command-and-control and collection domain; hunt as a domain network pivot.",
+    "sources": [
+      {
+        "organization": "Malwarebytes Labs",
+        "article_title": "Fake iPhone Duo preorder scam triggers DarkSword attack",
+        "url": "https://www.malwarebytes.com/blog/threat-intel/2026/09/fake-iphone-duo-preorder-scam-triggers-darksword-attack",
+        "published_at": "2026-09-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-27T13:00:47Z",
+        "discovery_context": [
+          "Malwarebytes identifies this domain as the command-and-control and collection server used by the fake iPhone preorder DarkSword exploit campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "105.186.247.57",
+    "ioc_type": "ipv4",
+    "original_ioc": "105.186.247.57",
+    "hunt_ioc": "105.186.247.57",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Mirai malware delivery",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3925454 - Mirai payload URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3925454/"
+    ],
+    "article_published_date": [
+      "2026-09-30T10:03:11Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-30T13:00:47Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "The full URL is intentionally reduced to its validated public host for hunting.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3925454 - Mirai payload URL",
+        "url": "https://urlhaus.abuse.ch/url/3925454/",
+        "published_at": "2026-09-30T10:03:11Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-27T13:00:47Z",
+        "discovery_context": [
+          "URLhaus current browse records this online public host as a Mirai-associated payload location, providing current malicious infrastructure context."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "182.116.121.56",
+    "ioc_type": "ipv4",
+    "original_ioc": "182.116.121.56",
+    "hunt_ioc": "182.116.121.56",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Mozi malware delivery",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3925463 - Mozi payload URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3925463/"
+    ],
+    "article_published_date": [
+      "2026-09-30T10:02:19Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-30T13:00:47Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "The full URL is intentionally reduced to its validated public host for hunting.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3925463 - Mozi payload URL",
+        "url": "https://urlhaus.abuse.ch/url/3925463/",
+        "published_at": "2026-09-30T10:02:19Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-27T13:00:47Z",
+        "discovery_context": [
+          "URLhaus current browse records this online public host as a Mozi-associated payload location, providing current malicious infrastructure context."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "221.225.254.239",
+    "ioc_type": "ipv4",
+    "original_ioc": "221.225.254.239",
+    "hunt_ioc": "221.225.254.239",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Mirai malware delivery",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3925451 - Mirai payload URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3925451/"
+    ],
+    "article_published_date": [
+      "2026-09-30T10:02:20Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-09-30T13:00:47Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "The full URL is intentionally reduced to its validated public host for hunting.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3925451 - Mirai payload URL",
+        "url": "https://urlhaus.abuse.ch/url/3925451/",
+        "published_at": "2026-09-30T10:02:20Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-27T13:00:47Z",
+        "discovery_context": [
+          "URLhaus current browse records this online public host as a Mirai-associated payload location, providing current malicious infrastructure context."
+        ]
+      }
+    ]
+  }
+]
