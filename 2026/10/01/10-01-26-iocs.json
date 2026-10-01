@@ -1,0 +1,237 @@
+[
+  {
+    "ioc": "thelittlecupandsaucer.com.au",
+    "ioc_type": "domain",
+    "original_ioc": "thelittlecupandsaucer.com.au",
+    "hunt_ioc": "thelittlecupandsaucer.com.au",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "ScreenConnect phishing and remote-access abuse",
+    "malware_family": "ScreenConnect RMM",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "SANS Internet Storm Center"
+    ],
+    "source_article": [
+      "ScreenConnect Client (Ab)used by Attackers"
+    ],
+    "source_url": [
+      "https://isc.sans.edu/diary/ScreenConnect%2BClient%2BAbused%2Bby%2BAttackers/33388/"
+    ],
+    "article_published_date": [
+      "2026-10-01T05:32:13Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-01T13:01:06Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "The published malicious download URL is reduced to its domain for safe, efficient hunting; legitimate ScreenConnect relay infrastructure was excluded.",
+    "sources": [
+      {
+        "organization": "SANS Internet Storm Center",
+        "article_title": "ScreenConnect Client (Ab)used by Attackers",
+        "url": "https://isc.sans.edu/diary/ScreenConnect%2BClient%2BAbused%2Bby%2BAttackers/33388/",
+        "published_at": "2026-10-01T05:32:13Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-28T13:01:06Z",
+        "discovery_context": [
+          "SANS ISC documented this domain hosting a ScreenConnect client delivered by phishing and preconfigured to call back to an attacker-operated account."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "115.55.217.255",
+    "ioc_type": "ipv4",
+    "original_ioc": "115.55.217.255",
+    "hunt_ioc": "115.55.217.255",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Mozi malware delivery",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3926303 - Mozi payload URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3926303/"
+    ],
+    "article_published_date": [
+      "2026-10-01T12:47:10Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-01T13:01:06Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "The full payload URL is intentionally reduced to its validated public IP host for hunting.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3926303 - Mozi payload URL",
+        "url": "https://urlhaus.abuse.ch/url/3926303/",
+        "published_at": "2026-10-01T12:47:10Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-28T13:01:06Z",
+        "discovery_context": [
+          "URLhaus current evidence records this online public host serving a payload tagged as Mozi malware."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "138.204.196.244",
+    "ioc_type": "ipv4",
+    "original_ioc": "138.204.196.244",
+    "hunt_ioc": "138.204.196.244",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Mirai malware delivery",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3926301 - Mirai payload URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3926301/"
+    ],
+    "article_published_date": [
+      "2026-10-01T12:47:09Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-01T13:01:06Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "The full payload URL is intentionally reduced to its validated public IP host for hunting.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3926301 - Mirai payload URL",
+        "url": "https://urlhaus.abuse.ch/url/3926301/",
+        "published_at": "2026-10-01T12:47:09Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-28T13:01:06Z",
+        "discovery_context": [
+          "URLhaus current evidence records this online public host serving a payload tagged as Mirai malware."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "222.142.209.215",
+    "ioc_type": "ipv4",
+    "original_ioc": "222.142.209.215",
+    "hunt_ioc": "222.142.209.215",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Mozi malware delivery",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3926304 - Mozi payload URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3926304/"
+    ],
+    "article_published_date": [
+      "2026-10-01T12:47:12Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-01T13:01:06Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "The full payload URL is intentionally reduced to its validated public IP host for hunting.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3926304 - Mozi payload URL",
+        "url": "https://urlhaus.abuse.ch/url/3926304/",
+        "published_at": "2026-10-01T12:47:12Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-28T13:01:06Z",
+        "discovery_context": [
+          "URLhaus current evidence records this online public host serving a payload tagged as Mozi malware."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "94.154.43.84",
+    "ioc_type": "ipv4",
+    "original_ioc": "94.154.43.84",
+    "hunt_ioc": "94.154.43.84",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Mirai malware delivery",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3926305 - Mirai payload URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3926305/"
+    ],
+    "article_published_date": [
+      "2026-10-01T12:59:25Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-01T13:01:06Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "The full payload URL is intentionally reduced to its validated public IP host for hunting.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3926305 - Mirai payload URL",
+        "url": "https://urlhaus.abuse.ch/url/3926305/",
+        "published_at": "2026-10-01T12:59:25Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-09-28T13:01:06Z",
+        "discovery_context": [
+          "URLhaus current evidence records this online public host serving an ELF payload tagged as Mirai malware."
+        ]
+      }
+    ]
+  }
+]
