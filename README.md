@@ -1,3 +1,13 @@
+<!-- CYBERMEDIC-LIVE-STATUS:START -->
+## Live status
+
+🟢 **Operational**
+
+**Last push:** 2026-10-02 02:24 UTC
+
+**Overall health:** Healthy
+<!-- CYBERMEDIC-LIVE-STATUS:END -->
+
 # CYBERMEDIC Daily Threat Intelligence
 
 Daily indicators of compromise (IOCs) and simple threat-hunting queries for Microsoft Defender XDR and Elastic Security.
