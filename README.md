@@ -3,7 +3,7 @@
 
 🟢 **Operational**
 
-**Last push:** 2026-10-02 02:25 UTC
+**Last push:** 2026-10-02 02:48 UTC
 
 **Overall health:** Healthy
 <!-- CYBERMEDIC-LIVE-STATUS:END -->
@@ -61,9 +61,3 @@ The CSV, JSON, KQL, and ES|QL files contain the original IOC values needed for h
 IOCs are collected from current public cybersecurity research, government advisories, and reputable public intelligence sources. Values are validated, checked for false positives, and compared with previously published intelligence.
 
 There is no daily IOC quota. Some days may contain only a few indicators—or none—when there is not enough reliable new intelligence.
-
-## Schedule
-
-The collection runs daily at approximately **06:00 Pacific Time**.
-
-Questions or corrections can be submitted through [GitHub Issues](https://github.com/CYBERMED1C/Daily-Threat-Intel/issues).
