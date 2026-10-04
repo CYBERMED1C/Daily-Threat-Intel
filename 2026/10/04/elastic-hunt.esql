@@ -1,0 +1,11 @@
+/* Query name: CYBERMEDIC Daily IOC Hunt */
+/* Description: Search 30-day Elastic Defend telemetry for validated IOC values. */
+/* Author: CYBERMEDIC */
+/* Last updated: 2026-10-04 */
+/* Notes: One runnable query; exact IOC filters precede newest-first results. */
+FROM logs-endpoint.events.*
+| WHERE @timestamp >= NOW() - 30 DAYS
+| WHERE destination.domain IN ("al.333pwk.org","kppropertiesltd.com","southofkorealottery.com") OR destination.ip IN ("158.94.208.152","198.1.241.78","2.28.107.84","45.192.213.15","94.183.174.83") OR file.hash.md5 IN ("0da7f248ddd837ad8f0e18fb085546a6","617fc8f174349ed47874f45dec8e4966","6bbe6413f9450671cc70f8c4887033b6","a5f2e89d8926046fb4de161c78f79b6b") OR file.hash.sha1 IN ("37dcadde37b84ca9ea9dd7b1d010385bd3e54187","423a9aeff913e0fb6df07d0a23e3e1953df77e6c","49a42b3e3da8e7f771990236ff5953f5c48d620a","80324667cd1ac1f679f28e51a5954c8dae255a6b") OR file.hash.sha256 IN ("1fee1a85a3ed0c8b58f6c7eca67936f89a437a85ace95c5017992f853117d1b7","36d7214b35c74d8784cf0a74e337e7902864d38e822f7c9979133d6123c6bd00","37ad621bd1713295abb9630d8dd8a6e62b805ac08b2c2bc7952b6b2ca6c81418","dc5abf20ae0c61cb9de2ca80055d369872ef9b6be35fa7ebec386e42e445d13a")
+| KEEP @timestamp,host.name,process.name,file.name,file.path,destination.ip,destination.port,destination.domain,file.hash.md5,file.hash.sha1,file.hash.sha256
+| SORT @timestamp DESC
+| LIMIT 500

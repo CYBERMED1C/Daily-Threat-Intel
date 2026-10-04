@@ -1,0 +1,942 @@
+[
+  {
+    "ioc": "kppropertiesltd.com",
+    "ioc_type": "domain",
+    "original_ioc": "kppropertiesltd.com",
+    "hunt_ioc": "kppropertiesltd.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current ClearFake EtherHiding activity",
+    "malware_family": "ClearFake",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1949967 - ClearFake domain"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1949967/"
+    ],
+    "article_published_date": [
+      "2026-10-04T09:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-04T13:00:25Z",
+    "confidence": 91,
+    "acceptance_score": 91,
+    "status": "NEW",
+    "notes": "Exact reported malicious domain retained for hunting.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1949967 - ClearFake domain",
+        "url": "https://threatfox.abuse.ch/ioc/1949967/",
+        "published_at": "2026-10-04T09:00:00Z",
+        "updated_at": null,
+        "reliability": 0.91,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-01T13:00:25Z",
+        "discovery_context": [
+          "ThreatFox identifies this current domain in an individual IOC record as compromised infrastructure used by ClearFake with EtherHiding."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "158.94.208.152",
+    "ioc_type": "ipv4",
+    "original_ioc": "158.94.208.152",
+    "hunt_ioc": "158.94.208.152",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current AsyncRAT command-and-control infrastructure",
+    "malware_family": "AsyncRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1949982 - AsyncRAT endpoint"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1949982/"
+    ],
+    "article_published_date": [
+      "2026-10-04T09:43:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-04T13:00:25Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Port removed; validated public IP retained as the exact hunting pivot.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1949982 - AsyncRAT endpoint",
+        "url": "https://threatfox.abuse.ch/ioc/1949982/",
+        "published_at": "2026-10-04T09:43:00Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-01T13:00:25Z",
+        "discovery_context": [
+          "ThreatFox identifies this public endpoint in a current individual IOC record as AsyncRAT command-and-control infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "198.1.241.78",
+    "ioc_type": "ipv4",
+    "original_ioc": "198.1.241.78",
+    "hunt_ioc": "198.1.241.78",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current DanaBot command-and-control infrastructure",
+    "malware_family": "DanaBot",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1949984 - DanaBot endpoint"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1949984/"
+    ],
+    "article_published_date": [
+      "2026-10-04T09:44:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-04T13:00:25Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Port removed; validated public IP retained as the exact hunting pivot.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1949984 - DanaBot endpoint",
+        "url": "https://threatfox.abuse.ch/ioc/1949984/",
+        "published_at": "2026-10-04T09:44:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-01T13:00:25Z",
+        "discovery_context": [
+          "ThreatFox identifies this public endpoint in a current individual IOC record as DanaBot command-and-control infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2.28.107.84",
+    "ioc_type": "ipv4",
+    "original_ioc": "2.28.107.84",
+    "hunt_ioc": "2.28.107.84",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Evilginx credential-phishing infrastructure",
+    "malware_family": "Evilginx",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1949985 - Evilginx endpoint"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1949985/"
+    ],
+    "article_published_date": [
+      "2026-10-04T09:44:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-04T13:00:25Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Port removed; validated public IP retained as the exact hunting pivot.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1949985 - Evilginx endpoint",
+        "url": "https://threatfox.abuse.ch/ioc/1949985/",
+        "published_at": "2026-10-04T09:44:00Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-01T13:00:25Z",
+        "discovery_context": [
+          "ThreatFox identifies this public endpoint in a current individual IOC record as Evilginx adversary-in-the-middle phishing infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "45.192.213.15",
+    "ioc_type": "ipv4",
+    "original_ioc": "45.192.213.15",
+    "hunt_ioc": "45.192.213.15",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current VShell command-and-control infrastructure",
+    "malware_family": "VShell",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1949816 - VShell endpoint"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1949816/"
+    ],
+    "article_published_date": [
+      "2026-10-04T07:05:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-04T13:00:25Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Port removed; validated public IP retained as the exact hunting pivot.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1949816 - VShell endpoint",
+        "url": "https://threatfox.abuse.ch/ioc/1949816/",
+        "published_at": "2026-10-04T07:05:00Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-01T13:00:25Z",
+        "discovery_context": [
+          "ThreatFox identifies this public endpoint in a current individual IOC record as VShell command-and-control infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "0da7f248ddd837ad8f0e18fb085546a6",
+    "ioc_type": "md5",
+    "original_ioc": "0da7f248ddd837ad8f0e18fb085546a6",
+    "hunt_ioc": "0da7f248ddd837ad8f0e18fb085546a6",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "Current VShell malware sample",
+    "malware_family": "VShell",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 1fee1a85a3ed - VShell"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/1fee1a85a3ed0c8b58f6c7eca67936f89a437a85ace95c5017992f853117d1b7/"
+    ],
+    "article_published_date": [
+      "2026-10-04T05:05:20Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-04T13:00:25Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 1fee1a85a3ed - VShell",
+        "url": "https://bazaar.abuse.ch/sample/1fee1a85a3ed0c8b58f6c7eca67936f89a437a85ace95c5017992f853117d1b7/",
+        "published_at": "2026-10-04T05:05:20Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-01T13:00:25Z",
+        "discovery_context": [
+          "MalwareBazaar identifies this exact hash in a current individual sample record as VShell malware with supporting vendor detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "617fc8f174349ed47874f45dec8e4966",
+    "ioc_type": "md5",
+    "original_ioc": "617fc8f174349ed47874f45dec8e4966",
+    "hunt_ioc": "617fc8f174349ed47874f45dec8e4966",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "Current Mirai malware sample",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 36d7214b35c7 - Mirai"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/36d7214b35c74d8784cf0a74e337e7902864d38e822f7c9979133d6123c6bd00/"
+    ],
+    "article_published_date": [
+      "2026-10-04T06:53:10Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-04T13:00:25Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 36d7214b35c7 - Mirai",
+        "url": "https://bazaar.abuse.ch/sample/36d7214b35c74d8784cf0a74e337e7902864d38e822f7c9979133d6123c6bd00/",
+        "published_at": "2026-10-04T06:53:10Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-01T13:00:25Z",
+        "discovery_context": [
+          "MalwareBazaar identifies this exact hash in a current individual sample record as Mirai malware with supporting vendor detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "6bbe6413f9450671cc70f8c4887033b6",
+    "ioc_type": "md5",
+    "original_ioc": "6bbe6413f9450671cc70f8c4887033b6",
+    "hunt_ioc": "6bbe6413f9450671cc70f8c4887033b6",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "Current RemcosRAT malware sample",
+    "malware_family": "RemcosRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 37ad621bd171 - RemcosRAT"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/37ad621bd1713295abb9630d8dd8a6e62b805ac08b2c2bc7952b6b2ca6c81418/"
+    ],
+    "article_published_date": [
+      "2026-10-04T07:16:05Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-04T13:00:25Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 37ad621bd171 - RemcosRAT",
+        "url": "https://bazaar.abuse.ch/sample/37ad621bd1713295abb9630d8dd8a6e62b805ac08b2c2bc7952b6b2ca6c81418/",
+        "published_at": "2026-10-04T07:16:05Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-01T13:00:25Z",
+        "discovery_context": [
+          "MalwareBazaar identifies this exact hash in a current individual sample record as RemcosRAT malware with ten vendor detections and malicious sandbox analyses."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a5f2e89d8926046fb4de161c78f79b6b",
+    "ioc_type": "md5",
+    "original_ioc": "a5f2e89d8926046fb4de161c78f79b6b",
+    "hunt_ioc": "a5f2e89d8926046fb4de161c78f79b6b",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "Current njRAT malware sample",
+    "malware_family": "njRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample dc5abf20ae0c - njRAT"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/dc5abf20ae0c61cb9de2ca80055d369872ef9b6be35fa7ebec386e42e445d13a/"
+    ],
+    "article_published_date": [
+      "2026-10-04T01:55:08Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-04T13:00:25Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample dc5abf20ae0c - njRAT",
+        "url": "https://bazaar.abuse.ch/sample/dc5abf20ae0c61cb9de2ca80055d369872ef9b6be35fa7ebec386e42e445d13a/",
+        "published_at": "2026-10-04T01:55:08Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-01T13:00:25Z",
+        "discovery_context": [
+          "MalwareBazaar identifies this exact hash in a current individual sample record as njRAT malware with supporting vendor detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "37dcadde37b84ca9ea9dd7b1d010385bd3e54187",
+    "ioc_type": "sha1",
+    "original_ioc": "37dcadde37b84ca9ea9dd7b1d010385bd3e54187",
+    "hunt_ioc": "37dcadde37b84ca9ea9dd7b1d010385bd3e54187",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Current Mirai malware sample",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 36d7214b35c7 - Mirai"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/36d7214b35c74d8784cf0a74e337e7902864d38e822f7c9979133d6123c6bd00/"
+    ],
+    "article_published_date": [
+      "2026-10-04T06:53:10Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-04T13:00:25Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 36d7214b35c7 - Mirai",
+        "url": "https://bazaar.abuse.ch/sample/36d7214b35c74d8784cf0a74e337e7902864d38e822f7c9979133d6123c6bd00/",
+        "published_at": "2026-10-04T06:53:10Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-01T13:00:25Z",
+        "discovery_context": [
+          "MalwareBazaar identifies this exact hash in a current individual sample record as Mirai malware with supporting vendor detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "423a9aeff913e0fb6df07d0a23e3e1953df77e6c",
+    "ioc_type": "sha1",
+    "original_ioc": "423a9aeff913e0fb6df07d0a23e3e1953df77e6c",
+    "hunt_ioc": "423a9aeff913e0fb6df07d0a23e3e1953df77e6c",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Current VShell malware sample",
+    "malware_family": "VShell",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 1fee1a85a3ed - VShell"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/1fee1a85a3ed0c8b58f6c7eca67936f89a437a85ace95c5017992f853117d1b7/"
+    ],
+    "article_published_date": [
+      "2026-10-04T05:05:20Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-04T13:00:25Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 1fee1a85a3ed - VShell",
+        "url": "https://bazaar.abuse.ch/sample/1fee1a85a3ed0c8b58f6c7eca67936f89a437a85ace95c5017992f853117d1b7/",
+        "published_at": "2026-10-04T05:05:20Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-01T13:00:25Z",
+        "discovery_context": [
+          "MalwareBazaar identifies this exact hash in a current individual sample record as VShell malware with supporting vendor detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "49a42b3e3da8e7f771990236ff5953f5c48d620a",
+    "ioc_type": "sha1",
+    "original_ioc": "49a42b3e3da8e7f771990236ff5953f5c48d620a",
+    "hunt_ioc": "49a42b3e3da8e7f771990236ff5953f5c48d620a",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Current RemcosRAT malware sample",
+    "malware_family": "RemcosRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 37ad621bd171 - RemcosRAT"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/37ad621bd1713295abb9630d8dd8a6e62b805ac08b2c2bc7952b6b2ca6c81418/"
+    ],
+    "article_published_date": [
+      "2026-10-04T07:16:05Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-04T13:00:25Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 37ad621bd171 - RemcosRAT",
+        "url": "https://bazaar.abuse.ch/sample/37ad621bd1713295abb9630d8dd8a6e62b805ac08b2c2bc7952b6b2ca6c81418/",
+        "published_at": "2026-10-04T07:16:05Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-01T13:00:25Z",
+        "discovery_context": [
+          "MalwareBazaar identifies this exact hash in a current individual sample record as RemcosRAT malware with ten vendor detections and malicious sandbox analyses."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "80324667cd1ac1f679f28e51a5954c8dae255a6b",
+    "ioc_type": "sha1",
+    "original_ioc": "80324667cd1ac1f679f28e51a5954c8dae255a6b",
+    "hunt_ioc": "80324667cd1ac1f679f28e51a5954c8dae255a6b",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Current njRAT malware sample",
+    "malware_family": "njRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample dc5abf20ae0c - njRAT"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/dc5abf20ae0c61cb9de2ca80055d369872ef9b6be35fa7ebec386e42e445d13a/"
+    ],
+    "article_published_date": [
+      "2026-10-04T01:55:08Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-04T13:00:25Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample dc5abf20ae0c - njRAT",
+        "url": "https://bazaar.abuse.ch/sample/dc5abf20ae0c61cb9de2ca80055d369872ef9b6be35fa7ebec386e42e445d13a/",
+        "published_at": "2026-10-04T01:55:08Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-01T13:00:25Z",
+        "discovery_context": [
+          "MalwareBazaar identifies this exact hash in a current individual sample record as njRAT malware with supporting vendor detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "1fee1a85a3ed0c8b58f6c7eca67936f89a437a85ace95c5017992f853117d1b7",
+    "ioc_type": "sha256",
+    "original_ioc": "1fee1a85a3ed0c8b58f6c7eca67936f89a437a85ace95c5017992f853117d1b7",
+    "hunt_ioc": "1fee1a85a3ed0c8b58f6c7eca67936f89a437a85ace95c5017992f853117d1b7",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current VShell malware sample",
+    "malware_family": "VShell",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 1fee1a85a3ed - VShell"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/1fee1a85a3ed0c8b58f6c7eca67936f89a437a85ace95c5017992f853117d1b7/"
+    ],
+    "article_published_date": [
+      "2026-10-04T05:05:20Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-04T13:00:25Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 1fee1a85a3ed - VShell",
+        "url": "https://bazaar.abuse.ch/sample/1fee1a85a3ed0c8b58f6c7eca67936f89a437a85ace95c5017992f853117d1b7/",
+        "published_at": "2026-10-04T05:05:20Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-01T13:00:25Z",
+        "discovery_context": [
+          "MalwareBazaar identifies this exact hash in a current individual sample record as VShell malware with supporting vendor detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "36d7214b35c74d8784cf0a74e337e7902864d38e822f7c9979133d6123c6bd00",
+    "ioc_type": "sha256",
+    "original_ioc": "36d7214b35c74d8784cf0a74e337e7902864d38e822f7c9979133d6123c6bd00",
+    "hunt_ioc": "36d7214b35c74d8784cf0a74e337e7902864d38e822f7c9979133d6123c6bd00",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current Mirai malware sample",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 36d7214b35c7 - Mirai"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/36d7214b35c74d8784cf0a74e337e7902864d38e822f7c9979133d6123c6bd00/"
+    ],
+    "article_published_date": [
+      "2026-10-04T06:53:10Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-04T13:00:25Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 36d7214b35c7 - Mirai",
+        "url": "https://bazaar.abuse.ch/sample/36d7214b35c74d8784cf0a74e337e7902864d38e822f7c9979133d6123c6bd00/",
+        "published_at": "2026-10-04T06:53:10Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-01T13:00:25Z",
+        "discovery_context": [
+          "MalwareBazaar identifies this exact hash in a current individual sample record as Mirai malware with supporting vendor detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "37ad621bd1713295abb9630d8dd8a6e62b805ac08b2c2bc7952b6b2ca6c81418",
+    "ioc_type": "sha256",
+    "original_ioc": "37ad621bd1713295abb9630d8dd8a6e62b805ac08b2c2bc7952b6b2ca6c81418",
+    "hunt_ioc": "37ad621bd1713295abb9630d8dd8a6e62b805ac08b2c2bc7952b6b2ca6c81418",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current RemcosRAT malware sample",
+    "malware_family": "RemcosRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 37ad621bd171 - RemcosRAT"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/37ad621bd1713295abb9630d8dd8a6e62b805ac08b2c2bc7952b6b2ca6c81418/"
+    ],
+    "article_published_date": [
+      "2026-10-04T07:16:05Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-04T13:00:25Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 37ad621bd171 - RemcosRAT",
+        "url": "https://bazaar.abuse.ch/sample/37ad621bd1713295abb9630d8dd8a6e62b805ac08b2c2bc7952b6b2ca6c81418/",
+        "published_at": "2026-10-04T07:16:05Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-01T13:00:25Z",
+        "discovery_context": [
+          "MalwareBazaar identifies this exact hash in a current individual sample record as RemcosRAT malware with ten vendor detections and malicious sandbox analyses."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "dc5abf20ae0c61cb9de2ca80055d369872ef9b6be35fa7ebec386e42e445d13a",
+    "ioc_type": "sha256",
+    "original_ioc": "dc5abf20ae0c61cb9de2ca80055d369872ef9b6be35fa7ebec386e42e445d13a",
+    "hunt_ioc": "dc5abf20ae0c61cb9de2ca80055d369872ef9b6be35fa7ebec386e42e445d13a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current njRAT malware sample",
+    "malware_family": "njRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample dc5abf20ae0c - njRAT"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/dc5abf20ae0c61cb9de2ca80055d369872ef9b6be35fa7ebec386e42e445d13a/"
+    ],
+    "article_published_date": [
+      "2026-10-04T01:55:08Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-04T13:00:25Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample dc5abf20ae0c - njRAT",
+        "url": "https://bazaar.abuse.ch/sample/dc5abf20ae0c61cb9de2ca80055d369872ef9b6be35fa7ebec386e42e445d13a/",
+        "published_at": "2026-10-04T01:55:08Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-01T13:00:25Z",
+        "discovery_context": [
+          "MalwareBazaar identifies this exact hash in a current individual sample record as njRAT malware with supporting vendor detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://94.183.174.83/loader.sh",
+    "ioc_type": "url",
+    "original_ioc": "http://94.183.174.83/loader.sh",
+    "hunt_ioc": "94.183.174.83",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current shell malware-loader distribution",
+    "malware_family": "Unknown loader",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1949976 - malware loader URL"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1949976/"
+    ],
+    "article_published_date": [
+      "2026-10-04T09:43:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-04T13:00:25Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public IP host.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1949976 - malware loader URL",
+        "url": "https://threatfox.abuse.ch/ioc/1949976/",
+        "published_at": "2026-10-04T09:43:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-01T13:00:25Z",
+        "discovery_context": [
+          "ThreatFox identifies this current exact URL as a malicious shell loader in an individual IOC record."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://al.333pwk.org/",
+    "ioc_type": "url",
+    "original_ioc": "https://al.333pwk.org/",
+    "hunt_ioc": "al.333pwk.org",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current Vidar loader and command-and-control activity",
+    "malware_family": "Vidar",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1949811 - Vidar URL"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1949811/"
+    ],
+    "article_published_date": [
+      "2026-10-04T07:17:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-04T13:00:25Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to its validated domain host.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1949811 - Vidar URL",
+        "url": "https://threatfox.abuse.ch/ioc/1949811/",
+        "published_at": "2026-10-04T07:17:00Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-01T13:00:25Z",
+        "discovery_context": [
+          "ThreatFox identifies this current exact URL in an individual IOC record as Vidar loader or command-and-control infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://southofkorealottery.com/",
+    "ioc_type": "url",
+    "original_ioc": "https://southofkorealottery.com/",
+    "hunt_ioc": "southofkorealottery.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current ClickFix malware-delivery activity",
+    "malware_family": "ClickFix",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1949971 - ClickFix URL"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1949971/"
+    ],
+    "article_published_date": [
+      "2026-10-04T09:30:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-04T13:00:25Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to its validated domain host.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1949971 - ClickFix URL",
+        "url": "https://threatfox.abuse.ch/ioc/1949971/",
+        "published_at": "2026-10-04T09:30:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-01T13:00:25Z",
+        "discovery_context": [
+          "ThreatFox identifies this current exact URL in an individual IOC record as infrastructure used in ClickFix malware-delivery activity."
+        ]
+      }
+    ]
+  }
+]
