@@ -1,0 +1,21 @@
+// Query name: CYBERMEDIC Daily IOC Hunt
+// Description: Search 30-day Microsoft Defender telemetry for validated IOC values.
+// Author : CYBERMEDIC
+// Last updated: 2026-10-05
+// MITRE ATT&CK mapping: N/A - IOC lookup
+// Notes: One runnable query; exact IOC filters precede the 500-result limit.
+// Sources: See the daily IOC summary for 2026-10-05.
+union
+(
+DeviceNetworkEvents
+| where Timestamp >= ago(30d)
+| where RemoteIP in~ ("105.224.19.165","115.55.82.43","165.98.243.83","185.214.17.203","190.103.67.242","222.127.170.84","27.215.123.59")
+| project Timestamp,DeviceName,RemoteIP,RemotePort,RemoteUrl,InitiatingProcessFileName
+),
+(
+DeviceFileEvents
+| where Timestamp >= ago(30d)
+| where SHA256 in~ ("0926f6f79fcac8bc7e1e1e7027743a37662a1db79464fd24dc12c6c199ddee21","12013662c71da69de977c04cd7021f13a70cf7bed4ca6c82acbc100464d4b0ef","20d5a4893788205e923413b2a13b4e5e8e40e57ff01e651c5662c9a530a46786","4293c1d8574dc87c58360d6bac3daa182f64f7785c9d41da5e0741d2b1817fc7","4bb957e55360ae037e790622340f6369c94653f190fb5e533c05729564156284","675f3a21dc8913a31dc21cc2d8a20eb3310ee3219f3533eb14cf649a363dd268")
+| project Timestamp,DeviceName,FileName,FolderPath,MD5,SHA1,SHA256,InitiatingProcessFileName
+)
+| top 500 by Timestamp desc

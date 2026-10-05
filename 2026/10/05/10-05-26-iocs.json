@@ -1,0 +1,613 @@
+[
+  {
+    "ioc": "0926f6f79fcac8bc7e1e1e7027743a37662a1db79464fd24dc12c6c199ddee21",
+    "ioc_type": "sha256",
+    "original_ioc": "0926f6f79fcac8bc7e1e1e7027743a37662a1db79464fd24dc12c6c199ddee21",
+    "hunt_ioc": "0926f6f79fcac8bc7e1e1e7027743a37662a1db79464fd24dc12c6c199ddee21",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current SnakeKeylogger malware sample",
+    "malware_family": "SnakeKeylogger",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 0926f6f79fca - SnakeKeylogger"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/0926f6f79fcac8bc7e1e1e7027743a37662a1db79464fd24dc12c6c199ddee21/"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:21:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-05T13:01:43Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash from an individual MalwareBazaar record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 0926f6f79fca - SnakeKeylogger",
+        "url": "https://bazaar.abuse.ch/sample/0926f6f79fcac8bc7e1e1e7027743a37662a1db79464fd24dc12c6c199ddee21/",
+        "published_at": "2026-10-05T12:21:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-02T13:01:43Z",
+        "discovery_context": [
+          "MalwareBazaar lists this exact current executable sample with the explicit SnakeKeylogger malware signature."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "12013662c71da69de977c04cd7021f13a70cf7bed4ca6c82acbc100464d4b0ef",
+    "ioc_type": "sha256",
+    "original_ioc": "12013662c71da69de977c04cd7021f13a70cf7bed4ca6c82acbc100464d4b0ef",
+    "hunt_ioc": "12013662c71da69de977c04cd7021f13a70cf7bed4ca6c82acbc100464d4b0ef",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current Mirai malware delivery",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3929194 - online Mirai delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3929194/"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:02:18Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-05T13:01:43Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Exact retrieved payload hash from the individual URLhaus record.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3929194 - online Mirai delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3929194/",
+        "published_at": "2026-10-05T12:02:18Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-02T13:01:43Z",
+        "discovery_context": [
+          "URLhaus retrieved this exact SHA256 payload from an online malware URL and identified the ELF sample as Mirai."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "20d5a4893788205e923413b2a13b4e5e8e40e57ff01e651c5662c9a530a46786",
+    "ioc_type": "sha256",
+    "original_ioc": "20d5a4893788205e923413b2a13b4e5e8e40e57ff01e651c5662c9a530a46786",
+    "hunt_ioc": "20d5a4893788205e923413b2a13b4e5e8e40e57ff01e651c5662c9a530a46786",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current Mirai malware sample",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 20d5a4893788 - Mirai"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/20d5a4893788205e923413b2a13b4e5e8e40e57ff01e651c5662c9a530a46786/"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:17:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-05T13:01:43Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash from an individual MalwareBazaar record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 20d5a4893788 - Mirai",
+        "url": "https://bazaar.abuse.ch/sample/20d5a4893788205e923413b2a13b4e5e8e40e57ff01e651c5662c9a530a46786/",
+        "published_at": "2026-10-05T12:17:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-02T13:01:43Z",
+        "discovery_context": [
+          "MalwareBazaar lists this exact current ELF sample with the explicit Mirai malware signature and honeypot context."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "4293c1d8574dc87c58360d6bac3daa182f64f7785c9d41da5e0741d2b1817fc7",
+    "ioc_type": "sha256",
+    "original_ioc": "4293c1d8574dc87c58360d6bac3daa182f64f7785c9d41da5e0741d2b1817fc7",
+    "hunt_ioc": "4293c1d8574dc87c58360d6bac3daa182f64f7785c9d41da5e0741d2b1817fc7",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current Mozi malware delivery",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3929196 - online Mozi delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3929196/"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:05:22Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-05T13:01:43Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Exact retrieved payload hash from the individual URLhaus record.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3929196 - online Mozi delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3929196/",
+        "published_at": "2026-10-05T12:05:22Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-02T13:01:43Z",
+        "discovery_context": [
+          "URLhaus retrieved this exact SHA256 payload from an online malware URL and identified the ELF sample as Mozi."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "4bb957e55360ae037e790622340f6369c94653f190fb5e533c05729564156284",
+    "ioc_type": "sha256",
+    "original_ioc": "4bb957e55360ae037e790622340f6369c94653f190fb5e533c05729564156284",
+    "hunt_ioc": "4bb957e55360ae037e790622340f6369c94653f190fb5e533c05729564156284",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current WannaCry malware sample",
+    "malware_family": "WannaCry",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 4bb957e55360 - WannaCry"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/4bb957e55360ae037e790622340f6369c94653f190fb5e533c05729564156284/"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:15:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-05T13:01:43Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash from an individual MalwareBazaar record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 4bb957e55360 - WannaCry",
+        "url": "https://bazaar.abuse.ch/sample/4bb957e55360ae037e790622340f6369c94653f190fb5e533c05729564156284/",
+        "published_at": "2026-10-05T12:15:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-02T13:01:43Z",
+        "discovery_context": [
+          "MalwareBazaar lists this exact current executable sample with the explicit WannaCry malware signature and honeypot context."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "675f3a21dc8913a31dc21cc2d8a20eb3310ee3219f3533eb14cf649a363dd268",
+    "ioc_type": "sha256",
+    "original_ioc": "675f3a21dc8913a31dc21cc2d8a20eb3310ee3219f3533eb14cf649a363dd268",
+    "hunt_ioc": "675f3a21dc8913a31dc21cc2d8a20eb3310ee3219f3533eb14cf649a363dd268",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current Gafgyt malware sample",
+    "malware_family": "Gafgyt",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 675f3a21dc89 - Gafgyt"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/675f3a21dc8913a31dc21cc2d8a20eb3310ee3219f3533eb14cf649a363dd268/"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:30:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-05T13:01:43Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash from an individual MalwareBazaar record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 675f3a21dc89 - Gafgyt",
+        "url": "https://bazaar.abuse.ch/sample/675f3a21dc8913a31dc21cc2d8a20eb3310ee3219f3533eb14cf649a363dd268/",
+        "published_at": "2026-10-05T12:30:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-02T13:01:43Z",
+        "discovery_context": [
+          "MalwareBazaar lists this exact current ELF sample with the explicit Gafgyt malware signature."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://105.224.19.165:45811/i",
+    "ioc_type": "url",
+    "original_ioc": "http://105.224.19.165:45811/i",
+    "hunt_ioc": "105.224.19.165",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mirai malware delivery",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3929191 - online Mirai delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3929191/"
+    ],
+    "article_published_date": [
+      "2026-10-05T11:47:13Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-05T13:01:43Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public IP host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3929191 - online Mirai delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3929191/",
+        "published_at": "2026-10-05T11:47:13Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-02T13:01:43Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving an ELF payload identified as Mirai malware."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://115.55.82.43:41816/i",
+    "ioc_type": "url",
+    "original_ioc": "http://115.55.82.43:41816/i",
+    "hunt_ioc": "115.55.82.43",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mozi malware delivery",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3929196 - online Mozi delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3929196/"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:05:22Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-05T13:01:43Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public IP host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3929196 - online Mozi delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3929196/",
+        "published_at": "2026-10-05T12:05:22Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-02T13:01:43Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving an ELF payload identified as Mozi malware."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://165.98.243.83:39274/i",
+    "ioc_type": "url",
+    "original_ioc": "http://165.98.243.83:39274/i",
+    "hunt_ioc": "165.98.243.83",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mirai malware delivery",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3929185 - online Mirai delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3929185/"
+    ],
+    "article_published_date": [
+      "2026-10-05T11:46:20Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-05T13:01:43Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public IP host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3929185 - online Mirai delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3929185/",
+        "published_at": "2026-10-05T11:46:20Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-02T13:01:43Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving an ELF payload identified as Mirai malware."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://185.214.17.203:34053/bin.sh",
+    "ioc_type": "url",
+    "original_ioc": "http://185.214.17.203:34053/bin.sh",
+    "hunt_ioc": "185.214.17.203",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mirai malware delivery",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3929194 - online Mirai delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3929194/"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:02:18Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-05T13:01:43Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public IP host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3929194 - online Mirai delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3929194/",
+        "published_at": "2026-10-05T12:02:18Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-02T13:01:43Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving an ELF payload identified as Mirai malware."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://190.103.67.242:48259/bin.sh",
+    "ioc_type": "url",
+    "original_ioc": "http://190.103.67.242:48259/bin.sh",
+    "hunt_ioc": "190.103.67.242",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mozi malware delivery",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3929192 - online Mozi delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3929192/"
+    ],
+    "article_published_date": [
+      "2026-10-05T11:47:28Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-05T13:01:43Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public IP host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3929192 - online Mozi delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3929192/",
+        "published_at": "2026-10-05T11:47:28Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-02T13:01:43Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving an ELF payload identified as Mozi malware."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://222.127.170.84:44966/bin.sh",
+    "ioc_type": "url",
+    "original_ioc": "http://222.127.170.84:44966/bin.sh",
+    "hunt_ioc": "222.127.170.84",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mirai malware delivery",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3929187 - online Mirai delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3929187/"
+    ],
+    "article_published_date": [
+      "2026-10-05T11:46:20Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-05T13:01:43Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public IP host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3929187 - online Mirai delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3929187/",
+        "published_at": "2026-10-05T11:46:20Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-02T13:01:43Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving an ELF payload identified as Mirai malware."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://27.215.123.59:54044/bin.sh",
+    "ioc_type": "url",
+    "original_ioc": "http://27.215.123.59:54044/bin.sh",
+    "hunt_ioc": "27.215.123.59",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mozi malware delivery",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3929193 - online Mozi delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3929193/"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:02:17Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-05T13:01:43Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public IP host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3929193 - online Mozi delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3929193/",
+        "published_at": "2026-10-05T12:02:17Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-02T13:01:43Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving an ELF payload identified as Mozi malware."
+        ]
+      }
+    ]
+  }
+]
