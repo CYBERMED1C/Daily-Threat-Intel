@@ -1,0 +1,11 @@
+/* Query name: CYBERMEDIC Daily IOC Hunt */
+/* Description: Search 30-day Elastic Defend telemetry for validated IOC values. */
+/* Author: CYBERMEDIC */
+/* Last updated: 2026-10-06 */
+/* Notes: One runnable query; exact IOC filters precede newest-first results. */
+FROM logs-endpoint.events.*
+| WHERE @timestamp >= NOW() - 30 DAYS
+| WHERE destination.domain IN ("daykinder1.top","finger.linkeders.net","forgitlab.com","imgcdn1.com") OR destination.ip IN ("104.234.65.75","105.225.101.223","123.13.115.68","123.4.241.99","141.95.252.30","162.220.163.26","191.96.81.101","222.127.77.227","23.236.169.183","27.215.9.11","45.89.30.194","51.137.158.178","66.179.30.155") OR file.hash.sha256 IN ("0adc3cb190e10f61005d7a0c12cfe6f4f8e082a26a1719e0df560dbd61e81613","2989244eac2a4bc7a13a09dec003e5c05ef7c80b2afe0958ce25042d5b804210","2e216bdb002fd0f418f149a29c7d61e8ae3efcf79debd9b31f319b3906b8cc59","4f4f7d64139bde6d458a061c7fb7dd247f70f60a1ab47d87fd3634656586c106","7ef0b121f0059de02cea8c1280f4fdd0c440b057346984bfcf8606a2a66a8148","889e13e227bc2b762178b88c35c691db3256e72be64d92ff1f381d29a2789849","9aba4685af072231aee049e1a5e294965580001b364d7d00152d84fcec1ce793","a826b9cc584bd8c95e2778eb52e58e252f006b183d0cdc87de245b96faec4a6f","e7f86f6cc4380db66d333eaf6f7dfc2c12d232c2bcd526434681245dea25efa4","fd199d3977e1a2945b6031fc8696660a980e4f4617899baa045efe7ccbc8de67")
+| KEEP @timestamp,host.name,process.name,file.name,file.path,destination.ip,destination.port,destination.domain,file.hash.md5,file.hash.sha1,file.hash.sha256
+| SORT @timestamp DESC
+| LIMIT 500

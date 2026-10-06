@@ -1,0 +1,1412 @@
+[
+  {
+    "ioc": "daykinder1.top",
+    "ioc_type": "domain",
+    "original_ioc": "daykinder1.top",
+    "hunt_ioc": "daykinder1.top",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "FIBS Prague WhatsApp phishing",
+    "malware_family": "Credential phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "CERT-AGID"
+    ],
+    "source_article": [
+      "Torna la truffa della ballerina: falsi concorsi su WhatsApp per sottrarre gli account"
+    ],
+    "source_url": [
+      "https://cert-agid.gov.it/news/torna-la-truffa-della-ballerina-falsi-concorsi-su-whatsapp-per-sottrarre-gli-account/"
+    ],
+    "article_published_date": [
+      "2026-10-06T09:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious domain from the government CERT IOC appendix.",
+    "sources": [
+      {
+        "organization": "CERT-AGID",
+        "article_title": "Torna la truffa della ballerina: falsi concorsi su WhatsApp per sottrarre gli account",
+        "url": "https://cert-agid.gov.it/news/torna-la-truffa-della-ballerina-falsi-concorsi-su-whatsapp-per-sottrarre-gli-account/",
+        "published_at": "2026-10-06T09:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "CERT-AGID's public IOC appendix identifies this domain as infrastructure for an active WhatsApp account-theft phishing campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "finger.linkeders.net",
+    "ioc_type": "domain",
+    "original_ioc": "finger.linkeders.net",
+    "hunt_ioc": "finger.linkeders.net",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "ClickFix social-engineering activity",
+    "malware_family": "ClickFix",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Huntress"
+    ],
+    "source_article": [
+      "How Huntress Detects and Responds to a ClickFix Attack"
+    ],
+    "source_url": [
+      "https://www.huntress.com/blog/fix-for-clickfix"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Exact malicious host from original incident-response research.",
+    "sources": [
+      {
+        "organization": "Huntress",
+        "article_title": "How Huntress Detects and Responds to a ClickFix Attack",
+        "url": "https://www.huntress.com/blog/fix-for-clickfix",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "Huntress identifies this host in a live ClickFix attack example as malicious infrastructure used in the execution chain."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "forgitlab.com",
+    "ioc_type": "domain",
+    "original_ioc": "forgitlab.com",
+    "hunt_ioc": "forgitlab.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Gentlemen ransomware operations",
+    "malware_family": "Gentlemen ransomware",
+    "threat_actor": "Azazel (Gentlemen affiliate)",
+    "source_organization": [
+      "CloudSEK"
+    ],
+    "source_article": [
+      "Caught in 4K: The Gentlemen Files"
+    ],
+    "source_url": [
+      "https://www.cloudsek.com/blog/caught-in-4k-the-gentlemen-files"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Exact actor-controlled domain from original technical research.",
+    "sources": [
+      {
+        "organization": "CloudSEK",
+        "article_title": "Caught in 4K: The Gentlemen Files",
+        "url": "https://www.cloudsek.com/blog/caught-in-4k-the-gentlemen-files",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "CloudSEK identifies this actor-owned hostname in the Gentlemen ransomware infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "imgcdn1.com",
+    "ioc_type": "domain",
+    "original_ioc": "imgcdn1.com",
+    "hunt_ioc": "imgcdn1.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Active WordPress XSS persistence campaign",
+    "malware_family": "WordPress persistence implant",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Patchstack"
+    ],
+    "source_article": [
+      "Four ways back in: the WordPress XSS campaign that hides its own admin account"
+    ],
+    "source_url": [
+      "https://patchstack.com/articles/four-ways-back-in-the-wordpress-xss-campaign-that-hides-its-own-admin-account/"
+    ],
+    "article_published_date": [
+      "2026-10-06T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious domain from original technical research; scanning IPs were excluded because they were largely shared Tor exit infrastructure.",
+    "sources": [
+      {
+        "organization": "Patchstack",
+        "article_title": "Four ways back in: the WordPress XSS campaign that hides its own admin account",
+        "url": "https://patchstack.com/articles/four-ways-back-in-the-wordpress-xss-campaign-that-hides-its-own-admin-account/",
+        "published_at": "2026-10-06T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "Patchstack identifies this actor-controlled domain as serving the JavaScript payload and command-and-control endpoint for an actively exploited WordPress persistence campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "104.234.65.75",
+    "ioc_type": "ipv4",
+    "original_ioc": "104.234.65.75",
+    "hunt_ioc": "104.234.65.75",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "MALFEX npm supply-chain campaign",
+    "malware_family": "MALFEX multi-payload loader",
+    "threat_actor": "MALFEX operator",
+    "source_organization": [
+      "Checkmarx Zero"
+    ],
+    "source_article": [
+      "MALFEX npm Malware Campaign: Three Payloads And An Adversary That Signs Their Work"
+    ],
+    "source_url": [
+      "https://checkmarx.com/zero-post/malfex-npm-malware-campaign-three-payloads-and-an-adversary-that-signs-their-work/"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact campaign infrastructure from original technical research.",
+    "sources": [
+      {
+        "organization": "Checkmarx Zero",
+        "article_title": "MALFEX npm Malware Campaign: Three Payloads And An Adversary That Signs Their Work",
+        "url": "https://checkmarx.com/zero-post/malfex-npm-malware-campaign-three-payloads-and-an-adversary-that-signs-their-work/",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "Checkmarx identifies this public IP as adversary infrastructure used by the MALFEX npm malware campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "141.95.252.30",
+    "ioc_type": "ipv4",
+    "original_ioc": "141.95.252.30",
+    "hunt_ioc": "141.95.252.30",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Gentlemen ransomware operations",
+    "malware_family": "Gentlemen ransomware",
+    "threat_actor": "Azazel (Gentlemen affiliate)",
+    "source_organization": [
+      "CloudSEK"
+    ],
+    "source_article": [
+      "Caught in 4K: The Gentlemen Files"
+    ],
+    "source_url": [
+      "https://www.cloudsek.com/blog/caught-in-4k-the-gentlemen-files"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact actor-controlled beacon from original technical research.",
+    "sources": [
+      {
+        "organization": "CloudSEK",
+        "article_title": "Caught in 4K: The Gentlemen Files",
+        "url": "https://www.cloudsek.com/blog/caught-in-4k-the-gentlemen-files",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "CloudSEK identifies this public IP as Gentlemen ransomware beacon infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "162.220.163.26",
+    "ioc_type": "ipv4",
+    "original_ioc": "162.220.163.26",
+    "hunt_ioc": "162.220.163.26",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Gentlemen ransomware operations",
+    "malware_family": "Gentlemen ransomware",
+    "threat_actor": "Azazel (Gentlemen affiliate)",
+    "source_organization": [
+      "CloudSEK"
+    ],
+    "source_article": [
+      "Caught in 4K: The Gentlemen Files"
+    ],
+    "source_url": [
+      "https://www.cloudsek.com/blog/caught-in-4k-the-gentlemen-files"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Exact actor-controlled infrastructure from original technical research.",
+    "sources": [
+      {
+        "organization": "CloudSEK",
+        "article_title": "Caught in 4K: The Gentlemen Files",
+        "url": "https://www.cloudsek.com/blog/caught-in-4k-the-gentlemen-files",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "CloudSEK attributes this public IP to the Gentlemen ransomware operator's stolen-data repository."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "191.96.81.101",
+    "ioc_type": "ipv4",
+    "original_ioc": "191.96.81.101",
+    "hunt_ioc": "191.96.81.101",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "MALFEX npm supply-chain campaign",
+    "malware_family": "MALFEX multi-payload loader",
+    "threat_actor": "MALFEX operator",
+    "source_organization": [
+      "Checkmarx Zero"
+    ],
+    "source_article": [
+      "MALFEX npm Malware Campaign: Three Payloads And An Adversary That Signs Their Work"
+    ],
+    "source_url": [
+      "https://checkmarx.com/zero-post/malfex-npm-malware-campaign-three-payloads-and-an-adversary-that-signs-their-work/"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact campaign infrastructure from original technical research.",
+    "sources": [
+      {
+        "organization": "Checkmarx Zero",
+        "article_title": "MALFEX npm Malware Campaign: Three Payloads And An Adversary That Signs Their Work",
+        "url": "https://checkmarx.com/zero-post/malfex-npm-malware-campaign-three-payloads-and-an-adversary-that-signs-their-work/",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "Checkmarx identifies this public IP as adversary infrastructure used by the MALFEX npm malware campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "23.236.169.183",
+    "ioc_type": "ipv4",
+    "original_ioc": "23.236.169.183",
+    "hunt_ioc": "23.236.169.183",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Gentlemen ransomware operations",
+    "malware_family": "Gentlemen ransomware",
+    "threat_actor": "Azazel (Gentlemen affiliate)",
+    "source_organization": [
+      "CloudSEK"
+    ],
+    "source_article": [
+      "Caught in 4K: The Gentlemen Files"
+    ],
+    "source_url": [
+      "https://www.cloudsek.com/blog/caught-in-4k-the-gentlemen-files"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Exact actor-controlled infrastructure from original technical research.",
+    "sources": [
+      {
+        "organization": "CloudSEK",
+        "article_title": "Caught in 4K: The Gentlemen Files",
+        "url": "https://www.cloudsek.com/blog/caught-in-4k-the-gentlemen-files",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "CloudSEK attributes this public IP to Gentlemen ransomware command-and-control and an exposed actor directory."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "45.89.30.194",
+    "ioc_type": "ipv4",
+    "original_ioc": "45.89.30.194",
+    "hunt_ioc": "45.89.30.194",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "MALFEX npm supply-chain campaign",
+    "malware_family": "MALFEX multi-payload loader",
+    "threat_actor": "MALFEX operator",
+    "source_organization": [
+      "Checkmarx Zero"
+    ],
+    "source_article": [
+      "MALFEX npm Malware Campaign: Three Payloads And An Adversary That Signs Their Work"
+    ],
+    "source_url": [
+      "https://checkmarx.com/zero-post/malfex-npm-malware-campaign-three-payloads-and-an-adversary-that-signs-their-work/"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact campaign infrastructure from original technical research.",
+    "sources": [
+      {
+        "organization": "Checkmarx Zero",
+        "article_title": "MALFEX npm Malware Campaign: Three Payloads And An Adversary That Signs Their Work",
+        "url": "https://checkmarx.com/zero-post/malfex-npm-malware-campaign-three-payloads-and-an-adversary-that-signs-their-work/",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "Checkmarx identifies this public IP as adversary infrastructure used by the MALFEX npm malware campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "51.137.158.178",
+    "ioc_type": "ipv4",
+    "original_ioc": "51.137.158.178",
+    "hunt_ioc": "51.137.158.178",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "MALFEX npm supply-chain campaign",
+    "malware_family": "MALFEX multi-payload loader",
+    "threat_actor": "MALFEX operator",
+    "source_organization": [
+      "Checkmarx Zero"
+    ],
+    "source_article": [
+      "MALFEX npm Malware Campaign: Three Payloads And An Adversary That Signs Their Work"
+    ],
+    "source_url": [
+      "https://checkmarx.com/zero-post/malfex-npm-malware-campaign-three-payloads-and-an-adversary-that-signs-their-work/"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Exact malicious IP retained; unrelated shared cloud URLs were excluded.",
+    "sources": [
+      {
+        "organization": "Checkmarx Zero",
+        "article_title": "MALFEX npm Malware Campaign: Three Payloads And An Adversary That Signs Their Work",
+        "url": "https://checkmarx.com/zero-post/malfex-npm-malware-campaign-three-payloads-and-an-adversary-that-signs-their-work/",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "Checkmarx identifies this public IP as malicious payload infrastructure used by the MALFEX npm campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "66.179.30.155",
+    "ioc_type": "ipv4",
+    "original_ioc": "66.179.30.155",
+    "hunt_ioc": "66.179.30.155",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Gentlemen ransomware operations",
+    "malware_family": "Gentlemen ransomware",
+    "threat_actor": "Azazel (Gentlemen affiliate)",
+    "source_organization": [
+      "CloudSEK"
+    ],
+    "source_article": [
+      "Caught in 4K: The Gentlemen Files"
+    ],
+    "source_url": [
+      "https://www.cloudsek.com/blog/caught-in-4k-the-gentlemen-files"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact actor infrastructure; shared MEGA infrastructure was excluded.",
+    "sources": [
+      {
+        "organization": "CloudSEK",
+        "article_title": "Caught in 4K: The Gentlemen Files",
+        "url": "https://www.cloudsek.com/blog/caught-in-4k-the-gentlemen-files",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "CloudSEK identifies this public IP as LEAKNED infrastructure linked to the Gentlemen ransomware operator."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "0adc3cb190e10f61005d7a0c12cfe6f4f8e082a26a1719e0df560dbd61e81613",
+    "ioc_type": "sha256",
+    "original_ioc": "0adc3cb190e10f61005d7a0c12cfe6f4f8e082a26a1719e0df560dbd61e81613",
+    "hunt_ioc": "0adc3cb190e10f61005d7a0c12cfe6f4f8e082a26a1719e0df560dbd61e81613",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current PureRAT distribution",
+    "malware_family": "PureRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 0adc3cb190e1 - PureRAT"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/0adc3cb190e10f61005d7a0c12cfe6f4f8e082a26a1719e0df560dbd61e81613/"
+    ],
+    "article_published_date": [
+      "2026-10-06T09:54:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash from an individual MalwareBazaar record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 0adc3cb190e1 - PureRAT",
+        "url": "https://bazaar.abuse.ch/sample/0adc3cb190e10f61005d7a0c12cfe6f4f8e082a26a1719e0df560dbd61e81613/",
+        "published_at": "2026-10-06T09:54:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "MalwareBazaar lists this exact current executable sample with the explicit PureRAT malware signature."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2989244eac2a4bc7a13a09dec003e5c05ef7c80b2afe0958ce25042d5b804210",
+    "ioc_type": "sha256",
+    "original_ioc": "2989244eac2a4bc7a13a09dec003e5c05ef7c80b2afe0958ce25042d5b804210",
+    "hunt_ioc": "2989244eac2a4bc7a13a09dec003e5c05ef7c80b2afe0958ce25042d5b804210",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "MALFEX npm supply-chain campaign",
+    "malware_family": "Overlord RAT",
+    "threat_actor": "MALFEX operator",
+    "source_organization": [
+      "Checkmarx Zero"
+    ],
+    "source_article": [
+      "MALFEX npm Malware Campaign: Three Payloads And An Adversary That Signs Their Work"
+    ],
+    "source_url": [
+      "https://checkmarx.com/zero-post/malfex-npm-malware-campaign-three-payloads-and-an-adversary-that-signs-their-work/"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious sample hash.",
+    "sources": [
+      {
+        "organization": "Checkmarx Zero",
+        "article_title": "MALFEX npm Malware Campaign: Three Payloads And An Adversary That Signs Their Work",
+        "url": "https://checkmarx.com/zero-post/malfex-npm-malware-campaign-three-payloads-and-an-adversary-that-signs-their-work/",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "Checkmarx identifies this exact SHA256 as the decoded Overlord RAT payload in the MALFEX campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2e216bdb002fd0f418f149a29c7d61e8ae3efcf79debd9b31f319b3906b8cc59",
+    "ioc_type": "sha256",
+    "original_ioc": "2e216bdb002fd0f418f149a29c7d61e8ae3efcf79debd9b31f319b3906b8cc59",
+    "hunt_ioc": "2e216bdb002fd0f418f149a29c7d61e8ae3efcf79debd9b31f319b3906b8cc59",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current ACRStealer distribution",
+    "malware_family": "ACRStealer",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 2e216bdb002f - ACRStealer"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/2e216bdb002fd0f418f149a29c7d61e8ae3efcf79debd9b31f319b3906b8cc59/"
+    ],
+    "article_published_date": [
+      "2026-10-06T11:03:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash from an individual MalwareBazaar record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 2e216bdb002f - ACRStealer",
+        "url": "https://bazaar.abuse.ch/sample/2e216bdb002fd0f418f149a29c7d61e8ae3efcf79debd9b31f319b3906b8cc59/",
+        "published_at": "2026-10-06T11:03:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "MalwareBazaar lists this exact current executable sample with the explicit ACRStealer malware signature."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "4f4f7d64139bde6d458a061c7fb7dd247f70f60a1ab47d87fd3634656586c106",
+    "ioc_type": "sha256",
+    "original_ioc": "4f4f7d64139bde6d458a061c7fb7dd247f70f60a1ab47d87fd3634656586c106",
+    "hunt_ioc": "4f4f7d64139bde6d458a061c7fb7dd247f70f60a1ab47d87fd3634656586c106",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "MALFEX npm supply-chain campaign",
+    "malware_family": "MALFEX banner payload",
+    "threat_actor": "MALFEX operator",
+    "source_organization": [
+      "Checkmarx Zero"
+    ],
+    "source_article": [
+      "MALFEX npm Malware Campaign: Three Payloads And An Adversary That Signs Their Work"
+    ],
+    "source_url": [
+      "https://checkmarx.com/zero-post/malfex-npm-malware-campaign-three-payloads-and-an-adversary-that-signs-their-work/"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Exact malicious sample hash.",
+    "sources": [
+      {
+        "organization": "Checkmarx Zero",
+        "article_title": "MALFEX npm Malware Campaign: Three Payloads And An Adversary That Signs Their Work",
+        "url": "https://checkmarx.com/zero-post/malfex-npm-malware-campaign-three-payloads-and-an-adversary-that-signs-their-work/",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "Checkmarx identifies this exact SHA256 as a current malicious payload used by the MALFEX campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "7ef0b121f0059de02cea8c1280f4fdd0c440b057346984bfcf8606a2a66a8148",
+    "ioc_type": "sha256",
+    "original_ioc": "7ef0b121f0059de02cea8c1280f4fdd0c440b057346984bfcf8606a2a66a8148",
+    "hunt_ioc": "7ef0b121f0059de02cea8c1280f4fdd0c440b057346984bfcf8606a2a66a8148",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current WannaCry malware sample",
+    "malware_family": "WannaCry",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 7ef0b121f005 - WannaCry"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/7ef0b121f0059de02cea8c1280f4fdd0c440b057346984bfcf8606a2a66a8148/"
+    ],
+    "article_published_date": [
+      "2026-10-06T09:15:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash from an individual MalwareBazaar record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 7ef0b121f005 - WannaCry",
+        "url": "https://bazaar.abuse.ch/sample/7ef0b121f0059de02cea8c1280f4fdd0c440b057346984bfcf8606a2a66a8148/",
+        "published_at": "2026-10-06T09:15:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "MalwareBazaar lists this exact current executable sample with the explicit WannaCry malware signature."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "889e13e227bc2b762178b88c35c691db3256e72be64d92ff1f381d29a2789849",
+    "ioc_type": "sha256",
+    "original_ioc": "889e13e227bc2b762178b88c35c691db3256e72be64d92ff1f381d29a2789849",
+    "hunt_ioc": "889e13e227bc2b762178b88c35c691db3256e72be64d92ff1f381d29a2789849",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "MALFEX npm supply-chain campaign",
+    "malware_family": "Information-stealer downloader",
+    "threat_actor": "MALFEX operator",
+    "source_organization": [
+      "Checkmarx Zero"
+    ],
+    "source_article": [
+      "MALFEX npm Malware Campaign: Three Payloads And An Adversary That Signs Their Work"
+    ],
+    "source_url": [
+      "https://checkmarx.com/zero-post/malfex-npm-malware-campaign-three-payloads-and-an-adversary-that-signs-their-work/"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Exact malicious sample hash.",
+    "sources": [
+      {
+        "organization": "Checkmarx Zero",
+        "article_title": "MALFEX npm Malware Campaign: Three Payloads And An Adversary That Signs Their Work",
+        "url": "https://checkmarx.com/zero-post/malfex-npm-malware-campaign-three-payloads-and-an-adversary-that-signs-their-work/",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "Checkmarx identifies this exact SHA256 as an information-stealer downloader in the MALFEX campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "9aba4685af072231aee049e1a5e294965580001b364d7d00152d84fcec1ce793",
+    "ioc_type": "sha256",
+    "original_ioc": "9aba4685af072231aee049e1a5e294965580001b364d7d00152d84fcec1ce793",
+    "hunt_ioc": "9aba4685af072231aee049e1a5e294965580001b364d7d00152d84fcec1ce793",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "MALFEX npm supply-chain campaign",
+    "malware_family": "Overlord RAT loader",
+    "threat_actor": "MALFEX operator",
+    "source_organization": [
+      "Checkmarx Zero"
+    ],
+    "source_article": [
+      "MALFEX npm Malware Campaign: Three Payloads And An Adversary That Signs Their Work"
+    ],
+    "source_url": [
+      "https://checkmarx.com/zero-post/malfex-npm-malware-campaign-three-payloads-and-an-adversary-that-signs-their-work/"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious sample hash; the signed legitimate AutoIt interpreter hash was excluded.",
+    "sources": [
+      {
+        "organization": "Checkmarx Zero",
+        "article_title": "MALFEX npm Malware Campaign: Three Payloads And An Adversary That Signs Their Work",
+        "url": "https://checkmarx.com/zero-post/malfex-npm-malware-campaign-three-payloads-and-an-adversary-that-signs-their-work/",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "Checkmarx identifies this exact SHA256 as the malicious Overlord RAT loader in the MALFEX campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a826b9cc584bd8c95e2778eb52e58e252f006b183d0cdc87de245b96faec4a6f",
+    "ioc_type": "sha256",
+    "original_ioc": "a826b9cc584bd8c95e2778eb52e58e252f006b183d0cdc87de245b96faec4a6f",
+    "hunt_ioc": "a826b9cc584bd8c95e2778eb52e58e252f006b183d0cdc87de245b96faec4a6f",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current AmateraStealer distribution",
+    "malware_family": "AmateraStealer",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample a826b9cc584b - AmateraStealer"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/a826b9cc584bd8c95e2778eb52e58e252f006b183d0cdc87de245b96faec4a6f/"
+    ],
+    "article_published_date": [
+      "2026-10-06T11:55:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash from an individual MalwareBazaar record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample a826b9cc584b - AmateraStealer",
+        "url": "https://bazaar.abuse.ch/sample/a826b9cc584bd8c95e2778eb52e58e252f006b183d0cdc87de245b96faec4a6f/",
+        "published_at": "2026-10-06T11:55:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "MalwareBazaar lists this exact current sample with the explicit AmateraStealer signature and ClearFake or ClickFix distribution context."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "e7f86f6cc4380db66d333eaf6f7dfc2c12d232c2bcd526434681245dea25efa4",
+    "ioc_type": "sha256",
+    "original_ioc": "e7f86f6cc4380db66d333eaf6f7dfc2c12d232c2bcd526434681245dea25efa4",
+    "hunt_ioc": "e7f86f6cc4380db66d333eaf6f7dfc2c12d232c2bcd526434681245dea25efa4",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "MALFEX npm supply-chain campaign",
+    "malware_family": "Information-stealer downloader",
+    "threat_actor": "MALFEX operator",
+    "source_organization": [
+      "Checkmarx Zero"
+    ],
+    "source_article": [
+      "MALFEX npm Malware Campaign: Three Payloads And An Adversary That Signs Their Work"
+    ],
+    "source_url": [
+      "https://checkmarx.com/zero-post/malfex-npm-malware-campaign-three-payloads-and-an-adversary-that-signs-their-work/"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Exact malicious sample hash.",
+    "sources": [
+      {
+        "organization": "Checkmarx Zero",
+        "article_title": "MALFEX npm Malware Campaign: Three Payloads And An Adversary That Signs Their Work",
+        "url": "https://checkmarx.com/zero-post/malfex-npm-malware-campaign-three-payloads-and-an-adversary-that-signs-their-work/",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "Checkmarx identifies this exact SHA256 as an information-stealer downloader in the MALFEX campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "fd199d3977e1a2945b6031fc8696660a980e4f4617899baa045efe7ccbc8de67",
+    "ioc_type": "sha256",
+    "original_ioc": "fd199d3977e1a2945b6031fc8696660a980e4f4617899baa045efe7ccbc8de67",
+    "hunt_ioc": "fd199d3977e1a2945b6031fc8696660a980e4f4617899baa045efe7ccbc8de67",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "MALFEX npm supply-chain campaign",
+    "malware_family": "Encrypted Overlord RAT script",
+    "threat_actor": "MALFEX operator",
+    "source_organization": [
+      "Checkmarx Zero"
+    ],
+    "source_article": [
+      "MALFEX npm Malware Campaign: Three Payloads And An Adversary That Signs Their Work"
+    ],
+    "source_url": [
+      "https://checkmarx.com/zero-post/malfex-npm-malware-campaign-three-payloads-and-an-adversary-that-signs-their-work/"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious sample hash.",
+    "sources": [
+      {
+        "organization": "Checkmarx Zero",
+        "article_title": "MALFEX npm Malware Campaign: Three Payloads And An Adversary That Signs Their Work",
+        "url": "https://checkmarx.com/zero-post/malfex-npm-malware-campaign-three-payloads-and-an-adversary-that-signs-their-work/",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "Checkmarx identifies this exact SHA256 as the encrypted malicious script loaded by the MALFEX Overlord RAT chain."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://105.225.101.223:58213/bin.sh",
+    "ioc_type": "url",
+    "original_ioc": "http://105.225.101.223:58213/bin.sh",
+    "hunt_ioc": "105.225.101.223",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mirai malware delivery",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3929539 - online Mirai delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3929539/"
+    ],
+    "article_published_date": [
+      "2026-10-06T00:02:13Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public IP host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3929539 - online Mirai delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3929539/",
+        "published_at": "2026-10-06T00:02:13Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving malware identified as Mirai."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://123.13.115.68:56580/i",
+    "ioc_type": "url",
+    "original_ioc": "http://123.13.115.68:56580/i",
+    "hunt_ioc": "123.13.115.68",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mozi malware delivery",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3929546 - online Mozi delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3929546/"
+    ],
+    "article_published_date": [
+      "2026-10-06T00:17:17Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public IP host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3929546 - online Mozi delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3929546/",
+        "published_at": "2026-10-06T00:17:17Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving malware identified as Mozi."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://123.4.241.99:39410/i",
+    "ioc_type": "url",
+    "original_ioc": "http://123.4.241.99:39410/i",
+    "hunt_ioc": "123.4.241.99",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mirai malware delivery",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3929545 - online Mirai delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3929545/"
+    ],
+    "article_published_date": [
+      "2026-10-06T00:17:17Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public IP host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3929545 - online Mirai delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3929545/",
+        "published_at": "2026-10-06T00:17:17Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving malware identified as Mirai."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://222.127.77.227:44927/i",
+    "ioc_type": "url",
+    "original_ioc": "http://222.127.77.227:44927/i",
+    "hunt_ioc": "222.127.77.227",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mirai malware delivery",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3929544 - online Mirai delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3929544/"
+    ],
+    "article_published_date": [
+      "2026-10-06T00:17:16Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public IP host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3929544 - online Mirai delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3929544/",
+        "published_at": "2026-10-06T00:17:16Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving malware identified as Mirai."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://27.215.9.11:37368/i",
+    "ioc_type": "url",
+    "original_ioc": "http://27.215.9.11:37368/i",
+    "hunt_ioc": "27.215.9.11",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mozi malware delivery",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3929537 - online Mozi delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3929537/"
+    ],
+    "article_published_date": [
+      "2026-10-06T00:02:12Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public IP host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3929537 - online Mozi delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3929537/",
+        "published_at": "2026-10-06T00:02:12Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving malware identified as Mozi."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://daykinder1.top/home/7",
+    "ioc_type": "url",
+    "original_ioc": "https://daykinder1.top/home/7",
+    "hunt_ioc": "daykinder1.top",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "FIBS Prague WhatsApp phishing",
+    "malware_family": "Credential phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "CERT-AGID"
+    ],
+    "source_article": [
+      "Torna la truffa della ballerina: falsi concorsi su WhatsApp per sottrarre gli account"
+    ],
+    "source_url": [
+      "https://cert-agid.gov.it/news/torna-la-truffa-della-ballerina-falsi-concorsi-su-whatsapp-per-sottrarre-gli-account/"
+    ],
+    "article_published_date": [
+      "2026-10-06T09:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Original URL preserved; hunting generation reduces it to the validated malicious domain host.",
+    "sources": [
+      {
+        "organization": "CERT-AGID",
+        "article_title": "Torna la truffa della ballerina: falsi concorsi su WhatsApp per sottrarre gli account",
+        "url": "https://cert-agid.gov.it/news/torna-la-truffa-della-ballerina-falsi-concorsi-su-whatsapp-per-sottrarre-gli-account/",
+        "published_at": "2026-10-06T09:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "CERT-AGID's public IOC appendix identifies this exact URL as part of the active WhatsApp account-theft phishing flow."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://daykinder1.top/socket.io",
+    "ioc_type": "url",
+    "original_ioc": "https://daykinder1.top/socket.io",
+    "hunt_ioc": "daykinder1.top",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "FIBS Prague WhatsApp phishing",
+    "malware_family": "Credential phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "CERT-AGID"
+    ],
+    "source_article": [
+      "Torna la truffa della ballerina: falsi concorsi su WhatsApp per sottrarre gli account"
+    ],
+    "source_url": [
+      "https://cert-agid.gov.it/news/torna-la-truffa-della-ballerina-falsi-concorsi-su-whatsapp-per-sottrarre-gli-account/"
+    ],
+    "article_published_date": [
+      "2026-10-06T09:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Original URL preserved; hunting generation reduces it to the validated malicious domain host.",
+    "sources": [
+      {
+        "organization": "CERT-AGID",
+        "article_title": "Torna la truffa della ballerina: falsi concorsi su WhatsApp per sottrarre gli account",
+        "url": "https://cert-agid.gov.it/news/torna-la-truffa-della-ballerina-falsi-concorsi-su-whatsapp-per-sottrarre-gli-account/",
+        "published_at": "2026-10-06T09:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "CERT-AGID's public IOC appendix identifies this exact URL as campaign infrastructure supporting the account-theft flow."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://daykinder1.top/static/custom/37/auth.html",
+    "ioc_type": "url",
+    "original_ioc": "https://daykinder1.top/static/custom/37/auth.html",
+    "hunt_ioc": "daykinder1.top",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "FIBS Prague WhatsApp phishing",
+    "malware_family": "Credential phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "CERT-AGID"
+    ],
+    "source_article": [
+      "Torna la truffa della ballerina: falsi concorsi su WhatsApp per sottrarre gli account"
+    ],
+    "source_url": [
+      "https://cert-agid.gov.it/news/torna-la-truffa-della-ballerina-falsi-concorsi-su-whatsapp-per-sottrarre-gli-account/"
+    ],
+    "article_published_date": [
+      "2026-10-06T09:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-06T13:01:32Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Original URL preserved; hunting generation reduces it to the validated malicious domain host.",
+    "sources": [
+      {
+        "organization": "CERT-AGID",
+        "article_title": "Torna la truffa della ballerina: falsi concorsi su WhatsApp per sottrarre gli account",
+        "url": "https://cert-agid.gov.it/news/torna-la-truffa-della-ballerina-falsi-concorsi-su-whatsapp-per-sottrarre-gli-account/",
+        "published_at": "2026-10-06T09:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-03T13:01:32Z",
+        "discovery_context": [
+          "CERT-AGID's public IOC appendix identifies this exact authentication-phishing URL in the active campaign."
+        ]
+      }
+    ]
+  }
+]
