@@ -1,0 +1,2164 @@
+[
+  {
+    "ioc": "museads.ai",
+    "ioc_type": "domain",
+    "original_ioc": "museads.ai",
+    "hunt_ioc": "museads.ai",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Fake AI advertising phishing platform",
+    "malware_family": "Credential and MFA phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Island Security Research"
+    ],
+    "source_article": [
+      "Behind the Connect Button: The Fake AI Ads Campaign"
+    ],
+    "source_url": [
+      "https://support.island.io/blog/behind-the-connect-button-the-fake-ai-ads-campaign"
+    ],
+    "article_published_date": [
+      "2026-10-06T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Exact actor-controlled lure domain from the current original research.",
+    "sources": [
+      {
+        "organization": "Island Security Research",
+        "article_title": "Behind the Connect Button: The Fake AI Ads Campaign",
+        "url": "https://support.island.io/blog/behind-the-connect-button-the-fake-ai-ads-campaign",
+        "published_at": "2026-10-06T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "Island identifies this domain as the newest active lure in an ongoing human-operated phishing platform impersonating AI advertising products."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "museadsback-production.up.railway.app",
+    "ioc_type": "domain",
+    "original_ioc": "museadsback-production.up.railway.app",
+    "hunt_ioc": "museadsback-production.up.railway.app",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Fake AI advertising phishing platform",
+    "malware_family": "Credential and MFA phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Island Security Research"
+    ],
+    "source_article": [
+      "Behind the Connect Button: The Fake AI Ads Campaign"
+    ],
+    "source_url": [
+      "https://support.island.io/blog/behind-the-connect-button-the-fake-ai-ads-campaign"
+    ],
+    "article_published_date": [
+      "2026-10-06T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 93,
+    "acceptance_score": 93,
+    "status": "NEW",
+    "notes": "Exact malicious FQDN retained; other older or insufficiently current shared-hosting entries were excluded.",
+    "sources": [
+      {
+        "organization": "Island Security Research",
+        "article_title": "Behind the Connect Button: The Fake AI Ads Campaign",
+        "url": "https://support.island.io/blog/behind-the-connect-button-the-fake-ai-ads-campaign",
+        "published_at": "2026-10-06T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.93,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "Island lists this exact Railway subdomain as backend infrastructure for the current Muse Ads phishing lure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "118.145.196.225",
+    "ioc_type": "ipv4",
+    "original_ioc": "118.145.196.225",
+    "hunt_ioc": "118.145.196.225",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious delivery infrastructure; legitimate public STUN endpoints were excluded.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs identifies this public IP as an attacker download source used to deliver ClingSTUN during active exploitation of internet-facing devices."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "124.163.212.119",
+    "ioc_type": "ipv4",
+    "original_ioc": "124.163.212.119",
+    "hunt_ioc": "124.163.212.119",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious delivery infrastructure; legitimate public STUN endpoints were excluded.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs identifies this public IP as an attacker download source used to deliver ClingSTUN during active exploitation of internet-facing devices."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "222.223.152.97",
+    "ioc_type": "ipv4",
+    "original_ioc": "222.223.152.97",
+    "hunt_ioc": "222.223.152.97",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious delivery infrastructure; legitimate public STUN endpoints were excluded.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs identifies this public IP as an attacker download source used to deliver ClingSTUN during active exploitation of internet-facing devices."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "64.227.4.134",
+    "ioc_type": "ipv4",
+    "original_ioc": "64.227.4.134",
+    "hunt_ioc": "64.227.4.134",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Akira ransomware intrusion",
+    "malware_family": "Akira ransomware",
+    "threat_actor": "Akira affiliate",
+    "source_organization": [
+      "Huntress"
+    ],
+    "source_article": [
+      "Up a Creek Without a Command Line: Mapping an Akira Ransomware Attack"
+    ],
+    "source_url": [
+      "https://www.huntress.com/blog/mapping-akira-ransomware-attack"
+    ],
+    "article_published_date": [
+      "2026-10-06T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious C2 from current original incident-response research.",
+    "sources": [
+      {
+        "organization": "Huntress",
+        "article_title": "Up a Creek Without a Command Line: Mapping an Akira Ransomware Attack",
+        "url": "https://www.huntress.com/blog/mapping-akira-ransomware-attack",
+        "published_at": "2026-10-06T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "Huntress identifies this public IP as the GOST tunnel command-and-control endpoint used during an Akira ransomware incident."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "10d83c1748895361e07320f68d44d427b43cadd2cbffe0ab5e607ab03aec83da",
+    "ioc_type": "sha256",
+    "original_ioc": "10d83c1748895361e07320f68d44d427b43cadd2cbffe0ab5e607ab03aec83da",
+    "hunt_ioc": "10d83c1748895361e07320f68d44d427b43cadd2cbffe0ab5e607ab03aec83da",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious Linux backdoor or delivery-component hash from original technical research.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs lists this exact SHA256 among the malicious ClingSTUN components observed in the evolving campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "121f2050e3c891b29565fd73451fff7ae60199c86eb8d79ec1eb1d9844578487",
+    "ioc_type": "sha256",
+    "original_ioc": "121f2050e3c891b29565fd73451fff7ae60199c86eb8d79ec1eb1d9844578487",
+    "hunt_ioc": "121f2050e3c891b29565fd73451fff7ae60199c86eb8d79ec1eb1d9844578487",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious Linux backdoor or delivery-component hash from original technical research.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs lists this exact SHA256 among the malicious ClingSTUN components observed in the evolving campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "14d07d38c1a6f8625e80568fbe3b081c6c53e42b9f953f84dc18c1bebc92df85",
+    "ioc_type": "sha256",
+    "original_ioc": "14d07d38c1a6f8625e80568fbe3b081c6c53e42b9f953f84dc18c1bebc92df85",
+    "hunt_ioc": "14d07d38c1a6f8625e80568fbe3b081c6c53e42b9f953f84dc18c1bebc92df85",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current RuneLure stealer delivery",
+    "malware_family": "RuneLure stealer",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3944091 - online stealer delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3944091/"
+    ],
+    "article_published_date": [
+      "2026-10-07T04:41:08Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact retrieved payload hash from the individual URLhaus record.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3944091 - online stealer delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3944091/",
+        "published_at": "2026-10-07T04:41:08Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "URLhaus retrieved this exact SHA256 executable from an online RuneLure stealer delivery URL."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "1f1bb322591b6d27fd2946e373d7d2efc2f4e1e66818846060d391600b600fba",
+    "ioc_type": "sha256",
+    "original_ioc": "1f1bb322591b6d27fd2946e373d7d2efc2f4e1e66818846060d391600b600fba",
+    "hunt_ioc": "1f1bb322591b6d27fd2946e373d7d2efc2f4e1e66818846060d391600b600fba",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Akira ransomware intrusion",
+    "malware_family": "Akira ransomware",
+    "threat_actor": "Akira affiliate",
+    "source_organization": [
+      "Huntress"
+    ],
+    "source_article": [
+      "Up a Creek Without a Command Line: Mapping an Akira Ransomware Attack"
+    ],
+    "source_url": [
+      "https://www.huntress.com/blog/mapping-akira-ransomware-attack"
+    ],
+    "article_published_date": [
+      "2026-10-06T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious ransomware hash.",
+    "sources": [
+      {
+        "organization": "Huntress",
+        "article_title": "Up a Creek Without a Command Line: Mapping an Akira Ransomware Attack",
+        "url": "https://www.huntress.com/blog/mapping-akira-ransomware-attack",
+        "published_at": "2026-10-06T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "Huntress identifies this exact SHA256 as the Akira ransomware executable used in the investigated intrusion."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "284e5ec8748f99fd1b8c331b699a5fe5fd4448bbaae0347a940f427f931c4d14",
+    "ioc_type": "sha256",
+    "original_ioc": "284e5ec8748f99fd1b8c331b699a5fe5fd4448bbaae0347a940f427f931c4d14",
+    "hunt_ioc": "284e5ec8748f99fd1b8c331b699a5fe5fd4448bbaae0347a940f427f931c4d14",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious Linux backdoor or delivery-component hash from original technical research.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs lists this exact SHA256 among the malicious ClingSTUN components observed in the evolving campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2dbc1c3920315f24899eb0f9574d0c5e2e0c5b42d280b6a7a506b176305f7b09",
+    "ioc_type": "sha256",
+    "original_ioc": "2dbc1c3920315f24899eb0f9574d0c5e2e0c5b42d280b6a7a506b176305f7b09",
+    "hunt_ioc": "2dbc1c3920315f24899eb0f9574d0c5e2e0c5b42d280b6a7a506b176305f7b09",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current YapStealer malware sample",
+    "malware_family": "YapStealer",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 2dbc1c392031 - YapStealer sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/2dbc1c3920315f24899eb0f9574d0c5e2e0c5b42d280b6a7a506b176305f7b09/"
+    ],
+    "article_published_date": [
+      "2026-10-07T02:56:43Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash from an individual MalwareBazaar record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 2dbc1c392031 - YapStealer sample",
+        "url": "https://bazaar.abuse.ch/sample/2dbc1c3920315f24899eb0f9574d0c5e2e0c5b42d280b6a7a506b176305f7b09/",
+        "published_at": "2026-10-07T02:56:43Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "MalwareBazaar lists this exact current sample with explicit YapStealer tagging or signature and multiple malware detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2ed54e0f988a62039abed88f6394eb1e3d5ed931f0183556055417fb08844ecf",
+    "ioc_type": "sha256",
+    "original_ioc": "2ed54e0f988a62039abed88f6394eb1e3d5ed931f0183556055417fb08844ecf",
+    "hunt_ioc": "2ed54e0f988a62039abed88f6394eb1e3d5ed931f0183556055417fb08844ecf",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious Linux backdoor or delivery-component hash from original technical research.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs lists this exact SHA256 among the malicious ClingSTUN components observed in the evolving campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "48962b3893f2c8261e32e6b95ea7d463d145a529a8b2a6c987dd979454405c73",
+    "ioc_type": "sha256",
+    "original_ioc": "48962b3893f2c8261e32e6b95ea7d463d145a529a8b2a6c987dd979454405c73",
+    "hunt_ioc": "48962b3893f2c8261e32e6b95ea7d463d145a529a8b2a6c987dd979454405c73",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious Linux backdoor or delivery-component hash from original technical research.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs lists this exact SHA256 among the malicious ClingSTUN components observed in the evolving campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "48f9b72ce72ab7087794650d6eef10135345088384fbde1482f1c74a02b80302",
+    "ioc_type": "sha256",
+    "original_ioc": "48f9b72ce72ab7087794650d6eef10135345088384fbde1482f1c74a02b80302",
+    "hunt_ioc": "48f9b72ce72ab7087794650d6eef10135345088384fbde1482f1c74a02b80302",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious Linux backdoor or delivery-component hash from original technical research.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs lists this exact SHA256 among the malicious ClingSTUN components observed in the evolving campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "4fbd61cb9181ebbc4fe9a6e59d3c346dc00001da48d66bd890556fc6fad22b07",
+    "ioc_type": "sha256",
+    "original_ioc": "4fbd61cb9181ebbc4fe9a6e59d3c346dc00001da48d66bd890556fc6fad22b07",
+    "hunt_ioc": "4fbd61cb9181ebbc4fe9a6e59d3c346dc00001da48d66bd890556fc6fad22b07",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious Linux backdoor or delivery-component hash from original technical research.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs lists this exact SHA256 among the malicious ClingSTUN components observed in the evolving campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "5c4e263546fb21f8fe8732789a5b6583eaa8ae11ebeef099462a7c9bf50e022d",
+    "ioc_type": "sha256",
+    "original_ioc": "5c4e263546fb21f8fe8732789a5b6583eaa8ae11ebeef099462a7c9bf50e022d",
+    "hunt_ioc": "5c4e263546fb21f8fe8732789a5b6583eaa8ae11ebeef099462a7c9bf50e022d",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious Linux backdoor or delivery-component hash from original technical research.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs lists this exact SHA256 among the malicious ClingSTUN components observed in the evolving campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "6581bf37184bb2db899b9893064d39dd314ea691adf3281cc0aa7e0a31e5138a",
+    "ioc_type": "sha256",
+    "original_ioc": "6581bf37184bb2db899b9893064d39dd314ea691adf3281cc0aa7e0a31e5138a",
+    "hunt_ioc": "6581bf37184bb2db899b9893064d39dd314ea691adf3281cc0aa7e0a31e5138a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious Linux backdoor or delivery-component hash from original technical research.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs lists this exact SHA256 among the malicious ClingSTUN components observed in the evolving campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "76692a23abe718b93e63edefd743971ec627c0cdf3778f856bd5ec88003deaa2",
+    "ioc_type": "sha256",
+    "original_ioc": "76692a23abe718b93e63edefd743971ec627c0cdf3778f856bd5ec88003deaa2",
+    "hunt_ioc": "76692a23abe718b93e63edefd743971ec627c0cdf3778f856bd5ec88003deaa2",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious Linux backdoor or delivery-component hash from original technical research.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs lists this exact SHA256 among the malicious ClingSTUN components observed in the evolving campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "77a8d1bcbc9c79e76e64b5fd50aeda23d4d9a0ca42299f0f7a72f8da032fcc54",
+    "ioc_type": "sha256",
+    "original_ioc": "77a8d1bcbc9c79e76e64b5fd50aeda23d4d9a0ca42299f0f7a72f8da032fcc54",
+    "hunt_ioc": "77a8d1bcbc9c79e76e64b5fd50aeda23d4d9a0ca42299f0f7a72f8da032fcc54",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current Efimer ClickFix malware sample",
+    "malware_family": "Efimer ClickFix",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 77a8d1bcbc9c - Efimer ClickFix sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/77a8d1bcbc9c79e76e64b5fd50aeda23d4d9a0ca42299f0f7a72f8da032fcc54/"
+    ],
+    "article_published_date": [
+      "2026-10-07T01:52:13Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash from an individual MalwareBazaar record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 77a8d1bcbc9c - Efimer ClickFix sample",
+        "url": "https://bazaar.abuse.ch/sample/77a8d1bcbc9c79e76e64b5fd50aeda23d4d9a0ca42299f0f7a72f8da032fcc54/",
+        "published_at": "2026-10-07T01:52:13Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "MalwareBazaar lists this exact current sample with explicit Efimer ClickFix tagging or signature and multiple malware detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "9391c6ad17aced1142607c0c623b18d86a7697cc483d204ffac94093e26b8068",
+    "ioc_type": "sha256",
+    "original_ioc": "9391c6ad17aced1142607c0c623b18d86a7697cc483d204ffac94093e26b8068",
+    "hunt_ioc": "9391c6ad17aced1142607c0c623b18d86a7697cc483d204ffac94093e26b8068",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious Linux backdoor or delivery-component hash from original technical research.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs lists this exact SHA256 among the malicious ClingSTUN components observed in the evolving campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a297eddfa7abea8d411afc0f150f8f6f30e470a77204de87e3b0815fa9bb8a84",
+    "ioc_type": "sha256",
+    "original_ioc": "a297eddfa7abea8d411afc0f150f8f6f30e470a77204de87e3b0815fa9bb8a84",
+    "hunt_ioc": "a297eddfa7abea8d411afc0f150f8f6f30e470a77204de87e3b0815fa9bb8a84",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious Linux backdoor or delivery-component hash from original technical research.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs lists this exact SHA256 among the malicious ClingSTUN components observed in the evolving campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b85d4673ac19ee208e96eff1e860d4b110a1eac0620464193bde12a85fb54115",
+    "ioc_type": "sha256",
+    "original_ioc": "b85d4673ac19ee208e96eff1e860d4b110a1eac0620464193bde12a85fb54115",
+    "hunt_ioc": "b85d4673ac19ee208e96eff1e860d4b110a1eac0620464193bde12a85fb54115",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current Formbook malware sample",
+    "malware_family": "Formbook",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample b85d4673ac19 - Formbook sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/b85d4673ac19ee208e96eff1e860d4b110a1eac0620464193bde12a85fb54115/"
+    ],
+    "article_published_date": [
+      "2026-10-07T02:49:34Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash from an individual MalwareBazaar record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample b85d4673ac19 - Formbook sample",
+        "url": "https://bazaar.abuse.ch/sample/b85d4673ac19ee208e96eff1e860d4b110a1eac0620464193bde12a85fb54115/",
+        "published_at": "2026-10-07T02:49:34Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "MalwareBazaar lists this exact current sample with explicit Formbook tagging or signature and multiple malware detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b90640b392827b4f2d280f6cf67860862953331917d42df23e1653a92f2f98ad",
+    "ioc_type": "sha256",
+    "original_ioc": "b90640b392827b4f2d280f6cf67860862953331917d42df23e1653a92f2f98ad",
+    "hunt_ioc": "b90640b392827b4f2d280f6cf67860862953331917d42df23e1653a92f2f98ad",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious Linux backdoor or delivery-component hash from original technical research.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs lists this exact SHA256 among the malicious ClingSTUN components observed in the evolving campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "c0d8ffebfba969b1c1ca76bd9623bb623e9f95155c8ceca77d8fcc521435a497",
+    "ioc_type": "sha256",
+    "original_ioc": "c0d8ffebfba969b1c1ca76bd9623bb623e9f95155c8ceca77d8fcc521435a497",
+    "hunt_ioc": "c0d8ffebfba969b1c1ca76bd9623bb623e9f95155c8ceca77d8fcc521435a497",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious Linux backdoor or delivery-component hash from original technical research.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs lists this exact SHA256 among the malicious ClingSTUN components observed in the evolving campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "c1d8e2829ea63b9dc1cf2c3421a5093406adad4d6622e238376e78e908e0e6e8",
+    "ioc_type": "sha256",
+    "original_ioc": "c1d8e2829ea63b9dc1cf2c3421a5093406adad4d6622e238376e78e908e0e6e8",
+    "hunt_ioc": "c1d8e2829ea63b9dc1cf2c3421a5093406adad4d6622e238376e78e908e0e6e8",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious Linux backdoor or delivery-component hash from original technical research.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs lists this exact SHA256 among the malicious ClingSTUN components observed in the evolving campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "d00833318a04caa019c6f95dcb3598ad947d405010bfb2f3cbd04530a00bc3a4",
+    "ioc_type": "sha256",
+    "original_ioc": "d00833318a04caa019c6f95dcb3598ad947d405010bfb2f3cbd04530a00bc3a4",
+    "hunt_ioc": "d00833318a04caa019c6f95dcb3598ad947d405010bfb2f3cbd04530a00bc3a4",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Akira ransomware intrusion",
+    "malware_family": "GOST tunnel",
+    "threat_actor": "Akira affiliate",
+    "source_organization": [
+      "Huntress"
+    ],
+    "source_article": [
+      "Up a Creek Without a Command Line: Mapping an Akira Ransomware Attack"
+    ],
+    "source_url": [
+      "https://www.huntress.com/blog/mapping-akira-ransomware-attack"
+    ],
+    "article_published_date": [
+      "2026-10-06T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious tool hash from the incident.",
+    "sources": [
+      {
+        "organization": "Huntress",
+        "article_title": "Up a Creek Without a Command Line: Mapping an Akira Ransomware Attack",
+        "url": "https://www.huntress.com/blog/mapping-akira-ransomware-attack",
+        "published_at": "2026-10-06T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "Huntress identifies this exact SHA256 as the maliciously deployed GOST tunneling executable in the Akira intrusion."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "d0fae14af3bda82a509889852346f4797e6232e03a29f2f7142e574f6aca127e",
+    "ioc_type": "sha256",
+    "original_ioc": "d0fae14af3bda82a509889852346f4797e6232e03a29f2f7142e574f6aca127e",
+    "hunt_ioc": "d0fae14af3bda82a509889852346f4797e6232e03a29f2f7142e574f6aca127e",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current ACRStealer malware sample",
+    "malware_family": "ACRStealer",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample d0fae14af3bd - ACRStealer sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/d0fae14af3bda82a509889852346f4797e6232e03a29f2f7142e574f6aca127e/"
+    ],
+    "article_published_date": [
+      "2026-10-07T03:05:20Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact current malware-sample hash from an individual MalwareBazaar record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample d0fae14af3bd - ACRStealer sample",
+        "url": "https://bazaar.abuse.ch/sample/d0fae14af3bda82a509889852346f4797e6232e03a29f2f7142e574f6aca127e/",
+        "published_at": "2026-10-07T03:05:20Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "MalwareBazaar lists this exact current sample with explicit ACRStealer tagging or signature and multiple malware detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "dc892f5013edb0aa1e61e808511387373d8d120348b5be0929621d21e6e9946a",
+    "ioc_type": "sha256",
+    "original_ioc": "dc892f5013edb0aa1e61e808511387373d8d120348b5be0929621d21e6e9946a",
+    "hunt_ioc": "dc892f5013edb0aa1e61e808511387373d8d120348b5be0929621d21e6e9946a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious Linux backdoor or delivery-component hash from original technical research.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs lists this exact SHA256 among the malicious ClingSTUN components observed in the evolving campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "dfba6008a2c828a9cb62342aec53006ae05a60cb8d4c41c3fa216fd727e8c6a3",
+    "ioc_type": "sha256",
+    "original_ioc": "dfba6008a2c828a9cb62342aec53006ae05a60cb8d4c41c3fa216fd727e8c6a3",
+    "hunt_ioc": "dfba6008a2c828a9cb62342aec53006ae05a60cb8d4c41c3fa216fd727e8c6a3",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious Linux backdoor or delivery-component hash from original technical research.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs lists this exact SHA256 among the malicious ClingSTUN components observed in the evolving campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "e4d12208789f36efc5a1ff765088fed95d6bb5972d1a804a4536fd42366797d4",
+    "ioc_type": "sha256",
+    "original_ioc": "e4d12208789f36efc5a1ff765088fed95d6bb5972d1a804a4536fd42366797d4",
+    "hunt_ioc": "e4d12208789f36efc5a1ff765088fed95d6bb5972d1a804a4536fd42366797d4",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious Linux backdoor or delivery-component hash from original technical research.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs lists this exact SHA256 among the malicious ClingSTUN components observed in the evolving campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "e6e113783356446aef66e5296db45b244f318292af7cebc2a9bd76f095a95c4c",
+    "ioc_type": "sha256",
+    "original_ioc": "e6e113783356446aef66e5296db45b244f318292af7cebc2a9bd76f095a95c4c",
+    "hunt_ioc": "e6e113783356446aef66e5296db45b244f318292af7cebc2a9bd76f095a95c4c",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious Linux backdoor or delivery-component hash from original technical research.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs lists this exact SHA256 among the malicious ClingSTUN components observed in the evolving campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ec199c78c11040fd3127887222fd75a85e5797bf96aa691a117fdd83dd663d81",
+    "ioc_type": "sha256",
+    "original_ioc": "ec199c78c11040fd3127887222fd75a85e5797bf96aa691a117fdd83dd663d81",
+    "hunt_ioc": "ec199c78c11040fd3127887222fd75a85e5797bf96aa691a117fdd83dd663d81",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious Linux backdoor or delivery-component hash from original technical research.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs lists this exact SHA256 among the malicious ClingSTUN components observed in the evolving campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "f49f45303cbfccee14ff193ac9608f860e6d616f08c0ecbef1ec44f7c863d7ec",
+    "ioc_type": "sha256",
+    "original_ioc": "f49f45303cbfccee14ff193ac9608f860e6d616f08c0ecbef1ec44f7c863d7ec",
+    "hunt_ioc": "f49f45303cbfccee14ff193ac9608f860e6d616f08c0ecbef1ec44f7c863d7ec",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "ClingSTUN Linux backdoor campaign",
+    "malware_family": "ClingSTUN",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure"
+    ],
+    "article_published_date": [
+      "2026-10-05T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious Linux backdoor or delivery-component hash from original technical research.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+        "url": "https://www.fortinet.com/uk/blog/threat-research/clingstun-linux-backdoor-abuses-public-stun-infrastructure",
+        "published_at": "2026-10-05T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "FortiGuard Labs lists this exact SHA256 among the malicious ClingSTUN components observed in the evolving campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "f6c97b1e2ed02578ca1066c8235ba4f991e645f89012406c639dbccc6582eec8",
+    "ioc_type": "sha256",
+    "original_ioc": "f6c97b1e2ed02578ca1066c8235ba4f991e645f89012406c639dbccc6582eec8",
+    "hunt_ioc": "f6c97b1e2ed02578ca1066c8235ba4f991e645f89012406c639dbccc6582eec8",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current Linux malware delivery",
+    "malware_family": "Linux malware",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3944141 - online malware delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3944141/"
+    ],
+    "article_published_date": [
+      "2026-10-07T05:47:42Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Exact retrieved payload hash from the individual URLhaus record.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3944141 - online malware delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3944141/",
+        "published_at": "2026-10-07T05:47:42Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "URLhaus retrieved this exact SHA256 payload from the current online malware delivery URL."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://113.221.14.251:35903/i",
+    "ioc_type": "url",
+    "original_ioc": "http://113.221.14.251:35903/i",
+    "hunt_ioc": "113.221.14.251",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mirai malware delivery",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3944136 - online Mirai delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3944136/"
+    ],
+    "article_published_date": [
+      "2026-10-07T05:32:44Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3944136 - online Mirai delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3944136/",
+        "published_at": "2026-10-07T05:32:44Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving Mirai or an explicitly malicious payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://115.55.229.99:46995/i",
+    "ioc_type": "url",
+    "original_ioc": "http://115.55.229.99:46995/i",
+    "hunt_ioc": "115.55.229.99",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mozi malware delivery",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3944127 - online Mozi delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3944127/"
+    ],
+    "article_published_date": [
+      "2026-10-07T04:55:38Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3944127 - online Mozi delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3944127/",
+        "published_at": "2026-10-07T04:55:38Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving Mozi or an explicitly malicious payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://115.63.51.182:33921/bin.sh",
+    "ioc_type": "url",
+    "original_ioc": "http://115.63.51.182:33921/bin.sh",
+    "hunt_ioc": "115.63.51.182",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current malware delivery",
+    "malware_family": "Linux malware",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3944170 - online malware delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3944170/"
+    ],
+    "article_published_date": [
+      "2026-10-07T07:32:25Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3944170 - online malware delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3944170/",
+        "published_at": "2026-10-07T07:32:25Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving Linux malware or an explicitly malicious payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://180.191.40.108:37202/i",
+    "ioc_type": "url",
+    "original_ioc": "http://180.191.40.108:37202/i",
+    "hunt_ioc": "180.191.40.108",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mirai malware delivery",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3944171 - online Mirai delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3944171/"
+    ],
+    "article_published_date": [
+      "2026-10-07T07:32:25Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3944171 - online Mirai delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3944171/",
+        "published_at": "2026-10-07T07:32:25Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving Mirai or an explicitly malicious payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://182.113.6.188:55101/i",
+    "ioc_type": "url",
+    "original_ioc": "http://182.113.6.188:55101/i",
+    "hunt_ioc": "182.113.6.188",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current malware delivery",
+    "malware_family": "Linux malware",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3944172 - online malware delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3944172/"
+    ],
+    "article_published_date": [
+      "2026-10-07T07:32:26Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3944172 - online malware delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3944172/",
+        "published_at": "2026-10-07T07:32:26Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving Linux malware or an explicitly malicious payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://202.1.26.13:44204/i",
+    "ioc_type": "url",
+    "original_ioc": "http://202.1.26.13:44204/i",
+    "hunt_ioc": "202.1.26.13",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mozi malware delivery",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3944138 - online Mozi delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3944138/"
+    ],
+    "article_published_date": [
+      "2026-10-07T05:33:49Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3944138 - online Mozi delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3944138/",
+        "published_at": "2026-10-07T05:33:49Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving Mozi or an explicitly malicious payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://221.202.234.182:37616/i",
+    "ioc_type": "url",
+    "original_ioc": "http://221.202.234.182:37616/i",
+    "hunt_ioc": "221.202.234.182",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current malware delivery",
+    "malware_family": "Linux malware",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3944141 - online malware delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3944141/"
+    ],
+    "article_published_date": [
+      "2026-10-07T05:47:42Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3944141 - online malware delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3944141/",
+        "published_at": "2026-10-07T05:47:42Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving Linux malware or an explicitly malicious payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://61.53.83.129:58022/i",
+    "ioc_type": "url",
+    "original_ioc": "http://61.53.83.129:58022/i",
+    "hunt_ioc": "61.53.83.129",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mozi malware delivery",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3944150 - online Mozi delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3944150/"
+    ],
+    "article_published_date": [
+      "2026-10-07T06:32:46Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3944150 - online Mozi delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3944150/",
+        "published_at": "2026-10-07T06:32:46Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving Mozi or an explicitly malicious payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://95.9.35.137:40441/i",
+    "ioc_type": "url",
+    "original_ioc": "http://95.9.35.137:40441/i",
+    "hunt_ioc": "95.9.35.137",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mirai malware delivery",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3944131 - online Mirai delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3944131/"
+    ],
+    "article_published_date": [
+      "2026-10-07T04:55:51Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3944131 - online Mirai delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3944131/",
+        "published_at": "2026-10-07T04:55:51Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving Mirai or an explicitly malicious payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://ikovrsps.com/gamefiles/image.exe",
+    "ioc_type": "url",
+    "original_ioc": "https://ikovrsps.com/gamefiles/image.exe",
+    "hunt_ioc": "ikovrsps.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current RuneLure stealer delivery",
+    "malware_family": "RuneLure stealer",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3944091 - online stealer delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3944091/"
+    ],
+    "article_published_date": [
+      "2026-10-07T04:41:08Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3944091 - online stealer delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3944091/",
+        "published_at": "2026-10-07T04:41:08Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving RuneLure stealer or an explicitly malicious payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://stellaspicy.org/2026scrill/RuneLite.exe",
+    "ioc_type": "url",
+    "original_ioc": "https://stellaspicy.org/2026scrill/RuneLite.exe",
+    "hunt_ioc": "stellaspicy.org",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current RuneLure stealer delivery",
+    "malware_family": "RuneLure stealer",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus entry 3944116 - online RuneLure delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3944116/"
+    ],
+    "article_published_date": [
+      "2026-10-07T04:41:31Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-07T13:01:21Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original malicious URL preserved; hunting generation reduces it to the validated public host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus entry 3944116 - online RuneLure delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3944116/",
+        "published_at": "2026-10-07T04:41:31Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-04T13:01:21Z",
+        "discovery_context": [
+          "URLhaus records this exact public URL as online and actively serving RuneLure stealer or an explicitly malicious payload."
+        ]
+      }
+    ]
+  }
+]
