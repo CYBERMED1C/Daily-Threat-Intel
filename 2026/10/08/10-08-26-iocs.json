@@ -1,0 +1,3151 @@
+[
+  {
+    "ioc": "airarticlegenerate.com",
+    "ioc_type": "domain",
+    "original_ioc": "airarticlegenerate.com",
+    "hunt_ioc": "airarticlegenerate.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MATCHBOIL Russia-aligned espionage activity",
+    "malware_family": "MATCHBOIL",
+    "threat_actor": "UAC-0099",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "MATCHBOIL: New tricks, same old evil intentions"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/"
+    ],
+    "article_published_date": [
+      "2026-10-08T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious C2 domain.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "MATCHBOIL: New tricks, same old evil intentions",
+        "url": "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/",
+        "published_at": "2026-10-08T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "ESET identifies this actor-controlled domain as MATCHBOIL command-and-control infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "flat-wildflower-f954.fondationanimalaidrelief.workers.dev",
+    "ioc_type": "domain",
+    "original_ioc": "flat-wildflower-f954.fondationanimalaidrelief.workers.dev",
+    "hunt_ioc": "flat-wildflower-f954.fondationanimalaidrelief.workers.dev",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious exfiltration FQDN on shared infrastructure.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this exact Workers subdomain as the credential exfiltration endpoint used by malicious Firefox wallet extensions."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "flycloud-service.com",
+    "ioc_type": "domain",
+    "original_ioc": "flycloud-service.com",
+    "hunt_ioc": "flycloud-service.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MATCHBOIL Russia-aligned espionage activity",
+    "malware_family": "MATCHBOIL",
+    "threat_actor": "UAC-0099",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "MATCHBOIL: New tricks, same old evil intentions"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/"
+    ],
+    "article_published_date": [
+      "2026-10-08T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious C2 domain.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "MATCHBOIL: New tricks, same old evil intentions",
+        "url": "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/",
+        "published_at": "2026-10-08T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "ESET identifies this actor-controlled domain as MATCHBOIL command-and-control infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "green-firefly-ab28.icy-star-f45c.workers.dev",
+    "ioc_type": "domain",
+    "original_ioc": "green-firefly-ab28.icy-star-f45c.workers.dev",
+    "hunt_ioc": "green-firefly-ab28.icy-star-f45c.workers.dev",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious exfiltration FQDN on shared infrastructure.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this exact Workers subdomain as the credential exfiltration endpoint used by malicious Firefox wallet extensions."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "mx.zxopfds.com",
+    "ioc_type": "domain",
+    "original_ioc": "mx.zxopfds.com",
+    "hunt_ioc": "mx.zxopfds.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "BPFDoor and AVERAT network-edge campaign",
+    "malware_family": "AVERAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rapid7"
+    ],
+    "source_article": [
+      "SMTP is the key: BPFDoor and AVERAT hitting the network edge"
+    ],
+    "source_url": [
+      "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious C2 domain.",
+    "sources": [
+      {
+        "organization": "Rapid7",
+        "article_title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
+        "url": "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Rapid7 identifies this domain as AVERAT command-and-control infrastructure in the investigated network-edge campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "mx1.wwstifsteel.com",
+    "ioc_type": "domain",
+    "original_ioc": "mx1.wwstifsteel.com",
+    "hunt_ioc": "mx1.wwstifsteel.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "BPFDoor and AVERAT network-edge campaign",
+    "malware_family": "AVERAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rapid7"
+    ],
+    "source_article": [
+      "SMTP is the key: BPFDoor and AVERAT hitting the network edge"
+    ],
+    "source_url": [
+      "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious C2 domain.",
+    "sources": [
+      {
+        "organization": "Rapid7",
+        "article_title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
+        "url": "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Rapid7 identifies this domain as AVERAT command-and-control infrastructure in the investigated network-edge campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "silent-wind-get.icy-star-f45c.workers.dev",
+    "ioc_type": "domain",
+    "original_ioc": "silent-wind-get.icy-star-f45c.workers.dev",
+    "hunt_ioc": "silent-wind-get.icy-star-f45c.workers.dev",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious exfiltration FQDN on shared infrastructure.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this exact Workers subdomain as the credential exfiltration endpoint used by malicious Firefox wallet extensions."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "small-boat-969c.icy-star-f45c.workers.dev",
+    "ioc_type": "domain",
+    "original_ioc": "small-boat-969c.icy-star-f45c.workers.dev",
+    "hunt_ioc": "small-boat-969c.icy-star-f45c.workers.dev",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious exfiltration FQDN on shared infrastructure.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this exact Workers subdomain as the credential exfiltration endpoint used by malicious Firefox wallet extensions."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "spam.suwaccqi.com",
+    "ioc_type": "domain",
+    "original_ioc": "spam.suwaccqi.com",
+    "hunt_ioc": "spam.suwaccqi.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "BPFDoor and AVERAT network-edge campaign",
+    "malware_family": "AVERAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rapid7"
+    ],
+    "source_article": [
+      "SMTP is the key: BPFDoor and AVERAT hitting the network edge"
+    ],
+    "source_url": [
+      "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious C2 domain.",
+    "sources": [
+      {
+        "organization": "Rapid7",
+        "article_title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
+        "url": "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Rapid7 identifies this domain as AVERAT command-and-control infrastructure in the investigated network-edge campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "telemetry-conf.com",
+    "ioc_type": "domain",
+    "original_ioc": "telemetry-conf.com",
+    "hunt_ioc": "telemetry-conf.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MATCHBOIL Russia-aligned espionage activity",
+    "malware_family": "MATCHBOIL",
+    "threat_actor": "UAC-0099",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "MATCHBOIL: New tricks, same old evil intentions"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/"
+    ],
+    "article_published_date": [
+      "2026-10-08T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious C2 domain.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "MATCHBOIL: New tricks, same old evil intentions",
+        "url": "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/",
+        "published_at": "2026-10-08T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "ESET identifies this actor-controlled domain as MATCHBOIL command-and-control infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "virtualdailyplanner.pro",
+    "ioc_type": "domain",
+    "original_ioc": "virtualdailyplanner.pro",
+    "hunt_ioc": "virtualdailyplanner.pro",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MATCHBOIL Russia-aligned espionage activity",
+    "malware_family": "MATCHBOIL",
+    "threat_actor": "UAC-0099",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "MATCHBOIL: New tricks, same old evil intentions"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/"
+    ],
+    "article_published_date": [
+      "2026-10-08T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious C2 domain.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "MATCHBOIL: New tricks, same old evil intentions",
+        "url": "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/",
+        "published_at": "2026-10-08T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "ESET identifies this actor-controlled domain as MATCHBOIL command-and-control infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "1.34.200.85",
+    "ioc_type": "ipv4",
+    "original_ioc": "1.34.200.85",
+    "hunt_ioc": "1.34.200.85",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "BPFDoor and AVERAT network-edge campaign",
+    "malware_family": "AVERAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rapid7"
+    ],
+    "source_article": [
+      "SMTP is the key: BPFDoor and AVERAT hitting the network edge"
+    ],
+    "source_url": [
+      "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Compromised CPE used for malicious relay activity.",
+    "sources": [
+      {
+        "organization": "Rapid7",
+        "article_title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
+        "url": "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Rapid7 identifies this compromised public device as an AVERAT command-and-control relay in the active campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "103.249.201.108",
+    "ioc_type": "ipv4",
+    "original_ioc": "103.249.201.108",
+    "hunt_ioc": "103.249.201.108",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PoeLLM exploitation and cryptomining botnet",
+    "malware_family": "PoeLLM",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Lumen Black Lotus Labs"
+    ],
+    "source_article": [
+      "Canto incognito: tracking the PoeLLM malware"
+    ],
+    "source_url": [
+      "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Active C2 address; historical inactive infrastructure excluded.",
+    "sources": [
+      {
+        "organization": "Lumen Black Lotus Labs",
+        "article_title": "Canto incognito: tracking the PoeLLM malware",
+        "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Lumen identifies this public IP as active PoeLLM command-and-control infrastructure in the current campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "122.116.138.33",
+    "ioc_type": "ipv4",
+    "original_ioc": "122.116.138.33",
+    "hunt_ioc": "122.116.138.33",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "BPFDoor and AVERAT network-edge campaign",
+    "malware_family": "AVERAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rapid7"
+    ],
+    "source_article": [
+      "SMTP is the key: BPFDoor and AVERAT hitting the network edge"
+    ],
+    "source_url": [
+      "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Compromised CPE used for malicious relay activity.",
+    "sources": [
+      {
+        "organization": "Rapid7",
+        "article_title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
+        "url": "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Rapid7 identifies this compromised public device as an AVERAT command-and-control relay in the active campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "178.128.14.204",
+    "ioc_type": "ipv4",
+    "original_ioc": "178.128.14.204",
+    "hunt_ioc": "178.128.14.204",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PoeLLM exploitation and cryptomining botnet",
+    "malware_family": "PoeLLM",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Lumen Black Lotus Labs"
+    ],
+    "source_article": [
+      "Canto incognito: tracking the PoeLLM malware"
+    ],
+    "source_url": [
+      "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Active C2 address; historical inactive infrastructure excluded.",
+    "sources": [
+      {
+        "organization": "Lumen Black Lotus Labs",
+        "article_title": "Canto incognito: tracking the PoeLLM malware",
+        "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Lumen identifies this public IP as active PoeLLM command-and-control infrastructure in the current campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "59.125.211.65",
+    "ioc_type": "ipv4",
+    "original_ioc": "59.125.211.65",
+    "hunt_ioc": "59.125.211.65",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "BPFDoor and AVERAT network-edge campaign",
+    "malware_family": "AVERAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rapid7"
+    ],
+    "source_article": [
+      "SMTP is the key: BPFDoor and AVERAT hitting the network edge"
+    ],
+    "source_url": [
+      "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Compromised CPE used for malicious relay activity.",
+    "sources": [
+      {
+        "organization": "Rapid7",
+        "article_title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
+        "url": "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Rapid7 identifies this compromised public device as an AVERAT command-and-control relay in the active campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "64.95.10.223",
+    "ioc_type": "ipv4",
+    "original_ioc": "64.95.10.223",
+    "hunt_ioc": "64.95.10.223",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "MATCHBOIL Russia-aligned espionage activity",
+    "malware_family": "MATCHBOIL",
+    "threat_actor": "UAC-0099",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "MATCHBOIL: New tricks, same old evil intentions"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/"
+    ],
+    "article_published_date": [
+      "2026-10-08T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious C2 address.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "MATCHBOIL: New tricks, same old evil intentions",
+        "url": "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/",
+        "published_at": "2026-10-08T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "ESET identifies this public IP address as MATCHBOIL command-and-control infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "64.95.13.210",
+    "ioc_type": "ipv4",
+    "original_ioc": "64.95.13.210",
+    "hunt_ioc": "64.95.13.210",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "MATCHBOIL Russia-aligned espionage activity",
+    "malware_family": "MATCHBOIL",
+    "threat_actor": "UAC-0099",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "MATCHBOIL: New tricks, same old evil intentions"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/"
+    ],
+    "article_published_date": [
+      "2026-10-08T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious C2 address.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "MATCHBOIL: New tricks, same old evil intentions",
+        "url": "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/",
+        "published_at": "2026-10-08T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "ESET identifies this public IP address as MATCHBOIL command-and-control infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "92.119.164.50",
+    "ioc_type": "ipv4",
+    "original_ioc": "92.119.164.50",
+    "hunt_ioc": "92.119.164.50",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PoeLLM exploitation and cryptomining botnet",
+    "malware_family": "PoeLLM",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Lumen Black Lotus Labs"
+    ],
+    "source_article": [
+      "Canto incognito: tracking the PoeLLM malware"
+    ],
+    "source_url": [
+      "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Active C2 address; historical inactive infrastructure excluded.",
+    "sources": [
+      {
+        "organization": "Lumen Black Lotus Labs",
+        "article_title": "Canto incognito: tracking the PoeLLM malware",
+        "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Lumen identifies this public IP as active PoeLLM command-and-control infrastructure in the current campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "026f892630d0a4fe854a75984695ba99af0022c4",
+    "ioc_type": "sha1",
+    "original_ioc": "026f892630d0a4fe854a75984695ba99af0022c4",
+    "hunt_ioc": "026f892630d0a4fe854a75984695ba99af0022c4",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "MATCHBOIL Russia-aligned espionage activity",
+    "malware_family": "MATCHBOIL",
+    "threat_actor": "UAC-0099",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "MATCHBOIL: New tricks, same old evil intentions"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/"
+    ],
+    "article_published_date": [
+      "2026-10-08T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious sample hash from current original research.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "MATCHBOIL: New tricks, same old evil intentions",
+        "url": "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/",
+        "published_at": "2026-10-08T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "ESET identifies this SHA1 as a MATCHBOIL malware sample used by the Russia-aligned UAC-0099 threat actor."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "050926727cdd74f0b3a8a098e60b76d10fb06b14",
+    "ioc_type": "sha1",
+    "original_ioc": "050926727cdd74f0b3a8a098e60b76d10fb06b14",
+    "hunt_ioc": "050926727cdd74f0b3a8a098e60b76d10fb06b14",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "MATCHBOIL Russia-aligned espionage activity",
+    "malware_family": "MATCHBOIL",
+    "threat_actor": "UAC-0099",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "MATCHBOIL: New tricks, same old evil intentions"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/"
+    ],
+    "article_published_date": [
+      "2026-10-08T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Latest exact malicious sample hash in current original research.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "MATCHBOIL: New tricks, same old evil intentions",
+        "url": "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/",
+        "published_at": "2026-10-08T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "ESET identifies this SHA1 as the latest MATCHBOIL sample associated with UAC-0099 activity."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "1e2c4aac30edff86cd9a30bd08b199bcd3d0ccce",
+    "ioc_type": "sha1",
+    "original_ioc": "1e2c4aac30edff86cd9a30bd08b199bcd3d0ccce",
+    "hunt_ioc": "1e2c4aac30edff86cd9a30bd08b199bcd3d0ccce",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "MATCHBOIL Russia-aligned espionage activity",
+    "malware_family": "MATCHBOIL",
+    "threat_actor": "UAC-0099",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "MATCHBOIL: New tricks, same old evil intentions"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/"
+    ],
+    "article_published_date": [
+      "2026-10-08T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious sample hash from current original research.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "MATCHBOIL: New tricks, same old evil intentions",
+        "url": "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/",
+        "published_at": "2026-10-08T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "ESET identifies this SHA1 as a MATCHBOIL malware sample used by the Russia-aligned UAC-0099 threat actor."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "6d72b56b86fd5ed9bd188c8c88cfc69476f836e7",
+    "ioc_type": "sha1",
+    "original_ioc": "6d72b56b86fd5ed9bd188c8c88cfc69476f836e7",
+    "hunt_ioc": "6d72b56b86fd5ed9bd188c8c88cfc69476f836e7",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "MATCHBOIL Russia-aligned espionage activity",
+    "malware_family": "MATCHBOIL",
+    "threat_actor": "UAC-0099",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "MATCHBOIL: New tricks, same old evil intentions"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/"
+    ],
+    "article_published_date": [
+      "2026-10-08T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious sample hash from current original research.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "MATCHBOIL: New tricks, same old evil intentions",
+        "url": "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/",
+        "published_at": "2026-10-08T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "ESET identifies this SHA1 as a MATCHBOIL malware sample used by the Russia-aligned UAC-0099 threat actor."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a926889bab31f3c34663d18c05c4e862ef367028",
+    "ioc_type": "sha1",
+    "original_ioc": "a926889bab31f3c34663d18c05c4e862ef367028",
+    "hunt_ioc": "a926889bab31f3c34663d18c05c4e862ef367028",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "MATCHBOIL Russia-aligned espionage activity",
+    "malware_family": "MATCHBOIL",
+    "threat_actor": "UAC-0099",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "MATCHBOIL: New tricks, same old evil intentions"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/"
+    ],
+    "article_published_date": [
+      "2026-10-08T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious sample hash from current original research.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "MATCHBOIL: New tricks, same old evil intentions",
+        "url": "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/",
+        "published_at": "2026-10-08T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "ESET identifies this SHA1 as a MATCHBOIL malware sample used by the Russia-aligned UAC-0099 threat actor."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b6569b0050b864c4a0d32326954bc2d3852a3958",
+    "ioc_type": "sha1",
+    "original_ioc": "b6569b0050b864c4a0d32326954bc2d3852a3958",
+    "hunt_ioc": "b6569b0050b864c4a0d32326954bc2d3852a3958",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "MATCHBOIL Russia-aligned espionage activity",
+    "malware_family": "MATCHBOIL",
+    "threat_actor": "UAC-0099",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "MATCHBOIL: New tricks, same old evil intentions"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/"
+    ],
+    "article_published_date": [
+      "2026-10-08T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious sample hash from current original research.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "MATCHBOIL: New tricks, same old evil intentions",
+        "url": "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/",
+        "published_at": "2026-10-08T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "ESET identifies this SHA1 as a MATCHBOIL malware sample used by the Russia-aligned UAC-0099 threat actor."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "c85d28f7d272ce2bbbfb9dae71d21bf25b8d00fc",
+    "ioc_type": "sha1",
+    "original_ioc": "c85d28f7d272ce2bbbfb9dae71d21bf25b8d00fc",
+    "hunt_ioc": "c85d28f7d272ce2bbbfb9dae71d21bf25b8d00fc",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "MATCHBOIL Russia-aligned espionage activity",
+    "malware_family": "MATCHBOIL",
+    "threat_actor": "UAC-0099",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "MATCHBOIL: New tricks, same old evil intentions"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/"
+    ],
+    "article_published_date": [
+      "2026-10-08T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious sample hash from current original research.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "MATCHBOIL: New tricks, same old evil intentions",
+        "url": "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/",
+        "published_at": "2026-10-08T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "ESET identifies this SHA1 as a MATCHBOIL malware sample used by the Russia-aligned UAC-0099 threat actor."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "f886b615cb9e23ead2718ff2a61155acfb04ce9e",
+    "ioc_type": "sha1",
+    "original_ioc": "f886b615cb9e23ead2718ff2a61155acfb04ce9e",
+    "hunt_ioc": "f886b615cb9e23ead2718ff2a61155acfb04ce9e",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "MATCHBOIL Russia-aligned espionage activity",
+    "malware_family": "MATCHBOIL",
+    "threat_actor": "UAC-0099",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "MATCHBOIL: New tricks, same old evil intentions"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/"
+    ],
+    "article_published_date": [
+      "2026-10-08T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious sample hash from current original research.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "MATCHBOIL: New tricks, same old evil intentions",
+        "url": "https://www.welivesecurity.com/en/eset-research/matchboil-new-tricks-same-old-evil-intentions/",
+        "published_at": "2026-10-08T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "ESET identifies this SHA1 as a MATCHBOIL malware sample used by the Russia-aligned UAC-0099 threat actor."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "0aed5f24ce625ee6b9422083302766f74b0b9a57e1b18213328b950cc7057e35",
+    "ioc_type": "sha256",
+    "original_ioc": "0aed5f24ce625ee6b9422083302766f74b0b9a57e1b18213328b950cc7057e35",
+    "hunt_ioc": "0aed5f24ce625ee6b9422083302766f74b0b9a57e1b18213328b950cc7057e35",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious XPI hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as a malicious Firefox wallet-extension package."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "225f5d6c5d70a7e7f3abf62ea0dda1cf8bf8e70565f7db748b0d8fa602da939b",
+    "ioc_type": "sha256",
+    "original_ioc": "225f5d6c5d70a7e7f3abf62ea0dda1cf8bf8e70565f7db748b0d8fa602da939b",
+    "hunt_ioc": "225f5d6c5d70a7e7f3abf62ea0dda1cf8bf8e70565f7db748b0d8fa602da939b",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious XPI hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as a malicious Firefox wallet-extension package."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "25a0735d0db7dc40e5d45ce42d9c106067e6a66e184d967cfecfab17c3bcb5ef",
+    "ioc_type": "sha256",
+    "original_ioc": "25a0735d0db7dc40e5d45ce42d9c106067e6a66e184d967cfecfab17c3bcb5ef",
+    "hunt_ioc": "25a0735d0db7dc40e5d45ce42d9c106067e6a66e184d967cfecfab17c3bcb5ef",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "TensorLake ChainDrop supply-chain compromise",
+    "malware_family": "Shai-Hulud credential stealer",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "TensorLake npm SDK Compromised in ChainDrop Shai-Hulud Credential-Stealing Attack"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/tensorlake-compromise"
+    ],
+    "article_published_date": [
+      "2026-10-08T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact malicious package hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "TensorLake npm SDK Compromised in ChainDrop Shai-Hulud Credential-Stealing Attack",
+        "url": "https://socket.dev/blog/tensorlake-compromise",
+        "published_at": "2026-10-08T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as a malicious TensorLake npm package artifact from the ChainDrop credential-stealing compromise."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2bedc26d4b29b435c21962beed7db21188a0219a0d28334bba8b4fb1656d7b15",
+    "ioc_type": "sha256",
+    "original_ioc": "2bedc26d4b29b435c21962beed7db21188a0219a0d28334bba8b4fb1656d7b15",
+    "hunt_ioc": "2bedc26d4b29b435c21962beed7db21188a0219a0d28334bba8b4fb1656d7b15",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "BPFDoor and AVERAT network-edge campaign",
+    "malware_family": "BPFDoor or AVERAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rapid7"
+    ],
+    "source_article": [
+      "SMTP is the key: BPFDoor and AVERAT hitting the network edge"
+    ],
+    "source_url": [
+      "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious artifact hash.",
+    "sources": [
+      {
+        "organization": "Rapid7",
+        "article_title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
+        "url": "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Rapid7 lists this SHA256 among the malicious BPFDoor or AVERAT artifacts from the investigated campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2f9270269e631bc4fd634d741afcfc3df8f54e43e40b16f38660fe8ce6c26f51",
+    "ioc_type": "sha256",
+    "original_ioc": "2f9270269e631bc4fd634d741afcfc3df8f54e43e40b16f38660fe8ce6c26f51",
+    "hunt_ioc": "2f9270269e631bc4fd634d741afcfc3df8f54e43e40b16f38660fe8ce6c26f51",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious XPI hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as a malicious Firefox wallet-extension package."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2fe2dd402ee6f9c578fce6dd4b36daaa407e99133e5dd502f2afca80feb60150",
+    "ioc_type": "sha256",
+    "original_ioc": "2fe2dd402ee6f9c578fce6dd4b36daaa407e99133e5dd502f2afca80feb60150",
+    "hunt_ioc": "2fe2dd402ee6f9c578fce6dd4b36daaa407e99133e5dd502f2afca80feb60150",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "BPFDoor and AVERAT network-edge campaign",
+    "malware_family": "BPFDoor or AVERAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rapid7"
+    ],
+    "source_article": [
+      "SMTP is the key: BPFDoor and AVERAT hitting the network edge"
+    ],
+    "source_url": [
+      "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious artifact hash.",
+    "sources": [
+      {
+        "organization": "Rapid7",
+        "article_title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
+        "url": "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Rapid7 lists this SHA256 among the malicious BPFDoor or AVERAT artifacts from the investigated campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "4435fcd6862921092614dbeaa880e4192352984686ebcd98f0ba13ee8e226ef9",
+    "ioc_type": "sha256",
+    "original_ioc": "4435fcd6862921092614dbeaa880e4192352984686ebcd98f0ba13ee8e226ef9",
+    "hunt_ioc": "4435fcd6862921092614dbeaa880e4192352984686ebcd98f0ba13ee8e226ef9",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "BPFDoor and AVERAT network-edge campaign",
+    "malware_family": "BPFDoor or AVERAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rapid7"
+    ],
+    "source_article": [
+      "SMTP is the key: BPFDoor and AVERAT hitting the network edge"
+    ],
+    "source_url": [
+      "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious artifact hash.",
+    "sources": [
+      {
+        "organization": "Rapid7",
+        "article_title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
+        "url": "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Rapid7 lists this SHA256 among the malicious BPFDoor or AVERAT artifacts from the investigated campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "4512389444a767f12211beeb5f2ad165aca4a558e88e8f111affb30b77ed6a5a",
+    "ioc_type": "sha256",
+    "original_ioc": "4512389444a767f12211beeb5f2ad165aca4a558e88e8f111affb30b77ed6a5a",
+    "hunt_ioc": "4512389444a767f12211beeb5f2ad165aca4a558e88e8f111affb30b77ed6a5a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious XPI hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as a malicious Firefox wallet-extension package."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "458e7255438f15aaede02fd7f8fcfdf762aa6e08608b9546fe8aa8aa399c76b7",
+    "ioc_type": "sha256",
+    "original_ioc": "458e7255438f15aaede02fd7f8fcfdf762aa6e08608b9546fe8aa8aa399c76b7",
+    "hunt_ioc": "458e7255438f15aaede02fd7f8fcfdf762aa6e08608b9546fe8aa8aa399c76b7",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious XPI hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as a malicious Firefox wallet-extension package."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "4925bcca085ec504f51191645da278d8e96698d91f3c6df44146336c697b4de8",
+    "ioc_type": "sha256",
+    "original_ioc": "4925bcca085ec504f51191645da278d8e96698d91f3c6df44146336c697b4de8",
+    "hunt_ioc": "4925bcca085ec504f51191645da278d8e96698d91f3c6df44146336c697b4de8",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "BPFDoor and AVERAT network-edge campaign",
+    "malware_family": "BPFDoor or AVERAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rapid7"
+    ],
+    "source_article": [
+      "SMTP is the key: BPFDoor and AVERAT hitting the network edge"
+    ],
+    "source_url": [
+      "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious artifact hash.",
+    "sources": [
+      {
+        "organization": "Rapid7",
+        "article_title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
+        "url": "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Rapid7 lists this SHA256 among the malicious BPFDoor or AVERAT artifacts from the investigated campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "635b31b4a19b5673fcbe0fedeb3f7ed2c27fddb739685f19ca5f3d1f1d7f0083",
+    "ioc_type": "sha256",
+    "original_ioc": "635b31b4a19b5673fcbe0fedeb3f7ed2c27fddb739685f19ca5f3d1f1d7f0083",
+    "hunt_ioc": "635b31b4a19b5673fcbe0fedeb3f7ed2c27fddb739685f19ca5f3d1f1d7f0083",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious XPI hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as a malicious Firefox wallet-extension package."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "652508a9cf40bee883dc0e5e219dfeba71fe7dac591d01c89f74c21f73b4963f",
+    "ioc_type": "sha256",
+    "original_ioc": "652508a9cf40bee883dc0e5e219dfeba71fe7dac591d01c89f74c21f73b4963f",
+    "hunt_ioc": "652508a9cf40bee883dc0e5e219dfeba71fe7dac591d01c89f74c21f73b4963f",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "BPFDoor and AVERAT network-edge campaign",
+    "malware_family": "BPFDoor or AVERAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rapid7"
+    ],
+    "source_article": [
+      "SMTP is the key: BPFDoor and AVERAT hitting the network edge"
+    ],
+    "source_url": [
+      "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious artifact hash.",
+    "sources": [
+      {
+        "organization": "Rapid7",
+        "article_title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
+        "url": "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Rapid7 lists this SHA256 among the malicious BPFDoor or AVERAT artifacts from the investigated campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "6b53369fb868efb92b60af40fbd5906fa3d3d8785a7878b4af6e4efd333a4de8",
+    "ioc_type": "sha256",
+    "original_ioc": "6b53369fb868efb92b60af40fbd5906fa3d3d8785a7878b4af6e4efd333a4de8",
+    "hunt_ioc": "6b53369fb868efb92b60af40fbd5906fa3d3d8785a7878b4af6e4efd333a4de8",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious XPI hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as a malicious Firefox wallet-extension package."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "6fab94577364beec314afae3b082dd680933f08a8349b9f35b92667e8231b501",
+    "ioc_type": "sha256",
+    "original_ioc": "6fab94577364beec314afae3b082dd680933f08a8349b9f35b92667e8231b501",
+    "hunt_ioc": "6fab94577364beec314afae3b082dd680933f08a8349b9f35b92667e8231b501",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "PoeLLM exploitation and cryptomining botnet",
+    "malware_family": "PoeLLM",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Lumen Black Lotus Labs"
+    ],
+    "source_article": [
+      "Canto incognito: tracking the PoeLLM malware"
+    ],
+    "source_url": [
+      "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious sample hash.",
+    "sources": [
+      {
+        "organization": "Lumen Black Lotus Labs",
+        "article_title": "Canto incognito: tracking the PoeLLM malware",
+        "url": "https://www.lumen.com/blog/en-us/canto-incognito-tracking-the-poellm-malware",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Lumen identifies this SHA256 as the PoeLLM malware sample used in the current exploitation campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "71ec70479ab78efb1e1f9507f8ff7348d5711c837cc50a0120f3a188c340f3f4",
+    "ioc_type": "sha256",
+    "original_ioc": "71ec70479ab78efb1e1f9507f8ff7348d5711c837cc50a0120f3a188c340f3f4",
+    "hunt_ioc": "71ec70479ab78efb1e1f9507f8ff7348d5711c837cc50a0120f3a188c340f3f4",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious XPI hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as a malicious Firefox wallet-extension package."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "7d9d7e80ed52350616be0215a7ded10aaeb9aaa64e34ff8af7f9177c8c855799",
+    "ioc_type": "sha256",
+    "original_ioc": "7d9d7e80ed52350616be0215a7ded10aaeb9aaa64e34ff8af7f9177c8c855799",
+    "hunt_ioc": "7d9d7e80ed52350616be0215a7ded10aaeb9aaa64e34ff8af7f9177c8c855799",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Shared malicious extension code hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as code shared by the malicious credential-stealing Firefox extensions."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "7e667ba5f9df912e02275d3cfe3809d16f822fe776f4035c84b118ebd925b1b5",
+    "ioc_type": "sha256",
+    "original_ioc": "7e667ba5f9df912e02275d3cfe3809d16f822fe776f4035c84b118ebd925b1b5",
+    "hunt_ioc": "7e667ba5f9df912e02275d3cfe3809d16f822fe776f4035c84b118ebd925b1b5",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "BPFDoor and AVERAT network-edge campaign",
+    "malware_family": "BPFDoor or AVERAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rapid7"
+    ],
+    "source_article": [
+      "SMTP is the key: BPFDoor and AVERAT hitting the network edge"
+    ],
+    "source_url": [
+      "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious artifact hash.",
+    "sources": [
+      {
+        "organization": "Rapid7",
+        "article_title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
+        "url": "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Rapid7 lists this SHA256 among the malicious BPFDoor or AVERAT artifacts from the investigated campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "8906dd85b0991fac14e5973b3f3f61d93ef1101504cb5867a004c762ee184ef7",
+    "ioc_type": "sha256",
+    "original_ioc": "8906dd85b0991fac14e5973b3f3f61d93ef1101504cb5867a004c762ee184ef7",
+    "hunt_ioc": "8906dd85b0991fac14e5973b3f3f61d93ef1101504cb5867a004c762ee184ef7",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious XPI hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as a malicious Firefox wallet-extension package."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "925c041807d4fb9dfe2ad84f963c2a4c60ea1289f6a0bdccbfb944478ffc2cf2",
+    "ioc_type": "sha256",
+    "original_ioc": "925c041807d4fb9dfe2ad84f963c2a4c60ea1289f6a0bdccbfb944478ffc2cf2",
+    "hunt_ioc": "925c041807d4fb9dfe2ad84f963c2a4c60ea1289f6a0bdccbfb944478ffc2cf2",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "BPFDoor and AVERAT network-edge campaign",
+    "malware_family": "BPFDoor or AVERAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rapid7"
+    ],
+    "source_article": [
+      "SMTP is the key: BPFDoor and AVERAT hitting the network edge"
+    ],
+    "source_url": [
+      "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious artifact hash.",
+    "sources": [
+      {
+        "organization": "Rapid7",
+        "article_title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
+        "url": "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Rapid7 lists this SHA256 among the malicious BPFDoor or AVERAT artifacts from the investigated campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "9fea0ee3c81047f5e50eeb3a2ab2a7cd70357f3e49944b7079ab3e90c9ea0e8b",
+    "ioc_type": "sha256",
+    "original_ioc": "9fea0ee3c81047f5e50eeb3a2ab2a7cd70357f3e49944b7079ab3e90c9ea0e8b",
+    "hunt_ioc": "9fea0ee3c81047f5e50eeb3a2ab2a7cd70357f3e49944b7079ab3e90c9ea0e8b",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious XPI hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as a malicious Firefox wallet-extension package."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a37ea9897221d4495b538de72b74f2aa1d2ff09b7b6dcedd395aee58931adbf3",
+    "ioc_type": "sha256",
+    "original_ioc": "a37ea9897221d4495b538de72b74f2aa1d2ff09b7b6dcedd395aee58931adbf3",
+    "hunt_ioc": "a37ea9897221d4495b538de72b74f2aa1d2ff09b7b6dcedd395aee58931adbf3",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "BPFDoor and AVERAT network-edge campaign",
+    "malware_family": "BPFDoor or AVERAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rapid7"
+    ],
+    "source_article": [
+      "SMTP is the key: BPFDoor and AVERAT hitting the network edge"
+    ],
+    "source_url": [
+      "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious artifact hash.",
+    "sources": [
+      {
+        "organization": "Rapid7",
+        "article_title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
+        "url": "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Rapid7 lists this SHA256 among the malicious BPFDoor or AVERAT artifacts from the investigated campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a4379e115d3c4420f5d4b92561022d6e0897990e7297be65c033d47de68e6a6a",
+    "ioc_type": "sha256",
+    "original_ioc": "a4379e115d3c4420f5d4b92561022d6e0897990e7297be65c033d47de68e6a6a",
+    "hunt_ioc": "a4379e115d3c4420f5d4b92561022d6e0897990e7297be65c033d47de68e6a6a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "BPFDoor and AVERAT network-edge campaign",
+    "malware_family": "BPFDoor or AVERAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rapid7"
+    ],
+    "source_article": [
+      "SMTP is the key: BPFDoor and AVERAT hitting the network edge"
+    ],
+    "source_url": [
+      "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious artifact hash.",
+    "sources": [
+      {
+        "organization": "Rapid7",
+        "article_title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
+        "url": "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Rapid7 lists this SHA256 among the malicious BPFDoor or AVERAT artifacts from the investigated campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a65048eb30661e27f8edc2dd8d8c77ec87faec1f1750f6e04e7ecaf069a32858",
+    "ioc_type": "sha256",
+    "original_ioc": "a65048eb30661e27f8edc2dd8d8c77ec87faec1f1750f6e04e7ecaf069a32858",
+    "hunt_ioc": "a65048eb30661e27f8edc2dd8d8c77ec87faec1f1750f6e04e7ecaf069a32858",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "BPFDoor and AVERAT network-edge campaign",
+    "malware_family": "BPFDoor or AVERAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rapid7"
+    ],
+    "source_article": [
+      "SMTP is the key: BPFDoor and AVERAT hitting the network edge"
+    ],
+    "source_url": [
+      "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious artifact hash.",
+    "sources": [
+      {
+        "organization": "Rapid7",
+        "article_title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
+        "url": "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Rapid7 lists this SHA256 among the malicious BPFDoor or AVERAT artifacts from the investigated campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a6f3b7f932761fb1fd5e74123f2482e36c65dd13e769af2ce08c65da195bfa7a",
+    "ioc_type": "sha256",
+    "original_ioc": "a6f3b7f932761fb1fd5e74123f2482e36c65dd13e769af2ce08c65da195bfa7a",
+    "hunt_ioc": "a6f3b7f932761fb1fd5e74123f2482e36c65dd13e769af2ce08c65da195bfa7a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "BPFDoor and AVERAT network-edge campaign",
+    "malware_family": "BPFDoor or AVERAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rapid7"
+    ],
+    "source_article": [
+      "SMTP is the key: BPFDoor and AVERAT hitting the network edge"
+    ],
+    "source_url": [
+      "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious artifact hash.",
+    "sources": [
+      {
+        "organization": "Rapid7",
+        "article_title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
+        "url": "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Rapid7 lists this SHA256 among the malicious BPFDoor or AVERAT artifacts from the investigated campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b02ae1d5a0d2a5b28f8baa2afcdc7d7090fab051536303cba3ba1f17860da980",
+    "ioc_type": "sha256",
+    "original_ioc": "b02ae1d5a0d2a5b28f8baa2afcdc7d7090fab051536303cba3ba1f17860da980",
+    "hunt_ioc": "b02ae1d5a0d2a5b28f8baa2afcdc7d7090fab051536303cba3ba1f17860da980",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious XPI hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as a malicious Firefox wallet-extension package."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b50a00900399ba99fb6ce1fc151519cb99d44320ef2a631f2237e1aea0ad6fec",
+    "ioc_type": "sha256",
+    "original_ioc": "b50a00900399ba99fb6ce1fc151519cb99d44320ef2a631f2237e1aea0ad6fec",
+    "hunt_ioc": "b50a00900399ba99fb6ce1fc151519cb99d44320ef2a631f2237e1aea0ad6fec",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "TensorLake ChainDrop supply-chain compromise",
+    "malware_family": "Shai-Hulud credential stealer",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "TensorLake npm SDK Compromised in ChainDrop Shai-Hulud Credential-Stealing Attack"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/tensorlake-compromise"
+    ],
+    "article_published_date": [
+      "2026-10-08T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact malicious package hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "TensorLake npm SDK Compromised in ChainDrop Shai-Hulud Credential-Stealing Attack",
+        "url": "https://socket.dev/blog/tensorlake-compromise",
+        "published_at": "2026-10-08T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as a malicious TensorLake npm package artifact from the ChainDrop credential-stealing compromise."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "bb8f60b3f77d96adc93bf0515b34df7c5f1f560a9f6d0c353b7d849609e3557d",
+    "ioc_type": "sha256",
+    "original_ioc": "bb8f60b3f77d96adc93bf0515b34df7c5f1f560a9f6d0c353b7d849609e3557d",
+    "hunt_ioc": "bb8f60b3f77d96adc93bf0515b34df7c5f1f560a9f6d0c353b7d849609e3557d",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious XPI hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as a malicious Firefox wallet-extension package."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "be246ca5cb1372394e0443df45454f88ca39eb4a8dcfc4a99cb8865100fb4897",
+    "ioc_type": "sha256",
+    "original_ioc": "be246ca5cb1372394e0443df45454f88ca39eb4a8dcfc4a99cb8865100fb4897",
+    "hunt_ioc": "be246ca5cb1372394e0443df45454f88ca39eb4a8dcfc4a99cb8865100fb4897",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious XPI hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as a malicious Firefox wallet-extension package."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "bf8135f46ecedfe5bd06fcecbb2e721c2367ff765b18f4aa3f868e6597f49e47",
+    "ioc_type": "sha256",
+    "original_ioc": "bf8135f46ecedfe5bd06fcecbb2e721c2367ff765b18f4aa3f868e6597f49e47",
+    "hunt_ioc": "bf8135f46ecedfe5bd06fcecbb2e721c2367ff765b18f4aa3f868e6597f49e47",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "BPFDoor and AVERAT network-edge campaign",
+    "malware_family": "BPFDoor or AVERAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rapid7"
+    ],
+    "source_article": [
+      "SMTP is the key: BPFDoor and AVERAT hitting the network edge"
+    ],
+    "source_url": [
+      "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious artifact hash.",
+    "sources": [
+      {
+        "organization": "Rapid7",
+        "article_title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
+        "url": "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge/",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Rapid7 lists this SHA256 among the malicious BPFDoor or AVERAT artifacts from the investigated campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "c550f0860012e0dfab14ed65a9425961e22025e0ab23fd9d69d294a8aa34db2f",
+    "ioc_type": "sha256",
+    "original_ioc": "c550f0860012e0dfab14ed65a9425961e22025e0ab23fd9d69d294a8aa34db2f",
+    "hunt_ioc": "c550f0860012e0dfab14ed65a9425961e22025e0ab23fd9d69d294a8aa34db2f",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious XPI hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as a malicious Firefox wallet-extension package."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "d9432e41e0401715bce4ce11f4a7104d94fab1ec89be553ba57a2097e418c1a1",
+    "ioc_type": "sha256",
+    "original_ioc": "d9432e41e0401715bce4ce11f4a7104d94fab1ec89be553ba57a2097e418c1a1",
+    "hunt_ioc": "d9432e41e0401715bce4ce11f4a7104d94fab1ec89be553ba57a2097e418c1a1",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious XPI hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as a malicious Firefox wallet-extension package."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "da447fe02e4577da97144a4d92b395078954fde1ff196746413837e1e4a20bcd",
+    "ioc_type": "sha256",
+    "original_ioc": "da447fe02e4577da97144a4d92b395078954fde1ff196746413837e1e4a20bcd",
+    "hunt_ioc": "da447fe02e4577da97144a4d92b395078954fde1ff196746413837e1e4a20bcd",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious XPI hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as a malicious Firefox wallet-extension package."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "e5c9a29d5ba0f53a49d8b333bfab17bf9878f94e8c3f325f5afacad44bb26fb5",
+    "ioc_type": "sha256",
+    "original_ioc": "e5c9a29d5ba0f53a49d8b333bfab17bf9878f94e8c3f325f5afacad44bb26fb5",
+    "hunt_ioc": "e5c9a29d5ba0f53a49d8b333bfab17bf9878f94e8c3f325f5afacad44bb26fb5",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious XPI hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as a malicious Firefox wallet-extension package."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "e96c75cd0c9b35000b4a3ec12d5dd23ca157e94aee7271a0fe8d8d7c9f2e9096",
+    "ioc_type": "sha256",
+    "original_ioc": "e96c75cd0c9b35000b4a3ec12d5dd23ca157e94aee7271a0fe8d8d7c9f2e9096",
+    "hunt_ioc": "e96c75cd0c9b35000b4a3ec12d5dd23ca157e94aee7271a0fe8d8d7c9f2e9096",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious XPI hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as a malicious Firefox wallet-extension package."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "eb134bbf73046800c8177383754cf754b8776ec30cf5cc8a13655d259e49a4bf",
+    "ioc_type": "sha256",
+    "original_ioc": "eb134bbf73046800c8177383754cf754b8776ec30cf5cc8a13655d259e49a4bf",
+    "hunt_ioc": "eb134bbf73046800c8177383754cf754b8776ec30cf5cc8a13655d259e49a4bf",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious XPI hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as a malicious Firefox wallet-extension package."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "faf174414ddc7099360c4ae4d16497b9846cfae71ffad5bbab820bba657f94d3",
+    "ioc_type": "sha256",
+    "original_ioc": "faf174414ddc7099360c4ae4d16497b9846cfae71ffad5bbab820bba657f94d3",
+    "hunt_ioc": "faf174414ddc7099360c4ae4d16497b9846cfae71ffad5bbab820bba657f94d3",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Malicious Firefox cryptocurrency wallet extensions",
+    "malware_family": "Credential-stealing browser extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/firefox-crypto-wallet-stealers"
+    ],
+    "article_published_date": [
+      "2026-10-07T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious XPI hash.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+        "url": "https://socket.dev/blog/firefox-crypto-wallet-stealers",
+        "published_at": "2026-10-07T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "Socket identifies this SHA256 as a malicious Firefox wallet-extension package."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "fe1d7aedc8ebd2976e1c7041a6982635698cc77e93eeea12a844f4ce06e620b1",
+    "ioc_type": "sha256",
+    "original_ioc": "fe1d7aedc8ebd2976e1c7041a6982635698cc77e93eeea12a844f4ce06e620b1",
+    "hunt_ioc": "fe1d7aedc8ebd2976e1c7041a6982635698cc77e93eeea12a844f4ce06e620b1",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current Mirai malware activity",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample fe1d7aedc8eb - Mirai sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/fe1d7aedc8ebd2976e1c7041a6982635698cc77e93eeea12a844f4ce06e620b1/"
+    ],
+    "article_published_date": [
+      "2026-10-08T01:19:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Current metadata-rich individual structured sample record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample fe1d7aedc8eb - Mirai sample",
+        "url": "https://bazaar.abuse.ch/sample/fe1d7aedc8ebd2976e1c7041a6982635698cc77e93eeea12a844f4ce06e620b1/",
+        "published_at": "2026-10-08T01:19:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "The current MalwareBazaar record identifies this exact SHA256 as a Mirai malware sample and records multiple vendor detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://hofmemorabilia.ebaymclaren-austin.eventshouse.app/",
+    "ioc_type": "url",
+    "original_ioc": "http://hofmemorabilia.ebaymclaren-austin.eventshouse.app/",
+    "hunt_ioc": "hofmemorabilia.ebaymclaren-austin.eventshouse.app",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current credential-phishing activity",
+    "malware_family": "Credential phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OpenPhish via urlscan.io"
+    ],
+    "source_article": [
+      "OpenPhish public record - eBay-themed credential phishing URL"
+    ],
+    "source_url": [
+      "https://urlscan.io/result/01a11b9c-7012-710b-9d2c-9ff4f504703c/"
+    ],
+    "article_published_date": [
+      "2026-10-08T13:03:26Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Exact malicious URL retained for documentation; hunting normalizes it to the validated host.",
+    "sources": [
+      {
+        "organization": "OpenPhish via urlscan.io",
+        "article_title": "OpenPhish public record - eBay-themed credential phishing URL",
+        "url": "https://urlscan.io/result/01a11b9c-7012-710b-9d2c-9ff4f504703c/",
+        "published_at": "2026-10-08T13:03:26Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "OpenPhish submitted this exact public URL as a current eBay-themed credential-phishing indicator in public urlscan metadata."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://www.roblox.com.ml/users/",
+    "ioc_type": "url",
+    "original_ioc": "https://www.roblox.com.ml/users/",
+    "hunt_ioc": "www.roblox.com.ml",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current credential-phishing activity",
+    "malware_family": "Credential phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OpenPhish via urlscan.io"
+    ],
+    "source_article": [
+      "OpenPhish public record - Roblox credential phishing URL on com.ml"
+    ],
+    "source_url": [
+      "https://urlscan.io/result/01a11b9c-4ce1-70fc-be7d-f44ed9307553/"
+    ],
+    "article_published_date": [
+      "2026-10-08T13:03:18Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Exact malicious URL retained for documentation; hunting normalizes it to the validated host.",
+    "sources": [
+      {
+        "organization": "OpenPhish via urlscan.io",
+        "article_title": "OpenPhish public record - Roblox credential phishing URL on com.ml",
+        "url": "https://urlscan.io/result/01a11b9c-4ce1-70fc-be7d-f44ed9307553/",
+        "published_at": "2026-10-08T13:03:18Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "OpenPhish submitted this exact typosquatted public URL as a current Roblox credential-phishing indicator in public urlscan metadata."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://www.roblox.com.mu/games/",
+    "ioc_type": "url",
+    "original_ioc": "https://www.roblox.com.mu/games/",
+    "hunt_ioc": "www.roblox.com.mu",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current credential-phishing activity",
+    "malware_family": "Credential phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OpenPhish via urlscan.io"
+    ],
+    "source_article": [
+      "OpenPhish public record - Roblox credential phishing URL"
+    ],
+    "source_url": [
+      "https://urlscan.io/result/01a11b9c-5934-72ef-98ef-d3c6df33d166/"
+    ],
+    "article_published_date": [
+      "2026-10-08T13:03:23Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-08T13:10:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Exact malicious URL retained for documentation; hunting normalizes it to the validated host.",
+    "sources": [
+      {
+        "organization": "OpenPhish via urlscan.io",
+        "article_title": "OpenPhish public record - Roblox credential phishing URL",
+        "url": "https://urlscan.io/result/01a11b9c-5934-72ef-98ef-d3c6df33d166/",
+        "published_at": "2026-10-08T13:03:23Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-06T13:00:42Z",
+        "discovery_context": [
+          "OpenPhish submitted this exact typosquatted public URL as a current Roblox credential-phishing indicator in public urlscan metadata."
+        ]
+      }
+    ]
+  }
+]

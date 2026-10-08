@@ -1,0 +1,21 @@
+// Query name: CYBERMEDIC Daily IOC Hunt
+// Description: Search 30-day Microsoft Defender telemetry for validated IOC values.
+// Author : CYBERMEDIC
+// Last updated: 2026-10-08
+// MITRE ATT&CK mapping: N/A - IOC lookup
+// Notes: One runnable query; exact IOC filters precede the 500-result limit.
+// Sources: See the daily IOC summary for 2026-10-08.
+union
+(
+DeviceNetworkEvents
+| where Timestamp >= ago(30d)
+| where RemoteUrl in~ ("airarticlegenerate.com","flat-wildflower-f954.fondationanimalaidrelief.workers.dev","flycloud-service.com","green-firefly-ab28.icy-star-f45c.workers.dev","hofmemorabilia.ebaymclaren-austin.eventshouse.app","mx.zxopfds.com","mx1.wwstifsteel.com","silent-wind-get.icy-star-f45c.workers.dev","small-boat-969c.icy-star-f45c.workers.dev","spam.suwaccqi.com","telemetry-conf.com","virtualdailyplanner.pro","www.roblox.com.ml","www.roblox.com.mu") or RemoteIP in~ ("1.34.200.85","103.249.201.108","122.116.138.33","178.128.14.204","59.125.211.65","64.95.10.223","64.95.13.210","92.119.164.50")
+| project Timestamp,DeviceName,RemoteIP,RemotePort,RemoteUrl,InitiatingProcessFileName
+),
+(
+DeviceFileEvents
+| where Timestamp >= ago(30d)
+| where SHA1 in~ ("026f892630d0a4fe854a75984695ba99af0022c4","050926727cdd74f0b3a8a098e60b76d10fb06b14","1e2c4aac30edff86cd9a30bd08b199bcd3d0ccce","6d72b56b86fd5ed9bd188c8c88cfc69476f836e7","a926889bab31f3c34663d18c05c4e862ef367028","b6569b0050b864c4a0d32326954bc2d3852a3958","c85d28f7d272ce2bbbfb9dae71d21bf25b8d00fc","f886b615cb9e23ead2718ff2a61155acfb04ce9e") or SHA256 in~ ("0aed5f24ce625ee6b9422083302766f74b0b9a57e1b18213328b950cc7057e35","225f5d6c5d70a7e7f3abf62ea0dda1cf8bf8e70565f7db748b0d8fa602da939b","25a0735d0db7dc40e5d45ce42d9c106067e6a66e184d967cfecfab17c3bcb5ef","2bedc26d4b29b435c21962beed7db21188a0219a0d28334bba8b4fb1656d7b15","2f9270269e631bc4fd634d741afcfc3df8f54e43e40b16f38660fe8ce6c26f51","2fe2dd402ee6f9c578fce6dd4b36daaa407e99133e5dd502f2afca80feb60150","4435fcd6862921092614dbeaa880e4192352984686ebcd98f0ba13ee8e226ef9","4512389444a767f12211beeb5f2ad165aca4a558e88e8f111affb30b77ed6a5a","458e7255438f15aaede02fd7f8fcfdf762aa6e08608b9546fe8aa8aa399c76b7","4925bcca085ec504f51191645da278d8e96698d91f3c6df44146336c697b4de8","635b31b4a19b5673fcbe0fedeb3f7ed2c27fddb739685f19ca5f3d1f1d7f0083","652508a9cf40bee883dc0e5e219dfeba71fe7dac591d01c89f74c21f73b4963f","6b53369fb868efb92b60af40fbd5906fa3d3d8785a7878b4af6e4efd333a4de8","6fab94577364beec314afae3b082dd680933f08a8349b9f35b92667e8231b501","71ec70479ab78efb1e1f9507f8ff7348d5711c837cc50a0120f3a188c340f3f4","7d9d7e80ed52350616be0215a7ded10aaeb9aaa64e34ff8af7f9177c8c855799","7e667ba5f9df912e02275d3cfe3809d16f822fe776f4035c84b118ebd925b1b5","8906dd85b0991fac14e5973b3f3f61d93ef1101504cb5867a004c762ee184ef7","925c041807d4fb9dfe2ad84f963c2a4c60ea1289f6a0bdccbfb944478ffc2cf2","9fea0ee3c81047f5e50eeb3a2ab2a7cd70357f3e49944b7079ab3e90c9ea0e8b","a37ea9897221d4495b538de72b74f2aa1d2ff09b7b6dcedd395aee58931adbf3","a4379e115d3c4420f5d4b92561022d6e0897990e7297be65c033d47de68e6a6a","a65048eb30661e27f8edc2dd8d8c77ec87faec1f1750f6e04e7ecaf069a32858","a6f3b7f932761fb1fd5e74123f2482e36c65dd13e769af2ce08c65da195bfa7a","b02ae1d5a0d2a5b28f8baa2afcdc7d7090fab051536303cba3ba1f17860da980","b50a00900399ba99fb6ce1fc151519cb99d44320ef2a631f2237e1aea0ad6fec","bb8f60b3f77d96adc93bf0515b34df7c5f1f560a9f6d0c353b7d849609e3557d","be246ca5cb1372394e0443df45454f88ca39eb4a8dcfc4a99cb8865100fb4897","bf8135f46ecedfe5bd06fcecbb2e721c2367ff765b18f4aa3f868e6597f49e47","c550f0860012e0dfab14ed65a9425961e22025e0ab23fd9d69d294a8aa34db2f","d9432e41e0401715bce4ce11f4a7104d94fab1ec89be553ba57a2097e418c1a1","da447fe02e4577da97144a4d92b395078954fde1ff196746413837e1e4a20bcd","e5c9a29d5ba0f53a49d8b333bfab17bf9878f94e8c3f325f5afacad44bb26fb5","e96c75cd0c9b35000b4a3ec12d5dd23ca157e94aee7271a0fe8d8d7c9f2e9096","eb134bbf73046800c8177383754cf754b8776ec30cf5cc8a13655d259e49a4bf","faf174414ddc7099360c4ae4d16497b9846cfae71ffad5bbab820bba657f94d3","fe1d7aedc8ebd2976e1c7041a6982635698cc77e93eeea12a844f4ce06e620b1")
+| project Timestamp,DeviceName,FileName,FolderPath,MD5,SHA1,SHA256,InitiatingProcessFileName
+)
+| top 500 by Timestamp desc
