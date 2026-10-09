@@ -1,0 +1,660 @@
+[
+  {
+    "ioc": "98aiblog.com",
+    "ioc_type": "domain",
+    "original_ioc": "98aiblog.com",
+    "hunt_ioc": "98aiblog.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Flax Typhoon Integrity Technology Group operations",
+    "malware_family": "SoftEther remote access infrastructure",
+    "threat_actor": "Flax Typhoon",
+    "source_organization": [
+      "FBI, CISA, NSA, and international partners"
+    ],
+    "source_article": [
+      "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data"
+    ],
+    "source_url": [
+      "https://www.ic3.gov/CSA/2026/261008.pdf"
+    ],
+    "article_published_date": [
+      "2026-10-08T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-09T13:10:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Newly disclosed and seized actor infrastructure retained for retrospective enterprise hunting.",
+    "sources": [
+      {
+        "organization": "FBI, CISA, NSA, and international partners",
+        "article_title": "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data",
+        "url": "https://www.ic3.gov/CSA/2026/261008.pdf",
+        "published_at": "2026-10-08T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-07T12:00:00Z",
+        "discovery_context": [
+          "The joint FBI and partner advisory identifies this seized domain as infrastructure tied to unauthorized SoftEther remote access used by Integrity Technology Group actors."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "98aicai.com",
+    "ioc_type": "domain",
+    "original_ioc": "98aicai.com",
+    "hunt_ioc": "98aicai.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Flax Typhoon Integrity Technology Group operations",
+    "malware_family": "FishHub malware delivery",
+    "threat_actor": "Flax Typhoon",
+    "source_organization": [
+      "FBI, CISA, NSA, and international partners"
+    ],
+    "source_article": [
+      "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data"
+    ],
+    "source_url": [
+      "https://www.ic3.gov/CSA/2026/261008.pdf"
+    ],
+    "article_published_date": [
+      "2026-10-08T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-09T13:10:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Newly disclosed and seized malware-delivery infrastructure retained for retrospective hunting.",
+    "sources": [
+      {
+        "organization": "FBI, CISA, NSA, and international partners",
+        "article_title": "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data",
+        "url": "https://www.ic3.gov/CSA/2026/261008.pdf",
+        "published_at": "2026-10-08T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-07T12:00:00Z",
+        "discovery_context": [
+          "The joint FBI and partner advisory identifies this seized domain as FishHub-linked malware-delivery infrastructure used by Integrity Technology Group actors."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "98aicode.com",
+    "ioc_type": "domain",
+    "original_ioc": "98aicode.com",
+    "hunt_ioc": "98aicode.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Flax Typhoon Integrity Technology Group operations",
+    "malware_family": "FishHub malware delivery",
+    "threat_actor": "Flax Typhoon",
+    "source_organization": [
+      "FBI, CISA, NSA, and international partners"
+    ],
+    "source_article": [
+      "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data"
+    ],
+    "source_url": [
+      "https://www.ic3.gov/CSA/2026/261008.pdf"
+    ],
+    "article_published_date": [
+      "2026-10-08T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-09T13:10:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Newly disclosed and seized malware-delivery infrastructure retained for retrospective hunting.",
+    "sources": [
+      {
+        "organization": "FBI, CISA, NSA, and international partners",
+        "article_title": "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data",
+        "url": "https://www.ic3.gov/CSA/2026/261008.pdf",
+        "published_at": "2026-10-08T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-07T12:00:00Z",
+        "discovery_context": [
+          "The joint FBI and partner advisory identifies this seized domain as FishHub-linked malware-delivery infrastructure used by Integrity Technology Group actors."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "c0cc.cc",
+    "ioc_type": "domain",
+    "original_ioc": "c0cc.cc",
+    "hunt_ioc": "c0cc.cc",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Flax Typhoon Integrity Technology Group operations",
+    "malware_family": "MicroScan",
+    "threat_actor": "Flax Typhoon",
+    "source_organization": [
+      "FBI, CISA, NSA, and international partners"
+    ],
+    "source_article": [
+      "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data"
+    ],
+    "source_url": [
+      "https://www.ic3.gov/CSA/2026/261008.pdf"
+    ],
+    "article_published_date": [
+      "2026-10-08T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-09T13:10:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Newly disclosed and seized actor infrastructure retained for retrospective enterprise hunting.",
+    "sources": [
+      {
+        "organization": "FBI, CISA, NSA, and international partners",
+        "article_title": "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data",
+        "url": "https://www.ic3.gov/CSA/2026/261008.pdf",
+        "published_at": "2026-10-08T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-07T12:00:00Z",
+        "discovery_context": [
+          "The joint FBI and partner advisory identifies this seized domain as access infrastructure for the malicious MicroScan platform used by Integrity Technology Group and Flax Typhoon actors."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "linkedinns.net",
+    "ioc_type": "domain",
+    "original_ioc": "linkedinns.net",
+    "hunt_ioc": "linkedinns.net",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Flax Typhoon Integrity Technology Group operations",
+    "malware_family": "FishHub malware delivery",
+    "threat_actor": "Flax Typhoon",
+    "source_organization": [
+      "FBI, CISA, NSA, and international partners"
+    ],
+    "source_article": [
+      "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data"
+    ],
+    "source_url": [
+      "https://www.ic3.gov/CSA/2026/261008.pdf"
+    ],
+    "article_published_date": [
+      "2026-10-08T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-09T13:10:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Newly disclosed and seized malware-delivery infrastructure retained for retrospective hunting.",
+    "sources": [
+      {
+        "organization": "FBI, CISA, NSA, and international partners",
+        "article_title": "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data",
+        "url": "https://www.ic3.gov/CSA/2026/261008.pdf",
+        "published_at": "2026-10-08T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-07T12:00:00Z",
+        "discovery_context": [
+          "The joint FBI and partner advisory identifies this seized lookalike domain as FishHub-linked malware-delivery infrastructure used by Integrity Technology Group actors."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "outlook3650.com",
+    "ioc_type": "domain",
+    "original_ioc": "outlook3650.com",
+    "hunt_ioc": "outlook3650.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Flax Typhoon Integrity Technology Group operations",
+    "malware_family": "FishHub malware delivery",
+    "threat_actor": "Flax Typhoon",
+    "source_organization": [
+      "FBI, CISA, NSA, and international partners"
+    ],
+    "source_article": [
+      "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data"
+    ],
+    "source_url": [
+      "https://www.ic3.gov/CSA/2026/261008.pdf"
+    ],
+    "article_published_date": [
+      "2026-10-08T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-09T13:10:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Newly disclosed and seized malware-delivery infrastructure retained for retrospective hunting.",
+    "sources": [
+      {
+        "organization": "FBI, CISA, NSA, and international partners",
+        "article_title": "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data",
+        "url": "https://www.ic3.gov/CSA/2026/261008.pdf",
+        "published_at": "2026-10-08T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-07T12:00:00Z",
+        "discovery_context": [
+          "The joint FBI and partner advisory identifies this seized lookalike domain as FishHub-linked malware-delivery infrastructure used by Integrity Technology Group actors."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "youtubecard.com",
+    "ioc_type": "domain",
+    "original_ioc": "youtubecard.com",
+    "hunt_ioc": "youtubecard.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Flax Typhoon Integrity Technology Group operations",
+    "malware_family": "FishHub malware delivery",
+    "threat_actor": "Flax Typhoon",
+    "source_organization": [
+      "FBI, CISA, NSA, and international partners"
+    ],
+    "source_article": [
+      "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data"
+    ],
+    "source_url": [
+      "https://www.ic3.gov/CSA/2026/261008.pdf"
+    ],
+    "article_published_date": [
+      "2026-10-08T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-09T13:10:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Newly disclosed and seized malware-delivery infrastructure retained for retrospective hunting.",
+    "sources": [
+      {
+        "organization": "FBI, CISA, NSA, and international partners",
+        "article_title": "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data",
+        "url": "https://www.ic3.gov/CSA/2026/261008.pdf",
+        "published_at": "2026-10-08T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-07T12:00:00Z",
+        "discovery_context": [
+          "The joint FBI and partner advisory identifies this seized domain as FishHub-linked malware-delivery infrastructure used by Integrity Technology Group actors."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "156.247.40.74",
+    "ioc_type": "ipv4",
+    "original_ioc": "156.247.40.74",
+    "hunt_ioc": "156.247.40.74",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current ValleyRAT malware activity",
+    "malware_family": "ValleyRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample b426e063f6e7 - ValleyRAT sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/b426e063f6e71de0d8c7bd6b1ed9c342e3aed4e16ff9d0b50154c67b899f8541/"
+    ],
+    "article_published_date": [
+      "2026-10-09T02:40:16Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-09T13:10:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact public C2 address; the port is preserved in source context while the IOC is normalized to IPv4 for hunting.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample b426e063f6e7 - ValleyRAT sample",
+        "url": "https://bazaar.abuse.ch/sample/b426e063f6e71de0d8c7bd6b1ed9c342e3aed4e16ff9d0b50154c67b899f8541/",
+        "published_at": "2026-10-09T02:40:16Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-07T12:00:00Z",
+        "discovery_context": [
+          "The current ValleyRAT MalwareBazaar record links this public IP and port to the sample as command-and-control infrastructure through its individual threat-intelligence record."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "50a4d7e4a0bf740b125e44b4260c1afe0e73690890799e85960f39bdc27d6665",
+    "ioc_type": "sha256",
+    "original_ioc": "50a4d7e4a0bf740b125e44b4260c1afe0e73690890799e85960f39bdc27d6665",
+    "hunt_ioc": "50a4d7e4a0bf740b125e44b4260c1afe0e73690890799e85960f39bdc27d6665",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current Mirai malware activity",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 50a4d7e4a0bf - Mirai sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/50a4d7e4a0bf740b125e44b4260c1afe0e73690890799e85960f39bdc27d6665/"
+    ],
+    "article_published_date": [
+      "2026-10-09T06:33:44Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-09T13:10:00Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Current metadata-rich individual malware sample record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 50a4d7e4a0bf - Mirai sample",
+        "url": "https://bazaar.abuse.ch/sample/50a4d7e4a0bf740b125e44b4260c1afe0e73690890799e85960f39bdc27d6665/",
+        "published_at": "2026-10-09T06:33:44Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-07T12:00:00Z",
+        "discovery_context": [
+          "The current MalwareBazaar record identifies this exact SHA256 as a Mirai ELF malware sample with multiple vendor detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b077215af833ac80e92a57f8ab2613217e87f7f7aa9ed16ce9497f08de54d5f0",
+    "ioc_type": "sha256",
+    "original_ioc": "b077215af833ac80e92a57f8ab2613217e87f7f7aa9ed16ce9497f08de54d5f0",
+    "hunt_ioc": "b077215af833ac80e92a57f8ab2613217e87f7f7aa9ed16ce9497f08de54d5f0",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current AsyncRAT malware activity",
+    "malware_family": "AsyncRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample b077215af833 - AsyncRAT sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/b077215af833ac80e92a57f8ab2613217e87f7f7aa9ed16ce9497f08de54d5f0/"
+    ],
+    "article_published_date": [
+      "2026-10-09T00:48:20Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-09T13:10:00Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Current metadata-rich individual malware sample record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample b077215af833 - AsyncRAT sample",
+        "url": "https://bazaar.abuse.ch/sample/b077215af833ac80e92a57f8ab2613217e87f7f7aa9ed16ce9497f08de54d5f0/",
+        "published_at": "2026-10-09T00:48:20Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-07T12:00:00Z",
+        "discovery_context": [
+          "The current MalwareBazaar record identifies this exact JavaScript SHA256 as an AsyncRAT and XWorm-associated malware sample with multiple vendor detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b426e063f6e71de0d8c7bd6b1ed9c342e3aed4e16ff9d0b50154c67b899f8541",
+    "ioc_type": "sha256",
+    "original_ioc": "b426e063f6e71de0d8c7bd6b1ed9c342e3aed4e16ff9d0b50154c67b899f8541",
+    "hunt_ioc": "b426e063f6e71de0d8c7bd6b1ed9c342e3aed4e16ff9d0b50154c67b899f8541",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current ValleyRAT malware activity",
+    "malware_family": "ValleyRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample b426e063f6e7 - ValleyRAT sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/b426e063f6e71de0d8c7bd6b1ed9c342e3aed4e16ff9d0b50154c67b899f8541/"
+    ],
+    "article_published_date": [
+      "2026-10-09T02:40:16Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-09T13:10:00Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Current metadata-rich individual malware sample record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample b426e063f6e7 - ValleyRAT sample",
+        "url": "https://bazaar.abuse.ch/sample/b426e063f6e71de0d8c7bd6b1ed9c342e3aed4e16ff9d0b50154c67b899f8541/",
+        "published_at": "2026-10-09T02:40:16Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-07T12:00:00Z",
+        "discovery_context": [
+          "The current MalwareBazaar record identifies this exact SHA256 as a ValleyRAT sample with fifteen vendor detections and associated threat intelligence."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://www.ads-meetta.icu/",
+    "ioc_type": "url",
+    "original_ioc": "http://www.ads-meetta.icu/",
+    "hunt_ioc": "www.ads-meetta.icu",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current credential-phishing activity",
+    "malware_family": "Credential phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OpenPhish via urlscan.io"
+    ],
+    "source_article": [
+      "OpenPhish public record - Meta-themed credential-phishing URL"
+    ],
+    "source_url": [
+      "https://urlscan.io/result/01a120c2-19b7-7039-af0a-3e8cb59833fa/"
+    ],
+    "article_published_date": [
+      "2026-10-09T13:03:09Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-09T13:10:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Exact malicious URL retained for documentation; hunting normalizes it to the validated host.",
+    "sources": [
+      {
+        "organization": "OpenPhish via urlscan.io",
+        "article_title": "OpenPhish public record - Meta-themed credential-phishing URL",
+        "url": "https://urlscan.io/result/01a120c2-19b7-7039-af0a-3e8cb59833fa/",
+        "published_at": "2026-10-09T13:03:09Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-07T12:00:00Z",
+        "discovery_context": [
+          "OpenPhish submitted this exact public URL as a current Meta-themed credential-phishing indicator in public urlscan metadata."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://agrafund.qpon/lighthouse/",
+    "ioc_type": "url",
+    "original_ioc": "https://agrafund.qpon/lighthouse/",
+    "hunt_ioc": "agrafund.qpon",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current credential-phishing activity",
+    "malware_family": "Credential phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OpenPhish via urlscan.io"
+    ],
+    "source_article": [
+      "OpenPhish public record - credential-phishing URL on agrafund.qpon"
+    ],
+    "source_url": [
+      "https://urlscan.io/result/01a120c2-8772-747f-8be9-b8727dfbcb1c/"
+    ],
+    "article_published_date": [
+      "2026-10-09T13:03:10Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-09T13:10:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Exact malicious URL retained for documentation; hunting normalizes it to the validated host.",
+    "sources": [
+      {
+        "organization": "OpenPhish via urlscan.io",
+        "article_title": "OpenPhish public record - credential-phishing URL on agrafund.qpon",
+        "url": "https://urlscan.io/result/01a120c2-8772-747f-8be9-b8727dfbcb1c/",
+        "published_at": "2026-10-09T13:03:10Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-07T12:00:00Z",
+        "discovery_context": [
+          "OpenPhish submitted this exact public URL as a current credential-phishing indicator in public urlscan metadata."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://lo-ja-ma-galu-store.com/",
+    "ioc_type": "url",
+    "original_ioc": "https://lo-ja-ma-galu-store.com/",
+    "hunt_ioc": "lo-ja-ma-galu-store.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current credential-phishing activity",
+    "malware_family": "Credential phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OpenPhish via urlscan.io"
+    ],
+    "source_article": [
+      "OpenPhish public record - retail credential-phishing URL"
+    ],
+    "source_url": [
+      "https://urlscan.io/result/01a120c2-3b14-774d-81b7-8e8e4943d1ee/"
+    ],
+    "article_published_date": [
+      "2026-10-09T13:02:59Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-09T13:10:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Exact malicious URL retained for documentation; hunting normalizes it to the validated host.",
+    "sources": [
+      {
+        "organization": "OpenPhish via urlscan.io",
+        "article_title": "OpenPhish public record - retail credential-phishing URL",
+        "url": "https://urlscan.io/result/01a120c2-3b14-774d-81b7-8e8e4943d1ee/",
+        "published_at": "2026-10-09T13:02:59Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-07T12:00:00Z",
+        "discovery_context": [
+          "OpenPhish submitted this exact public URL as a current retail-themed credential-phishing indicator in public urlscan metadata."
+        ]
+      }
+    ]
+  }
+]
