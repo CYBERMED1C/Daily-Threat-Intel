@@ -1,0 +1,11 @@
+/* Query name: CYBERMEDIC Daily IOC Hunt */
+/* Description: Search 30-day Elastic Defend telemetry for validated IOC values. */
+/* Author: CYBERMEDIC */
+/* Last updated: 2026-10-10 */
+/* Notes: One runnable query; exact IOC filters precede newest-first results. */
+FROM logs-endpoint.events.*
+| WHERE @timestamp >= NOW() - 30 DAYS
+| WHERE destination.domain IN ("roblox.et","robloxr.com.es","wvwv-apple.com") OR destination.ip IN ("103.149.91.234","193.32.204.199","217.60.102.185") OR file.hash.sha256 IN ("abb018512ef40ba5e9aca1ca6fccc4572de60eb23fc79ba798cdc549f63ac27b")
+| KEEP @timestamp,host.name,process.name,file.name,file.path,destination.ip,destination.port,destination.domain,file.hash.md5,file.hash.sha1,file.hash.sha256
+| SORT @timestamp DESC
+| LIMIT 500

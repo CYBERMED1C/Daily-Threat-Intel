@@ -1,0 +1,331 @@
+[
+  {
+    "ioc": "103.149.91.234",
+    "ioc_type": "ipv4",
+    "original_ioc": "103.149.91.234",
+    "hunt_ioc": "103.149.91.234",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current AdaptixC2 activity",
+    "malware_family": "AdaptixC2",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1958270 - AdaptixC2 infrastructure"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1958270/"
+    ],
+    "article_published_date": [
+      "2026-10-09T09:43:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-10T13:10:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "The port is preserved in source context while the IOC is normalized to IPv4 for supported hunting.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1958270 - AdaptixC2 infrastructure",
+        "url": "https://threatfox.abuse.ch/ioc/1958270/",
+        "published_at": "2026-10-09T09:43:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-08T08:00:00Z",
+        "discovery_context": [
+          "The current individual ThreatFox record identifies this public IP on port 32081 as AdaptixC2 command-and-control infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "193.32.204.199",
+    "ioc_type": "ipv4",
+    "original_ioc": "193.32.204.199",
+    "hunt_ioc": "193.32.204.199",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "GhostAction GitHub Actions credential theft",
+    "malware_family": "Malicious GitHub Actions workflow",
+    "threat_actor": "GhostAction operators",
+    "source_organization": [
+      "Socket Research"
+    ],
+    "source_article": [
+      "New GhostAction Wave Hits Hundreds of Repos, Expanding Beyond CI/CD Secrets to Cloud Credentials"
+    ],
+    "source_url": [
+      "https://socket.dev/blog/ghostaction-cloud-credentials"
+    ],
+    "article_published_date": [
+      "2026-10-09T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-10T13:10:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current original research; workflow remained present and had executed successfully when Socket checked on October 9.",
+    "sources": [
+      {
+        "organization": "Socket Research",
+        "article_title": "New GhostAction Wave Hits Hundreds of Repos, Expanding Beyond CI/CD Secrets to Cloud Credentials",
+        "url": "https://socket.dev/blog/ghostaction-cloud-credentials",
+        "published_at": "2026-10-09T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-08T08:00:00Z",
+        "discovery_context": [
+          "Socket observed a malicious security-audit GitHub Actions workflow exfiltrating repository, cloud-provider, and AI-service credentials in cleartext to this hardcoded public IP across hundreds of compromised repositories."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "217.60.102.185",
+    "ioc_type": "ipv4",
+    "original_ioc": "217.60.102.185",
+    "hunt_ioc": "217.60.102.185",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Vidar botnet activity",
+    "malware_family": "Vidar",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1959913 - Vidar botnet C2"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1959913/"
+    ],
+    "article_published_date": [
+      "2026-10-10T09:45:22Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-10T13:10:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "The source URL indicator was normalized to its public IPv4 host for supported hunting.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1959913 - Vidar botnet C2",
+        "url": "https://threatfox.abuse.ch/ioc/1959913/",
+        "published_at": "2026-10-10T09:45:22Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-08T08:00:00Z",
+        "discovery_context": [
+          "The current individual ThreatFox record identifies an HTTPS URL on this public IP as Vidar botnet command-and-control infrastructure with 100 percent confidence."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "abb018512ef40ba5e9aca1ca6fccc4572de60eb23fc79ba798cdc549f63ac27b",
+    "ioc_type": "sha256",
+    "original_ioc": "abb018512ef40ba5e9aca1ca6fccc4572de60eb23fc79ba798cdc549f63ac27b",
+    "hunt_ioc": "abb018512ef40ba5e9aca1ca6fccc4572de60eb23fc79ba798cdc549f63ac27b",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current Mirai Katana malware activity",
+    "malware_family": "Mirai/Katana",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1959789 - Mirai Katana sample"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1959789/"
+    ],
+    "article_published_date": [
+      "2026-10-10T06:12:31Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-10T13:10:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Current metadata-rich individual malicious sample record.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1959789 - Mirai Katana sample",
+        "url": "https://threatfox.abuse.ch/ioc/1959789/",
+        "published_at": "2026-10-10T06:12:31Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-08T08:00:00Z",
+        "discovery_context": [
+          "The current individual ThreatFox record identifies this exact SHA256 as a Mirai Katana malware payload and reports that it was reverified at submission time."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://wvwv-apple.com/?i=6uf",
+    "ioc_type": "url",
+    "original_ioc": "http://wvwv-apple.com/?i=6uf",
+    "hunt_ioc": "wvwv-apple.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current credential-phishing activity",
+    "malware_family": "Credential phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OpenPhish via urlscan.io"
+    ],
+    "source_article": [
+      "OpenPhish public record - Apple-themed credential-phishing URL"
+    ],
+    "source_url": [
+      "https://urlscan.io/result/01a125e8-2b1f-762a-bdab-e794146057ec/"
+    ],
+    "article_published_date": [
+      "2026-10-10T13:02:21Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-10T13:10:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Exact malicious URL retained for documentation; hunting normalizes it to the validated host.",
+    "sources": [
+      {
+        "organization": "OpenPhish via urlscan.io",
+        "article_title": "OpenPhish public record - Apple-themed credential-phishing URL",
+        "url": "https://urlscan.io/result/01a125e8-2b1f-762a-bdab-e794146057ec/",
+        "published_at": "2026-10-10T13:02:21Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-08T08:00:00Z",
+        "discovery_context": [
+          "OpenPhish submitted this exact public Apple-themed lookalike URL as a current phishing indicator in public urlscan metadata."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://roblox.et/users/5366341830/profile",
+    "ioc_type": "url",
+    "original_ioc": "https://roblox.et/users/5366341830/profile",
+    "hunt_ioc": "roblox.et",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current credential-phishing activity",
+    "malware_family": "Credential phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OpenPhish via urlscan.io"
+    ],
+    "source_article": [
+      "OpenPhish public record - Roblox credential-phishing URL on roblox.et"
+    ],
+    "source_url": [
+      "https://urlscan.io/result/01a125e8-190b-762e-a75c-3a9ac081531c/"
+    ],
+    "article_published_date": [
+      "2026-10-10T13:02:21Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-10T13:10:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Exact malicious URL retained for documentation; hunting normalizes it to the validated host.",
+    "sources": [
+      {
+        "organization": "OpenPhish via urlscan.io",
+        "article_title": "OpenPhish public record - Roblox credential-phishing URL on roblox.et",
+        "url": "https://urlscan.io/result/01a125e8-190b-762e-a75c-3a9ac081531c/",
+        "published_at": "2026-10-10T13:02:21Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-08T08:00:00Z",
+        "discovery_context": [
+          "OpenPhish submitted this exact public Roblox-themed URL as a current phishing indicator in public urlscan metadata."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://robloxr.com.es/users/2105745920/profile",
+    "ioc_type": "url",
+    "original_ioc": "https://robloxr.com.es/users/2105745920/profile",
+    "hunt_ioc": "robloxr.com.es",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current credential-phishing activity",
+    "malware_family": "Credential phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OpenPhish via urlscan.io"
+    ],
+    "source_article": [
+      "OpenPhish public record - Roblox credential-phishing URL on robloxr.com.es"
+    ],
+    "source_url": [
+      "https://urlscan.io/result/01a125e7-fc22-744b-8da9-0d855a25aff6/"
+    ],
+    "article_published_date": [
+      "2026-10-10T13:02:11Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-10T13:10:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Exact malicious URL retained for documentation; hunting normalizes it to the validated host.",
+    "sources": [
+      {
+        "organization": "OpenPhish via urlscan.io",
+        "article_title": "OpenPhish public record - Roblox credential-phishing URL on robloxr.com.es",
+        "url": "https://urlscan.io/result/01a125e7-fc22-744b-8da9-0d855a25aff6/",
+        "published_at": "2026-10-10T13:02:11Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-08T08:00:00Z",
+        "discovery_context": [
+          "OpenPhish submitted this exact public Roblox-themed lookalike URL as a current phishing indicator in public urlscan metadata."
+        ]
+      }
+    ]
+  }
+]
