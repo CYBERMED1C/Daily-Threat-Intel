@@ -1,0 +1,660 @@
+[
+  {
+    "ioc": "claude-desk-code.com",
+    "ioc_type": "domain",
+    "original_ioc": "claude-desk-code.com",
+    "hunt_ioc": "claude-desk-code.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Adception fake Claude installer malvertising",
+    "malware_family": "ClickFix/InstallFix delivery",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Push Security"
+    ],
+    "source_article": [
+      "Adception: malvertising another search engine's search results to redirect to a malicious page"
+    ],
+    "source_url": [
+      "https://pushsecurity.com/blog/adception-malvertising-another-search-engines-search-results"
+    ],
+    "article_published_date": [
+      "2026-10-09T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-11T13:10:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Original technical research with direct observation of the malicious browser chain.",
+    "sources": [
+      {
+        "organization": "Push Security",
+        "article_title": "Adception: malvertising another search engine's search results to redirect to a malicious page",
+        "url": "https://pushsecurity.com/blog/adception-malvertising-another-search-engines-search-results",
+        "published_at": "2026-10-09T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-09T08:00:00Z",
+        "discovery_context": [
+          "Push Security lists this attacker-controlled domain in the original Adception IOC appendix as a fake Claude lure and delivery site reached through Google advertising, a Bing redirect, and layered cloaking."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "cli-desktop.com",
+    "ioc_type": "domain",
+    "original_ioc": "cli-desktop.com",
+    "hunt_ioc": "cli-desktop.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Adception fake Claude installer malvertising",
+    "malware_family": "ClickFix/InstallFix delivery",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Push Security"
+    ],
+    "source_article": [
+      "Adception: malvertising another search engine's search results to redirect to a malicious page"
+    ],
+    "source_url": [
+      "https://pushsecurity.com/blog/adception-malvertising-another-search-engines-search-results"
+    ],
+    "article_published_date": [
+      "2026-10-09T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-11T13:10:00Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Attacker-controlled lure infrastructure.",
+    "sources": [
+      {
+        "organization": "Push Security",
+        "article_title": "Adception: malvertising another search engine's search results to redirect to a malicious page",
+        "url": "https://pushsecurity.com/blog/adception-malvertising-another-search-engines-search-results",
+        "published_at": "2026-10-09T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-09T08:00:00Z",
+        "discovery_context": [
+          "Push Security lists this domain in the original Adception IOC appendix as lure and delivery infrastructure using the same criminal ClickFix toolkit."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "fairpoint29.com",
+    "ioc_type": "domain",
+    "original_ioc": "fairpoint29.com",
+    "hunt_ioc": "fairpoint29.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Adception fake Claude installer malvertising",
+    "malware_family": "ClickFix/InstallFix delivery",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Push Security"
+    ],
+    "source_article": [
+      "Adception: malvertising another search engine's search results to redirect to a malicious page"
+    ],
+    "source_url": [
+      "https://pushsecurity.com/blog/adception-malvertising-another-search-engines-search-results"
+    ],
+    "article_published_date": [
+      "2026-10-09T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-11T13:10:00Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Attacker-controlled lure infrastructure.",
+    "sources": [
+      {
+        "organization": "Push Security",
+        "article_title": "Adception: malvertising another search engine's search results to redirect to a malicious page",
+        "url": "https://pushsecurity.com/blog/adception-malvertising-another-search-engines-search-results",
+        "published_at": "2026-10-09T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-09T08:00:00Z",
+        "discovery_context": [
+          "Push Security lists this domain in the original Adception IOC appendix as lure and delivery infrastructure using the same criminal ClickFix toolkit."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "fine-byte2.com",
+    "ioc_type": "domain",
+    "original_ioc": "fine-byte2.com",
+    "hunt_ioc": "fine-byte2.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Adception fake Claude installer malvertising",
+    "malware_family": "ClickFix/InstallFix delivery",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Push Security"
+    ],
+    "source_article": [
+      "Adception: malvertising another search engine's search results to redirect to a malicious page"
+    ],
+    "source_url": [
+      "https://pushsecurity.com/blog/adception-malvertising-another-search-engines-search-results"
+    ],
+    "article_published_date": [
+      "2026-10-09T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-11T13:10:00Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Attacker-controlled lure infrastructure.",
+    "sources": [
+      {
+        "organization": "Push Security",
+        "article_title": "Adception: malvertising another search engine's search results to redirect to a malicious page",
+        "url": "https://pushsecurity.com/blog/adception-malvertising-another-search-engines-search-results",
+        "published_at": "2026-10-09T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-09T08:00:00Z",
+        "discovery_context": [
+          "Push Security lists this domain in the original Adception IOC appendix as lure and delivery infrastructure using the same criminal ClickFix toolkit."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "lake-90.com",
+    "ioc_type": "domain",
+    "original_ioc": "lake-90.com",
+    "hunt_ioc": "lake-90.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Adception fake Claude installer malvertising",
+    "malware_family": "ClickFix/InstallFix payload delivery",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Push Security"
+    ],
+    "source_article": [
+      "Adception: malvertising another search engine's search results to redirect to a malicious page"
+    ],
+    "source_url": [
+      "https://pushsecurity.com/blog/adception-malvertising-another-search-engines-search-results"
+    ],
+    "article_published_date": [
+      "2026-10-09T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-11T13:10:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Directly observed payload-delivery host.",
+    "sources": [
+      {
+        "organization": "Push Security",
+        "article_title": "Adception: malvertising another search engine's search results to redirect to a malicious page",
+        "url": "https://pushsecurity.com/blog/adception-malvertising-another-search-engines-search-results",
+        "published_at": "2026-10-09T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-09T08:00:00Z",
+        "discovery_context": [
+          "Push Security observed the ClickFix command decoding a hidden URL on this domain and piping the downloaded payload script into the macOS zsh shell; the domain is also listed as payload infrastructure in the original IOC appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "rapid-craft567.com",
+    "ioc_type": "domain",
+    "original_ioc": "rapid-craft567.com",
+    "hunt_ioc": "rapid-craft567.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Adception fake Claude installer malvertising",
+    "malware_family": "ClickFix/InstallFix delivery",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Push Security"
+    ],
+    "source_article": [
+      "Adception: malvertising another search engine's search results to redirect to a malicious page"
+    ],
+    "source_url": [
+      "https://pushsecurity.com/blog/adception-malvertising-another-search-engines-search-results"
+    ],
+    "article_published_date": [
+      "2026-10-09T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-11T13:10:00Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Attacker-controlled lure infrastructure; shared-hosting entries were excluded.",
+    "sources": [
+      {
+        "organization": "Push Security",
+        "article_title": "Adception: malvertising another search engine's search results to redirect to a malicious page",
+        "url": "https://pushsecurity.com/blog/adception-malvertising-another-search-engines-search-results",
+        "published_at": "2026-10-09T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-09T08:00:00Z",
+        "discovery_context": [
+          "Push Security lists this domain in the original Adception IOC appendix as lure and delivery infrastructure using the same criminal ClickFix toolkit."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "turbowave45.com",
+    "ioc_type": "domain",
+    "original_ioc": "turbowave45.com",
+    "hunt_ioc": "turbowave45.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Adception fake Claude installer malvertising",
+    "malware_family": "ClickFix/InstallFix delivery",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Push Security"
+    ],
+    "source_article": [
+      "Adception: malvertising another search engine's search results to redirect to a malicious page"
+    ],
+    "source_url": [
+      "https://pushsecurity.com/blog/adception-malvertising-another-search-engines-search-results"
+    ],
+    "article_published_date": [
+      "2026-10-09T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-11T13:10:00Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Attacker-controlled lure infrastructure.",
+    "sources": [
+      {
+        "organization": "Push Security",
+        "article_title": "Adception: malvertising another search engine's search results to redirect to a malicious page",
+        "url": "https://pushsecurity.com/blog/adception-malvertising-another-search-engines-search-results",
+        "published_at": "2026-10-09T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-09T08:00:00Z",
+        "discovery_context": [
+          "Push Security lists this domain in the original Adception IOC appendix as lure and delivery infrastructure using the same criminal ClickFix toolkit."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "101.35.247.212",
+    "ioc_type": "ipv4",
+    "original_ioc": "101.35.247.212",
+    "hunt_ioc": "101.35.247.212",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Cobalt Strike infrastructure",
+    "malware_family": "Cobalt Strike Beacon",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1960645 - Cobalt Strike command-and-control"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1960645/"
+    ],
+    "article_published_date": [
+      "2026-10-11T12:05:04Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-11T13:10:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Port retained in source context; IOC normalized to IPv4 for hunting.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1960645 - Cobalt Strike command-and-control",
+        "url": "https://threatfox.abuse.ch/ioc/1960645/",
+        "published_at": "2026-10-11T12:05:04Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-09T08:00:00Z",
+        "discovery_context": [
+          "The current individual ThreatFox record identifies this public IP on port 8083 as compromised Cobalt Strike botnet command-and-control infrastructure with 100 percent confidence."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "146.190.106.155",
+    "ioc_type": "ipv4",
+    "original_ioc": "146.190.106.155",
+    "hunt_ioc": "146.190.106.155",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current AsyncRAT activity",
+    "malware_family": "AsyncRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1960609 - AsyncRAT command-and-control"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1960609/"
+    ],
+    "article_published_date": [
+      "2026-10-11T10:05:04Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-11T13:10:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Port retained in source context; IOC normalized to IPv4 for hunting.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1960609 - AsyncRAT command-and-control",
+        "url": "https://threatfox.abuse.ch/ioc/1960609/",
+        "published_at": "2026-10-11T10:05:04Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-09T08:00:00Z",
+        "discovery_context": [
+          "The current individual ThreatFox record identifies this public IP on port 6606 as compromised AsyncRAT botnet command-and-control infrastructure with 100 percent confidence."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "20.111.19.203",
+    "ioc_type": "ipv4",
+    "original_ioc": "20.111.19.203",
+    "hunt_ioc": "20.111.19.203",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current AdaptixC2 activity",
+    "malware_family": "AdaptixC2",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1960627 - AdaptixC2 command-and-control"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1960627/"
+    ],
+    "article_published_date": [
+      "2026-10-11T11:05:05Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-11T13:10:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Port retained in source context; IOC normalized to IPv4 for hunting.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1960627 - AdaptixC2 command-and-control",
+        "url": "https://threatfox.abuse.ch/ioc/1960627/",
+        "published_at": "2026-10-11T11:05:05Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-09T08:00:00Z",
+        "discovery_context": [
+          "The current individual ThreatFox record identifies this public IP on port 8080 as compromised AdaptixC2 botnet command-and-control infrastructure with 100 percent confidence."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "10c32c43ffe6a500840cc577c56b8107efb9c23c5a9c7c2cbf00a84894328ae6",
+    "ioc_type": "sha256",
+    "original_ioc": "10c32c43ffe6a500840cc577c56b8107efb9c23c5a9c7c2cbf00a84894328ae6",
+    "hunt_ioc": "10c32c43ffe6a500840cc577c56b8107efb9c23c5a9c7c2cbf00a84894328ae6",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current Mirai malware activity",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 10c32c43ffe6 - Mirai sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/10c32c43ffe6a500840cc577c56b8107efb9c23c5a9c7c2cbf00a84894328ae6/"
+    ],
+    "article_published_date": [
+      "2026-10-11T01:05:40Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-11T13:10:00Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Current metadata-rich individual malware sample record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 10c32c43ffe6 - Mirai sample",
+        "url": "https://bazaar.abuse.ch/sample/10c32c43ffe6a500840cc577c56b8107efb9c23c5a9c7c2cbf00a84894328ae6/",
+        "published_at": "2026-10-11T01:05:40Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-09T08:00:00Z",
+        "discovery_context": [
+          "The current individual MalwareBazaar record identifies this exact SHA256 as a Mirai ELF sample with a named Mirai signature, ten vendor detections, and matching YARA intelligence."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "81da78f52b2a92eb67e5490d8b296be00f3a253c71850b267138949ce2d50f73",
+    "ioc_type": "sha256",
+    "original_ioc": "81da78f52b2a92eb67e5490d8b296be00f3a253c71850b267138949ce2d50f73",
+    "hunt_ioc": "81da78f52b2a92eb67e5490d8b296be00f3a253c71850b267138949ce2d50f73",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current Mirai malware activity",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 81da78f52b2a - Mirai sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/81da78f52b2a92eb67e5490d8b296be00f3a253c71850b267138949ce2d50f73/"
+    ],
+    "article_published_date": [
+      "2026-10-11T01:26:17Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-11T13:10:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current metadata-rich individual malware sample record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 81da78f52b2a - Mirai sample",
+        "url": "https://bazaar.abuse.ch/sample/81da78f52b2a92eb67e5490d8b296be00f3a253c71850b267138949ce2d50f73/",
+        "published_at": "2026-10-11T01:26:17Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-09T08:00:00Z",
+        "discovery_context": [
+          "The current individual MalwareBazaar record identifies this exact SHA256 as a Mirai ELF sample with a named Mirai signature, multiple vendor detections, and matching YARA intelligence."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://magaz-ine-lu-iza.com/pedido-confirmado?method=pix&ref=806-d676f465f6c9&invoice=272967",
+    "ioc_type": "url",
+    "original_ioc": "https://magaz-ine-lu-iza.com/pedido-confirmado?method=pix&ref=806-d676f465f6c9&invoice=272967",
+    "hunt_ioc": "magaz-ine-lu-iza.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current credential-phishing activity",
+    "malware_family": "Credential phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OpenPhish via urlscan.io"
+    ],
+    "source_article": [
+      "OpenPhish public record - Magazine Luiza-themed credential-phishing URL"
+    ],
+    "source_url": [
+      "https://urlscan.io/result/01a12b0d-acc6-7506-ba53-594e06d444ee/"
+    ],
+    "article_published_date": [
+      "2026-10-11T13:01:28Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-11T13:10:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Exact malicious URL retained for documentation; hunting normalizes it to the validated host.",
+    "sources": [
+      {
+        "organization": "OpenPhish via urlscan.io",
+        "article_title": "OpenPhish public record - Magazine Luiza-themed credential-phishing URL",
+        "url": "https://urlscan.io/result/01a12b0d-acc6-7506-ba53-594e06d444ee/",
+        "published_at": "2026-10-11T13:01:28Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-09T08:00:00Z",
+        "discovery_context": [
+          "OpenPhish submitted this exact public Magazine Luiza-themed lookalike URL as a current phishing indicator in public urlscan metadata."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://trfnf2.go.watchs.vip/",
+    "ioc_type": "url",
+    "original_ioc": "https://trfnf2.go.watchs.vip/",
+    "hunt_ioc": "trfnf2.go.watchs.vip",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current credential-phishing activity",
+    "malware_family": "Credential phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OpenPhish via urlscan.io"
+    ],
+    "source_article": [
+      "OpenPhish public record - credential-phishing URL on go.watchs.vip"
+    ],
+    "source_url": [
+      "https://urlscan.io/result/01a12b0e-02e0-771d-a80f-308d183d7ec6/"
+    ],
+    "article_published_date": [
+      "2026-10-11T13:01:46Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-11T13:10:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Exact malicious URL retained for documentation; hunting normalizes it to the validated host.",
+    "sources": [
+      {
+        "organization": "OpenPhish via urlscan.io",
+        "article_title": "OpenPhish public record - credential-phishing URL on go.watchs.vip",
+        "url": "https://urlscan.io/result/01a12b0e-02e0-771d-a80f-308d183d7ec6/",
+        "published_at": "2026-10-11T13:01:46Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-09T08:00:00Z",
+        "discovery_context": [
+          "OpenPhish submitted this exact public URL as a current phishing indicator in public urlscan metadata."
+        ]
+      }
+    ]
+  }
+]
