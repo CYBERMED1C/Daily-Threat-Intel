@@ -1,0 +1,378 @@
+[
+  {
+    "ioc": "46.38.138.50",
+    "ioc_type": "ipv4",
+    "original_ioc": "46.38.138.50",
+    "hunt_ioc": "46.38.138.50",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Sliver command-and-control activity",
+    "malware_family": "Sliver",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1961812 - Sliver command-and-control"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1961812/"
+    ],
+    "article_published_date": [
+      "2026-10-12T16:08:04Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-12T18:22:00Z",
+    "confidence": 80,
+    "acceptance_score": 80,
+    "status": "NEW",
+    "notes": "ThreatFox confidence is high at 80 percent; port is retained in source context while the IOC is normalized to IPv4 for hunting.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1961812 - Sliver command-and-control",
+        "url": "https://threatfox.abuse.ch/ioc/1961812/",
+        "published_at": "2026-10-12T16:08:04Z",
+        "updated_at": null,
+        "reliability": 0.8,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-10T08:00:00Z",
+        "discovery_context": [
+          "The current individual ThreatFox record identifies this public IP on port 31337 as Sliver botnet command-and-control infrastructure using the default Sliver mTLS certificate."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "dbc520ea1518748fec9fcfcf29755c30",
+    "ioc_type": "md5",
+    "original_ioc": "dbc520ea1518748fec9fcfcf29755c30",
+    "hunt_ioc": "dbc520ea1518748fec9fcfcf29755c30",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "Current malware telemetry digest",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Malware Patrol"
+    ],
+    "source_article": [
+      "Threat Trends Digest - September 2026"
+    ],
+    "source_url": [
+      "https://www.malwarepatrol.net/september-threat-trends-digest-2026/"
+    ],
+    "article_published_date": [
+      "2026-10-10T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-12T18:22:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "High-detection malware hash from the report's public IOC table; retained for the 30-day hunt window.",
+    "sources": [
+      {
+        "organization": "Malware Patrol",
+        "article_title": "Threat Trends Digest - September 2026",
+        "url": "https://www.malwarepatrol.net/september-threat-trends-digest-2026/",
+        "published_at": "2026-10-10T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-10T08:00:00Z",
+        "discovery_context": [
+          "Malware Patrol's current threat digest lists this exact MD5 as trojan.mirai/ddos with 45 of 62 vendor detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "eec5c6c219535fba3a0492ea8118b397",
+    "ioc_type": "md5",
+    "original_ioc": "eec5c6c219535fba3a0492ea8118b397",
+    "hunt_ioc": "eec5c6c219535fba3a0492ea8118b397",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "Current malware telemetry digest",
+    "malware_family": "Mirai/Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Malware Patrol"
+    ],
+    "source_article": [
+      "Threat Trends Digest - September 2026"
+    ],
+    "source_url": [
+      "https://www.malwarepatrol.net/september-threat-trends-digest-2026/"
+    ],
+    "article_published_date": [
+      "2026-10-10T08:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-12T18:22:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "High-detection malware hash from the report's public IOC table; retained for the 30-day hunt window.",
+    "sources": [
+      {
+        "organization": "Malware Patrol",
+        "article_title": "Threat Trends Digest - September 2026",
+        "url": "https://www.malwarepatrol.net/september-threat-trends-digest-2026/",
+        "published_at": "2026-10-10T08:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-10T08:00:00Z",
+        "discovery_context": [
+          "Malware Patrol's current threat digest lists this exact MD5 as trojan.mirai/mozi with 53 of 63 vendor detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "51ef4a7863a921980f5c3f3522449faaf851c5a6c3f1c12e8cf186ce593f6753",
+    "ioc_type": "sha256",
+    "original_ioc": "51ef4a7863a921980f5c3f3522449faaf851c5a6c3f1c12e8cf186ce593f6753",
+    "hunt_ioc": "51ef4a7863a921980f5c3f3522449faaf851c5a6c3f1c12e8cf186ce593f6753",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current remote-access trojan activity",
+    "malware_family": "NanoCore",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 51ef4a7863a9 - NanoCore sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/51ef4a7863a921980f5c3f3522449faaf851c5a6c3f1c12e8cf186ce593f6753/"
+    ],
+    "article_published_date": [
+      "2026-10-12T15:45:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-12T18:22:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current metadata-rich individual malware sample record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 51ef4a7863a9 - NanoCore sample",
+        "url": "https://bazaar.abuse.ch/sample/51ef4a7863a921980f5c3f3522449faaf851c5a6c3f1c12e8cf186ce593f6753/",
+        "published_at": "2026-10-12T15:45:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-10T08:00:00Z",
+        "discovery_context": [
+          "The current individual MalwareBazaar record identifies this exact SHA256 as a Windows executable with a NanoCore signature and NanoCore RAT tags."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "5ba16e04e5b0fbe173185b17b9a807895a6bdea7717db6b0cbec4ccea9907f51",
+    "ioc_type": "sha256",
+    "original_ioc": "5ba16e04e5b0fbe173185b17b9a807895a6bdea7717db6b0cbec4ccea9907f51",
+    "hunt_ioc": "5ba16e04e5b0fbe173185b17b9a807895a6bdea7717db6b0cbec4ccea9907f51",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current ClickFix-delivered macOS malware activity",
+    "malware_family": "AMOS",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 5ba16e04e5b0 - AMOS sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/5ba16e04e5b0fbe173185b17b9a807895a6bdea7717db6b0cbec4ccea9907f51/"
+    ],
+    "article_published_date": [
+      "2026-10-12T16:43:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-12T18:22:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current metadata-rich individual malware sample record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 5ba16e04e5b0 - AMOS sample",
+        "url": "https://bazaar.abuse.ch/sample/5ba16e04e5b0fbe173185b17b9a807895a6bdea7717db6b0cbec4ccea9907f51/",
+        "published_at": "2026-10-12T16:43:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-10T08:00:00Z",
+        "discovery_context": [
+          "The current individual MalwareBazaar record identifies this exact SHA256 as an AMOS Mach-O sample and tags it with AMOS, ClickFix, Foxveil, and macOS context."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://auspost.adqwr.com/",
+    "ioc_type": "url",
+    "original_ioc": "https://auspost.adqwr.com/",
+    "hunt_ioc": "auspost.adqwr.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current Australia Post-themed credential phishing",
+    "malware_family": "Credential phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OpenPhish via urlscan.io"
+    ],
+    "source_article": [
+      "OpenPhish public record - Australia Post-themed credential phishing URL"
+    ],
+    "source_url": [
+      "https://urlscan.io/result/01a13035-1ab5-73ca-aca9-32119048c483/"
+    ],
+    "article_published_date": [
+      "2026-10-12T13:02:35Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-12T18:22:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Exact malicious URL retained for documentation; hunting normalizes it to the deceptive public host.",
+    "sources": [
+      {
+        "organization": "OpenPhish via urlscan.io",
+        "article_title": "OpenPhish public record - Australia Post-themed credential phishing URL",
+        "url": "https://urlscan.io/result/01a13035-1ab5-73ca-aca9-32119048c483/",
+        "published_at": "2026-10-12T13:02:35Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-10T08:00:00Z",
+        "discovery_context": [
+          "OpenPhish submitted this exact public Australia Post-themed lookalike URL as a current phishing indicator in public urlscan metadata."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://securepaypalcard.com/",
+    "ioc_type": "url",
+    "original_ioc": "https://securepaypalcard.com/",
+    "hunt_ioc": "securepaypalcard.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current PayPal-themed credential phishing",
+    "malware_family": "Credential phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OpenPhish via urlscan.io"
+    ],
+    "source_article": [
+      "OpenPhish public record - PayPal-themed credential phishing URL"
+    ],
+    "source_url": [
+      "https://urlscan.io/result/01a13035-c30a-75e2-a0f6-e161ab197f74/"
+    ],
+    "article_published_date": [
+      "2026-10-12T13:03:18Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-12T18:22:00Z",
+    "confidence": 93,
+    "acceptance_score": 93,
+    "status": "NEW",
+    "notes": "Exact malicious URL retained for documentation; hunting normalizes it to its validated attacker-controlled host.",
+    "sources": [
+      {
+        "organization": "OpenPhish via urlscan.io",
+        "article_title": "OpenPhish public record - PayPal-themed credential phishing URL",
+        "url": "https://urlscan.io/result/01a13035-c30a-75e2-a0f6-e161ab197f74/",
+        "published_at": "2026-10-12T13:03:18Z",
+        "updated_at": null,
+        "reliability": 0.93,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-10T08:00:00Z",
+        "discovery_context": [
+          "OpenPhish submitted this exact public brand-impersonation URL as a current phishing indicator in public urlscan metadata."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://www.roblox.com.mu/users/6564148690/profile",
+    "ioc_type": "url",
+    "original_ioc": "https://www.roblox.com.mu/users/6564148690/profile",
+    "hunt_ioc": "www.roblox.com.mu",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current Roblox-themed credential phishing",
+    "malware_family": "Credential phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OpenPhish via urlscan.io"
+    ],
+    "source_article": [
+      "OpenPhish public record - Roblox-themed credential phishing URL"
+    ],
+    "source_url": [
+      "https://urlscan.io/result/01a13034-b6ba-71c8-b34f-2cbf870148a8/"
+    ],
+    "article_published_date": [
+      "2026-10-12T13:02:16Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-12T18:22:00Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Exact malicious URL retained for documentation; hunting normalizes it to the deceptive public host.",
+    "sources": [
+      {
+        "organization": "OpenPhish via urlscan.io",
+        "article_title": "OpenPhish public record - Roblox-themed credential phishing URL",
+        "url": "https://urlscan.io/result/01a13034-b6ba-71c8-b34f-2cbf870148a8/",
+        "published_at": "2026-10-12T13:02:16Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-10T08:00:00Z",
+        "discovery_context": [
+          "OpenPhish submitted this exact public Roblox lookalike URL as a current phishing indicator in public urlscan metadata."
+        ]
+      }
+    ]
+  }
+]
