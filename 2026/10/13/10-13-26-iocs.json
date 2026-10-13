@@ -1,0 +1,331 @@
+[
+  {
+    "ioc": "155.103.71.231",
+    "ioc_type": "ipv4",
+    "original_ioc": "155.103.71.231",
+    "hunt_ioc": "155.103.71.231",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Remcos command-and-control activity",
+    "malware_family": "Remcos",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1963089 - Remcos command-and-control"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1963089/"
+    ],
+    "article_published_date": [
+      "2026-10-13T11:12:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-13T13:18:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Port is retained in source context while the IOC is normalized to IPv4 for hunting.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1963089 - Remcos command-and-control",
+        "url": "https://threatfox.abuse.ch/ioc/1963089/",
+        "published_at": "2026-10-13T11:12:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-11T13:00:00Z",
+        "discovery_context": [
+          "The current individual ThreatFox record identifies this public IP on port 4039 as Remcos command-and-control infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "64.89.160.185",
+    "ioc_type": "ipv4",
+    "original_ioc": "64.89.160.185",
+    "hunt_ioc": "64.89.160.185",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Aisuru botnet activity",
+    "malware_family": "Aisuru",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1963038 - Aisuru command-and-control"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1963038/"
+    ],
+    "article_published_date": [
+      "2026-10-13T10:10:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-13T13:18:00Z",
+    "confidence": 85,
+    "acceptance_score": 85,
+    "status": "NEW",
+    "notes": "Port is retained in source context while the IOC is normalized to IPv4 for hunting.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1963038 - Aisuru command-and-control",
+        "url": "https://threatfox.abuse.ch/ioc/1963038/",
+        "published_at": "2026-10-13T10:10:00Z",
+        "updated_at": null,
+        "reliability": 0.85,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-11T13:00:00Z",
+        "discovery_context": [
+          "The current individual ThreatFox record identifies this public IP on port 8001 as Aisuru botnet command-and-control infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "3461b395a20846cefef84d6f7ddcbd7aff2209423eaaf74925ab70b0038e160a",
+    "ioc_type": "sha256",
+    "original_ioc": "3461b395a20846cefef84d6f7ddcbd7aff2209423eaaf74925ab70b0038e160a",
+    "hunt_ioc": "3461b395a20846cefef84d6f7ddcbd7aff2209423eaaf74925ab70b0038e160a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current remote-access trojan activity",
+    "malware_family": "QuasarRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 3461b395a208 - QuasarRAT sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/3461b395a20846cefef84d6f7ddcbd7aff2209423eaaf74925ab70b0038e160a/"
+    ],
+    "article_published_date": [
+      "2026-10-13T12:32:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-13T13:18:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current metadata-rich individual malware sample record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 3461b395a208 - QuasarRAT sample",
+        "url": "https://bazaar.abuse.ch/sample/3461b395a20846cefef84d6f7ddcbd7aff2209423eaaf74925ab70b0038e160a/",
+        "published_at": "2026-10-13T12:32:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-11T13:00:00Z",
+        "discovery_context": [
+          "The current individual MalwareBazaar record identifies this exact SHA256 as a batch-delivered QuasarRAT sample and tags it with QuasarRAT context."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "4e6fe5635c33a92261ebbdf22cfecae08d71d6705f54f943ef6ca089a978bebb",
+    "ioc_type": "sha256",
+    "original_ioc": "4e6fe5635c33a92261ebbdf22cfecae08d71d6705f54f943ef6ca089a978bebb",
+    "hunt_ioc": "4e6fe5635c33a92261ebbdf22cfecae08d71d6705f54f943ef6ca089a978bebb",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current remote-access trojan activity",
+    "malware_family": "AsyncRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 4e6fe5635c33 - AsyncRAT sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/4e6fe5635c33a92261ebbdf22cfecae08d71d6705f54f943ef6ca089a978bebb/"
+    ],
+    "article_published_date": [
+      "2026-10-13T12:33:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-13T13:18:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current metadata-rich individual malware sample record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 4e6fe5635c33 - AsyncRAT sample",
+        "url": "https://bazaar.abuse.ch/sample/4e6fe5635c33a92261ebbdf22cfecae08d71d6705f54f943ef6ca089a978bebb/",
+        "published_at": "2026-10-13T12:33:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-11T13:00:00Z",
+        "discovery_context": [
+          "The current individual MalwareBazaar record identifies this exact SHA256 as a JavaScript-delivered AsyncRAT sample and tags it with AsyncRAT, executable, and JavaScript context."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://175.160.112.104:58191/bin.sh",
+    "ioc_type": "url",
+    "original_ioc": "http://175.160.112.104:58191/bin.sh",
+    "hunt_ioc": "175.160.112.104",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mozi malware delivery activity",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus URL 3949543 - active Mozi shell payload"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3949543/"
+    ],
+    "article_published_date": [
+      "2026-10-13T12:28:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-13T13:18:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact malicious URL retained for documentation; hunting normalizes it to the public IP host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus URL 3949543 - active Mozi shell payload",
+        "url": "https://urlhaus.abuse.ch/url/3949543/",
+        "published_at": "2026-10-13T12:28:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-11T13:00:00Z",
+        "discovery_context": [
+          "The current individual URLhaus record identifies this exact online URL as serving a malicious shell payload associated with Mozi activity."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://american-expiess.vip/de",
+    "ioc_type": "url",
+    "original_ioc": "http://american-expiess.vip/de",
+    "hunt_ioc": "american-expiess.vip",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current American Express-themed credential phishing",
+    "malware_family": "Credential phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OpenPhish via urlscan.io"
+    ],
+    "source_article": [
+      "OpenPhish public record - American Express-themed credential phishing URL"
+    ],
+    "source_url": [
+      "https://urlscan.io/result/01a13559-7d9d-70ff-8921-824191d17bb0/"
+    ],
+    "article_published_date": [
+      "2026-10-13T13:00:26Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-13T13:18:00Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Exact malicious URL retained for documentation; hunting normalizes it to the deceptive public host.",
+    "sources": [
+      {
+        "organization": "OpenPhish via urlscan.io",
+        "article_title": "OpenPhish public record - American Express-themed credential phishing URL",
+        "url": "https://urlscan.io/result/01a13559-7d9d-70ff-8921-824191d17bb0/",
+        "published_at": "2026-10-13T13:00:26Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-11T13:00:00Z",
+        "discovery_context": [
+          "OpenPhish submitted this exact public American Express lookalike URL as a current phishing indicator in public urlscan metadata."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://steamcommvnlty.com/id/7656193595737564",
+    "ioc_type": "url",
+    "original_ioc": "https://steamcommvnlty.com/id/7656193595737564",
+    "hunt_ioc": "steamcommvnlty.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current Steam-themed credential phishing",
+    "malware_family": "Credential phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OpenPhish via urlscan.io"
+    ],
+    "source_article": [
+      "OpenPhish public record - Steam-themed credential phishing URL"
+    ],
+    "source_url": [
+      "https://urlscan.io/result/01a1355a-e41a-74e0-9c73-f596d25a5077/"
+    ],
+    "article_published_date": [
+      "2026-10-13T13:01:56Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-13T13:18:00Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Exact malicious URL retained for documentation; hunting normalizes it to the deceptive public host.",
+    "sources": [
+      {
+        "organization": "OpenPhish via urlscan.io",
+        "article_title": "OpenPhish public record - Steam-themed credential phishing URL",
+        "url": "https://urlscan.io/result/01a1355a-e41a-74e0-9c73-f596d25a5077/",
+        "published_at": "2026-10-13T13:01:56Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-11T13:00:00Z",
+        "discovery_context": [
+          "OpenPhish submitted this exact public Steam lookalike URL as a current phishing indicator in public urlscan metadata."
+        ]
+      }
+    ]
+  }
+]
