@@ -1,0 +1,472 @@
+[
+  {
+    "ioc": "blog-tecnet-microsoft.serveftp.com",
+    "ioc_type": "domain",
+    "original_ioc": "blog-tecnet-microsoft.serveftp.com",
+    "hunt_ioc": "blog-tecnet-microsoft.serveftp.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "UAT-6275 Silent Lynx government targeting",
+    "malware_family": "PickleShell and Chvost",
+    "threat_actor": "UAT-6275 / TAG-193",
+    "source_organization": [
+      "Cisco Talos"
+    ],
+    "source_article": [
+      "Break the silence: Kazakhstan-nexus UAT-6275 targets CIS government organizations"
+    ],
+    "source_url": [
+      "https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations/"
+    ],
+    "article_published_date": [
+      "2026-10-14T10:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-14T21:31:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Talos appendix value retained as a domain pivot for hunting.",
+    "sources": [
+      {
+        "organization": "Cisco Talos",
+        "article_title": "Break the silence: Kazakhstan-nexus UAT-6275 targets CIS government organizations",
+        "url": "https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations/",
+        "published_at": "2026-10-14T10:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-12T13:00:00Z",
+        "discovery_context": [
+          "Cisco Talos's current UAT-6275 IOC appendix identifies this domain among the actor's exposed staging and command infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "37.18.27.27",
+    "ioc_type": "ipv4",
+    "original_ioc": "37.18.27.27",
+    "hunt_ioc": "37.18.27.27",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "UAT-6275 Silent Lynx government targeting",
+    "malware_family": "PickleShell and Chvost",
+    "threat_actor": "UAT-6275 / TAG-193",
+    "source_organization": [
+      "Cisco Talos"
+    ],
+    "source_article": [
+      "Break the silence: Kazakhstan-nexus UAT-6275 targets CIS government organizations"
+    ],
+    "source_url": [
+      "https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations/"
+    ],
+    "article_published_date": [
+      "2026-10-14T10:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-14T21:31:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Public IPv4 normalized for network hunting.",
+    "sources": [
+      {
+        "organization": "Cisco Talos",
+        "article_title": "Break the silence: Kazakhstan-nexus UAT-6275 targets CIS government organizations",
+        "url": "https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations/",
+        "published_at": "2026-10-14T10:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-12T13:00:00Z",
+        "discovery_context": [
+          "Cisco Talos's current UAT-6275 IOC appendix lists this public IP as actor infrastructure associated with recovered malware delivery and command activity."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "45.139.104.222",
+    "ioc_type": "ipv4",
+    "original_ioc": "45.139.104.222",
+    "hunt_ioc": "45.139.104.222",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current PureRAT command-and-control",
+    "malware_family": "PureRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1965910 - PureRAT command-and-control"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1965910/"
+    ],
+    "article_published_date": [
+      "2026-10-14T19:45:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-14T21:31:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Port retained in source context while the IOC is normalized to IPv4.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1965910 - PureRAT command-and-control",
+        "url": "https://threatfox.abuse.ch/ioc/1965910/",
+        "published_at": "2026-10-14T19:45:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-12T13:00:00Z",
+        "discovery_context": [
+          "The current individual ThreatFox record identifies this public IP on port 49001 as PureRAT command-and-control infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "46.246.12.8",
+    "ioc_type": "ipv4",
+    "original_ioc": "46.246.12.8",
+    "hunt_ioc": "46.246.12.8",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current AsyncRAT command-and-control",
+    "malware_family": "AsyncRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1965911 - AsyncRAT command-and-control"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1965911/"
+    ],
+    "article_published_date": [
+      "2026-10-14T19:45:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-14T21:31:00Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Port retained in source context while the IOC is normalized to IPv4.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1965911 - AsyncRAT command-and-control",
+        "url": "https://threatfox.abuse.ch/ioc/1965911/",
+        "published_at": "2026-10-14T19:45:00Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-12T13:00:00Z",
+        "discovery_context": [
+          "The current individual ThreatFox record identifies this public IP on port 2703 as AsyncRAT command-and-control infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "604802b26921351110ef475d7708d8e7031b551192f72272effc7bc66bf3abbd",
+    "ioc_type": "sha256",
+    "original_ioc": "604802b26921351110ef475d7708d8e7031b551192f72272effc7bc66bf3abbd",
+    "hunt_ioc": "604802b26921351110ef475d7708d8e7031b551192f72272effc7bc66bf3abbd",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current Mirai botnet activity",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 604802b26921 - Mirai ELF sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/604802b26921351110ef475d7708d8e7031b551192f72272effc7bc66bf3abbd/"
+    ],
+    "article_published_date": [
+      "2026-10-14T20:22:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-14T21:31:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current metadata-rich individual sample record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 604802b26921 - Mirai ELF sample",
+        "url": "https://bazaar.abuse.ch/sample/604802b26921351110ef475d7708d8e7031b551192f72272effc7bc66bf3abbd/",
+        "published_at": "2026-10-14T20:22:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-12T13:00:00Z",
+        "discovery_context": [
+          "The current individual MalwareBazaar record identifies this exact SHA256 as an ELF sample signed Mirai and tagged with Mirai malware context."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b9079c2c87348a8b598496606cb6a6d2f9df53230f4420e8688a3751285b2144",
+    "ioc_type": "sha256",
+    "original_ioc": "b9079c2c87348a8b598496606cb6a6d2f9df53230f4420e8688a3751285b2144",
+    "hunt_ioc": "b9079c2c87348a8b598496606cb6a6d2f9df53230f4420e8688a3751285b2144",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current Mirai botnet activity",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample b9079c2c8734 - Mirai ELF sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/b9079c2c87348a8b598496606cb6a6d2f9df53230f4420e8688a3751285b2144/"
+    ],
+    "article_published_date": [
+      "2026-10-14T20:23:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-14T21:31:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current metadata-rich individual sample record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample b9079c2c8734 - Mirai ELF sample",
+        "url": "https://bazaar.abuse.ch/sample/b9079c2c87348a8b598496606cb6a6d2f9df53230f4420e8688a3751285b2144/",
+        "published_at": "2026-10-14T20:23:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-12T13:00:00Z",
+        "discovery_context": [
+          "The current individual MalwareBazaar record identifies this exact SHA256 as an ELF sample signed Mirai and tagged with Mirai malware context."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "dff3461b7b0b793c6dc62a63ffb6560c3babd7ca0b8d479ee2f7cbd4486c9d85",
+    "ioc_type": "sha256",
+    "original_ioc": "dff3461b7b0b793c6dc62a63ffb6560c3babd7ca0b8d479ee2f7cbd4486c9d85",
+    "hunt_ioc": "dff3461b7b0b793c6dc62a63ffb6560c3babd7ca0b8d479ee2f7cbd4486c9d85",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "UAT-6275 Silent Lynx government targeting",
+    "malware_family": "PickleShell and Chvost",
+    "threat_actor": "UAT-6275 / TAG-193",
+    "source_organization": [
+      "Cisco Talos"
+    ],
+    "source_article": [
+      "Break the silence: Kazakhstan-nexus UAT-6275 targets CIS government organizations"
+    ],
+    "source_url": [
+      "https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations/"
+    ],
+    "article_published_date": [
+      "2026-10-14T10:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-14T21:31:00Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Current metadata-rich technical appendix hash.",
+    "sources": [
+      {
+        "organization": "Cisco Talos",
+        "article_title": "Break the silence: Kazakhstan-nexus UAT-6275 targets CIS government organizations",
+        "url": "https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations/",
+        "published_at": "2026-10-14T10:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-12T13:00:00Z",
+        "discovery_context": [
+          "Cisco Talos's current IOC appendix lists this exact SHA256 among recovered UAT-6275 payload artifacts."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://120.84.212.113:55570/bin.sh",
+    "ioc_type": "url",
+    "original_ioc": "http://120.84.212.113:55570/bin.sh",
+    "hunt_ioc": "120.84.212.113",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mozi malware delivery activity",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus URL 3950216 - online Mozi shell payload"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3950216/"
+    ],
+    "article_published_date": [
+      "2026-10-14T20:20:12Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-14T21:31:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact malicious URL retained for documentation; hunting normalizes it to the public IP host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus URL 3950216 - online Mozi shell payload",
+        "url": "https://urlhaus.abuse.ch/url/3950216/",
+        "published_at": "2026-10-14T20:20:12Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-12T13:00:00Z",
+        "discovery_context": [
+          "The current individual URLhaus record identifies this exact online URL as serving a malicious 32-bit MIPS ELF payload tagged Mozi."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://helptrezriosdtart.gitbook.io/us",
+    "ioc_type": "url",
+    "original_ioc": "https://helptrezriosdtart.gitbook.io/us",
+    "hunt_ioc": "helptrezriosdtart.gitbook.io",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current Trezor-themed credential phishing",
+    "malware_family": "Credential phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OpenPhish via urlscan.io"
+    ],
+    "source_article": [
+      "OpenPhish public record - Trezor lookalike phishing URL"
+    ],
+    "source_url": [
+      "https://urlscan.io/result/01a13a86-39c3-712d-b22c-a32354f6f7e0/"
+    ],
+    "article_published_date": [
+      "2026-10-14T13:26:49Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-14T21:31:00Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Exact malicious URL retained for documentation; hunting normalizes it to the deceptive public host.",
+    "sources": [
+      {
+        "organization": "OpenPhish via urlscan.io",
+        "article_title": "OpenPhish public record - Trezor lookalike phishing URL",
+        "url": "https://urlscan.io/result/01a13a86-39c3-712d-b22c-a32354f6f7e0/",
+        "published_at": "2026-10-14T13:26:49Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-12T13:00:00Z",
+        "discovery_context": [
+          "OpenPhish submitted this exact public Trezor lookalike URL as a current phishing indicator; urlscan metadata shows a Trezor-branded lure page."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://m-faceboooks.com.vn/e5sb0tmv4ti?je",
+    "ioc_type": "url",
+    "original_ioc": "https://m-faceboooks.com.vn/e5sb0tmv4ti?je",
+    "hunt_ioc": "m-faceboooks.com.vn",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current Facebook-themed credential phishing",
+    "malware_family": "Credential phishing",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OpenPhish via urlscan.io"
+    ],
+    "source_article": [
+      "OpenPhish public record - Facebook lookalike phishing URL"
+    ],
+    "source_url": [
+      "https://urlscan.io/result/01a13a80-9cb4-765f-91e8-518a5a8b61f9/"
+    ],
+    "article_published_date": [
+      "2026-10-14T13:41:33Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-14T21:31:00Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Exact malicious URL retained for documentation; hunting normalizes it to the deceptive public host.",
+    "sources": [
+      {
+        "organization": "OpenPhish via urlscan.io",
+        "article_title": "OpenPhish public record - Facebook lookalike phishing URL",
+        "url": "https://urlscan.io/result/01a13a80-9cb4-765f-91e8-518a5a8b61f9/",
+        "published_at": "2026-10-14T13:41:33Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-12T13:00:00Z",
+        "discovery_context": [
+          "OpenPhish submitted this exact public Facebook lookalike URL as a current phishing indicator in public urlscan metadata."
+        ]
+      }
+    ]
+  }
+]

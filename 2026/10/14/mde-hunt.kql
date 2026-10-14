@@ -1,0 +1,21 @@
+// Query name: CYBERMEDIC Daily IOC Hunt
+// Description: Search 30-day Microsoft Defender telemetry for validated IOC values.
+// Author : CYBERMEDIC
+// Last updated: 2026-10-14
+// MITRE ATT&CK mapping: N/A - IOC lookup
+// Notes: One runnable query; exact IOC filters precede the 500-result limit.
+// Sources: See the daily IOC summary for 2026-10-14.
+union
+(
+DeviceNetworkEvents
+| where Timestamp >= ago(30d)
+| where RemoteUrl in~ ("blog-tecnet-microsoft.serveftp.com","helptrezriosdtart.gitbook.io","m-faceboooks.com.vn") or RemoteIP in~ ("120.84.212.113","37.18.27.27","45.139.104.222","46.246.12.8")
+| project Timestamp,DeviceName,RemoteIP,RemotePort,RemoteUrl,InitiatingProcessFileName
+),
+(
+DeviceFileEvents
+| where Timestamp >= ago(30d)
+| where SHA256 in~ ("604802b26921351110ef475d7708d8e7031b551192f72272effc7bc66bf3abbd","b9079c2c87348a8b598496606cb6a6d2f9df53230f4420e8688a3751285b2144","dff3461b7b0b793c6dc62a63ffb6560c3babd7ca0b8d479ee2f7cbd4486c9d85")
+| project Timestamp,DeviceName,FileName,FolderPath,MD5,SHA1,SHA256,InitiatingProcessFileName
+)
+| top 500 by Timestamp desc
