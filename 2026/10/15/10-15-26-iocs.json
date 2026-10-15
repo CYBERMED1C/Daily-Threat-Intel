@@ -1,0 +1,472 @@
+[
+  {
+    "ioc": "abubra.jo3.org",
+    "ioc_type": "domain",
+    "original_ioc": "abubra.jo3.org",
+    "hunt_ioc": "abubra.jo3.org",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current AsyncRAT command-and-control",
+    "malware_family": "AsyncRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1967503 - current AsyncRAT command-and-control"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1967503/"
+    ],
+    "article_published_date": [
+      "2026-10-15T12:05:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-15T13:00:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Domain retained as a direct RemoteUrl hunting pivot.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1967503 - current AsyncRAT command-and-control",
+        "url": "https://threatfox.abuse.ch/ioc/1967503/",
+        "published_at": "2026-10-15T12:05:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-13T13:00:00Z",
+        "discovery_context": [
+          "The current individual ThreatFox record identifies this domain as AsyncRAT command-and-control infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "23.240.77.233",
+    "ioc_type": "ipv4",
+    "original_ioc": "23.240.77.233",
+    "hunt_ioc": "23.240.77.233",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PEERSTITCH FortiManager intrusion",
+    "malware_family": "PEERSTITCH",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Unit 42"
+    ],
+    "source_article": [
+      "Unit 42 Uncovers PEERSTITCH: A New Linux Malware Targeting FortiManager Appliances"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/"
+    ],
+    "article_published_date": [
+      "2026-10-14T16:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-15T13:00:00Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Public IPv4 normalized for network hunting.",
+    "sources": [
+      {
+        "organization": "Unit 42",
+        "article_title": "Unit 42 Uncovers PEERSTITCH: A New Linux Malware Targeting FortiManager Appliances",
+        "url": "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/",
+        "published_at": "2026-10-14T16:00:00Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-13T13:00:00Z",
+        "discovery_context": [
+          "Unit 42 current report identifies this public IP as hosting PEERSTITCH installer infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "45.171.124.23",
+    "ioc_type": "ipv4",
+    "original_ioc": "45.171.124.23",
+    "hunt_ioc": "45.171.124.23",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current VShell command-and-control",
+    "malware_family": "VShell",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1967518 - current VShell/Mozi infrastructure"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1967518/"
+    ],
+    "article_published_date": [
+      "2026-10-15T12:19:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-15T13:00:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Port retained in source context while IOC is normalized to IPv4.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1967518 - current VShell/Mozi infrastructure",
+        "url": "https://threatfox.abuse.ch/ioc/1967518/",
+        "published_at": "2026-10-15T12:19:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-13T13:00:00Z",
+        "discovery_context": [
+          "The current individual ThreatFox record identifies this public IP and port as VShell command-and-control infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "45.32.41.202",
+    "ioc_type": "ipv4",
+    "original_ioc": "45.32.41.202",
+    "hunt_ioc": "45.32.41.202",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PEERSTITCH FortiManager intrusion",
+    "malware_family": "PEERSTITCH",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Unit 42"
+    ],
+    "source_article": [
+      "Unit 42 Uncovers PEERSTITCH: A New Linux Malware Targeting FortiManager Appliances"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/"
+    ],
+    "article_published_date": [
+      "2026-10-14T16:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-15T13:00:00Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Public IPv4 normalized for network hunting.",
+    "sources": [
+      {
+        "organization": "Unit 42",
+        "article_title": "Unit 42 Uncovers PEERSTITCH: A New Linux Malware Targeting FortiManager Appliances",
+        "url": "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/",
+        "published_at": "2026-10-14T16:00:00Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-13T13:00:00Z",
+        "discovery_context": [
+          "Unit 42 current report identifies this public IP as rogue FortiGate PEERSTITCH infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "6b68a1f5df0a2e64d8d5092dacf355a35bbab4e7d5d6c193234a05bc5037dcbc",
+    "ioc_type": "sha256",
+    "original_ioc": "6b68a1f5df0a2e64d8d5092dacf355a35bbab4e7d5d6c193234a05bc5037dcbc",
+    "hunt_ioc": "6b68a1f5df0a2e64d8d5092dacf355a35bbab4e7d5d6c193234a05bc5037dcbc",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current AsyncRAT activity",
+    "malware_family": "AsyncRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample 6b68a1f5 - current AsyncRAT sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/6b68a1f5df0a2e64d8d5092dacf355a35bbab4e7d5d6c193234a05bc5037dcbc/"
+    ],
+    "article_published_date": [
+      "2026-10-15T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-15T13:00:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current metadata-rich individual sample record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample 6b68a1f5 - current AsyncRAT sample",
+        "url": "https://bazaar.abuse.ch/sample/6b68a1f5df0a2e64d8d5092dacf355a35bbab4e7d5d6c193234a05bc5037dcbc/",
+        "published_at": "2026-10-15T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-13T13:00:00Z",
+        "discovery_context": [
+          "The current individual MalwareBazaar record tags this exact SHA256 as an AsyncRAT executable sample."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "829b1cd270b30565739a478441833f49f10a49bd06f0d18cc96c8ae4a0431f11",
+    "ioc_type": "sha256",
+    "original_ioc": "829b1cd270b30565739a478441833f49f10a49bd06f0d18cc96c8ae4a0431f11",
+    "hunt_ioc": "829b1cd270b30565739a478441833f49f10a49bd06f0d18cc96c8ae4a0431f11",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "PEERSTITCH FortiManager intrusion",
+    "malware_family": "PEERSTITCH",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Unit 42"
+    ],
+    "source_article": [
+      "Unit 42 Uncovers PEERSTITCH: A New Linux Malware Targeting FortiManager Appliances"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/"
+    ],
+    "article_published_date": [
+      "2026-10-14T16:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-15T13:00:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current primary-research hash retained for file hunting.",
+    "sources": [
+      {
+        "organization": "Unit 42",
+        "article_title": "Unit 42 Uncovers PEERSTITCH: A New Linux Malware Targeting FortiManager Appliances",
+        "url": "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/",
+        "published_at": "2026-10-14T16:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-13T13:00:00Z",
+        "discovery_context": [
+          "Unit 42 current PEERSTITCH report identifies this exact SHA256 as an ARM64 malicious bootstrap artifact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b9fb0b27ddd59b58d3ae53c7227298a3e0de1e6f868b9429ae21533bb9cd1e70",
+    "ioc_type": "sha256",
+    "original_ioc": "b9fb0b27ddd59b58d3ae53c7227298a3e0de1e6f868b9429ae21533bb9cd1e70",
+    "hunt_ioc": "b9fb0b27ddd59b58d3ae53c7227298a3e0de1e6f868b9429ae21533bb9cd1e70",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "PEERSTITCH FortiManager intrusion",
+    "malware_family": "PEERSTITCH",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Unit 42"
+    ],
+    "source_article": [
+      "Unit 42 Uncovers PEERSTITCH: A New Linux Malware Targeting FortiManager Appliances"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/"
+    ],
+    "article_published_date": [
+      "2026-10-14T16:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-15T13:00:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current primary-research hash retained for file hunting.",
+    "sources": [
+      {
+        "organization": "Unit 42",
+        "article_title": "Unit 42 Uncovers PEERSTITCH: A New Linux Malware Targeting FortiManager Appliances",
+        "url": "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/",
+        "published_at": "2026-10-14T16:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-13T13:00:00Z",
+        "discovery_context": [
+          "Unit 42 current PEERSTITCH report identifies this exact SHA256 as a malicious Linux payload artifact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "bd064244dad748cf2a44074bee56f5bfab4a2b18ee944b75d1b3febd4c1fe02a",
+    "ioc_type": "sha256",
+    "original_ioc": "bd064244dad748cf2a44074bee56f5bfab4a2b18ee944b75d1b3febd4c1fe02a",
+    "hunt_ioc": "bd064244dad748cf2a44074bee56f5bfab4a2b18ee944b75d1b3febd4c1fe02a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "PEERSTITCH FortiManager intrusion",
+    "malware_family": "PEERSTITCH",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Unit 42"
+    ],
+    "source_article": [
+      "Unit 42 Uncovers PEERSTITCH: A New Linux Malware Targeting FortiManager Appliances"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/"
+    ],
+    "article_published_date": [
+      "2026-10-14T16:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-15T13:00:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current primary-research hash retained for file hunting.",
+    "sources": [
+      {
+        "organization": "Unit 42",
+        "article_title": "Unit 42 Uncovers PEERSTITCH: A New Linux Malware Targeting FortiManager Appliances",
+        "url": "https://unit42.paloaltonetworks.com/fortimanager-cve-2024-47575-peerstitch-malware/",
+        "published_at": "2026-10-14T16:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-13T13:00:00Z",
+        "discovery_context": [
+          "Unit 42 current PEERSTITCH report identifies this exact SHA256 as malicious hook-injection data."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "d744542a42c4720ad36f1127ee5af5f013f23ae5822cdaae2ff03345f2839594",
+    "ioc_type": "sha256",
+    "original_ioc": "d744542a42c4720ad36f1127ee5af5f013f23ae5822cdaae2ff03345f2839594",
+    "hunt_ioc": "d744542a42c4720ad36f1127ee5af5f013f23ae5822cdaae2ff03345f2839594",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current Mirai botnet activity",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample d744542a - current Mirai ELF sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/d744542a42c4720ad36f1127ee5af5f013f23ae5822cdaae2ff03345f2839594/"
+    ],
+    "article_published_date": [
+      "2026-10-15T12:16:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-15T13:00:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current metadata-rich individual sample record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample d744542a - current Mirai ELF sample",
+        "url": "https://bazaar.abuse.ch/sample/d744542a42c4720ad36f1127ee5af5f013f23ae5822cdaae2ff03345f2839594/",
+        "published_at": "2026-10-15T12:16:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-13T13:00:00Z",
+        "discovery_context": [
+          "The current individual MalwareBazaar record tags this exact SHA256 as an ELF Mirai sample."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://42.6.101.155:34345/bin.sh",
+    "ioc_type": "url",
+    "original_ioc": "http://42.6.101.155:34345/bin.sh",
+    "hunt_ioc": "42.6.101.155",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mozi malware delivery activity",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus URL 3950435 - online Mozi shell payload"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3950435/"
+    ],
+    "article_published_date": [
+      "2026-10-15T09:49:16Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-15T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact URL retained for documentation; hunting normalizes it to public host 42.6.101.155.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus URL 3950435 - online Mozi shell payload",
+        "url": "https://urlhaus.abuse.ch/url/3950435/",
+        "published_at": "2026-10-15T09:49:16Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-13T13:00:00Z",
+        "discovery_context": [
+          "The current individual URLhaus record identifies this online URL as serving a malicious Mozi ELF payload."
+        ]
+      }
+    ]
+  }
+]
