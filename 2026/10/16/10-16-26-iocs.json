@@ -1,0 +1,472 @@
+[
+  {
+    "ioc": "happyslot88pg.co",
+    "ioc_type": "domain",
+    "original_ioc": "happyslot88pg.co",
+    "hunt_ioc": "happyslot88pg.co",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current AsyncRAT command-and-control",
+    "malware_family": "AsyncRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1969571 - current AsyncRAT command-and-control"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1969571/"
+    ],
+    "article_published_date": [
+      "2026-10-16T12:20:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-16T13:00:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Domain retained as a direct RemoteUrl hunting pivot.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1969571 - current AsyncRAT command-and-control",
+        "url": "https://threatfox.abuse.ch/ioc/1969571/",
+        "published_at": "2026-10-16T12:20:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-14T13:00:00Z",
+        "discovery_context": [
+          "The current individual ThreatFox record identifies this domain as AsyncRAT command-and-control infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "104.194.158.65",
+    "ioc_type": "ipv4",
+    "original_ioc": "104.194.158.65",
+    "hunt_ioc": "104.194.158.65",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "CL-UNK-1211 AI-assisted Linux espionage",
+    "malware_family": "SysGoRAT",
+    "threat_actor": "CL-UNK-1211",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "AI-Powered Espionage Campaign Targets Government Linux Infrastructure"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/"
+    ],
+    "article_published_date": [
+      "2026-10-15T16:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-16T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Public IPv4 normalized for network hunting.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
+        "url": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
+        "published_at": "2026-10-15T16:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-14T13:00:00Z",
+        "discovery_context": [
+          "Unit 42 current report identifies this public IP as the default SysGoRAT WebSocket command-and-control endpoint."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "153.117.15.107",
+    "ioc_type": "ipv4",
+    "original_ioc": "153.117.15.107",
+    "hunt_ioc": "153.117.15.107",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mozi malware delivery activity",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1969569 - current malicious Mozi endpoint"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1969569/"
+    ],
+    "article_published_date": [
+      "2026-10-16T12:19:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-16T13:00:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Port retained in source context while IOC is normalized to IPv4.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1969569 - current malicious Mozi endpoint",
+        "url": "https://threatfox.abuse.ch/ioc/1969569/",
+        "published_at": "2026-10-16T12:19:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-14T13:00:00Z",
+        "discovery_context": [
+          "The current individual ThreatFox record identifies this public IP and port as a Mozi malware endpoint."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "27d799ceadb570bfca890d4c2572314afe57eecf14083d30409da15afdfc4704",
+    "ioc_type": "sha256",
+    "original_ioc": "27d799ceadb570bfca890d4c2572314afe57eecf14083d30409da15afdfc4704",
+    "hunt_ioc": "27d799ceadb570bfca890d4c2572314afe57eecf14083d30409da15afdfc4704",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "CL-UNK-1211 AI-assisted Linux espionage",
+    "malware_family": "React2Shell scanner",
+    "threat_actor": "CL-UNK-1211",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "AI-Powered Espionage Campaign Targets Government Linux Infrastructure"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/"
+    ],
+    "article_published_date": [
+      "2026-10-15T16:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-16T13:00:00Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Primary-research hash retained for file hunting.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
+        "url": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
+        "published_at": "2026-10-15T16:00:00Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-14T13:00:00Z",
+        "discovery_context": [
+          "Unit 42 current report lists this exact SHA256 as a malicious scanner artifact used in the campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2bf7992e6260c1a98c709fa98ec766fb9f27692f338b30b43ac821b824fd849e",
+    "ioc_type": "sha256",
+    "original_ioc": "2bf7992e6260c1a98c709fa98ec766fb9f27692f338b30b43ac821b824fd849e",
+    "hunt_ioc": "2bf7992e6260c1a98c709fa98ec766fb9f27692f338b30b43ac821b824fd849e",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "CL-UNK-1211 AI-assisted Linux espionage",
+    "malware_family": "React2Shell scanner",
+    "threat_actor": "CL-UNK-1211",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "AI-Powered Espionage Campaign Targets Government Linux Infrastructure"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/"
+    ],
+    "article_published_date": [
+      "2026-10-15T16:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-16T13:00:00Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Primary-research hash retained for file hunting.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
+        "url": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
+        "published_at": "2026-10-15T16:00:00Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-14T13:00:00Z",
+        "discovery_context": [
+          "Unit 42 current report lists this exact SHA256 as a malicious React2Shell scanner artifact used in the campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "9e45830171eb607cf2c0fc80f5cc9cc3db39bb937032136990383a595f6f151e",
+    "ioc_type": "sha256",
+    "original_ioc": "9e45830171eb607cf2c0fc80f5cc9cc3db39bb937032136990383a595f6f151e",
+    "hunt_ioc": "9e45830171eb607cf2c0fc80f5cc9cc3db39bb937032136990383a595f6f151e",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "CL-UNK-1211 AI-assisted Linux espionage",
+    "malware_family": "React2Shell scanner",
+    "threat_actor": "CL-UNK-1211",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "AI-Powered Espionage Campaign Targets Government Linux Infrastructure"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/"
+    ],
+    "article_published_date": [
+      "2026-10-15T16:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-16T13:00:00Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Primary-research hash retained for file hunting.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
+        "url": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
+        "published_at": "2026-10-15T16:00:00Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-14T13:00:00Z",
+        "discovery_context": [
+          "Unit 42 current report lists this exact SHA256 as a malicious scanner artifact used in the campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b08bff811d20fb95abbb8a09175f33a749c1dff6967b86e583ba5f5ee08872e5",
+    "ioc_type": "sha256",
+    "original_ioc": "b08bff811d20fb95abbb8a09175f33a749c1dff6967b86e583ba5f5ee08872e5",
+    "hunt_ioc": "b08bff811d20fb95abbb8a09175f33a749c1dff6967b86e583ba5f5ee08872e5",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current RemcosRAT activity",
+    "malware_family": "RemcosRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample b08bff81 - current RemcosRAT sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/b08bff811d20fb95abbb8a09175f33a749c1dff6967b86e583ba5f5ee08872e5/"
+    ],
+    "article_published_date": [
+      "2026-10-16T11:51:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-16T13:00:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current metadata-rich individual sample record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample b08bff81 - current RemcosRAT sample",
+        "url": "https://bazaar.abuse.ch/sample/b08bff811d20fb95abbb8a09175f33a749c1dff6967b86e583ba5f5ee08872e5/",
+        "published_at": "2026-10-16T11:51:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-14T13:00:00Z",
+        "discovery_context": [
+          "The current individual MalwareBazaar record identifies this exact SHA256 as a RemcosRAT executable sample."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "d73186cea6cf2cf3d48c09139a9d15521365aab675787b4e7a6f81767331c9fd",
+    "ioc_type": "sha256",
+    "original_ioc": "d73186cea6cf2cf3d48c09139a9d15521365aab675787b4e7a6f81767331c9fd",
+    "hunt_ioc": "d73186cea6cf2cf3d48c09139a9d15521365aab675787b4e7a6f81767331c9fd",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "CL-UNK-1211 AI-assisted Linux espionage",
+    "malware_family": "React2Shell scanner",
+    "threat_actor": "CL-UNK-1211",
+    "source_organization": [
+      "Palo Alto Networks Unit 42"
+    ],
+    "source_article": [
+      "AI-Powered Espionage Campaign Targets Government Linux Infrastructure"
+    ],
+    "source_url": [
+      "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/"
+    ],
+    "article_published_date": [
+      "2026-10-15T16:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-16T13:00:00Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Primary-research hash retained for file hunting.",
+    "sources": [
+      {
+        "organization": "Palo Alto Networks Unit 42",
+        "article_title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
+        "url": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
+        "published_at": "2026-10-15T16:00:00Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-14T13:00:00Z",
+        "discovery_context": [
+          "Unit 42 current report lists this exact SHA256 as a malicious scanner artifact used in the campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ebb2f6d9ee6731d87d430b7c9114d4fa02ffb5adba565da3ffda7cca0afb2353",
+    "ioc_type": "sha256",
+    "original_ioc": "ebb2f6d9ee6731d87d430b7c9114d4fa02ffb5adba565da3ffda7cca0afb2353",
+    "hunt_ioc": "ebb2f6d9ee6731d87d430b7c9114d4fa02ffb5adba565da3ffda7cca0afb2353",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current AsyncRAT activity",
+    "malware_family": "AsyncRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample ebb2f6d9 - current AsyncRAT sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/ebb2f6d9ee6731d87d430b7c9114d4fa02ffb5adba565da3ffda7cca0afb2353/"
+    ],
+    "article_published_date": [
+      "2026-10-16T12:16:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-16T13:00:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current metadata-rich individual sample record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample ebb2f6d9 - current AsyncRAT sample",
+        "url": "https://bazaar.abuse.ch/sample/ebb2f6d9ee6731d87d430b7c9114d4fa02ffb5adba565da3ffda7cca0afb2353/",
+        "published_at": "2026-10-16T12:16:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-14T13:00:00Z",
+        "discovery_context": [
+          "The current individual MalwareBazaar record tags this exact SHA256 as an AsyncRAT executable sample."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://220.191.125.250:48161/bin.sh",
+    "ioc_type": "url",
+    "original_ioc": "http://220.191.125.250:48161/bin.sh",
+    "hunt_ioc": "220.191.125.250",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mozi malware delivery activity",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus URL 3950906 - online Mozi shell payload"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3950906/"
+    ],
+    "article_published_date": [
+      "2026-10-16T10:50:09Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-16T13:00:00Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact URL retained for documentation; hunting normalizes it to public host 220.191.125.250.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus URL 3950906 - online Mozi shell payload",
+        "url": "https://urlhaus.abuse.ch/url/3950906/",
+        "published_at": "2026-10-16T10:50:09Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-14T13:00:00Z",
+        "discovery_context": [
+          "The current URLhaus record says this online URL is serving a Mozi ELF malware payload and records the payload hash."
+        ]
+      }
+    ]
+  }
+]
