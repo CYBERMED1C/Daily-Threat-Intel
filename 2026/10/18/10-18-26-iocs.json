@@ -1,0 +1,284 @@
+[
+  {
+    "ioc": "compassbase.cfd",
+    "ioc_type": "domain",
+    "original_ioc": "compassbase.cfd",
+    "hunt_ioc": "compassbase.cfd",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current OffLoader command-and-control",
+    "malware_family": "OffLoader",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1972687 - current OffLoader command-and-control"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1972687/"
+    ],
+    "article_published_date": [
+      "2026-10-18T12:05:33Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-18T13:00:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Domain retained as a direct RemoteUrl hunting pivot.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1972687 - current OffLoader command-and-control",
+        "url": "https://threatfox.abuse.ch/ioc/1972687/",
+        "published_at": "2026-10-18T12:05:33Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-16T13:00:00Z",
+        "discovery_context": [
+          "The current individual ThreatFox record identifies this domain as OffLoader command-and-control infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "mapledesk.cfd",
+    "ioc_type": "domain",
+    "original_ioc": "mapledesk.cfd",
+    "hunt_ioc": "mapledesk.cfd",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current OffLoader command-and-control",
+    "malware_family": "OffLoader",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1972689 - current OffLoader command-and-control"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1972689/"
+    ],
+    "article_published_date": [
+      "2026-10-18T12:07:09Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-18T13:00:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Domain retained as a direct RemoteUrl hunting pivot.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1972689 - current OffLoader command-and-control",
+        "url": "https://threatfox.abuse.ch/ioc/1972689/",
+        "published_at": "2026-10-18T12:07:09Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-16T13:00:00Z",
+        "discovery_context": [
+          "The current individual ThreatFox record identifies this domain as OffLoader command-and-control infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "118.26.111.141",
+    "ioc_type": "ipv4",
+    "original_ioc": "118.26.111.141",
+    "hunt_ioc": "118.26.111.141",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Cobalt Strike command-and-control",
+    "malware_family": "Cobalt Strike",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1972686 - current Cobalt Strike command-and-control"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1972686/"
+    ],
+    "article_published_date": [
+      "2026-10-18T12:05:10Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-18T13:00:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Port retained in source context; IOC normalized to IPv4.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1972686 - current Cobalt Strike command-and-control",
+        "url": "https://threatfox.abuse.ch/ioc/1972686/",
+        "published_at": "2026-10-18T12:05:10Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-16T13:00:00Z",
+        "discovery_context": [
+          "The current individual ThreatFox record identifies this public IPv4 as Cobalt Strike command-and-control infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "e6d81f3e45c61a47516820227d22bafe0266fef8eeb3f629f6995c90c3506a92",
+    "ioc_type": "sha256",
+    "original_ioc": "e6d81f3e45c61a47516820227d22bafe0266fef8eeb3f629f6995c90c3506a92",
+    "hunt_ioc": "e6d81f3e45c61a47516820227d22bafe0266fef8eeb3f629f6995c90c3506a92",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current RemcosRAT activity",
+    "malware_family": "RemcosRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample e6d81f3e - current RemcosRAT sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/e6d81f3e45c61a47516820227d22bafe0266fef8eeb3f629f6995c90c3506a92/"
+    ],
+    "article_published_date": [
+      "2026-10-18T11:46:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-18T13:00:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current metadata-rich individual sample record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample e6d81f3e - current RemcosRAT sample",
+        "url": "https://bazaar.abuse.ch/sample/e6d81f3e45c61a47516820227d22bafe0266fef8eeb3f629f6995c90c3506a92/",
+        "published_at": "2026-10-18T11:46:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-16T13:00:00Z",
+        "discovery_context": [
+          "The current individual MalwareBazaar record identifies this exact SHA256 as a RemcosRAT executable sample."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ec1b99b59303d939da8da59f7ab60c05833a0d918916efec1d662b0293eb0f2d",
+    "ioc_type": "sha256",
+    "original_ioc": "ec1b99b59303d939da8da59f7ab60c05833a0d918916efec1d662b0293eb0f2d",
+    "hunt_ioc": "ec1b99b59303d939da8da59f7ab60c05833a0d918916efec1d662b0293eb0f2d",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current AgentTesla activity",
+    "malware_family": "AgentTesla",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar sample ec1b99b5 - current AgentTesla sample"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/ec1b99b59303d939da8da59f7ab60c05833a0d918916efec1d662b0293eb0f2d/"
+    ],
+    "article_published_date": [
+      "2026-10-18T11:54:01Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-18T13:00:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current metadata-rich individual sample record.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar sample ec1b99b5 - current AgentTesla sample",
+        "url": "https://bazaar.abuse.ch/sample/ec1b99b59303d939da8da59f7ab60c05833a0d918916efec1d662b0293eb0f2d/",
+        "published_at": "2026-10-18T11:54:01Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-16T13:00:00Z",
+        "discovery_context": [
+          "The current individual MalwareBazaar record identifies this exact SHA256 as an AgentTesla executable sample with malicious detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://222.134.175.170:40076/bin.sh",
+    "ioc_type": "url",
+    "original_ioc": "http://222.134.175.170:40076/bin.sh",
+    "hunt_ioc": "222.134.175.170",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current ELF malware delivery activity",
+    "malware_family": "ELF malware",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus URL 3951859 - online ELF malware delivery URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/3951859/"
+    ],
+    "article_published_date": [
+      "2026-10-18T11:55:19Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-18T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact URL retained for documentation; hunting normalizes it to public host 222.134.175.170.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus URL 3951859 - online ELF malware delivery URL",
+        "url": "https://urlhaus.abuse.ch/url/3951859/",
+        "published_at": "2026-10-18T11:55:19Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-16T13:00:00Z",
+        "discovery_context": [
+          "The current individual URLhaus record says this online URL is being used to serve malware and records an ELF payload."
+        ]
+      }
+    ]
+  }
+]

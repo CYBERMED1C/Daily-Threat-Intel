@@ -1,0 +1,11 @@
+/* Query name: CYBERMEDIC Daily IOC Hunt */
+/* Description: Search 30-day Elastic Defend telemetry for validated IOC values. */
+/* Author: CYBERMEDIC */
+/* Last updated: 2026-10-18 */
+/* Notes: One runnable query; exact IOC filters precede newest-first results. */
+FROM logs-endpoint.events.*
+| WHERE @timestamp >= NOW() - 30 DAYS
+| WHERE destination.domain IN ("compassbase.cfd","mapledesk.cfd") OR destination.ip IN ("118.26.111.141","222.134.175.170") OR file.hash.sha256 IN ("e6d81f3e45c61a47516820227d22bafe0266fef8eeb3f629f6995c90c3506a92","ec1b99b59303d939da8da59f7ab60c05833a0d918916efec1d662b0293eb0f2d")
+| KEEP @timestamp,host.name,process.name,file.name,file.path,destination.ip,destination.port,destination.domain,file.hash.md5,file.hash.sha1,file.hash.sha256
+| SORT @timestamp DESC
+| LIMIT 500
