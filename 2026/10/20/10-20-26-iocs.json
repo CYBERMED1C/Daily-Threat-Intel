@@ -1,0 +1,425 @@
+[
+  {
+    "ioc": "promotion.storagedata.com",
+    "ioc_type": "domain",
+    "original_ioc": "promotion.storagedata.com",
+    "hunt_ioc": "promotion.storagedata.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "UNC7017 ephemeral AOMEI supply-chain compromise",
+    "malware_family": "CROSSROAD/SHINYROAD",
+    "threat_actor": "UNC7017",
+    "source_organization": [
+      "ManageEngine METAL"
+    ],
+    "source_article": [
+      "AOMEI Backupper supply-chain compromise: Investigation and analysis"
+    ],
+    "source_url": [
+      "https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html"
+    ],
+    "article_published_date": [
+      "2026-10-16T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-20T13:00:00Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Domain retained as a direct RemoteUrl hunting pivot.",
+    "sources": [
+      {
+        "organization": "ManageEngine METAL",
+        "article_title": "AOMEI Backupper supply-chain compromise: Investigation and analysis",
+        "url": "https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html",
+        "published_at": "2026-10-16T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-18T11:00:00Z",
+        "discovery_context": [
+          "ManageEngine documents this vendor-themed domain as the package delivery infrastructure used in the AOMEI compromise."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "8.218.65.184",
+    "ioc_type": "ipv4",
+    "original_ioc": "8.218.65.184",
+    "hunt_ioc": "8.218.65.184",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "UNC7017 ephemeral AOMEI supply-chain compromise",
+    "malware_family": "SHINYROAD",
+    "threat_actor": "UNC7017",
+    "source_organization": [
+      "ManageEngine METAL"
+    ],
+    "source_article": [
+      "AOMEI Backupper supply-chain compromise: Investigation and analysis"
+    ],
+    "source_url": [
+      "https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html"
+    ],
+    "article_published_date": [
+      "2026-10-16T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-20T13:00:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Public IPv4 normalized for network hunting.",
+    "sources": [
+      {
+        "organization": "ManageEngine METAL",
+        "article_title": "AOMEI Backupper supply-chain compromise: Investigation and analysis",
+        "url": "https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html",
+        "published_at": "2026-10-16T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-18T11:00:00Z",
+        "discovery_context": [
+          "ManageEngine identifies this public IPv4 as the SHINYROAD command-and-control endpoint on TCP 41397."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "100657d3e205bfd0e96f1c088ae1739b50657592a696201467b4c65b7d36289a",
+    "ioc_type": "sha256",
+    "original_ioc": "100657d3e205bfd0e96f1c088ae1739b50657592a696201467b4c65b7d36289a",
+    "hunt_ioc": "100657d3e205bfd0e96f1c088ae1739b50657592a696201467b4c65b7d36289a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "UNC7017 ephemeral AOMEI supply-chain compromise",
+    "malware_family": "SHINYROAD",
+    "threat_actor": "UNC7017",
+    "source_organization": [
+      "ManageEngine METAL"
+    ],
+    "source_article": [
+      "AOMEI Backupper supply-chain compromise: Investigation and analysis"
+    ],
+    "source_url": [
+      "https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html"
+    ],
+    "article_published_date": [
+      "2026-10-16T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-20T13:00:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current primary-research hash.",
+    "sources": [
+      {
+        "organization": "ManageEngine METAL",
+        "article_title": "AOMEI Backupper supply-chain compromise: Investigation and analysis",
+        "url": "https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html",
+        "published_at": "2026-10-16T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-18T11:00:00Z",
+        "discovery_context": [
+          "ManageEngine lists this SHA-256 for the WNTestdll.dll component associated with the campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "130c3970f1c900191615b99d8be522d6a488a3d3b73938896ed937092007d96a",
+    "ioc_type": "sha256",
+    "original_ioc": "130c3970f1c900191615b99d8be522d6a488a3d3b73938896ed937092007d96a",
+    "hunt_ioc": "130c3970f1c900191615b99d8be522d6a488a3d3b73938896ed937092007d96a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "UNC7017 ephemeral AOMEI supply-chain compromise",
+    "malware_family": "CROSSROAD",
+    "threat_actor": "UNC7017",
+    "source_organization": [
+      "ManageEngine METAL"
+    ],
+    "source_article": [
+      "AOMEI Backupper supply-chain compromise: Investigation and analysis"
+    ],
+    "source_url": [
+      "https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html"
+    ],
+    "article_published_date": [
+      "2026-10-16T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-20T13:00:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current primary-research hash.",
+    "sources": [
+      {
+        "organization": "ManageEngine METAL",
+        "article_title": "AOMEI Backupper supply-chain compromise: Investigation and analysis",
+        "url": "https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html",
+        "published_at": "2026-10-16T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-18T11:00:00Z",
+        "discovery_context": [
+          "ManageEngine lists this SHA-256 for the upgrade-now.exe dropper captured at an affected endpoint."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2e3b4bfb86224f079b8762ce78bb7ff10afdbf8421b08b23e96429f2e1ee7b50",
+    "ioc_type": "sha256",
+    "original_ioc": "2e3b4bfb86224f079b8762ce78bb7ff10afdbf8421b08b23e96429f2e1ee7b50",
+    "hunt_ioc": "2e3b4bfb86224f079b8762ce78bb7ff10afdbf8421b08b23e96429f2e1ee7b50",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "UNC7017 ephemeral AOMEI supply-chain compromise",
+    "malware_family": "CROSSROAD",
+    "threat_actor": "UNC7017",
+    "source_organization": [
+      "ManageEngine METAL"
+    ],
+    "source_article": [
+      "AOMEI Backupper supply-chain compromise: Investigation and analysis"
+    ],
+    "source_url": [
+      "https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html"
+    ],
+    "article_published_date": [
+      "2026-10-16T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-20T13:00:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current primary-research hash.",
+    "sources": [
+      {
+        "organization": "ManageEngine METAL",
+        "article_title": "AOMEI Backupper supply-chain compromise: Investigation and analysis",
+        "url": "https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html",
+        "published_at": "2026-10-16T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-18T11:00:00Z",
+        "discovery_context": [
+          "ManageEngine lists this SHA-256 for the tampered Notifycfg.ini configuration observed in the campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "53b7d01163ccb679001f20e4a8a5e1f33d5d2837c375315f6514cc820f81bd12",
+    "ioc_type": "sha256",
+    "original_ioc": "53b7d01163ccb679001f20e4a8a5e1f33d5d2837c375315f6514cc820f81bd12",
+    "hunt_ioc": "53b7d01163ccb679001f20e4a8a5e1f33d5d2837c375315f6514cc820f81bd12",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "UNC7017 ephemeral AOMEI supply-chain compromise",
+    "malware_family": "CROSSROAD",
+    "threat_actor": "UNC7017",
+    "source_organization": [
+      "ManageEngine METAL"
+    ],
+    "source_article": [
+      "AOMEI Backupper supply-chain compromise: Investigation and analysis"
+    ],
+    "source_url": [
+      "https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html"
+    ],
+    "article_published_date": [
+      "2026-10-16T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-20T13:00:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current primary-research hash.",
+    "sources": [
+      {
+        "organization": "ManageEngine METAL",
+        "article_title": "AOMEI Backupper supply-chain compromise: Investigation and analysis",
+        "url": "https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html",
+        "published_at": "2026-10-16T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-18T11:00:00Z",
+        "discovery_context": [
+          "ManageEngine lists this SHA-256 for the hunted VirusTotal sample associated with the campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "5837bc26a73cfb46ffd466cf889f03ce2f6a48f1f3fd42ec8be22189d51cab1e",
+    "ioc_type": "sha256",
+    "original_ioc": "5837bc26a73cfb46ffd466cf889f03ce2f6a48f1f3fd42ec8be22189d51cab1e",
+    "hunt_ioc": "5837bc26a73cfb46ffd466cf889f03ce2f6a48f1f3fd42ec8be22189d51cab1e",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "UNC7017 ephemeral AOMEI supply-chain compromise",
+    "malware_family": "SHINYROAD",
+    "threat_actor": "UNC7017",
+    "source_organization": [
+      "ManageEngine METAL"
+    ],
+    "source_article": [
+      "AOMEI Backupper supply-chain compromise: Investigation and analysis"
+    ],
+    "source_url": [
+      "https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html"
+    ],
+    "article_published_date": [
+      "2026-10-16T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-20T13:00:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current primary-research hash.",
+    "sources": [
+      {
+        "organization": "ManageEngine METAL",
+        "article_title": "AOMEI Backupper supply-chain compromise: Investigation and analysis",
+        "url": "https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html",
+        "published_at": "2026-10-16T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-18T11:00:00Z",
+        "discovery_context": [
+          "ManageEngine lists this SHA-256 for the attacker-built BlkScrDl.dll side-loading component."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a984fdb0830760446d2b599b263506e01fcf1e560a31a057c3bbe7b3f8ac155d",
+    "ioc_type": "sha256",
+    "original_ioc": "a984fdb0830760446d2b599b263506e01fcf1e560a31a057c3bbe7b3f8ac155d",
+    "hunt_ioc": "a984fdb0830760446d2b599b263506e01fcf1e560a31a057c3bbe7b3f8ac155d",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "UNC7017 ephemeral AOMEI supply-chain compromise",
+    "malware_family": "CROSSROAD",
+    "threat_actor": "UNC7017",
+    "source_organization": [
+      "ManageEngine METAL"
+    ],
+    "source_article": [
+      "AOMEI Backupper supply-chain compromise: Investigation and analysis"
+    ],
+    "source_url": [
+      "https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html"
+    ],
+    "article_published_date": [
+      "2026-10-16T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-20T13:00:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current primary-research hash.",
+    "sources": [
+      {
+        "organization": "ManageEngine METAL",
+        "article_title": "AOMEI Backupper supply-chain compromise: Investigation and analysis",
+        "url": "https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html",
+        "published_at": "2026-10-16T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-18T11:00:00Z",
+        "discovery_context": [
+          "ManageEngine lists this SHA-256 for the tampered down_html.ini configuration observed in the campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "d167bc898e856da8a4003cb4dfc7de55fea109eee3cd64fc8999710314109464",
+    "ioc_type": "sha256",
+    "original_ioc": "d167bc898e856da8a4003cb4dfc7de55fea109eee3cd64fc8999710314109464",
+    "hunt_ioc": "d167bc898e856da8a4003cb4dfc7de55fea109eee3cd64fc8999710314109464",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "UNC7017 ephemeral AOMEI supply-chain compromise",
+    "malware_family": "SHINYROAD",
+    "threat_actor": "UNC7017",
+    "source_organization": [
+      "ManageEngine METAL"
+    ],
+    "source_article": [
+      "AOMEI Backupper supply-chain compromise: Investigation and analysis"
+    ],
+    "source_url": [
+      "https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html"
+    ],
+    "article_published_date": [
+      "2026-10-16T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-20T13:00:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current primary-research hash.",
+    "sources": [
+      {
+        "organization": "ManageEngine METAL",
+        "article_title": "AOMEI Backupper supply-chain compromise: Investigation and analysis",
+        "url": "https://www.manageengine.com/threat-analysis-lab/aomei-backupper-supply-chain-compromise.html",
+        "published_at": "2026-10-16T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-18T11:00:00Z",
+        "discovery_context": [
+          "ManageEngine lists this SHA-256 for the malicious component.zip payload in the Radmin installation path."
+        ]
+      }
+    ]
+  }
+]
