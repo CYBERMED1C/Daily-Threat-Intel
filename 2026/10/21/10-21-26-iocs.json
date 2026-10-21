@@ -1,0 +1,425 @@
+[
+  {
+    "ioc": "102.220.163.192",
+    "ioc_type": "ipv4",
+    "original_ioc": "102.220.163.192",
+    "hunt_ioc": "102.220.163.192",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Remcos command-and-control",
+    "malware_family": "RemcosRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1978051 - current Remcos command-and-control"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1978051/"
+    ],
+    "article_published_date": [
+      "2026-10-21T11:11:06Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-21T13:00:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Port retained in source context; IOC normalized to IPv4.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1978051 - current Remcos command-and-control",
+        "url": "https://threatfox.abuse.ch/ioc/1978051/",
+        "published_at": "2026-10-21T11:11:06Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-19T13:00:00Z",
+        "discovery_context": [
+          "The current individual ThreatFox record identifies this public IPv4 and port as Remcos/RemcosRAT C2, first seen October 21."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "155.117.98.165",
+    "ioc_type": "ipv4",
+    "original_ioc": "155.117.98.165",
+    "hunt_ioc": "155.117.98.165",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current ValleyRAT command-and-control",
+    "malware_family": "ValleyRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1978091 - current ValleyRAT command-and-control"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1978091/"
+    ],
+    "article_published_date": [
+      "2026-10-21T11:50:19Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-21T13:00:00Z",
+    "confidence": 75,
+    "acceptance_score": 75,
+    "status": "NEW",
+    "notes": "Port retained in source context; IOC normalized to IPv4.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1978091 - current ValleyRAT command-and-control",
+        "url": "https://threatfox.abuse.ch/ioc/1978091/",
+        "published_at": "2026-10-21T11:50:19Z",
+        "updated_at": null,
+        "reliability": 0.75,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-19T13:00:00Z",
+        "discovery_context": [
+          "The current individual ThreatFox record identifies this public IPv4 and port as ValleyRAT/Winos botnet C2, first seen October 21."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "178.16.53.56",
+    "ioc_type": "ipv4",
+    "original_ioc": "178.16.53.56",
+    "hunt_ioc": "178.16.53.56",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Aisuru command-and-control",
+    "malware_family": "Aisuru",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1978011 - current Aisuru command-and-control"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1978011/"
+    ],
+    "article_published_date": [
+      "2026-10-21T10:19:44Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-21T13:00:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Port retained in source context; IOC normalized to IPv4.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1978011 - current Aisuru command-and-control",
+        "url": "https://threatfox.abuse.ch/ioc/1978011/",
+        "published_at": "2026-10-21T10:19:44Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-19T13:00:00Z",
+        "discovery_context": [
+          "The current individual ThreatFox record identifies this public IPv4 and port as Aisuru botnet C2, first seen October 21."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "01f57206d37c28cf711677f612052913",
+    "ioc_type": "md5",
+    "original_ioc": "01f57206d37c28cf711677f612052913",
+    "hunt_ioc": "01f57206d37c28cf711677f612052913",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "OVHcloud CLI release compromise",
+    "malware_family": "Secret-stealing malware",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OVHcloud"
+    ],
+    "source_article": [
+      "ovhcloud-cli security incident - October 19th, 2026"
+    ],
+    "source_url": [
+      "https://github.com/ovh/ovhcloud-cli/security/advisories/GHSA-862f-55f5-vmvw"
+    ],
+    "article_published_date": [
+      "2026-10-20T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-21T13:00:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Do not execute; compare only against collected file hashes.",
+    "sources": [
+      {
+        "organization": "OVHcloud",
+        "article_title": "ovhcloud-cli security incident - October 19th, 2026",
+        "url": "https://github.com/ovh/ovhcloud-cli/security/advisories/GHSA-862f-55f5-vmvw",
+        "published_at": "2026-10-20T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-19T13:00:00Z",
+        "discovery_context": [
+          "OVHcloud lists this MD5 as the compromised Linux arm64 release binary served during the October 19 tampering window."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "301bff0b51980b9e76c93633e7cfd3bd",
+    "ioc_type": "md5",
+    "original_ioc": "301bff0b51980b9e76c93633e7cfd3bd",
+    "hunt_ioc": "301bff0b51980b9e76c93633e7cfd3bd",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "OVHcloud CLI release compromise",
+    "malware_family": "Secret-stealing malware",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OVHcloud"
+    ],
+    "source_article": [
+      "ovhcloud-cli security incident - October 19th, 2026"
+    ],
+    "source_url": [
+      "https://github.com/ovh/ovhcloud-cli/security/advisories/GHSA-862f-55f5-vmvw"
+    ],
+    "article_published_date": [
+      "2026-10-20T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-21T13:00:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Do not execute; compare only against collected file hashes.",
+    "sources": [
+      {
+        "organization": "OVHcloud",
+        "article_title": "ovhcloud-cli security incident - October 19th, 2026",
+        "url": "https://github.com/ovh/ovhcloud-cli/security/advisories/GHSA-862f-55f5-vmvw",
+        "published_at": "2026-10-20T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-19T13:00:00Z",
+        "discovery_context": [
+          "OVHcloud lists this MD5 as the compromised Linux x86_64 release binary served during the October 19 tampering window."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "347e65eb7f2d78d1c6872690272a6cc3",
+    "ioc_type": "md5",
+    "original_ioc": "347e65eb7f2d78d1c6872690272a6cc3",
+    "hunt_ioc": "347e65eb7f2d78d1c6872690272a6cc3",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "OVHcloud CLI release compromise",
+    "malware_family": "Secret-stealing malware",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OVHcloud"
+    ],
+    "source_article": [
+      "ovhcloud-cli security incident - October 19th, 2026"
+    ],
+    "source_url": [
+      "https://github.com/ovh/ovhcloud-cli/security/advisories/GHSA-862f-55f5-vmvw"
+    ],
+    "article_published_date": [
+      "2026-10-20T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-21T13:00:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Do not execute; compare only against collected file hashes.",
+    "sources": [
+      {
+        "organization": "OVHcloud",
+        "article_title": "ovhcloud-cli security incident - October 19th, 2026",
+        "url": "https://github.com/ovh/ovhcloud-cli/security/advisories/GHSA-862f-55f5-vmvw",
+        "published_at": "2026-10-20T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-19T13:00:00Z",
+        "discovery_context": [
+          "OVHcloud lists this MD5 as the compromised Darwin x86_64 release binary served during the October 19 tampering window."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "6a3cf153338c416169cda2fe704c8848",
+    "ioc_type": "md5",
+    "original_ioc": "6a3cf153338c416169cda2fe704c8848",
+    "hunt_ioc": "6a3cf153338c416169cda2fe704c8848",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "OVHcloud CLI release compromise",
+    "malware_family": "Secret-stealing malware",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OVHcloud"
+    ],
+    "source_article": [
+      "ovhcloud-cli security incident - October 19th, 2026"
+    ],
+    "source_url": [
+      "https://github.com/ovh/ovhcloud-cli/security/advisories/GHSA-862f-55f5-vmvw"
+    ],
+    "article_published_date": [
+      "2026-10-20T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-21T13:00:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Do not execute; compare only against collected file hashes.",
+    "sources": [
+      {
+        "organization": "OVHcloud",
+        "article_title": "ovhcloud-cli security incident - October 19th, 2026",
+        "url": "https://github.com/ovh/ovhcloud-cli/security/advisories/GHSA-862f-55f5-vmvw",
+        "published_at": "2026-10-20T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-19T13:00:00Z",
+        "discovery_context": [
+          "OVHcloud lists this MD5 as the compromised Windows x86_64 release binary served during the October 19 tampering window."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "6f2f086239f3d88eb2750e871901927d",
+    "ioc_type": "md5",
+    "original_ioc": "6f2f086239f3d88eb2750e871901927d",
+    "hunt_ioc": "6f2f086239f3d88eb2750e871901927d",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "OVHcloud CLI release compromise",
+    "malware_family": "Secret-stealing malware",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OVHcloud"
+    ],
+    "source_article": [
+      "ovhcloud-cli security incident - October 19th, 2026"
+    ],
+    "source_url": [
+      "https://github.com/ovh/ovhcloud-cli/security/advisories/GHSA-862f-55f5-vmvw"
+    ],
+    "article_published_date": [
+      "2026-10-20T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-21T13:00:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Do not execute; compare only against collected file hashes.",
+    "sources": [
+      {
+        "organization": "OVHcloud",
+        "article_title": "ovhcloud-cli security incident - October 19th, 2026",
+        "url": "https://github.com/ovh/ovhcloud-cli/security/advisories/GHSA-862f-55f5-vmvw",
+        "published_at": "2026-10-20T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-19T13:00:00Z",
+        "discovery_context": [
+          "OVHcloud lists this MD5 as the compromised Darwin arm64 release binary served during the October 19 tampering window."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://vydga2.xyz:5621/documents",
+    "ioc_type": "url",
+    "original_ioc": "http://vydga2.xyz:5621/documents",
+    "hunt_ioc": "vydga2.xyz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current Remus command-and-control",
+    "malware_family": "Remus",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1978016 - current Remus command-and-control URL"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1978016/"
+    ],
+    "article_published_date": [
+      "2026-10-21T10:24:10Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-21T13:00:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Exact URL retained for documentation; hunting normalizes it to public host vydga2.xyz.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1978016 - current Remus command-and-control URL",
+        "url": "https://threatfox.abuse.ch/ioc/1978016/",
+        "published_at": "2026-10-21T10:24:10Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-19T13:00:00Z",
+        "discovery_context": [
+          "The current individual ThreatFox record identifies this exact URL as Remus botnet C2, first seen October 21."
+        ]
+      }
+    ]
+  }
+]
