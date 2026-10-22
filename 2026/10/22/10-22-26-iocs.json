@@ -1,1 +1,284 @@
-[]
+[
+  {
+    "ioc": "103.114.163.188",
+    "ioc_type": "ipv4",
+    "original_ioc": "103.114.163.188",
+    "hunt_ioc": "103.114.163.188",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell CVE-2026-109618/CVE-2026-109619 exploitation",
+    "malware_family": "PHP2Shell exploit activity",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Amazon Web Services Threat Intelligence"
+    ],
+    "source_article": [
+      "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot"
+    ],
+    "source_url": [
+      "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/"
+    ],
+    "article_published_date": [
+      "2026-10-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-22T13:30:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "AWS identifies shared anonymization infrastructure; investigate matching observations rather than block automatically.",
+    "sources": [
+      {
+        "organization": "Amazon Web Services Threat Intelligence",
+        "article_title": "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot",
+        "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+        "published_at": "2026-10-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-20T11:00:00Z",
+        "discovery_context": [
+          "AWS lists this public IPv4 in the PHP2Shell exploitation IOC table, observed October 21, 2026, in MadPot telemetry."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "103.216.220.92",
+    "ioc_type": "ipv4",
+    "original_ioc": "103.216.220.92",
+    "hunt_ioc": "103.216.220.92",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell CVE-2026-109618/CVE-2026-109619 exploitation",
+    "malware_family": "PHP2Shell exploit activity",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Amazon Web Services Threat Intelligence"
+    ],
+    "source_article": [
+      "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot"
+    ],
+    "source_url": [
+      "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/"
+    ],
+    "article_published_date": [
+      "2026-10-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-22T13:30:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "AWS identifies shared anonymization infrastructure; investigate matching observations rather than block automatically.",
+    "sources": [
+      {
+        "organization": "Amazon Web Services Threat Intelligence",
+        "article_title": "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot",
+        "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+        "published_at": "2026-10-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-20T11:00:00Z",
+        "discovery_context": [
+          "AWS lists this public IPv4 in the PHP2Shell exploitation IOC table, observed October 17, 2026, in MadPot telemetry."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "134.209.159.64",
+    "ioc_type": "ipv4",
+    "original_ioc": "134.209.159.64",
+    "hunt_ioc": "134.209.159.64",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell CVE-2026-109618/CVE-2026-109619 exploitation",
+    "malware_family": "PHP2Shell exploit activity",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Amazon Web Services Threat Intelligence"
+    ],
+    "source_article": [
+      "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot"
+    ],
+    "source_url": [
+      "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/"
+    ],
+    "article_published_date": [
+      "2026-10-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-22T13:30:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "AWS identifies shared anonymization infrastructure; investigate matching observations rather than block automatically.",
+    "sources": [
+      {
+        "organization": "Amazon Web Services Threat Intelligence",
+        "article_title": "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot",
+        "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+        "published_at": "2026-10-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-20T11:00:00Z",
+        "discovery_context": [
+          "AWS lists this public IPv4 in the PHP2Shell exploitation IOC table, observed October 21, 2026, in MadPot telemetry."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "31.223.184.166",
+    "ioc_type": "ipv4",
+    "original_ioc": "31.223.184.166",
+    "hunt_ioc": "31.223.184.166",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell CVE-2026-109618/CVE-2026-109619 exploitation",
+    "malware_family": "PHP2Shell exploit activity",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Amazon Web Services Threat Intelligence"
+    ],
+    "source_article": [
+      "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot"
+    ],
+    "source_url": [
+      "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/"
+    ],
+    "article_published_date": [
+      "2026-10-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-22T13:30:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "AWS identifies shared anonymization infrastructure; investigate matching observations rather than block automatically.",
+    "sources": [
+      {
+        "organization": "Amazon Web Services Threat Intelligence",
+        "article_title": "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot",
+        "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+        "published_at": "2026-10-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-20T11:00:00Z",
+        "discovery_context": [
+          "AWS lists this public IPv4 in the PHP2Shell exploitation IOC table, observed October 21, 2026, in MadPot telemetry."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "37.19.200.5",
+    "ioc_type": "ipv4",
+    "original_ioc": "37.19.200.5",
+    "hunt_ioc": "37.19.200.5",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell CVE-2026-109618/CVE-2026-109619 exploitation",
+    "malware_family": "PHP2Shell exploit activity",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Amazon Web Services Threat Intelligence"
+    ],
+    "source_article": [
+      "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot"
+    ],
+    "source_url": [
+      "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/"
+    ],
+    "article_published_date": [
+      "2026-10-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-22T13:30:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "AWS identifies shared anonymization infrastructure; investigate matching observations rather than block automatically.",
+    "sources": [
+      {
+        "organization": "Amazon Web Services Threat Intelligence",
+        "article_title": "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot",
+        "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+        "published_at": "2026-10-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-20T11:00:00Z",
+        "discovery_context": [
+          "AWS lists this public IPv4 in the PHP2Shell exploitation IOC table, observed October 21, 2026, in MadPot telemetry."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "95.217.98.37",
+    "ioc_type": "ipv4",
+    "original_ioc": "95.217.98.37",
+    "hunt_ioc": "95.217.98.37",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell CVE-2026-109618/CVE-2026-109619 exploitation",
+    "malware_family": "PHP2Shell exploit activity",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Amazon Web Services Threat Intelligence"
+    ],
+    "source_article": [
+      "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot"
+    ],
+    "source_url": [
+      "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/"
+    ],
+    "article_published_date": [
+      "2026-10-21T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-22T13:30:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "AWS identifies shared anonymization infrastructure; investigate matching observations rather than block automatically.",
+    "sources": [
+      {
+        "organization": "Amazon Web Services Threat Intelligence",
+        "article_title": "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot",
+        "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+        "published_at": "2026-10-21T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-20T11:00:00Z",
+        "discovery_context": [
+          "AWS lists this public IPv4 in the PHP2Shell exploitation IOC table, observed October 21, 2026, in MadPot telemetry."
+        ]
+      }
+    ]
+  }
+]

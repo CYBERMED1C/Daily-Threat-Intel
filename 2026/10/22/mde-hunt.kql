@@ -5,4 +5,8 @@
 // MITRE ATT&CK mapping: N/A - IOC lookup
 // Notes: One runnable query; exact IOC filters precede the 500-result limit.
 // Sources: See the daily IOC summary for 2026-10-22.
-print Status="No qualifying huntable IOCs were published for this business date"
+DeviceNetworkEvents
+| where Timestamp >= ago(30d)
+| where RemoteIP in~ ("103.114.163.188","103.216.220.92","134.209.159.64","31.223.184.166","37.19.200.5","95.217.98.37")
+| project Timestamp,DeviceName,RemoteIP,RemotePort,RemoteUrl,InitiatingProcessFileName
+| top 500 by Timestamp desc
