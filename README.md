@@ -1,17 +1,19 @@
-> [!IMPORTANT]
-> **TLP:CLEAR**
->
-> All included data was obtained from publicly available sources.
-
 <!-- CYBERMEDIC-LIVE-STATUS:START -->
 ## Live status
 
 🟢 **Operational**
 
-**Last push:** 2026-10-22 13:21 UTC
+**Last push:** 2026-10-23 13:02 UTC
 
 **Overall health:** Healthy
 <!-- CYBERMEDIC-LIVE-STATUS:END -->
+
+> [!IMPORTANT]
+> **TLP:CLEAR**
+>
+> All included data was obtained from publicly available sources.
+
+
 
 # CYBERMEDIC Daily Threat Intelligence
 
