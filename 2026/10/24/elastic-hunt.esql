@@ -1,0 +1,11 @@
+/* Query name: CYBERMEDIC Daily IOC Hunt */
+/* Description: Search 30-day Elastic Defend telemetry for validated IOC values. */
+/* Author: CYBERMEDIC */
+/* Last updated: 2026-10-24 */
+/* Notes: One runnable query; exact IOC filters precede newest-first results. */
+FROM logs-endpoint.events.*
+| WHERE @timestamp >= NOW() - 30 DAYS
+| WHERE destination.ip IN ("102.210.149.166","109.71.252.97","122.10.110.72","134.199.154.64","194.42.196.44","206.188.197.105","217.60.242.76","221.14.159.134","34.19.34.88","34.76.218.47","34.76.232.95","38.180.45.91","45.198.224.169","80.66.66.66","85.11.167.243","87.192.237.19","91.90.123.25","92.118.112.100","94.154.43.7") OR file.hash.sha256 IN ("1485e14e0f62bc94664eec341cabd275dad7d30b1d496c40ec340c9a0d9f0ba8","150ae88f0999032e2a6113501d6082f54a3ed98d02427b21a96e773a27d7bf16","27d926a6708d6769d97d065e7a5a860ab496eab272c03d1cebc55ec71b954fa2","40caf199ca1ebe056a74427f8e9db06c66899e33ae09c0ec2769ec70bf6dd8e7")
+| KEEP @timestamp,host.name,process.name,file.name,file.path,destination.ip,destination.port,destination.domain,file.hash.md5,file.hash.sha1,file.hash.sha256
+| SORT @timestamp DESC
+| LIMIT 500

@@ -1,0 +1,1083 @@
+[
+  {
+    "ioc": "102.210.149.166",
+    "ioc_type": "ipv4",
+    "original_ioc": "102.210.149.166",
+    "hunt_ioc": "102.210.149.166",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell exploit tooling host",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "The Hacker News"
+    ],
+    "source_article": [
+      "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware"
+    ],
+    "source_url": [
+      "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html"
+    ],
+    "article_published_date": [
+      "2026-10-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 85,
+    "acceptance_score": 85,
+    "status": "NEW",
+    "notes": "Investigate matches before blocking shared infrastructure.",
+    "sources": [
+      {
+        "organization": "The Hacker News",
+        "article_title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+        "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+        "published_at": "2026-10-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.85,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "The Hacker News reports this public address among open directories holding PHP2Shell-related exploit tooling."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "109.71.252.97",
+    "ioc_type": "ipv4",
+    "original_ioc": "109.71.252.97",
+    "hunt_ioc": "109.71.252.97",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell exploit probing",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "VulnCheck"
+    ],
+    "source_article": [
+      "PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619"
+    ],
+    "source_url": [
+      "https://www.vulncheck.io/blog/php2shell-vulnerabilities"
+    ],
+    "article_published_date": [
+      "2026-10-21T15:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Use for log hunting; hosting IPs rotate quickly.",
+    "sources": [
+      {
+        "organization": "VulnCheck",
+        "article_title": "PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619",
+        "url": "https://www.vulncheck.io/blog/php2shell-vulnerabilities",
+        "published_at": "2026-10-21T15:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "VulnCheck observed this address enumerating PHP information pages and probing for PHP2Shell web-shell paths."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "122.10.110.72",
+    "ioc_type": "ipv4",
+    "original_ioc": "122.10.110.72",
+    "hunt_ioc": "122.10.110.72",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell exploit tooling host",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "The Hacker News"
+    ],
+    "source_article": [
+      "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware"
+    ],
+    "source_url": [
+      "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html"
+    ],
+    "article_published_date": [
+      "2026-10-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 85,
+    "acceptance_score": 85,
+    "status": "NEW",
+    "notes": "Investigate matches before blocking shared infrastructure.",
+    "sources": [
+      {
+        "organization": "The Hacker News",
+        "article_title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+        "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+        "published_at": "2026-10-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.85,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "The Hacker News reports this public address among open directories holding PHP2Shell-related exploit tooling."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "134.199.154.64",
+    "ioc_type": "ipv4",
+    "original_ioc": "134.199.154.64",
+    "hunt_ioc": "134.199.154.64",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell Potassium command and control",
+    "malware_family": "Potassium Mirai variant",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "The Hacker News"
+    ],
+    "source_article": [
+      "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware"
+    ],
+    "source_url": [
+      "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html"
+    ],
+    "article_published_date": [
+      "2026-10-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "The sample uses TCP port 50792; hunt the IP pivot in network telemetry.",
+    "sources": [
+      {
+        "organization": "The Hacker News",
+        "article_title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+        "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+        "published_at": "2026-10-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "Sophos-linked analysis reports that the Potassium sample resolved this public address for its TCP command-and-control channel."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "194.42.196.44",
+    "ioc_type": "ipv4",
+    "original_ioc": "194.42.196.44",
+    "hunt_ioc": "194.42.196.44",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell oversized-body probing",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OffSeq"
+    ],
+    "source_article": [
+      "PHP2Shell in the wild: the first 48 hours on a honeypot fleet"
+    ],
+    "source_url": [
+      "https://php2shell.eu/guides/php2shell-in-the-wild/"
+    ],
+    "article_published_date": [
+      "2026-10-22T16:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 80,
+    "acceptance_score": 80,
+    "status": "NEW",
+    "notes": "Observed October 18; retained for the vulnerability look-back window.",
+    "sources": [
+      {
+        "organization": "OffSeq",
+        "article_title": "PHP2Shell in the wild: the first 48 hours on a honeypot fleet",
+        "url": "https://php2shell.eu/guides/php2shell-in-the-wild/",
+        "published_at": "2026-10-22T16:00:00Z",
+        "updated_at": null,
+        "reliability": 0.8,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "OffSeq recorded a two-megabyte PHP2Shell-shaped request from this address against a WordPress decoy endpoint."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "206.188.197.105",
+    "ioc_type": "ipv4",
+    "original_ioc": "206.188.197.105",
+    "hunt_ioc": "206.188.197.105",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell exploit tooling host",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "The Hacker News"
+    ],
+    "source_article": [
+      "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware"
+    ],
+    "source_url": [
+      "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html"
+    ],
+    "article_published_date": [
+      "2026-10-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Source context lists port 9999 for the tooling service.",
+    "sources": [
+      {
+        "organization": "The Hacker News",
+        "article_title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+        "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+        "published_at": "2026-10-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "SOCRadar identified this public address as an exposed attacker-controlled server hosting PHP2Shell exploit tooling."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "217.60.242.76",
+    "ioc_type": "ipv4",
+    "original_ioc": "217.60.242.76",
+    "hunt_ioc": "217.60.242.76",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell scanning",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OffSeq"
+    ],
+    "source_article": [
+      "PHP2Shell in the wild: the first 48 hours on a honeypot fleet"
+    ],
+    "source_url": [
+      "https://php2shell.eu/guides/php2shell-in-the-wild/"
+    ],
+    "article_published_date": [
+      "2026-10-22T16:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 80,
+    "acceptance_score": 80,
+    "status": "NEW",
+    "notes": "Investigate matches before blocking.",
+    "sources": [
+      {
+        "organization": "OffSeq",
+        "article_title": "PHP2Shell in the wild: the first 48 hours on a honeypot fleet",
+        "url": "https://php2shell.eu/guides/php2shell-in-the-wild/",
+        "published_at": "2026-10-22T16:00:00Z",
+        "updated_at": null,
+        "reliability": 0.8,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "OffSeq recorded this public address sending a minimal PHP2Shell-shaped probe to a decoy fleet."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "221.14.159.134",
+    "ioc_type": "ipv4",
+    "original_ioc": "221.14.159.134",
+    "hunt_ioc": "221.14.159.134",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell exploitation attempt",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "VulnCheck"
+    ],
+    "source_article": [
+      "PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619"
+    ],
+    "source_url": [
+      "https://www.vulncheck.io/blog/php2shell-vulnerabilities"
+    ],
+    "article_published_date": [
+      "2026-10-21T15:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Investigate for follow-up requests and session artifacts.",
+    "sources": [
+      {
+        "organization": "VulnCheck",
+        "article_title": "PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619",
+        "url": "https://www.vulncheck.io/blog/php2shell-vulnerabilities",
+        "published_at": "2026-10-21T15:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "VulnCheck observed a multipart PHP2Shell upload-progress attempt and follow-up php://filter reads from this address; all reads returned 404."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "34.19.34.88",
+    "ioc_type": "ipv4",
+    "original_ioc": "34.19.34.88",
+    "hunt_ioc": "34.19.34.88",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell memory-pressure probing",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OffSeq"
+    ],
+    "source_article": [
+      "PHP2Shell in the wild: the first 48 hours on a honeypot fleet"
+    ],
+    "source_url": [
+      "https://php2shell.eu/guides/php2shell-in-the-wild/"
+    ],
+    "article_published_date": [
+      "2026-10-22T16:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 85,
+    "acceptance_score": 85,
+    "status": "NEW",
+    "notes": "Cloud address; investigate matches before blocking.",
+    "sources": [
+      {
+        "organization": "OffSeq",
+        "article_title": "PHP2Shell in the wild: the first 48 hours on a honeypot fleet",
+        "url": "https://php2shell.eu/guides/php2shell-in-the-wild/",
+        "published_at": "2026-10-22T16:00:00Z",
+        "updated_at": null,
+        "reliability": 0.85,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "OffSeq observed an oversized PHP2Shell memory-pressure request from this Google Cloud address before fixed releases shipped."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "34.76.218.47",
+    "ioc_type": "ipv4",
+    "original_ioc": "34.76.218.47",
+    "hunt_ioc": "34.76.218.47",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell memory-pressure probing",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OffSeq"
+    ],
+    "source_article": [
+      "PHP2Shell in the wild: the first 48 hours on a honeypot fleet"
+    ],
+    "source_url": [
+      "https://php2shell.eu/guides/php2shell-in-the-wild/"
+    ],
+    "article_published_date": [
+      "2026-10-22T16:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 85,
+    "acceptance_score": 85,
+    "status": "NEW",
+    "notes": "Cloud address; investigate matches before blocking.",
+    "sources": [
+      {
+        "organization": "OffSeq",
+        "article_title": "PHP2Shell in the wild: the first 48 hours on a honeypot fleet",
+        "url": "https://php2shell.eu/guides/php2shell-in-the-wild/",
+        "published_at": "2026-10-22T16:00:00Z",
+        "updated_at": null,
+        "reliability": 0.85,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "OffSeq observed an oversized PHP2Shell request from this Google Cloud address against a low-interaction decoy."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "34.76.232.95",
+    "ioc_type": "ipv4",
+    "original_ioc": "34.76.232.95",
+    "hunt_ioc": "34.76.232.95",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell memory-pressure probing",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OffSeq"
+    ],
+    "source_article": [
+      "PHP2Shell in the wild: the first 48 hours on a honeypot fleet"
+    ],
+    "source_url": [
+      "https://php2shell.eu/guides/php2shell-in-the-wild/"
+    ],
+    "article_published_date": [
+      "2026-10-22T16:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 85,
+    "acceptance_score": 85,
+    "status": "NEW",
+    "notes": "Cloud address; investigate matches before blocking.",
+    "sources": [
+      {
+        "organization": "OffSeq",
+        "article_title": "PHP2Shell in the wild: the first 48 hours on a honeypot fleet",
+        "url": "https://php2shell.eu/guides/php2shell-in-the-wild/",
+        "published_at": "2026-10-22T16:00:00Z",
+        "updated_at": null,
+        "reliability": 0.85,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "OffSeq observed an oversized PHP2Shell request from this Google Cloud address against a low-interaction decoy."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "38.180.45.91",
+    "ioc_type": "ipv4",
+    "original_ioc": "38.180.45.91",
+    "hunt_ioc": "38.180.45.91",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell scanning",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OffSeq"
+    ],
+    "source_article": [
+      "PHP2Shell in the wild: the first 48 hours on a honeypot fleet"
+    ],
+    "source_url": [
+      "https://php2shell.eu/guides/php2shell-in-the-wild/"
+    ],
+    "article_published_date": [
+      "2026-10-22T16:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 85,
+    "acceptance_score": 85,
+    "status": "NEW",
+    "notes": "Shared infrastructure; investigate matches before blocking.",
+    "sources": [
+      {
+        "organization": "OffSeq",
+        "article_title": "PHP2Shell in the wild: the first 48 hours on a honeypot fleet",
+        "url": "https://php2shell.eu/guides/php2shell-in-the-wild/",
+        "published_at": "2026-10-22T16:00:00Z",
+        "updated_at": null,
+        "reliability": 0.85,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "OffSeq observed this public source address sending a PHP2Shell session-upload-progress variant with the B8RAT/1.0 user agent."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "45.198.224.169",
+    "ioc_type": "ipv4",
+    "original_ioc": "45.198.224.169",
+    "hunt_ioc": "45.198.224.169",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell exploit probing",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "VulnCheck"
+    ],
+    "source_article": [
+      "PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619"
+    ],
+    "source_url": [
+      "https://www.vulncheck.io/blog/php2shell-vulnerabilities"
+    ],
+    "article_published_date": [
+      "2026-10-21T15:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Use for log hunting; hosting IPs rotate quickly.",
+    "sources": [
+      {
+        "organization": "VulnCheck",
+        "article_title": "PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619",
+        "url": "https://www.vulncheck.io/blog/php2shell-vulnerabilities",
+        "published_at": "2026-10-21T15:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "VulnCheck observed repeated PHP2Shell multipart probes and follow-up POST requests from this address against canary hosts."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "80.66.66.66",
+    "ioc_type": "ipv4",
+    "original_ioc": "80.66.66.66",
+    "hunt_ioc": "80.66.66.66",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell scanning",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OffSeq"
+    ],
+    "source_article": [
+      "PHP2Shell in the wild: the first 48 hours on a honeypot fleet"
+    ],
+    "source_url": [
+      "https://php2shell.eu/guides/php2shell-in-the-wild/"
+    ],
+    "article_published_date": [
+      "2026-10-22T16:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 80,
+    "acceptance_score": 80,
+    "status": "NEW",
+    "notes": "Single observed source; investigate matches before blocking.",
+    "sources": [
+      {
+        "organization": "OffSeq",
+        "article_title": "PHP2Shell in the wild: the first 48 hours on a honeypot fleet",
+        "url": "https://php2shell.eu/guides/php2shell-in-the-wild/",
+        "published_at": "2026-10-22T16:00:00Z",
+        "updated_at": null,
+        "reliability": 0.8,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "OffSeq recorded this address sending a PHP2Shell session-upload-progress request variant to decoy infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "85.11.167.243",
+    "ioc_type": "ipv4",
+    "original_ioc": "85.11.167.243",
+    "hunt_ioc": "85.11.167.243",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell exploit probing",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "VulnCheck"
+    ],
+    "source_article": [
+      "PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619"
+    ],
+    "source_url": [
+      "https://www.vulncheck.io/blog/php2shell-vulnerabilities"
+    ],
+    "article_published_date": [
+      "2026-10-21T15:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Use for log hunting; hosting IPs rotate quickly.",
+    "sources": [
+      {
+        "organization": "VulnCheck",
+        "article_title": "PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619",
+        "url": "https://www.vulncheck.io/blog/php2shell-vulnerabilities",
+        "published_at": "2026-10-21T15:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "VulnCheck observed this address probing nine canary hosts with a multipart PHP2Shell request and php2shell-scan/109618 user agent."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "87.192.237.19",
+    "ioc_type": "ipv4",
+    "original_ioc": "87.192.237.19",
+    "hunt_ioc": "87.192.237.19",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell scanning",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OffSeq"
+    ],
+    "source_article": [
+      "PHP2Shell in the wild: the first 48 hours on a honeypot fleet"
+    ],
+    "source_url": [
+      "https://php2shell.eu/guides/php2shell-in-the-wild/"
+    ],
+    "article_published_date": [
+      "2026-10-22T16:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 80,
+    "acceptance_score": 80,
+    "status": "NEW",
+    "notes": "Investigate matches before blocking.",
+    "sources": [
+      {
+        "organization": "OffSeq",
+        "article_title": "PHP2Shell in the wild: the first 48 hours on a honeypot fleet",
+        "url": "https://php2shell.eu/guides/php2shell-in-the-wild/",
+        "published_at": "2026-10-22T16:00:00Z",
+        "updated_at": null,
+        "reliability": 0.8,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "OffSeq recorded a manual PHP2Shell check from this address against its decoy fleet."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "91.90.123.25",
+    "ioc_type": "ipv4",
+    "original_ioc": "91.90.123.25",
+    "hunt_ioc": "91.90.123.25",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell exploit verification",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "VulnCheck"
+    ],
+    "source_article": [
+      "PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619"
+    ],
+    "source_url": [
+      "https://www.vulncheck.io/blog/php2shell-vulnerabilities"
+    ],
+    "article_published_date": [
+      "2026-10-21T15:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Use for WAF and web-log hunting.",
+    "sources": [
+      {
+        "organization": "VulnCheck",
+        "article_title": "PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619",
+        "url": "https://www.vulncheck.io/blog/php2shell-vulnerabilities",
+        "published_at": "2026-10-21T15:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "VulnCheck observed a php2shell-verify/1.0 check from this address against a canary host."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "92.118.112.100",
+    "ioc_type": "ipv4",
+    "original_ioc": "92.118.112.100",
+    "hunt_ioc": "92.118.112.100",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell Potassium loader retrieval",
+    "malware_family": "Potassium Mirai variant",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "The Hacker News"
+    ],
+    "source_article": [
+      "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware"
+    ],
+    "source_url": [
+      "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html"
+    ],
+    "article_published_date": [
+      "2026-10-23T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Investigate network matches in the PHP2Shell look-back window.",
+    "sources": [
+      {
+        "organization": "The Hacker News",
+        "article_title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+        "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+        "published_at": "2026-10-23T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "Sophos-linked analysis identifies this public address as the loader retrieval host contacted by PHP2Shell attack sources."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "94.154.43.7",
+    "ioc_type": "ipv4",
+    "original_ioc": "94.154.43.7",
+    "hunt_ioc": "94.154.43.7",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell scanning",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "OffSeq"
+    ],
+    "source_article": [
+      "PHP2Shell in the wild: the first 48 hours on a honeypot fleet"
+    ],
+    "source_url": [
+      "https://php2shell.eu/guides/php2shell-in-the-wild/"
+    ],
+    "article_published_date": [
+      "2026-10-22T16:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 85,
+    "acceptance_score": 85,
+    "status": "NEW",
+    "notes": "Shared infrastructure; investigate matches before blocking.",
+    "sources": [
+      {
+        "organization": "OffSeq",
+        "article_title": "PHP2Shell in the wild: the first 48 hours on a honeypot fleet",
+        "url": "https://php2shell.eu/guides/php2shell-in-the-wild/",
+        "published_at": "2026-10-22T16:00:00Z",
+        "updated_at": null,
+        "reliability": 0.85,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "OffSeq observed this public source address sending PHP2Shell session-upload-progress requests with increasing request sizes to a low-interaction decoy fleet."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "1485e14e0f62bc94664eec341cabd275dad7d30b1d496c40ec340c9a0d9f0ba8",
+    "ioc_type": "sha256",
+    "original_ioc": "1485e14e0f62bc94664eec341cabd275dad7d30b1d496c40ec340c9a0d9f0ba8",
+    "hunt_ioc": "1485e14e0f62bc94664eec341cabd275dad7d30b1d496c40ec340c9a0d9f0ba8",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "PHP2Shell follow-up request body",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "VulnCheck"
+    ],
+    "source_article": [
+      "PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619"
+    ],
+    "source_url": [
+      "https://www.vulncheck.io/blog/php2shell-vulnerabilities"
+    ],
+    "article_published_date": [
+      "2026-10-21T15:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Hunt file telemetry and preserved request-body artifacts.",
+    "sources": [
+      {
+        "organization": "VulnCheck",
+        "article_title": "PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619",
+        "url": "https://www.vulncheck.io/blog/php2shell-vulnerabilities",
+        "published_at": "2026-10-21T15:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "VulnCheck identifies this SHA-256 as a 13-byte follow-up POST body from a PHP2Shell probing source."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "150ae88f0999032e2a6113501d6082f54a3ed98d02427b21a96e773a27d7bf16",
+    "ioc_type": "sha256",
+    "original_ioc": "150ae88f0999032e2a6113501d6082f54a3ed98d02427b21a96e773a27d7bf16",
+    "hunt_ioc": "150ae88f0999032e2a6113501d6082f54a3ed98d02427b21a96e773a27d7bf16",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "PHP2Shell web-shell payload",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "VulnCheck"
+    ],
+    "source_article": [
+      "PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619"
+    ],
+    "source_url": [
+      "https://www.vulncheck.io/blog/php2shell-vulnerabilities"
+    ],
+    "article_published_date": [
+      "2026-10-21T15:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Hunt file telemetry and preserved session artifacts.",
+    "sources": [
+      {
+        "organization": "VulnCheck",
+        "article_title": "PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619",
+        "url": "https://www.vulncheck.io/blog/php2shell-vulnerabilities",
+        "published_at": "2026-10-21T15:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "VulnCheck identifies this SHA-256 as an uploaded PHP2Shell web-shell payload observed from multiple exploit sources."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "27d926a6708d6769d97d065e7a5a860ab496eab272c03d1cebc55ec71b954fa2",
+    "ioc_type": "sha256",
+    "original_ioc": "27d926a6708d6769d97d065e7a5a860ab496eab272c03d1cebc55ec71b954fa2",
+    "hunt_ioc": "27d926a6708d6769d97d065e7a5a860ab496eab272c03d1cebc55ec71b954fa2",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "PHP2Shell web-shell payload",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "VulnCheck"
+    ],
+    "source_article": [
+      "PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619"
+    ],
+    "source_url": [
+      "https://www.vulncheck.io/blog/php2shell-vulnerabilities"
+    ],
+    "article_published_date": [
+      "2026-10-21T15:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Hunt file telemetry and preserved session artifacts.",
+    "sources": [
+      {
+        "organization": "VulnCheck",
+        "article_title": "PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619",
+        "url": "https://www.vulncheck.io/blog/php2shell-vulnerabilities",
+        "published_at": "2026-10-21T15:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "VulnCheck identifies this SHA-256 as a PHP2Shell upload-progress payload observed from more than one source."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "40caf199ca1ebe056a74427f8e9db06c66899e33ae09c0ec2769ec70bf6dd8e7",
+    "ioc_type": "sha256",
+    "original_ioc": "40caf199ca1ebe056a74427f8e9db06c66899e33ae09c0ec2769ec70bf6dd8e7",
+    "hunt_ioc": "40caf199ca1ebe056a74427f8e9db06c66899e33ae09c0ec2769ec70bf6dd8e7",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "PHP2Shell web-shell payload",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "VulnCheck"
+    ],
+    "source_article": [
+      "PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619"
+    ],
+    "source_url": [
+      "https://www.vulncheck.io/blog/php2shell-vulnerabilities"
+    ],
+    "article_published_date": [
+      "2026-10-21T15:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-24T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Hunt file telemetry and preserved session artifacts.",
+    "sources": [
+      {
+        "organization": "VulnCheck",
+        "article_title": "PHP2Shell Vulnerabilities: CVE-2026-109618 and CVE-2026-109619",
+        "url": "https://www.vulncheck.io/blog/php2shell-vulnerabilities",
+        "published_at": "2026-10-21T15:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-21T13:00:00Z",
+        "discovery_context": [
+          "VulnCheck identifies this SHA-256 as an uploaded PHP2Shell payload associated with a probing source."
+        ]
+      }
+    ]
+  }
+]
