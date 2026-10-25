@@ -1,0 +1,425 @@
+[
+  {
+    "ioc": "www.archivetj.com",
+    "ioc_type": "domain",
+    "original_ioc": "www.archivetj.com",
+    "hunt_ioc": "www.archivetj.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "BlackX espionage campaign",
+    "malware_family": "BlackX/OxiDLLRunner",
+    "threat_actor": "APT41 (medium confidence)",
+    "source_organization": [
+      "Kaspersky Securelist"
+    ],
+    "source_article": [
+      "How APT41 revived the BlackLotus bootkit to attack diplomatic organizations in Central Asia"
+    ],
+    "source_url": [
+      "https://securelist.com/uefi-bootkit-blackx/121539/"
+    ],
+    "article_published_date": [
+      "2026-10-22T10:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-25T13:00:00Z",
+    "confidence": 85,
+    "acceptance_score": 85,
+    "status": "NEW",
+    "notes": "Domain retained as a hunting pivot; investigate DNS and network matches.",
+    "sources": [
+      {
+        "organization": "Kaspersky Securelist",
+        "article_title": "How APT41 revived the BlackLotus bootkit to attack diplomatic organizations in Central Asia",
+        "url": "https://securelist.com/uefi-bootkit-blackx/121539/",
+        "published_at": "2026-10-22T10:00:00Z",
+        "updated_at": null,
+        "reliability": 0.85,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-22T13:00:00Z",
+        "discovery_context": [
+          "Kaspersky reports the BlackX Rust payload communicates with this C2 domain after DLL sideloading and bootkit deployment."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "199.91.221.39",
+    "ioc_type": "ipv4",
+    "original_ioc": "199.91.221.39",
+    "hunt_ioc": "199.91.221.39",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "LiteLLM supply-chain compromise",
+    "malware_family": "LiteLLM 1.107.0 credential-stealing payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "LiteLLM"
+    ],
+    "source_article": [
+      "The attack chain behind the v1.107.0 LiteLLM release"
+    ],
+    "source_url": [
+      "https://litellm.vercel.app/blog/security-incident-oct-21-2026-attack-chain"
+    ],
+    "article_published_date": [
+      "2026-10-23T21:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-25T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Hunt GitHub, CI/CD, and release-pipeline logs.",
+    "sources": [
+      {
+        "organization": "LiteLLM",
+        "article_title": "The attack chain behind the v1.107.0 LiteLLM release",
+        "url": "https://litellm.vercel.app/blog/security-incident-oct-21-2026-attack-chain",
+        "published_at": "2026-10-23T21:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-22T13:00:00Z",
+        "discovery_context": [
+          "LiteLLM identifies this public IP as the source of the stolen-token release gate approval and project-releaser activity."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "45.115.26.26",
+    "ioc_type": "ipv4",
+    "original_ioc": "45.115.26.26",
+    "hunt_ioc": "45.115.26.26",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell session-poisoning payload delivery",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Arctic Wolf Labs"
+    ],
+    "source_article": [
+      "PHP2Shell: Critical PHP Vulnerabilities Enable Unauthenticated Remote Code Execution"
+    ],
+    "source_url": [
+      "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/"
+    ],
+    "article_published_date": [
+      "2026-10-22T13:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-25T13:00:00Z",
+    "confidence": 85,
+    "acceptance_score": 85,
+    "status": "NEW",
+    "notes": "Additional application-specific conditions were required; investigate rather than block blindly.",
+    "sources": [
+      {
+        "organization": "Arctic Wolf Labs",
+        "article_title": "PHP2Shell: Critical PHP Vulnerabilities Enable Unauthenticated Remote Code Execution",
+        "url": "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/",
+        "published_at": "2026-10-22T13:00:00Z",
+        "updated_at": null,
+        "reliability": 0.85,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-22T13:00:00Z",
+        "discovery_context": [
+          "Arctic Wolf observed a serialized session-payload command attempting to download cCmono from this public IP and port."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "5.175.189.76",
+    "ioc_type": "ipv4",
+    "original_ioc": "5.175.189.76",
+    "hunt_ioc": "5.175.189.76",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell second-stage infrastructure",
+    "malware_family": "Potassium-associated payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Arctic Wolf Labs"
+    ],
+    "source_article": [
+      "PHP2Shell: Critical PHP Vulnerabilities Enable Unauthenticated Remote Code Execution"
+    ],
+    "source_url": [
+      "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/"
+    ],
+    "article_published_date": [
+      "2026-10-22T13:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-25T13:00:00Z",
+    "confidence": 80,
+    "acceptance_score": 80,
+    "status": "NEW",
+    "notes": "Investigate matches before blocking shared infrastructure.",
+    "sources": [
+      {
+        "organization": "Arctic Wolf Labs",
+        "article_title": "PHP2Shell: Critical PHP Vulnerabilities Enable Unauthenticated Remote Code Execution",
+        "url": "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/",
+        "published_at": "2026-10-22T13:00:00Z",
+        "updated_at": null,
+        "reliability": 0.8,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-22T13:00:00Z",
+        "discovery_context": [
+          "Arctic Wolf lists this public IP in the PHP2Shell/Potassium indicator set associated with exploit telemetry."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "69.48.229.143",
+    "ioc_type": "ipv4",
+    "original_ioc": "69.48.229.143",
+    "hunt_ioc": "69.48.229.143",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "LiteLLM supply-chain compromise",
+    "malware_family": "LiteLLM 1.107.0 credential-stealing payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "LiteLLM"
+    ],
+    "source_article": [
+      "The attack chain behind the v1.107.0 LiteLLM release"
+    ],
+    "source_url": [
+      "https://litellm.vercel.app/blog/security-incident-oct-21-2026-attack-chain"
+    ],
+    "article_published_date": [
+      "2026-10-23T21:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-25T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Hunt authentication, API gateway, and egress telemetry.",
+    "sources": [
+      {
+        "organization": "LiteLLM",
+        "article_title": "The attack chain behind the v1.107.0 LiteLLM release",
+        "url": "https://litellm.vercel.app/blog/security-incident-oct-21-2026-attack-chain",
+        "published_at": "2026-10-23T21:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-22T13:00:00Z",
+        "discovery_context": [
+          "LiteLLM identifies this public IP as the source of attacker API requests that extracted an organization-owner GitHub token."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "af8a983b9ada07eae1259bf2953abd40",
+    "ioc_type": "md5",
+    "original_ioc": "af8a983b9ada07eae1259bf2953abd40",
+    "hunt_ioc": "af8a983b9ada07eae1259bf2953abd40",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "BlackX espionage campaign",
+    "malware_family": "OxiDLLRunner",
+    "threat_actor": "APT41 (medium confidence)",
+    "source_organization": [
+      "Kaspersky Securelist"
+    ],
+    "source_article": [
+      "How APT41 revived the BlackLotus bootkit to attack diplomatic organizations in Central Asia"
+    ],
+    "source_url": [
+      "https://securelist.com/uefi-bootkit-blackx/121539/"
+    ],
+    "article_published_date": [
+      "2026-10-22T10:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-25T13:00:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Hunt endpoint file telemetry and signed-driver activity.",
+    "sources": [
+      {
+        "organization": "Kaspersky Securelist",
+        "article_title": "How APT41 revived the BlackLotus bootkit to attack diplomatic organizations in Central Asia",
+        "url": "https://securelist.com/uefi-bootkit-blackx/121539/",
+        "published_at": "2026-10-22T10:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-22T13:00:00Z",
+        "discovery_context": [
+          "Kaspersky identifies this MD5 as the malicious jcef_helper.exe renamed googleupdate.exe and delivered by the BlackX bootkit."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "0c5486f06620e26e316f4b33f318b0d646d5e1133789331aa2fed012360d1486",
+    "ioc_type": "sha256",
+    "original_ioc": "0c5486f06620e26e316f4b33f318b0d646d5e1133789331aa2fed012360d1486",
+    "hunt_ioc": "0c5486f06620e26e316f4b33f318b0d646d5e1133789331aa2fed012360d1486",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "PHP2Shell second-stage payload",
+    "malware_family": "Potassium-associated payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Arctic Wolf Labs"
+    ],
+    "source_article": [
+      "PHP2Shell: Critical PHP Vulnerabilities Enable Unauthenticated Remote Code Execution"
+    ],
+    "source_url": [
+      "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/"
+    ],
+    "article_published_date": [
+      "2026-10-22T13:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-25T13:00:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Hunt endpoint file telemetry; sample delivery was not independently confirmed on victims.",
+    "sources": [
+      {
+        "organization": "Arctic Wolf Labs",
+        "article_title": "PHP2Shell: Critical PHP Vulnerabilities Enable Unauthenticated Remote Code Execution",
+        "url": "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/",
+        "published_at": "2026-10-22T13:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-22T13:00:00Z",
+        "discovery_context": [
+          "Arctic Wolf lists this SHA-256 as a binary associated with PHP2Shell exploitation and the Potassium botnet family."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "e2529d4afa39ae4db2eb05d5176317c906289abf09660c75bdeec43e54c55aa3",
+    "ioc_type": "sha256",
+    "original_ioc": "e2529d4afa39ae4db2eb05d5176317c906289abf09660c75bdeec43e54c55aa3",
+    "hunt_ioc": "e2529d4afa39ae4db2eb05d5176317c906289abf09660c75bdeec43e54c55aa3",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "PHP2Shell second-stage payload",
+    "malware_family": "Potassium-associated payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Arctic Wolf Labs"
+    ],
+    "source_article": [
+      "PHP2Shell: Critical PHP Vulnerabilities Enable Unauthenticated Remote Code Execution"
+    ],
+    "source_url": [
+      "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/"
+    ],
+    "article_published_date": [
+      "2026-10-22T13:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-25T13:00:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Hunt endpoint file telemetry; sample delivery was not independently confirmed on victims.",
+    "sources": [
+      {
+        "organization": "Arctic Wolf Labs",
+        "article_title": "PHP2Shell: Critical PHP Vulnerabilities Enable Unauthenticated Remote Code Execution",
+        "url": "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/",
+        "published_at": "2026-10-22T13:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-22T13:00:00Z",
+        "discovery_context": [
+          "Arctic Wolf lists this SHA-256 among payload artifacts associated with observed PHP2Shell exploitation attempts and Potassium infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://45.115.26.26:8000/cCmono",
+    "ioc_type": "url",
+    "original_ioc": "https://45.115.26.26:8000/cCmono",
+    "hunt_ioc": "45.115.26.26",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell session-poisoning payload delivery",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Arctic Wolf Labs"
+    ],
+    "source_article": [
+      "PHP2Shell: Critical PHP Vulnerabilities Enable Unauthenticated Remote Code Execution"
+    ],
+    "source_url": [
+      "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/"
+    ],
+    "article_published_date": [
+      "2026-10-22T13:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-25T13:00:00Z",
+    "confidence": 85,
+    "acceptance_score": 85,
+    "status": "NEW",
+    "notes": "Exact URL retained for provenance; hunting normalizes to public host 45.115.26.26.",
+    "sources": [
+      {
+        "organization": "Arctic Wolf Labs",
+        "article_title": "PHP2Shell: Critical PHP Vulnerabilities Enable Unauthenticated Remote Code Execution",
+        "url": "https://arcticwolf.com/resources/blog/php2shell-critical-php-vulnerabilities-enable-unauthenticated-remote-code-execution/",
+        "published_at": "2026-10-22T13:00:00Z",
+        "updated_at": null,
+        "reliability": 0.85,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-22T13:00:00Z",
+        "discovery_context": [
+          "Arctic Wolf reports this exact second-stage URL in a serialized Monolog payload command associated with PHP2Shell-themed activity."
+        ]
+      }
+    ]
+  }
+]
