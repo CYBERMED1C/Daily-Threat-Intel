@@ -1,0 +1,566 @@
+[
+  {
+    "ioc": "godofthunder.st",
+    "ioc_type": "domain",
+    "original_ioc": "godofthunder.st",
+    "hunt_ioc": "godofthunder.st",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "GODOFTHUNDER Mirai campaign",
+    "malware_family": "Potassium / Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "cowrAI Honeypot Fleet"
+    ],
+    "source_article": [
+      "GODOFTHUNDER: PHP bailout-RCE to Mirai DDoS bot threat intel brief"
+    ],
+    "source_url": [
+      "https://cowrai.com/research/php2shell-godofthunder/"
+    ],
+    "article_published_date": [
+      "2026-10-24T09:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-26T13:00:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Hunt DNS and proxy telemetry.",
+    "sources": [
+      {
+        "organization": "cowrAI Honeypot Fleet",
+        "article_title": "GODOFTHUNDER: PHP bailout-RCE to Mirai DDoS bot threat intel brief",
+        "url": "https://cowrai.com/research/php2shell-godofthunder/",
+        "published_at": "2026-10-24T09:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-23T13:00:00Z",
+        "discovery_context": [
+          "CowrAI identifies this apex domain as campaign C2 infrastructure associated with the observed Mirai-lineage bot."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "hackattackkaboom.botlesscucks.st",
+    "ioc_type": "domain",
+    "original_ioc": "hackattackkaboom.botlesscucks.st",
+    "hunt_ioc": "hackattackkaboom.botlesscucks.st",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "GODOFTHUNDER Mirai campaign",
+    "malware_family": "Potassium / Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "cowrAI Honeypot Fleet"
+    ],
+    "source_article": [
+      "GODOFTHUNDER: PHP bailout-RCE to Mirai DDoS bot threat intel brief"
+    ],
+    "source_url": [
+      "https://cowrai.com/research/php2shell-godofthunder/"
+    ],
+    "article_published_date": [
+      "2026-10-24T09:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-26T13:00:00Z",
+    "confidence": 85,
+    "acceptance_score": 85,
+    "status": "NEW",
+    "notes": "Hunt DNS and endpoint telemetry; configuration-only indicator.",
+    "sources": [
+      {
+        "organization": "cowrAI Honeypot Fleet",
+        "article_title": "GODOFTHUNDER: PHP bailout-RCE to Mirai DDoS bot threat intel brief",
+        "url": "https://cowrai.com/research/php2shell-godofthunder/",
+        "published_at": "2026-10-24T09:00:00Z",
+        "updated_at": null,
+        "reliability": 0.85,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-23T13:00:00Z",
+        "discovery_context": [
+          "CowrAI recovered this FQDN as a configured backup C2 domain in the campaign sample."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "hik.gettingheadfromduckysmom.st",
+    "ioc_type": "domain",
+    "original_ioc": "hik.gettingheadfromduckysmom.st",
+    "hunt_ioc": "hik.gettingheadfromduckysmom.st",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "GODOFTHUNDER Mirai campaign",
+    "malware_family": "Potassium / Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "ELLIO"
+    ],
+    "source_article": [
+      "PHP2Shell: critical PHP RCE and observed Mirai delivery"
+    ],
+    "source_url": [
+      "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/"
+    ],
+    "article_published_date": [
+      "2026-10-23T19:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-26T13:00:00Z",
+    "confidence": 85,
+    "acceptance_score": 85,
+    "status": "NEW",
+    "notes": "Hunt DNS and endpoint telemetry; configuration-only indicator.",
+    "sources": [
+      {
+        "organization": "ELLIO",
+        "article_title": "PHP2Shell: critical PHP RCE and observed Mirai delivery",
+        "url": "https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/",
+        "published_at": "2026-10-23T19:00:00Z",
+        "updated_at": null,
+        "reliability": 0.85,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-23T13:00:00Z",
+        "discovery_context": [
+          "ELLIO reports this FQDN as a backup domain present in the Mirai-lineage sample configuration."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "thunder.godofthunder.st",
+    "ioc_type": "domain",
+    "original_ioc": "thunder.godofthunder.st",
+    "hunt_ioc": "thunder.godofthunder.st",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "GODOFTHUNDER Mirai campaign",
+    "malware_family": "Potassium / Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "cowrAI Honeypot Fleet"
+    ],
+    "source_article": [
+      "GODOFTHUNDER: PHP bailout-RCE to Mirai DDoS bot threat intel brief"
+    ],
+    "source_url": [
+      "https://cowrai.com/research/php2shell-godofthunder/"
+    ],
+    "article_published_date": [
+      "2026-10-24T09:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-26T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Hunt DNS and endpoint network telemetry.",
+    "sources": [
+      {
+        "organization": "cowrAI Honeypot Fleet",
+        "article_title": "GODOFTHUNDER: PHP bailout-RCE to Mirai DDoS bot threat intel brief",
+        "url": "https://cowrai.com/research/php2shell-godofthunder/",
+        "published_at": "2026-10-24T09:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-23T13:00:00Z",
+        "discovery_context": [
+          "CowrAI runtime observation shows the bot resolving this FQDN and using it as its primary C2 endpoint."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "176.65.132.7",
+    "ioc_type": "ipv4",
+    "original_ioc": "176.65.132.7",
+    "hunt_ioc": "176.65.132.7",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Leviathan loader / SORA Mirai branch",
+    "malware_family": "Mirai/Katana",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1983003 individual record"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1983003/"
+    ],
+    "article_published_date": [
+      "2026-10-24T11:01:23Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-26T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Hunt endpoint network telemetry.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1983003 individual record",
+        "url": "https://threatfox.abuse.ch/ioc/1983003/",
+        "published_at": "2026-10-24T11:01:23Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-23T13:00:00Z",
+        "discovery_context": [
+          "ThreatFox record 1983003 links this public IP to the loader and C2 infrastructure for a Mirai-derived DDoS bot."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "62.244.87.221",
+    "ioc_type": "ipv4",
+    "original_ioc": "62.244.87.221",
+    "hunt_ioc": "62.244.87.221",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "GODOFTHUNDER Mirai campaign",
+    "malware_family": "Potassium / Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "cowrAI Honeypot Fleet"
+    ],
+    "source_article": [
+      "GODOFTHUNDER: PHP bailout-RCE to Mirai DDoS bot threat intel brief"
+    ],
+    "source_url": [
+      "https://cowrai.com/research/php2shell-godofthunder/"
+    ],
+    "article_published_date": [
+      "2026-10-24T09:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-26T13:00:00Z",
+    "confidence": 75,
+    "acceptance_score": 75,
+    "status": "NEW",
+    "notes": "Investigate matches before blocking; low-confidence lead.",
+    "sources": [
+      {
+        "organization": "cowrAI Honeypot Fleet",
+        "article_title": "GODOFTHUNDER: PHP bailout-RCE to Mirai DDoS bot threat intel brief",
+        "url": "https://cowrai.com/research/php2shell-godofthunder/",
+        "published_at": "2026-10-24T09:00:00Z",
+        "updated_at": null,
+        "reliability": 0.75,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-23T13:00:00Z",
+        "discovery_context": [
+          "CowrAI lists this public IP as a single-contact endpoint associated with the campaign, with role uncertain."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "64.95.12.7",
+    "ioc_type": "ipv4",
+    "original_ioc": "64.95.12.7",
+    "hunt_ioc": "64.95.12.7",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell exploit attempt",
+    "malware_family": "PHP2Shell tooling",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "0xDTC"
+    ],
+    "source_article": [
+      "PHP2Shell impact analysis and observed scanning infrastructure"
+    ],
+    "source_url": [
+      "https://github.com/0xDTC/0xPHP2SHELL-Impact-Analysis/blob/master/Readme.md"
+    ],
+    "article_published_date": [
+      "2026-10-25T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-26T13:00:00Z",
+    "confidence": 80,
+    "acceptance_score": 80,
+    "status": "NEW",
+    "notes": "Hunt web telemetry and validate against local application exposure.",
+    "sources": [
+      {
+        "organization": "0xDTC",
+        "article_title": "PHP2Shell impact analysis and observed scanning infrastructure",
+        "url": "https://github.com/0xDTC/0xPHP2SHELL-Impact-Analysis/blob/master/Readme.md",
+        "published_at": "2026-10-25T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.8,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-23T13:00:00Z",
+        "discovery_context": [
+          "The impact analysis attributes this public IP to exploit attempts using a public PHP2Shell proof of concept."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "4d02f14d109458cb0d696b65456918fcd724ca385aa30c688f08554c8899938c",
+    "ioc_type": "sha256",
+    "original_ioc": "4d02f14d109458cb0d696b65456918fcd724ca385aa30c688f08554c8899938c",
+    "hunt_ioc": "4d02f14d109458cb0d696b65456918fcd724ca385aa30c688f08554c8899938c",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "GODOFTHUNDER Mirai campaign",
+    "malware_family": "Potassium / Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "cowrAI Honeypot Fleet"
+    ],
+    "source_article": [
+      "GODOFTHUNDER: PHP bailout-RCE to Mirai DDoS bot threat intel brief"
+    ],
+    "source_url": [
+      "https://cowrai.com/research/php2shell-godofthunder/"
+    ],
+    "article_published_date": [
+      "2026-10-24T09:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-26T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Hunt endpoint file telemetry.",
+    "sources": [
+      {
+        "organization": "cowrAI Honeypot Fleet",
+        "article_title": "GODOFTHUNDER: PHP bailout-RCE to Mirai DDoS bot threat intel brief",
+        "url": "https://cowrai.com/research/php2shell-godofthunder/",
+        "published_at": "2026-10-24T09:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-23T13:00:00Z",
+        "discovery_context": [
+          "CowrAI identifies this SHA-256 as the captured stage-1 loader delivered through the PHP bailout-RCE chain."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "963a9d98e301b4c546ecf84a34569622a3587b4ca81be30a074c703cdaddccec",
+    "ioc_type": "sha256",
+    "original_ioc": "963a9d98e301b4c546ecf84a34569622a3587b4ca81be30a074c703cdaddccec",
+    "hunt_ioc": "963a9d98e301b4c546ecf84a34569622a3587b4ca81be30a074c703cdaddccec",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Leviathan loader / SORA Mirai branch",
+    "malware_family": "Mirai/Katana",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1983003 individual record"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1983003/"
+    ],
+    "article_published_date": [
+      "2026-10-24T11:01:23Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-26T13:00:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Hunt endpoint file telemetry.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1983003 individual record",
+        "url": "https://threatfox.abuse.ch/ioc/1983003/",
+        "published_at": "2026-10-24T11:01:23Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-23T13:00:00Z",
+        "discovery_context": [
+          "ThreatFox individual record 1983003 identifies this SHA-256 as a malicious Mirai-derived payload with current first-seen context."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://176.65.132.7:8889/lv.sh",
+    "ioc_type": "url",
+    "original_ioc": "http://176.65.132.7:8889/lv.sh",
+    "hunt_ioc": "176.65.132.7",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Leviathan loader / SORA Mirai branch",
+    "malware_family": "Mirai/Katana",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1983003 individual record"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1983003/"
+    ],
+    "article_published_date": [
+      "2026-10-24T11:01:23Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-26T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Hunting normalizes this URL to public host 176.65.132.7.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1983003 individual record",
+        "url": "https://threatfox.abuse.ch/ioc/1983003/",
+        "published_at": "2026-10-24T11:01:23Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-23T13:00:00Z",
+        "discovery_context": [
+          "ThreatFox record 1983003 lists this exact loader URL on the public host."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://92.118.112.100/nfs",
+    "ioc_type": "url",
+    "original_ioc": "http://92.118.112.100/nfs",
+    "hunt_ioc": "92.118.112.100",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell to Potassium Mirai delivery",
+    "malware_family": "Potassium / Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "cowrAI Honeypot Fleet"
+    ],
+    "source_article": [
+      "GODOFTHUNDER: PHP bailout-RCE to Mirai DDoS bot threat intel brief"
+    ],
+    "source_url": [
+      "https://cowrai.com/research/php2shell-godofthunder/"
+    ],
+    "article_published_date": [
+      "2026-10-24T09:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-26T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Hunting normalizes this URL to public host 92.118.112.100.",
+    "sources": [
+      {
+        "organization": "cowrAI Honeypot Fleet",
+        "article_title": "GODOFTHUNDER: PHP bailout-RCE to Mirai DDoS bot threat intel brief",
+        "url": "https://cowrai.com/research/php2shell-godofthunder/",
+        "published_at": "2026-10-24T09:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-23T13:00:00Z",
+        "discovery_context": [
+          "CowrAI captured the stage-1 loader retrieving this exact stage-2 bot binary URL."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://92.118.112.100/s",
+    "ioc_type": "url",
+    "original_ioc": "http://92.118.112.100/s",
+    "hunt_ioc": "92.118.112.100",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "PHP2Shell to Potassium Mirai delivery",
+    "malware_family": "Potassium / Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "cowrAI Honeypot Fleet"
+    ],
+    "source_article": [
+      "GODOFTHUNDER: PHP bailout-RCE to Mirai DDoS bot threat intel brief"
+    ],
+    "source_url": [
+      "https://cowrai.com/research/php2shell-godofthunder/"
+    ],
+    "article_published_date": [
+      "2026-10-24T09:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-26T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Hunting normalizes this URL to public host 92.118.112.100.",
+    "sources": [
+      {
+        "organization": "cowrAI Honeypot Fleet",
+        "article_title": "GODOFTHUNDER: PHP bailout-RCE to Mirai DDoS bot threat intel brief",
+        "url": "https://cowrai.com/research/php2shell-godofthunder/",
+        "published_at": "2026-10-24T09:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-23T13:00:00Z",
+        "discovery_context": [
+          "CowrAI captured the PHP bailout command downloading the stage-1 loader from this exact public URL."
+        ]
+      }
+    ]
+  }
+]
