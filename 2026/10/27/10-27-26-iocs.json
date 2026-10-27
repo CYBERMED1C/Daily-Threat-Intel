@@ -1,0 +1,1036 @@
+[
+  {
+    "ioc": "1x0.is",
+    "ioc_type": "domain",
+    "original_ioc": "1x0.is",
+    "hunt_ioc": "1x0.is",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Convertr checkout Magecart skimmer",
+    "malware_family": "Browser payment skimmer",
+    "threat_actor": "Brazilian Magecart group",
+    "source_organization": [
+      "Sansec"
+    ],
+    "source_article": [
+      "Threat Research index and current Convertr skimmer update"
+    ],
+    "source_url": [
+      "https://sansec.io/research"
+    ],
+    "article_published_date": [
+      "2026-10-26T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-27T13:00:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Hunt web proxy, DNS, and browser telemetry.",
+    "sources": [
+      {
+        "organization": "Sansec",
+        "article_title": "Threat Research index and current Convertr skimmer update",
+        "url": "https://sansec.io/research",
+        "published_at": "2026-10-26T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-24T13:00:00Z",
+        "discovery_context": [
+          "Sansec's current research index reports Convertr checkouts sending payment data to this attacker-controlled skimmer domain from October 24."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "additionalver.com",
+    "ioc_type": "domain",
+    "original_ioc": "additionalver.com",
+    "hunt_ioc": "additionalver.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Magento CMS block loader campaign",
+    "malware_family": "Magecart/PolyShell loader",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Sansec"
+    ],
+    "source_article": [
+      "deepveindrilling.com: Magento CMS block loader hits 953 stores"
+    ],
+    "source_url": [
+      "https://sansec.io/research/magento-cms-block-loader-deepveindrilling"
+    ],
+    "article_published_date": [
+      "2026-10-24T13:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-27T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Hunt DNS, proxy, and browser telemetry.",
+    "sources": [
+      {
+        "organization": "Sansec",
+        "article_title": "deepveindrilling.com: Magento CMS block loader hits 953 stores",
+        "url": "https://sansec.io/research/magento-cms-block-loader-deepveindrilling",
+        "published_at": "2026-10-24T13:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-24T13:00:00Z",
+        "discovery_context": [
+          "Sansec documents this domain as a Keitaro loader/TDS address used in the active Magento campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "c85grt98sd.com",
+    "ioc_type": "domain",
+    "original_ioc": "c85grt98sd.com",
+    "hunt_ioc": "c85grt98sd.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Magento CMS block loader campaign",
+    "malware_family": "Magecart/PolyShell loader",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Sansec"
+    ],
+    "source_article": [
+      "deepveindrilling.com: Magento CMS block loader hits 953 stores"
+    ],
+    "source_url": [
+      "https://sansec.io/research/magento-cms-block-loader-deepveindrilling"
+    ],
+    "article_published_date": [
+      "2026-10-24T13:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-27T13:00:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Hunt DNS and proxy telemetry.",
+    "sources": [
+      {
+        "organization": "Sansec",
+        "article_title": "deepveindrilling.com: Magento CMS block loader hits 953 stores",
+        "url": "https://sansec.io/research/magento-cms-block-loader-deepveindrilling",
+        "published_at": "2026-10-24T13:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-24T13:00:00Z",
+        "discovery_context": [
+          "Sansec lists this domain among the campaign's loader addresses found on compromised stores."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "crypto-insider.top",
+    "ioc_type": "domain",
+    "original_ioc": "crypto-insider.top",
+    "hunt_ioc": "crypto-insider.top",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Magento CMS block loader campaign",
+    "malware_family": "Magecart loader payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Sansec"
+    ],
+    "source_article": [
+      "deepveindrilling.com: Magento CMS block loader hits 953 stores"
+    ],
+    "source_url": [
+      "https://sansec.io/research/magento-cms-block-loader-deepveindrilling"
+    ],
+    "article_published_date": [
+      "2026-10-24T13:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-27T13:00:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Hunt DNS and browser/proxy telemetry.",
+    "sources": [
+      {
+        "organization": "Sansec",
+        "article_title": "deepveindrilling.com: Magento CMS block loader hits 953 stores",
+        "url": "https://sansec.io/research/magento-cms-block-loader-deepveindrilling",
+        "published_at": "2026-10-24T13:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-24T13:00:00Z",
+        "discovery_context": [
+          "Sansec reports this domain as a payload address loaded by the campaign's earlier loader stage."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "deepveindrilling.com",
+    "ioc_type": "domain",
+    "original_ioc": "deepveindrilling.com",
+    "hunt_ioc": "deepveindrilling.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Magento CMS block loader campaign",
+    "malware_family": "Magecart/PolyShell loader",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Sansec"
+    ],
+    "source_article": [
+      "deepveindrilling.com: Magento CMS block loader hits 953 stores"
+    ],
+    "source_url": [
+      "https://sansec.io/research/magento-cms-block-loader-deepveindrilling"
+    ],
+    "article_published_date": [
+      "2026-10-24T13:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-27T13:00:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Hunt DNS, proxy, and web content telemetry.",
+    "sources": [
+      {
+        "organization": "Sansec",
+        "article_title": "deepveindrilling.com: Magento CMS block loader hits 953 stores",
+        "url": "https://sansec.io/research/magento-cms-block-loader-deepveindrilling",
+        "published_at": "2026-10-24T13:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-24T13:00:00Z",
+        "discovery_context": [
+          "Sansec found this domain in injected Magento CMS blocks across 83 stores and identifies it as the newest loader address in a 953-store criminal campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "hdfdsi84j3h.top",
+    "ioc_type": "domain",
+    "original_ioc": "hdfdsi84j3h.top",
+    "hunt_ioc": "hdfdsi84j3h.top",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Magento CMS block loader campaign",
+    "malware_family": "Magecart/PolyShell loader",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Sansec"
+    ],
+    "source_article": [
+      "deepveindrilling.com: Magento CMS block loader hits 953 stores"
+    ],
+    "source_url": [
+      "https://sansec.io/research/magento-cms-block-loader-deepveindrilling"
+    ],
+    "article_published_date": [
+      "2026-10-24T13:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-27T13:00:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Hunt DNS and proxy telemetry.",
+    "sources": [
+      {
+        "organization": "Sansec",
+        "article_title": "deepveindrilling.com: Magento CMS block loader hits 953 stores",
+        "url": "https://sansec.io/research/magento-cms-block-loader-deepveindrilling",
+        "published_at": "2026-10-24T13:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-24T13:00:00Z",
+        "discovery_context": [
+          "Sansec lists this domain among the campaign's loader addresses found on compromised stores."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "lanhd6549tdhse.top",
+    "ioc_type": "domain",
+    "original_ioc": "lanhd6549tdhse.top",
+    "hunt_ioc": "lanhd6549tdhse.top",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Magento CMS block loader campaign",
+    "malware_family": "Magecart/PolyShell loader",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Sansec"
+    ],
+    "source_article": [
+      "deepveindrilling.com: Magento CMS block loader hits 953 stores"
+    ],
+    "source_url": [
+      "https://sansec.io/research/magento-cms-block-loader-deepveindrilling"
+    ],
+    "article_published_date": [
+      "2026-10-24T13:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-27T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Hunt DNS and web proxy telemetry.",
+    "sources": [
+      {
+        "organization": "Sansec",
+        "article_title": "deepveindrilling.com: Magento CMS block loader hits 953 stores",
+        "url": "https://sansec.io/research/magento-cms-block-loader-deepveindrilling",
+        "published_at": "2026-10-24T13:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-24T13:00:00Z",
+        "discovery_context": [
+          "Sansec identifies this domain as a campaign loader address used to inject JavaScript into Magento stores."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "leqdger.click",
+    "ioc_type": "domain",
+    "original_ioc": "leqdger.click",
+    "hunt_ioc": "leqdger.click",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Magento CMS block loader campaign",
+    "malware_family": "Magecart loader payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Sansec"
+    ],
+    "source_article": [
+      "deepveindrilling.com: Magento CMS block loader hits 953 stores"
+    ],
+    "source_url": [
+      "https://sansec.io/research/magento-cms-block-loader-deepveindrilling"
+    ],
+    "article_published_date": [
+      "2026-10-24T13:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-27T13:00:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Hunt DNS and browser/proxy telemetry.",
+    "sources": [
+      {
+        "organization": "Sansec",
+        "article_title": "deepveindrilling.com: Magento CMS block loader hits 953 stores",
+        "url": "https://sansec.io/research/magento-cms-block-loader-deepveindrilling",
+        "published_at": "2026-10-24T13:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-24T13:00:00Z",
+        "discovery_context": [
+          "Sansec reports this Ledger-lookalike domain as a historical payload address served to visitors of infected stores."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "manulfie.click",
+    "ioc_type": "domain",
+    "original_ioc": "manulfie.click",
+    "hunt_ioc": "manulfie.click",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Magento CMS block loader campaign",
+    "malware_family": "Magecart/PolyShell loader",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Sansec"
+    ],
+    "source_article": [
+      "deepveindrilling.com: Magento CMS block loader hits 953 stores"
+    ],
+    "source_url": [
+      "https://sansec.io/research/magento-cms-block-loader-deepveindrilling"
+    ],
+    "article_published_date": [
+      "2026-10-24T13:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-27T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Hunt DNS and proxy telemetry.",
+    "sources": [
+      {
+        "organization": "Sansec",
+        "article_title": "deepveindrilling.com: Magento CMS block loader hits 953 stores",
+        "url": "https://sansec.io/research/magento-cms-block-loader-deepveindrilling",
+        "published_at": "2026-10-24T13:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-24T13:00:00Z",
+        "discovery_context": [
+          "Sansec lists this domain as a loader address used across infected Magento stores and still observed on stores during the current campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "neswnsssn.click",
+    "ioc_type": "domain",
+    "original_ioc": "neswnsssn.click",
+    "hunt_ioc": "neswnsssn.click",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Magento CMS block loader campaign",
+    "malware_family": "Magecart/PolyShell loader",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Sansec"
+    ],
+    "source_article": [
+      "deepveindrilling.com: Magento CMS block loader hits 953 stores"
+    ],
+    "source_url": [
+      "https://sansec.io/research/magento-cms-block-loader-deepveindrilling"
+    ],
+    "article_published_date": [
+      "2026-10-24T13:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-27T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Hunt DNS and proxy telemetry.",
+    "sources": [
+      {
+        "organization": "Sansec",
+        "article_title": "deepveindrilling.com: Magento CMS block loader hits 953 stores",
+        "url": "https://sansec.io/research/magento-cms-block-loader-deepveindrilling",
+        "published_at": "2026-10-24T13:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-24T13:00:00Z",
+        "discovery_context": [
+          "Sansec lists this domain as a loader address used across infected Magento stores and still observed in campaign history."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "42.225.204.166",
+    "ioc_type": "ipv4",
+    "original_ioc": "42.225.204.166",
+    "hunt_ioc": "42.225.204.166",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Mozi malware distribution",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus IOC 4034751 Mozi malware URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/4034751/"
+    ],
+    "article_published_date": [
+      "2026-10-26T23:09:13Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-27T13:00:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Hunt endpoint network telemetry.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus IOC 4034751 Mozi malware URL",
+        "url": "https://urlhaus.abuse.ch/url/4034751/",
+        "published_at": "2026-10-26T23:09:13Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-24T13:00:00Z",
+        "discovery_context": [
+          "URLhaus records this public IP as the host serving the Mozi malware URL."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "46.236.65.167",
+    "ioc_type": "ipv4",
+    "original_ioc": "46.236.65.167",
+    "hunt_ioc": "46.236.65.167",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Mozi malware distribution",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus IOC 4034765 Mozi malware URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/4034765/"
+    ],
+    "article_published_date": [
+      "2026-10-26T23:47:06Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-27T13:00:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Hunt endpoint network telemetry.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus IOC 4034765 Mozi malware URL",
+        "url": "https://urlhaus.abuse.ch/url/4034765/",
+        "published_at": "2026-10-26T23:47:06Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-24T13:00:00Z",
+        "discovery_context": [
+          "URLhaus records this public IP as the host serving the Mozi malware URL."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "15c28338b6bc3ade51a5054d532cab12300a162e88d61ed7e31319ba4d9bf160",
+    "ioc_type": "sha256",
+    "original_ioc": "15c28338b6bc3ade51a5054d532cab12300a162e88d61ed7e31319ba4d9bf160",
+    "hunt_ioc": "15c28338b6bc3ade51a5054d532cab12300a162e88d61ed7e31319ba4d9bf160",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Foxveil/AMOS ClickFix",
+    "malware_family": "AMOS",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1990576 AMOS payload"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1990576/"
+    ],
+    "article_published_date": [
+      "2026-10-26T09:26:38Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-27T13:00:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Hunt macOS endpoint file telemetry.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1990576 AMOS payload",
+        "url": "https://threatfox.abuse.ch/ioc/1990576/",
+        "published_at": "2026-10-26T09:26:38Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-24T13:00:00Z",
+        "discovery_context": [
+          "ThreatFox individual record 1990576 identifies this current high-confidence SHA-256 as an AMOS reflective loader payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "23148a6861ae7d575a031d5c39e22b635d2cb82f84505f8833be005cd18a0894",
+    "ioc_type": "sha256",
+    "original_ioc": "23148a6861ae7d575a031d5c39e22b635d2cb82f84505f8833be005cd18a0894",
+    "hunt_ioc": "23148a6861ae7d575a031d5c39e22b635d2cb82f84505f8833be005cd18a0894",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Foxveil/AMOS ClickFix",
+    "malware_family": "AMOS",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1990672 AMOS payload"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1990672/"
+    ],
+    "article_published_date": [
+      "2026-10-26T11:07:07Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-27T13:00:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Hunt macOS endpoint file telemetry.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1990672 AMOS payload",
+        "url": "https://threatfox.abuse.ch/ioc/1990672/",
+        "published_at": "2026-10-26T11:07:07Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-24T13:00:00Z",
+        "discovery_context": [
+          "ThreatFox individual record 1990672 identifies this current high-confidence SHA-256 as an AMOS reflective loader payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "3447a73a770e2cb9a47db2b8488e81f4677152c576e655265aea113730c926f2",
+    "ioc_type": "sha256",
+    "original_ioc": "3447a73a770e2cb9a47db2b8488e81f4677152c576e655265aea113730c926f2",
+    "hunt_ioc": "3447a73a770e2cb9a47db2b8488e81f4677152c576e655265aea113730c926f2",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Foxveil/AMOS ClickFix",
+    "malware_family": "AMOS",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1990698 AMOS payload"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1990698/"
+    ],
+    "article_published_date": [
+      "2026-10-26T11:56:48Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-27T13:00:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Hunt macOS endpoint file telemetry.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1990698 AMOS payload",
+        "url": "https://threatfox.abuse.ch/ioc/1990698/",
+        "published_at": "2026-10-26T11:56:48Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-24T13:00:00Z",
+        "discovery_context": [
+          "ThreatFox individual record 1990698 identifies this current high-confidence SHA-256 as an AMOS reflective loader payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "7fcbdaaecd4419e2930927844f3b772668204737a4e7602a2290c991c93c5c4b",
+    "ioc_type": "sha256",
+    "original_ioc": "7fcbdaaecd4419e2930927844f3b772668204737a4e7602a2290c991c93c5c4b",
+    "hunt_ioc": "7fcbdaaecd4419e2930927844f3b772668204737a4e7602a2290c991c93c5c4b",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Node2Shell exploitation",
+    "malware_family": "Node2Shell/CVE-2026-111497 payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "ELLIO"
+    ],
+    "source_article": [
+      "Node2Shell remote code execution on stock Node.js builds"
+    ],
+    "source_url": [
+      "https://ellio.tech/en/blog/node2shell-cve-2026-111497-rce-on-stock-nodejs-builds/"
+    ],
+    "article_published_date": [
+      "2026-10-26T15:08:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-27T13:00:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Hunt HTTP body/hash telemetry and endpoint file artifacts where captured.",
+    "sources": [
+      {
+        "organization": "ELLIO",
+        "article_title": "Node2Shell remote code execution on stock Node.js builds",
+        "url": "https://ellio.tech/en/blog/node2shell-cve-2026-111497-rce-on-stock-nodejs-builds/",
+        "published_at": "2026-10-26T15:08:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-24T13:00:00Z",
+        "discovery_context": [
+          "ELLIO observed this SHA-256 for a 23 MB Brotli-coded HTTP exploit body targeting Node.js 24.22.0 x86-64 in the wild."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b5cf68c7cb5bb2d21d60bf6654926f61566d95bfd7c9f9e182d032f1da5b4605",
+    "ioc_type": "sha256",
+    "original_ioc": "b5cf68c7cb5bb2d21d60bf6654926f61566d95bfd7c9f9e182d032f1da5b4605",
+    "hunt_ioc": "b5cf68c7cb5bb2d21d60bf6654926f61566d95bfd7c9f9e182d032f1da5b4605",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Mozi malware distribution",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus IOC 4034751 Mozi malware URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/4034751/"
+    ],
+    "article_published_date": [
+      "2026-10-26T23:09:13Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-27T13:00:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Hunt endpoint file telemetry.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus IOC 4034751 Mozi malware URL",
+        "url": "https://urlhaus.abuse.ch/url/4034751/",
+        "published_at": "2026-10-26T23:09:13Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-24T13:00:00Z",
+        "discovery_context": [
+          "URLhaus identifies this SHA-256 as the ELF payload delivered by the active Mozi URL."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://42.225.204.166:50794/i",
+    "ioc_type": "url",
+    "original_ioc": "http://42.225.204.166:50794/i",
+    "hunt_ioc": "42.225.204.166",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Mozi malware distribution",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus IOC 4034751 Mozi malware URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/4034751/"
+    ],
+    "article_published_date": [
+      "2026-10-26T23:09:13Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-27T13:00:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Hunting normalizes this URL to 42.225.204.166.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus IOC 4034751 Mozi malware URL",
+        "url": "https://urlhaus.abuse.ch/url/4034751/",
+        "published_at": "2026-10-26T23:09:13Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-24T13:00:00Z",
+        "discovery_context": [
+          "URLhaus individual record 4034751 marks this exact public URL as online malware delivery for a Mozi ELF payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://46.236.65.167:40311/i",
+    "ioc_type": "url",
+    "original_ioc": "http://46.236.65.167:40311/i",
+    "hunt_ioc": "46.236.65.167",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Mozi malware distribution",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus IOC 4034765 Mozi malware URL"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/4034765/"
+    ],
+    "article_published_date": [
+      "2026-10-26T23:47:06Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-27T13:00:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Hunting normalizes this URL to 46.236.65.167.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus IOC 4034765 Mozi malware URL",
+        "url": "https://urlhaus.abuse.ch/url/4034765/",
+        "published_at": "2026-10-26T23:47:06Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-24T13:00:00Z",
+        "discovery_context": [
+          "URLhaus individual record 4034765 marks this exact public URL as online malware delivery for a Mozi ELF payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://additionalver.com/Mb2z8J",
+    "ioc_type": "url",
+    "original_ioc": "https://additionalver.com/Mb2z8J",
+    "hunt_ioc": "additionalver.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Magento CMS block loader campaign",
+    "malware_family": "Magecart/PolyShell loader",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Sansec"
+    ],
+    "source_article": [
+      "deepveindrilling.com: Magento CMS block loader hits 953 stores"
+    ],
+    "source_url": [
+      "https://sansec.io/research/magento-cms-block-loader-deepveindrilling"
+    ],
+    "article_published_date": [
+      "2026-10-24T13:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-27T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Hunting normalizes this URL to additionalver.com.",
+    "sources": [
+      {
+        "organization": "Sansec",
+        "article_title": "deepveindrilling.com: Magento CMS block loader hits 953 stores",
+        "url": "https://sansec.io/research/magento-cms-block-loader-deepveindrilling",
+        "published_at": "2026-10-24T13:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-24T13:00:00Z",
+        "discovery_context": [
+          "Sansec lists this exact Keitaro loader URL in the campaign's TDS infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://deepveindrilling.com/?s=d35c5031",
+    "ioc_type": "url",
+    "original_ioc": "https://deepveindrilling.com/?s=d35c5031",
+    "hunt_ioc": "deepveindrilling.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Magento CMS block loader campaign",
+    "malware_family": "Magecart/PolyShell loader",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Sansec"
+    ],
+    "source_article": [
+      "deepveindrilling.com: Magento CMS block loader hits 953 stores"
+    ],
+    "source_url": [
+      "https://sansec.io/research/magento-cms-block-loader-deepveindrilling"
+    ],
+    "article_published_date": [
+      "2026-10-24T13:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-27T13:00:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Hunting normalizes this URL to deepveindrilling.com.",
+    "sources": [
+      {
+        "organization": "Sansec",
+        "article_title": "deepveindrilling.com: Magento CMS block loader hits 953 stores",
+        "url": "https://sansec.io/research/magento-cms-block-loader-deepveindrilling",
+        "published_at": "2026-10-24T13:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-24T13:00:00Z",
+        "discovery_context": [
+          "Sansec lists this exact loader URL in injected Magento CMS blocks."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://leqdger.click/ssl/",
+    "ioc_type": "url",
+    "original_ioc": "https://leqdger.click/ssl/",
+    "hunt_ioc": "leqdger.click",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Magento CMS block loader campaign",
+    "malware_family": "Magecart loader payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Sansec"
+    ],
+    "source_article": [
+      "deepveindrilling.com: Magento CMS block loader hits 953 stores"
+    ],
+    "source_url": [
+      "https://sansec.io/research/magento-cms-block-loader-deepveindrilling"
+    ],
+    "article_published_date": [
+      "2026-10-24T13:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-27T13:00:00Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Hunting normalizes this URL to leqdger.click.",
+    "sources": [
+      {
+        "organization": "Sansec",
+        "article_title": "deepveindrilling.com: Magento CMS block loader hits 953 stores",
+        "url": "https://sansec.io/research/magento-cms-block-loader-deepveindrilling",
+        "published_at": "2026-10-24T13:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-24T13:00:00Z",
+        "discovery_context": [
+          "Sansec reports this exact payload URL served to visitors of infected stores."
+        ]
+      }
+    ]
+  }
+]
