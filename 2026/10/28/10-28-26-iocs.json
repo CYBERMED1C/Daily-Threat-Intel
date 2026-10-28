@@ -1,5 +1,2684 @@
 [
   {
+    "ioc": "03s.us",
+    "ioc_type": "domain",
+    "original_ioc": "03s.us",
+    "hunt_ioc": "03s.us",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SINT-69 Telegram takeover campaign",
+    "malware_family": "Malicious takeover payload",
+    "threat_actor": "SINT-69",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL lists 03s.us as malicious front-end, payload, or video infrastructure used by SINT-69.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL lists 03s.us as malicious front-end, payload, or video infrastructure used by SINT-69."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "05zoom.live",
+    "ioc_type": "domain",
+    "original_ioc": "05zoom.live",
+    "hunt_ioc": "05zoom.live",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists 05zoom.live as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists 05zoom.live as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "0penzeppelin.com",
+    "ioc_type": "domain",
+    "original_ioc": "0penzeppelin.com",
+    "hunt_ioc": "0penzeppelin.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists 0penzeppelin.com as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists 0penzeppelin.com as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "avalabs.digital",
+    "ioc_type": "domain",
+    "original_ioc": "avalabs.digital",
+    "hunt_ioc": "avalabs.digital",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists avalabs.digital as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists avalabs.digital as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "bitgoco.com",
+    "ioc_type": "domain",
+    "original_ioc": "bitgoco.com",
+    "hunt_ioc": "bitgoco.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists bitgoco.com as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists bitgoco.com as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "boardroomtalent.co",
+    "ioc_type": "domain",
+    "original_ioc": "boardroomtalent.co",
+    "hunt_ioc": "boardroomtalent.co",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists boardroomtalent.co as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists boardroomtalent.co as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "celestiatalents.xyz",
+    "ioc_type": "domain",
+    "original_ioc": "celestiatalents.xyz",
+    "hunt_ioc": "celestiatalents.xyz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists celestiatalents.xyz as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists celestiatalents.xyz as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "certik.coach",
+    "ioc_type": "domain",
+    "original_ioc": "certik.coach",
+    "hunt_ioc": "certik.coach",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists certik.coach as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists certik.coach as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "chainlinklabs.co",
+    "ioc_type": "domain",
+    "original_ioc": "chainlinklabs.co",
+    "hunt_ioc": "chainlinklabs.co",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists chainlinklabs.co as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists chainlinklabs.co as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "checkvbrowsenterprise.com",
+    "ioc_type": "domain",
+    "original_ioc": "checkvbrowsenterprise.com",
+    "hunt_ioc": "checkvbrowsenterprise.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "ClickFix malware delivery",
+    "malware_family": "ClickFix",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL lists checkvbrowsenterprise.com as current ClickFix command or payload-hosting infrastructure in its weekly incident set.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL lists checkvbrowsenterprise.com as current ClickFix command or payload-hosting infrastructure in its weekly incident set."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "coinfund.biz",
+    "ioc_type": "domain",
+    "original_ioc": "coinfund.biz",
+    "hunt_ioc": "coinfund.biz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists coinfund.biz as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists coinfund.biz as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "dapper-labs.com",
+    "ioc_type": "domain",
+    "original_ioc": "dapper-labs.com",
+    "hunt_ioc": "dapper-labs.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists dapper-labs.com as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists dapper-labs.com as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "falconxco.com",
+    "ioc_type": "domain",
+    "original_ioc": "falconxco.com",
+    "hunt_ioc": "falconxco.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists falconxco.com as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists falconxco.com as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "fartimo.us",
+    "ioc_type": "domain",
+    "original_ioc": "fartimo.us",
+    "hunt_ioc": "fartimo.us",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SINT-69 Telegram takeover campaign",
+    "malware_family": "Malicious takeover payload",
+    "threat_actor": "SINT-69",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL lists fartimo.us as malicious front-end, payload, or video infrastructure used by SINT-69.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL lists fartimo.us as malicious front-end, payload, or video infrastructure used by SINT-69."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "foundation.com.im",
+    "ioc_type": "domain",
+    "original_ioc": "foundation.com.im",
+    "hunt_ioc": "foundation.com.im",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Foundation Wallet mailer phishing",
+    "malware_family": "Phishing infrastructure",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL lists foundation.com.im as malicious Foundation Wallet phishing infrastructure in the current incident set.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL lists foundation.com.im as malicious Foundation Wallet phishing infrastructure in the current incident set."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "foundation.support",
+    "ioc_type": "domain",
+    "original_ioc": "foundation.support",
+    "hunt_ioc": "foundation.support",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Foundation Wallet mailer phishing",
+    "malware_family": "Phishing infrastructure",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL lists foundation.support as malicious Foundation Wallet phishing infrastructure in the current incident set.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL lists foundation.support as malicious Foundation Wallet phishing infrastructure in the current incident set."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "foundationdevices.xyz",
+    "ioc_type": "domain",
+    "original_ioc": "foundationdevices.xyz",
+    "hunt_ioc": "foundationdevices.xyz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Foundation Wallet mailer phishing",
+    "malware_family": "Phishing infrastructure",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL lists foundationdevices.xyz as malicious Foundation Wallet phishing infrastructure in the current incident set.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL lists foundationdevices.xyz as malicious Foundation Wallet phishing infrastructure in the current incident set."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "foundationwallet.xyz",
+    "ioc_type": "domain",
+    "original_ioc": "foundationwallet.xyz",
+    "hunt_ioc": "foundationwallet.xyz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Foundation Wallet mailer phishing",
+    "malware_family": "Phishing infrastructure",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL lists foundationwallet.xyz as malicious Foundation Wallet phishing infrastructure in the current incident set.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL lists foundationwallet.xyz as malicious Foundation Wallet phishing infrastructure in the current incident set."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "gmeet.space",
+    "ioc_type": "domain",
+    "original_ioc": "gmeet.space",
+    "hunt_ioc": "gmeet.space",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists gmeet.space as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists gmeet.space as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "gmeets.top",
+    "ioc_type": "domain",
+    "original_ioc": "gmeets.top",
+    "hunt_ioc": "gmeets.top",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists gmeets.top as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists gmeets.top as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "hiresharbor.com",
+    "ioc_type": "domain",
+    "original_ioc": "hiresharbor.com",
+    "hunt_ioc": "hiresharbor.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists hiresharbor.com as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists hiresharbor.com as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ilozeuam.us",
+    "ioc_type": "domain",
+    "original_ioc": "ilozeuam.us",
+    "hunt_ioc": "ilozeuam.us",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SINT-69 Telegram takeover campaign",
+    "malware_family": "Malicious takeover payload",
+    "threat_actor": "SINT-69",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL lists ilozeuam.us as malicious front-end, payload, or video infrastructure used by SINT-69.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL lists ilozeuam.us as malicious front-end, payload, or video infrastructure used by SINT-69."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "initiatalents.xyz",
+    "ioc_type": "domain",
+    "original_ioc": "initiatalents.xyz",
+    "hunt_ioc": "initiatalents.xyz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists initiatalents.xyz as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists initiatalents.xyz as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "joingooglemeetings.help",
+    "ioc_type": "domain",
+    "original_ioc": "joingooglemeetings.help",
+    "hunt_ioc": "joingooglemeetings.help",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists joingooglemeetings.help as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists joingooglemeetings.help as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "joinmeeting-now.com",
+    "ioc_type": "domain",
+    "original_ioc": "joinmeeting-now.com",
+    "hunt_ioc": "joinmeeting-now.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists joinmeeting-now.com as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists joinmeeting-now.com as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "lineahires.xyz",
+    "ioc_type": "domain",
+    "original_ioc": "lineahires.xyz",
+    "hunt_ioc": "lineahires.xyz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists lineahires.xyz as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists lineahires.xyz as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "meetingms.com",
+    "ioc_type": "domain",
+    "original_ioc": "meetingms.com",
+    "hunt_ioc": "meetingms.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists meetingms.com as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists meetingms.com as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "minatalents.xyz",
+    "ioc_type": "domain",
+    "original_ioc": "minatalents.xyz",
+    "hunt_ioc": "minatalents.xyz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists minatalents.xyz as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists minatalents.xyz as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "mirae.fund",
+    "ioc_type": "domain",
+    "original_ioc": "mirae.fund",
+    "hunt_ioc": "mirae.fund",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists mirae.fund as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists mirae.fund as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "movementhires.xyz",
+    "ioc_type": "domain",
+    "original_ioc": "movementhires.xyz",
+    "hunt_ioc": "movementhires.xyz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists movementhires.xyz as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists movementhires.xyz as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ritualhires.xyz",
+    "ioc_type": "domain",
+    "original_ioc": "ritualhires.xyz",
+    "hunt_ioc": "ritualhires.xyz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists ritualhires.xyz as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists ritualhires.xyz as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "securetds.beer",
+    "ioc_type": "domain",
+    "original_ioc": "securetds.beer",
+    "hunt_ioc": "securetds.beer",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "ClickFix malware delivery",
+    "malware_family": "ClickFix",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL lists securetds.beer as current ClickFix command or payload-hosting infrastructure in its weekly incident set.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL lists securetds.beer as current ClickFix command or payload-hosting infrastructure in its weekly incident set."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "securiteize.com",
+    "ioc_type": "domain",
+    "original_ioc": "securiteize.com",
+    "hunt_ioc": "securiteize.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists securiteize.com as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists securiteize.com as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "seihires.xyz",
+    "ioc_type": "domain",
+    "original_ioc": "seihires.xyz",
+    "hunt_ioc": "seihires.xyz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists seihires.xyz as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists seihires.xyz as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "shape3.vc",
+    "ioc_type": "domain",
+    "original_ioc": "shape3.vc",
+    "hunt_ioc": "shape3.vc",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists shape3.vc as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists shape3.vc as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "tearnrnicrocoft.com",
+    "ioc_type": "domain",
+    "original_ioc": "tearnrnicrocoft.com",
+    "hunt_ioc": "tearnrnicrocoft.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "UNC1069 fake Teams and Zoom campaign",
+    "malware_family": "ClickFix delivery",
+    "threat_actor": "UNC1069",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL lists tearnrnicrocoft.com as malicious fake Teams or Zoom infrastructure used by UNC1069.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL lists tearnrnicrocoft.com as malicious fake Teams or Zoom infrastructure used by UNC1069."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "tearns.online",
+    "ioc_type": "domain",
+    "original_ioc": "tearns.online",
+    "hunt_ioc": "tearns.online",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Suspected UNC1069 fake meeting campaign",
+    "malware_family": "ClickFix delivery",
+    "threat_actor": "Suspected UNC1069",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL lists tearns.online as suspected UNC1069 fake meeting infrastructure in its current weekly incident set.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL lists tearns.online as suspected UNC1069 fake meeting infrastructure in its current weekly incident set."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "teernsrniceroseft.com",
+    "ioc_type": "domain",
+    "original_ioc": "teernsrniceroseft.com",
+    "hunt_ioc": "teernsrniceroseft.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "UNC1069 fake Teams and Zoom campaign",
+    "malware_family": "ClickFix delivery",
+    "threat_actor": "UNC1069",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL lists teernsrniceroseft.com as malicious fake Teams or Zoom infrastructure used by UNC1069.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL lists teernsrniceroseft.com as malicious fake Teams or Zoom infrastructure used by UNC1069."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "us02live.co",
+    "ioc_type": "domain",
+    "original_ioc": "us02live.co",
+    "hunt_ioc": "us02live.co",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "UNC1069 fake Teams and Zoom campaign",
+    "malware_family": "ClickFix delivery",
+    "threat_actor": "UNC1069",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL lists us02live.co as malicious fake Teams or Zoom infrastructure used by UNC1069.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL lists us02live.co as malicious fake Teams or Zoom infrastructure used by UNC1069."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "us04.live",
+    "ioc_type": "domain",
+    "original_ioc": "us04.live",
+    "hunt_ioc": "us04.live",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Suspected UNC1069 fake meeting campaign",
+    "malware_family": "ClickFix delivery",
+    "threat_actor": "Suspected UNC1069",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL lists us04.live as suspected UNC1069 fake meeting infrastructure in its current weekly incident set.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL lists us04.live as suspected UNC1069 fake meeting infrastructure in its current weekly incident set."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "us05meet.cloud",
+    "ioc_type": "domain",
+    "original_ioc": "us05meet.cloud",
+    "hunt_ioc": "us05meet.cloud",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Suspected UNC1069 fake meeting campaign",
+    "malware_family": "ClickFix delivery",
+    "threat_actor": "Suspected UNC1069",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL lists us05meet.cloud as suspected UNC1069 fake meeting infrastructure in its current weekly incident set.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL lists us05meet.cloud as suspected UNC1069 fake meeting infrastructure in its current weekly incident set."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "us05meet.live",
+    "ioc_type": "domain",
+    "original_ioc": "us05meet.live",
+    "hunt_ioc": "us05meet.live",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Suspected UNC1069 fake meeting campaign",
+    "malware_family": "ClickFix delivery",
+    "threat_actor": "Suspected UNC1069",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL lists us05meet.live as suspected UNC1069 fake meeting infrastructure in its current weekly incident set.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL lists us05meet.live as suspected UNC1069 fake meeting infrastructure in its current weekly incident set."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "us06.live",
+    "ioc_type": "domain",
+    "original_ioc": "us06.live",
+    "hunt_ioc": "us06.live",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Suspected UNC1069 fake meeting campaign",
+    "malware_family": "ClickFix delivery",
+    "threat_actor": "Suspected UNC1069",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL lists us06.live as suspected UNC1069 fake meeting infrastructure in its current weekly incident set.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL lists us06.live as suspected UNC1069 fake meeting infrastructure in its current weekly incident set."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "us06cloud.com",
+    "ioc_type": "domain",
+    "original_ioc": "us06cloud.com",
+    "hunt_ioc": "us06cloud.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Suspected UNC1069 fake meeting campaign",
+    "malware_family": "ClickFix delivery",
+    "threat_actor": "Suspected UNC1069",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL lists us06cloud.com as suspected UNC1069 fake meeting infrastructure in its current weekly incident set.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL lists us06cloud.com as suspected UNC1069 fake meeting infrastructure in its current weekly incident set."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "us06cloud.live",
+    "ioc_type": "domain",
+    "original_ioc": "us06cloud.live",
+    "hunt_ioc": "us06cloud.live",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "UNC1069 fake Teams and Zoom campaign",
+    "malware_family": "ClickFix delivery",
+    "threat_actor": "UNC1069",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL lists us06cloud.live as malicious fake Teams or Zoom infrastructure used by UNC1069.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL lists us06cloud.live as malicious fake Teams or Zoom infrastructure used by UNC1069."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "us06live.online",
+    "ioc_type": "domain",
+    "original_ioc": "us06live.online",
+    "hunt_ioc": "us06live.online",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Suspected UNC1069 fake meeting campaign",
+    "malware_family": "ClickFix delivery",
+    "threat_actor": "Suspected UNC1069",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL lists us06live.online as suspected UNC1069 fake meeting infrastructure in its current weekly incident set.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL lists us06live.online as suspected UNC1069 fake meeting infrastructure in its current weekly incident set."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "us06zoom.us.com",
+    "ioc_type": "domain",
+    "original_ioc": "us06zoom.us.com",
+    "hunt_ioc": "us06zoom.us.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists us06zoom.us.com as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists us06zoom.us.com as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ventok.us",
+    "ioc_type": "domain",
+    "original_ioc": "ventok.us",
+    "hunt_ioc": "ventok.us",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SINT-69 Telegram takeover campaign",
+    "malware_family": "Malicious takeover payload",
+    "threat_actor": "SINT-69",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL lists ventok.us as malicious front-end, payload, or video infrastructure used by SINT-69.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL lists ventok.us as malicious front-end, payload, or video infrastructure used by SINT-69."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "workwithbera.xyz",
+    "ioc_type": "domain",
+    "original_ioc": "workwithbera.xyz",
+    "hunt_ioc": "workwithbera.xyz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Malicious job interview campaign",
+    "malware_family": "ClickFix or malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL explicitly lists workwithbera.xyz as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL explicitly lists workwithbera.xyz as malicious fake hiring, meeting, crypto-company, venture-capital, or recruiter infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "zenzyvera.store",
+    "ioc_type": "domain",
+    "original_ioc": "zenzyvera.store",
+    "hunt_ioc": "zenzyvera.store",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Contagious Interview campaign",
+    "malware_family": "Malicious job-interview payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL lists zenzyvera.store as malicious infrastructure in a current Contagious Interview incident.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL lists zenzyvera.store as malicious infrastructure in a current Contagious Interview incident."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "144.172.116.37",
+    "ioc_type": "ipv4",
+    "original_ioc": "144.172.116.37",
+    "hunt_ioc": "144.172.116.37",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Camera management software compromise",
+    "malware_family": "Unknown Windows malware",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Huntress"
+    ],
+    "source_article": [
+      "Camera Management Software Compromise Leads to Malware Deployment"
+    ],
+    "source_url": [
+      "https://www.huntress.com/blog/camera-management-software-compromise-malware"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Huntress observed this command-and-control IP address in every investigated camera-management-software compromise.",
+    "sources": [
+      {
+        "organization": "Huntress",
+        "article_title": "Camera Management Software Compromise Leads to Malware Deployment",
+        "url": "https://www.huntress.com/blog/camera-management-software-compromise-malware",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "HUNTRESS-CAMERA-COMPROMISE-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "Huntress observed this command-and-control IP address in every investigated camera-management-software compromise."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "186.2.163.185",
+    "ioc_type": "ipv4",
+    "original_ioc": "186.2.163.185",
+    "hunt_ioc": "186.2.163.185",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Foundation Wallet mailer phishing",
+    "malware_family": "Phishing infrastructure",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL links 186.2.163.185 to the current Foundation Wallet phishing infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL links 186.2.163.185 to the current Foundation Wallet phishing infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "186.2.163.189",
+    "ioc_type": "ipv4",
+    "original_ioc": "186.2.163.189",
+    "hunt_ioc": "186.2.163.189",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Foundation Wallet mailer phishing",
+    "malware_family": "Phishing infrastructure",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL links 186.2.163.189 to the current Foundation Wallet phishing infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL links 186.2.163.189 to the current Foundation Wallet phishing infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "186.2.163.88",
+    "ioc_type": "ipv4",
+    "original_ioc": "186.2.163.88",
+    "hunt_ioc": "186.2.163.88",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Foundation Wallet mailer phishing",
+    "malware_family": "Phishing infrastructure",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL links 186.2.163.88 to the current Foundation Wallet phishing infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL links 186.2.163.88 to the current Foundation Wallet phishing infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "94.154.43.7",
+    "ioc_type": "ipv4",
+    "original_ioc": "94.154.43.7",
+    "hunt_ioc": "94.154.43.7",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Node2Shell exploitation",
+    "malware_family": "Node2Shell exploit delivery",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "ELLIO"
+    ],
+    "source_article": [
+      "Node2Shell remote code execution on stock Node.js builds - 26 October exploitation update"
+    ],
+    "source_url": [
+      "https://ellio.tech/en/blog/node2shell-cve-2026-111497-rce-on-stock-nodejs-builds"
+    ],
+    "article_published_date": [
+      "2026-10-26T15:08:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "REACTIVATED",
+    "notes": "ELLIO identifies this source IP as malicious high-confidence infrastructure that delivered the in-window Node2Shell exploitation attempt.; reactivation evidence: ELLIO observed this previously published IP delivering a new, correctly structured Node2Shell exploitation attempt during the current collection window.",
+    "sources": [
+      {
+        "organization": "ELLIO",
+        "article_title": "Node2Shell remote code execution on stock Node.js builds - 26 October exploitation update",
+        "url": "https://ellio.tech/en/blog/node2shell-cve-2026-111497-rce-on-stock-nodejs-builds",
+        "published_at": "2026-10-26T15:08:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "ELLIO-NODE2SHELL-2026-10-26",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "ELLIO identifies this source IP as malicious high-confidence infrastructure that delivered the in-window Node2Shell exploitation attempt."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "95.129.237.223",
+    "ioc_type": "ipv4",
+    "original_ioc": "95.129.237.223",
+    "hunt_ioc": "95.129.237.223",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Foundation Wallet mailer phishing",
+    "malware_family": "Phishing infrastructure",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Security Alliance"
+    ],
+    "source_article": [
+      "SEAL weekly stats: 20-27 Oct, 2026"
+    ],
+    "source_url": [
+      "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "SEAL links 95.129.237.223 to the current Foundation Wallet phishing infrastructure.",
+    "sources": [
+      {
+        "organization": "Security Alliance",
+        "article_title": "SEAL weekly stats: 20-27 Oct, 2026",
+        "url": "https://radar.securityalliance.org/seal-weekly-stats-20-27-oct-2026",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "SEAL-WEEKLY-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "SEAL links 95.129.237.223 to the current Foundation Wallet phishing infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "1fb4af4862643dcab1459872f723f574f1a588855b020916b600df5c20681144",
+    "ioc_type": "sha256",
+    "original_ioc": "1fb4af4862643dcab1459872f723f574f1a588855b020916b600df5c20681144",
+    "hunt_ioc": "1fb4af4862643dcab1459872f723f574f1a588855b020916b600df5c20681144",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Camera management software compromise",
+    "malware_family": "Unknown Windows malware",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Huntress"
+    ],
+    "source_article": [
+      "Camera Management Software Compromise Leads to Malware Deployment"
+    ],
+    "source_url": [
+      "https://www.huntress.com/blog/camera-management-software-compromise-malware"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Huntress identifies this as Rs.win32.exe dropped under AppData during the camera-management-software compromise.",
+    "sources": [
+      {
+        "organization": "Huntress",
+        "article_title": "Camera Management Software Compromise Leads to Malware Deployment",
+        "url": "https://www.huntress.com/blog/camera-management-software-compromise-malware",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "HUNTRESS-CAMERA-COMPROMISE-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "Huntress identifies this as Rs.win32.exe dropped under AppData during the camera-management-software compromise."
+        ]
+      }
+    ]
+  },
+  {
     "ioc": "27412bed5f601178ed5b41ff20cac161f0b16ec224b9ee40d566cccd32887c1b",
     "ioc_type": "sha256",
     "original_ioc": "27412bed5f601178ed5b41ff20cac161f0b16ec224b9ee40d566cccd32887c1b",
@@ -12,10 +2691,10 @@
       "abuse.ch URLhaus"
     ],
     "source_article": [
-      "URLhaus current Mirai sample records"
+      "URLhaus Mirai payload 27412bed"
     ],
     "source_url": [
-      "https://urlhaus.abuse.ch/browse/"
+      "https://urlhaus.abuse.ch/browse.php?search=27412bed5f601178ed5b41ff20cac161f0b16ec224b9ee40d566cccd32887c1b"
     ],
     "article_published_date": [
       "2026-10-28T06:04:41Z"
@@ -26,22 +2705,210 @@
     "confidence": 100,
     "acceptance_score": 100,
     "status": "NEW",
-    "notes": "Hunt endpoint file telemetry.",
+    "notes": "URLhaus lists this exact current ELF payload hash with the Mirai malware signature.",
     "sources": [
       {
         "organization": "abuse.ch URLhaus",
-        "article_title": "URLhaus current Mirai sample records",
-        "url": "https://urlhaus.abuse.ch/browse/",
+        "article_title": "URLhaus Mirai payload 27412bed",
+        "url": "https://urlhaus.abuse.ch/browse.php?search=27412bed5f601178ed5b41ff20cac161f0b16ec224b9ee40d566cccd32887c1b",
         "published_at": "2026-10-28T06:04:41Z",
         "updated_at": null,
         "reliability": 1.0,
-        "source_id": "",
+        "source_id": "URLHAUS-27412BED",
         "source_role": "primary",
         "evidence_tier": 2,
         "retrieval_method": "ai-web-research",
         "collection_start": "2026-10-26T13:00:00Z",
         "discovery_context": [
-          "The current URLhaus browse record labels this SHA-256 as a Mirai ELF sample observed on 2026-10-28."
+          "URLhaus lists this exact current ELF payload hash with the Mirai malware signature."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "70b2345302264c41504d59e6a63d6d908969740424b42b7373f10b4c8d74c87a",
+    "ioc_type": "sha256",
+    "original_ioc": "70b2345302264c41504d59e6a63d6d908969740424b42b7373f10b4c8d74c87a",
+    "hunt_ioc": "70b2345302264c41504d59e6a63d6d908969740424b42b7373f10b4c8d74c87a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Camera management software compromise",
+    "malware_family": "Unknown Windows malware",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Huntress"
+    ],
+    "source_article": [
+      "Camera Management Software Compromise Leads to Malware Deployment"
+    ],
+    "source_url": [
+      "https://www.huntress.com/blog/camera-management-software-compromise-malware"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Huntress identifies this as malicious IPHLPAPI.DLL deployed during the camera-management-software compromise.",
+    "sources": [
+      {
+        "organization": "Huntress",
+        "article_title": "Camera Management Software Compromise Leads to Malware Deployment",
+        "url": "https://www.huntress.com/blog/camera-management-software-compromise-malware",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "HUNTRESS-CAMERA-COMPROMISE-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "Huntress identifies this as malicious IPHLPAPI.DLL deployed during the camera-management-software compromise."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "7fcbdaaecd4419e2930927844f3b772668204737a4e7602a2290c991c93c5c4b",
+    "ioc_type": "sha256",
+    "original_ioc": "7fcbdaaecd4419e2930927844f3b772668204737a4e7602a2290c991c93c5c4b",
+    "hunt_ioc": "7fcbdaaecd4419e2930927844f3b772668204737a4e7602a2290c991c93c5c4b",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Node2Shell exploitation",
+    "malware_family": "Node2Shell exploit payload",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "ELLIO"
+    ],
+    "source_article": [
+      "Node2Shell remote code execution on stock Node.js builds - 26 October exploitation update"
+    ],
+    "source_url": [
+      "https://ellio.tech/en/blog/node2shell-cve-2026-111497-rce-on-stock-nodejs-builds"
+    ],
+    "article_published_date": [
+      "2026-10-26T15:08:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "REACTIVATED",
+    "notes": "ELLIO sensors observed this exact Brotli request-body hash in a live Node2Shell exploitation attempt against Node.js 24.22.0.; reactivation evidence: ELLIO's October 26 live-sensor update documents a new in-window exploitation attempt carrying this exact previously published payload hash.",
+    "sources": [
+      {
+        "organization": "ELLIO",
+        "article_title": "Node2Shell remote code execution on stock Node.js builds - 26 October exploitation update",
+        "url": "https://ellio.tech/en/blog/node2shell-cve-2026-111497-rce-on-stock-nodejs-builds",
+        "published_at": "2026-10-26T15:08:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "ELLIO-NODE2SHELL-2026-10-26",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "ELLIO sensors observed this exact Brotli request-body hash in a live Node2Shell exploitation attempt against Node.js 24.22.0."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "8f8e88c54a9c56174974711eff99b4beb79536642fcca1902acdc3d4b1fd1035",
+    "ioc_type": "sha256",
+    "original_ioc": "8f8e88c54a9c56174974711eff99b4beb79536642fcca1902acdc3d4b1fd1035",
+    "hunt_ioc": "8f8e88c54a9c56174974711eff99b4beb79536642fcca1902acdc3d4b1fd1035",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Camera management software compromise",
+    "malware_family": "Unknown Windows malware",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Huntress"
+    ],
+    "source_article": [
+      "Camera Management Software Compromise Leads to Malware Deployment"
+    ],
+    "source_url": [
+      "https://www.huntress.com/blog/camera-management-software-compromise-malware"
+    ],
+    "article_published_date": [
+      "2026-10-27T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Huntress identifies this as the malicious samcli.dll deployed during the camera-management-software compromise.",
+    "sources": [
+      {
+        "organization": "Huntress",
+        "article_title": "Camera Management Software Compromise Leads to Malware Deployment",
+        "url": "https://www.huntress.com/blog/camera-management-software-compromise-malware",
+        "published_at": "2026-10-27T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "HUNTRESS-CAMERA-COMPROMISE-2026-10-27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "Huntress identifies this as the malicious samcli.dll deployed during the camera-management-software compromise."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a2a6cc0f2e18e440c09a14ed3fbbccf76db9936cce101af18e1125e5daee7cfd",
+    "ioc_type": "sha256",
+    "original_ioc": "a2a6cc0f2e18e440c09a14ed3fbbccf76db9936cce101af18e1125e5daee7cfd",
+    "hunt_ioc": "a2a6cc0f2e18e440c09a14ed3fbbccf76db9936cce101af18e1125e5daee7cfd",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "AMOS Foxveil ClickFix",
+    "malware_family": "AMOS",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1999236 AMOS payload"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1999236"
+    ],
+    "article_published_date": [
+      "2026-10-28T12:57:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "ThreatFox identifies this SHA-256 as a current AMOS payload delivered through the Foxveil ClickFix campaign.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1999236 AMOS payload",
+        "url": "https://threatfox.abuse.ch/ioc/1999236",
+        "published_at": "2026-10-28T12:57:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "THREATFOX-1999236",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "ThreatFox identifies this SHA-256 as a current AMOS payload delivered through the Foxveil ClickFix campaign."
         ]
       }
     ]
@@ -59,13 +2926,13 @@
       "abuse.ch URLhaus"
     ],
     "source_article": [
-      "URLhaus current Mirai sample records"
+      "URLhaus Mirai payload df85d8ec"
     ],
     "source_url": [
-      "https://urlhaus.abuse.ch/browse/"
+      "https://urlhaus.abuse.ch/browse.php?search=df85d8ec688ec645acbdeaf94c604a993c19637bd0edb013ea5601667e37cbf9"
     ],
     "article_published_date": [
-      "2026-10-28T08:17:56Z"
+      "2026-10-28T06:17:56Z"
     ],
     "ioc_first_seen": null,
     "ioc_last_seen": null,
@@ -73,22 +2940,210 @@
     "confidence": 100,
     "acceptance_score": 100,
     "status": "NEW",
-    "notes": "Hunt endpoint file telemetry.",
+    "notes": "URLhaus lists this exact current ELF payload hash with the Mirai malware signature.",
     "sources": [
       {
         "organization": "abuse.ch URLhaus",
-        "article_title": "URLhaus current Mirai sample records",
-        "url": "https://urlhaus.abuse.ch/browse/",
-        "published_at": "2026-10-28T08:17:56Z",
+        "article_title": "URLhaus Mirai payload df85d8ec",
+        "url": "https://urlhaus.abuse.ch/browse.php?search=df85d8ec688ec645acbdeaf94c604a993c19637bd0edb013ea5601667e37cbf9",
+        "published_at": "2026-10-28T06:17:56Z",
         "updated_at": null,
         "reliability": 1.0,
-        "source_id": "",
+        "source_id": "URLHAUS-DF85D8EC",
         "source_role": "primary",
         "evidence_tier": 2,
         "retrieval_method": "ai-web-research",
         "collection_start": "2026-10-26T13:00:00Z",
         "discovery_context": [
-          "The current URLhaus browse record labels this SHA-256 as a Mirai ELF sample observed on 2026-10-28."
+          "URLhaus lists this exact current ELF payload hash with the Mirai malware signature."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "eef389f8a279aeb95032d8df6e8ccfadfec840e0e26eb98ffbdb536d2432463a",
+    "ioc_type": "sha256",
+    "original_ioc": "eef389f8a279aeb95032d8df6e8ccfadfec840e0e26eb98ffbdb536d2432463a",
+    "hunt_ioc": "eef389f8a279aeb95032d8df6e8ccfadfec840e0e26eb98ffbdb536d2432463a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Mirai malware distribution",
+    "malware_family": "Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1999234 Mirai payload"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1999234"
+    ],
+    "article_published_date": [
+      "2026-10-28T12:55:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "ThreatFox identifies this SHA-256 as a current Mirai ELF malware payload.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1999234 Mirai payload",
+        "url": "https://threatfox.abuse.ch/ioc/1999234",
+        "published_at": "2026-10-28T12:55:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "THREATFOX-1999234",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "ThreatFox identifies this SHA-256 as a current Mirai ELF malware payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://103.213.112.167:38737/Mozi.m",
+    "ioc_type": "url",
+    "original_ioc": "http://103.213.112.167:38737/Mozi.m",
+    "hunt_ioc": "103.213.112.167",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Mozi malware distribution",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1999210 Mozi URL"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1999210"
+    ],
+    "article_published_date": [
+      "2026-10-28T12:19:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "ThreatFox identifies this exact URL as current Mozi ELF malware-delivery infrastructure.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1999210 Mozi URL",
+        "url": "https://threatfox.abuse.ch/ioc/1999210",
+        "published_at": "2026-10-28T12:19:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "THREATFOX-1999210",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "ThreatFox identifies this exact URL as current Mozi ELF malware-delivery infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://202.47.55.180:35163/Mozi.m",
+    "ioc_type": "url",
+    "original_ioc": "http://202.47.55.180:35163/Mozi.m",
+    "hunt_ioc": "202.47.55.180",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Mozi malware distribution",
+    "malware_family": "Mozi",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1999209 Mozi URL"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1999209"
+    ],
+    "article_published_date": [
+      "2026-10-28T12:19:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "ThreatFox identifies this exact URL as current Mozi ELF malware-delivery infrastructure.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1999209 Mozi URL",
+        "url": "https://threatfox.abuse.ch/ioc/1999209",
+        "published_at": "2026-10-28T12:19:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "THREATFOX-1999209",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "ThreatFox identifies this exact URL as current Mozi ELF malware-delivery infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://cr.ahoktoto.org/tq/",
+    "ioc_type": "url",
+    "original_ioc": "https://cr.ahoktoto.org/tq/",
+    "hunt_ioc": "cr.ahoktoto.org",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Vidar malware delivery",
+    "malware_family": "Vidar",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 1999235 Vidar URL"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/1999235"
+    ],
+    "article_published_date": [
+      "2026-10-28T12:55:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-28T13:00:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "ThreatFox identifies this exact URL as current Vidar malware-delivery infrastructure.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 1999235 Vidar URL",
+        "url": "https://threatfox.abuse.ch/ioc/1999235",
+        "published_at": "2026-10-28T12:55:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "THREATFOX-1999235",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-26T13:00:00Z",
+        "discovery_context": [
+          "ThreatFox identifies this exact URL as current Vidar malware-delivery infrastructure."
         ]
       }
     ]
