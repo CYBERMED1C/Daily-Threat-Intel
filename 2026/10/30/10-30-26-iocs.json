@@ -1,0 +1,3433 @@
+[
+  {
+    "ioc": "getsolara.dev",
+    "ioc_type": "domain",
+    "original_ioc": "getsolara.dev",
+    "hunt_ioc": "getsolara.dev",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Chimera-linked malware distribution",
+    "malware_family": "Chimera",
+    "threat_actor": "Chimera (G0114)",
+    "source_organization": [
+      "Maltiverse"
+    ],
+    "source_article": [
+      "getsolara.dev - current Chimera-linked malware distribution hostname"
+    ],
+    "source_url": [
+      "https://maltiverse.com/hostname/getsolara.dev"
+    ],
+    "article_published_date": [
+      "2026-10-30T02:09:53Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": "2026-10-30T01:21:24Z",
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 85,
+    "acceptance_score": 85,
+    "status": "NEW",
+    "notes": "Current metadata-rich public structured IOC record.",
+    "sources": [
+      {
+        "organization": "Maltiverse",
+        "article_title": "getsolara.dev - current Chimera-linked malware distribution hostname",
+        "url": "https://maltiverse.com/hostname/getsolara.dev",
+        "published_at": "2026-10-30T02:09:53Z",
+        "updated_at": null,
+        "reliability": 0.85,
+        "source_id": "MALTIVERSE-GETSOLARA-20261030",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Maltiverse classifies this exact hostname as current malicious malware-distribution infrastructure with multiple independent sightings."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "nginxmysql.com",
+    "ioc_type": "domain",
+    "original_ioc": "nginxmysql.com",
+    "hunt_ioc": "nginxmysql.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "VAPOR PANDA ARTEX global espionage campaign",
+    "malware_family": "BLOODALCHEMY",
+    "threat_actor": "VAPOR PANDA",
+    "source_organization": [
+      "CrowdStrike"
+    ],
+    "source_article": [
+      "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign"
+    ],
+    "source_url": [
+      "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current CrowdStrike VAPOR PANDA/BLOODALCHEMY indicator.",
+    "sources": [
+      {
+        "organization": "CrowdStrike",
+        "article_title": "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign",
+        "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "CROWDSTRIKE-VAPOR-PANDA-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "CrowdStrike explicitly identifies this value as BLOODALCHEMY command-and-control domain in the current VAPOR PANDA campaign IOC table."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "nova-client.st",
+    "ioc_type": "domain",
+    "original_ioc": "nova-client.st",
+    "hunt_ioc": "nova-client.st",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SilentNet malware delivery",
+    "malware_family": "SilentNet",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus host record - nova-client.st SilentNet JAR delivery"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/host/nova-client.st"
+    ],
+    "article_published_date": [
+      "2026-10-29T06:33:09Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Current metadata-rich public structured IOC record.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus host record - nova-client.st SilentNet JAR delivery",
+        "url": "https://urlhaus.abuse.ch/host/nova-client.st",
+        "published_at": "2026-10-29T06:33:09Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "URLHAUS-NOVA-CLIENT-ST-20261029",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "URLhaus explicitly marks this dedicated host as a current malware domain serving the observed SilentNet JAR and payload hashes."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "sqlserver-sqlite.com",
+    "ioc_type": "domain",
+    "original_ioc": "sqlserver-sqlite.com",
+    "hunt_ioc": "sqlserver-sqlite.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "VAPOR PANDA ARTEX global espionage campaign",
+    "malware_family": "BLOODALCHEMY",
+    "threat_actor": "VAPOR PANDA",
+    "source_organization": [
+      "CrowdStrike"
+    ],
+    "source_article": [
+      "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign"
+    ],
+    "source_url": [
+      "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current CrowdStrike VAPOR PANDA/BLOODALCHEMY indicator.",
+    "sources": [
+      {
+        "organization": "CrowdStrike",
+        "article_title": "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign",
+        "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "CROWDSTRIKE-VAPOR-PANDA-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "CrowdStrike explicitly identifies this value as BLOODALCHEMY command-and-control domain in the current VAPOR PANDA campaign IOC table."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "total-sitevv.lol",
+    "ioc_type": "domain",
+    "original_ioc": "total-sitevv.lol",
+    "hunt_ioc": "total-sitevv.lol",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "NIK C2 AI-enabled command-and-control activity",
+    "malware_family": "NIK C2 / GoDiscorder",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Cisco Talos"
+    ],
+    "source_article": [
+      "NIK C2: The new AI-enabled command-and-control framework"
+    ],
+    "source_url": [
+      "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current Talos NIK C2 command-and-control indicator.",
+    "sources": [
+      {
+        "organization": "Cisco Talos",
+        "article_title": "NIK C2: The new AI-enabled command-and-control framework",
+        "url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "TALOS-NIK-C2-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Cisco Talos explicitly lists this value as malicious NIK C2 command-and-control infrastructure observed active in the wild."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "www.ddduuuppp.com",
+    "ioc_type": "domain",
+    "original_ioc": "www.ddduuuppp.com",
+    "hunt_ioc": "www.ddduuuppp.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "VAPOR PANDA ARTEX global espionage campaign",
+    "malware_family": "BLOODALCHEMY",
+    "threat_actor": "VAPOR PANDA",
+    "source_organization": [
+      "CrowdStrike"
+    ],
+    "source_article": [
+      "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign"
+    ],
+    "source_url": [
+      "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current CrowdStrike VAPOR PANDA/BLOODALCHEMY indicator.",
+    "sources": [
+      {
+        "organization": "CrowdStrike",
+        "article_title": "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign",
+        "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "CROWDSTRIKE-VAPOR-PANDA-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "CrowdStrike explicitly identifies this value as BLOODALCHEMY command-and-control domain in the current VAPOR PANDA campaign IOC table."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "134.209.82.225",
+    "ioc_type": "ipv4",
+    "original_ioc": "134.209.82.225",
+    "hunt_ioc": "134.209.82.225",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Trojanized Anthropic Claude Code extension 2.1.313",
+    "malware_family": "Claude Code SSH backdoor",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "StepSecurity"
+    ],
+    "source_article": [
+      "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines"
+    ],
+    "source_url": [
+      "https://www.stepsecurity.io/blog/claude-code-extension-trojanized"
+    ],
+    "article_published_date": [
+      "2026-10-30T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "The hosting provider took the server offline; retain for historical hunting.",
+    "sources": [
+      {
+        "organization": "StepSecurity",
+        "article_title": "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines",
+        "url": "https://www.stepsecurity.io/blog/claude-code-extension-trojanized",
+        "published_at": "2026-10-30T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "STEPSECURITY-CLAUDE-CODE-2026-10-30",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "StepSecurity explicitly identifies this public address and beacon endpoint as attacker infrastructure used by the trojanized extension for reverse SSH and host reconnaissance."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "192.121.47.20",
+    "ioc_type": "ipv4",
+    "original_ioc": "192.121.47.20",
+    "hunt_ioc": "192.121.47.20",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "VAPOR PANDA ARTEX global espionage campaign",
+    "malware_family": "BLOODALCHEMY",
+    "threat_actor": "VAPOR PANDA",
+    "source_organization": [
+      "CrowdStrike"
+    ],
+    "source_article": [
+      "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign"
+    ],
+    "source_url": [
+      "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current CrowdStrike VAPOR PANDA/BLOODALCHEMY indicator.",
+    "sources": [
+      {
+        "organization": "CrowdStrike",
+        "article_title": "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign",
+        "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "CROWDSTRIKE-VAPOR-PANDA-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "CrowdStrike explicitly identifies this value as IP address for BLOODALCHEMY command-and-control infrastructure in the current VAPOR PANDA campaign IOC table."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2.26.51.12",
+    "ioc_type": "ipv4",
+    "original_ioc": "2.26.51.12",
+    "hunt_ioc": "2.26.51.12",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "NIK C2 AI-enabled command-and-control activity",
+    "malware_family": "NIK C2 / GoDiscorder",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Cisco Talos"
+    ],
+    "source_article": [
+      "NIK C2: The new AI-enabled command-and-control framework"
+    ],
+    "source_url": [
+      "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current Talos NIK C2 command-and-control indicator.",
+    "sources": [
+      {
+        "organization": "Cisco Talos",
+        "article_title": "NIK C2: The new AI-enabled command-and-control framework",
+        "url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "TALOS-NIK-C2-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Cisco Talos explicitly lists this value as malicious NIK C2 command-and-control infrastructure observed active in the wild."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "45.153.126.223",
+    "ioc_type": "ipv4",
+    "original_ioc": "45.153.126.223",
+    "hunt_ioc": "45.153.126.223",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "VAPOR PANDA ARTEX global espionage campaign",
+    "malware_family": "BLOODALCHEMY",
+    "threat_actor": "VAPOR PANDA",
+    "source_organization": [
+      "CrowdStrike"
+    ],
+    "source_article": [
+      "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign"
+    ],
+    "source_url": [
+      "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current CrowdStrike VAPOR PANDA/BLOODALCHEMY indicator.",
+    "sources": [
+      {
+        "organization": "CrowdStrike",
+        "article_title": "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign",
+        "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "CROWDSTRIKE-VAPOR-PANDA-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "CrowdStrike explicitly identifies this value as IP address for BLOODALCHEMY command-and-control infrastructure in the current VAPOR PANDA campaign IOC table."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "87.120.196.120",
+    "ioc_type": "ipv4",
+    "original_ioc": "87.120.196.120",
+    "hunt_ioc": "87.120.196.120",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "NIK C2 AI-enabled command-and-control activity",
+    "malware_family": "NIK C2 / GoDiscorder",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Cisco Talos"
+    ],
+    "source_article": [
+      "NIK C2: The new AI-enabled command-and-control framework"
+    ],
+    "source_url": [
+      "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current Talos NIK C2 command-and-control indicator.",
+    "sources": [
+      {
+        "organization": "Cisco Talos",
+        "article_title": "NIK C2: The new AI-enabled command-and-control framework",
+        "url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "TALOS-NIK-C2-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Cisco Talos explicitly lists this value as malicious NIK C2 command-and-control infrastructure observed active in the wild."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "89.46.234.50",
+    "ioc_type": "ipv4",
+    "original_ioc": "89.46.234.50",
+    "hunt_ioc": "89.46.234.50",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "VAPOR PANDA ARTEX global espionage campaign",
+    "malware_family": "BLOODALCHEMY",
+    "threat_actor": "VAPOR PANDA",
+    "source_organization": [
+      "CrowdStrike"
+    ],
+    "source_article": [
+      "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign"
+    ],
+    "source_url": [
+      "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current CrowdStrike VAPOR PANDA/BLOODALCHEMY indicator.",
+    "sources": [
+      {
+        "organization": "CrowdStrike",
+        "article_title": "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign",
+        "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "CROWDSTRIKE-VAPOR-PANDA-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "CrowdStrike explicitly identifies this value as IP address for BLOODALCHEMY command-and-control infrastructure in the current VAPOR PANDA campaign IOC table."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "bd3b71ddf3d0cc3af76249afd2c0eda1",
+    "ioc_type": "md5",
+    "original_ioc": "bd3b71ddf3d0cc3af76249afd2c0eda1",
+    "hunt_ioc": "bd3b71ddf3d0cc3af76249afd2c0eda1",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "Trojanized Anthropic Claude Code extension 2.1.313",
+    "malware_family": "Claude Code SSH backdoor",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "StepSecurity"
+    ],
+    "source_article": [
+      "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines"
+    ],
+    "source_url": [
+      "https://www.stepsecurity.io/blog/claude-code-extension-trojanized"
+    ],
+    "article_published_date": [
+      "2026-10-30T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Confirmed malicious extension artifact; Cursor exposure was independently confirmed.",
+    "sources": [
+      {
+        "organization": "StepSecurity",
+        "article_title": "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines",
+        "url": "https://www.stepsecurity.io/blog/claude-code-extension-trojanized",
+        "published_at": "2026-10-30T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "STEPSECURITY-CLAUDE-CODE-2026-10-30",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "StepSecurity explicitly identifies this hash as the malicious Windows x64 VSIX from the trojanized Claude Code 2.1.313 extension incident."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "da5469c4221775e9fe2e413e59ca7fd9",
+    "ioc_type": "md5",
+    "original_ioc": "da5469c4221775e9fe2e413e59ca7fd9",
+    "hunt_ioc": "da5469c4221775e9fe2e413e59ca7fd9",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "Trojanized Anthropic Claude Code extension 2.1.313",
+    "malware_family": "Claude Code SSH backdoor",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "StepSecurity"
+    ],
+    "source_article": [
+      "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines"
+    ],
+    "source_url": [
+      "https://www.stepsecurity.io/blog/claude-code-extension-trojanized"
+    ],
+    "article_published_date": [
+      "2026-10-30T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Confirmed malicious extension artifact; Cursor exposure was independently confirmed.",
+    "sources": [
+      {
+        "organization": "StepSecurity",
+        "article_title": "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines",
+        "url": "https://www.stepsecurity.io/blog/claude-code-extension-trojanized",
+        "published_at": "2026-10-30T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "STEPSECURITY-CLAUDE-CODE-2026-10-30",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "StepSecurity explicitly identifies this hash as the malicious Darwin ARM64 VSIX from the trojanized Claude Code 2.1.313 extension incident."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "f49bcd657ef1e626e85ce858958c1769",
+    "ioc_type": "md5",
+    "original_ioc": "f49bcd657ef1e626e85ce858958c1769",
+    "hunt_ioc": "f49bcd657ef1e626e85ce858958c1769",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "Trojanized Anthropic Claude Code extension 2.1.313",
+    "malware_family": "Claude Code SSH backdoor",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "StepSecurity"
+    ],
+    "source_article": [
+      "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines"
+    ],
+    "source_url": [
+      "https://www.stepsecurity.io/blog/claude-code-extension-trojanized"
+    ],
+    "article_published_date": [
+      "2026-10-30T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Confirmed malicious extension artifact; Cursor exposure was independently confirmed.",
+    "sources": [
+      {
+        "organization": "StepSecurity",
+        "article_title": "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines",
+        "url": "https://www.stepsecurity.io/blog/claude-code-extension-trojanized",
+        "published_at": "2026-10-30T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "STEPSECURITY-CLAUDE-CODE-2026-10-30",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "StepSecurity explicitly identifies this hash as the malicious extension.js loader from the trojanized Claude Code 2.1.313 extension incident."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "099061d5d822c2a3c8a286f8c552460787fa3700",
+    "ioc_type": "sha1",
+    "original_ioc": "099061d5d822c2a3c8a286f8c552460787fa3700",
+    "hunt_ioc": "099061d5d822c2a3c8a286f8c552460787fa3700",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Current MadApe malicious lure document hash.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this SHA-1 as a malicious PDF lure artifact used by the current MadApe device-code phishing campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "39d7abdea95ebaee77af715e0fb58a1416bddab3",
+    "ioc_type": "sha1",
+    "original_ioc": "39d7abdea95ebaee77af715e0fb58a1416bddab3",
+    "hunt_ioc": "39d7abdea95ebaee77af715e0fb58a1416bddab3",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Current MadApe malicious lure document hash.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this SHA-1 as a malicious PDF lure artifact used by the current MadApe device-code phishing campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "8df34b3f32eaa732c1b2a99bf348c4e4a6ff629d",
+    "ioc_type": "sha1",
+    "original_ioc": "8df34b3f32eaa732c1b2a99bf348c4e4a6ff629d",
+    "hunt_ioc": "8df34b3f32eaa732c1b2a99bf348c4e4a6ff629d",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Current MadApe malicious lure document hash.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this SHA-1 as a malicious PDF lure artifact used by the current MadApe device-code phishing campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a1735b2e9eedcb16e73c3e61fbd23ab72615fc72",
+    "ioc_type": "sha1",
+    "original_ioc": "a1735b2e9eedcb16e73c3e61fbd23ab72615fc72",
+    "hunt_ioc": "a1735b2e9eedcb16e73c3e61fbd23ab72615fc72",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Current MadApe malicious lure document hash.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this SHA-1 as a malicious PDF lure artifact used by the current MadApe device-code phishing campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "c5f618e32c389016adff85168bb0a1b263e6975d",
+    "ioc_type": "sha1",
+    "original_ioc": "c5f618e32c389016adff85168bb0a1b263e6975d",
+    "hunt_ioc": "c5f618e32c389016adff85168bb0a1b263e6975d",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Current MadApe malicious lure document hash.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this SHA-1 as a malicious PDF lure artifact used by the current MadApe device-code phishing campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "d38597e1d682a2725b9e36a62d8e4a0251011286",
+    "ioc_type": "sha1",
+    "original_ioc": "d38597e1d682a2725b9e36a62d8e4a0251011286",
+    "hunt_ioc": "d38597e1d682a2725b9e36a62d8e4a0251011286",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Current MadApe malicious lure document hash.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this SHA-1 as a malicious PDF lure artifact used by the current MadApe device-code phishing campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "e9621f90091b56c712858a27d3a775cde21c6463",
+    "ioc_type": "sha1",
+    "original_ioc": "e9621f90091b56c712858a27d3a775cde21c6463",
+    "hunt_ioc": "e9621f90091b56c712858a27d3a775cde21c6463",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Current MadApe malicious lure document hash.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this SHA-1 as a malicious PDF lure artifact used by the current MadApe device-code phishing campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "eccbb63a309130bea7caa6a95ec17e5a73ba0bdc",
+    "ioc_type": "sha1",
+    "original_ioc": "eccbb63a309130bea7caa6a95ec17e5a73ba0bdc",
+    "hunt_ioc": "eccbb63a309130bea7caa6a95ec17e5a73ba0bdc",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Current MadApe malicious lure document hash.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this SHA-1 as a malicious PDF lure artifact used by the current MadApe device-code phishing campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "f31a1dcb48467b89da25e8c85baad2a8f5f9aaf3",
+    "ioc_type": "sha1",
+    "original_ioc": "f31a1dcb48467b89da25e8c85baad2a8f5f9aaf3",
+    "hunt_ioc": "f31a1dcb48467b89da25e8c85baad2a8f5f9aaf3",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Current MadApe malicious lure document hash.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this SHA-1 as a malicious PDF lure artifact used by the current MadApe device-code phishing campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "f5e9d8ed0a057fbb168bc17ad2ed1faeecae184b",
+    "ioc_type": "sha1",
+    "original_ioc": "f5e9d8ed0a057fbb168bc17ad2ed1faeecae184b",
+    "hunt_ioc": "f5e9d8ed0a057fbb168bc17ad2ed1faeecae184b",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Current MadApe malicious lure document hash.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this SHA-1 as a malicious PDF lure artifact used by the current MadApe device-code phishing campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "1fee4cd8d3560e6c60ba50451860adf6e705f26fd3fe1c1ccc058f4e8b13073a",
+    "ioc_type": "sha256",
+    "original_ioc": "1fee4cd8d3560e6c60ba50451860adf6e705f26fd3fe1c1ccc058f4e8b13073a",
+    "hunt_ioc": "1fee4cd8d3560e6c60ba50451860adf6e705f26fd3fe1c1ccc058f4e8b13073a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "NIK C2 AI-enabled command-and-control activity",
+    "malware_family": "NIK C2 / GoDiscorder",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Cisco Talos"
+    ],
+    "source_article": [
+      "NIK C2: The new AI-enabled command-and-control framework"
+    ],
+    "source_url": [
+      "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Talos NIK C2 implant sample.",
+    "sources": [
+      {
+        "organization": "Cisco Talos",
+        "article_title": "NIK C2: The new AI-enabled command-and-control framework",
+        "url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "TALOS-NIK-C2-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Cisco Talos explicitly lists this SHA-256 as a malicious NIK C2 implant artifact observed during its current in-the-wild investigation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "22f682d9ff55264e934d0f43fcfbb46d58be5cfb8fe1b3a7cbb38fe089c818b0",
+    "ioc_type": "sha256",
+    "original_ioc": "22f682d9ff55264e934d0f43fcfbb46d58be5cfb8fe1b3a7cbb38fe089c818b0",
+    "hunt_ioc": "22f682d9ff55264e934d0f43fcfbb46d58be5cfb8fe1b3a7cbb38fe089c818b0",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Trojanized Anthropic Claude Code extension 2.1.313",
+    "malware_family": "Claude Code SSH backdoor",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "StepSecurity"
+    ],
+    "source_article": [
+      "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines"
+    ],
+    "source_url": [
+      "https://www.stepsecurity.io/blog/claude-code-extension-trojanized"
+    ],
+    "article_published_date": [
+      "2026-10-30T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Confirmed malicious extension artifact; Cursor exposure was independently confirmed.",
+    "sources": [
+      {
+        "organization": "StepSecurity",
+        "article_title": "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines",
+        "url": "https://www.stepsecurity.io/blog/claude-code-extension-trojanized",
+        "published_at": "2026-10-30T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "STEPSECURITY-CLAUDE-CODE-2026-10-30",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "StepSecurity explicitly identifies this hash as the dropped Windows persistence script from the trojanized Claude Code 2.1.313 extension incident."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "28f046d9f985e58cbc8b245b54d4179feacecc12f41e2f6594306867ce3e8727",
+    "ioc_type": "sha256",
+    "original_ioc": "28f046d9f985e58cbc8b245b54d4179feacecc12f41e2f6594306867ce3e8727",
+    "hunt_ioc": "28f046d9f985e58cbc8b245b54d4179feacecc12f41e2f6594306867ce3e8727",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Trojanized remote desktop and bulk-mailing application campaign",
+    "malware_family": "njRAT / DarkKometa",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Infoblox Threat Intel"
+    ],
+    "source_article": [
+      "The Ultra Trail: From Viewer to Mailer"
+    ],
+    "source_url": [
+      "https://www.infoblox.com/blog/threat-intelligence/the-ultra-trail-from-viewer-to-mailer"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current malicious installer artifact documented by Infoblox.",
+    "sources": [
+      {
+        "organization": "Infoblox Threat Intel",
+        "article_title": "The Ultra Trail: From Viewer to Mailer",
+        "url": "https://www.infoblox.com/blog/threat-intelligence/the-ultra-trail-from-viewer-to-mailer",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "INFOBLOX-ULTRA-TRAIL-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Infoblox explicitly identifies this SHA-256 as a trojanized UltraViewer installer carrying DarkKometa in its current technical investigation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2a01056369cc691f5bed6bd2654930a81d1bc240a568a0d5b209aceef3b5c9c9",
+    "ioc_type": "sha256",
+    "original_ioc": "2a01056369cc691f5bed6bd2654930a81d1bc240a568a0d5b209aceef3b5c9c9",
+    "hunt_ioc": "2a01056369cc691f5bed6bd2654930a81d1bc240a568a0d5b209aceef3b5c9c9",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "NIK C2 AI-enabled command-and-control activity",
+    "malware_family": "NIK C2 / GoDiscorder",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Cisco Talos"
+    ],
+    "source_article": [
+      "NIK C2: The new AI-enabled command-and-control framework"
+    ],
+    "source_url": [
+      "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Talos NIK C2 implant sample.",
+    "sources": [
+      {
+        "organization": "Cisco Talos",
+        "article_title": "NIK C2: The new AI-enabled command-and-control framework",
+        "url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "TALOS-NIK-C2-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Cisco Talos explicitly lists this SHA-256 as a malicious NIK C2 implant artifact observed during its current in-the-wild investigation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2c93e318cf542d9b755f6ad2d7a68e3f721bf15932657937a3527874edc77db7",
+    "ioc_type": "sha256",
+    "original_ioc": "2c93e318cf542d9b755f6ad2d7a68e3f721bf15932657937a3527874edc77db7",
+    "hunt_ioc": "2c93e318cf542d9b755f6ad2d7a68e3f721bf15932657937a3527874edc77db7",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "AMOS macOS stealer delivery",
+    "malware_family": "AMOS / Atomic Stealer",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 2004524 - AMOS payload 2c93e318"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2004524"
+    ],
+    "article_published_date": [
+      "2026-10-30T07:29:54Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Current metadata-rich public structured IOC record.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 2004524 - AMOS payload 2c93e318",
+        "url": "https://threatfox.abuse.ch/ioc/2004524",
+        "published_at": "2026-10-30T07:29:54Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "THREATFOX-2004524",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "ThreatFox explicitly classifies this current payload hash as AMOS malicious activity."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "30817712277bba54e4cb8640f4005aad35f5172f88cf046aea545d029e12ccba",
+    "ioc_type": "sha256",
+    "original_ioc": "30817712277bba54e4cb8640f4005aad35f5172f88cf046aea545d029e12ccba",
+    "hunt_ioc": "30817712277bba54e4cb8640f4005aad35f5172f88cf046aea545d029e12ccba",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "NIK C2 AI-enabled command-and-control activity",
+    "malware_family": "NIK C2 / GoDiscorder",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Cisco Talos"
+    ],
+    "source_article": [
+      "NIK C2: The new AI-enabled command-and-control framework"
+    ],
+    "source_url": [
+      "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Talos NIK C2 implant sample.",
+    "sources": [
+      {
+        "organization": "Cisco Talos",
+        "article_title": "NIK C2: The new AI-enabled command-and-control framework",
+        "url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "TALOS-NIK-C2-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Cisco Talos explicitly lists this SHA-256 as a malicious NIK C2 implant artifact observed during its current in-the-wild investigation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "364251838edfcf5ef1107fa692da3c5bd9a540482449f645992830134bf807ab",
+    "ioc_type": "sha256",
+    "original_ioc": "364251838edfcf5ef1107fa692da3c5bd9a540482449f645992830134bf807ab",
+    "hunt_ioc": "364251838edfcf5ef1107fa692da3c5bd9a540482449f645992830134bf807ab",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "VAPOR PANDA ARTEX global espionage campaign",
+    "malware_family": "BLOODALCHEMY",
+    "threat_actor": "VAPOR PANDA",
+    "source_organization": [
+      "CrowdStrike"
+    ],
+    "source_article": [
+      "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign"
+    ],
+    "source_url": [
+      "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current CrowdStrike VAPOR PANDA/BLOODALCHEMY indicator.",
+    "sources": [
+      {
+        "organization": "CrowdStrike",
+        "article_title": "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign",
+        "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "CROWDSTRIKE-VAPOR-PANDA-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "CrowdStrike explicitly identifies this value as BLOODALCHEMY encrypted payload file in the current VAPOR PANDA campaign IOC table."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "3de1722901165769893bef57c72594e9a54459faa23f3091b136b79966edd081",
+    "ioc_type": "sha256",
+    "original_ioc": "3de1722901165769893bef57c72594e9a54459faa23f3091b136b79966edd081",
+    "hunt_ioc": "3de1722901165769893bef57c72594e9a54459faa23f3091b136b79966edd081",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Trojanized Anthropic Claude Code extension 2.1.313",
+    "malware_family": "Claude Code SSH backdoor",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "StepSecurity"
+    ],
+    "source_article": [
+      "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines"
+    ],
+    "source_url": [
+      "https://www.stepsecurity.io/blog/claude-code-extension-trojanized"
+    ],
+    "article_published_date": [
+      "2026-10-30T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Confirmed malicious extension artifact; Cursor exposure was independently confirmed.",
+    "sources": [
+      {
+        "organization": "StepSecurity",
+        "article_title": "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines",
+        "url": "https://www.stepsecurity.io/blog/claude-code-extension-trojanized",
+        "published_at": "2026-10-30T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "STEPSECURITY-CLAUDE-CODE-2026-10-30",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "StepSecurity explicitly identifies this hash as the malicious Windows x64 VSIX from the trojanized Claude Code 2.1.313 extension incident."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4",
+    "ioc_type": "sha256",
+    "original_ioc": "3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4",
+    "hunt_ioc": "3fb5a9fb3e2cb1d6208966bd4e55d10282d19c7250d827efa560463d60a12ee4",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "VAPOR PANDA ARTEX global espionage campaign",
+    "malware_family": "BLOODALCHEMY",
+    "threat_actor": "VAPOR PANDA",
+    "source_organization": [
+      "CrowdStrike"
+    ],
+    "source_article": [
+      "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign"
+    ],
+    "source_url": [
+      "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current CrowdStrike VAPOR PANDA/BLOODALCHEMY indicator.",
+    "sources": [
+      {
+        "organization": "CrowdStrike",
+        "article_title": "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign",
+        "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "CROWDSTRIKE-VAPOR-PANDA-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "CrowdStrike explicitly identifies this value as BLOODALCHEMY loader DLL in the current VAPOR PANDA campaign IOC table."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "4306b01dc0712efed116b1e83d1bcea4ecb22d81cb01a251c4a8835c69c2db75",
+    "ioc_type": "sha256",
+    "original_ioc": "4306b01dc0712efed116b1e83d1bcea4ecb22d81cb01a251c4a8835c69c2db75",
+    "hunt_ioc": "4306b01dc0712efed116b1e83d1bcea4ecb22d81cb01a251c4a8835c69c2db75",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "SilentNet malware delivery",
+    "malware_family": "SilentNet",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus host record - nova-client.st SilentNet JAR delivery"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/host/nova-client.st"
+    ],
+    "article_published_date": [
+      "2026-10-29T06:33:09Z"
+    ],
+    "ioc_first_seen": "2026-10-30T01:20:58Z",
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Current metadata-rich public structured IOC record.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus host record - nova-client.st SilentNet JAR delivery",
+        "url": "https://urlhaus.abuse.ch/host/nova-client.st",
+        "published_at": "2026-10-29T06:33:09Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "URLHAUS-NOVA-CLIENT-ST-20261029",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "URLhaus identifies this SHA-256 as a malicious payload delivered by the current nova-client.st malware host."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "432ccdee3801f99e52b8fe31f69ea9870118e96ea7ef9ecabed1479621b5ab62",
+    "ioc_type": "sha256",
+    "original_ioc": "432ccdee3801f99e52b8fe31f69ea9870118e96ea7ef9ecabed1479621b5ab62",
+    "hunt_ioc": "432ccdee3801f99e52b8fe31f69ea9870118e96ea7ef9ecabed1479621b5ab62",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Trojanized Anthropic Claude Code extension 2.1.313",
+    "malware_family": "Claude Code SSH backdoor",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "StepSecurity"
+    ],
+    "source_article": [
+      "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines"
+    ],
+    "source_url": [
+      "https://www.stepsecurity.io/blog/claude-code-extension-trojanized"
+    ],
+    "article_published_date": [
+      "2026-10-30T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Confirmed malicious extension artifact; Cursor exposure was independently confirmed.",
+    "sources": [
+      {
+        "organization": "StepSecurity",
+        "article_title": "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines",
+        "url": "https://www.stepsecurity.io/blog/claude-code-extension-trojanized",
+        "published_at": "2026-10-30T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "STEPSECURITY-CLAUDE-CODE-2026-10-30",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "StepSecurity explicitly identifies this hash as the malicious Darwin ARM64 VSIX from the trojanized Claude Code 2.1.313 extension incident."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "43fae59b5428c77f3193bbf06df55ac5f7758c79b60ce0ed79c36ce757a97368",
+    "ioc_type": "sha256",
+    "original_ioc": "43fae59b5428c77f3193bbf06df55ac5f7758c79b60ce0ed79c36ce757a97368",
+    "hunt_ioc": "43fae59b5428c77f3193bbf06df55ac5f7758c79b60ce0ed79c36ce757a97368",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "SilentNet malware delivery",
+    "malware_family": "SilentNet",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus host record - nova-client.st SilentNet JAR delivery"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/host/nova-client.st"
+    ],
+    "article_published_date": [
+      "2026-10-29T06:33:09Z"
+    ],
+    "ioc_first_seen": "2026-10-29T21:42:48Z",
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Current metadata-rich public structured IOC record.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus host record - nova-client.st SilentNet JAR delivery",
+        "url": "https://urlhaus.abuse.ch/host/nova-client.st",
+        "published_at": "2026-10-29T06:33:09Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "URLHAUS-NOVA-CLIENT-ST-20261029",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "URLhaus identifies this SHA-256 as a malicious payload delivered by the current nova-client.st malware host."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "49fe70419fd19b81ca8d730a6ef7c1ec71b681d60b390761070d42686c7d2068",
+    "ioc_type": "sha256",
+    "original_ioc": "49fe70419fd19b81ca8d730a6ef7c1ec71b681d60b390761070d42686c7d2068",
+    "hunt_ioc": "49fe70419fd19b81ca8d730a6ef7c1ec71b681d60b390761070d42686c7d2068",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "VAPOR PANDA ARTEX global espionage campaign",
+    "malware_family": "BLOODALCHEMY",
+    "threat_actor": "VAPOR PANDA",
+    "source_organization": [
+      "CrowdStrike"
+    ],
+    "source_article": [
+      "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign"
+    ],
+    "source_url": [
+      "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current CrowdStrike VAPOR PANDA/BLOODALCHEMY indicator.",
+    "sources": [
+      {
+        "organization": "CrowdStrike",
+        "article_title": "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign",
+        "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "CROWDSTRIKE-VAPOR-PANDA-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "CrowdStrike explicitly identifies this value as GameHook binary renamed svchost.exe in the campaign in the current VAPOR PANDA campaign IOC table."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "5d25efba2119f52d08214a590fedb45a5c9fe5e2850fd87e7bca24c92745e6d1",
+    "ioc_type": "sha256",
+    "original_ioc": "5d25efba2119f52d08214a590fedb45a5c9fe5e2850fd87e7bca24c92745e6d1",
+    "hunt_ioc": "5d25efba2119f52d08214a590fedb45a5c9fe5e2850fd87e7bca24c92745e6d1",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "NIK C2 AI-enabled command-and-control activity",
+    "malware_family": "NIK C2 / GoDiscorder",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Cisco Talos"
+    ],
+    "source_article": [
+      "NIK C2: The new AI-enabled command-and-control framework"
+    ],
+    "source_url": [
+      "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Talos NIK C2 implant sample.",
+    "sources": [
+      {
+        "organization": "Cisco Talos",
+        "article_title": "NIK C2: The new AI-enabled command-and-control framework",
+        "url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "TALOS-NIK-C2-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Cisco Talos explicitly lists this SHA-256 as a malicious NIK C2 implant artifact observed during its current in-the-wild investigation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "6583eb22ca554e749b647d68ae76f7279a8dc538196ebde1412669357a027de5",
+    "ioc_type": "sha256",
+    "original_ioc": "6583eb22ca554e749b647d68ae76f7279a8dc538196ebde1412669357a027de5",
+    "hunt_ioc": "6583eb22ca554e749b647d68ae76f7279a8dc538196ebde1412669357a027de5",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "NIK C2 AI-enabled command-and-control activity",
+    "malware_family": "NIK C2 / GoDiscorder",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Cisco Talos"
+    ],
+    "source_article": [
+      "NIK C2: The new AI-enabled command-and-control framework"
+    ],
+    "source_url": [
+      "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Talos NIK C2 implant sample.",
+    "sources": [
+      {
+        "organization": "Cisco Talos",
+        "article_title": "NIK C2: The new AI-enabled command-and-control framework",
+        "url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "TALOS-NIK-C2-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Cisco Talos explicitly lists this SHA-256 as a malicious NIK C2 implant artifact observed during its current in-the-wild investigation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "7e0a52885fadee05544a9e99eb18c792bec05900a5e1a66d68f8383decb0e278",
+    "ioc_type": "sha256",
+    "original_ioc": "7e0a52885fadee05544a9e99eb18c792bec05900a5e1a66d68f8383decb0e278",
+    "hunt_ioc": "7e0a52885fadee05544a9e99eb18c792bec05900a5e1a66d68f8383decb0e278",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Trojanized Anthropic Claude Code extension 2.1.313",
+    "malware_family": "Claude Code SSH backdoor",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "StepSecurity"
+    ],
+    "source_article": [
+      "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines"
+    ],
+    "source_url": [
+      "https://www.stepsecurity.io/blog/claude-code-extension-trojanized"
+    ],
+    "article_published_date": [
+      "2026-10-30T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Confirmed malicious extension artifact; Cursor exposure was independently confirmed.",
+    "sources": [
+      {
+        "organization": "StepSecurity",
+        "article_title": "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines",
+        "url": "https://www.stepsecurity.io/blog/claude-code-extension-trojanized",
+        "published_at": "2026-10-30T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "STEPSECURITY-CLAUDE-CODE-2026-10-30",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "StepSecurity explicitly identifies this hash as the dropped reverse-tunnel private key artifact from the trojanized Claude Code 2.1.313 extension incident."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "98ab9d83a2069d6a33e931d2a07c641013017332a9d960b195e98a10c3ff2b87",
+    "ioc_type": "sha256",
+    "original_ioc": "98ab9d83a2069d6a33e931d2a07c641013017332a9d960b195e98a10c3ff2b87",
+    "hunt_ioc": "98ab9d83a2069d6a33e931d2a07c641013017332a9d960b195e98a10c3ff2b87",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "SalatStealer payload activity",
+    "malware_family": "SalatStealer",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 2004485 - SalatStealer payload 98ab9d83"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2004485"
+    ],
+    "article_published_date": [
+      "2026-10-30T06:56:14Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 85,
+    "acceptance_score": 85,
+    "status": "NEW",
+    "notes": "Current metadata-rich public structured IOC record.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 2004485 - SalatStealer payload 98ab9d83",
+        "url": "https://threatfox.abuse.ch/ioc/2004485",
+        "published_at": "2026-10-30T06:56:14Z",
+        "updated_at": null,
+        "reliability": 0.85,
+        "source_id": "THREATFOX-2004485",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "ThreatFox records this current payload with multi-vantage capture and malicious vendor detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "99573a79f393299049216237d0d23761d67f6a8507a7a0cfe17cb30837f68f00",
+    "ioc_type": "sha256",
+    "original_ioc": "99573a79f393299049216237d0d23761d67f6a8507a7a0cfe17cb30837f68f00",
+    "hunt_ioc": "99573a79f393299049216237d0d23761d67f6a8507a7a0cfe17cb30837f68f00",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "NIK C2 AI-enabled command-and-control activity",
+    "malware_family": "NIK C2 / GoDiscorder",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Cisco Talos"
+    ],
+    "source_article": [
+      "NIK C2: The new AI-enabled command-and-control framework"
+    ],
+    "source_url": [
+      "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Talos NIK C2 implant sample.",
+    "sources": [
+      {
+        "organization": "Cisco Talos",
+        "article_title": "NIK C2: The new AI-enabled command-and-control framework",
+        "url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "TALOS-NIK-C2-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Cisco Talos explicitly lists this SHA-256 as a malicious NIK C2 implant artifact observed during its current in-the-wild investigation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "9e1a679ca45a149d2bd681cbb8ec3b1cc3d271fad51b092a3db5e5642eb6676b",
+    "ioc_type": "sha256",
+    "original_ioc": "9e1a679ca45a149d2bd681cbb8ec3b1cc3d271fad51b092a3db5e5642eb6676b",
+    "hunt_ioc": "9e1a679ca45a149d2bd681cbb8ec3b1cc3d271fad51b092a3db5e5642eb6676b",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Trojanized remote desktop and bulk-mailing application campaign",
+    "malware_family": "njRAT / DarkKometa",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Infoblox Threat Intel"
+    ],
+    "source_article": [
+      "The Ultra Trail: From Viewer to Mailer"
+    ],
+    "source_url": [
+      "https://www.infoblox.com/blog/threat-intelligence/the-ultra-trail-from-viewer-to-mailer"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current malicious installer artifact documented by Infoblox.",
+    "sources": [
+      {
+        "organization": "Infoblox Threat Intel",
+        "article_title": "The Ultra Trail: From Viewer to Mailer",
+        "url": "https://www.infoblox.com/blog/threat-intelligence/the-ultra-trail-from-viewer-to-mailer",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "INFOBLOX-ULTRA-TRAIL-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Infoblox explicitly identifies this SHA-256 as a trojanized UltraMailer installer embedding njRAT in its current technical investigation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a1e8c657eb2b6615002cc1281e767fe775acc4f29f1340f50937aff4374693c7",
+    "ioc_type": "sha256",
+    "original_ioc": "a1e8c657eb2b6615002cc1281e767fe775acc4f29f1340f50937aff4374693c7",
+    "hunt_ioc": "a1e8c657eb2b6615002cc1281e767fe775acc4f29f1340f50937aff4374693c7",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "AMOS macOS stealer delivery",
+    "malware_family": "AMOS / Atomic Stealer",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 2004529 - AMOS payload a1e8c657"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2004529"
+    ],
+    "article_published_date": [
+      "2026-10-30T07:34:25Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Current metadata-rich public structured IOC record.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 2004529 - AMOS payload a1e8c657",
+        "url": "https://threatfox.abuse.ch/ioc/2004529",
+        "published_at": "2026-10-30T07:34:25Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "THREATFOX-2004529",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "ThreatFox explicitly classifies this current payload hash as Foxveil/AMOS malicious loader activity."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a4c02aebb5ad887e1cac41a51d95e5e6c26a0e6ed432b5acbd4c861b9200196d",
+    "ioc_type": "sha256",
+    "original_ioc": "a4c02aebb5ad887e1cac41a51d95e5e6c26a0e6ed432b5acbd4c861b9200196d",
+    "hunt_ioc": "a4c02aebb5ad887e1cac41a51d95e5e6c26a0e6ed432b5acbd4c861b9200196d",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Mirai botnet payload activity",
+    "malware_family": "Mirai / Katana",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 2004490 - Mirai payload a4c02aeb"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2004490"
+    ],
+    "article_published_date": [
+      "2026-10-30T06:56:20Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Current metadata-rich public structured IOC record.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 2004490 - Mirai payload a4c02aeb",
+        "url": "https://threatfox.abuse.ch/ioc/2004490",
+        "published_at": "2026-10-30T06:56:20Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "THREATFOX-2004490",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "ThreatFox records this payload with multi-vantage capture and MalwareBazaar Mirai classification."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ae38f1181c9dd0db7224d6023e335eb2cdabb0f441906d14ffba8602b7abca3c",
+    "ioc_type": "sha256",
+    "original_ioc": "ae38f1181c9dd0db7224d6023e335eb2cdabb0f441906d14ffba8602b7abca3c",
+    "hunt_ioc": "ae38f1181c9dd0db7224d6023e335eb2cdabb0f441906d14ffba8602b7abca3c",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "NIK C2 AI-enabled command-and-control activity",
+    "malware_family": "NIK C2 / GoDiscorder",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Cisco Talos"
+    ],
+    "source_article": [
+      "NIK C2: The new AI-enabled command-and-control framework"
+    ],
+    "source_url": [
+      "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Talos NIK C2 implant sample.",
+    "sources": [
+      {
+        "organization": "Cisco Talos",
+        "article_title": "NIK C2: The new AI-enabled command-and-control framework",
+        "url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "TALOS-NIK-C2-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Cisco Talos explicitly lists this SHA-256 as a malicious NIK C2 implant artifact observed during its current in-the-wild investigation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "bf83345ca66bdc4bd45ade608a06361d18927dd80351e9a1d8cbe8eda5d78402",
+    "ioc_type": "sha256",
+    "original_ioc": "bf83345ca66bdc4bd45ade608a06361d18927dd80351e9a1d8cbe8eda5d78402",
+    "hunt_ioc": "bf83345ca66bdc4bd45ade608a06361d18927dd80351e9a1d8cbe8eda5d78402",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "NIK C2 AI-enabled command-and-control activity",
+    "malware_family": "NIK C2 / GoDiscorder",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Cisco Talos"
+    ],
+    "source_article": [
+      "NIK C2: The new AI-enabled command-and-control framework"
+    ],
+    "source_url": [
+      "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Talos NIK C2 implant sample.",
+    "sources": [
+      {
+        "organization": "Cisco Talos",
+        "article_title": "NIK C2: The new AI-enabled command-and-control framework",
+        "url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "TALOS-NIK-C2-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Cisco Talos explicitly lists this SHA-256 as a malicious NIK C2 implant artifact observed during its current in-the-wild investigation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "e9595bf1c43257ce1932dbfe64069c3d2bcbd03f2607171745b1dd1e4d6a5ef9",
+    "ioc_type": "sha256",
+    "original_ioc": "e9595bf1c43257ce1932dbfe64069c3d2bcbd03f2607171745b1dd1e4d6a5ef9",
+    "hunt_ioc": "e9595bf1c43257ce1932dbfe64069c3d2bcbd03f2607171745b1dd1e4d6a5ef9",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "SalatStealer payload activity",
+    "malware_family": "SalatStealer",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 2004484 - SalatStealer payload e9595bf1"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2004484"
+    ],
+    "article_published_date": [
+      "2026-10-30T06:56:13Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 85,
+    "acceptance_score": 85,
+    "status": "NEW",
+    "notes": "Current metadata-rich public structured IOC record.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 2004484 - SalatStealer payload e9595bf1",
+        "url": "https://threatfox.abuse.ch/ioc/2004484",
+        "published_at": "2026-10-30T06:56:13Z",
+        "updated_at": null,
+        "reliability": 0.85,
+        "source_id": "THREATFOX-2004484",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "ThreatFox records this current payload with multi-vantage capture and malicious vendor detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ecb58cb29078d9646ad1dcdbe51526f2d9cfea06be5fb2ab183e8ecc3ab6bf15",
+    "ioc_type": "sha256",
+    "original_ioc": "ecb58cb29078d9646ad1dcdbe51526f2d9cfea06be5fb2ab183e8ecc3ab6bf15",
+    "hunt_ioc": "ecb58cb29078d9646ad1dcdbe51526f2d9cfea06be5fb2ab183e8ecc3ab6bf15",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Trojanized Anthropic Claude Code extension 2.1.313",
+    "malware_family": "Claude Code SSH backdoor",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "StepSecurity"
+    ],
+    "source_article": [
+      "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines"
+    ],
+    "source_url": [
+      "https://www.stepsecurity.io/blog/claude-code-extension-trojanized"
+    ],
+    "article_published_date": [
+      "2026-10-30T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Confirmed malicious extension artifact; Cursor exposure was independently confirmed.",
+    "sources": [
+      {
+        "organization": "StepSecurity",
+        "article_title": "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines",
+        "url": "https://www.stepsecurity.io/blog/claude-code-extension-trojanized",
+        "published_at": "2026-10-30T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "STEPSECURITY-CLAUDE-CODE-2026-10-30",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "StepSecurity explicitly identifies this hash as the malicious extension.js loader from the trojanized Claude Code 2.1.313 extension incident."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://134.209.82.225:8099/beacon",
+    "ioc_type": "url",
+    "original_ioc": "http://134.209.82.225:8099/beacon",
+    "hunt_ioc": "134.209.82.225",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Trojanized Anthropic Claude Code extension 2.1.313",
+    "malware_family": "Claude Code SSH backdoor",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "StepSecurity"
+    ],
+    "source_article": [
+      "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines"
+    ],
+    "source_url": [
+      "https://www.stepsecurity.io/blog/claude-code-extension-trojanized"
+    ],
+    "article_published_date": [
+      "2026-10-30T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "The hosting provider took the server offline; retain for historical hunting.",
+    "sources": [
+      {
+        "organization": "StepSecurity",
+        "article_title": "Trojanized Claude Code Extension Delivered Persistent SSH Backdoor to Developer Machines",
+        "url": "https://www.stepsecurity.io/blog/claude-code-extension-trojanized",
+        "published_at": "2026-10-30T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "STEPSECURITY-CLAUDE-CODE-2026-10-30",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "StepSecurity explicitly identifies this public address and beacon endpoint as attacker infrastructure used by the trojanized extension for reverse SSH and host reconnaissance."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://2.26.51.12:4443/api/c2/update",
+    "ioc_type": "url",
+    "original_ioc": "https://2.26.51.12:4443/api/c2/update",
+    "hunt_ioc": "2.26.51.12",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "NIK C2 AI-enabled command-and-control activity",
+    "malware_family": "NIK C2 / GoDiscorder",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Cisco Talos"
+    ],
+    "source_article": [
+      "NIK C2: The new AI-enabled command-and-control framework"
+    ],
+    "source_url": [
+      "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current Talos NIK C2 command-and-control indicator.",
+    "sources": [
+      {
+        "organization": "Cisco Talos",
+        "article_title": "NIK C2: The new AI-enabled command-and-control framework",
+        "url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "TALOS-NIK-C2-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Cisco Talos explicitly lists this value as malicious NIK C2 command-and-control infrastructure observed active in the wild."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://alliadesigns.co/ceb7d18802",
+    "ioc_type": "url",
+    "original_ioc": "https://alliadesigns.co/ceb7d18802",
+    "hunt_ioc": "alliadesigns.co",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious path retained; hunting pivots are safely normalized by the local framework.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this exact URL as an observed malicious device-code phishing lure in the current MadApe campaign appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://antaiyimin.com/cvx2mym",
+    "ioc_type": "url",
+    "original_ioc": "https://antaiyimin.com/cvx2mym",
+    "hunt_ioc": "antaiyimin.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious path retained; hunting pivots are safely normalized by the local framework.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this exact URL as an observed malicious device-code phishing lure in the current MadApe campaign appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://cepoffices.co/dr67o3b",
+    "ioc_type": "url",
+    "original_ioc": "https://cepoffices.co/dr67o3b",
+    "hunt_ioc": "cepoffices.co",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious path retained; hunting pivots are safely normalized by the local framework.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this exact URL as an observed malicious device-code phishing lure in the current MadApe campaign appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://durakdisplay.com/7664453fe5",
+    "ioc_type": "url",
+    "original_ioc": "https://durakdisplay.com/7664453fe5",
+    "hunt_ioc": "durakdisplay.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious path retained; hunting pivots are safely normalized by the local framework.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this exact URL as an observed malicious device-code phishing lure in the current MadApe campaign appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://durakdisplay.net/4hzatas",
+    "ioc_type": "url",
+    "original_ioc": "https://durakdisplay.net/4hzatas",
+    "hunt_ioc": "durakdisplay.net",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious path retained; hunting pivots are safely normalized by the local framework.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this exact URL as an observed malicious device-code phishing lure in the current MadApe campaign appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://healthy39.co/k7zunh8",
+    "ioc_type": "url",
+    "original_ioc": "https://healthy39.co/k7zunh8",
+    "hunt_ioc": "healthy39.co",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious path retained; hunting pivots are safely normalized by the local framework.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this exact URL as an observed malicious device-code phishing lure in the current MadApe campaign appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://healthy39.com/k67ip6e",
+    "ioc_type": "url",
+    "original_ioc": "https://healthy39.com/k67ip6e",
+    "hunt_ioc": "healthy39.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious path retained; hunting pivots are safely normalized by the local framework.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this exact URL as an observed malicious device-code phishing lure in the current MadApe campaign appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://healthy39.com/qfmw622",
+    "ioc_type": "url",
+    "original_ioc": "https://healthy39.com/qfmw622",
+    "hunt_ioc": "healthy39.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious path retained; hunting pivots are safely normalized by the local framework.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this exact URL as an observed malicious device-code phishing lure in the current MadApe campaign appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://householdwares.co/5a950b8b12",
+    "ioc_type": "url",
+    "original_ioc": "https://householdwares.co/5a950b8b12",
+    "hunt_ioc": "householdwares.co",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious path retained; hunting pivots are safely normalized by the local framework.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this exact URL as an observed malicious device-code phishing lure in the current MadApe campaign appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://householdwares.co/be692d2d96",
+    "ioc_type": "url",
+    "original_ioc": "https://householdwares.co/be692d2d96",
+    "hunt_ioc": "householdwares.co",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious path retained; hunting pivots are safely normalized by the local framework.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this exact URL as an observed malicious device-code phishing lure in the current MadApe campaign appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://itencrypted.co/816c04559c",
+    "ioc_type": "url",
+    "original_ioc": "https://itencrypted.co/816c04559c",
+    "hunt_ioc": "itencrypted.co",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious path retained; hunting pivots are safely normalized by the local framework.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this exact URL as an observed malicious device-code phishing lure in the current MadApe campaign appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://itencrypted.com/64d32dx",
+    "ioc_type": "url",
+    "original_ioc": "https://itencrypted.com/64d32dx",
+    "hunt_ioc": "itencrypted.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious path retained; hunting pivots are safely normalized by the local framework.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this exact URL as an observed malicious device-code phishing lure in the current MadApe campaign appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://lcscenter.co/n5nnj8f",
+    "ioc_type": "url",
+    "original_ioc": "https://lcscenter.co/n5nnj8f",
+    "hunt_ioc": "lcscenter.co",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious path retained; hunting pivots are safely normalized by the local framework.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this exact URL as an observed malicious device-code phishing lure in the current MadApe campaign appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://nova-client.st/get/novaclient-26.2v3.jar",
+    "ioc_type": "url",
+    "original_ioc": "https://nova-client.st/get/novaclient-26.2v3.jar",
+    "hunt_ioc": "nova-client.st",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SilentNet malware delivery",
+    "malware_family": "SilentNet",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus host record - nova-client.st SilentNet JAR delivery"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/host/nova-client.st"
+    ],
+    "article_published_date": [
+      "2026-10-29T06:33:09Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Current metadata-rich public structured IOC record.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus host record - nova-client.st SilentNet JAR delivery",
+        "url": "https://urlhaus.abuse.ch/host/nova-client.st",
+        "published_at": "2026-10-29T06:33:09Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "URLHAUS-NOVA-CLIENT-ST-20261029",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "URLhaus marks this exact URL as a current online malware-delivery endpoint serving a SilentNet JAR payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://securelogin.qimmxn.icu/?5j14dE0rNshE=cXZydw==",
+    "ioc_type": "url",
+    "original_ioc": "https://securelogin.qimmxn.icu/?5j14dE0rNshE=cXZydw==",
+    "hunt_ioc": "securelogin.qimmxn.icu",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious path retained; hunting pivots are safely normalized by the local framework.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this exact URL as an observed malicious device-code phishing lure in the current MadApe campaign appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://swisstowerant.com/4y9zvik",
+    "ioc_type": "url",
+    "original_ioc": "https://swisstowerant.com/4y9zvik",
+    "hunt_ioc": "swisstowerant.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious path retained; hunting pivots are safely normalized by the local framework.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this exact URL as an observed malicious device-code phishing lure in the current MadApe campaign appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://swisstowerant.com/bp2j95y",
+    "ioc_type": "url",
+    "original_ioc": "https://swisstowerant.com/bp2j95y",
+    "hunt_ioc": "swisstowerant.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious path retained; hunting pivots are safely normalized by the local framework.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this exact URL as an observed malicious device-code phishing lure in the current MadApe campaign appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://swisstowerant.com/mr98g6r",
+    "ioc_type": "url",
+    "original_ioc": "https://swisstowerant.com/mr98g6r",
+    "hunt_ioc": "swisstowerant.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious path retained; hunting pivots are safely normalized by the local framework.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this exact URL as an observed malicious device-code phishing lure in the current MadApe campaign appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://swisstowerant.com/mzamnoq",
+    "ioc_type": "url",
+    "original_ioc": "https://swisstowerant.com/mzamnoq",
+    "hunt_ioc": "swisstowerant.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious path retained; hunting pivots are safely normalized by the local framework.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this exact URL as an observed malicious device-code phishing lure in the current MadApe campaign appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://szwhtl.com/7cf187d1b3",
+    "ioc_type": "url",
+    "original_ioc": "https://szwhtl.com/7cf187d1b3",
+    "hunt_ioc": "szwhtl.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious path retained; hunting pivots are safely normalized by the local framework.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this exact URL as an observed malicious device-code phishing lure in the current MadApe campaign appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://szwhtl.com/8545360594",
+    "ioc_type": "url",
+    "original_ioc": "https://szwhtl.com/8545360594",
+    "hunt_ioc": "szwhtl.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "MadApe Microsoft device-code phishing campaign",
+    "malware_family": "MadApe phishing kit",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "MadApe: The Code That Opens the Door"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-30T17:18:56Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious path retained; hunting pivots are safely normalized by the local framework.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "MadApe: The Code That Opens the Door",
+        "url": "https://www.group-ib.com/blog/madape-microsoft-device-code-phishing-kit",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "GROUPIB-MADAPE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-28T17:18:56Z",
+        "discovery_context": [
+          "Group-IB explicitly lists this exact URL as an observed malicious device-code phishing lure in the current MadApe campaign appendix."
+        ]
+      }
+    ]
+  }
+]
