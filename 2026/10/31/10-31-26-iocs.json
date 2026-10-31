@@ -1,0 +1,2493 @@
+[
+  {
+    "ioc": "heightcontrollawnandlandsca-my.sharepoint.com",
+    "ioc_type": "domain",
+    "original_ioc": "heightcontrollawnandlandsca-my.sharepoint.com",
+    "hunt_ioc": "heightcontrollawnandlandsca-my.sharepoint.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "GraphFleet cloud-command backdoor activity",
+    "malware_family": "GraphFleet backdoor",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rubrik Zero Labs"
+    ],
+    "source_article": [
+      "Commands from the Cloud: Uncovering the GraphFleet Backdoor"
+    ],
+    "source_url": [
+      "https://zerolabs.rubrik.com/blog/commands-cloud-uncovering-graphfleet-backdoor"
+    ],
+    "article_published_date": [
+      "2026-10-30T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact malicious tenant hostname; the generic SharePoint service was not accepted.",
+    "sources": [
+      {
+        "organization": "Rubrik Zero Labs",
+        "article_title": "Commands from the Cloud: Uncovering the GraphFleet Backdoor",
+        "url": "https://zerolabs.rubrik.com/blog/commands-cloud-uncovering-graphfleet-backdoor",
+        "published_at": "2026-10-30T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "RUBRIK-GRAPHFLEET-2026-10-30",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Rubrik Zero Labs explicitly identifies this exact tenant-specific SharePoint hostname as the active GraphFleet refresh-token recovery dead drop."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "hz2006.aihzcc.top",
+    "ioc_type": "domain",
+    "original_ioc": "hz2006.aihzcc.top",
+    "hunt_ioc": "hz2006.aihzcc.top",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Dedicated campaign hostname from the current Load/Mine investigation.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed this domain as malicious Load/Mine campaign infrastructure used by the current model-repository attack chain."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "103.97.176.121",
+    "ioc_type": "ipv4",
+    "original_ioc": "103.97.176.121",
+    "hunt_ioc": "103.97.176.121",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Explicit network IOC from the current Load/Mine investigation.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed this public IPv4 in the Load/Mine campaign's malicious loader, reverse-shell, exfiltration, backdoor, or miner infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "173.249.209.96",
+    "ioc_type": "ipv4",
+    "original_ioc": "173.249.209.96",
+    "hunt_ioc": "173.249.209.96",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Explicit network IOC from the current Load/Mine investigation.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed this public IPv4 in the Load/Mine campaign's malicious loader, reverse-shell, exfiltration, backdoor, or miner infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2.28.9.199",
+    "ioc_type": "ipv4",
+    "original_ioc": "2.28.9.199",
+    "hunt_ioc": "2.28.9.199",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Explicit network IOC from the current Load/Mine investigation.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed this public IPv4 in the Load/Mine campaign's malicious loader, reverse-shell, exfiltration, backdoor, or miner infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "212.132.98.170",
+    "ioc_type": "ipv4",
+    "original_ioc": "212.132.98.170",
+    "hunt_ioc": "212.132.98.170",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Explicit network IOC from the current Load/Mine investigation.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed this public IPv4 in the Load/Mine campaign's malicious loader, reverse-shell, exfiltration, backdoor, or miner infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "212.32.253.3",
+    "ioc_type": "ipv4",
+    "original_ioc": "212.32.253.3",
+    "hunt_ioc": "212.32.253.3",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Explicit network IOC from the current Load/Mine investigation.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed this public IPv4 in the Load/Mine campaign's malicious loader, reverse-shell, exfiltration, backdoor, or miner infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "38.55.133.49",
+    "ioc_type": "ipv4",
+    "original_ioc": "38.55.133.49",
+    "hunt_ioc": "38.55.133.49",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Explicit network IOC from the current Load/Mine investigation.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed this public IPv4 in the Load/Mine campaign's malicious loader, reverse-shell, exfiltration, backdoor, or miner infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "8.137.187.63",
+    "ioc_type": "ipv4",
+    "original_ioc": "8.137.187.63",
+    "hunt_ioc": "8.137.187.63",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Explicit network IOC from the current Load/Mine investigation.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed this public IPv4 in the Load/Mine campaign's malicious loader, reverse-shell, exfiltration, backdoor, or miner infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "34e491161e056c9b899a79b602ac73b9",
+    "ioc_type": "md5",
+    "original_ioc": "34e491161e056c9b899a79b602ac73b9",
+    "hunt_ioc": "34e491161e056c9b899a79b602ac73b9",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "Trojanized Cursor Claude Code extension",
+    "malware_family": "Trojanized Anthropic Claude Code extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Cursor"
+    ],
+    "source_article": [
+      "Security notice - malicious Anthropic.claude-code 2.1.312 and 2.1.313 in the Cursor Extension Marketplace"
+    ],
+    "source_url": [
+      "https://cursor.com/blog/claude-code-extension-security-notice"
+    ],
+    "article_published_date": [
+      "2026-10-30T18:30:00Z"
+    ],
+    "ioc_first_seen": "2026-10-29T09:27:00Z",
+    "ioc_last_seen": "2026-10-29T20:35:00Z",
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Official Cursor hash from the malicious extension package update.",
+    "sources": [
+      {
+        "organization": "Cursor",
+        "article_title": "Security notice - malicious Anthropic.claude-code 2.1.312 and 2.1.313 in the Cursor Extension Marketplace",
+        "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+        "published_at": "2026-10-30T18:30:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "CURSOR-CLAUDE-CODE-2.1.313",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Cursor's official material update explicitly identifies this hash as a malicious VSIX artifact that installed SSH persistence and beaconed to attacker-controlled infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "7838a3be2ca0ff08c1bdb160ef516d39",
+    "ioc_type": "md5",
+    "original_ioc": "7838a3be2ca0ff08c1bdb160ef516d39",
+    "hunt_ioc": "7838a3be2ca0ff08c1bdb160ef516d39",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "Trojanized Cursor Claude Code extension",
+    "malware_family": "Trojanized Anthropic Claude Code extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Cursor"
+    ],
+    "source_article": [
+      "Security notice - malicious Anthropic.claude-code 2.1.312 and 2.1.313 in the Cursor Extension Marketplace"
+    ],
+    "source_url": [
+      "https://cursor.com/blog/claude-code-extension-security-notice"
+    ],
+    "article_published_date": [
+      "2026-10-30T18:30:00Z"
+    ],
+    "ioc_first_seen": "2026-10-29T09:27:00Z",
+    "ioc_last_seen": "2026-10-29T20:35:00Z",
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Official Cursor hash from the malicious extension package update.",
+    "sources": [
+      {
+        "organization": "Cursor",
+        "article_title": "Security notice - malicious Anthropic.claude-code 2.1.312 and 2.1.313 in the Cursor Extension Marketplace",
+        "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+        "published_at": "2026-10-30T18:30:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "CURSOR-CLAUDE-CODE-2.1.313",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Cursor's official material update explicitly identifies this hash as a malicious VSIX artifact that installed SSH persistence and beaconed to attacker-controlled infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "e0d64d53e802a0217ba6f0e656ed2f20",
+    "ioc_type": "md5",
+    "original_ioc": "e0d64d53e802a0217ba6f0e656ed2f20",
+    "hunt_ioc": "e0d64d53e802a0217ba6f0e656ed2f20",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "Trojanized Cursor Claude Code extension",
+    "malware_family": "Trojanized Anthropic Claude Code extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Cursor"
+    ],
+    "source_article": [
+      "Security notice - malicious Anthropic.claude-code 2.1.312 and 2.1.313 in the Cursor Extension Marketplace"
+    ],
+    "source_url": [
+      "https://cursor.com/blog/claude-code-extension-security-notice"
+    ],
+    "article_published_date": [
+      "2026-10-30T18:30:00Z"
+    ],
+    "ioc_first_seen": "2026-10-29T09:27:00Z",
+    "ioc_last_seen": "2026-10-29T20:35:00Z",
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Official Cursor hash from the malicious extension package update.",
+    "sources": [
+      {
+        "organization": "Cursor",
+        "article_title": "Security notice - malicious Anthropic.claude-code 2.1.312 and 2.1.313 in the Cursor Extension Marketplace",
+        "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+        "published_at": "2026-10-30T18:30:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "CURSOR-CLAUDE-CODE-2.1.313",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Cursor's official material update explicitly identifies this hash as a malicious VSIX artifact that installed SSH persistence and beaconed to attacker-controlled infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "06c5c14f043aee3bcc5843b5f50909623d5c9a6239a7c1fba9cddad4111469e7",
+    "ioc_type": "sha256",
+    "original_ioc": "06c5c14f043aee3bcc5843b5f50909623d5c9a6239a7c1fba9cddad4111469e7",
+    "hunt_ioc": "06c5c14f043aee3bcc5843b5f50909623d5c9a6239a7c1fba9cddad4111469e7",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Teams help-desk impersonation and AD CS abuse intrusion activity",
+    "malware_family": "Initial-access Python script",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Microsoft Security Research"
+    ],
+    "source_article": [
+      "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths"
+    ],
+    "article_published_date": [
+      "2026-10-30T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Initial-access Python artifact from the Microsoft-documented intrusion chain.",
+    "sources": [
+      {
+        "organization": "Microsoft Security Research",
+        "article_title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths",
+        "published_at": "2026-10-30T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "MSRC-ADCS-ESC1-ESC8-2026-10-30",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Microsoft Security Research explicitly lists this SHA-256 as an initial-access Python script used in observed human-operated intrusions that progressed from Teams help-desk impersonation to AD CS abuse."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "0bb9f618c7b5863d8523e0fd4db44c3ebfdc7afb01cbed10a3489e12c0701e01",
+    "ioc_type": "sha256",
+    "original_ioc": "0bb9f618c7b5863d8523e0fd4db44c3ebfdc7afb01cbed10a3489e12c0701e01",
+    "hunt_ioc": "0bb9f618c7b5863d8523e0fd4db44c3ebfdc7afb01cbed10a3489e12c0701e01",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Load/Mine malicious payload artifact.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed and explicitly lists this SHA-256 as a malicious loader, reverse-shell, exfiltration, backdoor, or miner artifact in the current Load/Mine campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "0e05363634035980ddc963debf9d47bb161202b31fa078d865315d613e7cdefc",
+    "ioc_type": "sha256",
+    "original_ioc": "0e05363634035980ddc963debf9d47bb161202b31fa078d865315d613e7cdefc",
+    "hunt_ioc": "0e05363634035980ddc963debf9d47bb161202b31fa078d865315d613e7cdefc",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "GraphFleet cloud-command backdoor activity",
+    "malware_family": "GraphFleet backdoor",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rubrik Zero Labs"
+    ],
+    "source_article": [
+      "Commands from the Cloud: Uncovering the GraphFleet Backdoor"
+    ],
+    "source_url": [
+      "https://zerolabs.rubrik.com/blog/commands-cloud-uncovering-graphfleet-backdoor"
+    ],
+    "article_published_date": [
+      "2026-10-30T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current GraphFleet backdoor sample.",
+    "sources": [
+      {
+        "organization": "Rubrik Zero Labs",
+        "article_title": "Commands from the Cloud: Uncovering the GraphFleet Backdoor",
+        "url": "https://zerolabs.rubrik.com/blog/commands-cloud-uncovering-graphfleet-backdoor",
+        "published_at": "2026-10-30T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "RUBRIK-GRAPHFLEET-2026-10-30",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Rubrik Zero Labs explicitly lists this SHA-256 as a malicious GraphFleet backdoor sample from its current investigation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "0fc39482f05fb88c13ac9edc306e4cc838085e69d9faa458a19979ace143107a",
+    "ioc_type": "sha256",
+    "original_ioc": "0fc39482f05fb88c13ac9edc306e4cc838085e69d9faa458a19979ace143107a",
+    "hunt_ioc": "0fc39482f05fb88c13ac9edc306e4cc838085e69d9faa458a19979ace143107a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Load/Mine malicious payload artifact.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed and explicitly lists this SHA-256 as a malicious loader, reverse-shell, exfiltration, backdoor, or miner artifact in the current Load/Mine campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "170ef5754bea51c3b05ae4b6c15c541ffa51d972bf8fe0bd3d1c3a19946bd6ac",
+    "ioc_type": "sha256",
+    "original_ioc": "170ef5754bea51c3b05ae4b6c15c541ffa51d972bf8fe0bd3d1c3a19946bd6ac",
+    "hunt_ioc": "170ef5754bea51c3b05ae4b6c15c541ffa51d972bf8fe0bd3d1c3a19946bd6ac",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Load/Mine malicious payload artifact.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed and explicitly lists this SHA-256 as a malicious loader, reverse-shell, exfiltration, backdoor, or miner artifact in the current Load/Mine campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "1deea769021051345945547db1e363ed5cc3c5121d1a90f2c6338567fddc576a",
+    "ioc_type": "sha256",
+    "original_ioc": "1deea769021051345945547db1e363ed5cc3c5121d1a90f2c6338567fddc576a",
+    "hunt_ioc": "1deea769021051345945547db1e363ed5cc3c5121d1a90f2c6338567fddc576a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Foxveil AMOS macOS stealer delivery",
+    "malware_family": "Foxveil / AMOS",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC record 2005750"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2005750"
+    ],
+    "article_published_date": [
+      "2026-10-31T03:07:23Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Current AMOS macOS loader sample.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC record 2005750",
+        "url": "https://threatfox.abuse.ch/ioc/2005750",
+        "published_at": "2026-10-31T03:07:23Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "THREATFOX-2005750",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "ThreatFox explicitly identifies this current Mach-O payload as a Foxveil-linked AMOS loader build retrieved during the active campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2cd9328715bbffb6b090a58de17222c830d910f5ec8198e3fefb0fca2f3e0ef0",
+    "ioc_type": "sha256",
+    "original_ioc": "2cd9328715bbffb6b090a58de17222c830d910f5ec8198e3fefb0fca2f3e0ef0",
+    "hunt_ioc": "2cd9328715bbffb6b090a58de17222c830d910f5ec8198e3fefb0fca2f3e0ef0",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Load/Mine malicious payload artifact.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed and explicitly lists this SHA-256 as a malicious loader, reverse-shell, exfiltration, backdoor, or miner artifact in the current Load/Mine campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "414b3cf7a288eaa592b0f03d85c7a6960dbdb855fcb684478b9def9faa95c21d",
+    "ioc_type": "sha256",
+    "original_ioc": "414b3cf7a288eaa592b0f03d85c7a6960dbdb855fcb684478b9def9faa95c21d",
+    "hunt_ioc": "414b3cf7a288eaa592b0f03d85c7a6960dbdb855fcb684478b9def9faa95c21d",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Load/Mine malicious payload artifact.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed and explicitly lists this SHA-256 as a malicious loader, reverse-shell, exfiltration, backdoor, or miner artifact in the current Load/Mine campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "44a49ad0108ceec79e8c2db0ab613cc492628c4774dca2fdf285aae227d8d3fe",
+    "ioc_type": "sha256",
+    "original_ioc": "44a49ad0108ceec79e8c2db0ab613cc492628c4774dca2fdf285aae227d8d3fe",
+    "hunt_ioc": "44a49ad0108ceec79e8c2db0ab613cc492628c4774dca2fdf285aae227d8d3fe",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "GraphFleet cloud-command backdoor activity",
+    "malware_family": "GraphFleet backdoor",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rubrik Zero Labs"
+    ],
+    "source_article": [
+      "Commands from the Cloud: Uncovering the GraphFleet Backdoor"
+    ],
+    "source_url": [
+      "https://zerolabs.rubrik.com/blog/commands-cloud-uncovering-graphfleet-backdoor"
+    ],
+    "article_published_date": [
+      "2026-10-30T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current GraphFleet backdoor sample.",
+    "sources": [
+      {
+        "organization": "Rubrik Zero Labs",
+        "article_title": "Commands from the Cloud: Uncovering the GraphFleet Backdoor",
+        "url": "https://zerolabs.rubrik.com/blog/commands-cloud-uncovering-graphfleet-backdoor",
+        "published_at": "2026-10-30T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "RUBRIK-GRAPHFLEET-2026-10-30",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Rubrik Zero Labs explicitly lists this SHA-256 as a malicious GraphFleet backdoor sample from its current investigation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "4d67f60c04e326df14f3c45ed52658e62cd7c94f6d897c294ce3269bce369fe7",
+    "ioc_type": "sha256",
+    "original_ioc": "4d67f60c04e326df14f3c45ed52658e62cd7c94f6d897c294ce3269bce369fe7",
+    "hunt_ioc": "4d67f60c04e326df14f3c45ed52658e62cd7c94f6d897c294ce3269bce369fe7",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Foxveil AMOS macOS stealer delivery",
+    "malware_family": "Foxveil / AMOS",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC record 2005806"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2005806"
+    ],
+    "article_published_date": [
+      "2026-10-31T03:35:44Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Current AMOS macOS loader sample.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC record 2005806",
+        "url": "https://threatfox.abuse.ch/ioc/2005806",
+        "published_at": "2026-10-31T03:35:44Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "THREATFOX-2005806",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "ThreatFox explicitly identifies this current Mach-O payload as a Foxveil-linked AMOS loader build with a detailed family match."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "587e3c3be3c75eb6586d69b25adb4c4208c1cf7d39157946da543dd823117adc",
+    "ioc_type": "sha256",
+    "original_ioc": "587e3c3be3c75eb6586d69b25adb4c4208c1cf7d39157946da543dd823117adc",
+    "hunt_ioc": "587e3c3be3c75eb6586d69b25adb4c4208c1cf7d39157946da543dd823117adc",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Load/Mine malicious payload artifact.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed and explicitly lists this SHA-256 as a malicious loader, reverse-shell, exfiltration, backdoor, or miner artifact in the current Load/Mine campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "5dc4b927fb91442a66a2e02c1636f629d4042a03a5c1523cd841d6ece66e0beb",
+    "ioc_type": "sha256",
+    "original_ioc": "5dc4b927fb91442a66a2e02c1636f629d4042a03a5c1523cd841d6ece66e0beb",
+    "hunt_ioc": "5dc4b927fb91442a66a2e02c1636f629d4042a03a5c1523cd841d6ece66e0beb",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Load/Mine malicious payload artifact.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed and explicitly lists this SHA-256 as a malicious loader, reverse-shell, exfiltration, backdoor, or miner artifact in the current Load/Mine campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "5e165f7ee2f2eeb1cdd120457d1e9e91de3907554a50cbfe4ed94a49c062d4ba",
+    "ioc_type": "sha256",
+    "original_ioc": "5e165f7ee2f2eeb1cdd120457d1e9e91de3907554a50cbfe4ed94a49c062d4ba",
+    "hunt_ioc": "5e165f7ee2f2eeb1cdd120457d1e9e91de3907554a50cbfe4ed94a49c062d4ba",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Foxveil AMOS macOS stealer delivery",
+    "malware_family": "Foxveil / AMOS",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC record 2005808"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2005808"
+    ],
+    "article_published_date": [
+      "2026-10-31T03:37:15Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Current AMOS macOS loader sample.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC record 2005808",
+        "url": "https://threatfox.abuse.ch/ioc/2005808",
+        "published_at": "2026-10-31T03:37:15Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "THREATFOX-2005808",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "ThreatFox explicitly identifies this current Mach-O payload as a Foxveil-linked AMOS reflective loader build retrieved during the active campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "6786ec90cbd45949695bd7805c9fbb26cfc91bc5fc897de0183d9bcb9cb21731",
+    "ioc_type": "sha256",
+    "original_ioc": "6786ec90cbd45949695bd7805c9fbb26cfc91bc5fc897de0183d9bcb9cb21731",
+    "hunt_ioc": "6786ec90cbd45949695bd7805c9fbb26cfc91bc5fc897de0183d9bcb9cb21731",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Trojanized Cursor Claude Code extension",
+    "malware_family": "Trojanized Anthropic Claude Code extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Cursor"
+    ],
+    "source_article": [
+      "Security notice - malicious Anthropic.claude-code 2.1.312 and 2.1.313 in the Cursor Extension Marketplace"
+    ],
+    "source_url": [
+      "https://cursor.com/blog/claude-code-extension-security-notice"
+    ],
+    "article_published_date": [
+      "2026-10-30T18:30:00Z"
+    ],
+    "ioc_first_seen": "2026-10-29T09:27:00Z",
+    "ioc_last_seen": "2026-10-29T20:35:00Z",
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Official Cursor hash from the malicious extension package update.",
+    "sources": [
+      {
+        "organization": "Cursor",
+        "article_title": "Security notice - malicious Anthropic.claude-code 2.1.312 and 2.1.313 in the Cursor Extension Marketplace",
+        "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+        "published_at": "2026-10-30T18:30:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "CURSOR-CLAUDE-CODE-2.1.313",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Cursor's official material update explicitly identifies this hash as a malicious VSIX artifact that installed SSH persistence and beaconed to attacker-controlled infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "6a837d3042b9b8b6266c75b07e22ea8e7a7108083efa48ff0aedba7fa24fb57c",
+    "ioc_type": "sha256",
+    "original_ioc": "6a837d3042b9b8b6266c75b07e22ea8e7a7108083efa48ff0aedba7fa24fb57c",
+    "hunt_ioc": "6a837d3042b9b8b6266c75b07e22ea8e7a7108083efa48ff0aedba7fa24fb57c",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Load/Mine malicious payload artifact.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed and explicitly lists this SHA-256 as a malicious loader, reverse-shell, exfiltration, backdoor, or miner artifact in the current Load/Mine campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "6b1e531c9e799a6df1472acc143c6eaec6ea4dd22f997458ba519644d125197e",
+    "ioc_type": "sha256",
+    "original_ioc": "6b1e531c9e799a6df1472acc143c6eaec6ea4dd22f997458ba519644d125197e",
+    "hunt_ioc": "6b1e531c9e799a6df1472acc143c6eaec6ea4dd22f997458ba519644d125197e",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Load/Mine malicious payload artifact.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed and explicitly lists this SHA-256 as a malicious loader, reverse-shell, exfiltration, backdoor, or miner artifact in the current Load/Mine campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "6d8b718af302338def360d813c4cb5ca079031e6cf05ad1b5c82e4528eefb613",
+    "ioc_type": "sha256",
+    "original_ioc": "6d8b718af302338def360d813c4cb5ca079031e6cf05ad1b5c82e4528eefb613",
+    "hunt_ioc": "6d8b718af302338def360d813c4cb5ca079031e6cf05ad1b5c82e4528eefb613",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Load/Mine malicious payload artifact.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed and explicitly lists this SHA-256 as a malicious loader, reverse-shell, exfiltration, backdoor, or miner artifact in the current Load/Mine campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "71855d914405529525344e613f0aae30de04411db6c824e9573f6f40f8bb1e86",
+    "ioc_type": "sha256",
+    "original_ioc": "71855d914405529525344e613f0aae30de04411db6c824e9573f6f40f8bb1e86",
+    "hunt_ioc": "71855d914405529525344e613f0aae30de04411db6c824e9573f6f40f8bb1e86",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Foxveil AMOS macOS stealer delivery",
+    "malware_family": "Foxveil / AMOS",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC record 2005757"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2005757"
+    ],
+    "article_published_date": [
+      "2026-10-31T03:25:29Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Current AMOS macOS loader sample.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC record 2005757",
+        "url": "https://threatfox.abuse.ch/ioc/2005757",
+        "published_at": "2026-10-31T03:25:29Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "THREATFOX-2005757",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "ThreatFox explicitly identifies this current Mach-O payload as a Foxveil-linked AMOS loader build from the active campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "80402fdcad8799285fd93044976973ca000da7995fb93363f819bb8e4f84ee6c",
+    "ioc_type": "sha256",
+    "original_ioc": "80402fdcad8799285fd93044976973ca000da7995fb93363f819bb8e4f84ee6c",
+    "hunt_ioc": "80402fdcad8799285fd93044976973ca000da7995fb93363f819bb8e4f84ee6c",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Trojanized Cursor Claude Code extension",
+    "malware_family": "Trojanized Anthropic Claude Code extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Cursor"
+    ],
+    "source_article": [
+      "Security notice - malicious Anthropic.claude-code 2.1.312 and 2.1.313 in the Cursor Extension Marketplace"
+    ],
+    "source_url": [
+      "https://cursor.com/blog/claude-code-extension-security-notice"
+    ],
+    "article_published_date": [
+      "2026-10-30T18:30:00Z"
+    ],
+    "ioc_first_seen": "2026-10-29T09:27:00Z",
+    "ioc_last_seen": "2026-10-29T20:35:00Z",
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Official Cursor hash from the malicious extension package update.",
+    "sources": [
+      {
+        "organization": "Cursor",
+        "article_title": "Security notice - malicious Anthropic.claude-code 2.1.312 and 2.1.313 in the Cursor Extension Marketplace",
+        "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+        "published_at": "2026-10-30T18:30:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "CURSOR-CLAUDE-CODE-2.1.313",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Cursor's official material update explicitly identifies this hash as a malicious VSIX artifact that installed SSH persistence and beaconed to attacker-controlled infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "849ce59ffb2ae55e4131111acd8a511444475639ba18515509310414b1661964",
+    "ioc_type": "sha256",
+    "original_ioc": "849ce59ffb2ae55e4131111acd8a511444475639ba18515509310414b1661964",
+    "hunt_ioc": "849ce59ffb2ae55e4131111acd8a511444475639ba18515509310414b1661964",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Load/Mine malicious payload artifact.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed and explicitly lists this SHA-256 as a malicious loader, reverse-shell, exfiltration, backdoor, or miner artifact in the current Load/Mine campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "85b6c424117494d3056e88689dbc94c75e9afdb187a339714043aec0da109f17",
+    "ioc_type": "sha256",
+    "original_ioc": "85b6c424117494d3056e88689dbc94c75e9afdb187a339714043aec0da109f17",
+    "hunt_ioc": "85b6c424117494d3056e88689dbc94c75e9afdb187a339714043aec0da109f17",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Teams help-desk impersonation and AD CS abuse intrusion activity",
+    "malware_family": "Initial-access JavaScript",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Microsoft Security Research"
+    ],
+    "source_article": [
+      "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths"
+    ],
+    "article_published_date": [
+      "2026-10-30T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Initial-access JavaScript artifact from the Microsoft-documented intrusion chain.",
+    "sources": [
+      {
+        "organization": "Microsoft Security Research",
+        "article_title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths",
+        "published_at": "2026-10-30T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "MSRC-ADCS-ESC1-ESC8-2026-10-30",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Microsoft Security Research explicitly lists this SHA-256 as the initial-access JavaScript used in observed human-operated intrusions that progressed from Teams help-desk impersonation to AD CS abuse."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "88f4b95a1c3d0a0d9638dc6e69f5bbc9ce0e1b92d069a0e404f60fa5397ee020",
+    "ioc_type": "sha256",
+    "original_ioc": "88f4b95a1c3d0a0d9638dc6e69f5bbc9ce0e1b92d069a0e404f60fa5397ee020",
+    "hunt_ioc": "88f4b95a1c3d0a0d9638dc6e69f5bbc9ce0e1b92d069a0e404f60fa5397ee020",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Load/Mine malicious payload artifact.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed and explicitly lists this SHA-256 as a malicious loader, reverse-shell, exfiltration, backdoor, or miner artifact in the current Load/Mine campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "97072aeeb8774462c5242c042e58416d165e9fd7d92f7e167c9d2ebe8407856a",
+    "ioc_type": "sha256",
+    "original_ioc": "97072aeeb8774462c5242c042e58416d165e9fd7d92f7e167c9d2ebe8407856a",
+    "hunt_ioc": "97072aeeb8774462c5242c042e58416d165e9fd7d92f7e167c9d2ebe8407856a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "GraphFleet cloud-command backdoor activity",
+    "malware_family": "GraphFleet backdoor",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rubrik Zero Labs"
+    ],
+    "source_article": [
+      "Commands from the Cloud: Uncovering the GraphFleet Backdoor"
+    ],
+    "source_url": [
+      "https://zerolabs.rubrik.com/blog/commands-cloud-uncovering-graphfleet-backdoor"
+    ],
+    "article_published_date": [
+      "2026-10-30T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current GraphFleet backdoor sample.",
+    "sources": [
+      {
+        "organization": "Rubrik Zero Labs",
+        "article_title": "Commands from the Cloud: Uncovering the GraphFleet Backdoor",
+        "url": "https://zerolabs.rubrik.com/blog/commands-cloud-uncovering-graphfleet-backdoor",
+        "published_at": "2026-10-30T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "RUBRIK-GRAPHFLEET-2026-10-30",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Rubrik Zero Labs explicitly lists this SHA-256 as a malicious GraphFleet backdoor sample from its current investigation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "99bffdba0ce0121125d7e14b8083a1dd8e25ac6b065a9e68c3d6704896784418",
+    "ioc_type": "sha256",
+    "original_ioc": "99bffdba0ce0121125d7e14b8083a1dd8e25ac6b065a9e68c3d6704896784418",
+    "hunt_ioc": "99bffdba0ce0121125d7e14b8083a1dd8e25ac6b065a9e68c3d6704896784418",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Sora Mirai botnet payload delivery",
+    "malware_family": "Sora / Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus malware URL record 4048443"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/4048443"
+    ],
+    "article_published_date": [
+      "2026-10-31T12:39:05Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Payload hash retrieved from the exact current URLhaus malware-delivery record.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus malware URL record 4048443",
+        "url": "https://urlhaus.abuse.ch/url/4048443",
+        "published_at": "2026-10-31T12:39:05Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "URLHAUS-4048443",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "URLhaus identifies this SHA-256 as the malicious Mirai-family ELF payload retrieved from the exact active Sora delivery URL."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "9d62179c94faf0c8eb86704973c218c229e92c71c0ed60a5e85d4bcc69c13f40",
+    "ioc_type": "sha256",
+    "original_ioc": "9d62179c94faf0c8eb86704973c218c229e92c71c0ed60a5e85d4bcc69c13f40",
+    "hunt_ioc": "9d62179c94faf0c8eb86704973c218c229e92c71c0ed60a5e85d4bcc69c13f40",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Load/Mine malicious payload artifact.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed and explicitly lists this SHA-256 as a malicious loader, reverse-shell, exfiltration, backdoor, or miner artifact in the current Load/Mine campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a2f5a3425d9fc87db8cedf67b6158d68de4d3432e747e1317f3548b903c5279e",
+    "ioc_type": "sha256",
+    "original_ioc": "a2f5a3425d9fc87db8cedf67b6158d68de4d3432e747e1317f3548b903c5279e",
+    "hunt_ioc": "a2f5a3425d9fc87db8cedf67b6158d68de4d3432e747e1317f3548b903c5279e",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Foxveil AMOS macOS stealer delivery",
+    "malware_family": "Foxveil / AMOS",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC record 2005807"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2005807"
+    ],
+    "article_published_date": [
+      "2026-10-31T03:36:47Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Current AMOS macOS loader sample.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC record 2005807",
+        "url": "https://threatfox.abuse.ch/ioc/2005807",
+        "published_at": "2026-10-31T03:36:47Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "THREATFOX-2005807",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "ThreatFox explicitly identifies this current Mach-O payload as a Foxveil-linked AMOS loader build with detailed configuration and payload-table analysis."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ac9c284246570aed87c939bca7c5e3adfbf691fd2847d55b4cf6cdff7cb2a714",
+    "ioc_type": "sha256",
+    "original_ioc": "ac9c284246570aed87c939bca7c5e3adfbf691fd2847d55b4cf6cdff7cb2a714",
+    "hunt_ioc": "ac9c284246570aed87c939bca7c5e3adfbf691fd2847d55b4cf6cdff7cb2a714",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Load/Mine malicious payload artifact.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed and explicitly lists this SHA-256 as a malicious loader, reverse-shell, exfiltration, backdoor, or miner artifact in the current Load/Mine campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b0e1ae6d73d656b203514f498b59cbcf29f067edf6fbd3803a3de7d21960848d",
+    "ioc_type": "sha256",
+    "original_ioc": "b0e1ae6d73d656b203514f498b59cbcf29f067edf6fbd3803a3de7d21960848d",
+    "hunt_ioc": "b0e1ae6d73d656b203514f498b59cbcf29f067edf6fbd3803a3de7d21960848d",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current Load/Mine malicious payload artifact.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed and explicitly lists this SHA-256 as a malicious loader, reverse-shell, exfiltration, backdoor, or miner artifact in the current Load/Mine campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b874caca39c903dc40777ea0be0b918bfbbd71d86910862404dea085955f69e9",
+    "ioc_type": "sha256",
+    "original_ioc": "b874caca39c903dc40777ea0be0b918bfbbd71d86910862404dea085955f69e9",
+    "hunt_ioc": "b874caca39c903dc40777ea0be0b918bfbbd71d86910862404dea085955f69e9",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Foxveil AMOS macOS stealer delivery",
+    "malware_family": "Foxveil / AMOS",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC record 2005758"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2005758"
+    ],
+    "article_published_date": [
+      "2026-10-31T03:30:57Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Current AMOS macOS loader sample.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC record 2005758",
+        "url": "https://threatfox.abuse.ch/ioc/2005758",
+        "published_at": "2026-10-31T03:30:57Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "THREATFOX-2005758",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "ThreatFox explicitly identifies this current Mach-O payload as a Foxveil-linked AMOS loader build from the active campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "e58caff40b3056f15644c891ab78fa0f28dc9ebf1c321b1ccfd0718e82c0e71a",
+    "ioc_type": "sha256",
+    "original_ioc": "e58caff40b3056f15644c891ab78fa0f28dc9ebf1c321b1ccfd0718e82c0e71a",
+    "hunt_ioc": "e58caff40b3056f15644c891ab78fa0f28dc9ebf1c321b1ccfd0718e82c0e71a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current AMOS stealer payload activity",
+    "malware_family": "AMOS / Atomic Stealer",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC record 2006217"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2006217"
+    ],
+    "article_published_date": [
+      "2026-10-31T10:56:19Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Metadata-rich current public payload record.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC record 2006217",
+        "url": "https://threatfox.abuse.ch/ioc/2006217",
+        "published_at": "2026-10-31T10:56:19Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "THREATFOX-2006217",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "ThreatFox identifies this current, non-compromised payload as AMOS with multi-vantage capture, MalwareBazaar classification, and multiple malicious vendor detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ec2077a0034ac4e9c3ebbb5d0f60d18832f07157c2d5aa454ef3919dbeb5b96d",
+    "ioc_type": "sha256",
+    "original_ioc": "ec2077a0034ac4e9c3ebbb5d0f60d18832f07157c2d5aa454ef3919dbeb5b96d",
+    "hunt_ioc": "ec2077a0034ac4e9c3ebbb5d0f60d18832f07157c2d5aa454ef3919dbeb5b96d",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current multi-vantage loader payload activity",
+    "malware_family": "Unknown loader",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC record 2006219"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2006219"
+    ],
+    "article_published_date": [
+      "2026-10-31T10:56:21Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Metadata-rich current public payload record.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC record 2006219",
+        "url": "https://threatfox.abuse.ch/ioc/2006219",
+        "published_at": "2026-10-31T10:56:21Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "THREATFOX-2006219",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "ThreatFox identifies this current, non-compromised loader payload through multi-vantage capture and multiple malicious vendor detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ee422ebf72f92384e3779c946a3832ef2e5a0e215f8b8fc484ee807d1cc73a97",
+    "ioc_type": "sha256",
+    "original_ioc": "ee422ebf72f92384e3779c946a3832ef2e5a0e215f8b8fc484ee807d1cc73a97",
+    "hunt_ioc": "ee422ebf72f92384e3779c946a3832ef2e5a0e215f8b8fc484ee807d1cc73a97",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "GraphFleet cloud-command backdoor activity",
+    "malware_family": "GraphFleet backdoor",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rubrik Zero Labs"
+    ],
+    "source_article": [
+      "Commands from the Cloud: Uncovering the GraphFleet Backdoor"
+    ],
+    "source_url": [
+      "https://zerolabs.rubrik.com/blog/commands-cloud-uncovering-graphfleet-backdoor"
+    ],
+    "article_published_date": [
+      "2026-10-30T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current GraphFleet backdoor sample.",
+    "sources": [
+      {
+        "organization": "Rubrik Zero Labs",
+        "article_title": "Commands from the Cloud: Uncovering the GraphFleet Backdoor",
+        "url": "https://zerolabs.rubrik.com/blog/commands-cloud-uncovering-graphfleet-backdoor",
+        "published_at": "2026-10-30T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "RUBRIK-GRAPHFLEET-2026-10-30",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Rubrik Zero Labs explicitly lists this SHA-256 as a malicious GraphFleet backdoor sample from its current investigation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "f326201269f1ee2f803ae435317507263bb6e0dbfdeb70bd1bb5446e2e46f001",
+    "ioc_type": "sha256",
+    "original_ioc": "f326201269f1ee2f803ae435317507263bb6e0dbfdeb70bd1bb5446e2e46f001",
+    "hunt_ioc": "f326201269f1ee2f803ae435317507263bb6e0dbfdeb70bd1bb5446e2e46f001",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Teams help-desk impersonation and AD CS abuse intrusion activity",
+    "malware_family": "Initial-access Python script",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Microsoft Security Research"
+    ],
+    "source_article": [
+      "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths"
+    ],
+    "article_published_date": [
+      "2026-10-30T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Initial-access Python artifact from the Microsoft-documented intrusion chain.",
+    "sources": [
+      {
+        "organization": "Microsoft Security Research",
+        "article_title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths",
+        "published_at": "2026-10-30T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "MSRC-ADCS-ESC1-ESC8-2026-10-30",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Microsoft Security Research explicitly lists this SHA-256 as an initial-access Python script used in observed human-operated intrusions that progressed from Teams help-desk impersonation to AD CS abuse."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "f5050d9dfbec1daefd27c98d9c086153a311cff62b2224236d48d906da60aa75",
+    "ioc_type": "sha256",
+    "original_ioc": "f5050d9dfbec1daefd27c98d9c086153a311cff62b2224236d48d906da60aa75",
+    "hunt_ioc": "f5050d9dfbec1daefd27c98d9c086153a311cff62b2224236d48d906da60aa75",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "GraphFleet cloud-command backdoor activity",
+    "malware_family": "GraphFleet backdoor",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rubrik Zero Labs"
+    ],
+    "source_article": [
+      "Commands from the Cloud: Uncovering the GraphFleet Backdoor"
+    ],
+    "source_url": [
+      "https://zerolabs.rubrik.com/blog/commands-cloud-uncovering-graphfleet-backdoor"
+    ],
+    "article_published_date": [
+      "2026-10-30T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current GraphFleet backdoor sample.",
+    "sources": [
+      {
+        "organization": "Rubrik Zero Labs",
+        "article_title": "Commands from the Cloud: Uncovering the GraphFleet Backdoor",
+        "url": "https://zerolabs.rubrik.com/blog/commands-cloud-uncovering-graphfleet-backdoor",
+        "published_at": "2026-10-30T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "RUBRIK-GRAPHFLEET-2026-10-30",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Rubrik Zero Labs explicitly lists this SHA-256 as a malicious GraphFleet backdoor sample from its current investigation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "f78f13292600be9c5c3319a42acbfaa445d679fc01fae1c7f6dcab7c5a34e71e",
+    "ioc_type": "sha256",
+    "original_ioc": "f78f13292600be9c5c3319a42acbfaa445d679fc01fae1c7f6dcab7c5a34e71e",
+    "hunt_ioc": "f78f13292600be9c5c3319a42acbfaa445d679fc01fae1c7f6dcab7c5a34e71e",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Foxveil AMOS macOS stealer delivery",
+    "malware_family": "Foxveil / AMOS",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC record 2005752"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2005752"
+    ],
+    "article_published_date": [
+      "2026-10-31T03:12:01Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Current AMOS macOS loader sample.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC record 2005752",
+        "url": "https://threatfox.abuse.ch/ioc/2005752",
+        "published_at": "2026-10-31T03:12:01Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "THREATFOX-2005752",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "ThreatFox explicitly identifies this current Mach-O payload as a Foxveil-linked AMOS loader build retrieved during the active campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "f7d04b537d67c14cf1d37fff34496527050714e21443664f4c43180442d2dd0f",
+    "ioc_type": "sha256",
+    "original_ioc": "f7d04b537d67c14cf1d37fff34496527050714e21443664f4c43180442d2dd0f",
+    "hunt_ioc": "f7d04b537d67c14cf1d37fff34496527050714e21443664f4c43180442d2dd0f",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "GraphFleet cloud-command backdoor activity",
+    "malware_family": "GraphFleet backdoor",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Rubrik Zero Labs"
+    ],
+    "source_article": [
+      "Commands from the Cloud: Uncovering the GraphFleet Backdoor"
+    ],
+    "source_url": [
+      "https://zerolabs.rubrik.com/blog/commands-cloud-uncovering-graphfleet-backdoor"
+    ],
+    "article_published_date": [
+      "2026-10-30T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current GraphFleet backdoor sample.",
+    "sources": [
+      {
+        "organization": "Rubrik Zero Labs",
+        "article_title": "Commands from the Cloud: Uncovering the GraphFleet Backdoor",
+        "url": "https://zerolabs.rubrik.com/blog/commands-cloud-uncovering-graphfleet-backdoor",
+        "published_at": "2026-10-30T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "RUBRIK-GRAPHFLEET-2026-10-30",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Rubrik Zero Labs explicitly lists this SHA-256 as a malicious GraphFleet backdoor sample from its current investigation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "fcbb327e38e61c4fec795e0d0591f52cd1014b813d20a5912104953c3a17c364",
+    "ioc_type": "sha256",
+    "original_ioc": "fcbb327e38e61c4fec795e0d0591f52cd1014b813d20a5912104953c3a17c364",
+    "hunt_ioc": "fcbb327e38e61c4fec795e0d0591f52cd1014b813d20a5912104953c3a17c364",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Trojanized Cursor Claude Code extension",
+    "malware_family": "Trojanized Anthropic Claude Code extension",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "Cursor"
+    ],
+    "source_article": [
+      "Security notice - malicious Anthropic.claude-code 2.1.312 and 2.1.313 in the Cursor Extension Marketplace"
+    ],
+    "source_url": [
+      "https://cursor.com/blog/claude-code-extension-security-notice"
+    ],
+    "article_published_date": [
+      "2026-10-30T18:30:00Z"
+    ],
+    "ioc_first_seen": "2026-10-29T09:27:00Z",
+    "ioc_last_seen": "2026-10-29T20:35:00Z",
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Official Cursor hash from the malicious extension package update.",
+    "sources": [
+      {
+        "organization": "Cursor",
+        "article_title": "Security notice - malicious Anthropic.claude-code 2.1.312 and 2.1.313 in the Cursor Extension Marketplace",
+        "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+        "published_at": "2026-10-30T18:30:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "CURSOR-CLAUDE-CODE-2.1.313",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Cursor's official material update explicitly identifies this hash as a malicious VSIX artifact that installed SSH persistence and beaconed to attacker-controlled infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://173.249.209.96:8081/ag.sh",
+    "ioc_type": "url",
+    "original_ioc": "http://173.249.209.96:8081/ag.sh",
+    "hunt_ioc": "173.249.209.96",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact malicious delivery URL from the current Load/Mine investigation.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed this exact URL delivering a malicious Load/Mine campaign script."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://5.39.10.241/bins/sora.x86",
+    "ioc_type": "url",
+    "original_ioc": "http://5.39.10.241/bins/sora.x86",
+    "hunt_ioc": "5.39.10.241",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Sora Mirai botnet payload delivery",
+    "malware_family": "Sora / Mirai",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus malware URL record 4048443"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/4048443"
+    ],
+    "article_published_date": [
+      "2026-10-31T12:39:05Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact malware-delivery URL; hunting output must pivot only on its validated public IP host.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus malware URL record 4048443",
+        "url": "https://urlhaus.abuse.ch/url/4048443",
+        "published_at": "2026-10-31T12:39:05Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "URLHAUS-4048443",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "URLhaus explicitly marks this exact URL online and spreading a Sora/Mirai-tagged ELF botnet payload observed through automated honeypot collection."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://3.112.174.116.sslip.io/sysd-kit.tgz",
+    "ioc_type": "url",
+    "original_ioc": "https://3.112.174.116.sslip.io/sysd-kit.tgz",
+    "hunt_ioc": "3.112.174.116.sslip.io",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact malicious payload URL; hunt generation must pivot on the validated hostname only.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed this exact URL delivering a malicious Load/Mine campaign payload archive."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://grows-stocks-vatican-flood.trycloudflare.com/beacon",
+    "ioc_type": "url",
+    "original_ioc": "https://grows-stocks-vatican-flood.trycloudflare.com/beacon",
+    "hunt_ioc": "grows-stocks-vatican-flood.trycloudflare.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Load/Mine malicious model repository campaign",
+    "malware_family": "Load/Mine miner and backdoor",
+    "threat_actor": "Financially motivated Chinese-speaking operator",
+    "source_organization": [
+      "Pluto Security"
+    ],
+    "source_article": [
+      "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown"
+    ],
+    "source_url": [
+      "https://pluto.security/blog/hugging-face-malware-campaign-load-mine"
+    ],
+    "article_published_date": [
+      "2026-10-29T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-10-31T13:01:08Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact malicious beacon URL; hunt generation must pivot on the unique hostname only.",
+    "sources": [
+      {
+        "organization": "Pluto Security",
+        "article_title": "Load/Mine: A Hugging Face Malware Campaign Returns After Takedown",
+        "url": "https://pluto.security/blog/hugging-face-malware-campaign-load-mine",
+        "published_at": "2026-10-29T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "PLUTO-LOAD-MINE-2026-10-29",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-29T13:01:08Z",
+        "discovery_context": [
+          "Pluto Security directly observed this exact tunnel URL as a malicious Load/Mine campaign beacon endpoint."
+        ]
+      }
+    ]
+  }
+]
