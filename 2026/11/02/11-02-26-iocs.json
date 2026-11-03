@@ -1,0 +1,3997 @@
+[
+  {
+    "ioc": "z59ux9.he2o9t.com",
+    "ioc_type": "domain",
+    "original_ioc": "z59ux9.he2o9t.com",
+    "hunt_ioc": "z59ux9.he2o9t.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Triada backdoor preinstalled in counterfeit Android tablet firmware",
+    "malware_family": "Triada",
+    "threat_actor": "Unknown supply-chain operator",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "Current Triada preinstalled-firmware C2 record"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2009323"
+    ],
+    "article_published_date": [
+      "2026-11-02T06:27:33Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Static-analysis provenance is documented in the individual ThreatFox record.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "Current Triada preinstalled-firmware C2 record",
+        "url": "https://threatfox.abuse.ch/ioc/2009323",
+        "published_at": "2026-11-02T06:27:33Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "THREATFOX-2009323",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "ThreatFox identifies this non-compromised domain as the decoded C2 hostname for a Triada-style backdoor preinstalled in counterfeit Android tablet firmware."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "0135b69bab304564628488829b825050d1dd6dab98e86ec6776839dac9365af9",
+    "ioc_type": "sha256",
+    "original_ioc": "0135b69bab304564628488829b825050d1dd6dab98e86ec6776839dac9365af9",
+    "hunt_ioc": "0135b69bab304564628488829b825050d1dd6dab98e86ec6776839dac9365af9",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "01b8c78f5509119b3e27ea4d628048985b94b5e00db0431d843519cf1d3e2cde",
+    "ioc_type": "sha256",
+    "original_ioc": "01b8c78f5509119b3e27ea4d628048985b94b5e00db0431d843519cf1d3e2cde",
+    "hunt_ioc": "01b8c78f5509119b3e27ea4d628048985b94b5e00db0431d843519cf1d3e2cde",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "02490fa9f472ec872723d64d03402967e77932d2df72c588b0d7a7df9e17ae62",
+    "ioc_type": "sha256",
+    "original_ioc": "02490fa9f472ec872723d64d03402967e77932d2df72c588b0d7a7df9e17ae62",
+    "hunt_ioc": "02490fa9f472ec872723d64d03402967e77932d2df72c588b0d7a7df9e17ae62",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "02b94ae4ee0fd2bab915fe2911d15ee70e51ca0564ba43c746593e7fe0b7ccd3",
+    "ioc_type": "sha256",
+    "original_ioc": "02b94ae4ee0fd2bab915fe2911d15ee70e51ca0564ba43c746593e7fe0b7ccd3",
+    "hunt_ioc": "02b94ae4ee0fd2bab915fe2911d15ee70e51ca0564ba43c746593e7fe0b7ccd3",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "049b626ca9bc4cf552e675dd5bf6215753caa3a3d28fab17b2a8fa9e0c8421c0",
+    "ioc_type": "sha256",
+    "original_ioc": "049b626ca9bc4cf552e675dd5bf6215753caa3a3d28fab17b2a8fa9e0c8421c0",
+    "hunt_ioc": "049b626ca9bc4cf552e675dd5bf6215753caa3a3d28fab17b2a8fa9e0c8421c0",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "04ffe332458931d82c0503daba1859622540828302af1190d2d3c6447094428c",
+    "ioc_type": "sha256",
+    "original_ioc": "04ffe332458931d82c0503daba1859622540828302af1190d2d3c6447094428c",
+    "hunt_ioc": "04ffe332458931d82c0503daba1859622540828302af1190d2d3c6447094428c",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "05e2e32e08073081adcb8875c3b7350fff53e7ea8f36d6388fb3daa626015d22",
+    "ioc_type": "sha256",
+    "original_ioc": "05e2e32e08073081adcb8875c3b7350fff53e7ea8f36d6388fb3daa626015d22",
+    "hunt_ioc": "05e2e32e08073081adcb8875c3b7350fff53e7ea8f36d6388fb3daa626015d22",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "07b511a6f7715ccd2f77b5f51e4cf46542ccaada99564252711f4a142ac26179",
+    "ioc_type": "sha256",
+    "original_ioc": "07b511a6f7715ccd2f77b5f51e4cf46542ccaada99564252711f4a142ac26179",
+    "hunt_ioc": "07b511a6f7715ccd2f77b5f51e4cf46542ccaada99564252711f4a142ac26179",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "085662ba43e22d04d6f69b7b5176c68cedee6507c5d34973c94459f324b44c8d",
+    "ioc_type": "sha256",
+    "original_ioc": "085662ba43e22d04d6f69b7b5176c68cedee6507c5d34973c94459f324b44c8d",
+    "hunt_ioc": "085662ba43e22d04d6f69b7b5176c68cedee6507c5d34973c94459f324b44c8d",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "08edc09f4465cd784360c223275c45a5e95d7dc8a5e796537ea5251848b3d2f1",
+    "ioc_type": "sha256",
+    "original_ioc": "08edc09f4465cd784360c223275c45a5e95d7dc8a5e796537ea5251848b3d2f1",
+    "hunt_ioc": "08edc09f4465cd784360c223275c45a5e95d7dc8a5e796537ea5251848b3d2f1",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "0d90d0e5009d0c67e978dffb1f78278fa22f296ebc14add1fe338abea8690867",
+    "ioc_type": "sha256",
+    "original_ioc": "0d90d0e5009d0c67e978dffb1f78278fa22f296ebc14add1fe338abea8690867",
+    "hunt_ioc": "0d90d0e5009d0c67e978dffb1f78278fa22f296ebc14add1fe338abea8690867",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "0ed2ec71901210b1100c6a4abee48ad36774962496d57577d58630072e30cc60",
+    "ioc_type": "sha256",
+    "original_ioc": "0ed2ec71901210b1100c6a4abee48ad36774962496d57577d58630072e30cc60",
+    "hunt_ioc": "0ed2ec71901210b1100c6a4abee48ad36774962496d57577d58630072e30cc60",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "17d4929578dac90af7da3a9c8bbd6f516ade8cc803c82a0f64849fb2a346a894",
+    "ioc_type": "sha256",
+    "original_ioc": "17d4929578dac90af7da3a9c8bbd6f516ade8cc803c82a0f64849fb2a346a894",
+    "hunt_ioc": "17d4929578dac90af7da3a9c8bbd6f516ade8cc803c82a0f64849fb2a346a894",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "1806a1a93a6bce28cc6e95e9001f06370eaef9c66846ade9aecaf220d7ac91a4",
+    "ioc_type": "sha256",
+    "original_ioc": "1806a1a93a6bce28cc6e95e9001f06370eaef9c66846ade9aecaf220d7ac91a4",
+    "hunt_ioc": "1806a1a93a6bce28cc6e95e9001f06370eaef9c66846ade9aecaf220d7ac91a4",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "1c34f551cea557b24f6f3776de7fecaf40536c749d5b9734242acde4dd578c53",
+    "ioc_type": "sha256",
+    "original_ioc": "1c34f551cea557b24f6f3776de7fecaf40536c749d5b9734242acde4dd578c53",
+    "hunt_ioc": "1c34f551cea557b24f6f3776de7fecaf40536c749d5b9734242acde4dd578c53",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "1c8408f80dcdac5c9cae5b2ac785e6f0aa97ad2ec6c8701e3ab661882e9fdd63",
+    "ioc_type": "sha256",
+    "original_ioc": "1c8408f80dcdac5c9cae5b2ac785e6f0aa97ad2ec6c8701e3ab661882e9fdd63",
+    "hunt_ioc": "1c8408f80dcdac5c9cae5b2ac785e6f0aa97ad2ec6c8701e3ab661882e9fdd63",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "1c989cef1b9cc5a39715d172e3f3acb574a958765f4a9df50c952c0a359826cd",
+    "ioc_type": "sha256",
+    "original_ioc": "1c989cef1b9cc5a39715d172e3f3acb574a958765f4a9df50c952c0a359826cd",
+    "hunt_ioc": "1c989cef1b9cc5a39715d172e3f3acb574a958765f4a9df50c952c0a359826cd",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "1de0a368599ab04b8863c0e61c2d5a75e00f742a3326325f2870a9a72ee8d200",
+    "ioc_type": "sha256",
+    "original_ioc": "1de0a368599ab04b8863c0e61c2d5a75e00f742a3326325f2870a9a72ee8d200",
+    "hunt_ioc": "1de0a368599ab04b8863c0e61c2d5a75e00f742a3326325f2870a9a72ee8d200",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "1f2ab93c35f0c37d9b88f82268183a2f77491aa6b142a48381524b18e217b960",
+    "ioc_type": "sha256",
+    "original_ioc": "1f2ab93c35f0c37d9b88f82268183a2f77491aa6b142a48381524b18e217b960",
+    "hunt_ioc": "1f2ab93c35f0c37d9b88f82268183a2f77491aa6b142a48381524b18e217b960",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "20af9e1538e1c211687c53e71318d9d265e36ce154457cade3266c7633fb953d",
+    "ioc_type": "sha256",
+    "original_ioc": "20af9e1538e1c211687c53e71318d9d265e36ce154457cade3266c7633fb953d",
+    "hunt_ioc": "20af9e1538e1c211687c53e71318d9d265e36ce154457cade3266c7633fb953d",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "22c0279d23973fd9b3bfd9f42fd19ea1595c6e3f71a89b698828c79fa8e4edd2",
+    "ioc_type": "sha256",
+    "original_ioc": "22c0279d23973fd9b3bfd9f42fd19ea1595c6e3f71a89b698828c79fa8e4edd2",
+    "hunt_ioc": "22c0279d23973fd9b3bfd9f42fd19ea1595c6e3f71a89b698828c79fa8e4edd2",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2cdb1f0f0969766142f3debbab55eef5e24c15d49a513753f1f6b67bc3e8438b",
+    "ioc_type": "sha256",
+    "original_ioc": "2cdb1f0f0969766142f3debbab55eef5e24c15d49a513753f1f6b67bc3e8438b",
+    "hunt_ioc": "2cdb1f0f0969766142f3debbab55eef5e24c15d49a513753f1f6b67bc3e8438b",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2d4b5c50e57e3e9b57d4ee02bef1dcd56163550a5e01c966e0f0fb6d46b2aeed",
+    "ioc_type": "sha256",
+    "original_ioc": "2d4b5c50e57e3e9b57d4ee02bef1dcd56163550a5e01c966e0f0fb6d46b2aeed",
+    "hunt_ioc": "2d4b5c50e57e3e9b57d4ee02bef1dcd56163550a5e01c966e0f0fb6d46b2aeed",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "3295d193ac405112ad076d7fab23274d44f8d0be6614a250a474c5ed7c95356f",
+    "ioc_type": "sha256",
+    "original_ioc": "3295d193ac405112ad076d7fab23274d44f8d0be6614a250a474c5ed7c95356f",
+    "hunt_ioc": "3295d193ac405112ad076d7fab23274d44f8d0be6614a250a474c5ed7c95356f",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "331d3a1cf85656c3657e97bab6f15b6e4ce30bf319069b22e8356dccac230321",
+    "ioc_type": "sha256",
+    "original_ioc": "331d3a1cf85656c3657e97bab6f15b6e4ce30bf319069b22e8356dccac230321",
+    "hunt_ioc": "331d3a1cf85656c3657e97bab6f15b6e4ce30bf319069b22e8356dccac230321",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE affiliate malware modules",
+    "malware_family": "Linkfog",
+    "threat_actor": "Videostrong Technology Co. and affiliated module operators",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Affected devices can retain installed malware after command-and-control disruption. Passive public-source review only; no malware downloaded and no IOC infrastructure contacted.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Affiliate Malware IOC table for a module silently loaded through the factory-installed XCPE backdoor. The exact match should be validated for knowing installation where a repurposed commercial proxy component is possible."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "350d6db477e8567cf9347c1144b3a0b25550e7ce63bb800b056b8a7a8ef56af4",
+    "ioc_type": "sha256",
+    "original_ioc": "350d6db477e8567cf9347c1144b3a0b25550e7ce63bb800b056b8a7a8ef56af4",
+    "hunt_ioc": "350d6db477e8567cf9347c1144b3a0b25550e7ce63bb800b056b8a7a8ef56af4",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "3627f848804f49c041203e8d754e8d89f3ff6243b6d9e1ca6e50bbf08dbd9785",
+    "ioc_type": "sha256",
+    "original_ioc": "3627f848804f49c041203e8d754e8d89f3ff6243b6d9e1ca6e50bbf08dbd9785",
+    "hunt_ioc": "3627f848804f49c041203e8d754e8d89f3ff6243b6d9e1ca6e50bbf08dbd9785",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "3768f470934a111f1c3e3d098eb1392a3cb6f3e298ef5fd2a6309e6a98ee1e18",
+    "ioc_type": "sha256",
+    "original_ioc": "3768f470934a111f1c3e3d098eb1392a3cb6f3e298ef5fd2a6309e6a98ee1e18",
+    "hunt_ioc": "3768f470934a111f1c3e3d098eb1392a3cb6f3e298ef5fd2a6309e6a98ee1e18",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "39792bed070b1128cd67178591804fafb82112d371ccdb2b51cd600b2d435922",
+    "ioc_type": "sha256",
+    "original_ioc": "39792bed070b1128cd67178591804fafb82112d371ccdb2b51cd600b2d435922",
+    "hunt_ioc": "39792bed070b1128cd67178591804fafb82112d371ccdb2b51cd600b2d435922",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "3a72b1c376a9bbda44b79b87ad2c9d3808d6a3613fa89cc869f956dc19bd6c92",
+    "ioc_type": "sha256",
+    "original_ioc": "3a72b1c376a9bbda44b79b87ad2c9d3808d6a3613fa89cc869f956dc19bd6c92",
+    "hunt_ioc": "3a72b1c376a9bbda44b79b87ad2c9d3808d6a3613fa89cc869f956dc19bd6c92",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Triada backdoor preinstalled in counterfeit Android tablet firmware",
+    "malware_family": "Triada",
+    "threat_actor": "Unknown supply-chain operator",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "Current Triada preinstalled-firmware C2 record"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2009323"
+    ],
+    "article_published_date": [
+      "2026-11-02T06:27:33Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "The source states Kaspersky detects both the modified library and payload on VirusTotal.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "Current Triada preinstalled-firmware C2 record",
+        "url": "https://threatfox.abuse.ch/ioc/2009323",
+        "published_at": "2026-11-02T06:27:33Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "THREATFOX-2009323",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "The ThreatFox record explicitly identifies this SHA256 as the modified Android runtime library loaded into every app through zygote by the preinstalled Triada-style backdoor."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "3e891f061daf73c2edc14ed98512cad008346679645e8165320bf96fb8b0e0d6",
+    "ioc_type": "sha256",
+    "original_ioc": "3e891f061daf73c2edc14ed98512cad008346679645e8165320bf96fb8b0e0d6",
+    "hunt_ioc": "3e891f061daf73c2edc14ed98512cad008346679645e8165320bf96fb8b0e0d6",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "415d54757c2f96fd28404f1ab8da1e90297a381ec3d7fb47d33126644a0a421b",
+    "ioc_type": "sha256",
+    "original_ioc": "415d54757c2f96fd28404f1ab8da1e90297a381ec3d7fb47d33126644a0a421b",
+    "hunt_ioc": "415d54757c2f96fd28404f1ab8da1e90297a381ec3d7fb47d33126644a0a421b",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "42be8f18d6006ca092de191331d38e70a0d8383db701a759466dec59a0986135",
+    "ioc_type": "sha256",
+    "original_ioc": "42be8f18d6006ca092de191331d38e70a0d8383db701a759466dec59a0986135",
+    "hunt_ioc": "42be8f18d6006ca092de191331d38e70a0d8383db701a759466dec59a0986135",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "471e76cce87e280a2fe11046fcb58c0817558ffbc8a526d84fb40c45b03ac9bc",
+    "ioc_type": "sha256",
+    "original_ioc": "471e76cce87e280a2fe11046fcb58c0817558ffbc8a526d84fb40c45b03ac9bc",
+    "hunt_ioc": "471e76cce87e280a2fe11046fcb58c0817558ffbc8a526d84fb40c45b03ac9bc",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "486a784cbd6335d31214edd7bed7fcfb486b875374597c139826c77c91ccbbaa",
+    "ioc_type": "sha256",
+    "original_ioc": "486a784cbd6335d31214edd7bed7fcfb486b875374597c139826c77c91ccbbaa",
+    "hunt_ioc": "486a784cbd6335d31214edd7bed7fcfb486b875374597c139826c77c91ccbbaa",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "498d0862ce2ce972e9ac9bd3ea592b9f9cd8c5119dcc90fcb1b14a547889e9f9",
+    "ioc_type": "sha256",
+    "original_ioc": "498d0862ce2ce972e9ac9bd3ea592b9f9cd8c5119dcc90fcb1b14a547889e9f9",
+    "hunt_ioc": "498d0862ce2ce972e9ac9bd3ea592b9f9cd8c5119dcc90fcb1b14a547889e9f9",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "49cd136e3dae9e7cc3623cecea351650550a13da13ec6ef30ebc46e39a19625d",
+    "ioc_type": "sha256",
+    "original_ioc": "49cd136e3dae9e7cc3623cecea351650550a13da13ec6ef30ebc46e39a19625d",
+    "hunt_ioc": "49cd136e3dae9e7cc3623cecea351650550a13da13ec6ef30ebc46e39a19625d",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Triada backdoor preinstalled in counterfeit Android tablet firmware",
+    "malware_family": "Triada",
+    "threat_actor": "Unknown supply-chain operator",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "Current Triada preinstalled-firmware C2 record"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2009323"
+    ],
+    "article_published_date": [
+      "2026-11-02T06:27:33Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Static-analysis provenance and malicious behavior are explicit in the individual record.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "Current Triada preinstalled-firmware C2 record",
+        "url": "https://threatfox.abuse.ch/ioc/2009323",
+        "published_at": "2026-11-02T06:27:33Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "THREATFOX-2009323",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "The ThreatFox record explicitly identifies this SHA256 as the Triada module ZIP that collects device identifiers, polls C2, and downloads and loads additional DEX payloads."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "4f860efa8d8b9b8f35f343d524500181607a0cdc9fac35394cf16b71ff4ad1d0",
+    "ioc_type": "sha256",
+    "original_ioc": "4f860efa8d8b9b8f35f343d524500181607a0cdc9fac35394cf16b71ff4ad1d0",
+    "hunt_ioc": "4f860efa8d8b9b8f35f343d524500181607a0cdc9fac35394cf16b71ff4ad1d0",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "4fd0ddb15849137df77e8cb86cd951d2d220fd8dd5b8b03c5a7e23e815092fdd",
+    "ioc_type": "sha256",
+    "original_ioc": "4fd0ddb15849137df77e8cb86cd951d2d220fd8dd5b8b03c5a7e23e815092fdd",
+    "hunt_ioc": "4fd0ddb15849137df77e8cb86cd951d2d220fd8dd5b8b03c5a7e23e815092fdd",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "5ae5df84cdce0100eb957cf235d1f3fd85fa634592e7ca137de12535e9f8ad2a",
+    "ioc_type": "sha256",
+    "original_ioc": "5ae5df84cdce0100eb957cf235d1f3fd85fa634592e7ca137de12535e9f8ad2a",
+    "hunt_ioc": "5ae5df84cdce0100eb957cf235d1f3fd85fa634592e7ca137de12535e9f8ad2a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "69116e8f681ea312e7e9e3a8a436f66b3e98566c621412599ecaaa25348daadb",
+    "ioc_type": "sha256",
+    "original_ioc": "69116e8f681ea312e7e9e3a8a436f66b3e98566c621412599ecaaa25348daadb",
+    "hunt_ioc": "69116e8f681ea312e7e9e3a8a436f66b3e98566c621412599ecaaa25348daadb",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "6b55b8b3ff7bd31af93b59612f0800c09e49d3badc772e2395736616c87d5612",
+    "ioc_type": "sha256",
+    "original_ioc": "6b55b8b3ff7bd31af93b59612f0800c09e49d3badc772e2395736616c87d5612",
+    "hunt_ioc": "6b55b8b3ff7bd31af93b59612f0800c09e49d3badc772e2395736616c87d5612",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "6f7f4b22eb7841d2b828f1eda77173880d42267a33b387bee9cee983c03bf291",
+    "ioc_type": "sha256",
+    "original_ioc": "6f7f4b22eb7841d2b828f1eda77173880d42267a33b387bee9cee983c03bf291",
+    "hunt_ioc": "6f7f4b22eb7841d2b828f1eda77173880d42267a33b387bee9cee983c03bf291",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "701f57169f3968bf412d33ec09fa6f2c11ece632aed9f44efa38eaf4fa2e08c6",
+    "ioc_type": "sha256",
+    "original_ioc": "701f57169f3968bf412d33ec09fa6f2c11ece632aed9f44efa38eaf4fa2e08c6",
+    "hunt_ioc": "701f57169f3968bf412d33ec09fa6f2c11ece632aed9f44efa38eaf4fa2e08c6",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE affiliate malware modules",
+    "malware_family": "Traffmonetizer",
+    "threat_actor": "Videostrong Technology Co. and affiliated module operators",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Affected devices can retain installed malware after command-and-control disruption. Passive public-source review only; no malware downloaded and no IOC infrastructure contacted.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Affiliate Malware IOC table for a module silently loaded through the factory-installed XCPE backdoor. The exact match should be validated for knowing installation where a repurposed commercial proxy component is possible."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "71f52519aae77fb20448ea065caa55750bcd73cf425aab203277032e260a1981",
+    "ioc_type": "sha256",
+    "original_ioc": "71f52519aae77fb20448ea065caa55750bcd73cf425aab203277032e260a1981",
+    "hunt_ioc": "71f52519aae77fb20448ea065caa55750bcd73cf425aab203277032e260a1981",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE affiliate malware modules",
+    "malware_family": "HiddenView",
+    "threat_actor": "Videostrong Technology Co. and affiliated module operators",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Affected devices can retain installed malware after command-and-control disruption. Passive public-source review only; no malware downloaded and no IOC infrastructure contacted.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Affiliate Malware IOC table for a module silently loaded through the factory-installed XCPE backdoor. The exact match should be validated for knowing installation where a repurposed commercial proxy component is possible."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "742b7ad8b95d4e0784c914f2b84706124f5a86a404e0fd479a0a97a784c2bb9e",
+    "ioc_type": "sha256",
+    "original_ioc": "742b7ad8b95d4e0784c914f2b84706124f5a86a404e0fd479a0a97a784c2bb9e",
+    "hunt_ioc": "742b7ad8b95d4e0784c914f2b84706124f5a86a404e0fd479a0a97a784c2bb9e",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE affiliate malware modules",
+    "malware_family": "Fission",
+    "threat_actor": "Videostrong Technology Co. and affiliated module operators",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Affected devices can retain installed malware after command-and-control disruption. Passive public-source review only; no malware downloaded and no IOC infrastructure contacted.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Affiliate Malware IOC table for a module silently loaded through the factory-installed XCPE backdoor. The exact match should be validated for knowing installation where a repurposed commercial proxy component is possible."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "76b4bf6f55aaab35428260a830ac9a2c437a09aefd521c5b51618db47beca3b2",
+    "ioc_type": "sha256",
+    "original_ioc": "76b4bf6f55aaab35428260a830ac9a2c437a09aefd521c5b51618db47beca3b2",
+    "hunt_ioc": "76b4bf6f55aaab35428260a830ac9a2c437a09aefd521c5b51618db47beca3b2",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "7830ce3c3222dd9b25a77a16116dcf832a24b4b9a0bc998501e12415a828fb42",
+    "ioc_type": "sha256",
+    "original_ioc": "7830ce3c3222dd9b25a77a16116dcf832a24b4b9a0bc998501e12415a828fb42",
+    "hunt_ioc": "7830ce3c3222dd9b25a77a16116dcf832a24b4b9a0bc998501e12415a828fb42",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "7eb1afbf4428a9a3b41a6faf9a7497aab1d7768a8370d475f580e574145a9e7d",
+    "ioc_type": "sha256",
+    "original_ioc": "7eb1afbf4428a9a3b41a6faf9a7497aab1d7768a8370d475f580e574145a9e7d",
+    "hunt_ioc": "7eb1afbf4428a9a3b41a6faf9a7497aab1d7768a8370d475f580e574145a9e7d",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "8365658b7c51d7b607fe83d862d05e619cad5249c96db61a3d33a95c615c8194",
+    "ioc_type": "sha256",
+    "original_ioc": "8365658b7c51d7b607fe83d862d05e619cad5249c96db61a3d33a95c615c8194",
+    "hunt_ioc": "8365658b7c51d7b607fe83d862d05e619cad5249c96db61a3d33a95c615c8194",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "83b3cfb7655483e0d421737c2bed707fdd1747f105deca6980233c011aaaea30",
+    "ioc_type": "sha256",
+    "original_ioc": "83b3cfb7655483e0d421737c2bed707fdd1747f105deca6980233c011aaaea30",
+    "hunt_ioc": "83b3cfb7655483e0d421737c2bed707fdd1747f105deca6980233c011aaaea30",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "8953f9013eb8c31b27c86ba90edbdb9ecba216ed2cb6a992508c1964d53b8eee",
+    "ioc_type": "sha256",
+    "original_ioc": "8953f9013eb8c31b27c86ba90edbdb9ecba216ed2cb6a992508c1964d53b8eee",
+    "hunt_ioc": "8953f9013eb8c31b27c86ba90edbdb9ecba216ed2cb6a992508c1964d53b8eee",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "8cb62b3a9b74ca8b907aef7d83fee65f3ab80e0f4acbf4b2415ea1c2a6caf796",
+    "ioc_type": "sha256",
+    "original_ioc": "8cb62b3a9b74ca8b907aef7d83fee65f3ab80e0f4acbf4b2415ea1c2a6caf796",
+    "hunt_ioc": "8cb62b3a9b74ca8b907aef7d83fee65f3ab80e0f4acbf4b2415ea1c2a6caf796",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE affiliate malware modules",
+    "malware_family": "Traffmonetizer",
+    "threat_actor": "Videostrong Technology Co. and affiliated module operators",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Affected devices can retain installed malware after command-and-control disruption. Passive public-source review only; no malware downloaded and no IOC infrastructure contacted.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Affiliate Malware IOC table for a module silently loaded through the factory-installed XCPE backdoor. The exact match should be validated for knowing installation where a repurposed commercial proxy component is possible."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "9216a0a460400403027d4dfc9a6193a776603b64735f174e74a89607567ac6f2",
+    "ioc_type": "sha256",
+    "original_ioc": "9216a0a460400403027d4dfc9a6193a776603b64735f174e74a89607567ac6f2",
+    "hunt_ioc": "9216a0a460400403027d4dfc9a6193a776603b64735f174e74a89607567ac6f2",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "92326f3065273d619f866f76e3542b6271886f92b1342c5ccc27cb7150c75176",
+    "ioc_type": "sha256",
+    "original_ioc": "92326f3065273d619f866f76e3542b6271886f92b1342c5ccc27cb7150c75176",
+    "hunt_ioc": "92326f3065273d619f866f76e3542b6271886f92b1342c5ccc27cb7150c75176",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "96a3452b35774892f536e38503827988eb8c7d6ee0cfb9d0d25f4beddfa182ff",
+    "ioc_type": "sha256",
+    "original_ioc": "96a3452b35774892f536e38503827988eb8c7d6ee0cfb9d0d25f4beddfa182ff",
+    "hunt_ioc": "96a3452b35774892f536e38503827988eb8c7d6ee0cfb9d0d25f4beddfa182ff",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current AgentTesla payload activity",
+    "malware_family": "AgentTesla",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "Current AgentTesla executable sample record"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/96a3452b35774892f536e38503827988eb8c7d6ee0cfb9d0d25f4beddfa182ff"
+    ],
+    "article_published_date": [
+      "2026-11-02T07:05:52Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Passive review of public sample metadata only; the sample was not downloaded.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "Current AgentTesla executable sample record",
+        "url": "https://bazaar.abuse.ch/sample/96a3452b35774892f536e38503827988eb8c7d6ee0cfb9d0d25f4beddfa182ff",
+        "published_at": "2026-11-02T07:05:52Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "MALWAREBAZAAR-AGENTTESLA-20261102-070552",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "MalwareBazaar classifies this current executable as AgentTesla. Public analysis records identify keylogging, credential theft from browsers and mail clients, anti-analysis, and malicious network activity."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "99874d087e3f72a9d78439118361f438f7a156af318c788183d338cc315d7fa8",
+    "ioc_type": "sha256",
+    "original_ioc": "99874d087e3f72a9d78439118361f438f7a156af318c788183d338cc315d7fa8",
+    "hunt_ioc": "99874d087e3f72a9d78439118361f438f7a156af318c788183d338cc315d7fa8",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "9df157f3975b582074033c80d0d586f3911fb6bd3813539e2edf87ada4eee9fb",
+    "ioc_type": "sha256",
+    "original_ioc": "9df157f3975b582074033c80d0d586f3911fb6bd3813539e2edf87ada4eee9fb",
+    "hunt_ioc": "9df157f3975b582074033c80d0d586f3911fb6bd3813539e2edf87ada4eee9fb",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "9e18c113eb8d2ba813199c7f90e26d80af3124d871fc31eea7253319a8406e8e",
+    "ioc_type": "sha256",
+    "original_ioc": "9e18c113eb8d2ba813199c7f90e26d80af3124d871fc31eea7253319a8406e8e",
+    "hunt_ioc": "9e18c113eb8d2ba813199c7f90e26d80af3124d871fc31eea7253319a8406e8e",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE affiliate malware modules",
+    "malware_family": "EarnFM",
+    "threat_actor": "Videostrong Technology Co. and affiliated module operators",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Affected devices can retain installed malware after command-and-control disruption. Passive public-source review only; no malware downloaded and no IOC infrastructure contacted.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Affiliate Malware IOC table for a module silently loaded through the factory-installed XCPE backdoor. The exact match should be validated for knowing installation where a repurposed commercial proxy component is possible."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a552bcb7d37c2bdb5c71e923157571598643de4051bfa3e5158fde3cb8709de7",
+    "ioc_type": "sha256",
+    "original_ioc": "a552bcb7d37c2bdb5c71e923157571598643de4051bfa3e5158fde3cb8709de7",
+    "hunt_ioc": "a552bcb7d37c2bdb5c71e923157571598643de4051bfa3e5158fde3cb8709de7",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a63757715b35ddd99916b63a1354de1ec05ac5855a480fe9a547b002e2091dcb",
+    "ioc_type": "sha256",
+    "original_ioc": "a63757715b35ddd99916b63a1354de1ec05ac5855a480fe9a547b002e2091dcb",
+    "hunt_ioc": "a63757715b35ddd99916b63a1354de1ec05ac5855a480fe9a547b002e2091dcb",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE affiliate malware modules",
+    "malware_family": "Traffmonetizer",
+    "threat_actor": "Videostrong Technology Co. and affiliated module operators",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Affected devices can retain installed malware after command-and-control disruption. Passive public-source review only; no malware downloaded and no IOC infrastructure contacted.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Affiliate Malware IOC table for a module silently loaded through the factory-installed XCPE backdoor. The exact match should be validated for knowing installation where a repurposed commercial proxy component is possible."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a6c7ef9b6d5277dada145361164ff79e1e6c6be1cd28f6739113c72ee30ea4cc",
+    "ioc_type": "sha256",
+    "original_ioc": "a6c7ef9b6d5277dada145361164ff79e1e6c6be1cd28f6739113c72ee30ea4cc",
+    "hunt_ioc": "a6c7ef9b6d5277dada145361164ff79e1e6c6be1cd28f6739113c72ee30ea4cc",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE affiliate malware modules",
+    "malware_family": "HiddenView",
+    "threat_actor": "Videostrong Technology Co. and affiliated module operators",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Affected devices can retain installed malware after command-and-control disruption. Passive public-source review only; no malware downloaded and no IOC infrastructure contacted.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Affiliate Malware IOC table for a module silently loaded through the factory-installed XCPE backdoor. The exact match should be validated for knowing installation where a repurposed commercial proxy component is possible."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a7ba6ce919e7c888219e3f42b798f79ac69cb2a13fead50bf47808311325b8e3",
+    "ioc_type": "sha256",
+    "original_ioc": "a7ba6ce919e7c888219e3f42b798f79ac69cb2a13fead50bf47808311325b8e3",
+    "hunt_ioc": "a7ba6ce919e7c888219e3f42b798f79ac69cb2a13fead50bf47808311325b8e3",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current RemcosRAT payload activity",
+    "malware_family": "RemcosRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "Current RemcosRAT executable sample record"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/a7ba6ce919e7c888219e3f42b798f79ac69cb2a13fead50bf47808311325b8e3"
+    ],
+    "article_published_date": [
+      "2026-11-02T07:05:27Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Passive review of public sample metadata only; the sample was not downloaded.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "Current RemcosRAT executable sample record",
+        "url": "https://bazaar.abuse.ch/sample/a7ba6ce919e7c888219e3f42b798f79ac69cb2a13fead50bf47808311325b8e3",
+        "published_at": "2026-11-02T07:05:27Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "MALWAREBAZAAR-REMCOSRAT-20261102-070527",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "MalwareBazaar classifies this current executable as RemcosRAT with 18 vendor detections. Public analysis records identify Remcos behavior, credential theft, process injection, anti-analysis, and extracted C2 configuration."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b2e55884c819c210eaf46aeb7970a1ec623944b5d1a8c2178904f998b9682ac0",
+    "ioc_type": "sha256",
+    "original_ioc": "b2e55884c819c210eaf46aeb7970a1ec623944b5d1a8c2178904f998b9682ac0",
+    "hunt_ioc": "b2e55884c819c210eaf46aeb7970a1ec623944b5d1a8c2178904f998b9682ac0",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b3690b3b013ac60752a6d05c3f53ea1f3e844d4603c5b90d258a30c596d0691b",
+    "ioc_type": "sha256",
+    "original_ioc": "b3690b3b013ac60752a6d05c3f53ea1f3e844d4603c5b90d258a30c596d0691b",
+    "hunt_ioc": "b3690b3b013ac60752a6d05c3f53ea1f3e844d4603c5b90d258a30c596d0691b",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "bcf142ba37e897b7fcbb89353ec9b5a7c3bfb1d167838d3b91c347b9fdfb2230",
+    "ioc_type": "sha256",
+    "original_ioc": "bcf142ba37e897b7fcbb89353ec9b5a7c3bfb1d167838d3b91c347b9fdfb2230",
+    "hunt_ioc": "bcf142ba37e897b7fcbb89353ec9b5a7c3bfb1d167838d3b91c347b9fdfb2230",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "be9990489fbf36100ec148f3a83795f2674d17063edb8accd560f1ce2f97dedd",
+    "ioc_type": "sha256",
+    "original_ioc": "be9990489fbf36100ec148f3a83795f2674d17063edb8accd560f1ce2f97dedd",
+    "hunt_ioc": "be9990489fbf36100ec148f3a83795f2674d17063edb8accd560f1ce2f97dedd",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "c0e1fad801d87531ee889fa6ec344f14868e7cdac06c93d2d3de742f1a9293c5",
+    "ioc_type": "sha256",
+    "original_ioc": "c0e1fad801d87531ee889fa6ec344f14868e7cdac06c93d2d3de742f1a9293c5",
+    "hunt_ioc": "c0e1fad801d87531ee889fa6ec344f14868e7cdac06c93d2d3de742f1a9293c5",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "c8ef25d664803cd43b5a877f059b699021215c1226383fb39279f37119434079",
+    "ioc_type": "sha256",
+    "original_ioc": "c8ef25d664803cd43b5a877f059b699021215c1226383fb39279f37119434079",
+    "hunt_ioc": "c8ef25d664803cd43b5a877f059b699021215c1226383fb39279f37119434079",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current RemcosRAT PowerShell payload activity",
+    "malware_family": "RemcosRAT",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "Current RemcosRAT PowerShell sample record"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/c8ef25d664803cd43b5a877f059b699021215c1226383fb39279f37119434079"
+    ],
+    "article_published_date": [
+      "2026-11-02T08:45:15Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Passive review of public sample metadata only; the sample was not downloaded.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "Current RemcosRAT PowerShell sample record",
+        "url": "https://bazaar.abuse.ch/sample/c8ef25d664803cd43b5a877f059b699021215c1226383fb39279f37119434079",
+        "published_at": "2026-11-02T08:45:15Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "MALWAREBAZAAR-REMCOSRAT-20261102-084515",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "MalwareBazaar identifies this current PowerShell sample as RemcosRAT. Multiple public analysis engines classify it as malicious and extract Remcos C2 configuration and inbound and outbound Remcos communications."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "cad908ad09d029971b24b4ad653fe680101ccaddd94b4e530c58bf45430fd1a4",
+    "ioc_type": "sha256",
+    "original_ioc": "cad908ad09d029971b24b4ad653fe680101ccaddd94b4e530c58bf45430fd1a4",
+    "hunt_ioc": "cad908ad09d029971b24b4ad653fe680101ccaddd94b4e530c58bf45430fd1a4",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "cd8ef4ba20823b926b45a04946f24e45a7bcd4bf2bfc439cac8061a43f146903",
+    "ioc_type": "sha256",
+    "original_ioc": "cd8ef4ba20823b926b45a04946f24e45a7bcd4bf2bfc439cac8061a43f146903",
+    "hunt_ioc": "cd8ef4ba20823b926b45a04946f24e45a7bcd4bf2bfc439cac8061a43f146903",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "d3b94a74121e885bc698c8f56b9433247139be29b40ae1d0655dd558ecf5f9fa",
+    "ioc_type": "sha256",
+    "original_ioc": "d3b94a74121e885bc698c8f56b9433247139be29b40ae1d0655dd558ecf5f9fa",
+    "hunt_ioc": "d3b94a74121e885bc698c8f56b9433247139be29b40ae1d0655dd558ecf5f9fa",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE affiliate malware modules",
+    "malware_family": "Jaguar / Bestipip-IPWeb",
+    "threat_actor": "Videostrong Technology Co. and affiliated module operators",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Affected devices can retain installed malware after command-and-control disruption. Passive public-source review only; no malware downloaded and no IOC infrastructure contacted.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Affiliate Malware IOC table for a module silently loaded through the factory-installed XCPE backdoor. The exact match should be validated for knowing installation where a repurposed commercial proxy component is possible."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "d4011b684ba389bf0b2dd8ded74fe8a4729b1cad4e6c18cfd928cb99a625a6e4",
+    "ioc_type": "sha256",
+    "original_ioc": "d4011b684ba389bf0b2dd8ded74fe8a4729b1cad4e6c18cfd928cb99a625a6e4",
+    "hunt_ioc": "d4011b684ba389bf0b2dd8ded74fe8a4729b1cad4e6c18cfd928cb99a625a6e4",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "d48cffc6d7e7c06f2d3db34ce6d4a53d5c25636179b7087a1e762f5d6bfa07f5",
+    "ioc_type": "sha256",
+    "original_ioc": "d48cffc6d7e7c06f2d3db34ce6d4a53d5c25636179b7087a1e762f5d6bfa07f5",
+    "hunt_ioc": "d48cffc6d7e7c06f2d3db34ce6d4a53d5c25636179b7087a1e762f5d6bfa07f5",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE affiliate malware modules",
+    "malware_family": "AppSalt-Honeygain / Traffmonetizer",
+    "threat_actor": "Videostrong Technology Co. and affiliated module operators",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Affected devices can retain installed malware after command-and-control disruption. Passive public-source review only; no malware downloaded and no IOC infrastructure contacted.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Affiliate Malware IOC table for a module silently loaded through the factory-installed XCPE backdoor. The exact match should be validated for knowing installation where a repurposed commercial proxy component is possible."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "da5246fb62db91eda31df0873835e1c96a3187df1a760ffc87abf9788ba69104",
+    "ioc_type": "sha256",
+    "original_ioc": "da5246fb62db91eda31df0873835e1c96a3187df1a760ffc87abf9788ba69104",
+    "hunt_ioc": "da5246fb62db91eda31df0873835e1c96a3187df1a760ffc87abf9788ba69104",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "dca25ff0d11d49e9969be3177b50aa8bf120b5ad3946409dedae143a8a69aa99",
+    "ioc_type": "sha256",
+    "original_ioc": "dca25ff0d11d49e9969be3177b50aa8bf120b5ad3946409dedae143a8a69aa99",
+    "hunt_ioc": "dca25ff0d11d49e9969be3177b50aa8bf120b5ad3946409dedae143a8a69aa99",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "e25616a0c64734f00d1f6dfb064d8f7bf1e4b95aac8b2e4aabb44b2950751bd0",
+    "ioc_type": "sha256",
+    "original_ioc": "e25616a0c64734f00d1f6dfb064d8f7bf1e4b95aac8b2e4aabb44b2950751bd0",
+    "hunt_ioc": "e25616a0c64734f00d1f6dfb064d8f7bf1e4b95aac8b2e4aabb44b2950751bd0",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "e2bfca7225af84f116de7ed10e4ad425d0ebfd6e19903d226b9768282865700f",
+    "ioc_type": "sha256",
+    "original_ioc": "e2bfca7225af84f116de7ed10e4ad425d0ebfd6e19903d226b9768282865700f",
+    "hunt_ioc": "e2bfca7225af84f116de7ed10e4ad425d0ebfd6e19903d226b9768282865700f",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE affiliate malware modules",
+    "malware_family": "Jaguar",
+    "threat_actor": "Videostrong Technology Co. and affiliated module operators",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Affected devices can retain installed malware after command-and-control disruption. Passive public-source review only; no malware downloaded and no IOC infrastructure contacted.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Affiliate Malware IOC table for a module silently loaded through the factory-installed XCPE backdoor. The exact match should be validated for knowing installation where a repurposed commercial proxy component is possible."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ebcca22b96f7a30ae155efa2f25af29a369c6e9cfc99cb3bb0b72f35bc5528ed",
+    "ioc_type": "sha256",
+    "original_ioc": "ebcca22b96f7a30ae155efa2f25af29a369c6e9cfc99cb3bb0b72f35bc5528ed",
+    "hunt_ioc": "ebcca22b96f7a30ae155efa2f25af29a369c6e9cfc99cb3bb0b72f35bc5528ed",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "f2ed4a40fbb21d0560e82bdd2e85e825970d32052348241b487dd93191ebef2a",
+    "ioc_type": "sha256",
+    "original_ioc": "f2ed4a40fbb21d0560e82bdd2e85e825970d32052348241b487dd93191ebef2a",
+    "hunt_ioc": "f2ed4a40fbb21d0560e82bdd2e85e825970d32052348241b487dd93191ebef2a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE affiliate malware modules",
+    "malware_family": "Moyu / GaGaNode / NetNut-Popanet / EarnFM",
+    "threat_actor": "Videostrong Technology Co. and affiliated module operators",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Affected devices can retain installed malware after command-and-control disruption. Passive public-source review only; no malware downloaded and no IOC infrastructure contacted.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Affiliate Malware IOC table for a module silently loaded through the factory-installed XCPE backdoor. The exact match should be validated for knowing installation where a repurposed commercial proxy component is possible."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "f451c0b770049c71fb0d8efd45115dfc3336f636fb6a0617ec5a5c58632196f4",
+    "ioc_type": "sha256",
+    "original_ioc": "f451c0b770049c71fb0d8efd45115dfc3336f636fb6a0617ec5a5c58632196f4",
+    "hunt_ioc": "f451c0b770049c71fb0d8efd45115dfc3336f636fb6a0617ec5a5c58632196f4",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "fa18cc722d8d95f790dd7e51d50ea3c84b2492fbe68d0f131e46bedd8a0a9d14",
+    "ioc_type": "sha256",
+    "original_ioc": "fa18cc722d8d95f790dd7e51d50ea3c84b2492fbe68d0f131e46bedd8a0a9d14",
+    "hunt_ioc": "fa18cc722d8d95f790dd7e51d50ea3c84b2492fbe68d0f131e46bedd8a0a9d14",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current SalatStealer payload activity",
+    "malware_family": "SalatStealer",
+    "threat_actor": "Unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "Current SalatStealer payload record"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2009435"
+    ],
+    "article_published_date": [
+      "2026-11-02T02:56:31Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Passive review of public metadata only; no malware or IOC infrastructure was contacted.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "Current SalatStealer payload record",
+        "url": "https://threatfox.abuse.ch/ioc/2009435",
+        "published_at": "2026-11-02T02:56:31Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "THREATFOX-2009435",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "ThreatFox identifies this non-compromised payload as SalatStealer at 95% confidence. Its record documents multi-vantage capture, MalwareBazaar family classification, and 52 malicious VirusTotal detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "fda3c8fdf7849814e270bbbc00adfa1e15ba8977f5b2508df5febf5dbd3075b2",
+    "ioc_type": "sha256",
+    "original_ioc": "fda3c8fdf7849814e270bbbc00adfa1e15ba8977f5b2508df5febf5dbd3075b2",
+    "hunt_ioc": "fda3c8fdf7849814e270bbbc00adfa1e15ba8977f5b2508df5febf5dbd3075b2",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE Android supply-chain botnet",
+    "malware_family": "XCPE core malware ecosystem",
+    "threat_actor": "Videostrong Technology Co. and criminal affiliates",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Representative malicious core sample from the current GTIG XCPE report; passive source review only. Disruption occurred, but infected firmware and samples remain hunt-relevant.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Core Malware Samples IOC table for the intentionally deployed XCPE Android supply-chain botnet and its core backdoor, loader, dropper, module, or anti-analysis components."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ff96f093bbac32654db62ebb33276c64cd30eb25a0bc11e66608ca40efb1bbdc",
+    "ioc_type": "sha256",
+    "original_ioc": "ff96f093bbac32654db62ebb33276c64cd30eb25a0bc11e66608ca40efb1bbdc",
+    "hunt_ioc": "ff96f093bbac32654db62ebb33276c64cd30eb25a0bc11e66608ca40efb1bbdc",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XCPE affiliate malware modules",
+    "malware_family": "HiddenView",
+    "threat_actor": "Videostrong Technology Co. and affiliated module operators",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "Shutting the Door on the XCPE Botnet"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet"
+    ],
+    "article_published_date": [
+      "2026-11-02T12:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-02T14:01:38Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Affected devices can retain installed malware after command-and-control disruption. Passive public-source review only; no malware downloaded and no IOC infrastructure contacted.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "Shutting the Door on the XCPE Botnet",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet",
+        "published_at": "2026-11-02T12:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "GOOGLE-GTIG-XCPE-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-10-31T14:01:38Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this SHA256 in the Affiliate Malware IOC table for a module silently loaded through the factory-installed XCPE backdoor. The exact match should be validated for knowing installation where a repurposed commercial proxy component is possible."
+        ]
+      }
+    ]
+  }
+]
