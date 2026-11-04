@@ -1,0 +1,1613 @@
+[
+  {
+    "ioc": "beliefdesk.xyz",
+    "ioc_type": "domain",
+    "original_ioc": "beliefdesk.xyz",
+    "hunt_ioc": "beliefdesk.xyz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Fake-download Inno multi-offer monetization campaign",
+    "malware_family": "OfferLoader / WorldProxyPool / CharityEngine-BOINC / AW Manager",
+    "threat_actor": "Unattributed fake-download monetization operators",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Fake-download campaign uses trojanized installers to deliver monetization payloads"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Rotating infrastructure; Microsoft says domain-only matches require process and session correlation.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "MSFT-FAKE-DOWNLOAD-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "Microsoft explicitly lists this domain as offer-execution callback infrastructure in the report's IOC table."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "companyharbor.xyz",
+    "ioc_type": "domain",
+    "original_ioc": "companyharbor.xyz",
+    "hunt_ioc": "companyharbor.xyz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Fake-download Inno multi-offer monetization campaign",
+    "malware_family": "OfferLoader / WorldProxyPool / CharityEngine-BOINC / AW Manager",
+    "threat_actor": "Unattributed fake-download monetization operators",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Fake-download campaign uses trojanized installers to deliver monetization payloads"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Rotating infrastructure; domain-only matches require process and session correlation.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "MSFT-FAKE-DOWNLOAD-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "Microsoft explicitly lists this domain as offer-execution callback infrastructure in the report's IOC table."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "inkact.xyz",
+    "ioc_type": "domain",
+    "original_ioc": "inkact.xyz",
+    "hunt_ioc": "inkact.xyz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Fake-download Inno multi-offer monetization campaign",
+    "malware_family": "OfferLoader / WorldProxyPool / CharityEngine-BOINC / AW Manager",
+    "threat_actor": "Unattributed fake-download monetization operators",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Fake-download campaign uses trojanized installers to deliver monetization payloads"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Rotating infrastructure; domain-only matches require process and session correlation.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "MSFT-FAKE-DOWNLOAD-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "Microsoft explicitly lists this domain as offer-execution callback infrastructure in the report's IOC table."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "signalpane.cfd",
+    "ioc_type": "domain",
+    "original_ioc": "signalpane.cfd",
+    "hunt_ioc": "signalpane.cfd",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Fake-download Inno multi-offer monetization campaign",
+    "malware_family": "OfferLoader / WorldProxyPool / CharityEngine-BOINC / AW Manager",
+    "threat_actor": "Unattributed fake-download monetization operators",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Fake-download campaign uses trojanized installers to deliver monetization payloads"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Rotating infrastructure; domain-only matches require process and session correlation.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "MSFT-FAKE-DOWNLOAD-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "Microsoft explicitly lists this domain as offer-execution callback infrastructure in the report's IOC table."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "wishgrove.cfd",
+    "ioc_type": "domain",
+    "original_ioc": "wishgrove.cfd",
+    "hunt_ioc": "wishgrove.cfd",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Fake-download Inno multi-offer monetization campaign",
+    "malware_family": "OfferLoader / WorldProxyPool / CharityEngine-BOINC / AW Manager",
+    "threat_actor": "Unattributed fake-download monetization operators",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Fake-download campaign uses trojanized installers to deliver monetization payloads"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Rotating infrastructure; domain-only matches require process and session correlation.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "MSFT-FAKE-DOWNLOAD-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "Microsoft explicitly lists this domain as offer-execution callback infrastructure in the report's IOC table."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "142.111.194.73",
+    "ioc_type": "ipv4",
+    "original_ioc": "142.111.194.73",
+    "hunt_ioc": "142.111.194.73",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Gorbag cyberespionage against Ukraine",
+    "malware_family": "BeautyStealer",
+    "threat_actor": "Gorbag / UAC-0226 (Russia-aligned)",
+    "source_organization": [
+      "ESET WeLiveSecurity"
+    ],
+    "source_article": [
+      "Gorbag: Orcs at the border harvesting intelligence from Ukraine"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "First seen in 2026 and reaffirmed by the current report; corroborate hits because IP ownership can change.",
+    "sources": [
+      {
+        "organization": "ESET WeLiveSecurity",
+        "article_title": "Gorbag: Orcs at the border harvesting intelligence from Ukraine",
+        "url": "https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "ESET-GORBAG-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "ESET explicitly lists this public IPv4 as the BeautyStealer exfiltration server in its Gorbag IOC table."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "89.44.9.186",
+    "ioc_type": "ipv4",
+    "original_ioc": "89.44.9.186",
+    "hunt_ioc": "89.44.9.186",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Gorbag cyberespionage against Ukraine",
+    "malware_family": "Prime ReverseShell",
+    "threat_actor": "Gorbag / UAC-0226 (Russia-aligned)",
+    "source_organization": [
+      "ESET WeLiveSecurity"
+    ],
+    "source_article": [
+      "Gorbag: Orcs at the border harvesting intelligence from Ukraine"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "First seen in 2025 and reaffirmed by the current report; corroborate hits because IP ownership can change.",
+    "sources": [
+      {
+        "organization": "ESET WeLiveSecurity",
+        "article_title": "Gorbag: Orcs at the border harvesting intelligence from Ukraine",
+        "url": "https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "ESET-GORBAG-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "ESET explicitly lists this public IPv4 as the Prime ReverseShell command-and-control server in its Gorbag IOC table."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "94.183.188.91",
+    "ioc_type": "ipv4",
+    "original_ioc": "94.183.188.91",
+    "hunt_ioc": "94.183.188.91",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "cPGuard update-channel supply-chain compromise",
+    "malware_family": "Malicious cPGuard fake update and follow-on implants",
+    "threat_actor": "Unidentified cPGuard update-channel attacker",
+    "source_organization": [
+      "OPSSHIELD"
+    ],
+    "source_article": [
+      "cPGuard security incident disclosure"
+    ],
+    "source_url": [
+      "https://opsshield.com/notice/security-incident-disclosure-servermanage.html"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact vendor IOC; corroborate future hits because IP ownership can change.",
+    "sources": [
+      {
+        "organization": "OPSSHIELD",
+        "article_title": "cPGuard security incident disclosure",
+        "url": "https://opsshield.com/notice/security-incident-disclosure-servermanage.html",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "OPSSHIELD-CPGUARD-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "OPSSHIELD explicitly lists this public IPv4 as the main attacker operator address in its incident IOC table."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "0589d2079fbef814dc7bb95c4b3b555c8b933af6",
+    "ioc_type": "sha1",
+    "original_ioc": "0589d2079fbef814dc7bb95c4b3b555c8b933af6",
+    "hunt_ioc": "0589d2079fbef814dc7bb95c4b3b555c8b933af6",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Gorbag cyberespionage against Ukraine",
+    "malware_family": "PowerShell Agent and LNK Runner",
+    "threat_actor": "Gorbag / UAC-0226 (Russia-aligned)",
+    "source_organization": [
+      "ESET WeLiveSecurity"
+    ],
+    "source_article": [
+      "Gorbag: Orcs at the border harvesting intelligence from Ukraine"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact vendor IOC hash.",
+    "sources": [
+      {
+        "organization": "ESET WeLiveSecurity",
+        "article_title": "Gorbag: Orcs at the border harvesting intelligence from Ukraine",
+        "url": "https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "ESET-GORBAG-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "ESET explicitly lists this SHA-1 as the malicious RAR archive used in Gorbag's PowerShell and LNK compromise chain."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a5e0a82bf6cc302a20d917235643b748f73fcc27",
+    "ioc_type": "sha1",
+    "original_ioc": "a5e0a82bf6cc302a20d917235643b748f73fcc27",
+    "hunt_ioc": "a5e0a82bf6cc302a20d917235643b748f73fcc27",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Gorbag cyberespionage against Ukraine",
+    "malware_family": "Prime ReverseShell",
+    "threat_actor": "Gorbag / UAC-0226 (Russia-aligned)",
+    "source_organization": [
+      "ESET WeLiveSecurity"
+    ],
+    "source_article": [
+      "Gorbag: Orcs at the border harvesting intelligence from Ukraine"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current public research; the exact sample is retained as a vendor IOC.",
+    "sources": [
+      {
+        "organization": "ESET WeLiveSecurity",
+        "article_title": "Gorbag: Orcs at the border harvesting intelligence from Ukraine",
+        "url": "https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "ESET-GORBAG-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "ESET explicitly lists this SHA-1 as the malicious Prime ReverseShell sample used by Gorbag."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "c17369b4b49113d07f080df832e218156fb0940f",
+    "ioc_type": "sha1",
+    "original_ioc": "c17369b4b49113d07f080df832e218156fb0940f",
+    "hunt_ioc": "c17369b4b49113d07f080df832e218156fb0940f",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Gorbag cyberespionage against Ukraine",
+    "malware_family": "Gorbag spearphishing artifact",
+    "threat_actor": "Gorbag / UAC-0226 (Russia-aligned)",
+    "source_organization": [
+      "ESET WeLiveSecurity"
+    ],
+    "source_article": [
+      "Gorbag: Orcs at the border harvesting intelligence from Ukraine"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current public ESET research assesses Gorbag remains a persistent threat.",
+    "sources": [
+      {
+        "organization": "ESET WeLiveSecurity",
+        "article_title": "Gorbag: Orcs at the border harvesting intelligence from Ukraine",
+        "url": "https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "ESET-GORBAG-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "ESET explicitly lists this SHA-1 in its Gorbag IOC table as a malicious spearphishing artifact."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "e27e0d0a4b308f9b6b0469159931eb5e343e7ff8",
+    "ioc_type": "sha1",
+    "original_ioc": "e27e0d0a4b308f9b6b0469159931eb5e343e7ff8",
+    "hunt_ioc": "e27e0d0a4b308f9b6b0469159931eb5e343e7ff8",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Gorbag cyberespionage against Ukraine",
+    "malware_family": "VBA TrojanDropper and BeautyStealer delivery",
+    "threat_actor": "Gorbag / UAC-0226 (Russia-aligned)",
+    "source_organization": [
+      "ESET WeLiveSecurity"
+    ],
+    "source_article": [
+      "Gorbag: Orcs at the border harvesting intelligence from Ukraine"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact vendor IOC hash.",
+    "sources": [
+      {
+        "organization": "ESET WeLiveSecurity",
+        "article_title": "Gorbag: Orcs at the border harvesting intelligence from Ukraine",
+        "url": "https://www.welivesecurity.com/en/eset-research/gorbag-orcs-border-harvesting-intelligence-ukraine",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "ESET-GORBAG-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "ESET explicitly lists this SHA-1 as the malicious spreadsheet lure and dropper in the Gorbag campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "006510ce1da2b7410376f0788c19e55616eb4bcc30072d25b7d0871dc32aa11c",
+    "ioc_type": "sha256",
+    "original_ioc": "006510ce1da2b7410376f0788c19e55616eb4bcc30072d25b7d0871dc32aa11c",
+    "hunt_ioc": "006510ce1da2b7410376f0788c19e55616eb4bcc30072d25b7d0871dc32aa11c",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake-download Inno multi-offer monetization campaign",
+    "malware_family": "OfferLoader",
+    "threat_actor": "Unattributed fake-download monetization operators",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Fake-download campaign uses trojanized installers to deliver monetization payloads"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact vendor IOC hash.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "MSFT-FAKE-DOWNLOAD-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "Microsoft explicitly lists this SHA-256 as the campaign's malicious Inno second-stage runner."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "04972564a570ed2a55c392e6b2bfc1e4f73e8f54c9024d2e11b225a5cbafd687",
+    "ioc_type": "sha256",
+    "original_ioc": "04972564a570ed2a55c392e6b2bfc1e4f73e8f54c9024d2e11b225a5cbafd687",
+    "hunt_ioc": "04972564a570ed2a55c392e6b2bfc1e4f73e8f54c9024d2e11b225a5cbafd687",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "SalatStealer distribution activity",
+    "malware_family": "SalatStealer",
+    "threat_actor": "Unattributed SalatStealer operators",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox SalatStealer payload record"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2013848"
+    ],
+    "article_published_date": [
+      "2026-11-04T03:56:57Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Current individual ThreatFox record with MalwareBazaar and multivendor corroboration.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox SalatStealer payload record",
+        "url": "https://threatfox.abuse.ch/ioc/2013848",
+        "published_at": "2026-11-04T03:56:57Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "THREATFOX-2013848",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "ThreatFox explicitly identifies this SHA-256 as a SalatStealer executable payload with high-confidence malicious detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "21306fc5716f95e252388f920314b42f1c8bcc7df67cb4d39da30217b96f4044",
+    "ioc_type": "sha256",
+    "original_ioc": "21306fc5716f95e252388f920314b42f1c8bcc7df67cb4d39da30217b96f4044",
+    "hunt_ioc": "21306fc5716f95e252388f920314b42f1c8bcc7df67cb4d39da30217b96f4044",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake-download Inno multi-offer monetization campaign",
+    "malware_family": "OfferLoader",
+    "threat_actor": "Unattributed fake-download monetization operators",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Fake-download campaign uses trojanized installers to deliver monetization payloads"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact vendor IOC hash.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "MSFT-FAKE-DOWNLOAD-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "Microsoft explicitly lists this SHA-256 as an earlier malicious Inno loader."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2c2acd988da531d133d0e17f245c49bf15781278f837543d18c95e8410eabd38",
+    "ioc_type": "sha256",
+    "original_ioc": "2c2acd988da531d133d0e17f245c49bf15781278f837543d18c95e8410eabd38",
+    "hunt_ioc": "2c2acd988da531d133d0e17f245c49bf15781278f837543d18c95e8410eabd38",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "cPGuard update-channel supply-chain compromise",
+    "malware_family": "Malicious cPGuard fake update",
+    "threat_actor": "Unidentified cPGuard update-channel attacker",
+    "source_organization": [
+      "OPSSHIELD"
+    ],
+    "source_article": [
+      "cPGuard security incident disclosure"
+    ],
+    "source_url": [
+      "https://opsshield.com/notice/security-incident-disclosure-servermanage.html"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Exact vendor IOC hash.",
+    "sources": [
+      {
+        "organization": "OPSSHIELD",
+        "article_title": "cPGuard security incident disclosure",
+        "url": "https://opsshield.com/notice/security-incident-disclosure-servermanage.html",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "OPSSHIELD-CPGUARD-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "OPSSHIELD explicitly lists this SHA-256 for a malicious fake cPGuard update script."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "37bce5f200cd3432416d3abecfa403003388efd8b89c8e431d7207e7a8fdd520",
+    "ioc_type": "sha256",
+    "original_ioc": "37bce5f200cd3432416d3abecfa403003388efd8b89c8e431d7207e7a8fdd520",
+    "hunt_ioc": "37bce5f200cd3432416d3abecfa403003388efd8b89c8e431d7207e7a8fdd520",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "GuLoader JavaScript delivery",
+    "malware_family": "GuLoader",
+    "threat_actor": "Unattributed GuLoader operators",
+    "source_organization": [
+      "Kaspersky OpenTIP",
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar GuLoader JavaScript record",
+      "OpenTIP malicious JavaScript record one"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/37bce5f200cd3432416d3abecfa403003388efd8b89c8e431d7207e7a8fdd520",
+      "https://opentip.kaspersky.com/37bce5f200cd3432416d3abecfa403003388efd8b89c8e431d7207e7a8fdd520/results?tab=lookup"
+    ],
+    "article_published_date": [
+      "2026-11-04T05:54:00Z",
+      "2026-11-04T10:51:13Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current sample with strong multi-provider malicious verdicts.",
+    "sources": [
+      {
+        "organization": "Kaspersky OpenTIP",
+        "article_title": "OpenTIP malicious JavaScript record one",
+        "url": "https://opentip.kaspersky.com/37bce5f200cd3432416d3abecfa403003388efd8b89c8e431d7207e7a8fdd520/results?tab=lookup",
+        "published_at": "2026-11-04T05:54:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "OPENTIP-JS-ONE-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "Kaspersky OpenTIP records an explicit malicious verdict and extensive detections for this JavaScript SHA-256."
+        ]
+      },
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar GuLoader JavaScript record",
+        "url": "https://bazaar.abuse.ch/sample/37bce5f200cd3432416d3abecfa403003388efd8b89c8e431d7207e7a8fdd520",
+        "published_at": "2026-11-04T10:51:13Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "MALWAREBAZAAR-GULOADER-2026-11-04-105113",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "MalwareBazaar and multiple sandboxes explicitly classify this SHA-256 JavaScript dropper as malicious GuLoader activity."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "3e66e6cd018119de4c9d8e384b9c2d6cb33ec899da2a10cb3fe6cbe4d6f6a713",
+    "ioc_type": "sha256",
+    "original_ioc": "3e66e6cd018119de4c9d8e384b9c2d6cb33ec899da2a10cb3fe6cbe4d6f6a713",
+    "hunt_ioc": "3e66e6cd018119de4c9d8e384b9c2d6cb33ec899da2a10cb3fe6cbe4d6f6a713",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "XWorm and AsyncRAT payload activity",
+    "malware_family": "XWorm / AsyncRAT",
+    "threat_actor": "Unattributed RAT operators",
+    "source_organization": [
+      "ANY.RUN",
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "ANY.RUN malicious XWorm activity record",
+      "MalwareBazaar XWorm and AsyncRAT payload record"
+    ],
+    "source_url": [
+      "https://app.any.run/tasks/440d3c36-0189-4780-93be-2b5214fe1042",
+      "https://bazaar.abuse.ch/sample/3e66e6cd018119de4c9d8e384b9c2d6cb33ec899da2a10cb3fe6cbe4d6f6a713"
+    ],
+    "article_published_date": [
+      "2026-11-04T08:31:58Z",
+      "2026-11-04T08:45:09Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Family label preserves the providers' differing but malicious classifications.",
+    "sources": [
+      {
+        "organization": "ANY.RUN",
+        "article_title": "ANY.RUN malicious XWorm activity record",
+        "url": "https://app.any.run/tasks/440d3c36-0189-4780-93be-2b5214fe1042",
+        "published_at": "2026-11-04T08:45:09Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "ANYRUN-440D3C36-0189-4780-93BE-2B5214FE1042",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "ANY.RUN records an explicit malicious-activity verdict for this SHA-256 with NetReactor and XWorm behavior tags."
+        ]
+      },
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar XWorm and AsyncRAT payload record",
+        "url": "https://bazaar.abuse.ch/sample/3e66e6cd018119de4c9d8e384b9c2d6cb33ec899da2a10cb3fe6cbe4d6f6a713",
+        "published_at": "2026-11-04T08:31:58Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "MALWAREBAZAAR-XWORM-2026-11-04-083158",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "MalwareBazaar and multiple independent sandboxes explicitly identify this SHA-256 as a malicious XWorm or AsyncRAT payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "433297a9d9982a628877952a6cb850fc5f786d43e5b4afebfd9d0105f6300fbc",
+    "ioc_type": "sha256",
+    "original_ioc": "433297a9d9982a628877952a6cb850fc5f786d43e5b4afebfd9d0105f6300fbc",
+    "hunt_ioc": "433297a9d9982a628877952a6cb850fc5f786d43e5b4afebfd9d0105f6300fbc",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "AgentTesla and GuLoader JavaScript delivery",
+    "malware_family": "AgentTesla / GuLoader",
+    "threat_actor": "Unattributed malware distribution operators",
+    "source_organization": [
+      "Kaspersky OpenTIP",
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar AgentTesla and GuLoader JavaScript record",
+      "OpenTIP malicious JavaScript record two"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/433297a9d9982a628877952a6cb850fc5f786d43e5b4afebfd9d0105f6300fbc",
+      "https://opentip.kaspersky.com/433297a9d9982a628877952a6cb850fc5f786d43e5b4afebfd9d0105f6300fbc/results?tab=lookup"
+    ],
+    "article_published_date": [
+      "2026-11-04T05:54:00Z",
+      "2026-11-04T09:33:02Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Current sample with strong multi-provider malicious verdicts.",
+    "sources": [
+      {
+        "organization": "Kaspersky OpenTIP",
+        "article_title": "OpenTIP malicious JavaScript record two",
+        "url": "https://opentip.kaspersky.com/433297a9d9982a628877952a6cb850fc5f786d43e5b4afebfd9d0105f6300fbc/results?tab=lookup",
+        "published_at": "2026-11-04T05:54:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "OPENTIP-JS-TWO-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "Kaspersky OpenTIP records an explicit malicious verdict and extensive detections for this JavaScript SHA-256."
+        ]
+      },
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar AgentTesla and GuLoader JavaScript record",
+        "url": "https://bazaar.abuse.ch/sample/433297a9d9982a628877952a6cb850fc5f786d43e5b4afebfd9d0105f6300fbc",
+        "published_at": "2026-11-04T09:33:02Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "MALWAREBAZAAR-AGENTTESLA-2026-11-04-093302",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "MalwareBazaar and multiple sandboxes explicitly classify this SHA-256 JavaScript loader as malicious AgentTesla or GuLoader activity."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "452a210bba4c8d08f7cb7733a816d7220a7fa570a469aea0a997cfc8b594b6a0",
+    "ioc_type": "sha256",
+    "original_ioc": "452a210bba4c8d08f7cb7733a816d7220a7fa570a469aea0a997cfc8b594b6a0",
+    "hunt_ioc": "452a210bba4c8d08f7cb7733a816d7220a7fa570a469aea0a997cfc8b594b6a0",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake-download Inno multi-offer monetization campaign",
+    "malware_family": "OfferLoader",
+    "threat_actor": "Unattributed fake-download monetization operators",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Fake-download campaign uses trojanized installers to deliver monetization payloads"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact vendor IOC hash.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "MSFT-FAKE-DOWNLOAD-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "Microsoft explicitly lists this SHA-256 as a malicious Inno first-stage payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "523fb81fae0c7beba7b5171243cc0dee7a4d04ae0483be9172eef2394a5a2152",
+    "ioc_type": "sha256",
+    "original_ioc": "523fb81fae0c7beba7b5171243cc0dee7a4d04ae0483be9172eef2394a5a2152",
+    "hunt_ioc": "523fb81fae0c7beba7b5171243cc0dee7a4d04ae0483be9172eef2394a5a2152",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake-download Inno multi-offer monetization campaign",
+    "malware_family": "OfferLoader",
+    "threat_actor": "Unattributed fake-download monetization operators",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Fake-download campaign uses trojanized installers to deliver monetization payloads"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact vendor IOC hash.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "MSFT-FAKE-DOWNLOAD-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "Microsoft explicitly lists this SHA-256 as a malicious Inno first-stage payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "55cd3d36fdcc58016a64398357b2c9724a060da9f0d09266e537a61ec9552e4f",
+    "ioc_type": "sha256",
+    "original_ioc": "55cd3d36fdcc58016a64398357b2c9724a060da9f0d09266e537a61ec9552e4f",
+    "hunt_ioc": "55cd3d36fdcc58016a64398357b2c9724a060da9f0d09266e537a61ec9552e4f",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake-download Inno multi-offer monetization campaign",
+    "malware_family": "OfferLoader",
+    "threat_actor": "Unattributed fake-download monetization operators",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Fake-download campaign uses trojanized installers to deliver monetization payloads"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact vendor IOC hash.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "MSFT-FAKE-DOWNLOAD-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "Microsoft explicitly lists this SHA-256 as a later malicious Inno staged payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "6add0201e9a3d02de772d561d05e0da86eb1c538686753b7adcc3aedf7366f77",
+    "ioc_type": "sha256",
+    "original_ioc": "6add0201e9a3d02de772d561d05e0da86eb1c538686753b7adcc3aedf7366f77",
+    "hunt_ioc": "6add0201e9a3d02de772d561d05e0da86eb1c538686753b7adcc3aedf7366f77",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "cPGuard update-channel supply-chain compromise",
+    "malware_family": "Malicious cPGuard fake update",
+    "threat_actor": "Unidentified cPGuard update-channel attacker",
+    "source_organization": [
+      "OPSSHIELD"
+    ],
+    "source_article": [
+      "cPGuard security incident disclosure"
+    ],
+    "source_url": [
+      "https://opsshield.com/notice/security-incident-disclosure-servermanage.html"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Exact vendor IOC hash.",
+    "sources": [
+      {
+        "organization": "OPSSHIELD",
+        "article_title": "cPGuard security incident disclosure",
+        "url": "https://opsshield.com/notice/security-incident-disclosure-servermanage.html",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "OPSSHIELD-CPGUARD-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "OPSSHIELD explicitly lists this SHA-256 for a malicious fake cPGuard update script."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "72750d32b440e9f2b6d05ff3d218a561a75d3d75fb976b461fa59897674a7f70",
+    "ioc_type": "sha256",
+    "original_ioc": "72750d32b440e9f2b6d05ff3d218a561a75d3d75fb976b461fa59897674a7f70",
+    "hunt_ioc": "72750d32b440e9f2b6d05ff3d218a561a75d3d75fb976b461fa59897674a7f70",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake-download Inno multi-offer monetization campaign",
+    "malware_family": "OfferLoader",
+    "threat_actor": "Unattributed fake-download monetization operators",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Fake-download campaign uses trojanized installers to deliver monetization payloads"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact vendor IOC hash.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "MSFT-FAKE-DOWNLOAD-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "Microsoft explicitly lists this SHA-256 as an earlier malicious Inno second-stage runner."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "81059263ce7e4742f562ef0dde37024e3d4710800fd4c3ffad7d33d9cbf3c05b",
+    "ioc_type": "sha256",
+    "original_ioc": "81059263ce7e4742f562ef0dde37024e3d4710800fd4c3ffad7d33d9cbf3c05b",
+    "hunt_ioc": "81059263ce7e4742f562ef0dde37024e3d4710800fd4c3ffad7d33d9cbf3c05b",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "RemcosRAT malware delivery",
+    "malware_family": "RemcosRAT",
+    "threat_actor": "Unattributed RemcosRAT distribution operators",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus RemcosRAT download record"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/4056797"
+    ],
+    "article_published_date": [
+      "2026-11-04T11:38:07Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact payload hash from the current individual URLhaus record.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus RemcosRAT download record",
+        "url": "https://urlhaus.abuse.ch/url/4056797",
+        "published_at": "2026-11-04T11:38:07Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "URLHAUS-4056797",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "URLhaus retrieved this exact SHA-256 encoded payload from the explicitly malicious RemcosRAT download path."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ab2c2dd37fdcfe1e7620a57f98c80bd063258bea145adc0cc6a0f8b1e24c6a8f",
+    "ioc_type": "sha256",
+    "original_ioc": "ab2c2dd37fdcfe1e7620a57f98c80bd063258bea145adc0cc6a0f8b1e24c6a8f",
+    "hunt_ioc": "ab2c2dd37fdcfe1e7620a57f98c80bd063258bea145adc0cc6a0f8b1e24c6a8f",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Fake-download Inno multi-offer monetization campaign",
+    "malware_family": "OfferLoader",
+    "threat_actor": "Unattributed fake-download monetization operators",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Fake-download campaign uses trojanized installers to deliver monetization payloads"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact vendor IOC hash.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "MSFT-FAKE-DOWNLOAD-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "Microsoft explicitly lists this SHA-256 as a malicious Inno first-stage payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "af4cdbed89f16f42dfee16701a5f2467c02325735ce6dec78d3d1adaa5847d4d",
+    "ioc_type": "sha256",
+    "original_ioc": "af4cdbed89f16f42dfee16701a5f2467c02325735ce6dec78d3d1adaa5847d4d",
+    "hunt_ioc": "af4cdbed89f16f42dfee16701a5f2467c02325735ce6dec78d3d1adaa5847d4d",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Foxveil Atomic macOS Stealer delivery",
+    "malware_family": "Foxveil / Atomic macOS Stealer",
+    "threat_actor": "Unattributed Foxveil operators",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox Foxveil loader record"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2014002"
+    ],
+    "article_published_date": [
+      "2026-11-04T06:36:17Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Current individual ThreatFox record; no compromised-host inference.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox Foxveil loader record",
+        "url": "https://threatfox.abuse.ch/ioc/2014002",
+        "published_at": "2026-11-04T06:36:17Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "THREATFOX-2014002",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "ThreatFox explicitly identifies this SHA-256 as a Foxveil and Atomic macOS Stealer reflective-loader payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "baf706cac6fe467a4c76ffd39f6f69e7a3342b050d989de1f4ea4ba5e2351f5b",
+    "ioc_type": "sha256",
+    "original_ioc": "baf706cac6fe467a4c76ffd39f6f69e7a3342b050d989de1f4ea4ba5e2351f5b",
+    "hunt_ioc": "baf706cac6fe467a4c76ffd39f6f69e7a3342b050d989de1f4ea4ba5e2351f5b",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "AgentTesla and GuLoader malware delivery",
+    "malware_family": "AgentTesla / GuLoader",
+    "threat_actor": "Unattributed malware distribution operators",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus AgentTesla and GuLoader download record"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/4056794"
+    ],
+    "article_published_date": [
+      "2026-11-04T11:31:05Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact payload hash from the current individual URLhaus record.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus AgentTesla and GuLoader download record",
+        "url": "https://urlhaus.abuse.ch/url/4056794",
+        "published_at": "2026-11-04T11:31:05Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "URLHAUS-4056794",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "URLhaus retrieved this exact SHA-256 payload from the explicitly malicious AgentTesla and GuLoader download path."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "d73919af84bf46de941db85e27fd1abc65701ef9ce6cf33bb27c5397f4a41c26",
+    "ioc_type": "sha256",
+    "original_ioc": "d73919af84bf46de941db85e27fd1abc65701ef9ce6cf33bb27c5397f4a41c26",
+    "hunt_ioc": "d73919af84bf46de941db85e27fd1abc65701ef9ce6cf33bb27c5397f4a41c26",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "cPGuard update-channel supply-chain compromise",
+    "malware_family": "Malicious cPGuard fake update",
+    "threat_actor": "Unidentified cPGuard update-channel attacker",
+    "source_organization": [
+      "OPSSHIELD"
+    ],
+    "source_article": [
+      "cPGuard security incident disclosure"
+    ],
+    "source_url": [
+      "https://opsshield.com/notice/security-incident-disclosure-servermanage.html"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Exact vendor IOC hash.",
+    "sources": [
+      {
+        "organization": "OPSSHIELD",
+        "article_title": "cPGuard security incident disclosure",
+        "url": "https://opsshield.com/notice/security-incident-disclosure-servermanage.html",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "OPSSHIELD-CPGUARD-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "OPSSHIELD explicitly lists this SHA-256 for a malicious fake cPGuard update script."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ffd7a47f65fa1244429baa936ae94be54676b53d2f88bc39564f24e22011de8a",
+    "ioc_type": "sha256",
+    "original_ioc": "ffd7a47f65fa1244429baa936ae94be54676b53d2f88bc39564f24e22011de8a",
+    "hunt_ioc": "ffd7a47f65fa1244429baa936ae94be54676b53d2f88bc39564f24e22011de8a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "cPGuard update-channel supply-chain compromise",
+    "malware_family": "Malicious cPGuard fake update",
+    "threat_actor": "Unidentified cPGuard update-channel attacker",
+    "source_organization": [
+      "OPSSHIELD"
+    ],
+    "source_article": [
+      "cPGuard security incident disclosure"
+    ],
+    "source_url": [
+      "https://opsshield.com/notice/security-incident-disclosure-servermanage.html"
+    ],
+    "article_published_date": [
+      "2026-11-03T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 100,
+    "acceptance_score": 100,
+    "status": "NEW",
+    "notes": "Exact vendor IOC hash.",
+    "sources": [
+      {
+        "organization": "OPSSHIELD",
+        "article_title": "cPGuard security incident disclosure",
+        "url": "https://opsshield.com/notice/security-incident-disclosure-servermanage.html",
+        "published_at": "2026-11-03T00:00:00Z",
+        "updated_at": null,
+        "reliability": 1.0,
+        "source_id": "OPSSHIELD-CPGUARD-2026-11-03",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "OPSSHIELD explicitly lists this SHA-256 for a malicious fake cPGuard update script."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://crm.lanhsin.eu/si/aFAnFkd.txt",
+    "ioc_type": "url",
+    "original_ioc": "http://crm.lanhsin.eu/si/aFAnFkd.txt",
+    "hunt_ioc": "crm.lanhsin.eu",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "RemcosRAT malware delivery",
+    "malware_family": "RemcosRAT",
+    "threat_actor": "Unattributed RemcosRAT distribution operators",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus RemcosRAT download record"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/4056797"
+    ],
+    "article_published_date": [
+      "2026-11-04T11:38:07Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Publish the exact URL only; do not treat the hostname as a standalone domain IOC.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus RemcosRAT download record",
+        "url": "https://urlhaus.abuse.ch/url/4056797",
+        "published_at": "2026-11-04T11:38:07Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "URLHAUS-4056797",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "URLhaus explicitly lists this exact online path as a RemcosRAT encoded malware download and records independent blocklisting."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://eptabiboko.com/",
+    "ioc_type": "url",
+    "original_ioc": "https://eptabiboko.com/",
+    "hunt_ioc": "eptabiboko.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "WARDENStealer botnet activity",
+    "malware_family": "WARDENStealer",
+    "threat_actor": "Unattributed WARDENStealer operators",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox WARDENStealer command-and-control record"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2014004"
+    ],
+    "article_published_date": [
+      "2026-11-04T06:43:03Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 75,
+    "acceptance_score": 75,
+    "status": "NEW",
+    "notes": "Current individual ThreatFox record; retain the original URL and hunt on its validated host.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox WARDENStealer command-and-control record",
+        "url": "https://threatfox.abuse.ch/ioc/2014004",
+        "published_at": "2026-11-04T06:43:03Z",
+        "updated_at": null,
+        "reliability": 0.75,
+        "source_id": "THREATFOX-2014004",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "ThreatFox explicitly classifies this complete URL as WARDENStealer botnet command-and-control infrastructure and states the host is not compromised."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://orexports.com/Opstillingskredsen.msi",
+    "ioc_type": "url",
+    "original_ioc": "https://orexports.com/Opstillingskredsen.msi",
+    "hunt_ioc": "orexports.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "AgentTesla and GuLoader malware delivery",
+    "malware_family": "AgentTesla / GuLoader",
+    "threat_actor": "Unattributed malware distribution operators",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus AgentTesla and GuLoader download record"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/4056794"
+    ],
+    "article_published_date": [
+      "2026-11-04T11:31:05Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-04T14:02:00Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Publish the exact URL only; do not treat the hostname as a standalone domain IOC.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus AgentTesla and GuLoader download record",
+        "url": "https://urlhaus.abuse.ch/url/4056794",
+        "published_at": "2026-11-04T11:31:05Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "URLHAUS-4056794",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-02T14:02:00Z",
+        "discovery_context": [
+          "URLhaus explicitly lists this exact online path as an AgentTesla and GuLoader malware download and retrieved its malicious payload."
+        ]
+      }
+    ]
+  }
+]
