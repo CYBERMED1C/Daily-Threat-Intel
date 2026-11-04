@@ -1,0 +1,1506 @@
+[
+  {
+    "ioc": "fastcdn.bar",
+    "ioc_type": "domain",
+    "original_ioc": "fastcdn.bar",
+    "hunt_ioc": "fastcdn.bar",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "CyberStrikeAI post-exploitation campaign",
+    "malware_family": "CyberStrikeAI",
+    "threat_actor": "Unattributed attacker using CyberStrikeAI",
+    "source_organization": [
+      "Kaspersky Securelist"
+    ],
+    "source_article": [
+      "CyberStrikeAI attacks"
+    ],
+    "source_url": [
+      "https://securelist.com/tr/cyberstrikeai-attacks/121715"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current public vendor network IOC; passive source review only.",
+    "sources": [
+      {
+        "organization": "Kaspersky Securelist",
+        "article_title": "CyberStrikeAI attacks",
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "KASPERSKY-CYBERSTRIKEAI-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "Kaspersky explicitly identifies this domain as malicious CyberStrikeAI command or payload infrastructure in its IOC appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "jet-night.com",
+    "ioc_type": "domain",
+    "original_ioc": "jet-night.com",
+    "hunt_ioc": "jet-night.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "LLMJacking monetization and illicit LLM mixer activity",
+    "malware_family": "LLM mixer infrastructure",
+    "threat_actor": "Financially motivated LLMJacking operators",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "LLMJacking: Monetizing Compromised Cloud Models"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current original-research network IOC; passive review only.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "LLMJacking: Monetizing Compromised Cloud Models",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "GOOGLE-GTIG-LLMJACKING-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this domain as illicit LLMJacking mixer infrastructure in its network IOC table."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "media.fastcdn.bar",
+    "ioc_type": "domain",
+    "original_ioc": "media.fastcdn.bar",
+    "hunt_ioc": "media.fastcdn.bar",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "CyberStrikeAI post-exploitation campaign",
+    "malware_family": "CyberStrikeAI",
+    "threat_actor": "Unattributed attacker using CyberStrikeAI",
+    "source_organization": [
+      "Kaspersky Securelist"
+    ],
+    "source_article": [
+      "CyberStrikeAI attacks"
+    ],
+    "source_url": [
+      "https://securelist.com/tr/cyberstrikeai-attacks/121715"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current public vendor network IOC; passive source review only.",
+    "sources": [
+      {
+        "organization": "Kaspersky Securelist",
+        "article_title": "CyberStrikeAI attacks",
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "KASPERSKY-CYBERSTRIKEAI-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "Kaspersky explicitly identifies this domain as malicious CyberStrikeAI command or payload infrastructure in its IOC appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "netmansrvdns.com",
+    "ioc_type": "domain",
+    "original_ioc": "netmansrvdns.com",
+    "hunt_ioc": "netmansrvdns.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "BITTER PapRAT cyberespionage campaign",
+    "malware_family": "PapRAT",
+    "threat_actor": "BITTER (TA397)",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "BITTER Expands Its Arsenal with PapRAT"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current public vendor IOC; passive source review only.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "BITTER Expands Its Arsenal with PapRAT",
+        "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "FORTIGUARD-PAPRAT-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "FortiGuard Labs explicitly lists this domain as malicious command-and-control infrastructure in the PapRAT campaign IOC appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "newapi.pro",
+    "ioc_type": "domain",
+    "original_ioc": "newapi.pro",
+    "hunt_ioc": "newapi.pro",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "LLMJacking monetization and illicit LLM mixer activity",
+    "malware_family": "LLM mixer infrastructure",
+    "threat_actor": "Financially motivated LLMJacking operators",
+    "source_organization": [
+      "Google Threat Intelligence Group"
+    ],
+    "source_article": [
+      "LLMJacking: Monetizing Compromised Cloud Models"
+    ],
+    "source_url": [
+      "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current original-research network IOC; passive review only.",
+    "sources": [
+      {
+        "organization": "Google Threat Intelligence Group",
+        "article_title": "LLMJacking: Monetizing Compromised Cloud Models",
+        "url": "https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "GOOGLE-GTIG-LLMJACKING-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "Google Threat Intelligence Group explicitly lists this domain as illicit LLMJacking mixer infrastructure in its network IOC table."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "rappellingaart.com",
+    "ioc_type": "domain",
+    "original_ioc": "rappellingaart.com",
+    "hunt_ioc": "rappellingaart.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "BITTER PapRAT cyberespionage campaign",
+    "malware_family": "PapRAT",
+    "threat_actor": "BITTER (TA397)",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "BITTER Expands Its Arsenal with PapRAT"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current public vendor IOC; passive source review only.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "BITTER Expands Its Arsenal with PapRAT",
+        "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "FORTIGUARD-PAPRAT-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "FortiGuard Labs explicitly lists this domain as malicious command-and-control infrastructure in the PapRAT campaign IOC appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "104.234.26.163",
+    "ioc_type": "ipv4",
+    "original_ioc": "104.234.26.163",
+    "hunt_ioc": "104.234.26.163",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "CyberStrikeAI post-exploitation campaign",
+    "malware_family": "CyberStrikeAI",
+    "threat_actor": "Unattributed attacker using CyberStrikeAI",
+    "source_organization": [
+      "Kaspersky Securelist"
+    ],
+    "source_article": [
+      "CyberStrikeAI attacks"
+    ],
+    "source_url": [
+      "https://securelist.com/tr/cyberstrikeai-attacks/121715"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Public routable infrastructure IOC; passive source review only.",
+    "sources": [
+      {
+        "organization": "Kaspersky Securelist",
+        "article_title": "CyberStrikeAI attacks",
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "KASPERSKY-CYBERSTRIKEAI-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "Kaspersky explicitly identifies this public IPv4 address as malicious CyberStrikeAI command or payload infrastructure in its IOC appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "185.186.245.144",
+    "ioc_type": "ipv4",
+    "original_ioc": "185.186.245.144",
+    "hunt_ioc": "185.186.245.144",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "CyberStrikeAI post-exploitation campaign",
+    "malware_family": "CyberStrikeAI",
+    "threat_actor": "Unattributed attacker using CyberStrikeAI",
+    "source_organization": [
+      "Kaspersky Securelist"
+    ],
+    "source_article": [
+      "CyberStrikeAI attacks"
+    ],
+    "source_url": [
+      "https://securelist.com/tr/cyberstrikeai-attacks/121715"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Public routable infrastructure IOC; passive source review only.",
+    "sources": [
+      {
+        "organization": "Kaspersky Securelist",
+        "article_title": "CyberStrikeAI attacks",
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "KASPERSKY-CYBERSTRIKEAI-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "Kaspersky explicitly identifies this public IPv4 address as malicious CyberStrikeAI command or payload infrastructure in its IOC appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "45.194.90.57",
+    "ioc_type": "ipv4",
+    "original_ioc": "45.194.90.57",
+    "hunt_ioc": "45.194.90.57",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "CVE-2026-58115 Node-RED exploitation",
+    "malware_family": "Linux bot and dropper",
+    "threat_actor": "Unattributed opportunistic attackers",
+    "source_organization": [
+      "VulnCheck"
+    ],
+    "source_article": [
+      "Exploitation Targeting Node-RED"
+    ],
+    "source_url": [
+      "https://www.vulncheck.com/blog/exploitation-targeting-node-red"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact payload URL from the same host is separately preserved.",
+    "sources": [
+      {
+        "organization": "VulnCheck",
+        "article_title": "Exploitation Targeting Node-RED",
+        "url": "https://www.vulncheck.com/blog/exploitation-targeting-node-red",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "VULNCHECK-NODERED-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "VulnCheck explicitly identifies this public IPv4 host as payload infrastructure observed during active Node-RED exploitation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "85.215.73.250",
+    "ioc_type": "ipv4",
+    "original_ioc": "85.215.73.250",
+    "hunt_ioc": "85.215.73.250",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "CVE-2026-58115 Node-RED exploitation",
+    "malware_family": "Linux bot and dropper",
+    "threat_actor": "Unattributed opportunistic attackers",
+    "source_organization": [
+      "VulnCheck"
+    ],
+    "source_article": [
+      "Exploitation Targeting Node-RED"
+    ],
+    "source_url": [
+      "https://www.vulncheck.com/blog/exploitation-targeting-node-red"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact payload URLs from the same host are separately preserved.",
+    "sources": [
+      {
+        "organization": "VulnCheck",
+        "article_title": "Exploitation Targeting Node-RED",
+        "url": "https://www.vulncheck.com/blog/exploitation-targeting-node-red",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "VULNCHECK-NODERED-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "VulnCheck explicitly identifies this public IPv4 host as payload infrastructure observed during active Node-RED exploitation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "09e1da2afa1216ecc55648ec8e122d2a",
+    "ioc_type": "md5",
+    "original_ioc": "09e1da2afa1216ecc55648ec8e122d2a",
+    "hunt_ioc": "09e1da2afa1216ecc55648ec8e122d2a",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "CyberStrikeAI post-exploitation campaign",
+    "malware_family": "CyberStrikeAI",
+    "threat_actor": "Unattributed attacker using CyberStrikeAI",
+    "source_organization": [
+      "Kaspersky Securelist"
+    ],
+    "source_article": [
+      "CyberStrikeAI attacks"
+    ],
+    "source_url": [
+      "https://securelist.com/tr/cyberstrikeai-attacks/121715"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current public vendor sample hash; passive source review only.",
+    "sources": [
+      {
+        "organization": "Kaspersky Securelist",
+        "article_title": "CyberStrikeAI attacks",
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "KASPERSKY-CYBERSTRIKEAI-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "Kaspersky explicitly lists this MD5 in the current CyberStrikeAI attack IOC appendix as malicious tooling or a related payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "0bbd08af95f877f1d568b03de2eb76b4",
+    "ioc_type": "md5",
+    "original_ioc": "0bbd08af95f877f1d568b03de2eb76b4",
+    "hunt_ioc": "0bbd08af95f877f1d568b03de2eb76b4",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "CyberStrikeAI post-exploitation campaign",
+    "malware_family": "CyberStrikeAI",
+    "threat_actor": "Unattributed attacker using CyberStrikeAI",
+    "source_organization": [
+      "Kaspersky Securelist"
+    ],
+    "source_article": [
+      "CyberStrikeAI attacks"
+    ],
+    "source_url": [
+      "https://securelist.com/tr/cyberstrikeai-attacks/121715"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current public vendor sample hash; passive source review only.",
+    "sources": [
+      {
+        "organization": "Kaspersky Securelist",
+        "article_title": "CyberStrikeAI attacks",
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "KASPERSKY-CYBERSTRIKEAI-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "Kaspersky explicitly lists this MD5 in the current CyberStrikeAI attack IOC appendix as malicious tooling or a related payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2770562d104391b92b42671c270079bb",
+    "ioc_type": "md5",
+    "original_ioc": "2770562d104391b92b42671c270079bb",
+    "hunt_ioc": "2770562d104391b92b42671c270079bb",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "CyberStrikeAI post-exploitation campaign",
+    "malware_family": "CyberStrikeAI",
+    "threat_actor": "Unattributed attacker using CyberStrikeAI",
+    "source_organization": [
+      "Kaspersky Securelist"
+    ],
+    "source_article": [
+      "CyberStrikeAI attacks"
+    ],
+    "source_url": [
+      "https://securelist.com/tr/cyberstrikeai-attacks/121715"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current public vendor sample hash; passive source review only.",
+    "sources": [
+      {
+        "organization": "Kaspersky Securelist",
+        "article_title": "CyberStrikeAI attacks",
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "KASPERSKY-CYBERSTRIKEAI-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "Kaspersky explicitly lists this MD5 in the current CyberStrikeAI attack IOC appendix as malicious tooling or a related payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "29efd64dd3c7fe1e2b022b7ad73a1ba5",
+    "ioc_type": "md5",
+    "original_ioc": "29efd64dd3c7fe1e2b022b7ad73a1ba5",
+    "hunt_ioc": "29efd64dd3c7fe1e2b022b7ad73a1ba5",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "CyberStrikeAI post-exploitation campaign",
+    "malware_family": "CyberStrikeAI",
+    "threat_actor": "Unattributed attacker using CyberStrikeAI",
+    "source_organization": [
+      "Kaspersky Securelist"
+    ],
+    "source_article": [
+      "CyberStrikeAI attacks"
+    ],
+    "source_url": [
+      "https://securelist.com/tr/cyberstrikeai-attacks/121715"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current public vendor sample hash; passive source review only.",
+    "sources": [
+      {
+        "organization": "Kaspersky Securelist",
+        "article_title": "CyberStrikeAI attacks",
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "KASPERSKY-CYBERSTRIKEAI-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "Kaspersky explicitly lists this MD5 in the current CyberStrikeAI attack IOC appendix as malicious tooling or a related payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "74f57b3e897a4960dcdd5b7e8a54f9df",
+    "ioc_type": "md5",
+    "original_ioc": "74f57b3e897a4960dcdd5b7e8a54f9df",
+    "hunt_ioc": "74f57b3e897a4960dcdd5b7e8a54f9df",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "CyberStrikeAI post-exploitation campaign",
+    "malware_family": "CyberStrikeAI",
+    "threat_actor": "Unattributed attacker using CyberStrikeAI",
+    "source_organization": [
+      "Kaspersky Securelist"
+    ],
+    "source_article": [
+      "CyberStrikeAI attacks"
+    ],
+    "source_url": [
+      "https://securelist.com/tr/cyberstrikeai-attacks/121715"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current public vendor sample hash; passive source review only.",
+    "sources": [
+      {
+        "organization": "Kaspersky Securelist",
+        "article_title": "CyberStrikeAI attacks",
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "KASPERSKY-CYBERSTRIKEAI-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "Kaspersky explicitly lists this MD5 in the current CyberStrikeAI attack IOC appendix as malicious tooling or a related payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "805b9e4ae74c903787416800999b8418",
+    "ioc_type": "md5",
+    "original_ioc": "805b9e4ae74c903787416800999b8418",
+    "hunt_ioc": "805b9e4ae74c903787416800999b8418",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "CyberStrikeAI post-exploitation campaign",
+    "malware_family": "CyberStrikeAI",
+    "threat_actor": "Unattributed attacker using CyberStrikeAI",
+    "source_organization": [
+      "Kaspersky Securelist"
+    ],
+    "source_article": [
+      "CyberStrikeAI attacks"
+    ],
+    "source_url": [
+      "https://securelist.com/tr/cyberstrikeai-attacks/121715"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current public vendor sample hash; passive source review only.",
+    "sources": [
+      {
+        "organization": "Kaspersky Securelist",
+        "article_title": "CyberStrikeAI attacks",
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "KASPERSKY-CYBERSTRIKEAI-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "Kaspersky explicitly lists this MD5 in the current CyberStrikeAI attack IOC appendix as malicious tooling or a related payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "d726a8b4886c636f76ca6d30ef6a6ff4",
+    "ioc_type": "md5",
+    "original_ioc": "d726a8b4886c636f76ca6d30ef6a6ff4",
+    "hunt_ioc": "d726a8b4886c636f76ca6d30ef6a6ff4",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "CyberStrikeAI post-exploitation campaign",
+    "malware_family": "CyberStrikeAI",
+    "threat_actor": "Unattributed attacker using CyberStrikeAI",
+    "source_organization": [
+      "Kaspersky Securelist"
+    ],
+    "source_article": [
+      "CyberStrikeAI attacks"
+    ],
+    "source_url": [
+      "https://securelist.com/tr/cyberstrikeai-attacks/121715"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Current public vendor sample hash; passive source review only.",
+    "sources": [
+      {
+        "organization": "Kaspersky Securelist",
+        "article_title": "CyberStrikeAI attacks",
+        "url": "https://securelist.com/tr/cyberstrikeai-attacks/121715",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "KASPERSKY-CYBERSTRIKEAI-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "Kaspersky explicitly lists this MD5 in the current CyberStrikeAI attack IOC appendix as malicious tooling or a related payload."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "411c0b9a2f98b927d806a685faf0c1ab1005647b4816157008892347fb88546b",
+    "ioc_type": "sha256",
+    "original_ioc": "411c0b9a2f98b927d806a685faf0c1ab1005647b4816157008892347fb88546b",
+    "hunt_ioc": "411c0b9a2f98b927d806a685faf0c1ab1005647b4816157008892347fb88546b",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "BITTER PapRAT cyberespionage campaign",
+    "malware_family": "PapRAT/WmRAT",
+    "threat_actor": "BITTER (TA397)",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "BITTER Expands Its Arsenal with PapRAT"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current public vendor sample hash; passive source review only.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "BITTER Expands Its Arsenal with PapRAT",
+        "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "FORTIGUARD-PAPRAT-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "FortiGuard Labs explicitly lists this SHA256 as a malicious PapRAT campaign sample in the report IOC appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "569a21b519aaac8c92f653d708ab6ef34e3f38ea967f47e041d1e2425f6a4b33",
+    "ioc_type": "sha256",
+    "original_ioc": "569a21b519aaac8c92f653d708ab6ef34e3f38ea967f47e041d1e2425f6a4b33",
+    "hunt_ioc": "569a21b519aaac8c92f653d708ab6ef34e3f38ea967f47e041d1e2425f6a4b33",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "BITTER PapRAT cyberespionage campaign",
+    "malware_family": "PapRAT/WmRAT",
+    "threat_actor": "BITTER (TA397)",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "BITTER Expands Its Arsenal with PapRAT"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current public vendor sample hash; passive source review only.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "BITTER Expands Its Arsenal with PapRAT",
+        "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "FORTIGUARD-PAPRAT-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "FortiGuard Labs explicitly lists this SHA256 as a malicious PapRAT campaign sample in the report IOC appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "7cdf57c7e6017583df56cb081f8e488f6fe45782e059a97515e049487c0e6f4f",
+    "ioc_type": "sha256",
+    "original_ioc": "7cdf57c7e6017583df56cb081f8e488f6fe45782e059a97515e049487c0e6f4f",
+    "hunt_ioc": "7cdf57c7e6017583df56cb081f8e488f6fe45782e059a97515e049487c0e6f4f",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current Mirai and Katana botnet activity",
+    "malware_family": "Mirai/Katana",
+    "threat_actor": "Unattributed Mirai botnet operator",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 2012280 - Mirai payload"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2012280"
+    ],
+    "article_published_date": [
+      "2026-11-03T03:56:43Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Metadata-rich individual public structured IOC record; no malware was downloaded.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 2012280 - Mirai payload",
+        "url": "https://threatfox.abuse.ch/ioc/2012280",
+        "published_at": "2026-11-03T03:56:43Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "THREATFOX-2012280",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "ThreatFox explicitly classifies this SHA256 as a current Mirai or Katana payload with multi-vantage capture and MalwareBazaar corroboration."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a3081df333ca7f18bd90d10a45125ab5011dcf9d2806feae2935f09cab07da4c",
+    "ioc_type": "sha256",
+    "original_ioc": "a3081df333ca7f18bd90d10a45125ab5011dcf9d2806feae2935f09cab07da4c",
+    "hunt_ioc": "a3081df333ca7f18bd90d10a45125ab5011dcf9d2806feae2935f09cab07da4c",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "BITTER PapRAT cyberespionage campaign",
+    "malware_family": "PapRAT/WmRAT",
+    "threat_actor": "BITTER (TA397)",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "BITTER Expands Its Arsenal with PapRAT"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current public vendor sample hash; passive source review only.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "BITTER Expands Its Arsenal with PapRAT",
+        "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "FORTIGUARD-PAPRAT-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "FortiGuard Labs explicitly lists this SHA256 as a malicious PapRAT campaign sample in the report IOC appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "cca1ee815fea880bedc7d6098ef4cc8b275f4510371a364c654db33a43dbcf83",
+    "ioc_type": "sha256",
+    "original_ioc": "cca1ee815fea880bedc7d6098ef4cc8b275f4510371a364c654db33a43dbcf83",
+    "hunt_ioc": "cca1ee815fea880bedc7d6098ef4cc8b275f4510371a364c654db33a43dbcf83",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current Mirai and Katana botnet activity",
+    "malware_family": "Mirai/Katana",
+    "threat_actor": "Unattributed Mirai botnet operator",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 2012225 - Mirai payload"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2012225"
+    ],
+    "article_published_date": [
+      "2026-11-03T02:56:44Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Metadata-rich individual public structured IOC record; no malware was downloaded.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 2012225 - Mirai payload",
+        "url": "https://threatfox.abuse.ch/ioc/2012225",
+        "published_at": "2026-11-03T02:56:44Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "THREATFOX-2012225",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "ThreatFox explicitly classifies this SHA256 as a current Mirai or Katana ELF payload with multi-vantage capture and MalwareBazaar corroboration."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ccefbdec2718d864d9d33c743aabfcef88a8d7904d1c598bfcf15cf5f3591c88",
+    "ioc_type": "sha256",
+    "original_ioc": "ccefbdec2718d864d9d33c743aabfcef88a8d7904d1c598bfcf15cf5f3591c88",
+    "hunt_ioc": "ccefbdec2718d864d9d33c743aabfcef88a8d7904d1c598bfcf15cf5f3591c88",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "BITTER PapRAT cyberespionage campaign",
+    "malware_family": "PapRAT/WmRAT",
+    "threat_actor": "BITTER (TA397)",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "BITTER Expands Its Arsenal with PapRAT"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current public vendor sample hash; passive source review only.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "BITTER Expands Its Arsenal with PapRAT",
+        "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "FORTIGUARD-PAPRAT-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "FortiGuard Labs explicitly lists this SHA256 as a malicious PapRAT campaign sample in the report IOC appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "e3992f8c945b0761242377cba32d91b0a390c7cecd79478439843d93e6d2b76b",
+    "ioc_type": "sha256",
+    "original_ioc": "e3992f8c945b0761242377cba32d91b0a390c7cecd79478439843d93e6d2b76b",
+    "hunt_ioc": "e3992f8c945b0761242377cba32d91b0a390c7cecd79478439843d93e6d2b76b",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "BITTER PapRAT cyberespionage campaign",
+    "malware_family": "PapRAT/WmRAT",
+    "threat_actor": "BITTER (TA397)",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "BITTER Expands Its Arsenal with PapRAT"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Current public vendor sample hash; passive source review only.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "BITTER Expands Its Arsenal with PapRAT",
+        "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "FORTIGUARD-PAPRAT-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "FortiGuard Labs explicitly lists this SHA256 as a malicious PapRAT campaign sample in the report IOC appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://45.194.90.57:38472/.sys_update",
+    "ioc_type": "url",
+    "original_ioc": "http://45.194.90.57:38472/.sys_update",
+    "hunt_ioc": "45.194.90.57",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "CVE-2026-58115 Node-RED exploitation",
+    "malware_family": "Linux bot and dropper",
+    "threat_actor": "Unattributed opportunistic attackers",
+    "source_organization": [
+      "VulnCheck"
+    ],
+    "source_article": [
+      "Exploitation Targeting Node-RED"
+    ],
+    "source_url": [
+      "https://www.vulncheck.com/blog/exploitation-targeting-node-red"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact malicious path retained for publication; hunting pivots on the validated IP host.",
+    "sources": [
+      {
+        "organization": "VulnCheck",
+        "article_title": "Exploitation Targeting Node-RED",
+        "url": "https://www.vulncheck.com/blog/exploitation-targeting-node-red",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "VULNCHECK-NODERED-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "VulnCheck explicitly lists this exact URL as a malicious update payload location used during active Node-RED exploitation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://85.215.73.250:8080/bot-linux-amd64",
+    "ioc_type": "url",
+    "original_ioc": "http://85.215.73.250:8080/bot-linux-amd64",
+    "hunt_ioc": "85.215.73.250",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "CVE-2026-58115 Node-RED exploitation",
+    "malware_family": "Linux bot and dropper",
+    "threat_actor": "Unattributed opportunistic attackers",
+    "source_organization": [
+      "VulnCheck"
+    ],
+    "source_article": [
+      "Exploitation Targeting Node-RED"
+    ],
+    "source_url": [
+      "https://www.vulncheck.com/blog/exploitation-targeting-node-red"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact malicious path retained for publication; hunting pivots on the validated IP host.",
+    "sources": [
+      {
+        "organization": "VulnCheck",
+        "article_title": "Exploitation Targeting Node-RED",
+        "url": "https://www.vulncheck.com/blog/exploitation-targeting-node-red",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "VULNCHECK-NODERED-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "VulnCheck explicitly lists this exact URL as a malicious Linux payload location used during active Node-RED exploitation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://85.215.73.250:8080/wget.sh",
+    "ioc_type": "url",
+    "original_ioc": "http://85.215.73.250:8080/wget.sh",
+    "hunt_ioc": "85.215.73.250",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "CVE-2026-58115 Node-RED exploitation",
+    "malware_family": "Linux bot and dropper",
+    "threat_actor": "Unattributed opportunistic attackers",
+    "source_organization": [
+      "VulnCheck"
+    ],
+    "source_article": [
+      "Exploitation Targeting Node-RED"
+    ],
+    "source_url": [
+      "https://www.vulncheck.com/blog/exploitation-targeting-node-red"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Exact malicious path retained for publication; hunting pivots on the validated IP host.",
+    "sources": [
+      {
+        "organization": "VulnCheck",
+        "article_title": "Exploitation Targeting Node-RED",
+        "url": "https://www.vulncheck.com/blog/exploitation-targeting-node-red",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "VULNCHECK-NODERED-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "VulnCheck explicitly lists this exact URL as a malicious shell payload location used during active Node-RED exploitation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://gomescareerplans.com/docs",
+    "ioc_type": "url",
+    "original_ioc": "http://gomescareerplans.com/docs",
+    "hunt_ioc": "gomescareerplans.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "BITTER PapRAT cyberespionage campaign",
+    "malware_family": "PapRAT",
+    "threat_actor": "BITTER (TA397)",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "BITTER Expands Its Arsenal with PapRAT"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious path retained for publication; hunting pivots on the validated host.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "BITTER Expands Its Arsenal with PapRAT",
+        "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "FORTIGUARD-PAPRAT-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "FortiGuard Labs explicitly identifies this exact URL as campaign staging or payload infrastructure in its PapRAT IOC appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://www.rivingtonclarks.com/beautiQuewonders/banaNa.php",
+    "ioc_type": "url",
+    "original_ioc": "http://www.rivingtonclarks.com/beautiQuewonders/banaNa.php",
+    "hunt_ioc": "www.rivingtonclarks.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "BITTER PapRAT cyberespionage campaign",
+    "malware_family": "PapRAT",
+    "threat_actor": "BITTER (TA397)",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "BITTER Expands Its Arsenal with PapRAT"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious path retained for publication; hunting pivots on the validated host.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "BITTER Expands Its Arsenal with PapRAT",
+        "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "FORTIGUARD-PAPRAT-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "FortiGuard Labs explicitly identifies this exact URL as campaign staging or payload infrastructure in its PapRAT IOC appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://felixfuturenext.com/Epistemological/",
+    "ioc_type": "url",
+    "original_ioc": "https://felixfuturenext.com/Epistemological/",
+    "hunt_ioc": "felixfuturenext.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "BITTER PapRAT cyberespionage campaign",
+    "malware_family": "PapRAT",
+    "threat_actor": "BITTER (TA397)",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "BITTER Expands Its Arsenal with PapRAT"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious path retained for publication; hunting pivots on the validated host.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "BITTER Expands Its Arsenal with PapRAT",
+        "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "FORTIGUARD-PAPRAT-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "FortiGuard Labs explicitly identifies this exact URL as campaign staging or payload infrastructure in its PapRAT IOC appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://goodnfortunes.com/ucl.php",
+    "ioc_type": "url",
+    "original_ioc": "https://goodnfortunes.com/ucl.php",
+    "hunt_ioc": "goodnfortunes.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "BITTER PapRAT cyberespionage campaign",
+    "malware_family": "PapRAT",
+    "threat_actor": "BITTER (TA397)",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "BITTER Expands Its Arsenal with PapRAT"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious path retained for publication; hunting pivots on the validated host.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "BITTER Expands Its Arsenal with PapRAT",
+        "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "FORTIGUARD-PAPRAT-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "FortiGuard Labs explicitly identifies this exact URL as campaign staging or payload infrastructure in its PapRAT IOC appendix."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://techtalkhelp.com/talk.log",
+    "ioc_type": "url",
+    "original_ioc": "https://techtalkhelp.com/talk.log",
+    "hunt_ioc": "techtalkhelp.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "BITTER PapRAT cyberespionage campaign",
+    "malware_family": "PapRAT",
+    "threat_actor": "BITTER (TA397)",
+    "source_organization": [
+      "FortiGuard Labs"
+    ],
+    "source_article": [
+      "BITTER Expands Its Arsenal with PapRAT"
+    ],
+    "source_url": [
+      "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat"
+    ],
+    "article_published_date": [
+      "2026-11-02T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-03T14:00:35Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious path retained for publication; hunting pivots on the validated host.",
+    "sources": [
+      {
+        "organization": "FortiGuard Labs",
+        "article_title": "BITTER Expands Its Arsenal with PapRAT",
+        "url": "https://www.fortinet.com/blog/threat-research/bitter-expands-its-arsenal-with-paprat",
+        "published_at": "2026-11-02T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "FORTIGUARD-PAPRAT-2026-11-02",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-01T14:00:35Z",
+        "discovery_context": [
+          "FortiGuard Labs explicitly identifies this exact URL as campaign staging or payload infrastructure in its PapRAT IOC appendix."
+        ]
+      }
+    ]
+  }
+]

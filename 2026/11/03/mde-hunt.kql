@@ -1,0 +1,21 @@
+// Query name: CYBERMEDIC Daily IOC Hunt
+// Description: Search 30-day Microsoft Defender telemetry for validated IOC values.
+// Author : CYBERMEDIC
+// Last updated: 2026-11-03
+// MITRE ATT&CK mapping: N/A - IOC lookup
+// Notes: One runnable query; exact IOC filters precede the 500-result limit.
+// Sources: See the daily IOC summary for 2026-11-03.
+union
+(
+DeviceNetworkEvents
+| where Timestamp >= ago(30d)
+| where RemoteUrl in~ ("fastcdn.bar","felixfuturenext.com","gomescareerplans.com","goodnfortunes.com","jet-night.com","media.fastcdn.bar","netmansrvdns.com","newapi.pro","rappellingaart.com","techtalkhelp.com","www.rivingtonclarks.com") or RemoteIP in~ ("104.234.26.163","185.186.245.144","45.194.90.57","85.215.73.250")
+| project Timestamp,DeviceName,RemoteIP,RemotePort,RemoteUrl,InitiatingProcessFileName
+),
+(
+DeviceFileEvents
+| where Timestamp >= ago(30d)
+| where MD5 in~ ("09e1da2afa1216ecc55648ec8e122d2a","0bbd08af95f877f1d568b03de2eb76b4","2770562d104391b92b42671c270079bb","29efd64dd3c7fe1e2b022b7ad73a1ba5","74f57b3e897a4960dcdd5b7e8a54f9df","805b9e4ae74c903787416800999b8418","d726a8b4886c636f76ca6d30ef6a6ff4") or SHA256 in~ ("411c0b9a2f98b927d806a685faf0c1ab1005647b4816157008892347fb88546b","569a21b519aaac8c92f653d708ab6ef34e3f38ea967f47e041d1e2425f6a4b33","7cdf57c7e6017583df56cb081f8e488f6fe45782e059a97515e049487c0e6f4f","a3081df333ca7f18bd90d10a45125ab5011dcf9d2806feae2935f09cab07da4c","cca1ee815fea880bedc7d6098ef4cc8b275f4510371a364c654db33a43dbcf83","ccefbdec2718d864d9d33c743aabfcef88a8d7904d1c598bfcf15cf5f3591c88","e3992f8c945b0761242377cba32d91b0a390c7cecd79478439843d93e6d2b76b")
+| project Timestamp,DeviceName,FileName,FolderPath,MD5,SHA1,SHA256,InitiatingProcessFileName
+)
+| top 500 by Timestamp desc
