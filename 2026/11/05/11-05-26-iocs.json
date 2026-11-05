@@ -1,0 +1,4608 @@
+[
+  {
+    "ioc": "ad.starx-net.com",
+    "ioc_type": "domain",
+    "original_ioc": "ad.starx-net.com",
+    "hunt_ioc": "ad.starx-net.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Poisoned Source APT29 mobile watering-hole",
+    "malware_family": "UltimateFingerprinter / DarkSword-derived iOS exploit chains / AndroSnitch",
+    "threat_actor": "APT29 / Midnight Blizzard / Cozy Bear",
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Current Sekoia IOC-table infrastructure.",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits",
+        "url": "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "sekoia-poisoned-source-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Sekoia's original technical report explicitly lists this domain in its IOC table as APT29 exploit-delivery, fingerprinting, or command infrastructure for the Poisoned Source operation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "adsprism-stat.com",
+    "ioc_type": "domain",
+    "original_ioc": "adsprism-stat.com",
+    "hunt_ioc": "adsprism-stat.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Poisoned Source APT29 mobile watering-hole",
+    "malware_family": "UltimateFingerprinter / DarkSword-derived iOS exploit chains / AndroSnitch",
+    "threat_actor": "APT29 / Midnight Blizzard / Cozy Bear",
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Current Sekoia IOC-table infrastructure.",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits",
+        "url": "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "sekoia-poisoned-source-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Sekoia's original technical report explicitly lists this domain in its IOC table as APT29 exploit-delivery, fingerprinting, or command infrastructure for the Poisoned Source operation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "agent.xxtt.me",
+    "ioc_type": "domain",
+    "original_ioc": "agent.xxtt.me",
+    "hunt_ioc": "agent.xxtt.me",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "KeyHunter Operation — LLM API key theft, academic and financial fraud",
+    "malware_family": "KeyHunter adversary infrastructure",
+    "threat_actor": "leepsmarts / @leepsmartsx",
+    "source_organization": [
+      "SOCRadar"
+    ],
+    "source_article": [
+      "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original Annex A domain; preserve exact value.",
+    "sources": [
+      {
+        "organization": "SOCRadar",
+        "article_title": "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft",
+        "url": "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "socradar-keyhunter-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "SOCRadar Annex A explicitly identifies this domain as malicious KeyHunter operation infrastructure supporting LLM API-key theft, academic-data theft, or financial fraud."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "america250.holiday",
+    "ioc_type": "domain",
+    "original_ioc": "america250.holiday",
+    "hunt_ioc": "america250.holiday",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Poisoned Source APT29 mobile watering-hole",
+    "malware_family": "UltimateFingerprinter / DarkSword-derived iOS exploit chains / AndroSnitch",
+    "threat_actor": "APT29 / Midnight Blizzard / Cozy Bear",
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Current Sekoia IOC-table infrastructure.",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits",
+        "url": "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "sekoia-poisoned-source-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Sekoia's original technical report explicitly lists this domain in its IOC table as APT29 exploit-delivery, fingerprinting, or command infrastructure for the Poisoned Source operation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "arusupport-region1-webhook.online",
+    "ioc_type": "domain",
+    "original_ioc": "arusupport-region1-webhook.online",
+    "hunt_ioc": "arusupport-region1-webhook.online",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Original ReversingLabs network IOC; investigate before blocking.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this domain as malicious TraderTraitor delivery or command infrastructure in the surrounding toolset; it is not claimed as proven Binance-heist infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "astrdark.cyou",
+    "ioc_type": "domain",
+    "original_ioc": "astrdark.cyou",
+    "hunt_ioc": "astrdark.cyou",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "KeyHunter Operation — LLM API key theft, academic and financial fraud",
+    "malware_family": "KeyHunter adversary infrastructure",
+    "threat_actor": "leepsmarts / @leepsmartsx",
+    "source_organization": [
+      "SOCRadar"
+    ],
+    "source_article": [
+      "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original Annex A domain; preserve exact value.",
+    "sources": [
+      {
+        "organization": "SOCRadar",
+        "article_title": "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft",
+        "url": "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "socradar-keyhunter-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "SOCRadar Annex A explicitly identifies this domain as malicious KeyHunter operation infrastructure supporting LLM API-key theft, academic-data theft, or financial fraud."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "blog.wangmengfun.top",
+    "ioc_type": "domain",
+    "original_ioc": "blog.wangmengfun.top",
+    "hunt_ioc": "blog.wangmengfun.top",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SlippyNunchucks DNS hijacking of Sogou Input Method",
+    "malware_family": "DarkVigil (FDMTP)",
+    "threat_actor": "SlippyNunchucks China-aligned APT",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Original ESET IOC-table value; preserve exact domain.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware",
+        "url": "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "eset-slippynunchucks-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ESET's published IOC table explicitly identifies this domain as malicious infrastructure used by the SlippyNunchucks DNS-hijacking campaign to deliver or control DarkVigil."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "delay.servehttp.com",
+    "ioc_type": "domain",
+    "original_ioc": "delay.servehttp.com",
+    "hunt_ioc": "delay.servehttp.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Original ReversingLabs network IOC; investigate before blocking.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this domain as malicious TraderTraitor delivery or command infrastructure in the surrounding toolset; it is not claimed as proven Binance-heist infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "dev.soft-png-cdn.com",
+    "ioc_type": "domain",
+    "original_ioc": "dev.soft-png-cdn.com",
+    "hunt_ioc": "dev.soft-png-cdn.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SlippyNunchucks DNS hijacking of Sogou Input Method",
+    "malware_family": "DarkVigil (FDMTP)",
+    "threat_actor": "SlippyNunchucks China-aligned APT",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Original ESET IOC-table value; preserve exact domain.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware",
+        "url": "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "eset-slippynunchucks-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ESET's published IOC table explicitly identifies this domain as malicious infrastructure used by the SlippyNunchucks DNS-hijacking campaign to deliver or control DarkVigil."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "diagnose.hashicorp-terraform.io",
+    "ioc_type": "domain",
+    "original_ioc": "diagnose.hashicorp-terraform.io",
+    "hunt_ioc": "diagnose.hashicorp-terraform.io",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Original ReversingLabs network IOC; investigate before blocking.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this domain as malicious TraderTraitor delivery or command infrastructure in the surrounding toolset; it is not claimed as proven Binance-heist infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "edge-ord.clouds-stacks.com",
+    "ioc_type": "domain",
+    "original_ioc": "edge-ord.clouds-stacks.com",
+    "hunt_ioc": "edge-ord.clouds-stacks.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Poisoned Source APT29 mobile watering-hole",
+    "malware_family": "UltimateFingerprinter / DarkSword-derived iOS exploit chains / AndroSnitch",
+    "threat_actor": "APT29 / Midnight Blizzard / Cozy Bear",
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Current Sekoia IOC-table infrastructure.",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits",
+        "url": "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "sekoia-poisoned-source-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Sekoia's original technical report explicitly lists this domain in its IOC table as APT29 exploit-delivery, fingerprinting, or command infrastructure for the Poisoned Source operation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "img.fusfun.top",
+    "ioc_type": "domain",
+    "original_ioc": "img.fusfun.top",
+    "hunt_ioc": "img.fusfun.top",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SlippyNunchucks DNS hijacking of Sogou Input Method",
+    "malware_family": "DarkVigil (FDMTP)",
+    "threat_actor": "SlippyNunchucks China-aligned APT",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Original ESET IOC-table value; preserve exact domain.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware",
+        "url": "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "eset-slippynunchucks-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ESET's published IOC table explicitly identifies this domain as malicious infrastructure used by the SlippyNunchucks DNS-hijacking campaign to deliver or control DarkVigil."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "mail2.bfvdoor.com",
+    "ioc_type": "domain",
+    "original_ioc": "mail2.bfvdoor.com",
+    "hunt_ioc": "mail2.bfvdoor.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "KeyHunter Operation — LLM API key theft, academic and financial fraud",
+    "malware_family": "KeyHunter adversary infrastructure",
+    "threat_actor": "leepsmarts / @leepsmartsx",
+    "source_organization": [
+      "SOCRadar"
+    ],
+    "source_article": [
+      "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original Annex A domain; preserve exact value.",
+    "sources": [
+      {
+        "organization": "SOCRadar",
+        "article_title": "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft",
+        "url": "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "socradar-keyhunter-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "SOCRadar Annex A explicitly identifies this domain as malicious KeyHunter operation infrastructure supporting LLM API-key theft, academic-data theft, or financial fraud."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "new74.osxwrong.us.com",
+    "ioc_type": "domain",
+    "original_ioc": "new74.osxwrong.us.com",
+    "hunt_ioc": "new74.osxwrong.us.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "KeyHunter Operation — LLM API key theft, academic and financial fraud",
+    "malware_family": "KeyHunter adversary infrastructure",
+    "threat_actor": "leepsmarts / @leepsmartsx",
+    "source_organization": [
+      "SOCRadar"
+    ],
+    "source_article": [
+      "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original Annex A domain; preserve exact value.",
+    "sources": [
+      {
+        "organization": "SOCRadar",
+        "article_title": "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft",
+        "url": "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "socradar-keyhunter-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "SOCRadar Annex A explicitly identifies this domain as malicious KeyHunter operation infrastructure supporting LLM API-key theft, academic-data theft, or financial fraud."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "pentagi.senhai.store",
+    "ioc_type": "domain",
+    "original_ioc": "pentagi.senhai.store",
+    "hunt_ioc": "pentagi.senhai.store",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "KeyHunter Operation — LLM API key theft, academic and financial fraud",
+    "malware_family": "KeyHunter adversary infrastructure",
+    "threat_actor": "leepsmarts / @leepsmartsx",
+    "source_organization": [
+      "SOCRadar"
+    ],
+    "source_article": [
+      "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original Annex A domain; preserve exact value.",
+    "sources": [
+      {
+        "organization": "SOCRadar",
+        "article_title": "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft",
+        "url": "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "socradar-keyhunter-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "SOCRadar Annex A explicitly identifies this domain as malicious KeyHunter operation infrastructure supporting LLM API-key theft, academic-data theft, or financial fraud."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "registry.hashicorp-aws.com",
+    "ioc_type": "domain",
+    "original_ioc": "registry.hashicorp-aws.com",
+    "hunt_ioc": "registry.hashicorp-aws.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Original ReversingLabs network IOC; investigate before blocking.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this domain as malicious TraderTraitor delivery or command infrastructure in the surrounding toolset; it is not claimed as proven Binance-heist infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "registry.hashicorp-terraform.io",
+    "ioc_type": "domain",
+    "original_ioc": "registry.hashicorp-terraform.io",
+    "hunt_ioc": "registry.hashicorp-terraform.io",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Original ReversingLabs network IOC; investigate before blocking.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this domain as malicious TraderTraitor delivery or command infrastructure in the surrounding toolset; it is not claimed as proven Binance-heist infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "sajuai.xyz",
+    "ioc_type": "domain",
+    "original_ioc": "sajuai.xyz",
+    "hunt_ioc": "sajuai.xyz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "KeyHunter Operation — LLM API key theft, academic and financial fraud",
+    "malware_family": "KeyHunter adversary infrastructure",
+    "threat_actor": "leepsmarts / @leepsmartsx",
+    "source_organization": [
+      "SOCRadar"
+    ],
+    "source_article": [
+      "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original Annex A domain; preserve exact value.",
+    "sources": [
+      {
+        "organization": "SOCRadar",
+        "article_title": "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft",
+        "url": "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "socradar-keyhunter-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "SOCRadar Annex A explicitly identifies this domain as malicious KeyHunter operation infrastructure supporting LLM API-key theft, academic-data theft, or financial fraud."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "senhai.store",
+    "ioc_type": "domain",
+    "original_ioc": "senhai.store",
+    "hunt_ioc": "senhai.store",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "KeyHunter Operation — LLM API key theft, academic and financial fraud",
+    "malware_family": "KeyHunter adversary infrastructure",
+    "threat_actor": "leepsmarts / @leepsmartsx",
+    "source_organization": [
+      "SOCRadar"
+    ],
+    "source_article": [
+      "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original Annex A domain; preserve exact value.",
+    "sources": [
+      {
+        "organization": "SOCRadar",
+        "article_title": "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft",
+        "url": "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "socradar-keyhunter-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "SOCRadar Annex A explicitly identifies this domain as malicious KeyHunter operation infrastructure supporting LLM API-key theft, academic-data theft, or financial fraud."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "snap.senhai.store",
+    "ioc_type": "domain",
+    "original_ioc": "snap.senhai.store",
+    "hunt_ioc": "snap.senhai.store",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "KeyHunter Operation — LLM API key theft, academic and financial fraud",
+    "malware_family": "KeyHunter adversary infrastructure",
+    "threat_actor": "leepsmarts / @leepsmartsx",
+    "source_organization": [
+      "SOCRadar"
+    ],
+    "source_article": [
+      "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original Annex A domain; preserve exact value.",
+    "sources": [
+      {
+        "organization": "SOCRadar",
+        "article_title": "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft",
+        "url": "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "socradar-keyhunter-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "SOCRadar Annex A explicitly identifies this domain as malicious KeyHunter operation infrastructure supporting LLM API-key theft, academic-data theft, or financial fraud."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "sogou-cdn.com",
+    "ioc_type": "domain",
+    "original_ioc": "sogou-cdn.com",
+    "hunt_ioc": "sogou-cdn.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SlippyNunchucks DNS hijacking of Sogou Input Method",
+    "malware_family": "DarkVigil (FDMTP)",
+    "threat_actor": "SlippyNunchucks China-aligned APT",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Original ESET IOC-table value; preserve exact domain.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware",
+        "url": "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "eset-slippynunchucks-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ESET's published IOC table explicitly identifies this domain as malicious infrastructure used by the SlippyNunchucks DNS-hijacking campaign to deliver or control DarkVigil."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "stage-fashion365.vercel.app",
+    "ioc_type": "domain",
+    "original_ioc": "stage-fashion365.vercel.app",
+    "hunt_ioc": "stage-fashion365.vercel.app",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Original ReversingLabs network IOC; investigate before blocking.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this domain as malicious TraderTraitor delivery or command infrastructure in the surrounding toolset; it is not claimed as proven Binance-heist infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "static.flux-telemetry.com",
+    "ioc_type": "domain",
+    "original_ioc": "static.flux-telemetry.com",
+    "hunt_ioc": "static.flux-telemetry.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Poisoned Source APT29 mobile watering-hole",
+    "malware_family": "UltimateFingerprinter / DarkSword-derived iOS exploit chains / AndroSnitch",
+    "threat_actor": "APT29 / Midnight Blizzard / Cozy Bear",
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Current Sekoia IOC-table infrastructure.",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits",
+        "url": "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "sekoia-poisoned-source-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Sekoia's original technical report explicitly lists this domain in its IOC table as APT29 exploit-delivery, fingerprinting, or command infrastructure for the Poisoned Source operation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "supportaru.serveftp.com",
+    "ioc_type": "domain",
+    "original_ioc": "supportaru.serveftp.com",
+    "hunt_ioc": "supportaru.serveftp.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Original ReversingLabs network IOC; investigate before blocking.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this domain as malicious TraderTraitor delivery or command infrastructure in the surrounding toolset; it is not claimed as proven Binance-heist infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "tavily.astrdark.cyou",
+    "ioc_type": "domain",
+    "original_ioc": "tavily.astrdark.cyou",
+    "hunt_ioc": "tavily.astrdark.cyou",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "KeyHunter Operation — LLM API key theft, academic and financial fraud",
+    "malware_family": "KeyHunter adversary infrastructure",
+    "threat_actor": "leepsmarts / @leepsmartsx",
+    "source_organization": [
+      "SOCRadar"
+    ],
+    "source_article": [
+      "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original Annex A domain; preserve exact value.",
+    "sources": [
+      {
+        "organization": "SOCRadar",
+        "article_title": "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft",
+        "url": "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "socradar-keyhunter-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "SOCRadar Annex A explicitly identifies this domain as malicious KeyHunter operation infrastructure supporting LLM API-key theft, academic-data theft, or financial fraud."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "theowo.club",
+    "ioc_type": "domain",
+    "original_ioc": "theowo.club",
+    "hunt_ioc": "theowo.club",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Poisoned Source APT29 mobile watering-hole",
+    "malware_family": "UltimateFingerprinter / DarkSword-derived iOS exploit chains / AndroSnitch",
+    "threat_actor": "APT29 / Midnight Blizzard / Cozy Bear",
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 93,
+    "acceptance_score": 93,
+    "status": "NEW",
+    "notes": "IOC was inactive at publication but remains explicit campaign infrastructure.",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits",
+        "url": "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.93,
+        "source_id": "sekoia-poisoned-source-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Sekoia's original technical report explicitly lists this domain in its IOC table as APT29 exploit-delivery, fingerprinting, or command infrastructure for the Poisoned Source operation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "update.mssproxy.net",
+    "ioc_type": "domain",
+    "original_ioc": "update.mssproxy.net",
+    "hunt_ioc": "update.mssproxy.net",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "SlippyNunchucks DNS hijacking of Sogou Input Method",
+    "malware_family": "DarkVigil (FDMTP)",
+    "threat_actor": "SlippyNunchucks China-aligned APT",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Original ESET IOC-table value; preserve exact domain.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware",
+        "url": "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "eset-slippynunchucks-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ESET's published IOC table explicitly identifies this domain as malicious infrastructure used by the SlippyNunchucks DNS-hijacking campaign to deliver or control DarkVigil."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "vvbin.me",
+    "ioc_type": "domain",
+    "original_ioc": "vvbin.me",
+    "hunt_ioc": "vvbin.me",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "KeyHunter Operation — LLM API key theft, academic and financial fraud",
+    "malware_family": "KeyHunter adversary infrastructure",
+    "threat_actor": "leepsmarts / @leepsmartsx",
+    "source_organization": [
+      "SOCRadar"
+    ],
+    "source_article": [
+      "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original Annex A domain; preserve exact value.",
+    "sources": [
+      {
+        "organization": "SOCRadar",
+        "article_title": "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft",
+        "url": "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "socradar-keyhunter-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "SOCRadar Annex A explicitly identifies this domain as malicious KeyHunter operation infrastructure supporting LLM API-key theft, academic-data theft, or financial fraud."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "web.712019.xyz",
+    "ioc_type": "domain",
+    "original_ioc": "web.712019.xyz",
+    "hunt_ioc": "web.712019.xyz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "KeyHunter Operation — LLM API key theft, academic and financial fraud",
+    "malware_family": "KeyHunter adversary infrastructure",
+    "threat_actor": "leepsmarts / @leepsmartsx",
+    "source_organization": [
+      "SOCRadar"
+    ],
+    "source_article": [
+      "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original Annex A domain; preserve exact value.",
+    "sources": [
+      {
+        "organization": "SOCRadar",
+        "article_title": "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft",
+        "url": "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "socradar-keyhunter-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "SOCRadar Annex A explicitly identifies this domain as malicious KeyHunter operation infrastructure supporting LLM API-key theft, academic-data theft, or financial fraud."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "xxtt.me",
+    "ioc_type": "domain",
+    "original_ioc": "xxtt.me",
+    "hunt_ioc": "xxtt.me",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "KeyHunter Operation — LLM API key theft, academic and financial fraud",
+    "malware_family": "KeyHunter adversary infrastructure",
+    "threat_actor": "leepsmarts / @leepsmartsx",
+    "source_organization": [
+      "SOCRadar"
+    ],
+    "source_article": [
+      "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original Annex A domain; preserve exact value.",
+    "sources": [
+      {
+        "organization": "SOCRadar",
+        "article_title": "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft",
+        "url": "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "socradar-keyhunter-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "SOCRadar Annex A explicitly identifies this domain as malicious KeyHunter operation infrastructure supporting LLM API-key theft, academic-data theft, or financial fraud."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "109.104.106.107",
+    "ioc_type": "ipv4",
+    "original_ioc": "109.104.106.107",
+    "hunt_ioc": "109.104.106.107",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Poisoned Source APT29 mobile watering-hole",
+    "malware_family": "UltimateFingerprinter / DarkSword-derived iOS exploit chains / AndroSnitch",
+    "threat_actor": "APT29 / Midnight Blizzard / Cozy Bear",
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Public IPv4 from Sekoia's campaign IOC table.",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits",
+        "url": "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "sekoia-poisoned-source-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Sekoia's original technical report explicitly lists this public IPv4 address in its IOC table as APT29 infrastructure supporting the Poisoned Source mobile watering-hole operation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "123.60.2.245",
+    "ioc_type": "ipv4",
+    "original_ioc": "123.60.2.245",
+    "hunt_ioc": "123.60.2.245",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "KeyHunter Operation — LLM API key theft, academic and financial fraud",
+    "malware_family": "KeyHunter adversary infrastructure",
+    "threat_actor": "leepsmarts / @leepsmartsx",
+    "source_organization": [
+      "SOCRadar"
+    ],
+    "source_article": [
+      "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Annex A role: PentAGI and Xingrin node.",
+    "sources": [
+      {
+        "organization": "SOCRadar",
+        "article_title": "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft",
+        "url": "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "socradar-keyhunter-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "SOCRadar Annex A explicitly lists this public IPv4 address as malicious KeyHunter operation infrastructure used for credential theft, fraud, command, or relay activity."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "14.47.118.194",
+    "ioc_type": "ipv4",
+    "original_ioc": "14.47.118.194",
+    "hunt_ioc": "14.47.118.194",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "KeyHunter Operation — LLM API key theft, academic and financial fraud",
+    "malware_family": "KeyHunter adversary infrastructure",
+    "threat_actor": "leepsmarts / @leepsmartsx",
+    "source_organization": [
+      "SOCRadar"
+    ],
+    "source_article": [
+      "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Annex A role: Open WebUI and Wazuh node.",
+    "sources": [
+      {
+        "organization": "SOCRadar",
+        "article_title": "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft",
+        "url": "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "socradar-keyhunter-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "SOCRadar Annex A explicitly lists this public IPv4 address as malicious KeyHunter operation infrastructure used for credential theft, fraud, command, or relay activity."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "173.231.39.244",
+    "ioc_type": "ipv4",
+    "original_ioc": "173.231.39.244",
+    "hunt_ioc": "173.231.39.244",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "KeyHunter Operation — LLM API key theft, academic and financial fraud",
+    "malware_family": "KeyHunter adversary infrastructure",
+    "threat_actor": "leepsmarts / @leepsmartsx",
+    "source_organization": [
+      "SOCRadar"
+    ],
+    "source_article": [
+      "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Annex A role: Hermes Agent node.",
+    "sources": [
+      {
+        "organization": "SOCRadar",
+        "article_title": "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft",
+        "url": "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "socradar-keyhunter-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "SOCRadar Annex A explicitly lists this public IPv4 address as malicious KeyHunter operation infrastructure used for credential theft, fraud, command, or relay activity."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "195.58.140.105",
+    "ioc_type": "ipv4",
+    "original_ioc": "195.58.140.105",
+    "hunt_ioc": "195.58.140.105",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Poisoned Source APT29 mobile watering-hole",
+    "malware_family": "UltimateFingerprinter / DarkSword-derived iOS exploit chains / AndroSnitch",
+    "threat_actor": "APT29 / Midnight Blizzard / Cozy Bear",
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Public IPv4 from Sekoia's campaign IOC table.",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits",
+        "url": "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "sekoia-poisoned-source-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Sekoia's original technical report explicitly lists this public IPv4 address in its IOC table as APT29 infrastructure supporting the Poisoned Source mobile watering-hole operation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "199.232.210.172",
+    "ioc_type": "ipv4",
+    "original_ioc": "199.232.210.172",
+    "hunt_ioc": "199.232.210.172",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Storm-2603 ToolShell SharePoint intrusion",
+    "malware_family": "vskp2 in-memory webshell / Warlock AV killer / abused remote-access tooling",
+    "threat_actor": "Storm-2603 (moderate-confidence)",
+    "source_organization": [
+      "Kaspersky"
+    ],
+    "source_article": [
+      "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603"
+    ],
+    "source_url": [
+      "https://securelist.com/storm-2603-fileless-toolshell-attack/121467"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Retrospective incident IOC; role: relay.",
+    "sources": [
+      {
+        "organization": "Kaspersky",
+        "article_title": "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603",
+        "url": "https://securelist.com/storm-2603-fileless-toolshell-attack/121467",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "kaspersky-storm-2603-toolshell-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Kaspersky explicitly attributes this public IPv4 address to Storm-2603 infrastructure observed in the fileless ToolShell SharePoint intrusion."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "204.76.203.219",
+    "ioc_type": "ipv4",
+    "original_ioc": "204.76.203.219",
+    "hunt_ioc": "204.76.203.219",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Storm-2603 ToolShell SharePoint intrusion",
+    "malware_family": "vskp2 in-memory webshell / Warlock AV killer / abused remote-access tooling",
+    "threat_actor": "Storm-2603 (moderate-confidence)",
+    "source_organization": [
+      "Kaspersky"
+    ],
+    "source_article": [
+      "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603"
+    ],
+    "source_url": [
+      "https://securelist.com/storm-2603-fileless-toolshell-attack/121467"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Retrospective incident IOC; role: command-and-control.",
+    "sources": [
+      {
+        "organization": "Kaspersky",
+        "article_title": "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603",
+        "url": "https://securelist.com/storm-2603-fileless-toolshell-attack/121467",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "kaspersky-storm-2603-toolshell-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Kaspersky explicitly attributes this public IPv4 address to Storm-2603 infrastructure observed in the fileless ToolShell SharePoint intrusion."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "209.112.91.74",
+    "ioc_type": "ipv4",
+    "original_ioc": "209.112.91.74",
+    "hunt_ioc": "209.112.91.74",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "KeyHunter Operation — LLM API key theft, academic and financial fraud",
+    "malware_family": "KeyHunter adversary infrastructure",
+    "threat_actor": "leepsmarts / @leepsmartsx",
+    "source_organization": [
+      "SOCRadar"
+    ],
+    "source_article": [
+      "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Annex A role: primary C2 and work server.",
+    "sources": [
+      {
+        "organization": "SOCRadar",
+        "article_title": "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft",
+        "url": "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "socradar-keyhunter-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "SOCRadar Annex A explicitly lists this public IPv4 address as malicious KeyHunter operation infrastructure used for credential theft, fraud, command, or relay activity."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "47.236.254.159",
+    "ioc_type": "ipv4",
+    "original_ioc": "47.236.254.159",
+    "hunt_ioc": "47.236.254.159",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "SlippyNunchucks DNS hijacking of Sogou Input Method",
+    "malware_family": "DarkVigil (FDMTP)",
+    "threat_actor": "SlippyNunchucks China-aligned APT",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original ESET IOC-table value; public-address validation required.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware",
+        "url": "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "eset-slippynunchucks-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ESET's published IOC table explicitly identifies this public IPv4 address as malicious SlippyNunchucks campaign infrastructure associated with DarkVigil delivery or control."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "47.237.122.175",
+    "ioc_type": "ipv4",
+    "original_ioc": "47.237.122.175",
+    "hunt_ioc": "47.237.122.175",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "SlippyNunchucks DNS hijacking of Sogou Input Method",
+    "malware_family": "DarkVigil (FDMTP)",
+    "threat_actor": "SlippyNunchucks China-aligned APT",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Original ESET IOC-table value; public-address validation required.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware",
+        "url": "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "eset-slippynunchucks-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ESET's published IOC table explicitly identifies this public IPv4 address as malicious SlippyNunchucks campaign infrastructure associated with DarkVigil delivery or control."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "47.239.250.102",
+    "ioc_type": "ipv4",
+    "original_ioc": "47.239.250.102",
+    "hunt_ioc": "47.239.250.102",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "SlippyNunchucks DNS hijacking of Sogou Input Method",
+    "malware_family": "DarkVigil (FDMTP)",
+    "threat_actor": "SlippyNunchucks China-aligned APT",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Original ESET IOC-table value; public-address validation required.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware",
+        "url": "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "eset-slippynunchucks-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ESET's published IOC table explicitly identifies this public IPv4 address as malicious SlippyNunchucks campaign infrastructure associated with DarkVigil delivery or control."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "47.86.15.162",
+    "ioc_type": "ipv4",
+    "original_ioc": "47.86.15.162",
+    "hunt_ioc": "47.86.15.162",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "SlippyNunchucks DNS hijacking of Sogou Input Method",
+    "malware_family": "DarkVigil (FDMTP)",
+    "threat_actor": "SlippyNunchucks China-aligned APT",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Original ESET IOC-table value; public-address validation required.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware",
+        "url": "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "eset-slippynunchucks-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ESET's published IOC table explicitly identifies this public IPv4 address as malicious SlippyNunchucks campaign infrastructure associated with DarkVigil delivery or control."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "66.42.94.67",
+    "ioc_type": "ipv4",
+    "original_ioc": "66.42.94.67",
+    "hunt_ioc": "66.42.94.67",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "KeyHunter Operation — LLM API key theft, academic and financial fraud",
+    "malware_family": "KeyHunter adversary infrastructure",
+    "threat_actor": "leepsmarts / @leepsmartsx",
+    "source_organization": [
+      "SOCRadar"
+    ],
+    "source_article": [
+      "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 93,
+    "acceptance_score": 93,
+    "status": "NEW",
+    "notes": "Annex A role: relay gateway.",
+    "sources": [
+      {
+        "organization": "SOCRadar",
+        "article_title": "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft",
+        "url": "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.93,
+        "source_id": "socradar-keyhunter-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "SOCRadar Annex A explicitly lists this public IPv4 address as malicious KeyHunter operation infrastructure used for credential theft, fraud, command, or relay activity."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "91.224.92.121",
+    "ioc_type": "ipv4",
+    "original_ioc": "91.224.92.121",
+    "hunt_ioc": "91.224.92.121",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Storm-2603 ToolShell SharePoint intrusion",
+    "malware_family": "vskp2 in-memory webshell / Warlock AV killer / abused remote-access tooling",
+    "threat_actor": "Storm-2603 (moderate-confidence)",
+    "source_organization": [
+      "Kaspersky"
+    ],
+    "source_article": [
+      "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603"
+    ],
+    "source_url": [
+      "https://securelist.com/storm-2603-fileless-toolshell-attack/121467"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Retrospective incident IOC; role: command-and-control.",
+    "sources": [
+      {
+        "organization": "Kaspersky",
+        "article_title": "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603",
+        "url": "https://securelist.com/storm-2603-fileless-toolshell-attack/121467",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "kaspersky-storm-2603-toolshell-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Kaspersky explicitly attributes this public IPv4 address to Storm-2603 infrastructure observed in the fileless ToolShell SharePoint intrusion."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "95.133.231.28",
+    "ioc_type": "ipv4",
+    "original_ioc": "95.133.231.28",
+    "hunt_ioc": "95.133.231.28",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Poisoned Source APT29 mobile watering-hole",
+    "malware_family": "UltimateFingerprinter / DarkSword-derived iOS exploit chains / AndroSnitch",
+    "threat_actor": "APT29 / Midnight Blizzard / Cozy Bear",
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Public IPv4 from Sekoia's campaign IOC table.",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits",
+        "url": "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "sekoia-poisoned-source-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Sekoia's original technical report explicitly lists this public IPv4 address in its IOC table as APT29 infrastructure supporting the Poisoned Source mobile watering-hole operation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2b81aceab0142472d94eb42e500b27b1",
+    "ioc_type": "md5",
+    "original_ioc": "2b81aceab0142472d94eb42e500b27b1",
+    "hunt_ioc": "2b81aceab0142472d94eb42e500b27b1",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the imagent ROOFDECK in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2d9ebf9c042f596f435865b40edad928",
+    "ioc_type": "md5",
+    "original_ioc": "2d9ebf9c042f596f435865b40edad928",
+    "hunt_ioc": "2d9ebf9c042f596f435865b40edad928",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "Storm-2603 ToolShell SharePoint intrusion",
+    "malware_family": "vskp2 in-memory webshell / Warlock AV killer / abused remote-access tooling",
+    "threat_actor": "Storm-2603 (moderate-confidence)",
+    "source_organization": [
+      "Kaspersky"
+    ],
+    "source_article": [
+      "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603"
+    ],
+    "source_url": [
+      "https://securelist.com/storm-2603-fileless-toolshell-attack/121467"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Retrospective incident artifact from the original report.",
+    "sources": [
+      {
+        "organization": "Kaspersky",
+        "article_title": "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603",
+        "url": "https://securelist.com/storm-2603-fileless-toolshell-attack/121467",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "kaspersky-storm-2603-toolshell-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Kaspersky explicitly identifies this MD5 as the malicious Warlock AV-killer DLL used during the Storm-2603 ToolShell intrusion."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "73adaea97f003735335505858c1c6def",
+    "ioc_type": "md5",
+    "original_ioc": "73adaea97f003735335505858c1c6def",
+    "hunt_ioc": "73adaea97f003735335505858c1c6def",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the safari_updater loader in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "9d78ece09457907b730d139e4e0c64dd",
+    "ioc_type": "md5",
+    "original_ioc": "9d78ece09457907b730d139e4e0c64dd",
+    "hunt_ioc": "9d78ece09457907b730d139e4e0c64dd",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the trojanized Terraform provider, Multiverze in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "9d88b4494c7bc27b10358b68a899ad54",
+    "ioc_type": "md5",
+    "original_ioc": "9d88b4494c7bc27b10358b68a899ad54",
+    "hunt_ioc": "9d88b4494c7bc27b10358b68a899ad54",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the update.exe ROOFDECK in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "be60c52ca8a01fef7dc15c2f0ebb77d8",
+    "ioc_type": "md5",
+    "original_ioc": "be60c52ca8a01fef7dc15c2f0ebb77d8",
+    "hunt_ioc": "be60c52ca8a01fef7dc15c2f0ebb77d8",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the encrypted FLATROOF WOFF container in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "c22a69c45ec74af11a9f87f195ebd392",
+    "ioc_type": "md5",
+    "original_ioc": "c22a69c45ec74af11a9f87f195ebd392",
+    "hunt_ioc": "c22a69c45ec74af11a9f87f195ebd392",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the macOS RHA sibling in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "c43f594fac7544e5485cbbe441e470bf",
+    "ioc_type": "md5",
+    "original_ioc": "c43f594fac7544e5485cbbe441e470bf",
+    "hunt_ioc": "c43f594fac7544e5485cbbe441e470bf",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the macOS RHA sibling in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "dfa191ca6817ec56e6986e728b323f92",
+    "ioc_type": "md5",
+    "original_ioc": "dfa191ca6817ec56e6986e728b323f92",
+    "hunt_ioc": "dfa191ca6817ec56e6986e728b323f92",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the FLATROOF macOS payload in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "0b7ca6630ea1e66b7d96f3adf2a3e25b08fc1e92",
+    "ioc_type": "sha1",
+    "original_ioc": "0b7ca6630ea1e66b7d96f3adf2a3e25b08fc1e92",
+    "hunt_ioc": "0b7ca6630ea1e66b7d96f3adf2a3e25b08fc1e92",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the update.exe ROOFDECK in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "13888e384b2747758aca2e42dee7dc63393b9f57",
+    "ioc_type": "sha1",
+    "original_ioc": "13888e384b2747758aca2e42dee7dc63393b9f57",
+    "hunt_ioc": "13888e384b2747758aca2e42dee7dc63393b9f57",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the FLATROOF macOS payload in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "20e541a41fc8b0e201c7d26a66bbfd1d078f61b3",
+    "ioc_type": "sha1",
+    "original_ioc": "20e541a41fc8b0e201c7d26a66bbfd1d078f61b3",
+    "hunt_ioc": "20e541a41fc8b0e201c7d26a66bbfd1d078f61b3",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the macOS RHA sibling in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "3e16ba611782af6e45576d390488d28fd676bade",
+    "ioc_type": "sha1",
+    "original_ioc": "3e16ba611782af6e45576d390488d28fd676bade",
+    "hunt_ioc": "3e16ba611782af6e45576d390488d28fd676bade",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "SlippyNunchucks DNS hijacking of Sogou Input Method",
+    "malware_family": "DarkVigil (FDMTP)",
+    "threat_actor": "SlippyNunchucks China-aligned APT",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Original ESET IOC-table hash.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware",
+        "url": "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "eset-slippynunchucks-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ESET's published IOC table explicitly identifies this SHA1 as a malicious DarkVigil artifact deployed through the SlippyNunchucks campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "4402e44c0bc959ac22340041413de2482e8b5d53",
+    "ioc_type": "sha1",
+    "original_ioc": "4402e44c0bc959ac22340041413de2482e8b5d53",
+    "hunt_ioc": "4402e44c0bc959ac22340041413de2482e8b5d53",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the encrypted FLATROOF WOFF container in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "5728b11d30586bbfc1d8bd12df1c722a06e767a2",
+    "ioc_type": "sha1",
+    "original_ioc": "5728b11d30586bbfc1d8bd12df1c722a06e767a2",
+    "hunt_ioc": "5728b11d30586bbfc1d8bd12df1c722a06e767a2",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the macOS RHA sibling in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "8473f85bda00dfa3ecd2385dd38f69600d1d64a6",
+    "ioc_type": "sha1",
+    "original_ioc": "8473f85bda00dfa3ecd2385dd38f69600d1d64a6",
+    "hunt_ioc": "8473f85bda00dfa3ecd2385dd38f69600d1d64a6",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the trojanized Terraform provider, Multiverze in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "8a60a8e90e1f5f08f28fe5a6dd57bd686c20dc23",
+    "ioc_type": "sha1",
+    "original_ioc": "8a60a8e90e1f5f08f28fe5a6dd57bd686c20dc23",
+    "hunt_ioc": "8a60a8e90e1f5f08f28fe5a6dd57bd686c20dc23",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "SlippyNunchucks DNS hijacking of Sogou Input Method",
+    "malware_family": "DarkVigil (FDMTP)",
+    "threat_actor": "SlippyNunchucks China-aligned APT",
+    "source_organization": [
+      "ESET Research"
+    ],
+    "source_article": [
+      "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware"
+    ],
+    "source_url": [
+      "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Original ESET IOC-table hash.",
+    "sources": [
+      {
+        "organization": "ESET Research",
+        "article_title": "SlippyNunchucks hijacks Sogou Input Method’s brand promotion mechanism to distribute malware",
+        "url": "https://www.welivesecurity.com/en/eset-research/slippynunchucks-hijacks-sogou-input-methods-brand-promotion-mechanism-to-distribute-malware",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "eset-slippynunchucks-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ESET's published IOC table explicitly identifies this SHA1 as a malicious DarkVigil artifact deployed through the SlippyNunchucks campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "93c655963d7dd6cac017d9a59f54f7cee196fc89",
+    "ioc_type": "sha1",
+    "original_ioc": "93c655963d7dd6cac017d9a59f54f7cee196fc89",
+    "hunt_ioc": "93c655963d7dd6cac017d9a59f54f7cee196fc89",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the imagent ROOFDECK in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "d81081691c3631f3adc1a6db0ee22ab19682ef30",
+    "ioc_type": "sha1",
+    "original_ioc": "d81081691c3631f3adc1a6db0ee22ab19682ef30",
+    "hunt_ioc": "d81081691c3631f3adc1a6db0ee22ab19682ef30",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the safari_updater loader in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "06c17b31d36838f3d29044784aa047d5c2d9174d3356c1211cf25f9df677445f",
+    "ioc_type": "sha256",
+    "original_ioc": "06c17b31d36838f3d29044784aa047d5c2d9174d3356c1211cf25f9df677445f",
+    "hunt_ioc": "06c17b31d36838f3d29044784aa047d5c2d9174d3356c1211cf25f9df677445f",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Poisoned Source APT29 mobile watering-hole",
+    "malware_family": "UltimateFingerprinter / DarkSword-derived iOS exploit chains / AndroSnitch",
+    "threat_actor": "APT29 / Midnight Blizzard / Cozy Bear",
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Stage-specific hash from Sekoia's IOC appendix.",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits",
+        "url": "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "sekoia-poisoned-source-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Sekoia's original IOC appendix explicitly identifies this SHA256 as a malicious stage or artifact in the APT29 Poisoned Source mobile exploit chain."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "183d62d682aea8018491c8559544e8d6a9ab0e1abd05ecbb6c97daa4f438d2b8",
+    "ioc_type": "sha256",
+    "original_ioc": "183d62d682aea8018491c8559544e8d6a9ab0e1abd05ecbb6c97daa4f438d2b8",
+    "hunt_ioc": "183d62d682aea8018491c8559544e8d6a9ab0e1abd05ecbb6c97daa4f438d2b8",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Poisoned Source APT29 mobile watering-hole",
+    "malware_family": "UltimateFingerprinter / DarkSword-derived iOS exploit chains / AndroSnitch",
+    "threat_actor": "APT29 / Midnight Blizzard / Cozy Bear",
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Stage-specific hash from Sekoia's IOC appendix.",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits",
+        "url": "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "sekoia-poisoned-source-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Sekoia's original IOC appendix explicitly identifies this SHA256 as a malicious stage or artifact in the APT29 Poisoned Source mobile exploit chain."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "188bd4fc222c9615540884920caf37ea88bcbea7488e1fb98709e357dd096666",
+    "ioc_type": "sha256",
+    "original_ioc": "188bd4fc222c9615540884920caf37ea88bcbea7488e1fb98709e357dd096666",
+    "hunt_ioc": "188bd4fc222c9615540884920caf37ea88bcbea7488e1fb98709e357dd096666",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the trojanized Terraform provider, Multiverze in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "29d283ebd08d0cd3b2e6f4a67718d3d6e7a6be01d0613d716bce218dba57a928",
+    "ioc_type": "sha256",
+    "original_ioc": "29d283ebd08d0cd3b2e6f4a67718d3d6e7a6be01d0613d716bce218dba57a928",
+    "hunt_ioc": "29d283ebd08d0cd3b2e6f4a67718d3d6e7a6be01d0613d716bce218dba57a928",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Poisoned Source APT29 mobile watering-hole",
+    "malware_family": "UltimateFingerprinter / DarkSword-derived iOS exploit chains / AndroSnitch",
+    "threat_actor": "APT29 / Midnight Blizzard / Cozy Bear",
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Stage-specific hash from Sekoia's IOC appendix.",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits",
+        "url": "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "sekoia-poisoned-source-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Sekoia's original IOC appendix explicitly identifies this SHA256 as a malicious stage or artifact in the APT29 Poisoned Source mobile exploit chain."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2ffb35e3f9e55286a930fb887e73764a913166648135fe0ca7551736d97d7bfa",
+    "ioc_type": "sha256",
+    "original_ioc": "2ffb35e3f9e55286a930fb887e73764a913166648135fe0ca7551736d97d7bfa",
+    "hunt_ioc": "2ffb35e3f9e55286a930fb887e73764a913166648135fe0ca7551736d97d7bfa",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Poisoned Source APT29 mobile watering-hole",
+    "malware_family": "UltimateFingerprinter / DarkSword-derived iOS exploit chains / AndroSnitch",
+    "threat_actor": "APT29 / Midnight Blizzard / Cozy Bear",
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Stage-specific hash from Sekoia's IOC appendix.",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits",
+        "url": "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "sekoia-poisoned-source-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Sekoia's original IOC appendix explicitly identifies this SHA256 as a malicious stage or artifact in the APT29 Poisoned Source mobile exploit chain."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "387a7fb768db1350a9788d9704e7a72abe07152734e0ff026af72b417e36268c",
+    "ioc_type": "sha256",
+    "original_ioc": "387a7fb768db1350a9788d9704e7a72abe07152734e0ff026af72b417e36268c",
+    "hunt_ioc": "387a7fb768db1350a9788d9704e7a72abe07152734e0ff026af72b417e36268c",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Poisoned Source APT29 mobile watering-hole",
+    "malware_family": "UltimateFingerprinter / DarkSword-derived iOS exploit chains / AndroSnitch",
+    "threat_actor": "APT29 / Midnight Blizzard / Cozy Bear",
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Stage-specific hash from Sekoia's IOC appendix.",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits",
+        "url": "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "sekoia-poisoned-source-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Sekoia's original IOC appendix explicitly identifies this SHA256 as a malicious stage or artifact in the APT29 Poisoned Source mobile exploit chain."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "3c254614de8c1a2f213c526b0e5072d43ffeb7cc340d9a4a6ebaa16592b3bbe0",
+    "ioc_type": "sha256",
+    "original_ioc": "3c254614de8c1a2f213c526b0e5072d43ffeb7cc340d9a4a6ebaa16592b3bbe0",
+    "hunt_ioc": "3c254614de8c1a2f213c526b0e5072d43ffeb7cc340d9a4a6ebaa16592b3bbe0",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the FLATROOF macOS payload in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "451b586ec9d3c997b319986a1177829653e8ae641c953c05ede6a38616f2da97",
+    "ioc_type": "sha256",
+    "original_ioc": "451b586ec9d3c997b319986a1177829653e8ae641c953c05ede6a38616f2da97",
+    "hunt_ioc": "451b586ec9d3c997b319986a1177829653e8ae641c953c05ede6a38616f2da97",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the safari_updater loader in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "45e5463dcc76b1c762d00b15ca5bed1a9ebce5baff5cc50e035e447fee46ba42",
+    "ioc_type": "sha256",
+    "original_ioc": "45e5463dcc76b1c762d00b15ca5bed1a9ebce5baff5cc50e035e447fee46ba42",
+    "hunt_ioc": "45e5463dcc76b1c762d00b15ca5bed1a9ebce5baff5cc50e035e447fee46ba42",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Obfuscated PowerShell malware execution",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "abuse.ch MalwareBazaar"
+    ],
+    "source_article": [
+      "MalwareBazaar SHA256 45e5463d — malicious PowerShell sample with multi-vendor behavioral verdicts"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/45e5463dcc76b1c762d00b15ca5bed1a9ebce5baff5cc50e035e447fee46ba42"
+    ],
+    "article_published_date": [
+      "2026-11-04T05:02:13Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 85,
+    "acceptance_score": 85,
+    "status": "NEW",
+    "notes": "Family is unknown; confidence accounts for conflicting clean verdicts while retaining multiple explicit malicious behavioral verdicts.",
+    "sources": [
+      {
+        "organization": "abuse.ch MalwareBazaar",
+        "article_title": "MalwareBazaar SHA256 45e5463d — malicious PowerShell sample with multi-vendor behavioral verdicts",
+        "url": "https://bazaar.abuse.ch/sample/45e5463dcc76b1c762d00b15ca5bed1a9ebce5baff5cc50e035e447fee46ba42",
+        "published_at": "2026-11-04T05:02:13Z",
+        "updated_at": null,
+        "reliability": 0.85,
+        "source_id": "sample-sha256-45e5463dcc76b1c762d00b15ca5bed1a9ebce5baff5cc50e035e447fee46ba42",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "The individual MalwareBazaar record contains independent malicious verdicts from FileScan.IO, Joe Sandbox, Nucleon Malprob, and Hatching Triage, including obfuscated PowerShell, memory execution, and dropped executable behavior."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "4a84ab1364e81c73ee031668fb3b3e4daffb9cbdd714a88543c6932585ac661d",
+    "ioc_type": "sha256",
+    "original_ioc": "4a84ab1364e81c73ee031668fb3b3e4daffb9cbdd714a88543c6932585ac661d",
+    "hunt_ioc": "4a84ab1364e81c73ee031668fb3b3e4daffb9cbdd714a88543c6932585ac661d",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Multi-family ransomware and stealer execution",
+    "malware_family": "Amadey / BKRansomware / DarkGate / Elex / Maze / Smoke Loader labels",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Hatching Triage"
+    ],
+    "source_article": [
+      "Triage report 261105-ap1qsa112m — ransomware/stealer behavioral analysis"
+    ],
+    "source_url": [
+      "https://tria.ge/261105-ap1qsa112m"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 80,
+    "acceptance_score": 80,
+    "status": "NEW",
+    "notes": "Public individual report 261105-ap1qsa112m; report date is encoded at day precision.",
+    "sources": [
+      {
+        "organization": "Hatching Triage",
+        "article_title": "Triage report 261105-ap1qsa112m — ransomware/stealer behavioral analysis",
+        "url": "https://tria.ge/261105-ap1qsa112m",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.8,
+        "source_id": "triage-261105-ap1qsa112m",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Hatching Triage assigns an 8/10 score with ransomware, spyware, stealer, macro, defense-evasion, and discovery behavior, including dropped executable execution and browser-profile access."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "4ba58fba8e1293e1d980726323bda0fcd3cc1e5781a99e86638a4a7641b6ffd6",
+    "ioc_type": "sha256",
+    "original_ioc": "4ba58fba8e1293e1d980726323bda0fcd3cc1e5781a99e86638a4a7641b6ffd6",
+    "hunt_ioc": "4ba58fba8e1293e1d980726323bda0fcd3cc1e5781a99e86638a4a7641b6ffd6",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the imagent ROOFDECK in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "507b0ee413fad66b663b87037fff8a2ace16aca51b4c16aeead08700519936d7",
+    "ioc_type": "sha256",
+    "original_ioc": "507b0ee413fad66b663b87037fff8a2ace16aca51b4c16aeead08700519936d7",
+    "hunt_ioc": "507b0ee413fad66b663b87037fff8a2ace16aca51b4c16aeead08700519936d7",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "ClickFix/Foxveil macOS malware delivery",
+    "malware_family": "Foxveil",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus URL 4057587 — online ClickFix/Foxveil macOS malware download"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/4057587"
+    ],
+    "article_published_date": [
+      "2026-11-05T11:55:11Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Payload filename rs3v3bf2; first seen 2026-11-05.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus URL 4057587 — online ClickFix/Foxveil macOS malware download",
+        "url": "https://urlhaus.abuse.ch/url/4057587",
+        "published_at": "2026-11-05T11:55:11Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "urlhaus-url-4057587",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "URLhaus records this SHA256 as the exact payload retrieved from the online ClickFix/Foxveil malware-download URL."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "5146375b30213fbf5c7c3970238923b4da3c6e96025885e6833c4c57a39b59e9",
+    "ioc_type": "sha256",
+    "original_ioc": "5146375b30213fbf5c7c3970238923b4da3c6e96025885e6833c4c57a39b59e9",
+    "hunt_ioc": "5146375b30213fbf5c7c3970238923b4da3c6e96025885e6833c4c57a39b59e9",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Unknown Loader payload distribution",
+    "malware_family": "Unknown Loader",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 2015263 — Unknown Loader SHA256 payload"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2015263"
+    ],
+    "article_published_date": [
+      "2026-11-05T03:57:31Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 80,
+    "acceptance_score": 80,
+    "status": "NEW",
+    "notes": "First captured 2026-11-03; submitted by Tuxxin; ThreatFox marks compromised=false.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 2015263 — Unknown Loader SHA256 payload",
+        "url": "https://threatfox.abuse.ch/ioc/2015263",
+        "published_at": "2026-11-05T03:57:31Z",
+        "updated_at": null,
+        "reliability": 0.8,
+        "source_id": "threatfox-ioc-2015263",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ThreatFox identifies this SHA256 as a payload IOC for an Unknown Loader, tagged Dropper and ps1, with 80 percent confidence and 20 malicious VirusTotal-engine detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "61a110681a70af3dc21634558e12b1c00964f0cf48e90c89896eb0fda1e60b2d",
+    "ioc_type": "sha256",
+    "original_ioc": "61a110681a70af3dc21634558e12b1c00964f0cf48e90c89896eb0fda1e60b2d",
+    "hunt_ioc": "61a110681a70af3dc21634558e12b1c00964f0cf48e90c89896eb0fda1e60b2d",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the macOS RHA sibling in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "62e988e9affcd000657bef4db47eb2e85c9a4cc42f4832780a02e19624e36e38",
+    "ioc_type": "sha256",
+    "original_ioc": "62e988e9affcd000657bef4db47eb2e85c9a4cc42f4832780a02e19624e36e38",
+    "hunt_ioc": "62e988e9affcd000657bef4db47eb2e85c9a4cc42f4832780a02e19624e36e38",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the encrypted FLATROOF WOFF container in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "69b6cb327a4d5da99399718f6a66f84de69f89425b0a31f2dcee0682f811596f",
+    "ioc_type": "sha256",
+    "original_ioc": "69b6cb327a4d5da99399718f6a66f84de69f89425b0a31f2dcee0682f811596f",
+    "hunt_ioc": "69b6cb327a4d5da99399718f6a66f84de69f89425b0a31f2dcee0682f811596f",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Poisoned Source APT29 mobile watering-hole",
+    "malware_family": "UltimateFingerprinter / DarkSword-derived iOS exploit chains / AndroSnitch",
+    "threat_actor": "APT29 / Midnight Blizzard / Cozy Bear",
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Stage-specific hash from Sekoia's IOC appendix.",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits",
+        "url": "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "sekoia-poisoned-source-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Sekoia's original IOC appendix explicitly identifies this SHA256 as a malicious stage or artifact in the APT29 Poisoned Source mobile exploit chain."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "70b159865aa01a5f65448c2756ad0d8abfe50d3e7261afafcb0b97b8ed7028c5",
+    "ioc_type": "sha256",
+    "original_ioc": "70b159865aa01a5f65448c2756ad0d8abfe50d3e7261afafcb0b97b8ed7028c5",
+    "hunt_ioc": "70b159865aa01a5f65448c2756ad0d8abfe50d3e7261afafcb0b97b8ed7028c5",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current executable malware delivery",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus URL 4057580 — online executable malware download"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/4057580"
+    ],
+    "article_published_date": [
+      "2026-11-05T11:46:07Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Payload filename build_Btthhfx.exe; first seen 2026-11-05.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus URL 4057580 — online executable malware download",
+        "url": "https://urlhaus.abuse.ch/url/4057580",
+        "published_at": "2026-11-05T11:46:07Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "urlhaus-url-4057580",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "URLhaus records this SHA256 as the exact executable payload retrieved from an online malware-download URL."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a7d2493df00565c21587b0cad2a9fe7ca1e5590acf796da6e499be0ffde44cc3",
+    "ioc_type": "sha256",
+    "original_ioc": "a7d2493df00565c21587b0cad2a9fe7ca1e5590acf796da6e499be0ffde44cc3",
+    "hunt_ioc": "a7d2493df00565c21587b0cad2a9fe7ca1e5590acf796da6e499be0ffde44cc3",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Poisoned Source APT29 mobile watering-hole",
+    "malware_family": "UltimateFingerprinter / DarkSword-derived iOS exploit chains / AndroSnitch",
+    "threat_actor": "APT29 / Midnight Blizzard / Cozy Bear",
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Stage-specific hash from Sekoia's IOC appendix.",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits",
+        "url": "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "sekoia-poisoned-source-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Sekoia's original IOC appendix explicitly identifies this SHA256 as a malicious stage or artifact in the APT29 Poisoned Source mobile exploit chain."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "bee3e014e3df87ddce0250b0985b87f6868a427a7b650a74b7ffedb9d57f3088",
+    "ioc_type": "sha256",
+    "original_ioc": "bee3e014e3df87ddce0250b0985b87f6868a427a7b650a74b7ffedb9d57f3088",
+    "hunt_ioc": "bee3e014e3df87ddce0250b0985b87f6868a427a7b650a74b7ffedb9d57f3088",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Poisoned Source APT29 mobile watering-hole",
+    "malware_family": "UltimateFingerprinter / DarkSword-derived iOS exploit chains / AndroSnitch",
+    "threat_actor": "APT29 / Midnight Blizzard / Cozy Bear",
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Stage-specific hash from Sekoia's IOC appendix.",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits",
+        "url": "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "sekoia-poisoned-source-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Sekoia's original IOC appendix explicitly identifies this SHA256 as a malicious stage or artifact in the APT29 Poisoned Source mobile exploit chain."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "c170fda024183645c0aa681149304e50506509c3498bb6b9a5f5ced6aa73e5fa",
+    "ioc_type": "sha256",
+    "original_ioc": "c170fda024183645c0aa681149304e50506509c3498bb6b9a5f5ced6aa73e5fa",
+    "hunt_ioc": "c170fda024183645c0aa681149304e50506509c3498bb6b9a5f5ced6aa73e5fa",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Poisoned Source APT29 mobile watering-hole",
+    "malware_family": "UltimateFingerprinter / DarkSword-derived iOS exploit chains / AndroSnitch",
+    "threat_actor": "APT29 / Midnight Blizzard / Cozy Bear",
+    "source_organization": [
+      "Sekoia.io"
+    ],
+    "source_article": [
+      "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits"
+    ],
+    "source_url": [
+      "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Stage-specific hash from Sekoia's IOC appendix.",
+    "sources": [
+      {
+        "organization": "Sekoia.io",
+        "article_title": "Poisoned Source: APT29 watering holes target mobile devices with n-day exploits",
+        "url": "https://www.sekoia.com/blog/poisoned-source-apt29-watering-holes-targets-mobile-devices-with-n-day-exploits",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "sekoia-poisoned-source-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Sekoia's original IOC appendix explicitly identifies this SHA256 as a malicious stage or artifact in the APT29 Poisoned Source mobile exploit chain."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "e1c71374814e5d907afb913108090b8abf21ae2131c0880f013a3b9108a9d0fc",
+    "ioc_type": "sha256",
+    "original_ioc": "e1c71374814e5d907afb913108090b8abf21ae2131c0880f013a3b9108a9d0fc",
+    "hunt_ioc": "e1c71374814e5d907afb913108090b8abf21ae2131c0880f013a3b9108a9d0fc",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the update.exe ROOFDECK in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "f3404ef308098202246f2f3c38c8c3166e9a8e7843ec69c1b11ac0ce9cb4038e",
+    "ioc_type": "sha256",
+    "original_ioc": "f3404ef308098202246f2f3c38c8c3166e9a8e7843ec69c1b11ac0ce9cb4038e",
+    "hunt_ioc": "f3404ef308098202246f2f3c38c8c3166e9a8e7843ec69c1b11ac0ce9cb4038e",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "TraderTraitor-toolset IOC from ReversingLabs; attribution is broader than the Binance incident.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this hash as the macOS RHA sibling in the malicious TraderTraitor toolset surrounding the investigated activity; the report does not claim it is proven Binance-heist specific."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://209.112.91.74:9997/",
+    "ioc_type": "url",
+    "original_ioc": "http://209.112.91.74:9997/",
+    "hunt_ioc": "209.112.91.74",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "KeyHunter Operation — LLM API key theft, academic and financial fraud",
+    "malware_family": "KeyHunter adversary infrastructure",
+    "threat_actor": "leepsmarts / @leepsmartsx",
+    "source_organization": [
+      "SOCRadar"
+    ],
+    "source_article": [
+      "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft"
+    ],
+    "source_url": [
+      "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Preserve exact URL; hunting normalizes it to the validated public IP host.",
+    "sources": [
+      {
+        "organization": "SOCRadar",
+        "article_title": "KeyHunter Operation: Harvard Alumni Data, Stanford Applications and LLM Key Theft",
+        "url": "https://socradar.io/blog/keyhunter-operation-harvard-alumni-stanford-llm-key-data",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "socradar-keyhunter-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "SOCRadar Annex A explicitly identifies this exact URL as the malicious KeyHunter operation command-and-control and work-server endpoint."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://arusupport-region1-webhook.online/statics/cache/v11/abicfjej",
+    "ioc_type": "url",
+    "original_ioc": "https://arusupport-region1-webhook.online/statics/cache/v11/abicfjej",
+    "hunt_ioc": "arusupport-region1-webhook.online",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Preserve exact shared-service path in documentation; hunts pivot to the validated public host.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this exact URL as malicious TraderTraitor delivery or command infrastructure in the surrounding toolset; it is not claimed as proven Binance-heist infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://auth.qgtxtebl.workers.dev/",
+    "ioc_type": "url",
+    "original_ioc": "https://auth.qgtxtebl.workers.dev/",
+    "hunt_ioc": "auth.qgtxtebl.workers.dev",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Storm-2603 ToolShell SharePoint intrusion",
+    "malware_family": "vskp2 in-memory webshell / Warlock AV killer / abused remote-access tooling",
+    "threat_actor": "Storm-2603 (moderate-confidence)",
+    "source_organization": [
+      "Kaspersky"
+    ],
+    "source_article": [
+      "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603"
+    ],
+    "source_url": [
+      "https://securelist.com/storm-2603-fileless-toolshell-attack/121467"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 94,
+    "acceptance_score": 94,
+    "status": "NEW",
+    "notes": "Unique Workers subdomain used as the Velociraptor server; publish the full URL and derive only its host for hunting.",
+    "sources": [
+      {
+        "organization": "Kaspersky",
+        "article_title": "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603",
+        "url": "https://securelist.com/storm-2603-fileless-toolshell-attack/121467",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.94,
+        "source_id": "kaspersky-storm-2603-toolshell-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Kaspersky's incident report explicitly lists this exact URL as malicious Storm-2603 payload-delivery or command infrastructure observed in the ToolShell intrusion."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://diagnose.hashicorp-terraform.io/plugins/grpc/v6/schema/metrics/333afe63-c5a2-43f0-b046-7cbaa7797e8a",
+    "ioc_type": "url",
+    "original_ioc": "https://diagnose.hashicorp-terraform.io/plugins/grpc/v6/schema/metrics/333afe63-c5a2-43f0-b046-7cbaa7797e8a",
+    "hunt_ioc": "diagnose.hashicorp-terraform.io",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Preserve exact shared-service path in documentation; hunts pivot to the validated public host.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this exact URL as malicious TraderTraitor delivery or command infrastructure in the surrounding toolset; it is not claimed as proven Binance-heist infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://files.catbox.moe/8f7vex.msi",
+    "ioc_type": "url",
+    "original_ioc": "https://files.catbox.moe/8f7vex.msi",
+    "hunt_ioc": "files.catbox.moe",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Storm-2603 ToolShell SharePoint intrusion",
+    "malware_family": "vskp2 in-memory webshell / Warlock AV killer / abused remote-access tooling",
+    "threat_actor": "Storm-2603 (moderate-confidence)",
+    "source_organization": [
+      "Kaspersky"
+    ],
+    "source_article": [
+      "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603"
+    ],
+    "source_url": [
+      "https://securelist.com/storm-2603-fileless-toolshell-attack/121467"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Exact shared Catbox object; publish the full URL and derive only its host for hunting.",
+    "sources": [
+      {
+        "organization": "Kaspersky",
+        "article_title": "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603",
+        "url": "https://securelist.com/storm-2603-fileless-toolshell-attack/121467",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "kaspersky-storm-2603-toolshell-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Kaspersky's incident report explicitly lists this exact URL as malicious Storm-2603 payload-delivery or command infrastructure observed in the ToolShell intrusion."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://pannki.com/build_Btthhfx.exe",
+    "ioc_type": "url",
+    "original_ioc": "https://pannki.com/build_Btthhfx.exe",
+    "hunt_ioc": "pannki.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Current executable malware delivery",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus URL 4057580 — online executable malware download"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/4057580"
+    ],
+    "article_published_date": [
+      "2026-11-05T11:46:07Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Reporter abuse_ch; exact-path evidence supports the URL, not the bare parent domain.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus URL 4057580 — online executable malware download",
+        "url": "https://urlhaus.abuse.ch/url/4057580",
+        "published_at": "2026-11-05T11:46:07Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "urlhaus-url-4057580",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "URLhaus marks this exact path online and actively spreading malware; it is categorized as a malware download and blocked by URLhaus, Spamhaus, and SURBL."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://pastebin.com/raw/3yptBDhL",
+    "ioc_type": "url",
+    "original_ioc": "https://pastebin.com/raw/3yptBDhL",
+    "hunt_ioc": "pastebin.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Preserve exact shared-service path in documentation; hunts pivot to the validated public host.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this exact URL as malicious TraderTraitor delivery or command infrastructure in the surrounding toolset; it is not claimed as proven Binance-heist infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://schemaleap1.com/f/hjyzam087lx6gnvy44p9wa/rs3v3bf2",
+    "ioc_type": "url",
+    "original_ioc": "https://schemaleap1.com/f/hjyzam087lx6gnvy44p9wa/rs3v3bf2",
+    "hunt_ioc": "schemaleap1.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "ClickFix/Foxveil macOS malware delivery",
+    "malware_family": "Foxveil",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "abuse.ch URLhaus"
+    ],
+    "source_article": [
+      "URLhaus URL 4057587 — online ClickFix/Foxveil macOS malware download"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/4057587"
+    ],
+    "article_published_date": [
+      "2026-11-05T11:55:11Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Reporter c4ffeine; exact-path evidence supports the URL, not the bare parent domain.",
+    "sources": [
+      {
+        "organization": "abuse.ch URLhaus",
+        "article_title": "URLhaus URL 4057587 — online ClickFix/Foxveil macOS malware download",
+        "url": "https://urlhaus.abuse.ch/url/4057587",
+        "published_at": "2026-11-05T11:55:11Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "urlhaus-url-4057587",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "URLhaus marks this exact URL online and spreading malware, with ClickFix, Foxveil, macOS, and ua-curl tags; URLhaus, Spamhaus, and SURBL block it."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://sk8093s.org/",
+    "ioc_type": "url",
+    "original_ioc": "https://sk8093s.org/",
+    "hunt_ioc": "sk8093s.org",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "WARDENStealer command-and-control",
+    "malware_family": "WARDENStealer",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "abuse.ch ThreatFox"
+    ],
+    "source_article": [
+      "ThreatFox IOC 2015936 — WARDENStealer botnet C2 URL"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2015936"
+    ],
+    "article_published_date": [
+      "2026-11-05T12:44:23Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 75,
+    "acceptance_score": 75,
+    "status": "NEW",
+    "notes": "Reporter Myrtus0x0; ThreatFox marks compromised=false. Preserve exact URL and pivot only to the host for hunts.",
+    "sources": [
+      {
+        "organization": "abuse.ch ThreatFox",
+        "article_title": "ThreatFox IOC 2015936 — WARDENStealer botnet C2 URL",
+        "url": "https://threatfox.abuse.ch/ioc/2015936",
+        "published_at": "2026-11-05T12:44:23Z",
+        "updated_at": null,
+        "reliability": 0.75,
+        "source_id": "threatfox-ioc-2015936",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ThreatFox explicitly classifies this URL as WARDENStealer botnet command-and-control infrastructure with 75 percent confidence."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://stage-fashion365.vercel.app/static/tinymce4.7.5/plugins/fonts/v1104",
+    "ioc_type": "url",
+    "original_ioc": "https://stage-fashion365.vercel.app/static/tinymce4.7.5/plugins/fonts/v1104",
+    "hunt_ioc": "stage-fashion365.vercel.app",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Preserve exact shared-service path in documentation; hunts pivot to the validated public host.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this exact URL as malicious TraderTraitor delivery or command infrastructure in the surrounding toolset; it is not claimed as proven Binance-heist infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://supportaru.serveftp.com/statics/cache/v11/",
+    "ioc_type": "url",
+    "original_ioc": "https://supportaru.serveftp.com/statics/cache/v11/",
+    "hunt_ioc": "supportaru.serveftp.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "TraderTraitor developer-targeted Terraform/FLATROOF/ROOFDECK toolset",
+    "malware_family": "TraderTraitor / FLATROOF / ROOFDECK",
+    "threat_actor": "Jade Sleet / UNC4899 / Slow Pisces (DPRK-linked)",
+    "source_organization": [
+      "ReversingLabs"
+    ],
+    "source_article": [
+      "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit"
+    ],
+    "source_url": [
+      "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit"
+    ],
+    "article_published_date": [
+      "2026-11-04T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Preserve exact shared-service path in documentation; hunts pivot to the validated public host.",
+    "sources": [
+      {
+        "organization": "ReversingLabs",
+        "article_title": "Binance heist: what we know, and what RL sees in TraderTraitor's toolkit",
+        "url": "https://www.reversinglabs.com/blog/binance-heist-what-we-know-and-what-rl-sees-in-tradertraitors-toolkit",
+        "published_at": "2026-11-04T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "reversinglabs-tradertraitor-2026-11-04",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "ReversingLabs explicitly identifies this exact URL as malicious TraderTraitor delivery or command infrastructure in the surrounding toolset; it is not claimed as proven Binance-heist infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://vdfccjpnedujhrzscjtq.supabase.co/storage/v1/object/public/image/v4.msi",
+    "ioc_type": "url",
+    "original_ioc": "https://vdfccjpnedujhrzscjtq.supabase.co/storage/v1/object/public/image/v4.msi",
+    "hunt_ioc": "vdfccjpnedujhrzscjtq.supabase.co",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Storm-2603 ToolShell SharePoint intrusion",
+    "malware_family": "vskp2 in-memory webshell / Warlock AV killer / abused remote-access tooling",
+    "threat_actor": "Storm-2603 (moderate-confidence)",
+    "source_organization": [
+      "Kaspersky"
+    ],
+    "source_article": [
+      "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603"
+    ],
+    "source_url": [
+      "https://securelist.com/storm-2603-fileless-toolshell-attack/121467"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-05T14:01:53Z",
+    "confidence": 92,
+    "acceptance_score": 92,
+    "status": "NEW",
+    "notes": "Exact shared Supabase object; publish the full URL and derive only its host for hunting.",
+    "sources": [
+      {
+        "organization": "Kaspersky",
+        "article_title": "The SOC Files 5: Ghost in the pipeline, or a fileless SharePoint breach by Storm-2603",
+        "url": "https://securelist.com/storm-2603-fileless-toolshell-attack/121467",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.92,
+        "source_id": "kaspersky-storm-2603-toolshell-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-03T14:01:53Z",
+        "discovery_context": [
+          "Kaspersky's incident report explicitly lists this exact URL as malicious Storm-2603 payload-delivery or command infrastructure observed in the ToolShell intrusion."
+        ]
+      }
+    ]
+  }
+]

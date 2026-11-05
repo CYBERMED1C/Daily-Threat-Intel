@@ -1,0 +1,21 @@
+// Query name: CYBERMEDIC Daily IOC Hunt
+// Description: Search 30-day Microsoft Defender telemetry for validated IOC values.
+// Author : CYBERMEDIC
+// Last updated: 2026-11-05
+// MITRE ATT&CK mapping: N/A - IOC lookup
+// Notes: One runnable query; exact IOC filters precede the 500-result limit.
+// Sources: See the daily IOC summary for 2026-11-05.
+union
+(
+DeviceNetworkEvents
+| where Timestamp >= ago(30d)
+| where RemoteUrl in~ ("ad.starx-net.com","adsprism-stat.com","agent.xxtt.me","america250.holiday","arusupport-region1-webhook.online","astrdark.cyou","auth.qgtxtebl.workers.dev","blog.wangmengfun.top","delay.servehttp.com","dev.soft-png-cdn.com","diagnose.hashicorp-terraform.io","edge-ord.clouds-stacks.com","files.catbox.moe","img.fusfun.top","mail2.bfvdoor.com","new74.osxwrong.us.com","pannki.com","pastebin.com","pentagi.senhai.store","registry.hashicorp-aws.com","registry.hashicorp-terraform.io","sajuai.xyz","schemaleap1.com","senhai.store","sk8093s.org","snap.senhai.store","sogou-cdn.com","stage-fashion365.vercel.app","static.flux-telemetry.com","supportaru.serveftp.com","tavily.astrdark.cyou","theowo.club","update.mssproxy.net","vdfccjpnedujhrzscjtq.supabase.co","vvbin.me","web.712019.xyz","xxtt.me") or RemoteIP in~ ("109.104.106.107","123.60.2.245","14.47.118.194","173.231.39.244","195.58.140.105","199.232.210.172","204.76.203.219","209.112.91.74","47.236.254.159","47.237.122.175","47.239.250.102","47.86.15.162","66.42.94.67","91.224.92.121","95.133.231.28")
+| project Timestamp,DeviceName,RemoteIP,RemotePort,RemoteUrl,InitiatingProcessFileName
+),
+(
+DeviceFileEvents
+| where Timestamp >= ago(30d)
+| where MD5 in~ ("2b81aceab0142472d94eb42e500b27b1","2d9ebf9c042f596f435865b40edad928","73adaea97f003735335505858c1c6def","9d78ece09457907b730d139e4e0c64dd","9d88b4494c7bc27b10358b68a899ad54","be60c52ca8a01fef7dc15c2f0ebb77d8","c22a69c45ec74af11a9f87f195ebd392","c43f594fac7544e5485cbbe441e470bf","dfa191ca6817ec56e6986e728b323f92") or SHA1 in~ ("0b7ca6630ea1e66b7d96f3adf2a3e25b08fc1e92","13888e384b2747758aca2e42dee7dc63393b9f57","20e541a41fc8b0e201c7d26a66bbfd1d078f61b3","3e16ba611782af6e45576d390488d28fd676bade","4402e44c0bc959ac22340041413de2482e8b5d53","5728b11d30586bbfc1d8bd12df1c722a06e767a2","8473f85bda00dfa3ecd2385dd38f69600d1d64a6","8a60a8e90e1f5f08f28fe5a6dd57bd686c20dc23","93c655963d7dd6cac017d9a59f54f7cee196fc89","d81081691c3631f3adc1a6db0ee22ab19682ef30") or SHA256 in~ ("06c17b31d36838f3d29044784aa047d5c2d9174d3356c1211cf25f9df677445f","183d62d682aea8018491c8559544e8d6a9ab0e1abd05ecbb6c97daa4f438d2b8","188bd4fc222c9615540884920caf37ea88bcbea7488e1fb98709e357dd096666","29d283ebd08d0cd3b2e6f4a67718d3d6e7a6be01d0613d716bce218dba57a928","2ffb35e3f9e55286a930fb887e73764a913166648135fe0ca7551736d97d7bfa","387a7fb768db1350a9788d9704e7a72abe07152734e0ff026af72b417e36268c","3c254614de8c1a2f213c526b0e5072d43ffeb7cc340d9a4a6ebaa16592b3bbe0","451b586ec9d3c997b319986a1177829653e8ae641c953c05ede6a38616f2da97","45e5463dcc76b1c762d00b15ca5bed1a9ebce5baff5cc50e035e447fee46ba42","4a84ab1364e81c73ee031668fb3b3e4daffb9cbdd714a88543c6932585ac661d","4ba58fba8e1293e1d980726323bda0fcd3cc1e5781a99e86638a4a7641b6ffd6","507b0ee413fad66b663b87037fff8a2ace16aca51b4c16aeead08700519936d7","5146375b30213fbf5c7c3970238923b4da3c6e96025885e6833c4c57a39b59e9","61a110681a70af3dc21634558e12b1c00964f0cf48e90c89896eb0fda1e60b2d","62e988e9affcd000657bef4db47eb2e85c9a4cc42f4832780a02e19624e36e38","69b6cb327a4d5da99399718f6a66f84de69f89425b0a31f2dcee0682f811596f","70b159865aa01a5f65448c2756ad0d8abfe50d3e7261afafcb0b97b8ed7028c5","a7d2493df00565c21587b0cad2a9fe7ca1e5590acf796da6e499be0ffde44cc3","bee3e014e3df87ddce0250b0985b87f6868a427a7b650a74b7ffedb9d57f3088","c170fda024183645c0aa681149304e50506509c3498bb6b9a5f5ced6aa73e5fa","e1c71374814e5d907afb913108090b8abf21ae2131c0880f013a3b9108a9d0fc","f3404ef308098202246f2f3c38c8c3166e9a8e7843ec69c1b11ac0ce9cb4038e")
+| project Timestamp,DeviceName,FileName,FolderPath,MD5,SHA1,SHA256,InitiatingProcessFileName
+)
+| top 500 by Timestamp desc
