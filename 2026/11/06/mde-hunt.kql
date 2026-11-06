@@ -1,0 +1,21 @@
+// Query name: CYBERMEDIC Daily IOC Hunt
+// Description: Search 30-day Microsoft Defender telemetry for validated IOC values.
+// Author : CYBERMEDIC
+// Last updated: 2026-11-06
+// MITRE ATT&CK mapping: N/A - IOC lookup
+// Notes: One runnable query; exact IOC filters precede the 500-result limit.
+// Sources: See the daily IOC summary for 2026-11-06.
+union
+(
+DeviceNetworkEvents
+| where Timestamp >= ago(30d)
+| where RemoteUrl in~ ("carloxmextos.org","kenobuias.com","oscofneuid.com","splace.co.za","wekash.net") or RemoteIP in~ ("136.0.141.71","157.22.126.128","192.3.73.173","199.19.77.84","65.87.223.26")
+| project Timestamp,DeviceName,RemoteIP,RemotePort,RemoteUrl,InitiatingProcessFileName
+),
+(
+DeviceFileEvents
+| where Timestamp >= ago(30d)
+| where MD5 in~ ("965aea67fb40de1bab5169ada993349f","d3f4e95113d49ab3991b45e457bda75b","e505d4ffa21cf494a5dc2d7c8f4f1236") or SHA1 in~ ("0d83344fee8973165e5009768c1752095a57f3c1","20068b91036145b3e1b1d7e294b7a2f5ba26bd7f","2b5eeabbc52a25172123c2e7789c977e6bb557af","3a1f9060dad56cd08e87fcafa2c87b99295b3db3","413e1c8661ec11fc8e7f9a7caccfc9c54cb1ea3d","562d8360854005e90ae316c1350b9660ffd3e6f9","6a37c3d4beb80ae1689dbbedcb53a86f85c8e44a","746dc75b1b887812db37b3801e104d887b2c8707","8531fe2db41e9e08525080be6d3e8092c5ffa5f8","9e6889b1445e30d9d28849cbffed5a3123408646","ace41996dc5b7ecdb68c2222fc7af8e6f3b7d839","b164a1bf2c7b478ce040e479377526c00885ab7f","b9e84889c9760460f53c9b49cb43a636bb721d28","c8f5abb80e9c936d6bd5da99c10e829cde69a8f5","c9258f527fe447431ff983aa76866e340db98e60","cca7187d5cbf31b3e785f21309bb60b9247a4fb4","d7b4d33c38deb0978b71ef79ff4df9fb90118cc2","da997eeb64a3879af819c5cdda3aa5a236c55a25","fd4a2c02ab5a99b5420538c8b1bfef6fa4fbd7fe") or SHA256 in~ ("2b727ad4f4e5a3381412f3e95d3e86b382975e8c35489713713a0c82d3a62c3f","38a74cb15d6e3543a3848066c404424978bf80cc4619ba44c68e623f35decca4","54e4e8c5dfb51a7dd161bbc07760938359b2e438b99e3f133dfc311eef6bac88","72966b30bbd87e42c683d2ac7a42bb62021fc14389d508551432ffd70d62f33a","98fcaae2683982588110cd3933e6c5e0fdd4b045625c93743e81f127d2133d44","aa70e8ca3e7496e7b81cdc10f18af1b4f692537d814d5d934d48822dad2dc0ab","bedd2297739632da8ee470367295fe976e55be74d628dcaee7fa98121ee530f1","c3b4823e9788c9d188e2d902a78e3ac21641452dc9d988160d3ae4fa549dd02a","c438b9a3bb67e2c10eff0d01513422dc17dce7c5508303a680e46f3dcec886ef","ce832350c165522db03db040ca07917976d1a91f97e7016ea36dcc6b53e0eb13","d742f69edd851b97f20d0a6809a9ad5e9178eafaff03b05b501a822b5f075811","f8b49891d15a578e4de28fecf99d0d78db6b2c3da81cd51c931b8d128e60c187")
+| project Timestamp,DeviceName,FileName,FolderPath,MD5,SHA1,SHA256,InitiatingProcessFileName
+)
+| top 500 by Timestamp desc

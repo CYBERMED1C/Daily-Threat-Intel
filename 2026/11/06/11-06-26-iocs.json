@@ -1,0 +1,2258 @@
+[
+  {
+    "ioc": "carloxmextos.org",
+    "ioc_type": "domain",
+    "original_ioc": "carloxmextos.org",
+    "hunt_ioc": "carloxmextos.org",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Spanish-language purchase-order and payroll phishing delivering Agent Tesla",
+    "malware_family": "Agent Tesla",
+    "threat_actor": "Unattributed email threat actors",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Email threat landscape: Q3 2026 trends and insights"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": "2026-09-21T00:00:00Z",
+    "ioc_last_seen": "2026-09-21T00:00:00Z",
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact Microsoft IOC-table value.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Email threat landscape: Q3 2026 trends and insights",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "microsoft-email-q3-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Microsoft's IOC table identifies this authenticated domain as the sender infrastructure for both Agent Tesla delivery variations."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "kenobuias.com",
+    "ioc_type": "domain",
+    "original_ioc": "kenobuias.com",
+    "hunt_ioc": "kenobuias.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Aquafina Mirax Android device-takeover campaign targeting META banking customers",
+    "malware_family": "Mirax Android RAT / banking malware",
+    "threat_actor": "MiraxBot-affiliate operators (unattributed)",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/mirax-android-device-takeover-rat"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact Group-IB IOC-table value for Mirax.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
+        "url": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "groupib-mirax-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Group-IB's public IOC appendix explicitly attributes this indicator to the ongoing Aquafina Mirax Android device-takeover malware campaign, which had thousands of infected devices at publication."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "oscofneuid.com",
+    "ioc_type": "domain",
+    "original_ioc": "oscofneuid.com",
+    "hunt_ioc": "oscofneuid.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Aquafina Mirax Android device-takeover campaign targeting META banking customers",
+    "malware_family": "Mirax Android RAT / banking malware",
+    "threat_actor": "MiraxBot-affiliate operators (unattributed)",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/mirax-android-device-takeover-rat"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact Group-IB IOC-table value for Mirax.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
+        "url": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "groupib-mirax-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Group-IB's public IOC appendix explicitly attributes this indicator to the ongoing Aquafina Mirax Android device-takeover malware campaign, which had thousands of infected devices at publication."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "splace.co.za",
+    "ioc_type": "domain",
+    "original_ioc": "splace.co.za",
+    "hunt_ioc": "splace.co.za",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Salary-review QR device-code phishing targeting legal organizations",
+    "malware_family": "Device-code credential phishing",
+    "threat_actor": "Unattributed email threat actors",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Email threat landscape: Q3 2026 trends and insights"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": "2026-08-19T00:00:00Z",
+    "ioc_last_seen": "2026-08-20T23:59:59Z",
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Microsoft IOC-table value.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Email threat landscape: Q3 2026 trends and insights",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "microsoft-email-q3-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Microsoft's IOC table identifies this domain as hosting the campaign's OneDrive-impersonation phishing content."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "wekash.net",
+    "ioc_type": "domain",
+    "original_ioc": "wekash.net",
+    "hunt_ioc": "wekash.net",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Salary-review QR device-code phishing targeting legal organizations",
+    "malware_family": "Device-code credential phishing",
+    "threat_actor": "Unattributed email threat actors",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Email threat landscape: Q3 2026 trends and insights"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": "2026-08-19T00:00:00Z",
+    "ioc_last_seen": "2026-08-20T23:59:59Z",
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact Microsoft IOC-table value.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Email threat landscape: Q3 2026 trends and insights",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "microsoft-email-q3-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Microsoft's IOC table identifies this as the sender domain used to distribute the salary-review phishing campaign via Amazon SES."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "136.0.141.71",
+    "ioc_type": "ipv4",
+    "original_ioc": "136.0.141.71",
+    "hunt_ioc": "136.0.141.71",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "CWPdoor trojanized Control Web Panel server campaign",
+    "malware_family": "CWPdoor",
+    "threat_actor": "Unattributed CWPdoor operators",
+    "source_organization": [
+      "QiAnXin XLab"
+    ],
+    "source_article": [
+      "CWPdoor: The Invisible Backdoor Living Inside Control Web Panel"
+    ],
+    "source_url": [
+      "https://blog.xlab.qianxin.com/cwpdoor-the-invisible-backdoor-living-inside-control-web-panel"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 97,
+    "acceptance_score": 97,
+    "status": "NEW",
+    "notes": "Exact public malicious server IP.",
+    "sources": [
+      {
+        "organization": "QiAnXin XLab",
+        "article_title": "CWPdoor: The Invisible Backdoor Living Inside Control Web Panel",
+        "url": "https://blog.xlab.qianxin.com/cwpdoor-the-invisible-backdoor-living-inside-control-web-panel",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.97,
+        "source_id": "xlab-cwpdoor-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "XLab identifies this public IP as CWPdoor attacker infrastructure serving the malicious installer and backdoored web-server binaries."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "157.22.126.128",
+    "ioc_type": "ipv4",
+    "original_ioc": "157.22.126.128",
+    "hunt_ioc": "157.22.126.128",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Agentic AI exposed-secret and cloud credential abuse campaign",
+    "malware_family": "ARTEX agentic offensive framework",
+    "threat_actor": "Unattributed threat actors using ARTEX",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Threat actors use agentic AI tooling to find and abuse exposed secrets"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Campaign-associated reconnaissance IP; confidence reduced for potential-association wording.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "microsoft-agentic-secret-abuse-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Within the malicious campaign activity, Microsoft observed reconnaissance from this IP targeting victims' Azure AI workloads and described it as potentially associated campaign infrastructure."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "199.19.77.84",
+    "ioc_type": "ipv4",
+    "original_ioc": "199.19.77.84",
+    "hunt_ioc": "199.19.77.84",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Agentic AI exposed-secret and cloud credential abuse campaign",
+    "malware_family": "ARTEX agentic offensive framework",
+    "threat_actor": "Unattributed threat actors using ARTEX",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Threat actors use agentic AI tooling to find and abuse exposed secrets"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Microsoft campaign IP; do not broaden to ASN.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "microsoft-agentic-secret-abuse-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Microsoft observed successful malicious service-principal sign-ins, cloud resource discovery, and credential and data exfiltration from this exact IP and explicitly recommends blocking it."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "65.87.223.26",
+    "ioc_type": "ipv4",
+    "original_ioc": "65.87.223.26",
+    "hunt_ioc": "65.87.223.26",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Agentic AI exposed-secret and cloud credential abuse campaign",
+    "malware_family": "ARTEX agentic offensive framework",
+    "threat_actor": "Unattributed threat actors using ARTEX",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Threat actors use agentic AI tooling to find and abuse exposed secrets"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Exact malicious operations IP.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "microsoft-agentic-secret-abuse-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Microsoft identified malicious operations from this IP, including exploitation indicators in embedded user-agent shell commands and attempts to obtain App Service authentication tokens."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "965aea67fb40de1bab5169ada993349f",
+    "ioc_type": "md5",
+    "original_ioc": "965aea67fb40de1bab5169ada993349f",
+    "hunt_ioc": "965aea67fb40de1bab5169ada993349f",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "CWPdoor trojanized Control Web Panel server campaign",
+    "malware_family": "CWPdoor",
+    "threat_actor": "Unattributed CWPdoor operators",
+    "source_organization": [
+      "QiAnXin XLab"
+    ],
+    "source_article": [
+      "CWPdoor: The Invisible Backdoor Living Inside Control Web Panel"
+    ],
+    "source_url": [
+      "https://blog.xlab.qianxin.com/cwpdoor-the-invisible-backdoor-living-inside-control-web-panel"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Backdoored cwpsrv 1.15.10 MD5.",
+    "sources": [
+      {
+        "organization": "QiAnXin XLab",
+        "article_title": "CWPdoor: The Invisible Backdoor Living Inside Control Web Panel",
+        "url": "https://blog.xlab.qianxin.com/cwpdoor-the-invisible-backdoor-living-inside-control-web-panel",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "xlab-cwpdoor-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "XLab's IOC appendix identifies this hash as the trojanized cwpsrv 1.15.10 binary used by CWPdoor."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "d3f4e95113d49ab3991b45e457bda75b",
+    "ioc_type": "md5",
+    "original_ioc": "d3f4e95113d49ab3991b45e457bda75b",
+    "hunt_ioc": "d3f4e95113d49ab3991b45e457bda75b",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "CWPdoor trojanized Control Web Panel server campaign",
+    "malware_family": "CWPdoor",
+    "threat_actor": "Unattributed CWPdoor operators",
+    "source_organization": [
+      "QiAnXin XLab"
+    ],
+    "source_article": [
+      "CWPdoor: The Invisible Backdoor Living Inside Control Web Panel"
+    ],
+    "source_url": [
+      "https://blog.xlab.qianxin.com/cwpdoor-the-invisible-backdoor-living-inside-control-web-panel"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Backdoored cwpsrv 1.24.0 MD5.",
+    "sources": [
+      {
+        "organization": "QiAnXin XLab",
+        "article_title": "CWPdoor: The Invisible Backdoor Living Inside Control Web Panel",
+        "url": "https://blog.xlab.qianxin.com/cwpdoor-the-invisible-backdoor-living-inside-control-web-panel",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "xlab-cwpdoor-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "XLab's IOC appendix identifies this hash as the trojanized cwpsrv 1.24.0 binary used by CWPdoor."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "e505d4ffa21cf494a5dc2d7c8f4f1236",
+    "ioc_type": "md5",
+    "original_ioc": "e505d4ffa21cf494a5dc2d7c8f4f1236",
+    "hunt_ioc": "e505d4ffa21cf494a5dc2d7c8f4f1236",
+    "hunt_ioc_type": "md5",
+    "threat_campaign": "CWPdoor trojanized Control Web Panel server campaign",
+    "malware_family": "CWPdoor",
+    "threat_actor": "Unattributed CWPdoor operators",
+    "source_organization": [
+      "QiAnXin XLab"
+    ],
+    "source_article": [
+      "CWPdoor: The Invisible Backdoor Living Inside Control Web Panel"
+    ],
+    "source_url": [
+      "https://blog.xlab.qianxin.com/cwpdoor-the-invisible-backdoor-living-inside-control-web-panel"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "CWPdoor installer MD5; exact source-table value.",
+    "sources": [
+      {
+        "organization": "QiAnXin XLab",
+        "article_title": "CWPdoor: The Invisible Backdoor Living Inside Control Web Panel",
+        "url": "https://blog.xlab.qianxin.com/cwpdoor-the-invisible-backdoor-living-inside-control-web-panel",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "xlab-cwpdoor-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "XLab's IOC appendix identifies this as the malicious CWPdoor installer deployed against real Control Web Panel servers."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "0d83344fee8973165e5009768c1752095a57f3c1",
+    "ioc_type": "sha1",
+    "original_ioc": "0d83344fee8973165e5009768c1752095a57f3c1",
+    "hunt_ioc": "0d83344fee8973165e5009768c1752095a57f3c1",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Aquafina Mirax Android device-takeover campaign targeting META banking customers",
+    "malware_family": "Mirax Android RAT / banking malware",
+    "threat_actor": "MiraxBot-affiliate operators (unattributed)",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/mirax-android-device-takeover-rat"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Group-IB IOC-table value for Mirax.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
+        "url": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "groupib-mirax-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Group-IB's public IOC appendix explicitly attributes this indicator to the ongoing Aquafina Mirax Android device-takeover malware campaign, which had thousands of infected devices at publication."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "20068b91036145b3e1b1d7e294b7a2f5ba26bd7f",
+    "ioc_type": "sha1",
+    "original_ioc": "20068b91036145b3e1b1d7e294b7a2f5ba26bd7f",
+    "hunt_ioc": "20068b91036145b3e1b1d7e294b7a2f5ba26bd7f",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Aquafina Mirax Android device-takeover campaign targeting META banking customers",
+    "malware_family": "Mirax Android RAT / banking malware",
+    "threat_actor": "MiraxBot-affiliate operators (unattributed)",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/mirax-android-device-takeover-rat"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Group-IB IOC-table value for Mirax.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
+        "url": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "groupib-mirax-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Group-IB's public IOC appendix explicitly attributes this indicator to the ongoing Aquafina Mirax Android device-takeover malware campaign, which had thousands of infected devices at publication."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2b5eeabbc52a25172123c2e7789c977e6bb557af",
+    "ioc_type": "sha1",
+    "original_ioc": "2b5eeabbc52a25172123c2e7789c977e6bb557af",
+    "hunt_ioc": "2b5eeabbc52a25172123c2e7789c977e6bb557af",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Aquafina Mirax Android device-takeover campaign targeting META banking customers",
+    "malware_family": "Mirax Android RAT / banking malware",
+    "threat_actor": "MiraxBot-affiliate operators (unattributed)",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/mirax-android-device-takeover-rat"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Group-IB IOC-table value for Mirax.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
+        "url": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "groupib-mirax-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Group-IB's public IOC appendix explicitly attributes this indicator to the ongoing Aquafina Mirax Android device-takeover malware campaign, which had thousands of infected devices at publication."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "3a1f9060dad56cd08e87fcafa2c87b99295b3db3",
+    "ioc_type": "sha1",
+    "original_ioc": "3a1f9060dad56cd08e87fcafa2c87b99295b3db3",
+    "hunt_ioc": "3a1f9060dad56cd08e87fcafa2c87b99295b3db3",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Aquafina Mirax Android device-takeover campaign targeting META banking customers",
+    "malware_family": "Mirax Android RAT / banking malware",
+    "threat_actor": "MiraxBot-affiliate operators (unattributed)",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/mirax-android-device-takeover-rat"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Group-IB IOC-table value for Mirax.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
+        "url": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "groupib-mirax-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Group-IB's public IOC appendix explicitly attributes this indicator to the ongoing Aquafina Mirax Android device-takeover malware campaign, which had thousands of infected devices at publication."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "413e1c8661ec11fc8e7f9a7caccfc9c54cb1ea3d",
+    "ioc_type": "sha1",
+    "original_ioc": "413e1c8661ec11fc8e7f9a7caccfc9c54cb1ea3d",
+    "hunt_ioc": "413e1c8661ec11fc8e7f9a7caccfc9c54cb1ea3d",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Aquafina Mirax Android device-takeover campaign targeting META banking customers",
+    "malware_family": "Mirax Android RAT / banking malware",
+    "threat_actor": "MiraxBot-affiliate operators (unattributed)",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/mirax-android-device-takeover-rat"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Group-IB IOC-table value for Mirax.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
+        "url": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "groupib-mirax-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Group-IB's public IOC appendix explicitly attributes this indicator to the ongoing Aquafina Mirax Android device-takeover malware campaign, which had thousands of infected devices at publication."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "562d8360854005e90ae316c1350b9660ffd3e6f9",
+    "ioc_type": "sha1",
+    "original_ioc": "562d8360854005e90ae316c1350b9660ffd3e6f9",
+    "hunt_ioc": "562d8360854005e90ae316c1350b9660ffd3e6f9",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Aquafina Mirax Android device-takeover campaign targeting META banking customers",
+    "malware_family": "Mirax Android RAT / banking malware",
+    "threat_actor": "MiraxBot-affiliate operators (unattributed)",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/mirax-android-device-takeover-rat"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Group-IB IOC-table value for Mirax.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
+        "url": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "groupib-mirax-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Group-IB's public IOC appendix explicitly attributes this indicator to the ongoing Aquafina Mirax Android device-takeover malware campaign, which had thousands of infected devices at publication."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "6a37c3d4beb80ae1689dbbedcb53a86f85c8e44a",
+    "ioc_type": "sha1",
+    "original_ioc": "6a37c3d4beb80ae1689dbbedcb53a86f85c8e44a",
+    "hunt_ioc": "6a37c3d4beb80ae1689dbbedcb53a86f85c8e44a",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Aquafina Mirax Android device-takeover campaign targeting META banking customers",
+    "malware_family": "Mirax Android RAT / banking malware",
+    "threat_actor": "MiraxBot-affiliate operators (unattributed)",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/mirax-android-device-takeover-rat"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Group-IB IOC-table value for Mirax.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
+        "url": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "groupib-mirax-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Group-IB's public IOC appendix explicitly attributes this indicator to the ongoing Aquafina Mirax Android device-takeover malware campaign, which had thousands of infected devices at publication."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "746dc75b1b887812db37b3801e104d887b2c8707",
+    "ioc_type": "sha1",
+    "original_ioc": "746dc75b1b887812db37b3801e104d887b2c8707",
+    "hunt_ioc": "746dc75b1b887812db37b3801e104d887b2c8707",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Aquafina Mirax Android device-takeover campaign targeting META banking customers",
+    "malware_family": "Mirax Android RAT / banking malware",
+    "threat_actor": "MiraxBot-affiliate operators (unattributed)",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/mirax-android-device-takeover-rat"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Group-IB IOC-table value for Mirax.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
+        "url": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "groupib-mirax-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Group-IB's public IOC appendix explicitly attributes this indicator to the ongoing Aquafina Mirax Android device-takeover malware campaign, which had thousands of infected devices at publication."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "8531fe2db41e9e08525080be6d3e8092c5ffa5f8",
+    "ioc_type": "sha1",
+    "original_ioc": "8531fe2db41e9e08525080be6d3e8092c5ffa5f8",
+    "hunt_ioc": "8531fe2db41e9e08525080be6d3e8092c5ffa5f8",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Aquafina Mirax Android device-takeover campaign targeting META banking customers",
+    "malware_family": "Mirax Android RAT / banking malware",
+    "threat_actor": "MiraxBot-affiliate operators (unattributed)",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/mirax-android-device-takeover-rat"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Group-IB IOC-table value for Mirax.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
+        "url": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "groupib-mirax-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Group-IB's public IOC appendix explicitly attributes this indicator to the ongoing Aquafina Mirax Android device-takeover malware campaign, which had thousands of infected devices at publication."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "9e6889b1445e30d9d28849cbffed5a3123408646",
+    "ioc_type": "sha1",
+    "original_ioc": "9e6889b1445e30d9d28849cbffed5a3123408646",
+    "hunt_ioc": "9e6889b1445e30d9d28849cbffed5a3123408646",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Aquafina Mirax Android device-takeover campaign targeting META banking customers",
+    "malware_family": "Mirax Android RAT / banking malware",
+    "threat_actor": "MiraxBot-affiliate operators (unattributed)",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/mirax-android-device-takeover-rat"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Group-IB IOC-table value for Mirax.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
+        "url": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "groupib-mirax-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Group-IB's public IOC appendix explicitly attributes this indicator to the ongoing Aquafina Mirax Android device-takeover malware campaign, which had thousands of infected devices at publication."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ace41996dc5b7ecdb68c2222fc7af8e6f3b7d839",
+    "ioc_type": "sha1",
+    "original_ioc": "ace41996dc5b7ecdb68c2222fc7af8e6f3b7d839",
+    "hunt_ioc": "ace41996dc5b7ecdb68c2222fc7af8e6f3b7d839",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Aquafina Mirax Android device-takeover campaign targeting META banking customers",
+    "malware_family": "Mirax Android RAT / banking malware",
+    "threat_actor": "MiraxBot-affiliate operators (unattributed)",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/mirax-android-device-takeover-rat"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Group-IB IOC-table value for Mirax.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
+        "url": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "groupib-mirax-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Group-IB's public IOC appendix explicitly attributes this indicator to the ongoing Aquafina Mirax Android device-takeover malware campaign, which had thousands of infected devices at publication."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b164a1bf2c7b478ce040e479377526c00885ab7f",
+    "ioc_type": "sha1",
+    "original_ioc": "b164a1bf2c7b478ce040e479377526c00885ab7f",
+    "hunt_ioc": "b164a1bf2c7b478ce040e479377526c00885ab7f",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Aquafina Mirax Android device-takeover campaign targeting META banking customers",
+    "malware_family": "Mirax Android RAT / banking malware",
+    "threat_actor": "MiraxBot-affiliate operators (unattributed)",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/mirax-android-device-takeover-rat"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Group-IB IOC-table value for Mirax.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
+        "url": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "groupib-mirax-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Group-IB's public IOC appendix explicitly attributes this indicator to the ongoing Aquafina Mirax Android device-takeover malware campaign, which had thousands of infected devices at publication."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "b9e84889c9760460f53c9b49cb43a636bb721d28",
+    "ioc_type": "sha1",
+    "original_ioc": "b9e84889c9760460f53c9b49cb43a636bb721d28",
+    "hunt_ioc": "b9e84889c9760460f53c9b49cb43a636bb721d28",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Aquafina Mirax Android device-takeover campaign targeting META banking customers",
+    "malware_family": "Mirax Android RAT / banking malware",
+    "threat_actor": "MiraxBot-affiliate operators (unattributed)",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/mirax-android-device-takeover-rat"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Group-IB IOC-table value for Mirax.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
+        "url": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "groupib-mirax-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Group-IB's public IOC appendix explicitly attributes this indicator to the ongoing Aquafina Mirax Android device-takeover malware campaign, which had thousands of infected devices at publication."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "c8f5abb80e9c936d6bd5da99c10e829cde69a8f5",
+    "ioc_type": "sha1",
+    "original_ioc": "c8f5abb80e9c936d6bd5da99c10e829cde69a8f5",
+    "hunt_ioc": "c8f5abb80e9c936d6bd5da99c10e829cde69a8f5",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Aquafina Mirax Android device-takeover campaign targeting META banking customers",
+    "malware_family": "Mirax Android RAT / banking malware",
+    "threat_actor": "MiraxBot-affiliate operators (unattributed)",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/mirax-android-device-takeover-rat"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Group-IB IOC-table value for Mirax.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
+        "url": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "groupib-mirax-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Group-IB's public IOC appendix explicitly attributes this indicator to the ongoing Aquafina Mirax Android device-takeover malware campaign, which had thousands of infected devices at publication."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "c9258f527fe447431ff983aa76866e340db98e60",
+    "ioc_type": "sha1",
+    "original_ioc": "c9258f527fe447431ff983aa76866e340db98e60",
+    "hunt_ioc": "c9258f527fe447431ff983aa76866e340db98e60",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Aquafina Mirax Android device-takeover campaign targeting META banking customers",
+    "malware_family": "Mirax Android RAT / banking malware",
+    "threat_actor": "MiraxBot-affiliate operators (unattributed)",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/mirax-android-device-takeover-rat"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Group-IB IOC-table value for Mirax.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
+        "url": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "groupib-mirax-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Group-IB's public IOC appendix explicitly attributes this indicator to the ongoing Aquafina Mirax Android device-takeover malware campaign, which had thousands of infected devices at publication."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "cca7187d5cbf31b3e785f21309bb60b9247a4fb4",
+    "ioc_type": "sha1",
+    "original_ioc": "cca7187d5cbf31b3e785f21309bb60b9247a4fb4",
+    "hunt_ioc": "cca7187d5cbf31b3e785f21309bb60b9247a4fb4",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Aquafina Mirax Android device-takeover campaign targeting META banking customers",
+    "malware_family": "Mirax Android RAT / banking malware",
+    "threat_actor": "MiraxBot-affiliate operators (unattributed)",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/mirax-android-device-takeover-rat"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Group-IB IOC-table value for Mirax.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
+        "url": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "groupib-mirax-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Group-IB's public IOC appendix explicitly attributes this indicator to the ongoing Aquafina Mirax Android device-takeover malware campaign, which had thousands of infected devices at publication."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "d7b4d33c38deb0978b71ef79ff4df9fb90118cc2",
+    "ioc_type": "sha1",
+    "original_ioc": "d7b4d33c38deb0978b71ef79ff4df9fb90118cc2",
+    "hunt_ioc": "d7b4d33c38deb0978b71ef79ff4df9fb90118cc2",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Aquafina Mirax Android device-takeover campaign targeting META banking customers",
+    "malware_family": "Mirax Android RAT / banking malware",
+    "threat_actor": "MiraxBot-affiliate operators (unattributed)",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/mirax-android-device-takeover-rat"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Group-IB IOC-table value for Mirax.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
+        "url": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "groupib-mirax-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Group-IB's public IOC appendix explicitly attributes this indicator to the ongoing Aquafina Mirax Android device-takeover malware campaign, which had thousands of infected devices at publication."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "da997eeb64a3879af819c5cdda3aa5a236c55a25",
+    "ioc_type": "sha1",
+    "original_ioc": "da997eeb64a3879af819c5cdda3aa5a236c55a25",
+    "hunt_ioc": "da997eeb64a3879af819c5cdda3aa5a236c55a25",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Aquafina Mirax Android device-takeover campaign targeting META banking customers",
+    "malware_family": "Mirax Android RAT / banking malware",
+    "threat_actor": "MiraxBot-affiliate operators (unattributed)",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/mirax-android-device-takeover-rat"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Group-IB IOC-table value for Mirax.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
+        "url": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "groupib-mirax-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Group-IB's public IOC appendix explicitly attributes this indicator to the ongoing Aquafina Mirax Android device-takeover malware campaign, which had thousands of infected devices at publication."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "fd4a2c02ab5a99b5420538c8b1bfef6fa4fbd7fe",
+    "ioc_type": "sha1",
+    "original_ioc": "fd4a2c02ab5a99b5420538c8b1bfef6fa4fbd7fe",
+    "hunt_ioc": "fd4a2c02ab5a99b5420538c8b1bfef6fa4fbd7fe",
+    "hunt_ioc_type": "sha1",
+    "threat_campaign": "Aquafina Mirax Android device-takeover campaign targeting META banking customers",
+    "malware_family": "Mirax Android RAT / banking malware",
+    "threat_actor": "MiraxBot-affiliate operators (unattributed)",
+    "source_organization": [
+      "Group-IB"
+    ],
+    "source_article": [
+      "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META"
+    ],
+    "source_url": [
+      "https://www.group-ib.com/blog/mirax-android-device-takeover-rat"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Group-IB IOC-table value for Mirax.",
+    "sources": [
+      {
+        "organization": "Group-IB",
+        "article_title": "From Streaming to Stealing: Mirax and the Rise of Server-side Android Device Takeover in META",
+        "url": "https://www.group-ib.com/blog/mirax-android-device-takeover-rat",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "groupib-mirax-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Group-IB's public IOC appendix explicitly attributes this indicator to the ongoing Aquafina Mirax Android device-takeover malware campaign, which had thousands of infected devices at publication."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2b727ad4f4e5a3381412f3e95d3e86b382975e8c35489713713a0c82d3a62c3f",
+    "ioc_type": "sha256",
+    "original_ioc": "2b727ad4f4e5a3381412f3e95d3e86b382975e8c35489713713a0c82d3a62c3f",
+    "hunt_ioc": "2b727ad4f4e5a3381412f3e95d3e86b382975e8c35489713713a0c82d3a62c3f",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Unknown Loader PowerShell dropper distribution",
+    "malware_family": "Unknown Loader",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "abuse.ch (ThreatFox)"
+    ],
+    "source_article": [
+      "ThreatFox IOC 2016686 — Unknown Loader SHA256 payload"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2016686"
+    ],
+    "article_published_date": [
+      "2026-11-06T03:57:37Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 80,
+    "acceptance_score": 80,
+    "status": "NEW",
+    "notes": "Reporter Tuxxin; exact file hash only.",
+    "sources": [
+      {
+        "organization": "abuse.ch (ThreatFox)",
+        "article_title": "ThreatFox IOC 2016686 — Unknown Loader SHA256 payload",
+        "url": "https://threatfox.abuse.ch/ioc/2016686",
+        "published_at": "2026-11-06T03:57:37Z",
+        "updated_at": null,
+        "reliability": 0.8,
+        "source_id": "THREATFOX-2016686",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "ThreatFox payload record identifies a PowerShell dropper with 20 VirusTotal engines marking it malicious and a first capture on 2026-11-04."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "38a74cb15d6e3543a3848066c404424978bf80cc4619ba44c68e623f35decca4",
+    "ioc_type": "sha256",
+    "original_ioc": "38a74cb15d6e3543a3848066c404424978bf80cc4619ba44c68e623f35decca4",
+    "hunt_ioc": "38a74cb15d6e3543a3848066c404424978bf80cc4619ba44c68e623f35decca4",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Unknown Loader PowerShell dropper distribution",
+    "malware_family": "Unknown Loader",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "abuse.ch (ThreatFox)"
+    ],
+    "source_article": [
+      "ThreatFox IOC 2016684 — Unknown Loader SHA256 payload"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2016684"
+    ],
+    "article_published_date": [
+      "2026-11-06T03:57:35Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 80,
+    "acceptance_score": 80,
+    "status": "NEW",
+    "notes": "Reporter Tuxxin; exact file hash only.",
+    "sources": [
+      {
+        "organization": "abuse.ch (ThreatFox)",
+        "article_title": "ThreatFox IOC 2016684 — Unknown Loader SHA256 payload",
+        "url": "https://threatfox.abuse.ch/ioc/2016684",
+        "published_at": "2026-11-06T03:57:35Z",
+        "updated_at": null,
+        "reliability": 0.8,
+        "source_id": "THREATFOX-2016684",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "ThreatFox payload record identifies a PowerShell dropper with 20 VirusTotal engines marking it malicious and a first capture on 2026-11-04."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "54e4e8c5dfb51a7dd161bbc07760938359b2e438b99e3f133dfc311eef6bac88",
+    "ioc_type": "sha256",
+    "original_ioc": "54e4e8c5dfb51a7dd161bbc07760938359b2e438b99e3f133dfc311eef6bac88",
+    "hunt_ioc": "54e4e8c5dfb51a7dd161bbc07760938359b2e438b99e3f133dfc311eef6bac88",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "JavaScript and PowerShell malware delivery",
+    "malware_family": "unknown",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "abuse.ch (MalwareBazaar)"
+    ],
+    "source_article": [
+      "MalwareBazaar SHA256 54e4e8c5… — malicious JavaScript/PowerShell downloader"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/54e4e8c5dfb51a7dd161bbc07760938359b2e438b99e3f133dfc311eef6bac88"
+    ],
+    "article_published_date": [
+      "2026-11-06T11:00:20Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Multiple explicit malicious verdicts despite family unknown.",
+    "sources": [
+      {
+        "organization": "abuse.ch (MalwareBazaar)",
+        "article_title": "MalwareBazaar SHA256 54e4e8c5… — malicious JavaScript/PowerShell downloader",
+        "url": "https://bazaar.abuse.ch/sample/54e4e8c5dfb51a7dd161bbc07760938359b2e438b99e3f133dfc311eef6bac88",
+        "published_at": "2026-11-06T11:00:20Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "MALWAREBAZAAR-54E4E8C5DFB51A7D",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "MalwareBazaar reports multiple independent explicit malicious verdicts and PowerShell downloader behavior for this JavaScript sample."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "72966b30bbd87e42c683d2ac7a42bb62021fc14389d508551432ffd70d62f33a",
+    "ioc_type": "sha256",
+    "original_ioc": "72966b30bbd87e42c683d2ac7a42bb62021fc14389d508551432ffd70d62f33a",
+    "hunt_ioc": "72966b30bbd87e42c683d2ac7a42bb62021fc14389d508551432ffd70d62f33a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Spanish-language purchase-order and payroll phishing delivering Agent Tesla",
+    "malware_family": "Agent Tesla",
+    "threat_actor": "Unattributed email threat actors",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Email threat landscape: Q3 2026 trends and insights"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": "2026-09-21T00:00:00Z",
+    "ioc_last_seen": "2026-09-21T00:00:00Z",
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Microsoft IOC-table value.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Email threat landscape: Q3 2026 trends and insights",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "microsoft-email-q3-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Microsoft's IOC table identifies this as the Agent Tesla executable delivered by the payroll variation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "98fcaae2683982588110cd3933e6c5e0fdd4b045625c93743e81f127d2133d44",
+    "ioc_type": "sha256",
+    "original_ioc": "98fcaae2683982588110cd3933e6c5e0fdd4b045625c93743e81f127d2133d44",
+    "hunt_ioc": "98fcaae2683982588110cd3933e6c5e0fdd4b045625c93743e81f127d2133d44",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Revoked-certificate ScreenConnect backdoor and RAT deployment",
+    "malware_family": "ScreenConnect-abuse",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Hatching Triage"
+    ],
+    "source_article": [
+      "Triage 261106-af279agw6j — revoked-certificate ScreenConnect backdoor/RAT sample"
+    ],
+    "source_url": [
+      "https://tria.ge/261106-af279agw6j"
+    ],
+    "article_published_date": [
+      "2026-11-06T00:10:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 82,
+    "acceptance_score": 82,
+    "status": "NEW",
+    "notes": "Accept only exact sample hash; ScreenConnect itself is legitimate dual-use software.",
+    "sources": [
+      {
+        "organization": "Hatching Triage",
+        "article_title": "Triage 261106-af279agw6j — revoked-certificate ScreenConnect backdoor/RAT sample",
+        "url": "https://tria.ge/261106-af279agw6j",
+        "published_at": "2026-11-06T00:10:00Z",
+        "updated_at": null,
+        "reliability": 0.82,
+        "source_id": "TRIAGE-261106-AF279AGW6J",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Triage scored this sample 8 of 10 for revoked-certificate ScreenConnect backdoor behavior, persistence, privilege escalation, and system modification."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "aa70e8ca3e7496e7b81cdc10f18af1b4f692537d814d5d934d48822dad2dc0ab",
+    "ioc_type": "sha256",
+    "original_ioc": "aa70e8ca3e7496e7b81cdc10f18af1b4f692537d814d5d934d48822dad2dc0ab",
+    "hunt_ioc": "aa70e8ca3e7496e7b81cdc10f18af1b4f692537d814d5d934d48822dad2dc0ab",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Mirai and Prometei botnet payload distribution",
+    "malware_family": "Mirai",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "abuse.ch (MalwareBazaar)"
+    ],
+    "source_article": [
+      "MalwareBazaar SHA256 aa70e8ca… — Mirai/Prometei ELF payload"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/aa70e8ca3e7496e7b81cdc10f18af1b4f692537d814d5d934d48822dad2dc0ab"
+    ],
+    "article_published_date": [
+      "2026-11-06T12:08:05Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 85,
+    "acceptance_score": 85,
+    "status": "NEW",
+    "notes": "Exact file hash only.",
+    "sources": [
+      {
+        "organization": "abuse.ch (MalwareBazaar)",
+        "article_title": "MalwareBazaar SHA256 aa70e8ca… — Mirai/Prometei ELF payload",
+        "url": "https://bazaar.abuse.ch/sample/aa70e8ca3e7496e7b81cdc10f18af1b4f692537d814d5d934d48822dad2dc0ab",
+        "published_at": "2026-11-06T12:08:05Z",
+        "updated_at": null,
+        "reliability": 0.85,
+        "source_id": "MALWAREBAZAAR-AA70E8CA3E7496E7",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "MalwareBazaar identifies this ELF payload with a Mirai family signature, Mirai and Prometei tags, and multiple vendor detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "bedd2297739632da8ee470367295fe976e55be74d628dcaee7fa98121ee530f1",
+    "ioc_type": "sha256",
+    "original_ioc": "bedd2297739632da8ee470367295fe976e55be74d628dcaee7fa98121ee530f1",
+    "hunt_ioc": "bedd2297739632da8ee470367295fe976e55be74d628dcaee7fa98121ee530f1",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Spanish-language purchase-order and payroll phishing delivering Agent Tesla",
+    "malware_family": "Agent Tesla",
+    "threat_actor": "Unattributed email threat actors",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Email threat landscape: Q3 2026 trends and insights"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": "2026-09-21T00:00:00Z",
+    "ioc_last_seen": "2026-09-21T00:00:00Z",
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Microsoft IOC-table value.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Email threat landscape: Q3 2026 trends and insights",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "microsoft-email-q3-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Microsoft's IOC table identifies this as the purchase-order RAR attachment used in the Agent Tesla campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "c3b4823e9788c9d188e2d902a78e3ac21641452dc9d988160d3ae4fa549dd02a",
+    "ioc_type": "sha256",
+    "original_ioc": "c3b4823e9788c9d188e2d902a78e3ac21641452dc9d988160d3ae4fa549dd02a",
+    "hunt_ioc": "c3b4823e9788c9d188e2d902a78e3ac21641452dc9d988160d3ae4fa549dd02a",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Unknown Loader PowerShell dropper distribution",
+    "malware_family": "Unknown Loader",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "abuse.ch (ThreatFox)"
+    ],
+    "source_article": [
+      "ThreatFox IOC 2016692 — Unknown Loader SHA256 payload"
+    ],
+    "source_url": [
+      "https://threatfox.abuse.ch/ioc/2016692"
+    ],
+    "article_published_date": [
+      "2026-11-06T03:57:43Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 75,
+    "acceptance_score": 75,
+    "status": "NEW",
+    "notes": "Reporter Tuxxin; exact file hash only.",
+    "sources": [
+      {
+        "organization": "abuse.ch (ThreatFox)",
+        "article_title": "ThreatFox IOC 2016692 — Unknown Loader SHA256 payload",
+        "url": "https://threatfox.abuse.ch/ioc/2016692",
+        "published_at": "2026-11-06T03:57:43Z",
+        "updated_at": null,
+        "reliability": 0.75,
+        "source_id": "THREATFOX-2016692",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "ThreatFox payload record identifies a PowerShell dropper with 19 VirusTotal engines marking it malicious and a first capture on 2026-11-04."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "c438b9a3bb67e2c10eff0d01513422dc17dce7c5508303a680e46f3dcec886ef",
+    "ioc_type": "sha256",
+    "original_ioc": "c438b9a3bb67e2c10eff0d01513422dc17dce7c5508303a680e46f3dcec886ef",
+    "hunt_ioc": "c438b9a3bb67e2c10eff0d01513422dc17dce7c5508303a680e46f3dcec886ef",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Spanish-language purchase-order and payroll phishing delivering Agent Tesla",
+    "malware_family": "Agent Tesla",
+    "threat_actor": "Unattributed email threat actors",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Email threat landscape: Q3 2026 trends and insights"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": "2026-09-21T00:00:00Z",
+    "ioc_last_seen": "2026-09-21T00:00:00Z",
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Microsoft IOC-table value.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Email threat landscape: Q3 2026 trends and insights",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "microsoft-email-q3-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Microsoft's IOC table identifies this as the payroll RAR attachment used in the Agent Tesla campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ce832350c165522db03db040ca07917976d1a91f97e7016ea36dcc6b53e0eb13",
+    "ioc_type": "sha256",
+    "original_ioc": "ce832350c165522db03db040ca07917976d1a91f97e7016ea36dcc6b53e0eb13",
+    "hunt_ioc": "ce832350c165522db03db040ca07917976d1a91f97e7016ea36dcc6b53e0eb13",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Spanish-language purchase-order and payroll phishing delivering Agent Tesla",
+    "malware_family": "Agent Tesla",
+    "threat_actor": "Unattributed email threat actors",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Email threat landscape: Q3 2026 trends and insights"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": "2026-09-21T00:00:00Z",
+    "ioc_last_seen": "2026-09-21T00:00:00Z",
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Microsoft IOC-table value.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Email threat landscape: Q3 2026 trends and insights",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "microsoft-email-q3-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Microsoft's IOC table identifies this as the JavaScript downloader used in the Agent Tesla campaign."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "d742f69edd851b97f20d0a6809a9ad5e9178eafaff03b05b501a822b5f075811",
+    "ioc_type": "sha256",
+    "original_ioc": "d742f69edd851b97f20d0a6809a9ad5e9178eafaff03b05b501a822b5f075811",
+    "hunt_ioc": "d742f69edd851b97f20d0a6809a9ad5e9178eafaff03b05b501a822b5f075811",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "FunStealer distribution",
+    "malware_family": "FunStealer",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "abuse.ch (MalwareBazaar)"
+    ],
+    "source_article": [
+      "MalwareBazaar SHA256 d742f69e… — FunStealer payload"
+    ],
+    "source_url": [
+      "https://bazaar.abuse.ch/sample/d742f69edd851b97f20d0a6809a9ad5e9178eafaff03b05b501a822b5f075811"
+    ],
+    "article_published_date": [
+      "2026-11-06T09:02:14Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Exact file hash only.",
+    "sources": [
+      {
+        "organization": "abuse.ch (MalwareBazaar)",
+        "article_title": "MalwareBazaar SHA256 d742f69e… — FunStealer payload",
+        "url": "https://bazaar.abuse.ch/sample/d742f69edd851b97f20d0a6809a9ad5e9178eafaff03b05b501a822b5f075811",
+        "published_at": "2026-11-06T09:02:14Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "MALWAREBAZAAR-D742F69EDD851B97",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "MalwareBazaar identifies this PE executable as FunStealer with a family signature and ten vendor detections."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "f8b49891d15a578e4de28fecf99d0d78db6b2c3da81cd51c931b8d128e60c187",
+    "ioc_type": "sha256",
+    "original_ioc": "f8b49891d15a578e4de28fecf99d0d78db6b2c3da81cd51c931b8d128e60c187",
+    "hunt_ioc": "f8b49891d15a578e4de28fecf99d0d78db6b2c3da81cd51c931b8d128e60c187",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Spanish-language purchase-order and payroll phishing delivering Agent Tesla",
+    "malware_family": "Agent Tesla",
+    "threat_actor": "Unattributed email threat actors",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Email threat landscape: Q3 2026 trends and insights"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": "2026-09-21T00:00:00Z",
+    "ioc_last_seen": "2026-09-21T00:00:00Z",
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Exact Microsoft IOC-table value.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Email threat landscape: Q3 2026 trends and insights",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "microsoft-email-q3-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Microsoft's IOC table identifies this as the PowerShell payload associated with Agent Tesla delivery."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://136.0.141.71/static/cwpsrv_1.15.10",
+    "ioc_type": "url",
+    "original_ioc": "http://136.0.141.71/static/cwpsrv_1.15.10",
+    "hunt_ioc": "136.0.141.71",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "CWPdoor trojanized Control Web Panel server campaign",
+    "malware_family": "CWPdoor",
+    "threat_actor": "Unattributed CWPdoor operators",
+    "source_organization": [
+      "QiAnXin XLab"
+    ],
+    "source_article": [
+      "CWPdoor: The Invisible Backdoor Living Inside Control Web Panel"
+    ],
+    "source_url": [
+      "https://blog.xlab.qianxin.com/cwpdoor-the-invisible-backdoor-living-inside-control-web-panel"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious path; preserve full URL.",
+    "sources": [
+      {
+        "organization": "QiAnXin XLab",
+        "article_title": "CWPdoor: The Invisible Backdoor Living Inside Control Web Panel",
+        "url": "https://blog.xlab.qianxin.com/cwpdoor-the-invisible-backdoor-living-inside-control-web-panel",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "xlab-cwpdoor-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "XLab identifies this exact URL as the delivery location for the trojanized cwpsrv 1.15.10 binary."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://136.0.141.71/static/cwpsrv_1.24.0",
+    "ioc_type": "url",
+    "original_ioc": "http://136.0.141.71/static/cwpsrv_1.24.0",
+    "hunt_ioc": "136.0.141.71",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "CWPdoor trojanized Control Web Panel server campaign",
+    "malware_family": "CWPdoor",
+    "threat_actor": "Unattributed CWPdoor operators",
+    "source_organization": [
+      "QiAnXin XLab"
+    ],
+    "source_article": [
+      "CWPdoor: The Invisible Backdoor Living Inside Control Web Panel"
+    ],
+    "source_url": [
+      "https://blog.xlab.qianxin.com/cwpdoor-the-invisible-backdoor-living-inside-control-web-panel"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious path; preserve full URL.",
+    "sources": [
+      {
+        "organization": "QiAnXin XLab",
+        "article_title": "CWPdoor: The Invisible Backdoor Living Inside Control Web Panel",
+        "url": "https://blog.xlab.qianxin.com/cwpdoor-the-invisible-backdoor-living-inside-control-web-panel",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "xlab-cwpdoor-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "XLab identifies this exact URL as the delivery location for the trojanized cwpsrv 1.24.0 binary."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://136.0.141.71/static/cwpsrv_update.sh",
+    "ioc_type": "url",
+    "original_ioc": "http://136.0.141.71/static/cwpsrv_update.sh",
+    "hunt_ioc": "136.0.141.71",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "CWPdoor trojanized Control Web Panel server campaign",
+    "malware_family": "CWPdoor",
+    "threat_actor": "Unattributed CWPdoor operators",
+    "source_organization": [
+      "QiAnXin XLab"
+    ],
+    "source_article": [
+      "CWPdoor: The Invisible Backdoor Living Inside Control Web Panel"
+    ],
+    "source_url": [
+      "https://blog.xlab.qianxin.com/cwpdoor-the-invisible-backdoor-living-inside-control-web-panel"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact malicious path; preserve full URL.",
+    "sources": [
+      {
+        "organization": "QiAnXin XLab",
+        "article_title": "CWPdoor: The Invisible Backdoor Living Inside Control Web Panel",
+        "url": "https://blog.xlab.qianxin.com/cwpdoor-the-invisible-backdoor-living-inside-control-web-panel",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "xlab-cwpdoor-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "XLab identifies this exact URL as the CWPdoor installer download location used in confirmed compromises."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://192.3.73.173/25/createdbest.vbs",
+    "ioc_type": "url",
+    "original_ioc": "http://192.3.73.173/25/createdbest.vbs",
+    "hunt_ioc": "192.3.73.173",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "RemcosRAT VBS delivery",
+    "malware_family": "RemcosRAT",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "abuse.ch (URLhaus)"
+    ],
+    "source_article": [
+      "URLhaus URL 4058095 — RemcosRAT VBS malware download"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/4058095"
+    ],
+    "article_published_date": [
+      "2026-11-06T10:26:05Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Accept exact URL only, not bare host; URLhaus could not retrieve the payload.",
+    "sources": [
+      {
+        "organization": "abuse.ch (URLhaus)",
+        "article_title": "URLhaus URL 4058095 — RemcosRAT VBS malware download",
+        "url": "https://urlhaus.abuse.ch/url/4058095",
+        "published_at": "2026-11-06T10:26:05Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "URLHAUS-4058095",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "URLhaus ID 4058095 labels this exact URL as a malware download with RemcosRAT, VBS, and RAT tags."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "https://splace.co.za/0987643345678908765421234567890987654320987654321223456787654/onedrive/",
+    "ioc_type": "url",
+    "original_ioc": "https://splace.co.za/0987643345678908765421234567890987654320987654321223456787654/onedrive/",
+    "hunt_ioc": "splace.co.za",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Salary-review QR device-code phishing targeting legal organizations",
+    "malware_family": "Device-code credential phishing",
+    "threat_actor": "Unattributed email threat actors",
+    "source_organization": [
+      "Microsoft Threat Intelligence"
+    ],
+    "source_article": [
+      "Email threat landscape: Q3 2026 trends and insights"
+    ],
+    "source_url": [
+      "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights"
+    ],
+    "article_published_date": [
+      "2026-11-05T00:00:00Z"
+    ],
+    "ioc_first_seen": "2026-08-19T00:00:00Z",
+    "ioc_last_seen": "2026-08-20T23:59:59Z",
+    "collected_at": "2026-11-06T14:00:42Z",
+    "confidence": 99,
+    "acceptance_score": 99,
+    "status": "NEW",
+    "notes": "Preserve exact long malicious path; shared-host domain is separately documented.",
+    "sources": [
+      {
+        "organization": "Microsoft Threat Intelligence",
+        "article_title": "Email threat landscape: Q3 2026 trends and insights",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights",
+        "published_at": "2026-11-05T00:00:00Z",
+        "updated_at": null,
+        "reliability": 0.99,
+        "source_id": "microsoft-email-q3-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-04T14:00:42Z",
+        "discovery_context": [
+          "Microsoft's IOC table explicitly identifies this exact URL as hosting the phishing content."
+        ]
+      }
+    ]
+  }
+]
