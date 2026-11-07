@@ -1,0 +1,1224 @@
+[
+  {
+    "ioc": "datamons.org",
+    "ioc_type": "domain",
+    "original_ioc": "datamons.org",
+    "hunt_ioc": "datamons.org",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Armorsteal Python malware kit",
+    "malware_family": "Armorsteal",
+    "threat_actor": "Unattributed Armorsteal operators",
+    "source_organization": [
+      "Seqrite Labs"
+    ],
+    "source_article": [
+      "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto"
+    ],
+    "source_url": [
+      "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto"
+    ],
+    "article_published_date": [
+      "2026-11-06T11:43:12Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact domain from the C2 Domains and IPs section; preserve as a domain IOC.",
+    "sources": [
+      {
+        "organization": "Seqrite Labs",
+        "article_title": "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto",
+        "url": "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto",
+        "published_at": "2026-11-06T11:43:12Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "seqrite-armorsteal-2026-11-06",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "Seqrite's IOC appendix explicitly lists this domain as command-and-control infrastructure for the analyzed Armorsteal malware kit."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "icedhatch.top",
+    "ioc_type": "domain",
+    "original_ioc": "icedhatch.top",
+    "hunt_ioc": "icedhatch.top",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Armorsteal Python malware kit",
+    "malware_family": "Armorsteal",
+    "threat_actor": "Unattributed Armorsteal operators",
+    "source_organization": [
+      "Seqrite Labs"
+    ],
+    "source_article": [
+      "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto"
+    ],
+    "source_url": [
+      "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto"
+    ],
+    "article_published_date": [
+      "2026-11-06T11:43:12Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact domain from the C2 Domains and IPs section; preserve as a domain IOC.",
+    "sources": [
+      {
+        "organization": "Seqrite Labs",
+        "article_title": "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto",
+        "url": "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto",
+        "published_at": "2026-11-06T11:43:12Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "seqrite-armorsteal-2026-11-06",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "Seqrite's IOC appendix explicitly lists this domain as command-and-control infrastructure for the analyzed Armorsteal malware kit."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "icedhatch.xyz",
+    "ioc_type": "domain",
+    "original_ioc": "icedhatch.xyz",
+    "hunt_ioc": "icedhatch.xyz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Armorsteal Python malware kit",
+    "malware_family": "Armorsteal",
+    "threat_actor": "Unattributed Armorsteal operators",
+    "source_organization": [
+      "Seqrite Labs"
+    ],
+    "source_article": [
+      "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto"
+    ],
+    "source_url": [
+      "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto"
+    ],
+    "article_published_date": [
+      "2026-11-06T11:43:12Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact domain from the C2 Domains and IPs section; preserve as a domain IOC.",
+    "sources": [
+      {
+        "organization": "Seqrite Labs",
+        "article_title": "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto",
+        "url": "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto",
+        "published_at": "2026-11-06T11:43:12Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "seqrite-armorsteal-2026-11-06",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "Seqrite's IOC appendix explicitly lists this domain as command-and-control infrastructure for the analyzed Armorsteal malware kit."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "icedout.top",
+    "ioc_type": "domain",
+    "original_ioc": "icedout.top",
+    "hunt_ioc": "icedout.top",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Armorsteal Python malware kit",
+    "malware_family": "Armorsteal",
+    "threat_actor": "Unattributed Armorsteal operators",
+    "source_organization": [
+      "Seqrite Labs"
+    ],
+    "source_article": [
+      "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto"
+    ],
+    "source_url": [
+      "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto"
+    ],
+    "article_published_date": [
+      "2026-11-06T11:43:12Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact domain from the C2 Domains and IPs section; preserve as a domain IOC.",
+    "sources": [
+      {
+        "organization": "Seqrite Labs",
+        "article_title": "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto",
+        "url": "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto",
+        "published_at": "2026-11-06T11:43:12Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "seqrite-armorsteal-2026-11-06",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "Seqrite's IOC appendix explicitly lists this domain as command-and-control infrastructure for the analyzed Armorsteal malware kit."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "muckanthropic.com",
+    "ioc_type": "domain",
+    "original_ioc": "muckanthropic.com",
+    "hunt_ioc": "muckanthropic.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Trojan.Loader.3261 infected GitHub repositories",
+    "malware_family": "Trojan.Loader.3261",
+    "threat_actor": "Unattributed repository-compromise operators",
+    "source_organization": [
+      "Doctor Web"
+    ],
+    "source_article": [
+      "Insolence beyond belief. Threat actors target information security developers on GitHub"
+    ],
+    "source_url": [
+      "https://news.drweb.com/show?i=15311&lng=en"
+    ],
+    "article_published_date": [
+      "2026-11-05T04:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact attacker-associated domain from Doctor Web's current technical report.",
+    "sources": [
+      {
+        "organization": "Doctor Web",
+        "article_title": "Insolence beyond belief. Threat actors target information security developers on GitHub",
+        "url": "https://news.drweb.com/show?i=15311&lng=en",
+        "published_at": "2026-11-05T04:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "drweb-trojan-loader-3261-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "Doctor Web explicitly lists this address as attacker-associated infrastructure discovered in malicious GitHub repositories that deploy Trojan.Loader.3261."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "muckcoding.com",
+    "ioc_type": "domain",
+    "original_ioc": "muckcoding.com",
+    "hunt_ioc": "muckcoding.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Trojan.Loader.3261 infected GitHub repositories",
+    "malware_family": "Trojan.Loader.3261",
+    "threat_actor": "Unattributed repository-compromise operators",
+    "source_organization": [
+      "Doctor Web"
+    ],
+    "source_article": [
+      "Insolence beyond belief. Threat actors target information security developers on GitHub"
+    ],
+    "source_url": [
+      "https://news.drweb.com/show?i=15311&lng=en"
+    ],
+    "article_published_date": [
+      "2026-11-05T04:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact attacker-associated domain from Doctor Web's current technical report.",
+    "sources": [
+      {
+        "organization": "Doctor Web",
+        "article_title": "Insolence beyond belief. Threat actors target information security developers on GitHub",
+        "url": "https://news.drweb.com/show?i=15311&lng=en",
+        "published_at": "2026-11-05T04:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "drweb-trojan-loader-3261-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "Doctor Web explicitly lists this address as attacker-associated infrastructure discovered in malicious GitHub repositories that deploy Trojan.Loader.3261."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "muckdeveloper.com",
+    "ioc_type": "domain",
+    "original_ioc": "muckdeveloper.com",
+    "hunt_ioc": "muckdeveloper.com",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Trojan.Loader.3261 infected GitHub repositories",
+    "malware_family": "Trojan.Loader.3261",
+    "threat_actor": "Unattributed repository-compromise operators",
+    "source_organization": [
+      "Doctor Web"
+    ],
+    "source_article": [
+      "Insolence beyond belief. Threat actors target information security developers on GitHub"
+    ],
+    "source_url": [
+      "https://news.drweb.com/show?i=15311&lng=en"
+    ],
+    "article_published_date": [
+      "2026-11-05T04:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact attacker-associated domain from Doctor Web's current technical report.",
+    "sources": [
+      {
+        "organization": "Doctor Web",
+        "article_title": "Insolence beyond belief. Threat actors target information security developers on GitHub",
+        "url": "https://news.drweb.com/show?i=15311&lng=en",
+        "published_at": "2026-11-05T04:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "drweb-trojan-loader-3261-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "Doctor Web explicitly lists this address as attacker-associated infrastructure discovered in malicious GitHub repositories that deploy Trojan.Loader.3261."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "muckduck.duckdns.org",
+    "ioc_type": "domain",
+    "original_ioc": "muckduck.duckdns.org",
+    "hunt_ioc": "muckduck.duckdns.org",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Trojan.Loader.3261 infected GitHub repositories",
+    "malware_family": "Trojan.Loader.3261",
+    "threat_actor": "Unattributed repository-compromise operators",
+    "source_organization": [
+      "Doctor Web"
+    ],
+    "source_article": [
+      "Insolence beyond belief. Threat actors target information security developers on GitHub"
+    ],
+    "source_url": [
+      "https://news.drweb.com/show?i=15311&lng=en"
+    ],
+    "article_published_date": [
+      "2026-11-05T04:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact attacker-associated FQDN from Doctor Web's current technical report.",
+    "sources": [
+      {
+        "organization": "Doctor Web",
+        "article_title": "Insolence beyond belief. Threat actors target information security developers on GitHub",
+        "url": "https://news.drweb.com/show?i=15311&lng=en",
+        "published_at": "2026-11-05T04:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "drweb-trojan-loader-3261-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "Doctor Web explicitly lists this address as attacker-associated infrastructure discovered in malicious GitHub repositories that deploy Trojan.Loader.3261."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "niceer.net",
+    "ioc_type": "domain",
+    "original_ioc": "niceer.net",
+    "hunt_ioc": "niceer.net",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Armorsteal Python malware kit",
+    "malware_family": "Armorsteal",
+    "threat_actor": "Unattributed Armorsteal operators",
+    "source_organization": [
+      "Seqrite Labs"
+    ],
+    "source_article": [
+      "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto"
+    ],
+    "source_url": [
+      "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto"
+    ],
+    "article_published_date": [
+      "2026-11-06T11:43:12Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact domain from the C2 Domains and IPs section; preserve as a domain IOC.",
+    "sources": [
+      {
+        "organization": "Seqrite Labs",
+        "article_title": "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto",
+        "url": "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto",
+        "published_at": "2026-11-06T11:43:12Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "seqrite-armorsteal-2026-11-06",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "Seqrite's IOC appendix explicitly lists this domain as command-and-control infrastructure for the analyzed Armorsteal malware kit."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "plaineagle.xyz",
+    "ioc_type": "domain",
+    "original_ioc": "plaineagle.xyz",
+    "hunt_ioc": "plaineagle.xyz",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Armorsteal Python malware kit",
+    "malware_family": "Armorsteal",
+    "threat_actor": "Unattributed Armorsteal operators",
+    "source_organization": [
+      "Seqrite Labs"
+    ],
+    "source_article": [
+      "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto"
+    ],
+    "source_url": [
+      "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto"
+    ],
+    "article_published_date": [
+      "2026-11-06T11:43:12Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact domain from the C2 Domains and IPs section; preserve as a domain IOC.",
+    "sources": [
+      {
+        "organization": "Seqrite Labs",
+        "article_title": "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto",
+        "url": "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto",
+        "published_at": "2026-11-06T11:43:12Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "seqrite-armorsteal-2026-11-06",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "Seqrite's IOC appendix explicitly lists this domain as command-and-control infrastructure for the analyzed Armorsteal malware kit."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "pur.st",
+    "ioc_type": "domain",
+    "original_ioc": "pur.st",
+    "hunt_ioc": "pur.st",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Armorsteal Python malware kit",
+    "malware_family": "Armorsteal",
+    "threat_actor": "Unattributed Armorsteal operators",
+    "source_organization": [
+      "Seqrite Labs"
+    ],
+    "source_article": [
+      "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto"
+    ],
+    "source_url": [
+      "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto"
+    ],
+    "article_published_date": [
+      "2026-11-06T11:43:12Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact domain from the C2 Domains and IPs section; preserve as a domain IOC.",
+    "sources": [
+      {
+        "organization": "Seqrite Labs",
+        "article_title": "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto",
+        "url": "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto",
+        "published_at": "2026-11-06T11:43:12Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "seqrite-armorsteal-2026-11-06",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "Seqrite's IOC appendix explicitly lists this domain as command-and-control infrastructure for the analyzed Armorsteal malware kit."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "pymons.is",
+    "ioc_type": "domain",
+    "original_ioc": "pymons.is",
+    "hunt_ioc": "pymons.is",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Armorsteal Python malware kit",
+    "malware_family": "Armorsteal",
+    "threat_actor": "Unattributed Armorsteal operators",
+    "source_organization": [
+      "Seqrite Labs"
+    ],
+    "source_article": [
+      "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto"
+    ],
+    "source_url": [
+      "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto"
+    ],
+    "article_published_date": [
+      "2026-11-06T11:43:12Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact domain from the C2 Domains and IPs section; preserve as a domain IOC.",
+    "sources": [
+      {
+        "organization": "Seqrite Labs",
+        "article_title": "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto",
+        "url": "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto",
+        "published_at": "2026-11-06T11:43:12Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "seqrite-armorsteal-2026-11-06",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "Seqrite's IOC appendix explicitly lists this domain as command-and-control infrastructure for the analyzed Armorsteal malware kit."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "supertrap.net",
+    "ioc_type": "domain",
+    "original_ioc": "supertrap.net",
+    "hunt_ioc": "supertrap.net",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Armorsteal Python malware kit",
+    "malware_family": "Armorsteal",
+    "threat_actor": "Unattributed Armorsteal operators",
+    "source_organization": [
+      "Seqrite Labs"
+    ],
+    "source_article": [
+      "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto"
+    ],
+    "source_url": [
+      "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto"
+    ],
+    "article_published_date": [
+      "2026-11-06T11:43:12Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact domain from the C2 Domains and IPs section; preserve as a domain IOC.",
+    "sources": [
+      {
+        "organization": "Seqrite Labs",
+        "article_title": "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto",
+        "url": "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto",
+        "published_at": "2026-11-06T11:43:12Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "seqrite-armorsteal-2026-11-06",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "Seqrite's IOC appendix explicitly lists this domain as command-and-control infrastructure for the analyzed Armorsteal malware kit."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "univalley.top",
+    "ioc_type": "domain",
+    "original_ioc": "univalley.top",
+    "hunt_ioc": "univalley.top",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Armorsteal Python malware kit",
+    "malware_family": "Armorsteal",
+    "threat_actor": "Unattributed Armorsteal operators",
+    "source_organization": [
+      "Seqrite Labs"
+    ],
+    "source_article": [
+      "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto"
+    ],
+    "source_url": [
+      "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto"
+    ],
+    "article_published_date": [
+      "2026-11-06T11:43:12Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact domain from the C2 Domains and IPs section; preserve as a domain IOC.",
+    "sources": [
+      {
+        "organization": "Seqrite Labs",
+        "article_title": "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto",
+        "url": "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto",
+        "published_at": "2026-11-06T11:43:12Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "seqrite-armorsteal-2026-11-06",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "Seqrite's IOC appendix explicitly lists this domain as command-and-control infrastructure for the analyzed Armorsteal malware kit."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "workerstats.net",
+    "ioc_type": "domain",
+    "original_ioc": "workerstats.net",
+    "hunt_ioc": "workerstats.net",
+    "hunt_ioc_type": "domain",
+    "threat_campaign": "Armorsteal Python malware kit",
+    "malware_family": "Armorsteal",
+    "threat_actor": "Unattributed Armorsteal operators",
+    "source_organization": [
+      "Seqrite Labs"
+    ],
+    "source_article": [
+      "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto"
+    ],
+    "source_url": [
+      "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto"
+    ],
+    "article_published_date": [
+      "2026-11-06T11:43:12Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact domain from the C2 Domains and IPs section; preserve as a domain IOC.",
+    "sources": [
+      {
+        "organization": "Seqrite Labs",
+        "article_title": "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto",
+        "url": "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto",
+        "published_at": "2026-11-06T11:43:12Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "seqrite-armorsteal-2026-11-06",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "Seqrite's IOC appendix explicitly lists this domain as command-and-control infrastructure for the analyzed Armorsteal malware kit."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "130.12.182.172",
+    "ioc_type": "ipv4",
+    "original_ioc": "130.12.182.172",
+    "hunt_ioc": "130.12.182.172",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Trojan.Loader.3261 infected GitHub repositories",
+    "malware_family": "Trojan.Loader.3261",
+    "threat_actor": "Unattributed repository-compromise operators",
+    "source_organization": [
+      "Doctor Web"
+    ],
+    "source_article": [
+      "Insolence beyond belief. Threat actors target information security developers on GitHub"
+    ],
+    "source_url": [
+      "https://news.drweb.com/show?i=15311&lng=en"
+    ],
+    "article_published_date": [
+      "2026-11-05T04:00:00Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact attacker-associated public IPv4 value from Doctor Web's report.",
+    "sources": [
+      {
+        "organization": "Doctor Web",
+        "article_title": "Insolence beyond belief. Threat actors target information security developers on GitHub",
+        "url": "https://news.drweb.com/show?i=15311&lng=en",
+        "published_at": "2026-11-05T04:00:00Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "drweb-trojan-loader-3261-2026-11-05",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "Doctor Web explicitly lists this public IP address as attacker-associated infrastructure discovered in malicious GitHub repositories deploying Trojan.Loader.3261."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "186.2.163.193",
+    "ioc_type": "ipv4",
+    "original_ioc": "186.2.163.193",
+    "hunt_ioc": "186.2.163.193",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Armorsteal Python malware kit",
+    "malware_family": "Armorsteal",
+    "threat_actor": "Unattributed Armorsteal operators",
+    "source_organization": [
+      "Seqrite Labs"
+    ],
+    "source_article": [
+      "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto"
+    ],
+    "source_url": [
+      "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto"
+    ],
+    "article_published_date": [
+      "2026-11-06T11:43:12Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact public IPv4 value associated with datamons.org in Seqrite's analysis.",
+    "sources": [
+      {
+        "organization": "Seqrite Labs",
+        "article_title": "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto",
+        "url": "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto",
+        "published_at": "2026-11-06T11:43:12Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "seqrite-armorsteal-2026-11-06",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "Seqrite's IOC appendix explicitly identifies this public IP address as current command-and-control infrastructure for the analyzed Armorsteal kit."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "186.2.175.158",
+    "ioc_type": "ipv4",
+    "original_ioc": "186.2.175.158",
+    "hunt_ioc": "186.2.175.158",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Armorsteal Python malware kit",
+    "malware_family": "Armorsteal",
+    "threat_actor": "Unattributed Armorsteal operators",
+    "source_organization": [
+      "Seqrite Labs"
+    ],
+    "source_article": [
+      "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto"
+    ],
+    "source_url": [
+      "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto"
+    ],
+    "article_published_date": [
+      "2026-11-06T11:43:12Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 98,
+    "acceptance_score": 98,
+    "status": "NEW",
+    "notes": "Exact public IPv4 value associated with pymons.is in Seqrite's analysis.",
+    "sources": [
+      {
+        "organization": "Seqrite Labs",
+        "article_title": "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto",
+        "url": "https://www.seqrite.com/blog/armorsteal-unpacked-breaking-down-a-python-malware-kit-that-steals-data-and-mines-crypto",
+        "published_at": "2026-11-06T11:43:12Z",
+        "updated_at": null,
+        "reliability": 0.98,
+        "source_id": "seqrite-armorsteal-2026-11-06",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "Seqrite's IOC appendix explicitly identifies this public IP address as current command-and-control infrastructure for the analyzed Armorsteal kit."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "2a065377fd6ca778f1cd836ecf8fc120e9d87ccf9a83a08bb12e4990d97d010b",
+    "ioc_type": "sha256",
+    "original_ioc": "2a065377fd6ca778f1cd836ecf8fc120e9d87ccf9a83a08bb12e4990d97d010b",
+    "hunt_ioc": "2a065377fd6ca778f1cd836ecf8fc120e9d87ccf9a83a08bb12e4990d97d010b",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current XWorm sample analysis",
+    "malware_family": "XWorm",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Hatching Triage"
+    ],
+    "source_article": [
+      "Triage 261107-azh9gshx2l - XWorm RAT sample"
+    ],
+    "source_url": [
+      "https://tria.ge/261107-azh9gshx2l"
+    ],
+    "article_published_date": [
+      "2026-11-07T00:38:52Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Direct report page and first-party report-list row verified; literal ledger key is absent and therefore NEW.",
+    "sources": [
+      {
+        "organization": "Hatching Triage",
+        "article_title": "Triage 261107-azh9gshx2l - XWorm RAT sample",
+        "url": "https://tria.ge/261107-azh9gshx2l",
+        "published_at": "2026-11-07T00:38:52Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "TRIAGE-261107-AZH9GSHX2L",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "The full public Hatching report identifies incjPng.exe as XWorm, scores it 10/10, and reports RAT, trojan, persistence, execution, defense-evasion, and bootkit behavior."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "437f4e6d560619312c247785fa95736e5a5a207fccaf7ac6e3607ceb08222572",
+    "ioc_type": "sha256",
+    "original_ioc": "437f4e6d560619312c247785fa95736e5a5a207fccaf7ac6e3607ceb08222572",
+    "hunt_ioc": "437f4e6d560619312c247785fa95736e5a5a207fccaf7ac6e3607ceb08222572",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current AsyncRAT sample analysis",
+    "malware_family": "AsyncRAT",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Hatching Triage"
+    ],
+    "source_article": [
+      "Triage 261107-k13dvsb15n - AsyncRAT sample"
+    ],
+    "source_url": [
+      "https://tria.ge/261107-k13dvsb15n"
+    ],
+    "article_published_date": [
+      "2026-11-07T09:04:53Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Direct report page and first-party report-list row verified; literal ledger key is absent and therefore NEW.",
+    "sources": [
+      {
+        "organization": "Hatching Triage",
+        "article_title": "Triage 261107-k13dvsb15n - AsyncRAT sample",
+        "url": "https://tria.ge/261107-k13dvsb15n",
+        "published_at": "2026-11-07T09:04:53Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "TRIAGE-261107-K13DVSB15N",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "The full public Hatching report identifies Tele_VietNamReport.exe as AsyncRAT, scores it 10/10, and reports RAT, ransomware, spyware, persistence, execution, discovery, and defense-evasion behavior."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "7cb082bfc14dda0a44863ee70af57c35d7ad2ae2e83293a5c7d26f5bff56d450",
+    "ioc_type": "sha256",
+    "original_ioc": "7cb082bfc14dda0a44863ee70af57c35d7ad2ae2e83293a5c7d26f5bff56d450",
+    "hunt_ioc": "7cb082bfc14dda0a44863ee70af57c35d7ad2ae2e83293a5c7d26f5bff56d450",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current FormBook PowerShell sample analysis",
+    "malware_family": "FormBook",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Hatching Triage"
+    ],
+    "source_article": [
+      "Triage 261107-meag3aef27 - FormBook PowerShell sample"
+    ],
+    "source_url": [
+      "https://tria.ge/261107-meag3aef27"
+    ],
+    "article_published_date": [
+      "2026-11-07T10:22:10Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Direct report page and first-party report-list row verified; literal ledger key is absent and therefore NEW.",
+    "sources": [
+      {
+        "organization": "Hatching Triage",
+        "article_title": "Triage 261107-meag3aef27 - FormBook PowerShell sample",
+        "url": "https://tria.ge/261107-meag3aef27",
+        "published_at": "2026-11-07T10:22:10Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "TRIAGE-261107-MEAG3AEF27",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "The full public Hatching report identifies 7cb082bfc14dda0a.ps1 as FormBook, scores it 10/10, and reports stealer, spyware, RAT, trojan, collection, execution, discovery, defense-evasion, and privilege-escalation behavior."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "88d6abf912555fd67724faec9e0ee97bcc13cfc10dcecb07c1153fa51a1acdcc",
+    "ioc_type": "sha256",
+    "original_ioc": "88d6abf912555fd67724faec9e0ee97bcc13cfc10dcecb07c1153fa51a1acdcc",
+    "hunt_ioc": "88d6abf912555fd67724faec9e0ee97bcc13cfc10dcecb07c1153fa51a1acdcc",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current public ransomware/trojan sample analysis",
+    "malware_family": "unknown ransomware/trojan",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Hatching Triage"
+    ],
+    "source_article": [
+      "Triage 261107-az2qtst1hw - ransomware/trojan sample"
+    ],
+    "source_url": [
+      "https://tria.ge/261107-az2qtst1hw"
+    ],
+    "article_published_date": [
+      "2026-11-07T00:39:47Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 90,
+    "acceptance_score": 90,
+    "status": "NEW",
+    "notes": "Direct report page and first-party report-list row verified; literal ledger key sha256:88d6abf912555fd67724faec9e0ee97bcc13cfc10dcecb07c1153fa51a1acdcc is absent and therefore NEW.",
+    "sources": [
+      {
+        "organization": "Hatching Triage",
+        "article_title": "Triage 261107-az2qtst1hw - ransomware/trojan sample",
+        "url": "https://tria.ge/261107-az2qtst1hw",
+        "published_at": "2026-11-07T00:39:47Z",
+        "updated_at": null,
+        "reliability": 0.9,
+        "source_id": "TRIAGE-261107-AZ2QTST1HW",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "The full public Hatching report scores RealSetup_456a8c161558a26192436c0146a65b3bbe91728d7255242648a83d90167c51d0.exe 9/10 and labels it with ransomware, trojan, bootkit, persistence, defense-evasion, discovery, and execution behavior."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "a4799286902743d67339605dd6d67007b83accf2a85439b61f22bd365e6f91be",
+    "ioc_type": "sha256",
+    "original_ioc": "a4799286902743d67339605dd6d67007b83accf2a85439b61f22bd365e6f91be",
+    "hunt_ioc": "a4799286902743d67339605dd6d67007b83accf2a85439b61f22bd365e6f91be",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current NJRAT sample analysis",
+    "malware_family": "NJRAT",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Hatching Triage"
+    ],
+    "source_article": [
+      "Triage 261107-ahf3sstygx - NJRAT sample"
+    ],
+    "source_url": [
+      "https://tria.ge/261107-ahf3sstygx"
+    ],
+    "article_published_date": [
+      "2026-11-07T00:12:33Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "A second report, 261107-abxrzadd54, contains the same SHA256 and was suppressed as a duplicate. Literal ledger key is absent and therefore NEW.",
+    "sources": [
+      {
+        "organization": "Hatching Triage",
+        "article_title": "Triage 261107-ahf3sstygx - NJRAT sample",
+        "url": "https://tria.ge/261107-ahf3sstygx",
+        "published_at": "2026-11-07T00:12:33Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "TRIAGE-261107-AHF3SSTYGX",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "The full public Hatching report identifies Payload.exe as NJRAT, scores it 10/10, and reports trojan, persistence, privilege-escalation, execution, discovery, defense-evasion, and bootkit behavior."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "ad09653296d5b1dc0ccc7e7ec3daec9c552496f71737be541ef7c8eb94e07e20",
+    "ioc_type": "sha256",
+    "original_ioc": "ad09653296d5b1dc0ccc7e7ec3daec9c552496f71737be541ef7c8eb94e07e20",
+    "hunt_ioc": "ad09653296d5b1dc0ccc7e7ec3daec9c552496f71737be541ef7c8eb94e07e20",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current backdoor/RAT batch sample analysis",
+    "malware_family": "unknown backdoor/RAT",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Hatching Triage"
+    ],
+    "source_article": [
+      "Triage 261107-jpxtkaby9n - backdoor/RAT batch sample"
+    ],
+    "source_url": [
+      "https://tria.ge/261107-jpxtkaby9n"
+    ],
+    "article_published_date": [
+      "2026-11-07T07:51:14Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 88,
+    "acceptance_score": 88,
+    "status": "NEW",
+    "notes": "Direct report page and first-party report-list row verified; literal ledger key is absent and therefore NEW.",
+    "sources": [
+      {
+        "organization": "Hatching Triage",
+        "article_title": "Triage 261107-jpxtkaby9n - backdoor/RAT batch sample",
+        "url": "https://tria.ge/261107-jpxtkaby9n",
+        "published_at": "2026-11-07T07:51:14Z",
+        "updated_at": null,
+        "reliability": 0.88,
+        "source_id": "TRIAGE-261107-JPXTKABY9N",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "The full public Hatching report scores the batch sample 8/10 and labels it backdoor, RAT, trojan, ransomware, spyware, revoked-codesign, persistence, execution, discovery, defense-evasion, and privilege-escalation."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "fd4951c230a18dff5e706075715582c1b545367c84698df1c2fc45b40c40ef83",
+    "ioc_type": "sha256",
+    "original_ioc": "fd4951c230a18dff5e706075715582c1b545367c84698df1c2fc45b40c40ef83",
+    "hunt_ioc": "fd4951c230a18dff5e706075715582c1b545367c84698df1c2fc45b40c40ef83",
+    "hunt_ioc_type": "sha256",
+    "threat_campaign": "Current Remcos RAT sample analysis",
+    "malware_family": "Remcos",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "Hatching Triage"
+    ],
+    "source_article": [
+      "Triage 261107-l9zvrsw15p - Remcos RAT sample"
+    ],
+    "source_url": [
+      "https://tria.ge/261107-l9zvrsw15p"
+    ],
+    "article_published_date": [
+      "2026-11-07T10:14:39Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 96,
+    "acceptance_score": 96,
+    "status": "NEW",
+    "notes": "Direct report page and first-party report-list row verified; literal ledger key is absent and therefore NEW.",
+    "sources": [
+      {
+        "organization": "Hatching Triage",
+        "article_title": "Triage 261107-l9zvrsw15p - Remcos RAT sample",
+        "url": "https://tria.ge/261107-l9zvrsw15p",
+        "published_at": "2026-11-07T10:14:39Z",
+        "updated_at": null,
+        "reliability": 0.96,
+        "source_id": "TRIAGE-261107-L9ZVRSW15P",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "The full public Hatching report identifies y.exe as Remcos, scores it 10/10, and reports RAT, spyware, ransomware, persistence, discovery, adware, and Suricata-detected behavior."
+        ]
+      }
+    ]
+  },
+  {
+    "ioc": "http://45.171.177.193:35452/bin.sh",
+    "ioc_type": "url",
+    "original_ioc": "http://45.171.177.193:35452/bin.sh",
+    "hunt_ioc": "45.171.177.193",
+    "hunt_ioc_type": "ip",
+    "threat_campaign": "Current Mozi malware-payload distribution",
+    "malware_family": "Mozi",
+    "threat_actor": "unknown",
+    "source_organization": [
+      "abuse.ch (URLhaus)"
+    ],
+    "source_article": [
+      "URLhaus URL 4059194 - online Mozi ARM/ELF malware download"
+    ],
+    "source_url": [
+      "https://urlhaus.abuse.ch/url/4059194"
+    ],
+    "article_published_date": [
+      "2026-11-07T13:54:07Z"
+    ],
+    "ioc_first_seen": null,
+    "ioc_last_seen": null,
+    "collected_at": "2026-11-07T14:01:29.726000Z",
+    "confidence": 95,
+    "acceptance_score": 95,
+    "status": "NEW",
+    "notes": "Accept exact IP, port, and path only; do not broaden to host-only attribution. Evidence row is on https://urlhaus.abuse.ch/browse/. The detail page is hCaptcha-protected. Literal ledger key url:http://45.171.177.193:35452/bin.sh is absent and therefore NEW.",
+    "sources": [
+      {
+        "organization": "abuse.ch (URLhaus)",
+        "article_title": "URLhaus URL 4059194 - online Mozi ARM/ELF malware download",
+        "url": "https://urlhaus.abuse.ch/url/4059194",
+        "published_at": "2026-11-07T13:54:07Z",
+        "updated_at": null,
+        "reliability": 0.95,
+        "source_id": "URLHAUS-4059194",
+        "source_role": "primary",
+        "evidence_tier": 2,
+        "retrieval_method": "ai-web-research",
+        "collection_start": "2026-11-05T14:01:29.726000Z",
+        "discovery_context": [
+          "The directly retrievable first-party URLhaus database row lists this exact URL as Online and tags it 32-bit, ARM, ELF, and Mozi. URLhaus states that its database tracks URLs used for malware distribution."
+        ]
+      }
+    ]
+  }
+]

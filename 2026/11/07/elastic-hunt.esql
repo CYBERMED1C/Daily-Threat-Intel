@@ -1,0 +1,11 @@
+/* Query name: CYBERMEDIC Daily IOC Hunt */
+/* Description: Search 30-day Elastic Defend telemetry for validated IOC values. */
+/* Author: CYBERMEDIC */
+/* Last updated: 2026-11-07 */
+/* Notes: One runnable query; exact IOC filters precede newest-first results. */
+FROM logs-endpoint.events.*
+| WHERE @timestamp >= NOW() - 30 DAYS
+| WHERE destination.domain IN ("datamons.org","icedhatch.top","icedhatch.xyz","icedout.top","muckanthropic.com","muckcoding.com","muckdeveloper.com","muckduck.duckdns.org","niceer.net","plaineagle.xyz","pur.st","pymons.is","supertrap.net","univalley.top","workerstats.net") OR destination.ip IN ("130.12.182.172","186.2.163.193","186.2.175.158","45.171.177.193") OR file.hash.sha256 IN ("2a065377fd6ca778f1cd836ecf8fc120e9d87ccf9a83a08bb12e4990d97d010b","437f4e6d560619312c247785fa95736e5a5a207fccaf7ac6e3607ceb08222572","7cb082bfc14dda0a44863ee70af57c35d7ad2ae2e83293a5c7d26f5bff56d450","88d6abf912555fd67724faec9e0ee97bcc13cfc10dcecb07c1153fa51a1acdcc","a4799286902743d67339605dd6d67007b83accf2a85439b61f22bd365e6f91be","ad09653296d5b1dc0ccc7e7ec3daec9c552496f71737be541ef7c8eb94e07e20","fd4951c230a18dff5e706075715582c1b545367c84698df1c2fc45b40c40ef83")
+| KEEP @timestamp,host.name,process.name,file.name,file.path,destination.ip,destination.port,destination.domain,file.hash.md5,file.hash.sha1,file.hash.sha256
+| SORT @timestamp DESC
+| LIMIT 500
